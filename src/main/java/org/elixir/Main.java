@@ -5,6 +5,7 @@ import edu.stanford.nlp.dcoref.CorefCoreAnnotations;
 import edu.stanford.nlp.ling.CoreAnnotations;
 import edu.stanford.nlp.ling.CoreLabel;
 import edu.stanford.nlp.pipeline.Annotation;
+import edu.stanford.nlp.pipeline.Annotator;
 import edu.stanford.nlp.pipeline.StanfordCoreNLP;
 import edu.stanford.nlp.semgraph.SemanticGraph;
 import edu.stanford.nlp.semgraph.SemanticGraphCoreAnnotations;
@@ -12,6 +13,9 @@ import edu.stanford.nlp.trees.Tree;
 import edu.stanford.nlp.trees.TreeCoreAnnotations;
 import edu.stanford.nlp.util.CoreMap;
 
+import java.io.FileNotFoundException;
+import java.io.IOException;
+import java.io.PrintWriter;
 import java.util.List;
 import java.util.Map;
 import java.util.Properties;
@@ -19,6 +23,54 @@ import java.util.Properties;
 public class Main {
 
 	public static void main(String[] args) {
+		completeExample();
+	} // main
+
+	private static void minimalAnalysisPipeline() {
+		Annotator pipeline = new StanfordCoreNLP();
+		Annotation annotation = new Annotation("Can you parse my sentence?");
+		pipeline.annotate(annotation);
+	}
+
+	private static void completeExample() {
+		PrintWriter xmlOut = null;
+		try {
+			xmlOut = new PrintWriter("xmlOutput.xml");
+		}
+		catch (FileNotFoundException e) {
+			System.out.println("File not found");;
+			e.printStackTrace();
+		}
+		Properties props = new Properties();
+		props.setProperty("annotators",
+				"tokenize, ssplit, pos, lemma, ner, parse");
+		StanfordCoreNLP pipeline = new StanfordCoreNLP(props);
+		Annotation annotation = new Annotation("This is a short sentence. And this is another. Here's yet another.");
+		pipeline.annotate(annotation);
+		try {
+			pipeline.xmlPrint(annotation, xmlOut);
+		}
+		catch (IOException e) {
+			System.out.println("Error: pipeline.xmlPrint");
+			e.printStackTrace();
+		}
+		// An Annotation is a Map and you can get and use the
+		// various analyses individually. For instance, this
+		// gets the parse tree of the 1st sentence in the text.
+		List<CoreMap> sentences = annotation.get(
+				CoreAnnotations.SentencesAnnotation.class);
+		if (sentences != null && sentences.size() > 0) {
+			for(int i=0; i<sentences.size(); i++){
+				CoreMap sentence = sentences.get(i);
+				Tree tree = sentence.get(TreeCoreAnnotations.TreeAnnotation.class);
+				PrintWriter out = new PrintWriter(System.out);
+				out.println("The "+ i +" th/nd sentence parsed is:");
+				tree.pennPrint(out);
+			}
+		}
+	}
+
+	private static void apiSample() {
 		// creates a StanfordCoreNLP object, with POS tagging, lemmatization, NER, parsing, and coreference resolution
 		Properties props = new Properties();
 		props.setProperty("annotators", "tokenize, ssplit, pos, lemma, ner, parse, dcoref");
@@ -37,10 +89,10 @@ public class Main {
 		// a CoreMap is essentially a Map that uses class objects as keys and has values with custom types
 		List<CoreMap> sentences = document.get(CoreAnnotations.SentencesAnnotation.class);
 
-		for(CoreMap sentence: sentences) {
+		for (CoreMap sentence : sentences) {
 			// traversing the words in the current sentence
 			// a CoreLabel is a CoreMap with additional token-specific methods
-			for (CoreLabel token: sentence.get(CoreAnnotations.TokensAnnotation.class)) {
+			for (CoreLabel token : sentence.get(CoreAnnotations.TokensAnnotation.class)) {
 				// this is the text of the token
 				String word = token.get(CoreAnnotations.TextAnnotation.class);
 				// this is the POS tag of the token
@@ -53,7 +105,8 @@ public class Main {
 			Tree tree = sentence.get(TreeCoreAnnotations.TreeAnnotation.class);
 
 			// this is the Stanford dependency graph of the current sentence
-			SemanticGraph dependencies = sentence.get(SemanticGraphCoreAnnotations.CollapsedCCProcessedDependenciesAnnotation.class);
+			SemanticGraph dependencies = sentence
+					.get(SemanticGraphCoreAnnotations.CollapsedCCProcessedDependenciesAnnotation.class);
 		}
 
 		// This is the coreference link graph
@@ -62,5 +115,5 @@ public class Main {
 		// Both sentence and token offsets start at 1!
 		Map<Integer, CorefChain> graph =
 				document.get(CorefCoreAnnotations.CorefChainAnnotation.class);
-	}
+	}   // apiSample
 }
