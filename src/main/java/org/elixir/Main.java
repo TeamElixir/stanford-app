@@ -2,6 +2,7 @@ package org.elixir;
 
 import edu.stanford.nlp.dcoref.CorefChain;
 import edu.stanford.nlp.dcoref.CorefCoreAnnotations;
+import edu.stanford.nlp.ie.util.RelationTriple;
 import edu.stanford.nlp.ling.CoreAnnotations;
 import edu.stanford.nlp.ling.CoreLabel;
 import edu.stanford.nlp.pipeline.Annotation;
@@ -9,6 +10,8 @@ import edu.stanford.nlp.pipeline.Annotator;
 import edu.stanford.nlp.pipeline.StanfordCoreNLP;
 import edu.stanford.nlp.semgraph.SemanticGraph;
 import edu.stanford.nlp.semgraph.SemanticGraphCoreAnnotations;
+import edu.stanford.nlp.simple.Document;
+import edu.stanford.nlp.simple.Sentence;
 import edu.stanford.nlp.trees.Tree;
 import edu.stanford.nlp.trees.TreeCoreAnnotations;
 import edu.stanford.nlp.util.CoreMap;
@@ -23,7 +26,10 @@ import java.util.Properties;
 public class Main {
 
 	public static void main(String[] args) {
-		completeExample();
+
+		//completeExample();
+
+		testTriple();
 	} // main
 
 	private static void minimalAnalysisPipeline() {
@@ -116,4 +122,23 @@ public class Main {
 		Map<Integer, CorefChain> graph =
 				document.get(CorefCoreAnnotations.CorefChainAnnotation.class);
 	}   // apiSample
+
+
+	// TRIPLES EXTRACT TEST
+	public static void testTriple(){
+		// Create a CoreNLP document
+		Document doc = new Document("Obama was born in Hawaii. He is our president.");
+
+		// Iterate over the sentences in the document
+		for (Sentence sent : doc.sentences()) {
+			// Iterate over the triples in the sentence
+			for (RelationTriple triple : sent.openieTriples()) {
+				// Print the triple
+				System.out.println(triple.confidence + "\t" +
+						triple.subjectLemmaGloss() + "\t" +
+						triple.relationLemmaGloss() + "\t" +
+						triple.objectLemmaGloss());
+			}
+		}
+	}
 }
