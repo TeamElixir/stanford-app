@@ -127,7 +127,9 @@ public class Main {
 	// TRIPLES EXTRACT TEST
 	public static void testTriple(){
 		// Create a CoreNLP document
-		Document doc = new Document("Obama was born in Hawaii. He is our president.");
+		Document doc = new Document("Considering the withheld evidence in the context of the" +
+				"entire record, Agurs, supra, at 112, evidence is too little, too weak, or too distant from the main" +
+				"evidentiary points to meet Brady's standards.");
 
 		// Iterate over the sentences in the document
 		for (Sentence sent : doc.sentences()) {
