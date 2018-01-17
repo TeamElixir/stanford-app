@@ -14,11 +14,17 @@
             <artifactId>stanford-corenlp</artifactId>
             <version>3.8.0</version>
         </dependency>
+        <!--<dependency>-->
+            <!--<groupId>edu.stanford.nlp</groupId>-->
+            <!--<artifactId>stanford-corenlp</artifactId>-->
+            <!--<version>3.8.0</version>-->
+            <!--<classifier>models</classifier>-->
+        <!--</dependency>-->
         <dependency>
             <groupId>edu.stanford.nlp</groupId>
             <artifactId>stanford-corenlp</artifactId>
             <version>3.8.0</version>
-            <classifier>models</classifier>
+            <classifier>models-english</classifier>
         </dependency>
         <dependency>
             <groupId>org.slf4j</groupId>
