@@ -29,7 +29,7 @@ public class CoreNLPTest {
         StanfordCoreNLP pipeline = new StanfordCoreNLP(props);
 
         // read some text in the text variable
-        String text = "Peter is a good boy.";
+        String text = "The Government does not contest petitioners' claim the withheld evidence was \"favorable to the defense.\"";
 
         // create an empty Annotation just with the given text
         Annotation document = new Annotation(text);
@@ -43,6 +43,7 @@ public class CoreNLPTest {
         List<CoreMap> sentences = document.get(SentencesAnnotation.class);
 
         for (CoreMap sentence : sentences) {
+            System.out.println(sentence.get(TextAnnotation.class));
             // traversing the words in the current sentence
             // a CoreLabel is a CoreMap with additional token-specific methods
             for (CoreLabel token : sentence.get(TokensAnnotation.class)) {
@@ -63,7 +64,6 @@ public class CoreNLPTest {
                         triple.subjectLemmaGloss() + "\t" +
                         triple.relationLemmaGloss() + "\t" +
                         triple.objectLemmaGloss());
-
             }
 
 
