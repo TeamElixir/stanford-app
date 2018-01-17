@@ -14,7 +14,8 @@ public class ArgumentTreeGenerator {
 
 
     private static ArrayList<String> subjectList =new ArrayList<>(Arrays.asList("Petitioner", "Government"));
-    private ArrayList<String> currentSubjects= new ArrayList<>();
+    private static ArrayList<String> currentSubjects= new ArrayList<>();
+    private static ArrayList<ArrayList<ArrayList<String>>> extractedArguments = new ArrayList<>();
 
 
     public static void main(String[] args) {
@@ -75,8 +76,13 @@ public class ArgumentTreeGenerator {
                             triple.objectLemmaGloss());*/
                     String sentenceSubject = triple.subjectLemmaGloss();
                     System.out.println("subject : "+sentenceSubject);
-                    if(sentenceSubject.toLowerCase().indexOf(subjectList.get(0).toLowerCase()) != -1){
-                        System.out.println("true : + "+ subjectList.get(0));
+                    for(int i=0;i<subjectList.size();i++) {
+                        if (sentenceSubject.toLowerCase().indexOf(subjectList.get(i).toLowerCase()) != -1) {
+                            System.out.println("true : + " + subjectList.get(i));
+                            if(!currentSubjects.contains(subjectList.get(i))){
+                                currentSubjects.add(subjectList.get(i));
+                            }
+                        }
                     }
                 }
 
@@ -85,6 +91,7 @@ public class ArgumentTreeGenerator {
 
 
             }
+            System.out.println("currentSubjects : "+ currentSubjects.toString());
         }
 
     }
