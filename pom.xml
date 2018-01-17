@@ -43,7 +43,7 @@
                     </descriptorRefs>
                         <archive>
                             <manifest>
-                                <mainClass>org.sample.App</mainClass>
+                                <mainClass>org.elixir.Main</mainClass>
                             </manifest>
                         </archive>
                 </configuration>

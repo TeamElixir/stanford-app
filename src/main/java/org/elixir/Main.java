@@ -26,108 +26,25 @@ import java.util.Properties;
 public class Main {
 
 	public static void main(String[] args) {
-
-		//completeExample();
-
 		testTriple();
 	} // main
-
-	private static void minimalAnalysisPipeline() {
-		Annotator pipeline = new StanfordCoreNLP();
-		Annotation annotation = new Annotation("Can you parse my sentence?");
-		pipeline.annotate(annotation);
-	}
-
-	private static void completeExample() {
-		PrintWriter xmlOut = null;
-		try {
-			xmlOut = new PrintWriter("xmlOutput.xml");
-		}
-		catch (FileNotFoundException e) {
-			System.out.println("File not found");;
-			e.printStackTrace();
-		}
-		Properties props = new Properties();
-		props.setProperty("annotators",
-				"tokenize, ssplit, pos, lemma, ner, parse");
-		StanfordCoreNLP pipeline = new StanfordCoreNLP(props);
-		Annotation annotation = new Annotation("This is a short sentence. And this is another. Here's yet another.");
-		pipeline.annotate(annotation);
-		try {
-			pipeline.xmlPrint(annotation, xmlOut);
-		}
-		catch (IOException e) {
-			System.out.println("Error: pipeline.xmlPrint");
-			e.printStackTrace();
-		}
-		// An Annotation is a Map and you can get and use the
-		// various analyses individually. For instance, this
-		// gets the parse tree of the 1st sentence in the text.
-		List<CoreMap> sentences = annotation.get(
-				CoreAnnotations.SentencesAnnotation.class);
-		if (sentences != null && sentences.size() > 0) {
-			for(int i=0; i<sentences.size(); i++){
-				CoreMap sentence = sentences.get(i);
-				Tree tree = sentence.get(TreeCoreAnnotations.TreeAnnotation.class);
-				PrintWriter out = new PrintWriter(System.out);
-				out.println("The "+ i +" th/nd sentence parsed is:");
-				tree.pennPrint(out);
-			}
-		}
-	}
-
-	private static void apiSample() {
-		// creates a StanfordCoreNLP object, with POS tagging, lemmatization, NER, parsing, and coreference resolution
-		Properties props = new Properties();
-		props.setProperty("annotators", "tokenize, ssplit, pos, lemma, ner, parse, dcoref");
-		StanfordCoreNLP pipeline = new StanfordCoreNLP(props);
-
-		// read some text in the text variable
-		String text = "The quick brown fox jumps over the lazy dog";
-
-		// create an empty Annotation just with the given text
-		Annotation document = new Annotation(text);
-
-		// run all Annotators on this text
-		pipeline.annotate(document);
-
-		// these are all the sentences in this document
-		// a CoreMap is essentially a Map that uses class objects as keys and has values with custom types
-		List<CoreMap> sentences = document.get(CoreAnnotations.SentencesAnnotation.class);
-
-		for (CoreMap sentence : sentences) {
-			// traversing the words in the current sentence
-			// a CoreLabel is a CoreMap with additional token-specific methods
-			for (CoreLabel token : sentence.get(CoreAnnotations.TokensAnnotation.class)) {
-				// this is the text of the token
-				String word = token.get(CoreAnnotations.TextAnnotation.class);
-				// this is the POS tag of the token
-				String pos = token.get(CoreAnnotations.PartOfSpeechAnnotation.class);
-				// this is the NER label of the token
-				String ne = token.get(CoreAnnotations.NamedEntityTagAnnotation.class);
-			}
-
-			// this is the parse tree of the current sentence
-			Tree tree = sentence.get(TreeCoreAnnotations.TreeAnnotation.class);
-
-			// this is the Stanford dependency graph of the current sentence
-			SemanticGraph dependencies = sentence
-					.get(SemanticGraphCoreAnnotations.CollapsedCCProcessedDependenciesAnnotation.class);
-		}
-
-		// This is the coreference link graph
-		// Each chain stores a set of mentions that link to each other,
-		// along with a method for getting the most representative mention
-		// Both sentence and token offsets start at 1!
-		Map<Integer, CorefChain> graph =
-				document.get(CorefCoreAnnotations.CorefChainAnnotation.class);
-	}   // apiSample
-
 
 	// TRIPLES EXTRACT TEST
 	public static void testTriple(){
 		// Create a CoreNLP document
-		Document doc = new Document("Obama was born in Hawaii. He is our president.");
+//		Document doc = new Document("Obama was married in Hawaii. He is our president.");
+//		Document doc = new Document("A 'reasonable probability' of a different result\" is one in which the suppressed evidence \" 'undermines confidence in the outcome of the trial.");
+		Document doc = new Document("The Government does not contest petitioners' claim that the withheld evidence was \"favorable to\n"
+				+ "the defense.\" Petitioners and the Government, however, do contest the materiality of the undisclosed\n"
+				+ "Brady information. Such \"evidence is 'material' . . . when there is a reasonable probability that,\n"
+				+ "had the evidence been disclosed, the result of the proceeding would have been different.\"\n"
+				+ "Cone v. Bell, 556 U. S. 449, 469-470. \"A 'reasonable probability' of a different result\"\n"
+				+ "is one in which the suppressed evidence \" 'undermines confidence in the outcome of the trial.'\n"
+				+ "\"Kyles v. Whitley, 514 U. S. 419, 434. To make that determination, this Court \"evaluate[s]\" the \n"
+				+ "withheld evidence \"in the context of the entire record.\" \n"
+				+ "United States v. Agurs, 427 U. S. 97, 112. Pp. 9-11.");
+//		Document doc = new Document("The quick brown fox jumps over the lazy dog");
+//		Document doc = new Document("Such \"evidence is 'material' . . . when there is a reasonable probability that, had the evidence been disclosed, the result of the proceeding would have been different.");
 
 		// Iterate over the sentences in the document
 		for (Sentence sent : doc.sentences()) {
