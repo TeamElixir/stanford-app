@@ -27,6 +27,8 @@ public class Main {
 
 //			System.out.println(sent.nerTags().toString());
 			// Iterate over the triples in the sentence
+
+
 			System.out.println(sent.lemmas().toString());
 			for (RelationTriple triple : sent.openieTriples()) {
 				// Print the triple
@@ -36,6 +38,7 @@ public class Main {
 						triple.objectGloss());
 
 			}
+
 		}
 	}
 }
