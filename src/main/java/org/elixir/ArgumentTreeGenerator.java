@@ -8,11 +8,15 @@ import edu.stanford.nlp.pipeline.Annotation;
 import edu.stanford.nlp.pipeline.StanfordCoreNLP;
 import edu.stanford.nlp.util.CoreMap;
 
-import java.util.Collection;
-import java.util.List;
-import java.util.Properties;
+import java.util.*;
 
 public class ArgumentTreeGenerator {
+
+
+    private static ArrayList<String> subjectList =new ArrayList<>(Arrays.asList("Petitioner", "Government"));
+    private ArrayList<String> currentSubjects= new ArrayList<>();
+
+
     public static void main(String[] args) {
 
         // creates a StanfordCoreNLP object, with POS tagging, lemmatization, NER, parsing, and coreference resolution
@@ -65,10 +69,15 @@ public class ArgumentTreeGenerator {
                         sentence.get(NaturalLogicAnnotations.RelationTriplesAnnotation.class);
                 // Print the triples
                 for (RelationTriple triple : triples) {
-                    System.out.println(triple.confidence + "\t" +
+                    /*System.out.println(triple.confidence + "\t" +
                             triple.subjectLemmaGloss() + "\t" +
                             triple.relationLemmaGloss() + "\t" +
-                            triple.objectLemmaGloss());
+                            triple.objectLemmaGloss());*/
+                    String sentenceSubject = triple.subjectLemmaGloss();
+                    System.out.println("subject : "+sentenceSubject);
+                    if(sentenceSubject.toLowerCase().indexOf(subjectList.get(0).toLowerCase()) != -1){
+                        System.out.println("true : + "+ subjectList.get(0));
+                    }
                 }
 
                 System.out.println("Line break");
