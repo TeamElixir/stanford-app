@@ -127,17 +127,25 @@ public class Main {
 	// TRIPLES EXTRACT TEST
 	public static void testTriple(){
 		// Create a CoreNLP document
-		Document doc = new Document("Obama was born in Hawaii. He is our president.");
+		Document doc = new Document("Petitioner claims that Sam is guilty for this murder.");
 
 		// Iterate over the sentences in the document
 		for (Sentence sent : doc.sentences()) {
+			// When we ask for the lemma, it will load and run the part of speech tagger
+//			System.out.println("The third lemma of the sentence '" + sent + "' is " + sent.lemma(2));
+//			// When we ask for the parse, it will load and run the parser
+//			System.out.println("The parse of the sentence '" + sent + "' is " + sent.parse());
+
+//			System.out.println(sent.nerTags().toString());
 			// Iterate over the triples in the sentence
+			System.out.println(sent.lemmas().toString());
 			for (RelationTriple triple : sent.openieTriples()) {
 				// Print the triple
 				System.out.println(triple.confidence + "\t" +
-						triple.subjectLemmaGloss() + "\t" +
-						triple.relationLemmaGloss() + "\t" +
-						triple.objectLemmaGloss());
+						triple.subjectGloss() + "\t" +
+						triple.relationGloss() + "\t" +
+						triple.objectGloss());
+
 			}
 		}
 	}
