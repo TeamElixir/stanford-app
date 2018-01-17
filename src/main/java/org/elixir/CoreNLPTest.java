@@ -26,10 +26,11 @@ public class CoreNLPTest {
         // creates a StanfordCoreNLP object, with POS tagging, lemmatization, NER, parsing, and coreference resolution
         Properties props = new Properties();
         props.setProperty("annotators", "tokenize,ssplit,pos,lemma,depparse,natlog, openie, ner");
+        props.setProperty("ner.model","edu/stanford/nlp/models/ner/english.muc.7class.caseless.distsim.crf.ser.gz");
         StanfordCoreNLP pipeline = new StanfordCoreNLP(props);
 
         // read some text in the text variable
-        String text = "The Government does not contest petitioners' claim the withheld evidence was \"favorable to the defense.\"";
+        String text = "The petitioners argued the withheld evidence could have been ruled in their favour.";
 
         // create an empty Annotation just with the given text
         Annotation document = new Annotation(text);
@@ -62,8 +63,8 @@ public class CoreNLPTest {
             for (RelationTriple triple : triples) {
                 System.out.println(triple.confidence + "\t" +
                         triple.subjectLemmaGloss() + "\t" +
-                        triple.relationLemmaGloss() + "\t" +
-                        triple.objectLemmaGloss());
+                        triple.relationGloss() + "\t" +
+                        triple.objectGloss());
             }
 
 
