@@ -9,7 +9,8 @@ public class Main {
 
 	public static void main(String[] args) {
 //		ApiSample.coreAPI();
-		SimpleAPI.execute();
+//		SimpleAPI.execute();
+		testTriple();
 	} // main
 
 	// TRIPLES EXTRACT TEST
