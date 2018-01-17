@@ -1,26 +1,18 @@
 package org.elixir;
 
-import edu.stanford.nlp.coref.CorefCoreAnnotations.*;
-import edu.stanford.nlp.coref.data.CorefChain;
 import edu.stanford.nlp.ie.util.RelationTriple;
-import edu.stanford.nlp.ling.CoreAnnotations.*;
+import edu.stanford.nlp.ling.CoreAnnotations;
 import edu.stanford.nlp.ling.CoreLabel;
 import edu.stanford.nlp.naturalli.NaturalLogicAnnotations;
 import edu.stanford.nlp.pipeline.Annotation;
 import edu.stanford.nlp.pipeline.StanfordCoreNLP;
-import edu.stanford.nlp.semgraph.SemanticGraph;
-import edu.stanford.nlp.semgraph.SemanticGraphCoreAnnotations.*;
-import edu.stanford.nlp.trees.Tree;
-import edu.stanford.nlp.trees.TreeCoreAnnotations.*;
 import edu.stanford.nlp.util.CoreMap;
 
 import java.util.Collection;
 import java.util.List;
-import java.util.Map;
 import java.util.Properties;
 
-public class CoreNLPTest {
-
+public class ArgumentTreeGenerator {
     public static void main(String[] args) {
 
         // creates a StanfordCoreNLP object, with POS tagging, lemmatization, NER, parsing, and coreference resolution
@@ -53,19 +45,19 @@ public class CoreNLPTest {
 
             // these are all the sentences in this document
             // a CoreMap is essentially a Map that uses class objects as keys and has values with custom types
-            List<CoreMap> sentences = document.get(SentencesAnnotation.class);
+            List<CoreMap> sentences = document.get(CoreAnnotations.SentencesAnnotation.class);
 
             for (CoreMap sentence : sentences) {
-                String rawSentence1 = sentence.get(TextAnnotation.class);
+                String rawSentence1 = sentence.get(CoreAnnotations.TextAnnotation.class);
                 // traversing the words in the current sentence
                 // a CoreLabel is a CoreMap with additional token-specific methods
-                for (CoreLabel token : sentence.get(TokensAnnotation.class)) {
+                for (CoreLabel token : sentence.get(CoreAnnotations.TokensAnnotation.class)) {
                     // this is the text of the token
-                    String word = token.get(TextAnnotation.class);
+                    String word = token.get(CoreAnnotations.TextAnnotation.class);
                     // this is the POS tag of the token
-                    String pos = token.get(PartOfSpeechAnnotation.class);
+                    String pos = token.get(CoreAnnotations.PartOfSpeechAnnotation.class);
                     // this is the NER label of the token
-                    String ne = token.get(NamedEntityTagAnnotation.class);
+                    String ne = token.get(CoreAnnotations.NamedEntityTagAnnotation.class);
                     //System.out.println(word + " " + pos + " " + ne);
                 }
 
@@ -85,7 +77,6 @@ public class CoreNLPTest {
 
             }
         }
-
 
     }
 }
