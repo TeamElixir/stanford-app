@@ -19,11 +19,12 @@ import edu.stanford.nlp.util.CoreMap;
 import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.io.PrintWriter;
-import java.util.List;
-import java.util.Map;
-import java.util.Properties;
+import java.util.*;
 
 public class Main {
+
+	public static ArrayList<String> keywords = new ArrayList<>(Arrays.asList("Petitioner","Government","petitioner",
+			"petitioners","government", "Petitioners"));
 
 	public static void main(String[] args) {
 
@@ -127,8 +128,10 @@ public class Main {
 	// TRIPLES EXTRACT TEST
 	public static void testTriple(){
 		// Create a CoreNLP document
-		Document doc = new Document("Considering the withheld evidence in the context of the" +
-				"entire record, Agurs, supra, at 112, evidence is too little, too weak, or too distant from the main" +
+		Document doc = new Document("Petitioners' main argument is  had they known about the withheld evidence, they could have\n" +
+				"challenged the Government's basic group attack theory by raising an alternative theory, namely, a single\n" +
+				"perpetrator (or two at most) had attacked Fuller. Considering the withheld evidence \"in the context of the\n" +
+				"entire record,\" Agurs, supra, at 112, that evidence is too little, too weak, or too distant from the main\n" +
 				"evidentiary points to meet Brady's standards.");
 
 		// Iterate over the sentences in the document
@@ -136,10 +139,14 @@ public class Main {
 			// Iterate over the triples in the sentence
 			for (RelationTriple triple : sent.openieTriples()) {
 				// Print the triple
-				System.out.println(triple.confidence + "\t" +
+				/*System.out.println(triple.confidence + "\t" +
 						triple.subjectLemmaGloss() + "\t" +
 						triple.relationLemmaGloss() + "\t" +
-						triple.objectLemmaGloss());
+						triple.objectLemmaGloss());*/
+				System.out.println("Sentence  : "+sent);
+				System.out.println("");
+				System.out.println("subject : "+"\t"+triple.subjectLemmaGloss());
+				System.out.println(" ");
 			}
 		}
 	}
