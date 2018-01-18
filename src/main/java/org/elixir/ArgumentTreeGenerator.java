@@ -19,6 +19,8 @@ public class ArgumentTreeGenerator {
 
 	private static ArrayList<ArrayList<ArrayList<String>>> extractedArguments = new ArrayList<>();
 
+	private static ArrayList<String> lastSubjects = new ArrayList<>();
+
 	public static void main(String[] args) {
 
 		// creates a StanfordCoreNLP object, with POS tagging, lemmatization, NER, parsing, and coreference resolution
@@ -34,7 +36,11 @@ public class ArgumentTreeGenerator {
 				"'reasonable probability' of a different result\" is one in which the suppressed evidence \" 'undermines confidence\n" +
 				"in the outcome of the trial.' \" Kyles v. Whitley, 514 U. S. 419, 434. To make that determination, this Court\n" +
 				"\"evaluate[s]\" the withheld evidence \"in the context of the entire record.\" United States v. Agurs, 427 U. S. 97,\n" +
-				"112. Pp. 9-11.";
+				"112. Pp. 9-11. Petitioners' main argument is that, had they known about the withheld evidence, they could have\n" +
+                "challenged the Government's basic group attack theory by raising an alternative theory, namely, that a single\n" +
+                "perpetrator (or two at most) had attacked Fuller. Considering the withheld evidence \"in the context of the\n" +
+                "entire record,\" Agurs, supra, at 112, that evidence is too little, too weak, or too distant from the main\n" +
+                "evidentiary points to meet Brady's standards.";
 
 		ArrayList<String> rawSentences = new ArrayList<>();
 		Document doc = new Document(text);
@@ -59,6 +65,9 @@ public class ArgumentTreeGenerator {
 			List<CoreMap> sentences = document.get(CoreAnnotations.SentencesAnnotation.class);
 
 			for (CoreMap sentence : sentences) {
+
+			    ArrayList<Integer> sentenceAdded = new ArrayList<>();
+
 				String rawSentence1 = sentence.get(CoreAnnotations.TextAnnotation.class);
 				// traversing the words in the current sentence
 				// a CoreLabel is a CoreMap with additional token-specific methods
@@ -87,6 +96,8 @@ public class ArgumentTreeGenerator {
 							// sentenceSubject is in SUBJECT_LIST
 							System.out.println("true : + " + SUBJECT_LIST.get(i));
 							String currentSubject = SUBJECT_LIST.get(i);
+							int currentSubjectIndex = -1;
+
 							if (!currentSubjects.contains(currentSubject)) {
 								currentSubjects.add(currentSubject);
 								ArrayList<ArrayList<String>> argumentList = new ArrayList<>();
@@ -94,9 +105,20 @@ public class ArgumentTreeGenerator {
 								subjectArgumentList.add(rawSentence);
 								argumentList.add(subjectArgumentList);
 								extractedArguments.add(argumentList);
-								int currentSubjectIndex = currentSubjects.indexOf(currentSubject);
+								currentSubjectIndex = currentSubjects.indexOf(currentSubject);
 								System.out.println("Subject Index : " + currentSubjectIndex);
+								sentenceAdded.add(currentSubjectIndex);
+							}else{
+								currentSubjectIndex = currentSubjects.indexOf(currentSubject);
+								if(!sentenceAdded.contains(currentSubjectIndex)) {
+                                    ArrayList<String> subjectArgumentList = new ArrayList<>();
+                                    subjectArgumentList.add(rawSentence);
+                                    extractedArguments.get(currentSubjectIndex).add(subjectArgumentList);
+                                    sentenceAdded.add(currentSubjectIndex);
+                                }
 							}
+
+							lastSubjects.add(currentSubject);
 						}
 					}
 				}
