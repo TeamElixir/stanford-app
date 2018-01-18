@@ -27,14 +27,14 @@ public class ArgumentTreeGenerator {
 		StanfordCoreNLP pipeline = new StanfordCoreNLP(props);
 
 		// read some text in the text variable
-		String text = "Petitioners' main argument is that, had they known about the withheld evidence, they could have\n" +
-				"challenged the Government's basic group attack theory by raising an alternative theory, namely, that a single\n"
-				+
-				"perpetrator (or two at most) had attacked Fuller. Considering the withheld evidence \"in the context of the\n"
-				+
-				"entire record,\" Agurs, supra, at 112, that evidence is too little, too weak, or too distant from the main\n"
-				+
-				"evidentiary points to meet Brady's standards.";
+		String text = "The Government does not contest petitioners' claim that the withheld evidence was \"favorable to the\n" +
+				"defense.\" Petitioners and the Government, however, do contest the materiality of the undisclosed Brady\n" +
+				"information. Such \"evidence is 'material' . . . when there is a reasonable probability that, had the evidence been\n" +
+				"disclosed, the result of the proceeding would have been different.\" Cone v. Bell, 556 U. S. 449, 469-470. \"A\n" +
+				"'reasonable probability' of a different result\" is one in which the suppressed evidence \" 'undermines confidence\n" +
+				"in the outcome of the trial.' \" Kyles v. Whitley, 514 U. S. 419, 434. To make that determination, this Court\n" +
+				"\"evaluate[s]\" the withheld evidence \"in the context of the entire record.\" United States v. Agurs, 427 U. S. 97,\n" +
+				"112. Pp. 9-11.";
 
 		ArrayList<String> rawSentences = new ArrayList<>();
 		Document doc = new Document(text);
@@ -45,7 +45,7 @@ public class ArgumentTreeGenerator {
 
 		for (String rawSentence : rawSentences) {
 
-			String ss = rawSentence.replaceAll("(that,|that)", "");
+			String ss = rawSentence.replaceAll("(that,|that|'s)", "");
 
 			System.out.println("splitted sentence : " + ss);
 			// create an empty Annotation just with the given text
@@ -86,8 +86,16 @@ public class ArgumentTreeGenerator {
 						if (sentenceSubject.toLowerCase().indexOf(SUBJECT_LIST.get(i).toLowerCase()) != -1) {
 							// sentenceSubject is in SUBJECT_LIST
 							System.out.println("true : + " + SUBJECT_LIST.get(i));
-							if (!currentSubjects.contains(SUBJECT_LIST.get(i))) {
-								currentSubjects.add(SUBJECT_LIST.get(i));
+							String currentSubject = SUBJECT_LIST.get(i);
+							if (!currentSubjects.contains(currentSubject)) {
+								currentSubjects.add(currentSubject);
+								ArrayList<ArrayList<String>> argumentList = new ArrayList<>();
+								ArrayList<String> subjectArgumentList = new ArrayList<>();
+								subjectArgumentList.add(rawSentence);
+								argumentList.add(subjectArgumentList);
+								extractedArguments.add(argumentList);
+								int currentSubjectIndex = currentSubjects.indexOf(currentSubject);
+								System.out.println("Subject Index : " + currentSubjectIndex);
 							}
 						}
 					}
@@ -98,6 +106,7 @@ public class ArgumentTreeGenerator {
 
 			}
 			System.out.println("currentSubjects : " + currentSubjects.toString());
+			System.out.println("argumentsList : "+ extractedArguments.toString());
 		}
 
 	}
