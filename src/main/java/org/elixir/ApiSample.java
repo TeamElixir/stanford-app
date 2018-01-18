@@ -22,6 +22,7 @@ public class ApiSample {
 		// creates a StanfordCoreNLP object, with POS tagging, lemmatization, NER, parsing, and coreference resolution
 		Properties props = new Properties();
 		props.setProperty("annotators", "tokenize, ssplit, pos, lemma, ner, parse, dcoref");
+
 		StanfordCoreNLP pipeline = new StanfordCoreNLP(props);
 
 		// read some text in the text variable
@@ -55,10 +56,10 @@ public class ApiSample {
 
 			// this is the parse tree of the current sentence
 			Tree tree = sentence.get(TreeCoreAnnotations.TreeAnnotation.class);
-			System.out.println("Tree: " + tree.children());
-			for(Tree child: tree.children()) {
-				System.out.println("Child: " + child);
-			}
+//			System.out.println("Tree: " + tree.children());
+//			for(Tree child: tree.children()) {
+//				System.out.println("Child: " + child);
+//			}
 
 			// this is the Stanford dependency graph of the current sentence
 			SemanticGraph dependencies = sentence
