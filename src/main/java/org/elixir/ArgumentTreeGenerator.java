@@ -57,6 +57,8 @@ public class ArgumentTreeGenerator {
 
 		for (String rawSentence : rawSentences) {
 
+
+
 			String ss = rawSentence.replaceAll("(that,|that|'s)", "");
             finalRawSentence = rawSentences.get(rawSentences.size()-1);
             boolean sentenceAdded2 = false;
@@ -116,6 +118,11 @@ public class ArgumentTreeGenerator {
 
 						if (sentenceSubject.toLowerCase().indexOf(SUBJECT_LIST.get(i).toLowerCase()) != -1) {
 							// sentenceSubject is in SUBJECT_LIST
+
+                            if(!hasSubject){
+                                lastSubjects.clear();
+                            }
+
 							System.out.println("true : + " + SUBJECT_LIST.get(i));
 							String currentSubject = SUBJECT_LIST.get(i);
 							int currentSubjectIndex = -1;
@@ -130,7 +137,9 @@ public class ArgumentTreeGenerator {
 								currentSubjectIndex = currentSubjects.indexOf(currentSubject);
 								System.out.println("Subject Index : " + currentSubjectIndex);
 								sentenceAdded.add(currentSubjectIndex);
-                                lastSubjects.add(currentSubjectIndex);
+                                if(!lastSubjects.contains(currentSubjectIndex)) {
+                                    lastSubjects.add(currentSubjectIndex);
+                                }
                                 hasSubject=true;
 							}else{
 								currentSubjectIndex = currentSubjects.indexOf(currentSubject);
@@ -139,7 +148,9 @@ public class ArgumentTreeGenerator {
                                     subjectArgumentList.add(rawSentence);
                                     extractedArguments.get(currentSubjectIndex).add(subjectArgumentList);
                                     sentenceAdded.add(currentSubjectIndex);
-                                    lastSubjects.add(currentSubjectIndex);
+                                    if(!lastSubjects.contains(currentSubjectIndex)) {
+                                        lastSubjects.add(currentSubjectIndex);
+                                    }
                                     hasSubject=true;
                                 }
 							}
@@ -182,6 +193,7 @@ public class ArgumentTreeGenerator {
 
 			System.out.println("currentSubjects : " + currentSubjects.toString());
 			System.out.println("argumentsList : "+ extractedArguments.toString());
+            System.out.println("lastSubjects : "+lastSubjects.toString());
 
 		}
 
