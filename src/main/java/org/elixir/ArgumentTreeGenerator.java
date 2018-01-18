@@ -82,6 +82,8 @@ public class ArgumentTreeGenerator {
                             if(!currentSubjects.contains(subjectList.get(i))){
                                 currentSubjects.add(subjectList.get(i));
                             }
+                            ArrayList<String> as =new ArrayList<>();
+                            as.add(rawSentence);
                         }
                     }
                 }
