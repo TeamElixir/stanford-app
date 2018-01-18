@@ -72,7 +72,7 @@ public class SimpleAPI {
 		Sentence sent = new Sentence(text);
 		Collection<Quadruple<String, String, String, Double>> openie = sent.openie();
 		for (Quadruple<String, String, String, Double> triplet : openie) {
-			System.out.println("Triplet: " + triplet);
+			System.out.println("Triplet: " + triplet.first);
 //			System.out.println(triplet.first);
 //			System.out.println(triplet.second);
 //			System.out.println(triplet.third);
