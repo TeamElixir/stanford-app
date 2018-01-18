@@ -19,7 +19,13 @@ public class ArgumentTreeGenerator {
 
 	private static ArrayList<ArrayList<ArrayList<String>>> extractedArguments = new ArrayList<>();
 
-	private static ArrayList<String> lastSubjects = new ArrayList<>();
+	private static ArrayList<Integer> lastSubjects = new ArrayList<>();
+
+	private static boolean hasSubject = false;
+
+	private static String lastSentence = null;
+
+	private static String finalRawSentence;
 
 	public static void main(String[] args) {
 
@@ -52,6 +58,20 @@ public class ArgumentTreeGenerator {
 		for (String rawSentence : rawSentences) {
 
 			String ss = rawSentence.replaceAll("(that,|that|'s)", "");
+            finalRawSentence = rawSentences.get(rawSentences.size()-1);
+            boolean sentenceAdded2 = false;
+
+			/*if(!hasSubject && lastSubjects.size()>0 && lastSentence!=null){
+                for (Integer subject : lastSubjects) {
+
+                        int lastArgumentIndex = extractedArguments.get(subject).size() - 1;
+                        extractedArguments.get(subject).get(lastArgumentIndex).add(lastSentence);
+
+                }
+                lastSentence=null;
+            }*/
+
+            hasSubject = false;
 
 			System.out.println("splitted sentence : " + ss);
 			// create an empty Annotation just with the given text
@@ -67,6 +87,7 @@ public class ArgumentTreeGenerator {
 			for (CoreMap sentence : sentences) {
 
 			    ArrayList<Integer> sentenceAdded = new ArrayList<>();
+
 
 				String rawSentence1 = sentence.get(CoreAnnotations.TextAnnotation.class);
 				// traversing the words in the current sentence
@@ -92,6 +113,7 @@ public class ArgumentTreeGenerator {
 					String sentenceSubject = triple.subjectLemmaGloss();
 //					System.out.println("subject : " + sentenceSubject);
 					for (int i = 0; i < SUBJECT_LIST.size(); i++) {
+
 						if (sentenceSubject.toLowerCase().indexOf(SUBJECT_LIST.get(i).toLowerCase()) != -1) {
 							// sentenceSubject is in SUBJECT_LIST
 							System.out.println("true : + " + SUBJECT_LIST.get(i));
@@ -108,6 +130,8 @@ public class ArgumentTreeGenerator {
 								currentSubjectIndex = currentSubjects.indexOf(currentSubject);
 								System.out.println("Subject Index : " + currentSubjectIndex);
 								sentenceAdded.add(currentSubjectIndex);
+                                lastSubjects.add(currentSubjectIndex);
+                                hasSubject=true;
 							}else{
 								currentSubjectIndex = currentSubjects.indexOf(currentSubject);
 								if(!sentenceAdded.contains(currentSubjectIndex)) {
@@ -115,11 +139,26 @@ public class ArgumentTreeGenerator {
                                     subjectArgumentList.add(rawSentence);
                                     extractedArguments.get(currentSubjectIndex).add(subjectArgumentList);
                                     sentenceAdded.add(currentSubjectIndex);
+                                    lastSubjects.add(currentSubjectIndex);
+                                    hasSubject=true;
                                 }
 							}
 
-							lastSubjects.add(currentSubject);
-						}
+						}else{
+						    lastSentence = "A : "+rawSentence;
+                        }/*else{
+						    if(!hasSubject) {
+                                if (lastSubjects.size() > 0) {
+                                    for (Integer subject : lastSubjects) {
+                                        if (!sentenceAdded.contains(subject)) {
+                                            int lastArgumentIndex = extractedArguments.get(subject).size() - 1;
+                                            extractedArguments.get(subject).get(lastArgumentIndex).add(rawSentence);
+                                            sentenceAdded.add(subject);
+                                        }
+                                    }
+                                }
+                            }
+                        }*/
 					}
 				}
 
@@ -127,8 +166,23 @@ public class ArgumentTreeGenerator {
 				System.out.println("");
 
 			}
+
+            if(!hasSubject && lastSubjects.size()>0 && lastSentence!=null && !sentenceAdded2){
+
+                for (Integer subject : lastSubjects) {
+
+                    int lastArgumentIndex = extractedArguments.get(subject).size() - 1;
+                    extractedArguments.get(subject).get(lastArgumentIndex).add(lastSentence);
+
+
+                }
+                sentenceAdded2=true;
+                lastSentence=null;
+            }
+
 			System.out.println("currentSubjects : " + currentSubjects.toString());
 			System.out.println("argumentsList : "+ extractedArguments.toString());
+
 		}
 
 	}
