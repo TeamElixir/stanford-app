@@ -13,7 +13,7 @@ import java.util.*;
 
 public class ArgumentTreeGenerator {
 
-	private static ArrayList<String> subjectList = new ArrayList<>(Arrays.asList("Petitioner", "Government"));
+	private static final ArrayList<String> SUBJECT_LIST = new ArrayList<>(Arrays.asList("Petitioner", "Government"));
 
 	private static ArrayList<String> currentSubjects = new ArrayList<>();
 
@@ -36,7 +36,6 @@ public class ArgumentTreeGenerator {
 				+
 				"evidentiary points to meet Brady's standards.";
 
-//		String[] rawSentences = text.split("\\.");
 		ArrayList<String> rawSentences = new ArrayList<>();
 		Document doc = new Document(text);
 		List<Sentence> sentences1 = doc.sentences();
@@ -46,8 +45,7 @@ public class ArgumentTreeGenerator {
 
 		for (String rawSentence : rawSentences) {
 
-			String ss = rawSentence.replaceAll("(that,)", "");
-			ss.replaceAll("(that)", "");
+			String ss = rawSentence.replaceAll("(that,|that)", "");
 
 			System.out.println("splitted sentence : " + ss);
 			// create an empty Annotation just with the given text
@@ -83,18 +81,19 @@ public class ArgumentTreeGenerator {
                             triple.relationLemmaGloss() + "\t" +
                             triple.objectLemmaGloss());*/
 					String sentenceSubject = triple.subjectLemmaGloss();
-					System.out.println("subject : " + sentenceSubject);
-					for (int i = 0; i < subjectList.size(); i++) {
-						if (sentenceSubject.toLowerCase().indexOf(subjectList.get(i).toLowerCase()) != -1) {
-							System.out.println("true : + " + subjectList.get(i));
-							if (!currentSubjects.contains(subjectList.get(i))) {
-								currentSubjects.add(subjectList.get(i));
+//					System.out.println("subject : " + sentenceSubject);
+					for (int i = 0; i < SUBJECT_LIST.size(); i++) {
+						if (sentenceSubject.toLowerCase().indexOf(SUBJECT_LIST.get(i).toLowerCase()) != -1) {
+							// sentenceSubject is in SUBJECT_LIST
+							System.out.println("true : + " + SUBJECT_LIST.get(i));
+							if (!currentSubjects.contains(SUBJECT_LIST.get(i))) {
+								currentSubjects.add(SUBJECT_LIST.get(i));
 							}
 						}
 					}
 				}
 
-				System.out.println("Line break");
+				System.out.println("------------------------------------------------");
 				System.out.println("");
 
 			}
