@@ -16,7 +16,7 @@ public class Main {
 	// TRIPLES EXTRACT TEST
 	public static void testTriple() {
 		// Create a CoreNLP document
-		Document doc = new Document(Texts.text1);
+		Document doc = new Document(Texts.CASE_1_TEXT_1);
 
 		// Iterate over the sentences in the document
 		for (Sentence sent : doc.sentences()) {
