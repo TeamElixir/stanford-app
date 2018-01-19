@@ -205,6 +205,19 @@ public class ArgumentTreeGenerator {
 
 		}
 
+		System.out.println("");
+		System.out.println();
+		System.out.println(" This is the terminal output   ");
+		for(String subject:currentSubjects){
+			System.out.println(subject + " arguments : ");
+			for(ArrayList<String> set1 :extractedArguments.get(currentSubjects.indexOf(subject))){
+				System.out.println("\t"+ set1.get(0));
+				for(int i=1;i<set1.size();i++){
+					System.out.println("\t"+"\t"+set1.get(i).substring(3));
+				}
+			}
+		}
+
 		try {
 			Utils.writeToJson(extractedArguments);
 		}
