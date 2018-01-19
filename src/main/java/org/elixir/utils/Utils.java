@@ -1,5 +1,7 @@
 package org.elixir.utils;
 
+import com.fasterxml.jackson.databind.ObjectMapper;
+
 import java.io.*;
 
 public class Utils {
@@ -33,5 +35,24 @@ public class Utils {
 				}
 			}
 		}
+	}
+
+	public static void writeToJson(Object object) throws IOException {
+		final String outputRootDirName = ".oblie";
+		final String outputFileName = "arguments.json";
+		String userHome = System.getProperty("user.home");
+		String outputRootDirPath = userHome + File.separator + outputRootDirName;
+		boolean mkdir = new File(outputRootDirPath).mkdir();
+		String filePath = outputRootDirPath + File.separator + outputFileName;
+
+		ObjectMapper mapper = new ObjectMapper();
+
+		//Object to JSON in String
+		String jsonInString = mapper.writeValueAsString(object);
+		System.out.println("JSON as String: " + jsonInString);
+
+		//Object to JSON in file
+		mapper.writeValue(new File(filePath), object);
+
 	}
 }

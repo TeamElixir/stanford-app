@@ -2,7 +2,6 @@ package org.elixir;
 
 import edu.stanford.nlp.coref.data.CorefChain;
 import edu.stanford.nlp.ie.machinereading.structure.Span;
-import edu.stanford.nlp.ie.util.RelationTriple;
 import edu.stanford.nlp.naturalli.Polarity;
 import edu.stanford.nlp.simple.*;
 import edu.stanford.nlp.trees.Tree;
@@ -33,7 +32,7 @@ public class SimpleAPI {
 		System.exit(0);
 
 		// Create a document. No computation is done yet.
-		Document doc = new Document(Texts.text3);
+		Document doc = new Document(Texts.CASE_1_TEXT_3);
 		for (Sentence sent : doc.sentences()) {  // Will iterate over two sentences
 			List<String> words = sent.words();
 			List<String> posTags = sent.posTags();

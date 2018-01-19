@@ -8,12 +8,14 @@ import edu.stanford.nlp.pipeline.Annotation;
 import edu.stanford.nlp.pipeline.StanfordCoreNLP;
 import edu.stanford.nlp.util.CoreMap;
 import edu.stanford.nlp.simple.*;
+import org.elixir.utils.Utils;
 
+import java.io.IOException;
 import java.util.*;
 
 public class ArgumentTreeGenerator {
 
-	private static final ArrayList<String> SUBJECT_LIST = new ArrayList<>(Arrays.asList("Petitioner", "Government"));
+	private static final ArrayList<String> SUBJECT_LIST = new ArrayList<>(Arrays.asList("Petitioner", "Government","Defendant"));
 
 	private static ArrayList<String> currentSubjects = new ArrayList<>();
 
@@ -27,6 +29,11 @@ public class ArgumentTreeGenerator {
 
 	private static String finalRawSentence;
 
+	public static ArrayList<ArrayList<ArrayList<String>>> getExtractedArguments(){
+		return extractedArguments;
+	}
+
+
 	public static void main(String[] args) {
 
 		// creates a StanfordCoreNLP object, with POS tagging, lemmatization, NER, parsing, and coreference resolution
@@ -35,18 +42,19 @@ public class ArgumentTreeGenerator {
 		StanfordCoreNLP pipeline = new StanfordCoreNLP(props);
 
 		// read some text in the text variable
-		String text = "The Government does not contest petitioners' claim that the withheld evidence was \"favorable to the\n" +
-				"defense.\" Petitioners and the Government, however, do contest the materiality of the undisclosed Brady\n" +
-				"information. Such \"evidence is 'material' . . . when there is a reasonable probability that, had the evidence been\n" +
-				"disclosed, the result of the proceeding would have been different.\" Cone v. Bell, 556 U. S. 449, 469-470. \"A\n" +
-				"'reasonable probability' of a different result\" is one in which the suppressed evidence \" 'undermines confidence\n" +
-				"in the outcome of the trial.' \" Kyles v. Whitley, 514 U. S. 419, 434. To make that determination, this Court\n" +
-				"\"evaluate[s]\" the withheld evidence \"in the context of the entire record.\" United States v. Agurs, 427 U. S. 97,\n" +
-				"112. Pp. 9-11. Petitioners' main argument is that, had they known about the withheld evidence, they could have\n" +
-                "challenged the Government's basic group attack theory by raising an alternative theory, namely, that a single\n" +
-                "perpetrator (or two at most) had attacked Fuller. Considering the withheld evidence \"in the context of the\n" +
-                "entire record,\" Agurs, supra, at 112, that evidence is too little, too weak, or too distant from the main\n" +
-                "evidentiary points to meet Brady's standards.";
+		String text = "When a defendant claims that his counsel's deficient performance deprived him of a trial by causing him to accept a plea, the defendant can show prejudice by demonstrating a \"reasonable probability that," +
+                " but for counsel's errors, he would not have pleaded guilty and would have insisted on going to trial.\" Hill v. Lockhart," +
+                " 474 U. S. 52, 59.\n" +
+                "\n" +
+                "     Lee contends that he can make this showing because he never would have accepted a guilty plea had he known the " +
+                "result would be deportation. The Government contends that Lee cannot show prejudice from accepting a plea where his only " +
+                "hope at trial was that something unexpected and unpredictable might occur that would lead to acquittal. Pp. 5-8." +
+                "The Government makes two errors in urging the adoption of a per se rule that a defendant with no viable defense cannot " +
+                "show prejudice from the denial of his right to trial. First, it forgets that categorical rules are ill suited to an " +
+                "inquiry that demands a \"case-by-case examination\" of the \"totality of the evidence.\" Williams v. Taylor," +
+                " 529 U. S. 362, 391 (internal quotation marks omitted); Strickland, 466 U. S., at 695. More fundamentally, " +
+                "it overlooks that the Hill v. Lockhart inquiry focuses on a defendant's decisionmaking, which may not turn " +
+                "solely on the likelihood of conviction after trial.";
 
 		ArrayList<String> rawSentences = new ArrayList<>();
 		Document doc = new Document(text);
@@ -56,6 +64,8 @@ public class ArgumentTreeGenerator {
 		}
 
 		for (String rawSentence : rawSentences) {
+
+
 
 			String ss = rawSentence.replaceAll("(that,|that|'s)", "");
             finalRawSentence = rawSentences.get(rawSentences.size()-1);
@@ -116,6 +126,11 @@ public class ArgumentTreeGenerator {
 
 						if (sentenceSubject.toLowerCase().indexOf(SUBJECT_LIST.get(i).toLowerCase()) != -1) {
 							// sentenceSubject is in SUBJECT_LIST
+
+                            if(!hasSubject){
+                                lastSubjects.clear();
+                            }
+
 							System.out.println("true : + " + SUBJECT_LIST.get(i));
 							String currentSubject = SUBJECT_LIST.get(i);
 							int currentSubjectIndex = -1;
@@ -130,7 +145,9 @@ public class ArgumentTreeGenerator {
 								currentSubjectIndex = currentSubjects.indexOf(currentSubject);
 								System.out.println("Subject Index : " + currentSubjectIndex);
 								sentenceAdded.add(currentSubjectIndex);
-                                lastSubjects.add(currentSubjectIndex);
+                                if(!lastSubjects.contains(currentSubjectIndex)) {
+                                    lastSubjects.add(currentSubjectIndex);
+                                }
                                 hasSubject=true;
 							}else{
 								currentSubjectIndex = currentSubjects.indexOf(currentSubject);
@@ -139,7 +156,9 @@ public class ArgumentTreeGenerator {
                                     subjectArgumentList.add(rawSentence);
                                     extractedArguments.get(currentSubjectIndex).add(subjectArgumentList);
                                     sentenceAdded.add(currentSubjectIndex);
-                                    lastSubjects.add(currentSubjectIndex);
+                                    if(!lastSubjects.contains(currentSubjectIndex)) {
+                                        lastSubjects.add(currentSubjectIndex);
+                                    }
                                     hasSubject=true;
                                 }
 							}
@@ -182,8 +201,17 @@ public class ArgumentTreeGenerator {
 
 			System.out.println("currentSubjects : " + currentSubjects.toString());
 			System.out.println("argumentsList : "+ extractedArguments.toString());
+            System.out.println("lastSubjects : "+lastSubjects.toString());
 
 		}
 
-	}
+		try {
+			Utils.writeToJson(extractedArguments);
+		}
+		catch (IOException e) {
+			System.out.println("Error writing extracted arguments to JSON file");
+			e.printStackTrace();
+		}
+	}   // main
+
 }
