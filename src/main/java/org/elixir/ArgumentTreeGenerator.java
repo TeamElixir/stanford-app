@@ -15,7 +15,8 @@ import java.util.*;
 
 public class ArgumentTreeGenerator {
 
-	private static final ArrayList<String> SUBJECT_LIST = new ArrayList<>(Arrays.asList("Petitioner", "Government","Defendant"));
+	private static final ArrayList<String> SUBJECT_LIST = new ArrayList<>(
+			Arrays.asList("Petitioner", "Government", "Defendant"));
 
 	private static ArrayList<String> currentSubjects = new ArrayList<>();
 
@@ -29,10 +30,9 @@ public class ArgumentTreeGenerator {
 
 	private static String finalRawSentence;
 
-	public static ArrayList<ArrayList<ArrayList<String>>> getExtractedArguments(){
+	public static ArrayList<ArrayList<ArrayList<String>>> getExtractedArguments() {
 		return extractedArguments;
 	}
-
 
 	public static void main(String[] args) {
 
@@ -42,19 +42,30 @@ public class ArgumentTreeGenerator {
 		StanfordCoreNLP pipeline = new StanfordCoreNLP(props);
 
 		// read some text in the text variable
-		String text = "When a defendant claims that his counsel's deficient performance deprived him of a trial by causing him to accept a plea, the defendant can show prejudice by demonstrating a \"reasonable probability that," +
-                " but for counsel's errors, he would not have pleaded guilty and would have insisted on going to trial.\" Hill v. Lockhart," +
-                " 474 U. S. 52, 59.\n" +
-                "\n" +
-                "     Lee contends that he can make this showing because he never would have accepted a guilty plea had he known the " +
-                "result would be deportation. The Government contends that Lee cannot show prejudice from accepting a plea where his only " +
-                "hope at trial was that something unexpected and unpredictable might occur that would lead to acquittal. Pp. 5-8." +
-                "The Government makes two errors in urging the adoption of a per se rule that a defendant with no viable defense cannot " +
-                "show prejudice from the denial of his right to trial. First, it forgets that categorical rules are ill suited to an " +
-                "inquiry that demands a \"case-by-case examination\" of the \"totality of the evidence.\" Williams v. Taylor," +
-                " 529 U. S. 362, 391 (internal quotation marks omitted); Strickland, 466 U. S., at 695. More fundamentally, " +
-                "it overlooks that the Hill v. Lockhart inquiry focuses on a defendant's decisionmaking, which may not turn " +
-                "solely on the likelihood of conviction after trial.";
+		String text =
+				"When a defendant claims that his counsel's deficient performance deprived him of a trial by causing him to accept a plea, the defendant can show prejudice by demonstrating a \"reasonable probability that,"
+						+
+						" but for counsel's errors, he would not have pleaded guilty and would have insisted on going to trial.\" Hill v. Lockhart,"
+						+
+						" 474 U. S. 52, 59.\n" +
+						"\n" +
+						"     Lee contends that he can make this showing because he never would have accepted a guilty plea had he known the "
+						+
+						"result would be deportation. The Government contends that Lee cannot show prejudice from accepting a plea where his only "
+						+
+						"hope at trial was that something unexpected and unpredictable might occur that would lead to acquittal. Pp. 5-8."
+						+
+						"The Government makes two errors in urging the adoption of a per se rule that a defendant with no viable defense cannot "
+						+
+						"show prejudice from the denial of his right to trial. First, it forgets that categorical rules are ill suited to an "
+						+
+						"inquiry that demands a \"case-by-case examination\" of the \"totality of the evidence.\" Williams v. Taylor,"
+						+
+						" 529 U. S. 362, 391 (internal quotation marks omitted); Strickland, 466 U. S., at 695. More fundamentally, "
+						+
+						"it overlooks that the Hill v. Lockhart inquiry focuses on a defendant's decisionmaking, which may not turn "
+						+
+						"solely on the likelihood of conviction after trial.";
 
 		ArrayList<String> rawSentences = new ArrayList<>();
 		Document doc = new Document(text);
@@ -65,11 +76,9 @@ public class ArgumentTreeGenerator {
 
 		for (String rawSentence : rawSentences) {
 
-
-
 			String ss = rawSentence.replaceAll("(that,|that|'s)", "");
-            finalRawSentence = rawSentences.get(rawSentences.size()-1);
-            boolean sentenceAdded2 = false;
+			finalRawSentence = rawSentences.get(rawSentences.size() - 1);
+			boolean sentenceAdded2 = false;
 
 			/*if(!hasSubject && lastSubjects.size()>0 && lastSentence!=null){
                 for (Integer subject : lastSubjects) {
@@ -81,7 +90,7 @@ public class ArgumentTreeGenerator {
                 lastSentence=null;
             }*/
 
-            hasSubject = false;
+			hasSubject = false;
 
 			System.out.println("splitted sentence : " + ss);
 			// create an empty Annotation just with the given text
@@ -96,8 +105,7 @@ public class ArgumentTreeGenerator {
 
 			for (CoreMap sentence : sentences) {
 
-			    ArrayList<Integer> sentenceAdded = new ArrayList<>();
-
+				ArrayList<Integer> sentenceAdded = new ArrayList<>();
 
 				String rawSentence1 = sentence.get(CoreAnnotations.TextAnnotation.class);
 				// traversing the words in the current sentence
@@ -121,15 +129,15 @@ public class ArgumentTreeGenerator {
                             triple.relationLemmaGloss() + "\t" +
                             triple.objectLemmaGloss());*/
 					String sentenceSubject = triple.subjectLemmaGloss();
-//					System.out.println("subject : " + sentenceSubject);
+					//					System.out.println("subject : " + sentenceSubject);
 					for (int i = 0; i < SUBJECT_LIST.size(); i++) {
 
 						if (sentenceSubject.toLowerCase().indexOf(SUBJECT_LIST.get(i).toLowerCase()) != -1) {
 							// sentenceSubject is in SUBJECT_LIST
 
-                            if(!hasSubject){
-                                lastSubjects.clear();
-                            }
+							if (!hasSubject) {
+								lastSubjects.clear();
+							}
 
 							System.out.println("true : + " + SUBJECT_LIST.get(i));
 							String currentSubject = SUBJECT_LIST.get(i);
@@ -145,27 +153,27 @@ public class ArgumentTreeGenerator {
 								currentSubjectIndex = currentSubjects.indexOf(currentSubject);
 								System.out.println("Subject Index : " + currentSubjectIndex);
 								sentenceAdded.add(currentSubjectIndex);
-                                if(!lastSubjects.contains(currentSubjectIndex)) {
-                                    lastSubjects.add(currentSubjectIndex);
-                                }
-                                hasSubject=true;
-							}else{
+								if (!lastSubjects.contains(currentSubjectIndex)) {
+									lastSubjects.add(currentSubjectIndex);
+								}
+								hasSubject = true;
+							} else {
 								currentSubjectIndex = currentSubjects.indexOf(currentSubject);
-								if(!sentenceAdded.contains(currentSubjectIndex)) {
-                                    ArrayList<String> subjectArgumentList = new ArrayList<>();
-                                    subjectArgumentList.add(rawSentence);
-                                    extractedArguments.get(currentSubjectIndex).add(subjectArgumentList);
-                                    sentenceAdded.add(currentSubjectIndex);
-                                    if(!lastSubjects.contains(currentSubjectIndex)) {
-                                        lastSubjects.add(currentSubjectIndex);
-                                    }
-                                    hasSubject=true;
-                                }
+								if (!sentenceAdded.contains(currentSubjectIndex)) {
+									ArrayList<String> subjectArgumentList = new ArrayList<>();
+									subjectArgumentList.add(rawSentence);
+									extractedArguments.get(currentSubjectIndex).add(subjectArgumentList);
+									sentenceAdded.add(currentSubjectIndex);
+									if (!lastSubjects.contains(currentSubjectIndex)) {
+										lastSubjects.add(currentSubjectIndex);
+									}
+									hasSubject = true;
+								}
 							}
 
-						}else{
-						    lastSentence = "A : "+rawSentence;
-                        }/*else{
+						} else {
+							lastSentence = "A : " + rawSentence;
+						}/*else{
 						    if(!hasSubject) {
                                 if (lastSubjects.size() > 0) {
                                     for (Integer subject : lastSubjects) {
@@ -186,34 +194,31 @@ public class ArgumentTreeGenerator {
 
 			}
 
-            if(!hasSubject && lastSubjects.size()>0 && lastSentence!=null && !sentenceAdded2){
+			if (!hasSubject && lastSubjects.size() > 0 && lastSentence != null && !sentenceAdded2) {
 
-                for (Integer subject : lastSubjects) {
+				for (Integer subject : lastSubjects) {
 
-                    int lastArgumentIndex = extractedArguments.get(subject).size() - 1;
-                    extractedArguments.get(subject).get(lastArgumentIndex).add(lastSentence);
+					int lastArgumentIndex = extractedArguments.get(subject).size() - 1;
+					extractedArguments.get(subject).get(lastArgumentIndex).add(lastSentence);
 
-
-                }
-                sentenceAdded2=true;
-                lastSentence=null;
-            }
+				}
+				sentenceAdded2 = true;
+				lastSentence = null;
+			}
 
 			System.out.println("currentSubjects : " + currentSubjects.toString());
-			System.out.println("argumentsList : "+ extractedArguments.toString());
-            System.out.println("lastSubjects : "+lastSubjects.toString());
+			System.out.println("argumentsList : " + extractedArguments.toString());
+			System.out.println("lastSubjects : " + lastSubjects.toString());
 
 		}
 
-		System.out.println("");
-		System.out.println();
-		System.out.println(" This is the terminal output   ");
-		for(String subject:currentSubjects){
+		System.out.println("\n This is the terminal output");
+		for (String subject : currentSubjects) {
 			System.out.println(subject + " arguments : ");
-			for(ArrayList<String> set1 :extractedArguments.get(currentSubjects.indexOf(subject))){
-				System.out.println("\t"+ set1.get(0));
-				for(int i=1;i<set1.size();i++){
-					System.out.println("\t"+"\t"+set1.get(i).substring(3));
+			for (ArrayList<String> set1 : extractedArguments.get(currentSubjects.indexOf(subject))) {
+				System.out.println("\t" + set1.get(0));
+				for (int i = 1; i < set1.size(); i++) {
+					System.out.println("\t" + "\t" + set1.get(i).substring(3));
 				}
 			}
 		}
