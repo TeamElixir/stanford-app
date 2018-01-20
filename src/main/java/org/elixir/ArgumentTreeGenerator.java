@@ -12,6 +12,7 @@ import org.elixir.models.Node;
 import org.elixir.utils.NLPUtils;
 import org.elixir.utils.Utils;
 
+import java.io.File;
 import java.io.IOException;
 import java.util.*;
 
@@ -49,31 +50,49 @@ public class ArgumentTreeGenerator {
         props.setProperty("annotators", "tokenize,ssplit,pos,lemma,depparse,natlog, openie, ner");
         StanfordCoreNLP pipeline = new StanfordCoreNLP(props);
 
+        String filePath = new File("").getAbsolutePath();
+        filePath+="/src/main/resources/case1.txt";
+        String textRaw = Utils.readFile(filePath);
+
+        String[] splitted = textRaw.split("\n");
+
+        StringBuilder inputBuilder = new StringBuilder();
+        for (int i = 2; i <splitted.length ; i++) {
+            inputBuilder.append(splitted[i]);
+        }
+
+        // this the text after the Held: paragraph
+        String text = inputBuilder.toString();
+
+        // Held: paragraph
+        String held = splitted[0].split("Held: ")[1];
+        System.out.println(held);
+
         // read some text in the text variable
-        String text =
-                "When a defendant claims that his counsel's deficient performance deprived him of a trial by causing him to accept a plea, the defendant can show prejudice by demonstrating a \"reasonable probability that,"
-                        +
-                        " but for counsel's errors, he would not have pleaded guilty and would have insisted on going to trial.\" Hill v. Lockhart,"
-                        +
-                        " 474 U. S. 52, 59.\n" +
-                        "\n" +
-                        "     Lee contends that he can make this showing because he never would have accepted a guilty plea had he known the "
-                        +
-                        "result would be deportation. The Government contends that Lee cannot show prejudice from accepting a plea where his only "
-                        +
-                        "hope at trial was that something unexpected and unpredictable might occur that would lead to acquittal. Pp. 5-8."
-                        +
-                        "The Government makes two errors in urging the adoption of a per se rule that a defendant with no viable defense cannot "
-                        +
-                        "show prejudice from the denial of his right to trial. First, it forgets that categorical rules are ill suited to an "
-                        +
-                        "inquiry that demands a \"case-by-case examination\" of the \"totality of the evidence.\" Williams v. Taylor,"
-                        +
-                        " 529 U. S. 362, 391 (internal quotation marks omitted); Strickland, 466 U. S., at 695. More fundamentally, "
-                        +
-                        "it overlooks that the Hill v. Lockhart inquiry focuses on a defendant's decisionmaking, which may not turn "
-                        +
-                        "solely on the likelihood of conviction after trial.";
+//        String text =
+//                "When a defendant claims that his counsel's deficient performance deprived him of a trial by causing him to accept a plea, the defendant can show prejudice by demonstrating a \"reasonable probability that,"
+//                        +
+//                        " but for counsel's errors, he would not have pleaded guilty and would have insisted on going to trial.\" Hill v. Lockhart,"
+//                        +
+//                        " 474 U. S. 52, 59.\n" +
+//                        "\n" +
+//                        "     Lee contends that he can make this showing because he never would have accepted a guilty plea had he known the "
+//                        +
+//                        "result would be deportation. The Government contends that Lee cannot show prejudice from accepting a plea where his only "
+//                        +
+//                        "hope at trial was that something unexpected and unpredictable might occur that would lead to acquittal. Pp. 5-8."
+//                        +
+//                        "The Government makes two errors in urging the adoption of a per se rule that a defendant with no viable defense cannot "
+//                        +
+//                        "show prejudice from the denial of his right to trial. First, it forgets that categorical rules are ill suited to an "
+//                        +
+//                        "inquiry that demands a \"case-by-case examination\" of the \"totality of the evidence.\" Williams v. Taylor,"
+//                        +
+//                        " 529 U. S. 362, 391 (internal quotation marks omitted); Strickland, 466 U. S., at 695. More fundamentally, "
+//                        +
+//                        "it overlooks that the Hill v. Lockhart inquiry focuses on a defendant's decisionmaking, which may not turn "
+//                        +
+//                        "solely on the likelihood of conviction after trial.";
 
         ArrayList<String> rawSentences = new ArrayList<>();
         Document doc = new Document(text);
