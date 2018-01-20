@@ -1,8 +1,10 @@
 package org.elixir.utils;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
+import org.elixir.models.Node;
 
 import java.io.*;
+import java.util.ArrayList;
 
 public class Utils {
 	public static String readFile(String fileName){
@@ -37,7 +39,7 @@ public class Utils {
 		}
 	}
 
-	public static void writeToJson(Object object) throws IOException {
+	public static void writeToJson(ArrayList<Node> nodes) throws IOException {
 		final String outputRootDirName = ".oblie";
 		final String outputFileName = "arguments.json";
 		String userHome = System.getProperty("user.home");
@@ -48,11 +50,11 @@ public class Utils {
 		ObjectMapper mapper = new ObjectMapper();
 
 		//Object to JSON in String
-		String jsonInString = mapper.writeValueAsString(object);
+		String jsonInString = mapper.writeValueAsString(nodes);
 		System.out.println("JSON as String: " + jsonInString);
 
 		//Object to JSON in file
-		mapper.writeValue(new File(filePath), object);
+		mapper.writeValue(new File(filePath), nodes);
 
 	}
 }
