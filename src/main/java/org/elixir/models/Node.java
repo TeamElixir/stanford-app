@@ -1,15 +1,15 @@
 package org.elixir.models;
 
-public class Argument {
+public class Node {
 	private long id;
 	private long parent;
 	private String argument;
 
-	public Argument() {
+	public Node() {
 
 	}
 
-	public Argument(long id, long parent, String argument) {
+	public Node(long id, long parent, String argument) {
 		this.id = id;
 		this.parent = parent;
 		this.argument = argument;

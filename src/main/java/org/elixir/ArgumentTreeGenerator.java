@@ -228,7 +228,8 @@ public class ArgumentTreeGenerator {
 		}
 
 		System.out.println("\n This is the terminal output");
-		for (String subject : currentSubjects) {
+		for (int j=0; j<currentSubjects.size();j++) {
+			String subject = currentSubjects.get(j);
 			System.out.println(subject + " arguments : ");
 			for (ArrayList<String> set1 : extractedArguments.get(currentSubjects.indexOf(subject))) {
 				System.out.println("\t" + set1.get(0));
