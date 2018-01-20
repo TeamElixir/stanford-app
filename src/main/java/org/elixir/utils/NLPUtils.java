@@ -30,7 +30,7 @@ public class NLPUtils {
 	}
 
 
-	public ArrayList getPersonList(CoreMap sentence){
+	public static ArrayList getPersonList(CoreMap sentence){
 
         ArrayList<String> personArray = new ArrayList<>();
 

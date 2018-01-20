@@ -8,6 +8,7 @@ import edu.stanford.nlp.pipeline.Annotation;
 import edu.stanford.nlp.pipeline.StanfordCoreNLP;
 import edu.stanford.nlp.util.CoreMap;
 import edu.stanford.nlp.simple.*;
+import org.elixir.utils.NLPUtils;
 import org.elixir.utils.Utils;
 
 import java.io.IOException;
@@ -30,6 +31,10 @@ public class ArgumentTreeGenerator {
 
 	private static String finalRawSentence;
 
+	private static CoreMap lastAnnotatedSentence = null;
+
+	private static ArrayList<String> persons = new ArrayList<>();
+
 	public static ArrayList<ArrayList<ArrayList<String>>> getExtractedArguments() {
 		return extractedArguments;
 	}
@@ -43,12 +48,12 @@ public class ArgumentTreeGenerator {
 
 		// read some text in the text variable
 		String text =
-				"When a defendant claims that his counsel's deficient performance deprived him of a trial by causing him to accept a plea, the defendant can show prejudice by demonstrating a \"reasonable probability that,"
+				/*"When a defendant claims that his counsel's deficient performance deprived him of a trial by causing him to accept a plea, the defendant can show prejudice by demonstrating a \"reasonable probability that,"
 						+
 						" but for counsel's errors, he would not have pleaded guilty and would have insisted on going to trial.\" Hill v. Lockhart,"
 						+
 						" 474 U. S. 52, 59.\n" +
-						"\n" +
+						"\n" +*/
 						"     Lee contends that he can make this showing because he never would have accepted a guilty plea had he known the "
 						+
 						"result would be deportation. The Government contends that Lee cannot show prejudice from accepting a plea where his only "
@@ -104,6 +109,8 @@ public class ArgumentTreeGenerator {
 			List<CoreMap> sentences = document.get(CoreAnnotations.SentencesAnnotation.class);
 
 			for (CoreMap sentence : sentences) {
+
+				lastAnnotatedSentence = sentence;
 
 				ArrayList<Integer> sentenceAdded = new ArrayList<>();
 
@@ -194,22 +201,30 @@ public class ArgumentTreeGenerator {
 
 			}
 
-			if (!hasSubject && lastSubjects.size() > 0 && lastSentence != null && !sentenceAdded2) {
+			if (!hasSubject && lastSentence != null && !sentenceAdded2) {
+				if (lastSubjects.size() > 0) {
 
-				for (Integer subject : lastSubjects) {
+					for (Integer subject : lastSubjects) {
 
-					int lastArgumentIndex = extractedArguments.get(subject).size() - 1;
-					extractedArguments.get(subject).get(lastArgumentIndex).add(lastSentence);
+						int lastArgumentIndex = extractedArguments.get(subject).size() - 1;
+						extractedArguments.get(subject).get(lastArgumentIndex).add(lastSentence);
 
+					}
+					sentenceAdded2 = true;
+					lastSentence = null;
+				} else {
+					if (lastAnnotatedSentence != null) {
+						ArrayList<String> localPersons = NLPUtils.getPersonList(lastAnnotatedSentence);
+						for (String localPerson:localPersons) {
+							persons.add(localPerson);
+						}
+					}
 				}
-				sentenceAdded2 = true;
-				lastSentence = null;
 			}
 
 			System.out.println("currentSubjects : " + currentSubjects.toString());
 			System.out.println("argumentsList : " + extractedArguments.toString());
 			System.out.println("lastSubjects : " + lastSubjects.toString());
-
 		}
 
 		System.out.println("\n This is the terminal output");
@@ -223,6 +238,8 @@ public class ArgumentTreeGenerator {
 			}
 		}
 
+		System.out.println("\n This is person list");
+		System.out.println(persons.toString());
 		try {
 			Utils.writeToJson(extractedArguments);
 		}
