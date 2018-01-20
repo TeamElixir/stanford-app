@@ -1,8 +1,16 @@
 package org.elixir.models;
 
+import com.fasterxml.jackson.annotation.JsonProperty;
+
 public class Node {
+
+    @JsonProperty("key")
 	private String id;
+
+    @JsonProperty("parent")
 	private String parent;
+
+    @JsonProperty("name")
 	private String argument;
 
 	public Node() {

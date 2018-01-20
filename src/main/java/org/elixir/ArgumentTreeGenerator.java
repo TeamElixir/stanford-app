@@ -233,6 +233,7 @@ public class ArgumentTreeGenerator {
         System.out.println("\n This is the terminal output");
 
         Node rootNode = new Node("-1", "", "Title");
+        // TODO: Replace 'title' with the 'held' part or the like
         nodes.add(rootNode);
         for (int j = 0; j < currentSubjects.size(); j++) {
             String subject = currentSubjects.get(j);
