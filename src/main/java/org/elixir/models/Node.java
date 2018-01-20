@@ -1,33 +1,42 @@
 package org.elixir.models;
 
 public class Node {
-	private long id;
-	private long parent;
+	private String id;
+	private String parent;
 	private String argument;
 
 	public Node() {
 
 	}
 
-	public Node(long id, long parent, String argument) {
+	@Override
+	public String toString() {
+		return "Node{" +
+				"id='" + id + '\'' +
+				", parent='" + parent + '\'' +
+				", argument='" + argument + '\'' +
+				'}';
+	}
+
+	public Node(String id, String parent, String argument) {
 		this.id = id;
 		this.parent = parent;
 		this.argument = argument;
 	}
 
-	public long getId() {
+	public String getId() {
 		return id;
 	}
 
-	public void setId(long id) {
+	public void setId(String id) {
 		this.id = id;
 	}
 
-	public long getParent() {
+	public String getParent() {
 		return parent;
 	}
 
-	public void setParent(long parent) {
+	public void setParent(String parent) {
 		this.parent = parent;
 	}
 

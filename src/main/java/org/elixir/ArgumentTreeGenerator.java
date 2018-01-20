@@ -8,6 +8,7 @@ import edu.stanford.nlp.pipeline.Annotation;
 import edu.stanford.nlp.pipeline.StanfordCoreNLP;
 import edu.stanford.nlp.util.CoreMap;
 import edu.stanford.nlp.simple.*;
+import org.elixir.models.Node;
 import org.elixir.utils.NLPUtils;
 import org.elixir.utils.Utils;
 
@@ -35,6 +36,8 @@ public class ArgumentTreeGenerator {
 
 	private static ArrayList<String> persons = new ArrayList<>();
 
+	private static ArrayList<Node> nodes =new ArrayList<>();
+
 	public static ArrayList<ArrayList<ArrayList<String>>> getExtractedArguments() {
 		return extractedArguments;
 	}
@@ -48,12 +51,12 @@ public class ArgumentTreeGenerator {
 
 		// read some text in the text variable
 		String text =
-				/*"When a defendant claims that his counsel's deficient performance deprived him of a trial by causing him to accept a plea, the defendant can show prejudice by demonstrating a \"reasonable probability that,"
+					"When a defendant claims that his counsel's deficient performance deprived him of a trial by causing him to accept a plea, the defendant can show prejudice by demonstrating a \"reasonable probability that,"
 						+
 						" but for counsel's errors, he would not have pleaded guilty and would have insisted on going to trial.\" Hill v. Lockhart,"
 						+
 						" 474 U. S. 52, 59.\n" +
-						"\n" +*/
+						"\n" +
 						"     Lee contends that he can make this showing because he never would have accepted a guilty plea had he known the "
 						+
 						"result would be deportation. The Government contends that Lee cannot show prejudice from accepting a plea where his only "
@@ -230,10 +233,20 @@ public class ArgumentTreeGenerator {
 		System.out.println("\n This is the terminal output");
 		for (int j=0; j<currentSubjects.size();j++) {
 			String subject = currentSubjects.get(j);
+			String subjectId = Integer.toString(j);
+			Node subjectNode = new Node(subjectId,"-1",subject);
+			nodes.add(subjectNode);
 			System.out.println(subject + " arguments : ");
-			for (ArrayList<String> set1 : extractedArguments.get(currentSubjects.indexOf(subject))) {
+			for(int k=0; k<extractedArguments.get(currentSubjects.indexOf(subject)).size();k++){
+				ArrayList<String> set1 = extractedArguments.get(currentSubjects.indexOf(subject)).get(k);
 				System.out.println("\t" + set1.get(0));
+				String argumentId = Integer.toString(j)+Integer.toString(k);
+				Node argumentNode=new Node(argumentId,subjectId,set1.get(0));
+				nodes.add(argumentNode);
 				for (int i = 1; i < set1.size(); i++) {
+					String conditionId = Integer.toString(j)+Integer.toString(k)+Integer.toString(i);
+					Node conditionNode = new Node(conditionId,argumentId,set1.get(i).substring(3));
+					nodes.add(conditionNode);
 					System.out.println("\t" + "\t" + set1.get(i).substring(3));
 				}
 			}
@@ -241,6 +254,13 @@ public class ArgumentTreeGenerator {
 
 		System.out.println("\n This is person list");
 		System.out.println(persons.toString());
+		System.out.println("\n This is nodes list");
+		System.out.println("\n ");
+		System.out.println("Nodes: ");
+		for (Node node : nodes) {
+			System.out.println(node);
+		}
+
 		try {
 			Utils.writeToJson(extractedArguments);
 		}
