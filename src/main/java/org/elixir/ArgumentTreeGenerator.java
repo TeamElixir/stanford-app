@@ -50,7 +50,7 @@ public class ArgumentTreeGenerator {
         props.setProperty("annotators", "tokenize,ssplit,pos,lemma,depparse,natlog, openie, ner");
         StanfordCoreNLP pipeline = new StanfordCoreNLP(props);
 
-       /* String filePath = new File("").getAbsolutePath();
+        String filePath = new File("").getAbsolutePath();
         filePath+="/src/main/resources/case1.txt";
         String textRaw = Utils.readFile(filePath);
 
@@ -66,10 +66,10 @@ public class ArgumentTreeGenerator {
 
         // Held: paragraph
         String held = splitted[0].split("Held: ")[1];
-        System.out.println(held);*/
+        System.out.println(held);
 
          //read some text in the text variable
-        String text =
+       /* String text =
                 "When a defendant claims that his counsel's deficient performance deprived him of a trial by causing him to accept a plea, the defendant can show prejudice by demonstrating a \"reasonable probability that,"
                         +
                         " but for counsel's errors, he would not have pleaded guilty and would have insisted on going to trial.\" Hill v. Lockhart,"
@@ -92,7 +92,7 @@ public class ArgumentTreeGenerator {
                         +
                         "it overlooks that the Hill v. Lockhart inquiry focuses on a defendant's decisionmaking, which may not turn "
                         +
-                        "solely on the likelihood of conviction after trial.";
+                        "solely on the likelihood of conviction after trial.";*/
 
         ArrayList<String> rawSentences = new ArrayList<>();
         Document doc = new Document(text);
@@ -265,7 +265,7 @@ public class ArgumentTreeGenerator {
 
         System.out.println("\n This is the terminal output");
 
-        Node rootNode = new Node("-1", "", "Title");
+        Node rootNode = new Node("-1", "", held);
         // TODO: Replace 'title' with the 'held' part or the like
         nodes.add(rootNode);
         for (int j = 0; j < currentSubjects.size(); j++) {
