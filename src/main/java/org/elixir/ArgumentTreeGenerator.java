@@ -50,7 +50,7 @@ public class ArgumentTreeGenerator {
         props.setProperty("annotators", "tokenize,ssplit,pos,lemma,depparse,natlog, openie, ner");
         StanfordCoreNLP pipeline = new StanfordCoreNLP(props);
 
-        String filePath = new File("").getAbsolutePath();
+       /* String filePath = new File("").getAbsolutePath();
         filePath+="/src/main/resources/case1.txt";
         String textRaw = Utils.readFile(filePath);
 
@@ -66,33 +66,33 @@ public class ArgumentTreeGenerator {
 
         // Held: paragraph
         String held = splitted[0].split("Held: ")[1];
-        System.out.println(held);
+        System.out.println(held);*/
 
-        // read some text in the text variable
-//        String text =
-//                "When a defendant claims that his counsel's deficient performance deprived him of a trial by causing him to accept a plea, the defendant can show prejudice by demonstrating a \"reasonable probability that,"
-//                        +
-//                        " but for counsel's errors, he would not have pleaded guilty and would have insisted on going to trial.\" Hill v. Lockhart,"
-//                        +
-//                        " 474 U. S. 52, 59.\n" +
-//                        "\n" +
-//                        "     Lee contends that he can make this showing because he never would have accepted a guilty plea had he known the "
-//                        +
-//                        "result would be deportation. The Government contends that Lee cannot show prejudice from accepting a plea where his only "
-//                        +
-//                        "hope at trial was that something unexpected and unpredictable might occur that would lead to acquittal. Pp. 5-8."
-//                        +
-//                        "The Government makes two errors in urging the adoption of a per se rule that a defendant with no viable defense cannot "
-//                        +
-//                        "show prejudice from the denial of his right to trial. First, it forgets that categorical rules are ill suited to an "
-//                        +
-//                        "inquiry that demands a \"case-by-case examination\" of the \"totality of the evidence.\" Williams v. Taylor,"
-//                        +
-//                        " 529 U. S. 362, 391 (internal quotation marks omitted); Strickland, 466 U. S., at 695. More fundamentally, "
-//                        +
-//                        "it overlooks that the Hill v. Lockhart inquiry focuses on a defendant's decisionmaking, which may not turn "
-//                        +
-//                        "solely on the likelihood of conviction after trial.";
+         //read some text in the text variable
+        String text =
+                "When a defendant claims that his counsel's deficient performance deprived him of a trial by causing him to accept a plea, the defendant can show prejudice by demonstrating a \"reasonable probability that,"
+                        +
+                        " but for counsel's errors, he would not have pleaded guilty and would have insisted on going to trial.\" Hill v. Lockhart,"
+                        +
+                        " 474 U. S. 52, 59.\n" +
+                        "\n" +
+                        "     Lee contends that he can make this showing because he never would have accepted a guilty plea had he known the "
+                        +
+                        "result would be deportation. The Government contends that Lee cannot show prejudice from accepting a plea where his only "
+                        +
+                        "hope at trial was that something unexpected and unpredictable might occujava -Xmx1024m com.xyz.TheClassNamer that would lead to acquittal. Pp. 5-8."
+                        +
+                        "The Government makes two errors in urging the adoption of a per se rule that a defendant with no viable defense cannot "
+                        +
+                        "show prejudice from the denial of his right to trial. First, it forgets that categorical rules are ill suited to an "
+                        +
+                        "inquiry that demands a \"case-by-case examination\" of the \"totality of the evidence.\" Williams v. Taylor,"
+                        +
+                        " 529 U. S. 362, 391 (internal quotation marks omitted); Strickland, 466 U. S., at 695. More fundamentally, "
+                        +
+                        "it overlooks that the Hill v. Lockhart inquiry focuses on a defendant's decisionmaking, which may not turn "
+                        +
+                        "solely on the likelihood of conviction after trial.";
 
         ArrayList<String> rawSentences = new ArrayList<>();
         Document doc = new Document(text);
@@ -237,9 +237,23 @@ public class ArgumentTreeGenerator {
                 } else {
                     if (lastAnnotatedSentence != null) {
                         ArrayList<String> localPersons = NLPUtils.getPersonList(lastAnnotatedSentence);
-                        for (String localPerson : localPersons) {
-                            persons.add(localPerson);
+
+                        if(localPersons.size()>0) {
+                            String localPerson = localPersons.get(0);
+                            if(!persons.contains(localPerson) && !currentSubjects.contains(localPerson)) {
+                                persons.add(localPerson);
+                                currentSubjects.add(localPerson);
+                                if (currentSubjects.indexOf(localPerson)!=-1){
+                                    ArrayList<ArrayList<String>> argumentList = new ArrayList<>();
+                                    ArrayList<String> subjectArgumentList = new ArrayList<>();
+                                    subjectArgumentList.add(rawSentence);
+                                    argumentList.add(subjectArgumentList);
+                                    extractedArguments.add(argumentList);
+                                }
+                            }
                         }
+
+
                     }
                 }
             }
