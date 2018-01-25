@@ -27,6 +27,13 @@
         <!--</dependency>-->
 
 
+        <!--OWL API-->
+        <dependency>
+            <groupId>net.sourceforge.owlapi</groupId>
+            <artifactId>owlapi-api</artifactId>
+            <version>5.1.4</version>
+        </dependency>
+
         <!-- https://mvnrepository.com/artifact/org.glassfish.jersey.core/jersey-client -->
         <dependency>
             <groupId>org.glassfish.jersey.core</groupId>
