@@ -49,6 +49,7 @@ public class WordNetApp {
 
 		try {
 			// Load the WordNer plugin
+			System.out.println("Gate home: " + Gate.getGateHome());
 			Gate.getCreoleRegister().registerDirectories(
 					new File(Gate.getGateHome().getAbsolutePath()
 							+ "/plugins/WordNet").toURI().toURL());

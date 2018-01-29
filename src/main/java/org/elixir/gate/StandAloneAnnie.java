@@ -31,6 +31,7 @@ import gate.corpora.RepositioningInfo;
 import gate.util.GateException;
 import gate.util.Out;
 import gate.util.persistence.PersistenceManager;
+import org.elixir.Constants;
 
 import java.io.File;
 import java.io.FileWriter;
@@ -100,6 +101,7 @@ public class StandAloneAnnie {
 	public static void main(String args[]) throws GateException, IOException {
 		// initialise the GATE library
 		Out.prln("Initialising GATE...");
+		Gate.setGateHome(new File(Constants.GATE_HOME));
 		Gate.init();
 		Out.prln("...GATE initialised");
 
