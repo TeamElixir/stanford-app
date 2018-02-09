@@ -19,28 +19,28 @@ import java.util.*;
 public class ArgumentTreeGenerator {
 
     private static final ArrayList<String> SUBJECT_LIST = new ArrayList<>(
-            Arrays.asList("Petitioner", "Government", "Defendant"));
+            Arrays.asList("Petitioner", "Government", "Defendant"));                        //an Array to store the names of Legal Persons
 
-    private static ArrayList<String> currentSubjects = new ArrayList<>();
+    private static ArrayList<String> currentSubjects = new ArrayList<>();                   //an Array to store the parties in the current court case
 
-    private static ArrayList<ArrayList<ArrayList<String>>> extractedArguments = new ArrayList<>();
+    private static ArrayList<ArrayList<ArrayList<String>>> extractedArguments = new ArrayList<>();    //an Array list which keeps the extracted arguments
 
-    private static ArrayList<Integer> lastSubjects = new ArrayList<>();
+    private static ArrayList<Integer> lastSubjects = new ArrayList<>();                    //an Array to store the recently appeared subjects
 
-    private static boolean hasSubject = false;
+    private static boolean hasSubject = false;                                              //to find out whether the current sentence has a subject
 
-    private static String lastSentence = null;
+    private static String lastSentence = null;                                              //to keep track on previous sentence
 
     private static String finalRawSentence;
 
-    private static CoreMap lastAnnotatedSentence = null;
+    private static CoreMap lastAnnotatedSentence = null;                                   //to keep track on the most recent annotated sentence
 
-    private static ArrayList<String> persons = new ArrayList<>();
+    private static ArrayList<String> persons = new ArrayList<>();                          //to keep track of persons presented in names
 
-    private static ArrayList<Node> nodes = new ArrayList<>();
+    private static ArrayList<Node> nodes = new ArrayList<>();                              //nodes of the argument tree
 
     public static ArrayList<ArrayList<ArrayList<String>>> getExtractedArguments() {
-        return extractedArguments;
+        return extractedArguments;                                                         //extracted arguments
     }
 
     public static void main(String[] args) {
@@ -51,7 +51,7 @@ public class ArgumentTreeGenerator {
         StanfordCoreNLP pipeline = new StanfordCoreNLP(props);
 
         String filePath = new File("").getAbsolutePath();
-        filePath+="/src/main/resources/case1.txt";
+        filePath+="/src/main/resources/case1.txt";                                                  //read case
         String textRaw = Utils.readFile(filePath);
 
         String[] splitted = textRaw.split("\n");
@@ -98,12 +98,12 @@ public class ArgumentTreeGenerator {
         Document doc = new Document(text);
         List<Sentence> sentences1 = doc.sentences();
         for (Sentence sentence : sentences1) {
-            rawSentences.add(sentence.toString());
+            rawSentences.add(sentence.toString());                          //extract the sentences in the given case
         }
 
         for (String rawSentence : rawSentences) {
 
-            String ss = rawSentence.replaceAll("(that,|that|'s)", "");
+            String ss = rawSentence.replaceAll("(that,|that|'s)", "");            //replace words that misleads triple extraction
             finalRawSentence = rawSentences.get(rawSentences.size() - 1);
             boolean sentenceAdded2 = false;
 
@@ -117,9 +117,10 @@ public class ArgumentTreeGenerator {
                 lastSentence=null;
             }*/
 
-            hasSubject = false;
+            //still no idea whether the sentence has a subject
+			hasSubject = false;
 
-            System.out.println("splitted sentence : " + ss);
+
             // create an empty Annotation just with the given text
             Annotation document = new Annotation(ss);
 
@@ -134,6 +135,8 @@ public class ArgumentTreeGenerator {
 
                 lastAnnotatedSentence = sentence;
 
+
+                //keep track for which subjects the sentence is belonged to
                 ArrayList<Integer> sentenceAdded = new ArrayList<>();
 
                 String rawSentence1 = sentence.get(CoreAnnotations.TextAnnotation.class);
@@ -149,58 +152,108 @@ public class ArgumentTreeGenerator {
                     //System.out.println(word + " " + pos + " " + ne);
                 }
 
+
+
+                //extracting triples from the sentence
+
                 Collection<RelationTriple> triples =
                         sentence.get(NaturalLogicAnnotations.RelationTriplesAnnotation.class);
-                // Print the triples
+
                 for (RelationTriple triple : triples) {
-                    /*System.out.println(triple.confidence + "\t" +
-                            triple.subjectLemmaGloss() + "\t" +
-                            triple.relationLemmaGloss() + "\t" +
-                            triple.objectLemmaGloss());*/
+
                     String sentenceSubject = triple.subjectLemmaGloss();
-                    //					System.out.println("subject : " + sentenceSubject);
+
                     for (int i = 0; i < SUBJECT_LIST.size(); i++) {
 
+                        // check whether the sentenceSubject is in SUBJECT_LIST
+
                         if (sentenceSubject.toLowerCase().indexOf(SUBJECT_LIST.get(i).toLowerCase()) != -1) {
-                            // sentenceSubject is in SUBJECT_LIST
+
+                            //this sentence has a subject, therefore no need to keep track of last subjects, the sentence is already connected to this subject
 
                             if (!hasSubject) {
                                 lastSubjects.clear();
                             }
 
-                            System.out.println("true : + " + SUBJECT_LIST.get(i));
+                            //keeping track of the subject of this sentence
                             String currentSubject = SUBJECT_LIST.get(i);
+
+
                             int currentSubjectIndex = -1;
 
+
+                            //check whether this subject is already not in this case
                             if (!currentSubjects.contains(currentSubject)) {
+
+                                //add the subject to current subjects list of this case
                                 currentSubjects.add(currentSubject);
+
+
+                                //creates a list for the subject (which is new) an arraylist to store argument lists which belongs to the subject
                                 ArrayList<ArrayList<String>> argumentList = new ArrayList<>();
+
+                                //creates a list to store an argument which belongs to this subject, this list may also contains sentences which supports this argument
                                 ArrayList<String> subjectArgumentList = new ArrayList<>();
+
+                                //add the sentence as it is in raw sentence
                                 subjectArgumentList.add(rawSentence);
+
                                 argumentList.add(subjectArgumentList);
+
+                                //add the list of argumentlist which belongs to this subject for the list which contains all the extracted arguments
                                 extractedArguments.add(argumentList);
+
+                                //get the index of the current subject in the list which contains the subjects of this case
                                 currentSubjectIndex = currentSubjects.indexOf(currentSubject);
-                                System.out.println("Subject Index : " + currentSubjectIndex);
+
+                                //to keep track that this particular sentence was already added as a sentence which is belonged to this subject
                                 sentenceAdded.add(currentSubjectIndex);
+
+                                //add the subject to last subjects, will be helpful when appending sentences
                                 if (!lastSubjects.contains(currentSubjectIndex)) {
                                     lastSubjects.add(currentSubjectIndex);
                                 }
+
+                                //keep track that this sentence already has subject
                                 hasSubject = true;
-                            } else {
+                            }
+                            //when the subject is already in the current subject list of this court case what is needed to be done
+                            else {
+
+                                //find out the index of the subject in the current subject list of this court case
                                 currentSubjectIndex = currentSubjects.indexOf(currentSubject);
+
+                                //if this sentence is not added as a sentence which belongs to this subject, following
+                                // tasks have to be performed. This is because one sentence can generate multiple
+                                // triples. As a result there will be more than one triple with the same subject for a
+                                // particular sentence. So the if condition is to remove the redundancy.
                                 if (!sentenceAdded.contains(currentSubjectIndex)) {
+                                    // add a new argument list, in which supporting sentences can be appended
                                     ArrayList<String> subjectArgumentList = new ArrayList<>();
                                     subjectArgumentList.add(rawSentence);
+
+                                    //add this argument list to the list of argument lists which is
+                                    // belong to this subject
                                     extractedArguments.get(currentSubjectIndex).add(subjectArgumentList);
+
+                                    //to keep track that this particular sentence was already added as a sentence which
+                                    // is belonged to this subject
                                     sentenceAdded.add(currentSubjectIndex);
+
+                                    //add the subject to last subjects, will be helpful when appending sentences
                                     if (!lastSubjects.contains(currentSubjectIndex)) {
                                         lastSubjects.add(currentSubjectIndex);
                                     }
+
+                                    //keep track that this sentence already has subject
                                     hasSubject = true;
                                 }
                             }
 
                         } else {
+
+                            //the subject of this sentence is not a legal person, so add this as the mostrecentsentence
+
                             lastSentence = "A : " + rawSentence;
                         }/*else{
 						    if(!hasSubject) {
@@ -223,8 +276,20 @@ public class ArgumentTreeGenerator {
 
             }
 
+
+            //check whether the sentence has a subject, has a previous sentence and whether this sentence is already added.
+            //if a sentence doesn't have a subject which is a legal person, has not added already,
+            // that means this is a new sentence. As subject is not a legal person, the sentence may or may have another
+            // subject(name of a person).
+
             if (!hasSubject && lastSentence != null && !sentenceAdded2) {
+
+                //if there is a previous sentence and that previous sentence has a subject ot that previous sentence is
+                //a descendant of a sentence which has a subject, this sentence will also be appended as a descendant of
+                // that sentence. (if there are more than one subject, this will cover all these subjects)
+
                 if (lastSubjects.size() > 0) {
+
 
                     for (Integer subject : lastSubjects) {
 
@@ -233,16 +298,28 @@ public class ArgumentTreeGenerator {
 
                     }
                     sentenceAdded2 = true;
+
+                    //clear the sentence
                     lastSentence = null;
                 } else {
+
+
                     if (lastAnnotatedSentence != null) {
+
+                        //check whether the subject of this sentence is a name of a person
                         ArrayList<String> localPersons = NLPUtils.getPersonList(lastAnnotatedSentence);
 
                         if(localPersons.size()>0) {
+
+                            //first person is taken as the subject
                             String localPerson = localPersons.get(0);
+
                             if(!persons.contains(localPerson) && !currentSubjects.contains(localPerson)) {
                                 persons.add(localPerson);
+
+                                //add the person as a subject in this case
                                 currentSubjects.add(localPerson);
+
                                 if (currentSubjects.indexOf(localPerson)!=-1){
                                     ArrayList<ArrayList<String>> argumentList = new ArrayList<>();
                                     ArrayList<String> subjectArgumentList = new ArrayList<>();
@@ -250,6 +327,7 @@ public class ArgumentTreeGenerator {
                                     argumentList.add(subjectArgumentList);
                                     extractedArguments.add(argumentList);
                                 }
+
                             }
                         }
 
