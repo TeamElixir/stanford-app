@@ -380,7 +380,7 @@ public class ArgumentTreeGenerator {
                 for (int i = 1; i < set1.size(); i++) {
 
                     String conditionId = Integer.toString(j) + Integer.toString(k) + Integer.toString(i);
-                    Node conditionNode = new Node(conditionId, argumentId, set1.get(i).substring(3));
+                    Node conditionNode = new Node(conditionId, argumentId, set1.get(i));
                     nodes.add(conditionNode);
 
                     System.out.println("\t" + "\t" + set1.get(i).substring(3));
