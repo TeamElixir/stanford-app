@@ -43,6 +43,10 @@ public class ArgumentTreeGenerator {
         return extractedArguments;                                                         //extracted arguments
     }
 
+    public static ArrayList<String> sentences69 = new ArrayList<>();
+
+    public static boolean alreadyAdded = false;
+
     public static void main(String[] args) {
 
         // creates a StanfordCoreNLP object, with POS tagging, lemmatization, NER, parsing, and coreference resolution
@@ -51,7 +55,7 @@ public class ArgumentTreeGenerator {
         StanfordCoreNLP pipeline = new StanfordCoreNLP(props);
 
         String filePath = new File("").getAbsolutePath();
-        filePath+="/src/main/resources/case1.txt";                                                  //read case
+        filePath+="/src/main/resources/case2.txt";                                                  //read case
         String textRaw = Utils.readFile(filePath);
 
         String[] splitted = textRaw.split("\n");
@@ -106,6 +110,9 @@ public class ArgumentTreeGenerator {
             String ss = rawSentence.replaceAll("(that,|that|'s)", "");            //replace words that misleads triple extraction
             finalRawSentence = rawSentences.get(rawSentences.size() - 1);
             boolean sentenceAdded2 = false;
+            boolean alreadyAdded = false;
+
+
 
 			/*if(!hasSubject && lastSubjects.size()>0 && lastSentence!=null){
                 for (Integer subject : lastSubjects) {
@@ -135,6 +142,7 @@ public class ArgumentTreeGenerator {
 
                 lastAnnotatedSentence = sentence;
 
+                sentences69.add(sentence.toString());
 
                 //keep track for which subjects the sentence is belonged to
                 ArrayList<Integer> sentenceAdded = new ArrayList<>();
@@ -216,6 +224,8 @@ public class ArgumentTreeGenerator {
 
                                 //keep track that this sentence already has subject
                                 hasSubject = true;
+                                alreadyAdded=true;
+
                             }
                             //when the subject is already in the current subject list of this court case what is needed to be done
                             else {
@@ -247,14 +257,16 @@ public class ArgumentTreeGenerator {
 
                                     //keep track that this sentence already has subject
                                     hasSubject = true;
+                                    alreadyAdded = true;
                                 }
                             }
 
                         } else {
 
-                            //the subject of this sentence is not a legal person, so add this as the mostrecentsentence
+                            //the subject of this sentence is not a legal person, so add this as the most recent sentence
 
-                            lastSentence = "A : " + rawSentence;
+                                lastSentence = "A : " + rawSentence;
+
                         }/*else{
 						    if(!hasSubject) {
                                 if (lastSubjects.size() > 0) {
@@ -282,7 +294,7 @@ public class ArgumentTreeGenerator {
             // that means this is a new sentence. As subject is not a legal person, the sentence may or may have another
             // subject(name of a person).
 
-            if (!hasSubject && lastSentence != null && !sentenceAdded2) {
+            if ( !alreadyAdded && !hasSubject && lastSentence != null && !sentenceAdded2) {
 
                 //if there is a previous sentence and that previous sentence has a subject ot that previous sentence is
                 //a descendant of a sentence which has a subject, this sentence will also be appended as a descendant of
@@ -294,7 +306,7 @@ public class ArgumentTreeGenerator {
                     for (Integer subject : lastSubjects) {
 
                         int lastArgumentIndex = extractedArguments.get(subject).size() - 1;
-                        extractedArguments.get(subject).get(lastArgumentIndex).add(lastSentence);
+                        extractedArguments.get(subject).get(lastArgumentIndex).add(rawSentence);
 
                     }
                     sentenceAdded2 = true;
@@ -330,6 +342,9 @@ public class ArgumentTreeGenerator {
 
                             }
                         }
+
+
+                        lastSentence = null;
 
 
                     }
@@ -381,6 +396,17 @@ public class ArgumentTreeGenerator {
         for (Node node : nodes) {
             System.out.println(node);
         }
+
+        System.out.println("This is raw sentences list");
+        for (String rawSentence : rawSentences) {
+            System.out.println(rawSentence);
+        }
+
+        System.out.println("This is sentences list");
+        for (String sentence : sentences69) {
+            System.out.println(sentence);
+        }
+
 
         try {
             Utils.writeToJson(nodes);
