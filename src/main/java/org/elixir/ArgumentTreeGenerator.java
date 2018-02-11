@@ -21,6 +21,9 @@ public class ArgumentTreeGenerator {
     private static final ArrayList<String> SUBJECT_LIST = new ArrayList<>(
             Arrays.asList("Petitioner", "Government", "Defendant"));                        //an Array to store the names of Legal Persons
 
+
+
+
     private static ArrayList<String> currentSubjects = new ArrayList<>();                   //an Array to store the parties in the current court case
 
     private static ArrayList<ArrayList<ArrayList<String>>> extractedArguments = new ArrayList<>();    //an Array list which keeps the extracted arguments
@@ -37,7 +40,7 @@ public class ArgumentTreeGenerator {
 
     private static ArrayList<String> persons = new ArrayList<>();                          //to keep track of persons presented in names
 
-    private static ArrayList<Node> nodes = new ArrayList<>();                              //nodes of the argument tree
+    public static ArrayList<Node> nodes = new ArrayList<>();                              //nodes of the argument tree
 
     public static ArrayList<ArrayList<ArrayList<String>>> getExtractedArguments() {
         return extractedArguments;                                                         //extracted arguments
@@ -55,7 +58,7 @@ public class ArgumentTreeGenerator {
         StanfordCoreNLP pipeline = new StanfordCoreNLP(props);
 
         String filePath = new File("").getAbsolutePath();
-        filePath+="/src/main/resources/case2.txt";                                                  //read case
+        filePath+="/src/main/resources/case1.txt";                                                  //read case
         String textRaw = Utils.readFile(filePath);
 
         String[] splitted = textRaw.split("\n");
@@ -294,7 +297,7 @@ public class ArgumentTreeGenerator {
             // that means this is a new sentence. As subject is not a legal person, the sentence may or may have another
             // subject(name of a person).
 
-            if ( !alreadyAdded && !hasSubject && lastSentence != null && !sentenceAdded2) {
+            if (  !hasSubject && lastSentence != null && !sentenceAdded2) {
 
                 //if there is a previous sentence and that previous sentence has a subject ot that previous sentence is
                 //a descendant of a sentence which has a subject, this sentence will also be appended as a descendant of
@@ -407,6 +410,9 @@ public class ArgumentTreeGenerator {
             System.out.println(sentence);
         }
 
+        NodeRelationsDeterminer.initialize();
+        NodeRelationsDeterminer.checkRelationships();
+        nodes = NodeRelationsDeterminer.nodesRelations;
 
         try {
             Utils.writeToJson(nodes);
@@ -414,6 +420,8 @@ public class ArgumentTreeGenerator {
             System.out.println("Error writing extracted arguments to JSON file");
             e.printStackTrace();
         }
+
+
     }   // main
 
 }
