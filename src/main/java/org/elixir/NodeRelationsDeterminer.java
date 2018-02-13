@@ -20,7 +20,7 @@ public class NodeRelationsDeterminer {
     };
 
     private static final ArrayList<String> transitionWords = new ArrayList<>(
-            Arrays.asList("To"));
+            Arrays.asList("To make that"));
 
     static String previousSentence = null;
             //"Such \"evidence is 'material' . . . when there is a reasonable probability  had the evidence been disclosed, the result of the proceeding would have been different.\"";
@@ -49,6 +49,9 @@ public class NodeRelationsDeterminer {
                 previousSentence = nodesRelations.get(i-1).getArgument();
                 previousArgumentId=nodesRelations.get(i-1).getId();
                 regexResult = checkElaborationRegex(arg,node);
+                if(!regexResult){
+                    checkTransitionRelation(arg,node);
+                }
 
 
                 System.out.println(regexMatches.toString());
@@ -97,6 +100,14 @@ public class NodeRelationsDeterminer {
     }
 
     public static void checkTransitionRelation(String argument, Node node){
+
+        for(int i=0;i<transitionWords.size();i++){
+            if(argument.toLowerCase().indexOf(transitionWords.get(i).toLowerCase()) != -1){
+                node.setParent(previousArgumentId);
+                System.out.println("found transition: "+argument);
+            }
+
+        }
 
     }
 
