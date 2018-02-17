@@ -13,6 +13,10 @@ public class Node {
     @JsonProperty("name")
 	private String argument;
 
+    @JsonProperty("type")
+    private String type;
+
+	// default constructor needed for parsing JSON
 	public Node() {
 
 	}
@@ -23,7 +27,12 @@ public class Node {
 				"id='" + id + '\'' +
 				", parent='" + parent + '\'' +
 				", argument='" + argument + '\'' +
+				", type='" + type + '\'' +
 				'}';
+	}
+
+	public void setType(String type) {
+		this.type = type;
 	}
 
 	public Node(String id, String parent, String argument) {
