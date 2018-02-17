@@ -15,51 +15,63 @@ public class CaseLawStatementExtractor {
     //extract all caseList where multiple citations are in the same sentence
     //The cited case when citation is given as Id.
     //solve if the petitoners, defendant name is not a single word
-    private String[] extractUsingDirectCitation(String sentence) {
+    private ArrayList<String> extractUsingDirectCitation(String sentence) {
         String[] words = sentence.split(" ");
-        String[] outputArray = new String[2];
+        ArrayList<String> outputCitation = new ArrayList<>();
+
         for (int i = 1; i < words.length - 1; i++) {
             if (words[i].equals("v.")) {
                 caseList.add(new String(words[i - 1].replaceAll("[^a-zA-Z]", "")));
                 caseList.add(new String(words[i + 1].replaceAll("[^a-zA-Z]", "")));
-                outputArray[1] = words[i-1]+" v. "+words[i+1];
-                if (sentence.contains("See") || sentence.contains("see")) {
-                    outputArray[0] = "see";
-                } else {
-                    outputArray[0] = "true";
+                if (sentence.toLowerCase().contains("See")) {
+                    outputCitation.add("see");
+                }else if(i==1){
+                    outputCitation.add("prev");
                 }
-                prevCase = outputArray[1];
-                return outputArray;
+                else {
+                    outputCitation.add("true");
+                }
+                outputCitation.add(words[i-1]+" v. "+words[i+1]);
+                for (int j=i+1; j<words.length - 1; j++){
+                    if(words[j].equals("v.")){
+                        caseList.add(new String(words[j - 1].replaceAll("[^a-zA-Z]", "")));
+                        caseList.add(new String(words[j + 1].replaceAll("[^a-zA-Z]", "")));
+                        outputCitation.add(words[j-1]+" v. "+words[j+1]);
+                    }
+                }
+                prevCase = outputCitation.get(outputCitation.size()-1);
+                return outputCitation;
             } else if (words[i - 1].matches("[0-9]+") && words[i].equals("U.") && words[i + 1].equals("S.")) {
-                outputArray[0] = "true";
-                outputArray[1] = "code";
-                return outputArray;
+                outputCitation.add("U.S. code "+ words[i-1]);
+                return outputCitation;
             }
         }
-        outputArray[0] = "false";
-        return outputArray;
+        outputCitation.add("false");
+        return outputCitation;
     }
 
     //todo
-    //assumed that when cited using a single word, always petitioners one is considered
-    public String[] extractUsingIndirectReference(String sentence){
+    //assumed that if a case is referred by a single name, it should be the first name in the case citation A v. B :- A likewise
+    public ArrayList<String> extractUsingIndirectReference(String sentence){
         String[] words = sentence.split(" ");
-        String[] outputArray = new String[2];
-        for (int j = 0; j < words.length; j++) {
-            String newString = words[j].replaceAll("[^a-zA-Z]", "");
-            if (caseList.contains(newString)) {
-                outputArray[0] = "true";
-                outputArray[1] = newString + " v. " + caseList.get(caseList.indexOf(newString)+1);
-                return outputArray;
+        ArrayList<String> outputCitation = new ArrayList<>();
+        if(!sentence.contains("v.")){
+            for (int j = 0; j < words.length; j++) {
+                String newString = words[j].replaceAll("[^a-zA-Z]", "");
+                if (caseList.contains(newString)) {
+                    outputCitation.add("true");
+                    outputCitation.add(newString + " v. " + caseList.get(caseList.indexOf(newString)+1));
+                    return outputCitation;
 
-            } else if (words[j].toLowerCase().contains("id.")) {
-                outputArray[0] = "true";
-                outputArray[1] = prevCase;
-                return outputArray;
+                } else if (words[j].toLowerCase().contains("id.")) {
+                    outputCitation.add("true");
+                    outputCitation.add(prevCase);
+                    return outputCitation;
+                }
             }
         }
-        outputArray[0] = "false";
-        return outputArray;
+        outputCitation.add("false");
+        return outputCitation;
     }
 
 }
