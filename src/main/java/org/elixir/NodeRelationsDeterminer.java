@@ -1,6 +1,7 @@
 package org.elixir;
 
 import org.elixir.models.Node;
+import org.elixir.utils.CaseLawStatementExtractor;
 
 import java.util.*;
 import java.lang.*;
@@ -12,6 +13,8 @@ public class NodeRelationsDeterminer {
 
     public static ArrayList<Node> nodesRelations;
     public static boolean regexResult = false;
+    public static boolean citationResult = false;
+    public static boolean previousWasCitation = false;
     private static int checkWordCount = 4;
 
 
@@ -56,21 +59,28 @@ public class NodeRelationsDeterminer {
             // System.out.print("Input: "+arg+" -> Matches: ");
             Node node = nodesRelations.get(i);
             String arg = node.getArgument();
-            if(node.getId().length()>2) {
-                previousSentence = nodesRelations.get(i-1).getArgument();
-                previousArgumentId=nodesRelations.get(i-1).getId();
-                regexResult = checkElaborationRegex(arg,node);
-                if(!regexResult){
-                    checkTransitionRelation(arg,node);
+            if(!previousWasCitation) {
+                if (node.getId().length() > 2) {
+                    previousSentence = nodesRelations.get(i - 1).getArgument();
+                    previousArgumentId = nodesRelations.get(i - 1).getId();
+
+                    citationResult = checkCitationRelation(arg, node);
+
+                    regexResult = checkElaborationRegex(arg, node);
+                    if (!regexResult) {
+                        checkTransitionRelation(arg, node);
+                    }
+
+
+                    System.out.println(regexMatches.toString());
+                    System.out.println(regexResult);
+                    System.out.println(node.getId().length());
                 }
 
-
-                System.out.println(regexMatches.toString());
-                System.out.println(regexResult);
-                System.out.println(node.getId().length());
+                regexMatches.clear();
+            }else{
+                checkCitation(arg,node);
             }
-
-            regexMatches.clear();
 
         }
 
@@ -132,6 +142,32 @@ public class NodeRelationsDeterminer {
 
         }
 
+    }
+
+    public static boolean checkCitationRelation(String argument, Node node){
+
+        if(CaseLawStatementExtractor.extractUsingDirectCitation(argument)!=null ||
+                CaseLawStatementExtractor.extractUsingIndirectReference(argument) !=null){
+
+            node.setParent(previousArgumentId);
+            node.setType("red");
+            System.out.println("found citation :" + argument);
+            previousWasCitation= true;
+            return true;
+        }
+        return false;
+
+    }
+
+    public static void checkCitation(String argument, Node node){
+        if(CaseLawStatementExtractor.extractUsingDirectCitation(argument)!=null ||
+                CaseLawStatementExtractor.extractUsingIndirectReference(argument) !=null){
+            node.setType("red");
+            previousWasCitation= true;
+
+        }else {
+            previousWasCitation = false;
+        }
     }
 
 

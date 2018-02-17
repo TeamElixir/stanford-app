@@ -8,14 +8,16 @@ import java.util.ArrayList;
 public class CaseLawStatementExtractor {
 
     //public String prevSentence = "";
-    public ArrayList<String> caseList = new ArrayList<>();
-    public String prevCase = "";
+    public static ArrayList<String> caseList = new ArrayList<>();
+    public static String prevCase = "";
 
     //todo
     //extract all caseList where multiple citations are in the same sentence
     //The cited case when citation is given as Id.
     //solve if the petitoners, defendant name is not a single word
-    private ArrayList<String> extractUsingDirectCitation(String sentence) {
+
+
+    public static ArrayList<String> extractUsingDirectCitation(String sentence) {
         String[] words = sentence.split(" ");
         ArrayList<String> outputCitation = new ArrayList<>();
 
@@ -47,12 +49,12 @@ public class CaseLawStatementExtractor {
             }
         }
         outputCitation.add("false");
-        return outputCitation;
+        return null;
     }
 
     //todo
     //assumed that if a case is referred by a single name, it should be the first name in the case citation A v. B :- A likewise
-    public ArrayList<String> extractUsingIndirectReference(String sentence){
+    public static ArrayList<String> extractUsingIndirectReference(String sentence){
         String[] words = sentence.split(" ");
         ArrayList<String> outputCitation = new ArrayList<>();
         if(!sentence.contains("v.")){
@@ -71,7 +73,7 @@ public class CaseLawStatementExtractor {
             }
         }
         outputCitation.add("false");
-        return outputCitation;
+        return null;
     }
 
 }

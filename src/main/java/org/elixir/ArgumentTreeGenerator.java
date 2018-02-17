@@ -47,6 +47,8 @@ public class ArgumentTreeGenerator {
 
     public static boolean alreadyAdded = false;
 
+    public static ArrayList<String> sentencesInCase = new ArrayList<>();
+
     public static void main(String[] args) {
 
         // creates a StanfordCoreNLP object, with POS tagging, lemmatization, NER, parsing, and coreference resolution
@@ -308,6 +310,8 @@ public class ArgumentTreeGenerator {
             // that means this is a new sentence. As subject is not a legal person, the sentence may or may have another
             // subject(name of a person).
 
+            sentencesInCase.add(rawSentence);
+
             if (!hasSubject && lastSentence != null && !sentenceAdded2) {
 
                 //if there is a previous sentence and that previous sentence has a subject ot that previous sentence is
@@ -420,6 +424,9 @@ public class ArgumentTreeGenerator {
         NodeRelationsDeterminer.initialize();
         NodeRelationsDeterminer.checkRelationships();
         nodes = NodeRelationsDeterminer.nodesRelations;
+
+        /*System.out.println("sentences in cases");
+        System.out.println(sentencesInCase.toString());*/
 
         try {
             Utils.writeToJson(nodes);
