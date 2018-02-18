@@ -57,7 +57,7 @@ public class ArgumentTreeGenerator {
         StanfordCoreNLP pipeline = new StanfordCoreNLP(props);
 
         String filePath = new File("").getAbsolutePath();
-        filePath += "/src/main/resources/case2.txt";                                                  //read case
+        filePath += "/src/main/resources/case1.1.txt";                                                  //read case
         String textRaw = Utils.readFile(filePath);
 
         String[] splitted = textRaw.split("\n");

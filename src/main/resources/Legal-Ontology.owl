@@ -1,0 +1,2903 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/keetmalin/ontologies/2017/8/untitled-ontology-8"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/keetmalin/ontologies/2017/8/untitled-ontology-8">
+    <Prefix name="" IRI="http://www.semanticweb.org/keetmalin/ontologies/2017/8/untitled-ontology-8"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="#Bankruptcy_Appellate_Panel"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Unincorporated"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Reason"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Expressions"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_summary"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Cyber_Law"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Action"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sexual_Law"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Corporation"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#age"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Delegation"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#performs"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#food_labeling"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_defendant"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#name"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Epistemology/_Epistemic_Role"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Civil_Law"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Poverty_Law"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_judgement"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Obscenity_Law"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Law"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Criminal_Case"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#reference_points"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Argument"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_legislator"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#04/21/2014"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Claim_Cause"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Supreme_Court_Judge"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Labour_Law"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Treaty"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Music_Law"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Person"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#misleading_product_description"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Social_Role"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Patent_Law"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Opinion"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Parliamentary_Law"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_reference_points"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Manufacturing"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Trial_(Petit)_Jury"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#passes"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_claim_cause"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Case_Year"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_a_head_juror"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#define_opinions"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Consumer_Affairs_Council"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Decided_Date"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#act_preclusion"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Employee"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_executive_orders"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Kennedy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Agency_Law"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Committee"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#statutory_interpretation_case"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Business_Law"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_country"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Nationality_Law"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#by_some_maxim_pointing_in_a_different_direction"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#precluded_by"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Legal_Principle"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Legislative_Body"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Advertising_Law"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Consumer_Law"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Contract_Law"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Obligative_Right"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Cause"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Legal_Role"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#amends"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_judges"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Public_Act"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#last_name"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#authority"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Military_Law"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_date"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#makes"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#country_code"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Assignment"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#false_product_description"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Agent"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#makes_claim"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Speech_Act"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#bounded_to"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Procedural_Fairness"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#High_Court_Judge"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Public_Body"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Social_Legal_Role"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Act_of_Law"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Party"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Date"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Accuser"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Initial_Claim"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#member_of"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Legal_Document"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Function"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#committee_number"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#District_Court_Judge"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Statute"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Gaming_Law"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Employment_Law"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Bird_Law"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Foundation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Localization_Type"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#judge_number"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#President"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Bill"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Permissive_Right"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#repels"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_case_year"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Regulatory_Law"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_claim_type"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#POM_WONDERFUL_LLC_v._COCA-COLA_CO."/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_case_number"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#judgement_has_court"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_judge_number"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#email"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#address"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Case_Number"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Health_Law"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Mandate"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Immigration_Law"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Legal_Firm"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_accuser"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Creation"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_arugued_date"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Family_Law"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Corporate_Law"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Immunity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Exception"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Courts_of_Veterans_Appeals"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#represented_by"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#applicable_to"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#misbranding_of_food"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Area_of_Practice"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_year"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Organizational_Role"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Courts_of_Appeals_for_the_Federal_Circuit"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Legal_Speech"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Proposal"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Existential_Expression"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Year"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_court"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Environmental_Law"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#committee_name"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Surprise"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Evaluative_Expression"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#year"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#section"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Declarative_Power"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Natural_Person"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Definitional_Expression"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#fraud"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#partial_summary"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Entertainment_Law"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Medical_Law"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Constitutional_Law"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_area_of_practice"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Tax_Law"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Consumer_Affairs_Authority"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#State"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Tax_Court"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Directive"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Legal_Person"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#District_Court"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Role"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Assumption"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#misbranding_of_drinks"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Natural_Object"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Aviation_Law"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_published_date"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Mining_Law"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Problem"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Courts_of_Appeals_for_the_Armed_Forces"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Drug_Control_Law"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_competitor"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#first_authorized_in"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Law_complementarity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Professional_Legal_Role"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Country"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Proclamation"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Composition"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Process"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Public_Health_Law"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Right"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Person_Role"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Act"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#2014"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Hohfeldian_Power"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Evidence"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Legal_Source"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#authorized_in"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Animal_Law"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Production"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Argued_Date"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Gazette"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Courts_of_Criminal_Appeals"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Resolution"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#POM_WONDERFUL_LLC"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Customary_Law"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sentence"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#COCA-COLA_CO."/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#06/12/2014"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Jurors"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Internet_Law"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Animal"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sports_Law"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Courts_of_Federal_Claims"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Court"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#governed_by"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Law_intersection"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Martial_Law"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_case_type"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Lanham_Act"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#becomes"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Corporative"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Order"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#United_States_court_of_appeals_for_the_ninth_circuit"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Liability_Right"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#based_on"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Incorporated/_Public_Limited_Company"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Summary"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Director_General"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Section_Points"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#complemented_by"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#played_by"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Mislead_Consumers"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Published_Date"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#type"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Organization_Type"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#plays"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_lawyers"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#size"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Voluntary_Association/_Society"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Decree"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Media_Law"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_jury"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Property_Law"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#case_number"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_authority_over"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#International_Agreement"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Executive_Order_Date"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Privacy_Law"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Judge"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#United_States_Supreme_Court"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Separate_Entity_Principle"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Judge_Number"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_type"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_right"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Code_of_Conduct"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Energy_Law"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Parliament"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_opinion"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_decided_date"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Standard"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#nationality"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Legislator"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Claim_Type"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Impartial"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Construction_Law"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Qualificatory_Expression"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Jury"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Exclusionary_Right"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Courts_of_Appeals"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Natural_Justice"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_legal_cases"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#supported_by"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#phone"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_statutes"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Courts_of_International_Trade"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Grand_Jury"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Organization"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Society/_Association"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#description"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Goods"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#occupation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Fact"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Executive_Orders"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Judgement"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Oil_and_Gas_Law"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_committee"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Supply"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Limited_Company/_Company"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Legal_Norm"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Revision"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Admirality_Law"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Lawyer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Art_Law"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#FDCA"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Bankruptcy_Law"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Legal_Case"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Legal_Expression"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#introduces"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#district_court"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Private_Legal_Person"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Statutory_Law"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#12-761"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Expectation"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#decides"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_initial_claim"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Firearm_Law"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Head_Juror"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Alcohol_Law"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Banking_Law"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Food_Law"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Common_Law"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_section_point"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Reaction"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Legislature"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Defendant"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_jurors"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#unfair_competition"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Federal_Food,_Drug,_and_Cosmetic_Act"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Employer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Action_Power"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#first_name"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Supreme_Court"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Artifact"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Observation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Case_Type"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Elder_Law"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Computer_Law"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#opposed_by"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Services"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_director_general"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Insurance_Law"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Beverage"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Physical_Objects"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Rule_of_Law"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Criminal_Law"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Civil_Case"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#wrong_act_preclusion"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#drink_labeling"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Copyright_Law"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Potestative_Expression"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Epistemic_Role"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Liberty_Right"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#family_name"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Storage"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Accuser"/>
+        <Class IRI="#Party"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Act_of_Law"/>
+        <Class IRI="#Public_Act"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Action_Power"/>
+        <Class IRI="#Hohfeldian_Power"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Admirality_Law"/>
+        <Class IRI="#Area_of_Practice"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Advertising_Law"/>
+        <Class IRI="#Area_of_Practice"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Agency_Law"/>
+        <Class IRI="#Area_of_Practice"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Agent"/>
+        <Class IRI="#Legal_Person"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Agent"/>
+        <Class IRI="#Natural_Person"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Alcohol_Law"/>
+        <Class IRI="#Area_of_Practice"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Animal"/>
+        <Class IRI="#Natural_Object"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Animal_Law"/>
+        <Class IRI="#Area_of_Practice"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Argued_Date"/>
+        <Class IRI="#Date"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Argument"/>
+        <Class IRI="#Reason"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Art_Law"/>
+        <Class IRI="#Area_of_Practice"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Artifact"/>
+        <Class IRI="#Physical_Objects"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Assignment"/>
+        <Class IRI="#Public_Act"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Assumption"/>
+        <Class IRI="#Epistemology/_Epistemic_Role"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Aviation_Law"/>
+        <Class IRI="#Area_of_Practice"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Banking_Law"/>
+        <Class IRI="#Area_of_Practice"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Bankruptcy_Appellate_Panel"/>
+        <Class IRI="#Court"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Bankruptcy_Law"/>
+        <Class IRI="#Area_of_Practice"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Bird_Law"/>
+        <Class IRI="#Area_of_Practice"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Business_Law"/>
+        <Class IRI="#Area_of_Practice"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cause"/>
+        <Class IRI="#Epistemology/_Epistemic_Role"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Civil_Case"/>
+        <Class IRI="#Legal_Case"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Civil_Law"/>
+        <Class IRI="#Area_of_Practice"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Code_of_Conduct"/>
+        <Class IRI="#Legal_Document"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Common_Law"/>
+        <Class IRI="#Law"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Computer_Law"/>
+        <Class IRI="#Area_of_Practice"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Constitutional_Law"/>
+        <Class IRI="#Area_of_Practice"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Construction_Law"/>
+        <Class IRI="#Area_of_Practice"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Consumer_Law"/>
+        <Class IRI="#Area_of_Practice"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Contract_Law"/>
+        <Class IRI="#Area_of_Practice"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Copyright_Law"/>
+        <Class IRI="#Area_of_Practice"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Corporate_Law"/>
+        <Class IRI="#Area_of_Practice"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Corporation"/>
+        <Class IRI="#Private_Legal_Person"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Corporative"/>
+        <Class IRI="#Society/_Association"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Courts_of_Appeals_for_the_Armed_Forces"/>
+        <Class IRI="#Court"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Courts_of_Appeals_for_the_Federal_Circuit"/>
+        <Class IRI="#Court"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Courts_of_Criminal_Appeals"/>
+        <Class IRI="#Court"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Courts_of_Federal_Claims"/>
+        <Class IRI="#Court"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Courts_of_International_Trade"/>
+        <Class IRI="#Court"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Courts_of_Veterans_Appeals"/>
+        <Class IRI="#Court"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Creation"/>
+        <Class IRI="#Action"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Criminal_Case"/>
+        <Class IRI="#Legal_Case"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Criminal_Law"/>
+        <Class IRI="#Area_of_Practice"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Customary_Law"/>
+        <Class IRI="#Law"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cyber_Law"/>
+        <Class IRI="#Area_of_Practice"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Decided_Date"/>
+        <Class IRI="#Date"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Declarative_Power"/>
+        <Class IRI="#Potestative_Expression"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Decree"/>
+        <Class IRI="#Legal_Document"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Decree"/>
+        <Class IRI="#Proclamation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Defendant"/>
+        <Class IRI="#Party"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Definitional_Expression"/>
+        <Class IRI="#Legal_Expression"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Delegation"/>
+        <Class IRI="#Public_Act"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Directive"/>
+        <Class IRI="#Legal_Document"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Directive"/>
+        <Class IRI="#Proclamation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#District_Court"/>
+        <Class IRI="#Court"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#District_Court_Judge"/>
+        <Class IRI="#Judge"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Drug_Control_Law"/>
+        <Class IRI="#Area_of_Practice"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Elder_Law"/>
+        <Class IRI="#Area_of_Practice"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Employee"/>
+        <Class IRI="#Natural_Person"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Employer"/>
+        <Class IRI="#Natural_Person"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Employment_Law"/>
+        <Class IRI="#Area_of_Practice"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Energy_Law"/>
+        <Class IRI="#Area_of_Practice"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Entertainment_Law"/>
+        <Class IRI="#Area_of_Practice"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Environmental_Law"/>
+        <Class IRI="#Area_of_Practice"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Epistemic_Role"/>
+        <Class IRI="#Role"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Evaluative_Expression"/>
+        <Class IRI="#Legal_Expression"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Evidence"/>
+        <Class IRI="#Epistemology/_Epistemic_Role"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Exception"/>
+        <Class IRI="#Epistemology/_Epistemic_Role"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Exclusionary_Right"/>
+        <Class IRI="#Obligative_Right"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Existential_Expression"/>
+        <Class IRI="#Legal_Expression"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Expectation"/>
+        <Class IRI="#Epistemology/_Epistemic_Role"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Fact"/>
+        <Class IRI="#Epistemology/_Epistemic_Role"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Family_Law"/>
+        <Class IRI="#Area_of_Practice"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Firearm_Law"/>
+        <Class IRI="#Area_of_Practice"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Food_Law"/>
+        <Class IRI="#Area_of_Practice"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Foundation"/>
+        <Class IRI="#Corporation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Gaming_Law"/>
+        <Class IRI="#Area_of_Practice"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Gazette"/>
+        <Class IRI="#Standard"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Grand_Jury"/>
+        <Class IRI="#Jury"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Head_Juror"/>
+        <Class IRI="#Jurors"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Health_Law"/>
+        <Class IRI="#Area_of_Practice"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#High_Court_Judge"/>
+        <Class IRI="#Judge"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Hohfeldian_Power"/>
+        <Class IRI="#Potestative_Expression"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Immigration_Law"/>
+        <Class IRI="#Area_of_Practice"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Immunity"/>
+        <Class IRI="#Hohfeldian_Power"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Impartial"/>
+        <Class IRI="#Legal_Principle"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Insurance_Law"/>
+        <Class IRI="#Area_of_Practice"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#International_Agreement"/>
+        <Class IRI="#Legal_Source"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Internet_Law"/>
+        <Class IRI="#Area_of_Practice"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Judge"/>
+        <Class IRI="#Person"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Jurors"/>
+        <Class IRI="#Person"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Labour_Law"/>
+        <Class IRI="#Area_of_Practice"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Lawyer"/>
+        <Class IRI="#Agent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Legal_Document"/>
+        <Class IRI="#Legal_Source"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Legal_Expression"/>
+        <Class IRI="#Expressions"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Legal_Firm"/>
+        <Class IRI="#Agent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Legal_Norm"/>
+        <Class IRI="#Right"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Legal_Role"/>
+        <Class IRI="#Role"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Legislator"/>
+        <Class IRI="#Person"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Liability_Right"/>
+        <Class IRI="#Right"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Liberty_Right"/>
+        <Class IRI="#Right"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Mandate"/>
+        <Class IRI="#Public_Act"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Manufacturing"/>
+        <Class IRI="#Goods"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Martial_Law"/>
+        <Class IRI="#Area_of_Practice"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Media_Law"/>
+        <Class IRI="#Area_of_Practice"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Medical_Law"/>
+        <Class IRI="#Area_of_Practice"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Military_Law"/>
+        <Class IRI="#Area_of_Practice"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Mining_Law"/>
+        <Class IRI="#Area_of_Practice"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Music_Law"/>
+        <Class IRI="#Area_of_Practice"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Nationality_Law"/>
+        <Class IRI="#Area_of_Practice"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Natural_Justice"/>
+        <Class IRI="#Legal_Principle"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Natural_Person"/>
+        <Class IRI="#Person"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Obligative_Right"/>
+        <Class IRI="#Right"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Obscenity_Law"/>
+        <Class IRI="#Area_of_Practice"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Observation"/>
+        <Class IRI="#Epistemology/_Epistemic_Role"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Oil_and_Gas_Law"/>
+        <Class IRI="#Area_of_Practice"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Organization"/>
+        <Class IRI="#Legal_Person"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Organization"/>
+        <Class IRI="#Organization"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Organizational_Role"/>
+        <Class IRI="#Social_Role"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Parliamentary_Law"/>
+        <Class IRI="#Area_of_Practice"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Party"/>
+        <Class IRI="#Natural_Person"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Party"/>
+        <Class IRI="#Party"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Patent_Law"/>
+        <Class IRI="#Area_of_Practice"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Permissive_Right"/>
+        <Class IRI="#Right"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Person"/>
+        <Class IRI="#Natural_Object"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Person_Role"/>
+        <Class IRI="#Social_Role"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Physical_Objects"/>
+        <Class IRI="#Natural_Object"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Potestative_Expression"/>
+        <Class IRI="#Legal_Expression"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Poverty_Law"/>
+        <Class IRI="#Area_of_Practice"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Privacy_Law"/>
+        <Class IRI="#Area_of_Practice"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Private_Legal_Person"/>
+        <Class IRI="#Legal_Person"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Problem"/>
+        <Class IRI="#Observation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Procedural_Fairness"/>
+        <Class IRI="#Legal_Principle"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Process"/>
+        <Class IRI="#Action"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Proclamation"/>
+        <Class IRI="#Legal_Source"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Production"/>
+        <Class IRI="#Goods"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Professional_Legal_Role"/>
+        <Class IRI="#Organizational_Role"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Professional_Legal_Role"/>
+        <Class IRI="#Social_Legal_Role"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Property_Law"/>
+        <Class IRI="#Area_of_Practice"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Public_Act"/>
+        <Class IRI="#Action"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Public_Body"/>
+        <Class IRI="#Legal_Person"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Public_Health_Law"/>
+        <Class IRI="#Area_of_Practice"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Published_Date"/>
+        <Class IRI="#Date"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Qualificatory_Expression"/>
+        <Class IRI="#Legal_Expression"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Reaction"/>
+        <Class IRI="#Action"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Reason"/>
+        <Class IRI="#Epistemology/_Epistemic_Role"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Regulatory_Law"/>
+        <Class IRI="#Law"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Resolution"/>
+        <Class IRI="#International_Agreement"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Rule_of_Law"/>
+        <Class IRI="#Legal_Principle"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Separate_Entity_Principle"/>
+        <Class IRI="#Legal_Principle"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sexual_Law"/>
+        <Class IRI="#Area_of_Practice"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Social_Legal_Role"/>
+        <Class IRI="#Legal_Role"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Social_Legal_Role"/>
+        <Class IRI="#Social_Role"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Social_Role"/>
+        <Class IRI="#Role"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Speech_Act"/>
+        <Class IRI="#Creation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sports_Law"/>
+        <Class IRI="#Area_of_Practice"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Statutory_Law"/>
+        <Class IRI="#Law"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Storage"/>
+        <Class IRI="#Goods"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Supply"/>
+        <Class IRI="#Goods"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Supreme_Court"/>
+        <Class IRI="#Court"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Supreme_Court_Judge"/>
+        <Class IRI="#Judge"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Surprise"/>
+        <Class IRI="#Observation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Tax_Court"/>
+        <Class IRI="#Court"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Tax_Law"/>
+        <Class IRI="#Area_of_Practice"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Treaty"/>
+        <Class IRI="#International_Agreement"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Treaty"/>
+        <Class IRI="#Legal_Document"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Unincorporated"/>
+        <Class IRI="#Corporation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Unincorporated"/>
+        <Class IRI="#Limited_Company/_Company"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Incorporated/_Public_Limited_Company"/>
+        <Class IRI="#Corporation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Incorporated/_Public_Limited_Company"/>
+        <Class IRI="#Limited_Company/_Company"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Limited_Company/_Company"/>
+        <Class IRI="#Private_Legal_Person"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Society/_Association"/>
+        <Class IRI="#Private_Legal_Person"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Trial_(Petit)_Jury"/>
+        <Class IRI="#Jury"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Voluntary_Association/_Society"/>
+        <Class IRI="#Private_Legal_Person"/>
+    </SubClassOf>
+    <ClassAssertion>
+        <Class IRI="#Organization_Type"/>
+        <NamedIndividual IRI="#Beverage"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Defendant"/>
+        <NamedIndividual IRI="#COCA-COLA_CO."/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Organization"/>
+        <NamedIndividual IRI="#COCA-COLA_CO."/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Claim_Type"/>
+        <NamedIndividual IRI="#Composition"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Act"/>
+        <NamedIndividual IRI="#FDCA"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Supreme_Court_Judge"/>
+        <NamedIndividual IRI="#Kennedy"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Act"/>
+        <NamedIndividual IRI="#Lanham_Act"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Case_Type"/>
+        <NamedIndividual IRI="#Law_complementarity"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Case_Type"/>
+        <NamedIndividual IRI="#Law_intersection"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Claim_Cause"/>
+        <NamedIndividual IRI="#Mislead_Consumers"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Accuser"/>
+        <NamedIndividual IRI="#POM_WONDERFUL_LLC"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Organization"/>
+        <NamedIndividual IRI="#POM_WONDERFUL_LLC"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Criminal_Case"/>
+        <NamedIndividual IRI="#POM_WONDERFUL_LLC_v._COCA-COLA_CO."/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Supreme_Court"/>
+        <NamedIndividual IRI="#United_States_Supreme_Court"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Courts_of_Appeals"/>
+        <NamedIndividual IRI="#United_States_court_of_appeals_for_the_ninth_circuit"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Judgement"/>
+        <NamedIndividual IRI="#act_preclusion"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#reference_points"/>
+        <NamedIndividual IRI="#by_some_maxim_pointing_in_a_different_direction"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#District_Court"/>
+        <NamedIndividual IRI="#district_court"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Section_Points"/>
+        <NamedIndividual IRI="#drink_labeling"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Section_Points"/>
+        <NamedIndividual IRI="#false_product_description"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Section_Points"/>
+        <NamedIndividual IRI="#food_labeling"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Initial_Claim"/>
+        <NamedIndividual IRI="#fraud"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Section_Points"/>
+        <NamedIndividual IRI="#misbranding_of_drinks"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Section_Points"/>
+        <NamedIndividual IRI="#misbranding_of_food"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Section_Points"/>
+        <NamedIndividual IRI="#misleading_product_description"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Judgement"/>
+        <NamedIndividual IRI="#partial_summary"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Case_Type"/>
+        <NamedIndividual IRI="#statutory_interpretation_case"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Section_Points"/>
+        <NamedIndividual IRI="#unfair_competition"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Opinion"/>
+        <NamedIndividual IRI="#wrong_act_preclusion"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Argued_Date"/>
+        <NamedIndividual IRI="#04/21/2014"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Decided_Date"/>
+        <NamedIndividual IRI="#06/12/2014"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Published_Date"/>
+        <NamedIndividual IRI="#06/12/2014"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Case_Number"/>
+        <NamedIndividual IRI="#12-761"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Case_Year"/>
+        <NamedIndividual IRI="#2014"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Act"/>
+        <NamedIndividual IRI="#Federal_Food,_Drug,_and_Cosmetic_Act"/>
+    </ClassAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_competitor"/>
+        <NamedIndividual IRI="#COCA-COLA_CO."/>
+        <NamedIndividual IRI="#POM_WONDERFUL_LLC"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_type"/>
+        <NamedIndividual IRI="#COCA-COLA_CO."/>
+        <NamedIndividual IRI="#Beverage"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_section_point"/>
+        <NamedIndividual IRI="#FDCA"/>
+        <NamedIndividual IRI="#drink_labeling"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_section_point"/>
+        <NamedIndividual IRI="#FDCA"/>
+        <NamedIndividual IRI="#food_labeling"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_section_point"/>
+        <NamedIndividual IRI="#FDCA"/>
+        <NamedIndividual IRI="#misbranding_of_drinks"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_section_point"/>
+        <NamedIndividual IRI="#FDCA"/>
+        <NamedIndividual IRI="#misbranding_of_food"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#complemented_by"/>
+        <NamedIndividual IRI="#Lanham_Act"/>
+        <NamedIndividual IRI="#FDCA"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#complemented_by"/>
+        <NamedIndividual IRI="#Lanham_Act"/>
+        <NamedIndividual IRI="#Federal_Food,_Drug,_and_Cosmetic_Act"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_section_point"/>
+        <NamedIndividual IRI="#Lanham_Act"/>
+        <NamedIndividual IRI="#false_product_description"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_section_point"/>
+        <NamedIndividual IRI="#Lanham_Act"/>
+        <NamedIndividual IRI="#misleading_product_description"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_section_point"/>
+        <NamedIndividual IRI="#Lanham_Act"/>
+        <NamedIndividual IRI="#unfair_competition"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#precluded_by"/>
+        <NamedIndividual IRI="#Lanham_Act"/>
+        <NamedIndividual IRI="#FDCA"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#precluded_by"/>
+        <NamedIndividual IRI="#Lanham_Act"/>
+        <NamedIndividual IRI="#Federal_Food,_Drug,_and_Cosmetic_Act"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_competitor"/>
+        <NamedIndividual IRI="#POM_WONDERFUL_LLC"/>
+        <NamedIndividual IRI="#COCA-COLA_CO."/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_type"/>
+        <NamedIndividual IRI="#POM_WONDERFUL_LLC"/>
+        <NamedIndividual IRI="#Beverage"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#based_on"/>
+        <NamedIndividual IRI="#POM_WONDERFUL_LLC_v._COCA-COLA_CO."/>
+        <NamedIndividual IRI="#FDCA"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#based_on"/>
+        <NamedIndividual IRI="#POM_WONDERFUL_LLC_v._COCA-COLA_CO."/>
+        <NamedIndividual IRI="#Lanham_Act"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#based_on"/>
+        <NamedIndividual IRI="#POM_WONDERFUL_LLC_v._COCA-COLA_CO."/>
+        <NamedIndividual IRI="#Federal_Food,_Drug,_and_Cosmetic_Act"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_accuser"/>
+        <NamedIndividual IRI="#POM_WONDERFUL_LLC_v._COCA-COLA_CO."/>
+        <NamedIndividual IRI="#POM_WONDERFUL_LLC"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_arugued_date"/>
+        <NamedIndividual IRI="#POM_WONDERFUL_LLC_v._COCA-COLA_CO."/>
+        <NamedIndividual IRI="#04/21/2014"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_case_number"/>
+        <NamedIndividual IRI="#POM_WONDERFUL_LLC_v._COCA-COLA_CO."/>
+        <NamedIndividual IRI="#12-761"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_case_type"/>
+        <NamedIndividual IRI="#POM_WONDERFUL_LLC_v._COCA-COLA_CO."/>
+        <NamedIndividual IRI="#Law_complementarity"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_case_type"/>
+        <NamedIndividual IRI="#POM_WONDERFUL_LLC_v._COCA-COLA_CO."/>
+        <NamedIndividual IRI="#Law_intersection"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_case_type"/>
+        <NamedIndividual IRI="#POM_WONDERFUL_LLC_v._COCA-COLA_CO."/>
+        <NamedIndividual IRI="#statutory_interpretation_case"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_case_year"/>
+        <NamedIndividual IRI="#POM_WONDERFUL_LLC_v._COCA-COLA_CO."/>
+        <NamedIndividual IRI="#2014"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_court"/>
+        <NamedIndividual IRI="#POM_WONDERFUL_LLC_v._COCA-COLA_CO."/>
+        <NamedIndividual IRI="#United_States_Supreme_Court"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_court"/>
+        <NamedIndividual IRI="#POM_WONDERFUL_LLC_v._COCA-COLA_CO."/>
+        <NamedIndividual IRI="#district_court"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_decided_date"/>
+        <NamedIndividual IRI="#POM_WONDERFUL_LLC_v._COCA-COLA_CO."/>
+        <NamedIndividual IRI="#06/12/2014"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_defendant"/>
+        <NamedIndividual IRI="#POM_WONDERFUL_LLC_v._COCA-COLA_CO."/>
+        <NamedIndividual IRI="#COCA-COLA_CO."/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_initial_claim"/>
+        <NamedIndividual IRI="#POM_WONDERFUL_LLC_v._COCA-COLA_CO."/>
+        <NamedIndividual IRI="#fraud"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_judges"/>
+        <NamedIndividual IRI="#POM_WONDERFUL_LLC_v._COCA-COLA_CO."/>
+        <NamedIndividual IRI="#Kennedy"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_opinion"/>
+        <NamedIndividual IRI="#POM_WONDERFUL_LLC_v._COCA-COLA_CO."/>
+        <NamedIndividual IRI="#wrong_act_preclusion"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_published_date"/>
+        <NamedIndividual IRI="#POM_WONDERFUL_LLC_v._COCA-COLA_CO."/>
+        <NamedIndividual IRI="#06/12/2014"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_reference_points"/>
+        <NamedIndividual IRI="#POM_WONDERFUL_LLC_v._COCA-COLA_CO."/>
+        <NamedIndividual IRI="#by_some_maxim_pointing_in_a_different_direction"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#define_opinions"/>
+        <NamedIndividual IRI="#United_States_Supreme_Court"/>
+        <NamedIndividual IRI="#wrong_act_preclusion"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_authority_over"/>
+        <NamedIndividual IRI="#United_States_court_of_appeals_for_the_ninth_circuit"/>
+        <NamedIndividual IRI="#district_court"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#opposed_by"/>
+        <NamedIndividual IRI="#act_preclusion"/>
+        <NamedIndividual IRI="#fraud"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_claim_cause"/>
+        <NamedIndividual IRI="#fraud"/>
+        <NamedIndividual IRI="#Mislead_Consumers"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_claim_type"/>
+        <NamedIndividual IRI="#fraud"/>
+        <NamedIndividual IRI="#Composition"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#opposed_by"/>
+        <NamedIndividual IRI="#partial_summary"/>
+        <NamedIndividual IRI="#fraud"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_section_point"/>
+        <NamedIndividual IRI="#Federal_Food,_Drug,_and_Cosmetic_Act"/>
+        <NamedIndividual IRI="#drink_labeling"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_section_point"/>
+        <NamedIndividual IRI="#Federal_Food,_Drug,_and_Cosmetic_Act"/>
+        <NamedIndividual IRI="#food_labeling"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_section_point"/>
+        <NamedIndividual IRI="#Federal_Food,_Drug,_and_Cosmetic_Act"/>
+        <NamedIndividual IRI="#misbranding_of_drinks"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_section_point"/>
+        <NamedIndividual IRI="#Federal_Food,_Drug,_and_Cosmetic_Act"/>
+        <NamedIndividual IRI="#misbranding_of_food"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#amends"/>
+        <Class IRI="#Statute"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#applicable_to"/>
+        <Class IRI="#Organization"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#authorized_in"/>
+        <Class IRI="#District_Court_Judge"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#authorized_in"/>
+        <Class IRI="#High_Court_Judge"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#authorized_in"/>
+        <Class IRI="#Lawyer"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#authorized_in"/>
+        <Class IRI="#Supreme_Court_Judge"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#based_on"/>
+        <Class IRI="#Judgement"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#based_on"/>
+        <Class IRI="#Legal_Case"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#becomes"/>
+        <Class IRI="#Bill"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#becomes"/>
+        <Class IRI="#Proposal"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#bounded_to"/>
+        <Class IRI="#Court"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#bounded_to"/>
+        <Class IRI="#Judge"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#bounded_to"/>
+        <Class IRI="#Party"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#decides"/>
+        <Class IRI="#Parliament"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#decides"/>
+        <Class IRI="#President"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#define_opinions"/>
+        <Class IRI="#Court"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#first_authorized_in"/>
+        <Class IRI="#Judge"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#governed_by"/>
+        <Class IRI="#Standard"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has_a_head_juror"/>
+        <Class IRI="#Jury"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has_accuser"/>
+        <Class IRI="#Legal_Case"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has_area_of_practice"/>
+        <Class IRI="#Lawyer"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has_area_of_practice"/>
+        <Class IRI="#Legal_Case"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has_arugued_date"/>
+        <Class IRI="#Legal_Case"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has_authority_over"/>
+        <Class IRI="#Courts_of_Appeals"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has_authority_over"/>
+        <Class IRI="#Courts_of_Appeals_for_the_Armed_Forces"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has_authority_over"/>
+        <Class IRI="#Courts_of_Appeals_for_the_Federal_Circuit"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has_authority_over"/>
+        <Class IRI="#Supreme_Court"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has_case_number"/>
+        <Class IRI="#Legal_Case"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has_case_type"/>
+        <Class IRI="#Legal_Case"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has_case_year"/>
+        <Class IRI="#Legal_Case"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has_claim_cause"/>
+        <Class IRI="#Initial_Claim"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has_claim_type"/>
+        <Class IRI="#Initial_Claim"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has_committee"/>
+        <Class IRI="#Consumer_Affairs_Authority"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has_competitor"/>
+        <Class IRI="#Organization"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has_country"/>
+        <Class IRI="#Court"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has_country"/>
+        <Class IRI="#Party"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has_country"/>
+        <Class IRI="#State"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has_court"/>
+        <Class IRI="#Legal_Case"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has_date"/>
+        <Class IRI="#Executive_Orders"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has_decided_date"/>
+        <Class IRI="#Legal_Case"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has_defendant"/>
+        <Class IRI="#Legal_Case"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has_director_general"/>
+        <Class IRI="#Consumer_Affairs_Authority"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has_executive_orders"/>
+        <Class IRI="#Regulatory_Law"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has_initial_claim"/>
+        <Class IRI="#Legal_Case"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has_judge_number"/>
+        <Class IRI="#Judge"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has_judgement"/>
+        <Class IRI="#Legal_Case"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has_judges"/>
+        <Class IRI="#Legal_Case"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has_jurors"/>
+        <Class IRI="#Jury"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has_jury"/>
+        <Class IRI="#Court"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has_lawyers"/>
+        <Class IRI="#Legal_Firm"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has_legal_cases"/>
+        <Class IRI="#Common_Law"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has_legislator"/>
+        <Class IRI="#Legislature"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has_opinion"/>
+        <Class IRI="#Legal_Case"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has_published_date"/>
+        <Class IRI="#Legal_Case"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has_reference_points"/>
+        <Class IRI="#Legal_Case"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has_right"/>
+        <Class IRI="#Party"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has_section_point"/>
+        <Class IRI="#Act"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has_statutes"/>
+        <Class IRI="#Statutory_Law"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has_summary"/>
+        <Class IRI="#Legal_Case"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has_type"/>
+        <Class IRI="#Organization"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has_year"/>
+        <Class IRI="#Legal_Case"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#introduces"/>
+        <Class IRI="#Statute"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#judgement_has_court"/>
+        <Class IRI="#Judgement"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#makes"/>
+        <Class IRI="#Judge"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#makes_claim"/>
+        <Class IRI="#Accuser"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#member_of"/>
+        <Class IRI="#Employee"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#member_of"/>
+        <Class IRI="#Employer"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#opposed_by"/>
+        <Class IRI="#Judgement"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#passes"/>
+        <Class IRI="#Legislature"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#performs"/>
+        <Class IRI="#Agent"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#played_by"/>
+        <Class IRI="#Function"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#plays"/>
+        <Class IRI="#Agent"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#precluded_by"/>
+        <Class IRI="#Act"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#repels"/>
+        <Class IRI="#Statute"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#represented_by"/>
+        <Class IRI="#Party"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#supported_by"/>
+        <Class IRI="#Judgement"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#amends"/>
+        <Class IRI="#Act"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#applicable_to"/>
+        <Class IRI="#Separate_Entity_Principle"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#authorized_in"/>
+        <Class IRI="#Country"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#authorized_in"/>
+        <Class IRI="#State"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#based_on"/>
+        <Class IRI="#Act"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#based_on"/>
+        <Class IRI="#Statute"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#becomes"/>
+        <Class IRI="#Act"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#becomes"/>
+        <Class IRI="#Bill"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#bounded_to"/>
+        <Class IRI="#Legal_Principle"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#decides"/>
+        <Class IRI="#Regulatory_Law"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#decides"/>
+        <Class IRI="#Statutory_Law"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#define_opinions"/>
+        <Class IRI="#Opinion"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#first_authorized_in"/>
+        <Class IRI="#Year"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#governed_by"/>
+        <Class IRI="#Goods"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#governed_by"/>
+        <Class IRI="#Services"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_a_head_juror"/>
+        <Class IRI="#Head_Juror"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_accuser"/>
+        <Class IRI="#Accuser"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_area_of_practice"/>
+        <Class IRI="#Area_of_Practice"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_arugued_date"/>
+        <Class IRI="#Argued_Date"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_authority_over"/>
+        <Class IRI="#Bankruptcy_Appellate_Panel"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_authority_over"/>
+        <Class IRI="#Courts_of_Appeals"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_authority_over"/>
+        <Class IRI="#Courts_of_Appeals_for_the_Armed_Forces"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_authority_over"/>
+        <Class IRI="#Courts_of_Appeals_for_the_Federal_Circuit"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_authority_over"/>
+        <Class IRI="#Courts_of_Criminal_Appeals"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_authority_over"/>
+        <Class IRI="#Courts_of_Federal_Claims"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_authority_over"/>
+        <Class IRI="#Courts_of_International_Trade"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_authority_over"/>
+        <Class IRI="#Courts_of_Veterans_Appeals"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_authority_over"/>
+        <Class IRI="#District_Court"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_authority_over"/>
+        <Class IRI="#Tax_Court"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_case_number"/>
+        <Class IRI="#Case_Number"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_case_type"/>
+        <Class IRI="#Case_Type"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_case_year"/>
+        <Class IRI="#Case_Year"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_claim_cause"/>
+        <Class IRI="#Claim_Cause"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_claim_type"/>
+        <Class IRI="#Claim_Type"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_committee"/>
+        <Class IRI="#Committee"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_country"/>
+        <Class IRI="#Country"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_court"/>
+        <Class IRI="#Court"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_date"/>
+        <Class IRI="#Executive_Order_Date"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_decided_date"/>
+        <Class IRI="#Decided_Date"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_defendant"/>
+        <Class IRI="#Defendant"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_director_general"/>
+        <Class IRI="#Director_General"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_executive_orders"/>
+        <Class IRI="#Executive_Orders"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_initial_claim"/>
+        <Class IRI="#Initial_Claim"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_judge_number"/>
+        <Class IRI="#Judge_Number"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_judgement"/>
+        <Class IRI="#Judgement"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_judges"/>
+        <Class IRI="#Judge"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_jurors"/>
+        <Class IRI="#Jurors"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_jury"/>
+        <Class IRI="#Jury"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_lawyers"/>
+        <Class IRI="#Lawyer"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_legal_cases"/>
+        <Class IRI="#Legal_Case"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_legislator"/>
+        <Class IRI="#Legislator"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_opinion"/>
+        <Class IRI="#Opinion"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_published_date"/>
+        <Class IRI="#Published_Date"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_reference_points"/>
+        <Class IRI="#reference_points"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_right"/>
+        <Class IRI="#Right"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_section_point"/>
+        <Class IRI="#Section_Points"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_statutes"/>
+        <Class IRI="#Statute"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_summary"/>
+        <Class IRI="#Summary"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_type"/>
+        <Class IRI="#Organization_Type"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_year"/>
+        <Class IRI="#Year"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#introduces"/>
+        <Class IRI="#Act"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#judgement_has_court"/>
+        <Class IRI="#Court"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#makes"/>
+        <Class IRI="#Judgement"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#makes_claim"/>
+        <Class IRI="#Initial_Claim"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#member_of"/>
+        <Class IRI="#Organization"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#opposed_by"/>
+        <Class IRI="#Initial_Claim"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#passes"/>
+        <Class IRI="#Bill"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#performs"/>
+        <Class IRI="#Action"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#played_by"/>
+        <Class IRI="#Artifact"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#played_by"/>
+        <Class IRI="#Physical_Objects"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#plays"/>
+        <Class IRI="#Role"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#precluded_by"/>
+        <Class IRI="#Act"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#repels"/>
+        <Class IRI="#Act"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#represented_by"/>
+        <Class IRI="#Agent"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#supported_by"/>
+        <Class IRI="#Initial_Claim"/>
+    </ObjectPropertyRange>
+    <DataPropertyDomain>
+        <DataProperty IRI="#address"/>
+        <Class IRI="#Person"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#age"/>
+        <Class IRI="#Person"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#authority"/>
+        <Class IRI="#Executive_Orders"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#case_number"/>
+        <Class IRI="#Case_Number"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#committee_name"/>
+        <Class IRI="#Committee"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#committee_number"/>
+        <Class IRI="#Committee"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#country_code"/>
+        <Class IRI="#Country"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#description"/>
+        <Class IRI="#Impartial"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#description"/>
+        <Class IRI="#Natural_Justice"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#description"/>
+        <Class IRI="#Procedural_Fairness"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#description"/>
+        <Class IRI="#Rule_of_Law"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#description"/>
+        <Class IRI="#Separate_Entity_Principle"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#email"/>
+        <Class IRI="#Person"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#family_name"/>
+        <Class IRI="#Person"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#first_name"/>
+        <Class IRI="#Person"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#judge_number"/>
+        <Class IRI="#Judge_Number"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#last_name"/>
+        <Class IRI="#Person"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#name"/>
+        <Class IRI="#Act"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#name"/>
+        <Class IRI="#Country"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#name"/>
+        <Class IRI="#Court"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#name"/>
+        <Class IRI="#State"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#nationality"/>
+        <Class IRI="#Person"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#occupation"/>
+        <Class IRI="#Person"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#phone"/>
+        <Class IRI="#Person"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#section"/>
+        <Class IRI="#Act"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#size"/>
+        <Class IRI="#Jury"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#type"/>
+        <Class IRI="#Party"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#year"/>
+        <Class IRI="#Case_Year"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#address"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#age"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#authority"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#case_number"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#committee_name"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#committee_number"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#country_code"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#country_code"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#description"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#email"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#family_name"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#first_name"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#judge_number"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#last_name"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#name"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#nationality"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#occupation"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#phone"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#section"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#size"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#type"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#year"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi -->
+

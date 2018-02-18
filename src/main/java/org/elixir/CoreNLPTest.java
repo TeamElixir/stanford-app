@@ -27,7 +27,7 @@ public class CoreNLPTest {
         StanfordCoreNLP pipeline = new StanfordCoreNLP(props);
 
         // read some text in the text variable
-        String text = "John is a good boy.";
+        String text = "Government does not contest petitioners' claim that the withheld evidence was \"favorable to the defense.\"";
 
         // create an empty Annotation just with the given text
         Annotation document = new Annotation(text);
@@ -50,7 +50,7 @@ public class CoreNLPTest {
                 String pos = token.get(PartOfSpeechAnnotation.class);
                 // this is the NER label of the token
                 String ne = token.get(NamedEntityTagAnnotation.class);
-                System.out.println(word + " " + pos + " " + ne);
+//                System.out.println(word + " " + pos + " " + ne);
             }
 
             Collection<RelationTriple> triples =
