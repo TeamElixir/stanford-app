@@ -6,6 +6,7 @@ import edu.stanford.nlp.ling.CoreLabel;
 import edu.stanford.nlp.naturalli.NaturalLogicAnnotations;
 import edu.stanford.nlp.pipeline.Annotation;
 import edu.stanford.nlp.pipeline.StanfordCoreNLP;
+import edu.stanford.nlp.sentiment.SentimentCoreAnnotations;
 import edu.stanford.nlp.simple.Document;
 import edu.stanford.nlp.simple.Sentence;
 import edu.stanford.nlp.util.CoreMap;
@@ -43,5 +44,17 @@ public class NLPUtils {
 
         return personArray;
     }
+
+	/**
+	 *
+	 * @param sentence sentence must be annotated with parse and sentiment
+	 * @return true for Positive and false for Negetive
+	 */
+	public static boolean getSentiment(CoreMap sentence){
+
+		String  sentiment = sentence.get(SentimentCoreAnnotations.SentimentClass.class);
+
+		return "Positive".equals(sentiment);
+	}
 
 }
