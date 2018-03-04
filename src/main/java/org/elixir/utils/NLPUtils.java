@@ -53,6 +53,7 @@ public class NLPUtils {
 	public static boolean getSentiment(CoreMap sentence){
 
 		String  sentiment = sentence.get(SentimentCoreAnnotations.SentimentClass.class);
+		System.out.println(sentiment);
 
 		return "Positive".equals(sentiment);
 	}

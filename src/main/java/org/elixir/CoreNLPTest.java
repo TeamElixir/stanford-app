@@ -12,6 +12,7 @@ import edu.stanford.nlp.pipeline.Annotation;
 import edu.stanford.nlp.pipeline.StanfordCoreNLP;
 import edu.stanford.nlp.util.CoreMap;
 import org.elixir.data.Texts;
+import org.elixir.utils.NLPUtils;
 
 import java.util.Collection;
 import java.util.List;
@@ -22,12 +23,13 @@ public class CoreNLPTest {
 
         // creates a StanfordCoreNLP object, with POS tagging, lemmatization, NER, parsing, and coreference resolution
         Properties props = new Properties();
-        props.setProperty("annotators", "tokenize,ssplit,pos,lemma,depparse,natlog, openie, ner");
+        props.setProperty("annotators", "tokenize,ssplit,pos,lemma,parse, depparse,natlog, openie, ner, sentiment");
 //        props.setProperty("ner.model","edu/stanford/nlp/models/ner/english.muc.7class.caseless.distsim.crf.ser.gz");
         StanfordCoreNLP pipeline = new StanfordCoreNLP(props);
 
         // read some text in the text variable
-        String text = "Government does not contest petitioners' claim that the withheld evidence was \"favorable to the defense.\"";
+        String text = "Government does not contest petitioners' claim that the withheld evidence was favorable to the defense.";
+
 
         // create an empty Annotation just with the given text
         Annotation document = new Annotation(text);
@@ -40,6 +42,8 @@ public class CoreNLPTest {
         List<CoreMap> sentences = document.get(SentencesAnnotation.class);
 
         for (CoreMap sentence : sentences) {
+            System.out.println("    -----------------      ");
+            System.out.println(NLPUtils.getSentiment(sentence));
             System.out.println(sentence.get(TextAnnotation.class));
             // traversing the words in the current sentence
             // a CoreLabel is a CoreMap with additional token-specific methods
