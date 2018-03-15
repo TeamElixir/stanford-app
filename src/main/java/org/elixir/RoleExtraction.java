@@ -81,7 +81,7 @@ public class RoleExtraction {
 
                 }
 
-                //if comma seperated add them to the two separate lists accordingly
+                //if comma separated add them to the two separate lists accordingly
 
             }
         }
