@@ -28,8 +28,7 @@ public class CoreNLPTest {
         StanfordCoreNLP pipeline = new StanfordCoreNLP(props);
 
         // read some text in the text variable
-        String text = "Government does not contest petitioners' claim that the withheld evidence was favorable to the defense.";
-
+        String text = "14 same-sex couples and two men whose same-sex partners are deceased, filed suits in Federal District Courts in their home States, claiming that respondent state officials violate the Fourteenth Amendment by denying them the right to marry or to have marriages lawfully performed in another State given full recognition.";
 
         // create an empty Annotation just with the given text
         Annotation document = new Annotation(text);
@@ -42,8 +41,6 @@ public class CoreNLPTest {
         List<CoreMap> sentences = document.get(SentencesAnnotation.class);
 
         for (CoreMap sentence : sentences) {
-            System.out.println("    -----------------      ");
-            System.out.println(NLPUtils.getSentiment(sentence));
             System.out.println(sentence.get(TextAnnotation.class));
             // traversing the words in the current sentence
             // a CoreLabel is a CoreMap with additional token-specific methods
