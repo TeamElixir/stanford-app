@@ -22,8 +22,7 @@ import java.util.Properties;
 
 public class RoleExtraction {
 
-    ArrayList<String> plaintiffTermList = new ArrayList<>();
-    ArrayList<String> defendantTermList = new ArrayList<>();
+
     /*
      *1st step is to pick the main two character names from the topic so that we have two names
      * Resolve ET AL.  as well
@@ -31,15 +30,16 @@ public class RoleExtraction {
 
 
     public static void main(String[] args) {
+        ArrayList<String> plaintiffTermList = new ArrayList<>();
+        ArrayList<String> defendantTermList = new ArrayList<>();
 
         // creates a StanfordCoreNLP object, with POS tagging, lemmatization, NER, parsing, and coreference resolution
         Properties props = new Properties();
         props.setProperty("annotators", "tokenize,ssplit,pos,lemma,depparse,natlog, openie, ner");
         StanfordCoreNLP pipeline = new StanfordCoreNLP(props);
 
-        String filePath = new File("").getAbsolutePath();
-        filePath += "/src/main/resources/case1.txt";                                                  //read case
-        String text = Utils.readFile(filePath);
+                                                         //read case
+        String text = "Michigan, Kentucky, Ohio, and Tennessee define marriage as a union between one man and one woman. The petitioners, 14 same-sex couples and two men whose same-sex partners are deceased, filed suits in Federal District Courts in their home States, claiming that respondent state officials violate the Fourteenth Amendment by denying them the right to marry or to have marriages lawfully performed in another State given full recognition.";
 
 
         ArrayList<String> rawSentences = new ArrayList<>();
@@ -77,11 +77,29 @@ public class RoleExtraction {
                     String pos = token.get(CoreAnnotations.PartOfSpeechAnnotation.class);
                     // this is the NER label of the token
                     String ne = token.get(CoreAnnotations.NamedEntityTagAnnotation.class);
-                    //System.out.println(word + " " + pos + " " + ne);
+                    System.out.println(word + " " + pos + " " + ne);
+
+
 
                 }
 
                 //if comma separated add them to the two separate lists accordingly
+                //todo
+                //for now let's assume topic contains only two parties
+                List<CoreLabel> tokenList = sentence.get(CoreAnnotations.TokensAnnotation.class);
+
+                for (CoreLabel token:tokenList){
+                    String word = token.get(CoreAnnotations.TextAnnotation.class);
+                    if(word.equals(plaintiffTermList.get(0))){
+                        int prevTokenIndex = tokenList.indexOf(token);
+                        while (prevTokenIndex >= 0){
+                            CoreLabel prevToken = tokenList.get(prevTokenIndex);
+                            String prevPOS = prevToken.get(CoreAnnotations.PartOfSpeechAnnotation.class);
+                            String prevNER = prevToken.get(CoreAnnotations.NamedEntityTagAnnotation.class);
+                        }
+                    }
+                }
+
 
             }
         }
