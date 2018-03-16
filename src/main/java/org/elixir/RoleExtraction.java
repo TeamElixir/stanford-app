@@ -123,39 +123,75 @@ public class RoleExtraction {
 
                 for (CoreLabel token:tokenList){
                     String word = token.get(CoreAnnotations.TextAnnotation.class);
-                    if(word.equals(plaintiffTermList.get(0))){
-                        int prevTokenIndex = tokenList.indexOf(token);
-                        while (prevTokenIndex > 0){
-                            CoreLabel prevToken = tokenList.get(prevTokenIndex);
-                            String prevPOS = prevToken.get(CoreAnnotations.PartOfSpeechAnnotation.class);
-                            String prevNER = prevToken.get(CoreAnnotations.NamedEntityTagAnnotation.class);
-                            String prevWord = prevToken.get(CoreAnnotations.TextAnnotation.class);
-                            String prevLemma = prevToken.get(CoreAnnotations.LemmaAnnotation.class);
-                            if(prevWord.equals(",") || prevWord.equals("and") || prevPOS.equals("JJ") || prevPOS.equals("CD")){
-                                prevTokenIndex -= 1;
-                                continue;
-                            }
+                    solveCommaAndTerms(plaintiffTermList,tokenList,token,word);
+                    solveCommaAndTerms(defendantTermList,tokenList,token,word);
 
-                            if(prevNER.equals("PERSON") || prevNER.equals("ORGANIZATION")){
-                                plaintiffTermList.add(prevWord);
-                                prevTokenIndex -= 1;
-                                continue;
-                            }
-
-                            if(personEntities.contains(prevLemma)){
-                                plaintiffTermList.add(prevLemma);
-                                prevTokenIndex -= 1;
-                                continue;
-                            }
-
-                            break;
-
-                        }
-                    }
                 }
 
 
             }
         }
-    }   // main
+    }// main
+
+
+    public static void solveCommaAndTerms(ArrayList<String> partyList, List<CoreLabel> tokenList, CoreLabel token, String word){
+        if(word.equals(partyList.get(0))){
+            int prevTokenIndex = tokenList.indexOf(token)-1;
+            while (prevTokenIndex > 0){
+                CoreLabel prevToken = tokenList.get(prevTokenIndex);
+                String prevPOS = prevToken.get(CoreAnnotations.PartOfSpeechAnnotation.class);
+                String prevNER = prevToken.get(CoreAnnotations.NamedEntityTagAnnotation.class);
+                String prevWord = prevToken.get(CoreAnnotations.TextAnnotation.class);
+                String prevLemma = prevToken.get(CoreAnnotations.LemmaAnnotation.class);
+                if(prevWord.equals(",") || prevWord.equals("and") || prevPOS.equals("JJ") || prevPOS.equals("CD")){
+                    prevTokenIndex -= 1;
+                    continue;
+                }
+
+                if(prevNER.equals("PERSON") || prevNER.equals("ORGANIZATION")){
+                    partyList.add(prevWord);
+                    prevTokenIndex -= 1;
+                    continue;
+                }
+
+                if(personEntities.contains(prevLemma)){
+                    partyList.add(prevLemma);
+                    prevTokenIndex -= 1;
+                    continue;
+                }
+
+                break;
+
+            }
+
+            int nextTokenIndex = tokenList.indexOf(token)+1;
+
+            while (nextTokenIndex < tokenList.size()-1){
+                CoreLabel nextToken = tokenList.get(nextTokenIndex);
+                String nextPOS = nextToken.get(CoreAnnotations.PartOfSpeechAnnotation.class);
+                String nextNER = nextToken.get(CoreAnnotations.NamedEntityTagAnnotation.class);
+                String nextWord = nextToken.get(CoreAnnotations.TextAnnotation.class);
+                String nextLemma = nextToken.get(CoreAnnotations.LemmaAnnotation.class);
+                if(nextWord.equals(",") || nextWord.equals("and") || nextPOS.equals("JJ") || nextPOS.equals("CD")){
+                    nextTokenIndex += 1;
+                    continue;
+                }
+
+                if(nextNER.equals("PERSON") || nextNER.equals("ORGANIZATION")){
+                    partyList.add(nextWord);
+                    nextTokenIndex += 1;
+                    continue;
+                }
+
+                if(personEntities.contains(nextLemma)){
+                    partyList.add(nextLemma);
+                    nextTokenIndex += 1;
+                    continue;
+                }
+                break;
+            }
+
+
+        }
+    }
 }
