@@ -134,6 +134,7 @@ public class RoleExtraction {
     }// main
 
 
+    //extract and divide the terms into two group considering the topic
     public static void solveCommaAndTerms(ArrayList<String> partyList, List<CoreLabel> tokenList, CoreLabel token, String word){
         if(word.equals(partyList.get(0))){
             int prevTokenIndex = tokenList.indexOf(token)-1;
