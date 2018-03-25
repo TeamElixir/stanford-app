@@ -16,7 +16,7 @@
  *  $Id: StandAloneAnnie.java,v 1.6 2006/01/09 16:43:22 ian Exp $
  */
 
-package org.elixir.gate;
+package org.elixir.gate.examples;
 
 import gate.Annotation;
 import gate.AnnotationSet;

@@ -6,7 +6,7 @@
  * -- last updated 16/05/2003
  */
 
-package org.elixir.gate;
+package org.elixir.gate.examples;
 
 import gate.Gate;
 import gate.Document;

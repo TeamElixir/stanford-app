@@ -15,7 +15,7 @@
  *
  *  $Id: BatchProcessApp.java,v 1.5 2006/06/11 19:17:57 ian Exp $
  */
-package org.elixir.gate;
+package org.elixir.gate.examples;
 
 import gate.Document;
 import gate.Corpus;

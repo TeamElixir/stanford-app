@@ -1,4 +1,4 @@
-package org.elixir.gate;
+package org.elixir.gate.examples;
 
 /*
  * WordNetApp.java

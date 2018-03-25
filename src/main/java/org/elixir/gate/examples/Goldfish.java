@@ -12,7 +12,7 @@
  * -- last updated 18/05/2003
  */
 
-package org.elixir.gate;
+package org.elixir.gate.examples;
 
 import gate.Annotation;
 import gate.AnnotationSet;
