@@ -73,6 +73,14 @@
             <version>3.8.0</version>
             <classifier>models-english</classifier>
         </dependency>
+
+        <!--Google Cloud Natural Language API-->
+        <dependency>
+            <groupId>com.google.cloud</groupId>
+            <artifactId>google-cloud-language</artifactId>
+            <version>1.14.0</version>
+        </dependency>
+
         <dependency>
             <groupId>org.slf4j</groupId>
             <artifactId>slf4j-api</artifactId>
