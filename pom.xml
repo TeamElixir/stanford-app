@@ -109,7 +109,7 @@
                     </descriptorRefs>
                         <archive>
                             <manifest>
-                                <mainClass>org.elixir.Main</mainClass>
+                                <mainClass>org.elixir.word_sentiment_test</mainClass>
                             </manifest>
                         </archive>
                 </configuration>
