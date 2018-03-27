@@ -81,6 +81,7 @@ public class word_sentiment_test {
         } catch (FileNotFoundException e) {
             e.printStackTrace();
         }finally {
+            System.out.println(words.size());
             return words;
         }
     }
