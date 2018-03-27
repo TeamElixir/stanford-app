@@ -27,7 +27,7 @@ public class word_sentiment_test {
     public static void main(String[] args) throws IOException {
         linux_dictionary = createDictionary();
 
-
+//ssss
         Properties props = new Properties();
         props.setProperty("annotators", "tokenize,ssplit,pos,lemma,parse,depparse,natlog,ner,sentiment");
         StanfordCoreNLP pipeline = new StanfordCoreNLP(props);
