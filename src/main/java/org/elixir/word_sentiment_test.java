@@ -220,6 +220,7 @@ public class word_sentiment_test {
 
     }
 
+    //create dictionary file
     public static TreeSet<String> createDictionary(){
 
         Properties props = new Properties();
