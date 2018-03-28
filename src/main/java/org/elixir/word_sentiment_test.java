@@ -73,8 +73,9 @@ public class word_sentiment_test {
                         Boolean condition = true;
 
                         if(condition){
-                            if(!legalTerms_dictionary.contains(lemma) && linux_dictionary.contains(lemma) && count<8000){
+                            if((!legalTerms_dictionary.contains(lemma)) && linux_dictionary.contains(lemma) && count<8000){
                                 count+=1;
+                                System.out.println(lemma);
                                 linux_dictionary.remove(lemma);
                                 legalTerms_dictionary.add(lemma);
 
@@ -247,7 +248,7 @@ public class word_sentiment_test {
             Scanner scanner = new Scanner(file);
             while (scanner.hasNext()) {
                 String word = scanner.next();
-                if(word.charAt(0) != word.toLowerCase().charAt(0)){
+                if(word.charAt(0) == word.toLowerCase().charAt(0)){
                     Annotation annotation = new Annotation(word);
                     pipeline.annotate(annotation);
                     List<CoreMap> list = annotation.get(CoreAnnotations.SentencesAnnotation.class);
