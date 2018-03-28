@@ -34,7 +34,7 @@ public class CoreNLPTest {
         String globalFilePath = new File("").getAbsolutePath();
         globalFilePath += "/src/main/resources/sentiment_analysis/legal_cases/";
 
-        for(int i = 1; i<=80; i++){
+        for(int i = 3; i<=80; i++){
             System.out.println(i);
             String filePath = globalFilePath + "criminal/case_" + String.valueOf(i)+".txt";
             String writePath = globalFilePath + "criminal_triples/case_" + String.valueOf(i)+".txt";
@@ -84,6 +84,7 @@ public class CoreNLPTest {
                 }
             }
             out.flush();
+            out.close();
         }
 
     }
