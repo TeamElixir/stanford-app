@@ -41,7 +41,7 @@ public class word_sentiment_test {
         //BufferedWriter out_detail = new BufferedWriter(new FileWriter(globalFilePath+"results/word_sentiment_sentence.csv"));
         BufferedWriter out_neutral = new BufferedWriter(new FileWriter(globalFilePath+"results/neutral.csv"));
         BufferedWriter out_negative = new BufferedWriter(new FileWriter(globalFilePath+"results/negative.csv"));
-        BufferedWriter out_positive = new BufferedWriter(new FileWriter(globalFilePath+"results/word_sentiment.csv"));
+        BufferedWriter out_positive = new BufferedWriter(new FileWriter(globalFilePath+"results/positive.csv"));
 
 
 
@@ -75,20 +75,26 @@ public class word_sentiment_test {
                         if(condition){
                             if((!legalTerms_dictionary.contains(lemma)) && linux_dictionary.contains(lemma) && count<8000){
                                 count+=1;
-                                System.out.println(lemma);
                                 linux_dictionary.remove(lemma);
                                 legalTerms_dictionary.add(lemma);
 
                                 if(sentiment.toLowerCase().equals("neutral")){
-                                    out_neutral.write(lemma );
+                                    out_neutral.write(lemma + " , "+casename);
+                                    out_neutral.newLine();
                                 }else if(sentiment.toLowerCase().equals("positive")){
-                                    out_positive.write(lemma );
+                                    out_positive.write(lemma + " , "+casename);
+                                    out_positive.newLine();
+
                                 }else if(sentiment.toLowerCase().equals("negative")){
-                                    out_negative.write(lemma );
+                                    out_negative.write(lemma + " , "+casename);
+                                    out_negative.newLine();
                                 }
                                 out_basic.write(lemma + " , " + sentiment);
                                 //out_detail.write(lemma + " , "+sentiment + " , "+casename+" , "+ sentence );
                                 out_basic.newLine();
+
+
+
                                 //out_detail.newLine();
                             }
 
@@ -139,16 +145,21 @@ public class word_sentiment_test {
                                 legalTerms_dictionary.add(lemma);
                                 count+=1;
                                 if(sentiment.toLowerCase().equals("neutral")){
-                                    out_neutral.write(lemma );
+                                    out_neutral.write(lemma + " , "+casename);
+                                    out_neutral.newLine();
                                 }else if(sentiment.toLowerCase().equals("positive")){
-                                    out_positive.write(lemma );
+                                    out_positive.write(lemma + " , "+casename);
+                                    out_positive.newLine();
+
                                 }else if(sentiment.toLowerCase().equals("negative")){
-                                    out_negative.write(lemma );
+                                    out_negative.write(lemma + " , "+casename);
+                                    out_negative.newLine();
                                 }
                                 out_basic.write(lemma + " , " + sentiment);
                                 //out_detail.write(lemma + " , "+sentiment + " , "+casename+" , "+ sentence );
                                 out_basic.newLine();
                                 //out_detail.newLine();
+
                             }
 
                         }
@@ -193,16 +204,20 @@ public class word_sentiment_test {
 
 
                         if(true){
-                            if(!legalTerms_dictionary.contains(lemma) && linux_dictionary.contains(lemma) && count<8000){
+                            if(!legalTerms_dictionary.contains(lemma) && linux_dictionary.contains(lemma) && count<15000){
                                 linux_dictionary.remove(lemma);
                                 legalTerms_dictionary.add(lemma);
                                 count+=1;
                                 if(sentiment.toLowerCase().equals("neutral")){
-                                    out_neutral.write(lemma );
+                                    out_neutral.write(lemma + " , "+casename);
+                                    out_neutral.newLine();
                                 }else if(sentiment.toLowerCase().equals("positive")){
-                                    out_positive.write(lemma );
+                                    out_positive.write(lemma + " , "+casename);
+                                    out_positive.newLine();
+
                                 }else if(sentiment.toLowerCase().equals("negative")){
-                                    out_negative.write(lemma );
+                                    out_negative.write(lemma + " , "+casename);
+                                    out_negative.newLine();
                                 }
                                 out_basic.write(lemma + " , " + sentiment);
                                 //out_detail.write(lemma + " , "+sentiment + " , "+casename+" , "+ sentence );
