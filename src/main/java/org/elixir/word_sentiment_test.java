@@ -29,7 +29,7 @@ public class word_sentiment_test {
 
 //ssss
         Properties props = new Properties();
-        props.setProperty("annotators", "tokenize,ssplit,pos,lemma,parse,natlog,ner,sentiment");
+        props.setProperty("annotators", "tokenize,ssplit,pos,lemma,parse,natlog,sentiment");
         StanfordCoreNLP pipeline = new StanfordCoreNLP(props);
 
         linux_dictionary = createDictionary(pipeline);
@@ -64,10 +64,10 @@ public class word_sentiment_test {
                     for (CoreLabel token : sentence.get(CoreAnnotations.TokensAnnotation.class)) {
                         // this is the text of the token
                         String lemma = token.get(CoreAnnotations.LemmaAnnotation.class);
-                        // this is the POS tag of the token
-                        String pos = token.get(CoreAnnotations.PartOfSpeechAnnotation.class);
-                        // this is the NER label of the token
-                        String ne = token.get(CoreAnnotations.NamedEntityTagAnnotation.class);
+//                        // this is the POS tag of the token
+//                        String pos = token.get(CoreAnnotations.PartOfSpeechAnnotation.class);
+//                        // this is the NER label of the token
+//                        String ne = token.get(CoreAnnotations.NamedEntityTagAnnotation.class);
                         String sentiment = token.get(SentimentCoreAnnotations.SentimentClass.class);
 
                         Boolean condition = true;
