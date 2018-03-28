@@ -25,18 +25,20 @@ public class word_sentiment_test {
     public static int count =0;
 
     public static void main(String[] args) throws IOException {
-        linux_dictionary = createDictionary();
+
 
 //ssss
         Properties props = new Properties();
-        props.setProperty("annotators", "tokenize,ssplit,pos,lemma,parse,depparse,natlog,ner,sentiment");
+        props.setProperty("annotators", "tokenize,ssplit,pos,lemma,parse,natlog,ner,sentiment");
         StanfordCoreNLP pipeline = new StanfordCoreNLP(props);
+
+        linux_dictionary = createDictionary(pipeline);
 
         String globalFilePath = new File("").getAbsolutePath();
         globalFilePath += "/src/main/resources/sentiment_analysis/legal_cases/";
 
         BufferedWriter out_basic = new BufferedWriter(new FileWriter(globalFilePath+"results/word_sentiment.csv"));
-        BufferedWriter out_detail = new BufferedWriter(new FileWriter(globalFilePath+"results/word_sentiment_sentence.csv"));
+        //BufferedWriter out_detail = new BufferedWriter(new FileWriter(globalFilePath+"results/word_sentiment_sentence.csv"));
         BufferedWriter out_neutral = new BufferedWriter(new FileWriter(globalFilePath+"results/neutral.csv"));
         BufferedWriter out_negative = new BufferedWriter(new FileWriter(globalFilePath+"results/negative.csv"));
         BufferedWriter out_positive = new BufferedWriter(new FileWriter(globalFilePath+"results/word_sentiment.csv"));
@@ -68,23 +70,25 @@ public class word_sentiment_test {
                         String ne = token.get(CoreAnnotations.NamedEntityTagAnnotation.class);
                         String sentiment = token.get(SentimentCoreAnnotations.SentimentClass.class);
 
+                        Boolean condition = true;
 
-                        if(!pos.equals("CC") && !pos.equals("IN") && ne.equals("0")){
+                        if(condition){
                             if(!legalTerms_dictionary.contains(lemma) && linux_dictionary.contains(lemma) && count<8000){
                                 count+=1;
                                 linux_dictionary.remove(lemma);
                                 legalTerms_dictionary.add(lemma);
+
                                 if(sentiment.toLowerCase().equals("neutral")){
-                                    out_neutral.write(lemma + " ," +sentence);
+                                    out_neutral.write(lemma );
                                 }else if(sentiment.toLowerCase().equals("positive")){
-                                    out_positive.write(lemma + " ," +sentence);
+                                    out_positive.write(lemma );
                                 }else if(sentiment.toLowerCase().equals("negative")){
-                                    out_negative.write(lemma + " ," +sentence);
+                                    out_negative.write(lemma );
                                 }
                                 out_basic.write(lemma + " , " + sentiment);
-                                out_detail.write(lemma + " , "+sentiment + " , "+casename+" , "+ sentence );
+                                //out_detail.write(lemma + " , "+sentiment + " , "+casename+" , "+ sentence );
                                 out_basic.newLine();
-                                out_detail.newLine();
+                                //out_detail.newLine();
                             }
 
                         }
@@ -98,7 +102,7 @@ public class word_sentiment_test {
             out_neutral.flush();
             out_negative.flush();
             out_positive.flush();
-            out_detail.flush();
+            //.flush();
         }
 
         for(int i = 1; i<=10; i++){
@@ -128,22 +132,22 @@ public class word_sentiment_test {
                         String sentiment = token.get(SentimentCoreAnnotations.SentimentClass.class);
 
 
-                        if(!pos.equals("CC") && !pos.equals("IN") && ne.equals("0")){
+                        if(true){
                             if(!legalTerms_dictionary.contains(lemma) && linux_dictionary.contains(lemma) && count<8000){
                                 linux_dictionary.remove(lemma);
                                 legalTerms_dictionary.add(lemma);
                                 count+=1;
                                 if(sentiment.toLowerCase().equals("neutral")){
-                                    out_neutral.write(lemma + " ," +sentence);
+                                    out_neutral.write(lemma );
                                 }else if(sentiment.toLowerCase().equals("positive")){
-                                    out_positive.write(lemma + " ," +sentence);
+                                    out_positive.write(lemma );
                                 }else if(sentiment.toLowerCase().equals("negative")){
-                                    out_negative.write(lemma + " ," +sentence);
+                                    out_negative.write(lemma );
                                 }
                                 out_basic.write(lemma + " , " + sentiment);
-                                out_detail.write(lemma + " , "+sentiment + " , "+casename+" , "+ sentence );
+                                //out_detail.write(lemma + " , "+sentiment + " , "+casename+" , "+ sentence );
                                 out_basic.newLine();
-                                out_detail.newLine();
+                                //out_detail.newLine();
                             }
 
                         }
@@ -157,7 +161,7 @@ public class word_sentiment_test {
             out_neutral.flush();
             out_negative.flush();
             out_positive.flush();
-            out_detail.flush();
+            //out_detail.flush();
         }
 
         for(int i = 1; i<=15; i++){
@@ -187,22 +191,22 @@ public class word_sentiment_test {
                         String sentiment = token.get(SentimentCoreAnnotations.SentimentClass.class);
 
 
-                        if(!pos.equals("CC") && !pos.equals("IN") && ne.equals("0")){
+                        if(true){
                             if(!legalTerms_dictionary.contains(lemma) && linux_dictionary.contains(lemma) && count<8000){
                                 linux_dictionary.remove(lemma);
                                 legalTerms_dictionary.add(lemma);
                                 count+=1;
                                 if(sentiment.toLowerCase().equals("neutral")){
-                                    out_neutral.write(lemma + " ," +sentence);
+                                    out_neutral.write(lemma );
                                 }else if(sentiment.toLowerCase().equals("positive")){
-                                    out_positive.write(lemma + " ," +sentence);
+                                    out_positive.write(lemma );
                                 }else if(sentiment.toLowerCase().equals("negative")){
-                                    out_negative.write(lemma + " ," +sentence);
+                                    out_negative.write(lemma );
                                 }
                                 out_basic.write(lemma + " , " + sentiment);
-                                out_detail.write(lemma + " , "+sentiment + " , "+casename+" , "+ sentence );
+                                //out_detail.write(lemma + " , "+sentiment + " , "+casename+" , "+ sentence );
                                 out_basic.newLine();
-                                out_detail.newLine();
+                                //out_detail.newLine();
                             }
 
                         }
@@ -216,11 +220,11 @@ public class word_sentiment_test {
             out_neutral.flush();
             out_negative.flush();
             out_positive.flush();
-            out_detail.flush();
+            //out_detail.flush();
         }
 
         out_basic.close();
-        out_detail.close();
+        //out_detail.close();
         out_negative.close();
         out_positive.close();
         out_neutral.close();
@@ -229,11 +233,8 @@ public class word_sentiment_test {
     }
 
     //create dictionary file
-    public static TreeSet<String> createDictionary(){
+    public static TreeSet<String> createDictionary(StanfordCoreNLP pipeline){
 
-        Properties props = new Properties();
-        props.setProperty("annotators", "tokenize,ssplit,pos,lemma");
-        StanfordCoreNLP pipeline = new StanfordCoreNLP(props);
 
 
         String filePath = new File("").getAbsolutePath();
@@ -242,6 +243,7 @@ public class word_sentiment_test {
         TreeSet<String> words = new TreeSet<>();
 
         try {
+            System.out.println("started");
             Scanner scanner = new Scanner(file);
             while (scanner.hasNext()) {
                 String word = scanner.next();
@@ -258,6 +260,7 @@ public class word_sentiment_test {
         } catch (FileNotFoundException e) {
             e.printStackTrace();
         }finally {
+            System.out.println("finished");
             return words;
         }
     }
