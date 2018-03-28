@@ -40,7 +40,7 @@ public class CoreNLPTest {
             String writePath = globalFilePath + "criminal_triples/case_" + String.valueOf(i)+".txt";
             String textRaw = Utils.readFile(filePath);
 
-            BufferedWriter out = new BufferedWriter(new FileWriter(writePath));
+            BufferedWriter out = new BufferedWriter(new FileWriter(new File(writePath)));
 
             String[] splittedParagraphs = textRaw.split("\n");
 
@@ -78,7 +78,7 @@ public class CoreNLPTest {
 //                                triple.relationGloss() + "\t" +
 //                                triple.objectGloss());
 
-                        out.write(triple.subjectGloss()+" "+ triple.relationGloss()+" "+ triple.objectGloss());
+                        out.write("(" + triple.subjectGloss()+", "+ triple.relationGloss()+", "+ triple.objectGloss() + ")");
                         out.newLine();
                     }
                 }
