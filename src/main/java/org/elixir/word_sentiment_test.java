@@ -38,7 +38,7 @@ public class word_sentiment_test {
         globalFilePath += "/src/main/resources/sentiment_analysis/legal_cases/";
 
         BufferedWriter out_basic = new BufferedWriter(new FileWriter(globalFilePath+"results/word_sentiment.csv"));
-        //BufferedWriter out_detail = new BufferedWriter(new FileWriter(globalFilePath+"results/word_sentiment_sentence.csv"));
+        //BufferedWriter out_final = new BufferedWriter(new FileWriter(globalFilePath+"results/final.csv"));
         BufferedWriter out_neutral = new BufferedWriter(new FileWriter(globalFilePath+"results/neutral.csv"));
         BufferedWriter out_negative = new BufferedWriter(new FileWriter(globalFilePath+"results/negative.csv"));
         BufferedWriter out_positive = new BufferedWriter(new FileWriter(globalFilePath+"results/positive.csv"));
@@ -53,73 +53,80 @@ public class word_sentiment_test {
             while (scanner.hasNext()){
                 String line = scanner.nextLine();
                 String triple = line.substring(1,line.length()-2);
+                String[] words = triple.split(",");
 
-            }
-            String textRaw = Utils.readFile(filePath);
-
-            String[] splittedParagraphs = textRaw.split("\n");
-
-            for(String splittedParagraph:splittedParagraphs){
-                String text = splittedParagraph;
-                Annotation document = new Annotation(text);
-                pipeline.annotate(document);
-                List<CoreMap> sentences = document.get(CoreAnnotations.SentencesAnnotation.class);
-                for (CoreMap sentence : sentences) {
-                    //System.out.println(sentence.get(CoreAnnotations.TextAnnotation.class));
-                    // traversing the words in the current sentence
-                    // a CoreLabel is a CoreMap with additional token-specific methods
-                    for (CoreLabel token : sentence.get(CoreAnnotations.TokensAnnotation.class)) {
-                        // this is the text of the token
-                        String lemma = token.get(CoreAnnotations.LemmaAnnotation.class);
+                for(String text:words){
+                    Annotation document = new Annotation(text);
+                    pipeline.annotate(document);
+                    List<CoreMap> sentences = document.get(CoreAnnotations.SentencesAnnotation.class);
+                    for (CoreMap sentence : sentences) {
+                        //System.out.println(sentence.get(CoreAnnotations.TextAnnotation.class));
+                        // traversing the words in the current sentence
+                        // a CoreLabel is a CoreMap with additional token-specific methods
+                        for (CoreLabel token : sentence.get(CoreAnnotations.TokensAnnotation.class)) {
+                            // this is the text of the token
+                            String lemma = token.get(CoreAnnotations.LemmaAnnotation.class);
 //                        // this is the POS tag of the token
 //                        String pos = token.get(CoreAnnotations.PartOfSpeechAnnotation.class);
 //                        // this is the NER label of the token
 //                        String ne = token.get(CoreAnnotations.NamedEntityTagAnnotation.class);
-                        String sentiment = token.get(SentimentCoreAnnotations.SentimentClass.class);
+                            String sentiment = token.get(SentimentCoreAnnotations.SentimentClass.class);
 
-                        Boolean condition = true;
+                            Boolean condition = true;
 
-                        if(condition){
-                            if((!legalTerms_dictionary.contains(lemma)) && linux_dictionary.contains(lemma) && count<8000){
-                                count+=1;
-                                linux_dictionary.remove(lemma);
-                                legalTerms_dictionary.add(lemma);
+                            if(condition){
+                                if((!legalTerms_dictionary.contains(lemma)) && linux_dictionary.contains(lemma) && count<8000){
+                                    count+=1;
+                                    linux_dictionary.remove(lemma);
+                                    legalTerms_dictionary.add(lemma);
 
-                                if(sentiment.toLowerCase().equals("neutral")){
-                                    out_neutral.write(lemma + " , "+casename);
-                                    out_neutral.newLine();
-                                }else if(sentiment.toLowerCase().equals("positive")){
-                                    out_positive.write(lemma + " , "+casename);
-                                    out_positive.newLine();
+                                    if(sentiment.toLowerCase().equals("neutral")){
+                                        out_neutral.write(lemma + " , "+casename+" , "+line);
+                                        out_neutral.newLine();
+                                    }else if(sentiment.toLowerCase().equals("positive")){
+                                        out_positive.write(lemma + " , "+casename+" , "+line);
+                                        out_positive.newLine();
 
-                                }else if(sentiment.toLowerCase().equals("negative")){
-                                    out_negative.write(lemma + " , "+casename);
-                                    out_negative.newLine();
+                                    }else if(sentiment.toLowerCase().equals("negative")){
+                                        out_negative.write(lemma + " , "+casename+" , "+line);
+                                        out_negative.newLine();
+                                    }
+                                    out_basic.write(lemma + " , " + sentiment);
+                                    //out_detail.write(lemma + " , "+sentiment + " , "+casename+" , "+ sentence );
+                                    out_basic.newLine();
+
+
+
+                                    //out_detail.newLine();
                                 }
-                                out_basic.write(lemma + " , " + sentiment);
-                                //out_detail.write(lemma + " , "+sentiment + " , "+casename+" , "+ sentence );
-                                out_basic.newLine();
 
-
-
-                                //out_detail.newLine();
                             }
 
                         }
-
                     }
                 }
 
-
             }
+//            String textRaw = Utils.readFile(filePath);
+//
+//            String[] splittedParagraphs = textRaw.split("\n");
+//
+//            for(String splittedParagraph:splittedParagraphs){
+//                String text = splittedParagraph;
+//
+//
+//
+//            }
             out_basic.flush();
             out_neutral.flush();
             out_negative.flush();
             out_positive.flush();
+            scanner.close();
+
             //.flush();
         }
 
-        for(int i = 1; i<=10; i++){
+     /*   for(int i = 1; i<=10; i++){
             String casename = "environment/case_"+String.valueOf(i)+".txt";
             String filePath = globalFilePath+casename;
 
@@ -244,7 +251,7 @@ public class word_sentiment_test {
             out_negative.flush();
             out_positive.flush();
             //out_detail.flush();
-        }
+        }*/
 
         out_basic.close();
         //out_detail.close();
