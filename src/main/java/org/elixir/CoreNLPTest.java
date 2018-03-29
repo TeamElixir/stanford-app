@@ -11,7 +11,6 @@ import edu.stanford.nlp.naturalli.NaturalLogicAnnotations;
 import edu.stanford.nlp.pipeline.Annotation;
 import edu.stanford.nlp.pipeline.StanfordCoreNLP;
 import edu.stanford.nlp.util.CoreMap;
-import org.elixir.data.Texts;
 import org.elixir.utils.Utils;
 
 import java.io.BufferedWriter;
@@ -23,6 +22,7 @@ import java.util.List;
 import java.util.Properties;
 
 public class CoreNLPTest {
+
     public static void main(String[] args) throws IOException {
 
         // creates a StanfordCoreNLP object, with POS tagging, lemmatization, NER, parsing, and coreference resolution
@@ -88,4 +88,5 @@ public class CoreNLPTest {
         }
 
     }
+
 }

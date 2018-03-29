@@ -46,8 +46,15 @@ public class word_sentiment_test {
 
 
         for(int i = 1; i<=80; i++){
-            String casename = "criminal/case_"+String.valueOf(i)+".txt";
+            String casename = "criminal_triples/case_"+String.valueOf(i)+".txt";
             String filePath = globalFilePath+casename;
+            Scanner scanner = new Scanner(new File(filePath));
+
+            while (scanner.hasNext()){
+                String line = scanner.nextLine();
+                String triple = line.substring(1,line.length()-2);
+
+            }
             String textRaw = Utils.readFile(filePath);
 
             String[] splittedParagraphs = textRaw.split("\n");
