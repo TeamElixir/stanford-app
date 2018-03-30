@@ -16,9 +16,9 @@ public class Sort_results {
 
         String[] fileNames = {"negative.csv","positive.csv","neutral.csv"};
 
-        TreeMap<String, String> wordMap = new TreeMap <>();
-
         for(String fileName : fileNames){
+
+            TreeMap<String, String> wordMap = new TreeMap <>();
             Scanner scanner = new Scanner(new File(filePath + fileName));
 
             while(scanner.hasNext()){
@@ -36,6 +36,7 @@ public class Sort_results {
             }
             out.flush();
             out.close();
+
         }
 
 
