@@ -34,10 +34,10 @@ public class CoreNLPTest {
 		String globalFilePath = new File("").getAbsolutePath();
 		globalFilePath += "/src/main/resources/sentiment_analysis/legal_cases/";
 
-		for (int i = 3; i <= 80; i++) {
+		for (int i = 1; i <= 2500; i++) {
 			System.out.println(i);
-			String filePath = globalFilePath + "criminal/case_" + String.valueOf(i) + ".txt";
-			String writePath = globalFilePath + "criminal_triples/case_" + String.valueOf(i) + ".txt";
+			String filePath = globalFilePath + "crawled/" + String.valueOf(i) + ".txt";
+			String writePath = globalFilePath + "crawled_triples/" + String.valueOf(i) + ".txt";
 			String textRaw = Utils.readFile(filePath);
 
 			BufferedWriter out = new BufferedWriter(new FileWriter(new File(writePath)));
@@ -73,13 +73,9 @@ public class CoreNLPTest {
 							sentence.get(NaturalLogicAnnotations.RelationTriplesAnnotation.class);
 					// Print the triples
 					for (RelationTriple triple : triples) {
-						//                        System.out.println(triple.confidence + "\t" +
-						//                                triple.subjectLemmaGloss() + "\t" +
-						//                                triple.relationGloss() + "\t" +
-						//                                triple.objectGloss());
-
-						out.write("(" + triple.subjectGloss() + ", " + triple.relationGloss() + ", " + triple.objectGloss()
-								+ ")");
+						out.write("(" + triple.subjectGloss() + ", "
+								+ triple.relationGloss() + ", " + triple.objectGloss()
+								+ ") [" + sentence +"]");
 						out.newLine();
 					}
 				}
