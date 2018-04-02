@@ -3,7 +3,8 @@ package org.elixir;
 import edu.stanford.nlp.coref.data.CorefChain;
 import edu.stanford.nlp.ie.machinereading.structure.Span;
 import edu.stanford.nlp.naturalli.Polarity;
-import edu.stanford.nlp.simple.*;
+import edu.stanford.nlp.simple.Document;
+import edu.stanford.nlp.simple.Sentence;
 import edu.stanford.nlp.trees.Tree;
 import edu.stanford.nlp.util.Quadruple;
 import org.elixir.data.Texts;
@@ -15,17 +16,18 @@ import java.util.List;
 import java.util.Map;
 
 public class SimpleAPI {
-	public static void main(String[] args){
+
+	public static void main(String[] args) {
 		NLPUtils nlpUtils = new NLPUtils();
 		String sent1 = "The quick brown fox jumps over the crazy dog";
 		String sent2 = "He who never failed, never tried";
 		String sent3 = "Make hay while the sun shines";
 
-//		String sub1 = nlpUtils.getSubject(sent1);
+		//		String sub1 = nlpUtils.getSubject(sent1);
 		String sub2 = nlpUtils.getSubject(sent2);
 		String sub3 = nlpUtils.getSubject(sent3);
 
-//		System.out.println(sub1);
+		//		System.out.println(sub1);
 		System.out.println(sub2);
 		System.out.println(sub3);
 
@@ -51,14 +53,14 @@ public class SimpleAPI {
 				}
 			}
 
-//			System.out.println("Sentence: " + sent);
-//			System.out.println("Words: " + words);
-//			System.out.println("NERTags: " + nerTags);
+			//			System.out.println("Sentence: " + sent);
+			//			System.out.println("Words: " + words);
+			//			System.out.println("NERTags: " + nerTags);
 			System.out.println("--------------------------------------------------\n");
 		}
 	}
 
-	private static void sentenceAlgo(){
+	private static void sentenceAlgo() {
 		String text = "It was already decided by the Counsellor.";
 		Sentence sent = new Sentence(text);
 		int i = sent.algorithms().headOfSpan(new Span(0, sent.length()));
@@ -66,15 +68,15 @@ public class SimpleAPI {
 		System.out.println(sent.tokens().get(i).originalText());
 	}
 
-	private static void openIE(){
+	private static void openIE() {
 		String text = "The petitioners argued the withheld evidence could've been ruled in their favor";
 		Sentence sent = new Sentence(text);
 		Collection<Quadruple<String, String, String, Double>> openie = sent.openie();
 		for (Quadruple<String, String, String, Double> triplet : openie) {
 			System.out.println("Triplet: " + triplet.first);
-//			System.out.println(triplet.first);
-//			System.out.println(triplet.second);
-//			System.out.println(triplet.third);
+			//			System.out.println(triplet.first);
+			//			System.out.println(triplet.second);
+			//			System.out.println(triplet.third);
 			System.out.println("-------------------------");
 		}
 
@@ -84,9 +86,9 @@ public class SimpleAPI {
 		String text = "It was already decided by the Counsellor.";
 		Sentence sent = new Sentence(text);
 		Tree parse = sent.parse();
-//		System.out.println(parse);
+		//		System.out.println(parse);
 		Iterator<Tree> iterator = parse.iterator();
-		while(iterator.hasNext()) {
+		while (iterator.hasNext()) {
 			System.out.println(iterator.next());
 		}
 	}

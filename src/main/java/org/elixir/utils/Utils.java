@@ -3,11 +3,16 @@ package org.elixir.utils;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.elixir.models.Node;
 
-import java.io.*;
+import java.io.BufferedReader;
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.io.FileReader;
+import java.io.IOException;
 import java.util.ArrayList;
 
 public class Utils {
-	public static String readFile(String fileName){
+
+	public static String readFile(String fileName) {
 		BufferedReader br = null;
 		try {
 			br = new BufferedReader(new FileReader(fileName));
@@ -22,17 +27,21 @@ public class Utils {
 			String everything = sb.toString();
 
 			return everything;
-		}catch (FileNotFoundException e) {
+		}
+		catch (FileNotFoundException e) {
 			e.printStackTrace();
 			return null;
-		}catch (IOException  e) {
+		}
+		catch (IOException e) {
 			e.printStackTrace();
 			return null;
-		} finally {
-			if (br != null){
-				try{
+		}
+		finally {
+			if (br != null) {
+				try {
 					br.close();
-				}catch (IOException e) {
+				}
+				catch (IOException e) {
 
 				}
 			}

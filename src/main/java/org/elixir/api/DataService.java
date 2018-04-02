@@ -10,6 +10,7 @@ import java.util.ArrayList;
 
 @Path("/arguments")
 public class DataService {
+
 	@GET
 	@Produces(MediaType.APPLICATION_JSON)
 	public ArrayList<ArrayList<ArrayList<String>>> getArguments() {

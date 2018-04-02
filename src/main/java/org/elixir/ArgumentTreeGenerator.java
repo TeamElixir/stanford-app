@@ -6,22 +6,33 @@ import edu.stanford.nlp.ling.CoreLabel;
 import edu.stanford.nlp.naturalli.NaturalLogicAnnotations;
 import edu.stanford.nlp.pipeline.Annotation;
 import edu.stanford.nlp.pipeline.StanfordCoreNLP;
+import edu.stanford.nlp.simple.Document;
+import edu.stanford.nlp.simple.Sentence;
 import edu.stanford.nlp.util.CoreMap;
-import edu.stanford.nlp.simple.*;
-
 import org.elixir.models.Node;
 import org.elixir.utils.NLPUtils;
 import org.elixir.utils.Utils;
 
 import java.io.File;
 import java.io.IOException;
-import java.util.*;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Collection;
+import java.util.List;
+import java.util.Properties;
 
 public class ArgumentTreeGenerator {
 
 	//an Array to store the names of Legal Persons
 	private static final ArrayList<String> SUBJECT_LIST = new ArrayList<>(
 			Arrays.asList("Petitioner", "Government", "Defendant"));
+
+	//nodes of the argument tree
+	public static ArrayList<Node> nodes = new ArrayList<>();
+
+	public static boolean alreadyAdded = false;
+
+	public static ArrayList<String> sentencesInCase = new ArrayList<>();
 
 	//an Array to store the parties in the current court case
 	private static ArrayList<String> currentSubjects = new ArrayList<>();
@@ -45,13 +56,6 @@ public class ArgumentTreeGenerator {
 
 	//to keep track of persons presented in names
 	private static ArrayList<String> persons = new ArrayList<>();
-
-	//nodes of the argument tree
-	public static ArrayList<Node> nodes = new ArrayList<>();
-
-	public static boolean alreadyAdded = false;
-
-	public static ArrayList<String> sentencesInCase = new ArrayList<>();
 
 	public static void main(String[] args) {
 
@@ -107,7 +111,6 @@ public class ArgumentTreeGenerator {
                 }
                 lastSentence=null;
             }*/
-
 
 			//still no idea whether the sentence has a subject
 			hasSubject = false;

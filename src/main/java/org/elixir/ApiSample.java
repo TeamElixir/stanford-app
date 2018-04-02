@@ -2,7 +2,6 @@ package org.elixir;
 
 import edu.stanford.nlp.dcoref.CorefChain;
 import edu.stanford.nlp.dcoref.CorefCoreAnnotations;
-import edu.stanford.nlp.dcoref.Document;
 import edu.stanford.nlp.ling.CoreAnnotations;
 import edu.stanford.nlp.ling.CoreLabel;
 import edu.stanford.nlp.pipeline.Annotation;
@@ -18,7 +17,8 @@ import java.util.Map;
 import java.util.Properties;
 
 public class ApiSample {
-	public static void coreAPI(){
+
+	public static void coreAPI() {
 		// creates a StanfordCoreNLP object, with POS tagging, lemmatization, NER, parsing, and coreference resolution
 		Properties props = new Properties();
 		props.setProperty("annotators", "tokenize, ssplit, pos, lemma, ner, parse, dcoref");
@@ -56,10 +56,10 @@ public class ApiSample {
 
 			// this is the parse tree of the current sentence
 			Tree tree = sentence.get(TreeCoreAnnotations.TreeAnnotation.class);
-//			System.out.println("Tree: " + tree.children());
-//			for(Tree child: tree.children()) {
-//				System.out.println("Child: " + child);
-//			}
+			//			System.out.println("Tree: " + tree.children());
+			//			for(Tree child: tree.children()) {
+			//				System.out.println("Child: " + child);
+			//			}
 
 			// this is the Stanford dependency graph of the current sentence
 			SemanticGraph dependencies = sentence

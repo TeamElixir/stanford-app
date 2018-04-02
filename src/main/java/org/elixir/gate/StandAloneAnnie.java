@@ -58,40 +58,6 @@ public class StandAloneAnnie {
 	private CorpusController annieController;
 
 	/**
-	 * Initialise the ANNIE system. This creates a "corpus pipeline"
-	 * application that can be used to run sets of documents through
-	 * the extraction system.
-	 */
-	public void initAnnie() throws GateException, IOException {
-		Out.prln("Initialising ANNIE...");
-
-		// load the ANNIE application from the saved state in plugins/ANNIE
-		File pluginsHome = Gate.getPluginsHome();
-		File anniePlugin = new File(pluginsHome, "ANNIE");
-		File annieGapp = new File(anniePlugin, "ANNIE_with_defaults.gapp");
-		annieController =
-				(CorpusController) PersistenceManager.loadObjectFromFile(annieGapp);
-
-		Out.prln("...ANNIE loaded");
-	} // initAnnie()
-
-	/**
-	 * Tell ANNIE's controller about the corpus you want to run on
-	 */
-	public void setCorpus(Corpus corpus) {
-		annieController.setCorpus(corpus);
-	} // setCorpus
-
-	/**
-	 * Run ANNIE
-	 */
-	public void execute() throws GateException {
-		Out.prln("Running ANNIE...");
-		annieController.execute();
-		Out.prln("...ANNIE complete");
-	} // execute()
-
-	/**
 	 * Run from the command-line, with a list of URLs as argument.
 	 * <P><B>NOTE:</B><BR>
 	 * This code will run with all the documents in memory - if you
@@ -247,6 +213,40 @@ public class StandAloneAnnie {
 
 		} // for each doc
 	} // main
+
+	/**
+	 * Initialise the ANNIE system. This creates a "corpus pipeline"
+	 * application that can be used to run sets of documents through
+	 * the extraction system.
+	 */
+	public void initAnnie() throws GateException, IOException {
+		Out.prln("Initialising ANNIE...");
+
+		// load the ANNIE application from the saved state in plugins/ANNIE
+		File pluginsHome = Gate.getPluginsHome();
+		File anniePlugin = new File(pluginsHome, "ANNIE");
+		File annieGapp = new File(anniePlugin, "ANNIE_with_defaults.gapp");
+		annieController =
+				(CorpusController) PersistenceManager.loadObjectFromFile(annieGapp);
+
+		Out.prln("...ANNIE loaded");
+	} // initAnnie()
+
+	/**
+	 * Tell ANNIE's controller about the corpus you want to run on
+	 */
+	public void setCorpus(Corpus corpus) {
+		annieController.setCorpus(corpus);
+	} // setCorpus
+
+	/**
+	 * Run ANNIE
+	 */
+	public void execute() throws GateException {
+		Out.prln("Running ANNIE...");
+		annieController.execute();
+		Out.prln("...ANNIE complete");
+	} // execute()
 
 	/**
 	 *

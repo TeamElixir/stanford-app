@@ -4,21 +4,27 @@ import com.fasterxml.jackson.annotation.JsonProperty;
 
 public class Node {
 
-    @JsonProperty("key")
+	@JsonProperty("key")
 	private String id;
 
-    @JsonProperty("parent")
+	@JsonProperty("parent")
 	private String parent;
 
-    @JsonProperty("name")
+	@JsonProperty("name")
 	private String argument;
 
-    @JsonProperty("type")
-    private String type;
+	@JsonProperty("type")
+	private String type;
 
 	// default constructor needed for parsing JSON
 	public Node() {
 
+	}
+
+	public Node(String id, String parent, String argument) {
+		this.id = id;
+		this.parent = parent;
+		this.argument = argument;
 	}
 
 	@Override
@@ -33,12 +39,6 @@ public class Node {
 
 	public void setType(String type) {
 		this.type = type;
-	}
-
-	public Node(String id, String parent, String argument) {
-		this.id = id;
-		this.parent = parent;
-		this.argument = argument;
 	}
 
 	public String getId() {

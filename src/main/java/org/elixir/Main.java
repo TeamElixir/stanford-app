@@ -11,8 +11,8 @@ import java.util.Collection;
 public class Main {
 
 	public static void main(String[] args) {
-//		ApiSample.coreAPI();
-//		SimpleAPI.execute();
+		//		ApiSample.coreAPI();
+		//		SimpleAPI.execute();
 		testTriple();
 	} // main
 
@@ -33,7 +33,7 @@ public class Main {
 			System.out.println("Subject: " + relationTriple.subject);
 			System.out.println("SubjectGloss:" + relationTriple.subjectGloss());
 			System.out.println("Confidence: " + relationTriple.confidence);
-			System.out.println("ConfidenceGloss: "+relationTriple.confidence);
+			System.out.println("ConfidenceGloss: " + relationTriple.confidence);
 			System.out.println("Relation: " + relationTriple.relation);
 			System.out.println("RelationGloss: " + relationTriple.relationGloss());
 		}
@@ -44,11 +44,11 @@ public class Main {
 		// Iterate over the sentences in the document
 		for (Sentence sent : doc.sentences()) {
 			// When we ask for the lemma, it will load and run the part of speech tagger
-//			System.out.println("The third lemma of the sentence '" + sent + "' is " + sent.lemma(2));
-//			// When we ask for the parse, it will load and run the parser
-//			System.out.println("The parse of the sentence '" + sent + "' is " + sent.parse());
+			//			System.out.println("The third lemma of the sentence '" + sent + "' is " + sent.lemma(2));
+			//			// When we ask for the parse, it will load and run the parser
+			//			System.out.println("The parse of the sentence '" + sent + "' is " + sent.parse());
 
-//			System.out.println(sent.nerTags().toString());
+			//			System.out.println(sent.nerTags().toString());
 			// Iterate over the triples in the sentence
 
 			System.out.println(sent.lemmas().toString());

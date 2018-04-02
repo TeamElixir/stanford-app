@@ -16,8 +16,8 @@ package org.elixir.gate;
 
 import gate.Annotation;
 import gate.AnnotationSet;
-import gate.creole.ExecutionException;
 import gate.creole.ANNIEConstants;
+import gate.creole.ExecutionException;
 
 import java.util.Iterator;
 

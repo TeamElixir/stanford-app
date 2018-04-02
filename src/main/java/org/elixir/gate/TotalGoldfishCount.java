@@ -8,14 +8,14 @@
 
 package org.elixir.gate;
 
-import gate.Gate;
 import gate.Document;
-import gate.util.GateException;
 import gate.Factory;
+import gate.Gate;
 import gate.creole.SerialAnalyserController;
+import gate.util.GateException;
 
-import java.util.Iterator;
 import java.io.File;
+import java.util.Iterator;
 
 public class TotalGoldfishCount {
 
@@ -40,6 +40,18 @@ public class TotalGoldfishCount {
 		displayDocumentFeatures();
 
 		System.out.println("\nDemo done... :)");
+	}
+
+	public static void main(String[] args) {
+		if (args.length == 0)
+			System.err.println("USAGE: java TotalGoldfishCount <file1> <file2> ...");
+		else
+			try {
+				new TotalGoldfishCount(args);
+			}
+			catch (Exception e) {
+				e.printStackTrace();
+			}
 	}
 
 	private void createCorpus(String[] files) throws GateException {
@@ -97,17 +109,5 @@ public class TotalGoldfishCount {
 			}
 			System.out.println();
 		}
-	}
-
-	public static void main(String[] args) {
-		if (args.length == 0)
-			System.err.println("USAGE: java TotalGoldfishCount <file1> <file2> ...");
-		else
-			try {
-				new TotalGoldfishCount(args);
-			}
-			catch (Exception e) {
-				e.printStackTrace();
-			}
 	}
 }

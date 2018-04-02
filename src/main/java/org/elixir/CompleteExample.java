@@ -14,13 +14,15 @@ import java.util.List;
 import java.util.Properties;
 
 public class CompleteExample {
-	public static void execute(){
+
+	public static void execute() {
 		PrintWriter xmlOut = null;
 		try {
 			xmlOut = new PrintWriter("xmlOutput.xml");
 		}
 		catch (FileNotFoundException e) {
-			System.out.println("File not found");;
+			System.out.println("File not found");
+			;
 			e.printStackTrace();
 		}
 		Properties props = new Properties();
@@ -42,11 +44,11 @@ public class CompleteExample {
 		List<CoreMap> sentences = annotation.get(
 				CoreAnnotations.SentencesAnnotation.class);
 		if (sentences != null && sentences.size() > 0) {
-			for(int i=0; i<sentences.size(); i++){
+			for (int i = 0; i < sentences.size(); i++) {
 				CoreMap sentence = sentences.get(i);
 				Tree tree = sentence.get(TreeCoreAnnotations.TreeAnnotation.class);
 				PrintWriter out = new PrintWriter(System.out);
-				out.println("The "+ i +" th/nd sentence parsed is:");
+				out.println("The " + i + " th/nd sentence parsed is:");
 				tree.pennPrint(out);
 			}
 		}

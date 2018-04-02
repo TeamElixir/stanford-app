@@ -17,25 +17,23 @@
  */
 package org.elixir.gate;
 
-import gate.Document;
+import gate.AnnotationSet;
 import gate.Corpus;
 import gate.CorpusController;
-import gate.AnnotationSet;
-import gate.Gate;
+import gate.Document;
 import gate.Factory;
-import gate.util.*;
+import gate.Gate;
 import gate.util.persistence.PersistenceManager;
 
-import java.util.Set;
-import java.util.HashSet;
-import java.util.List;
-import java.util.ArrayList;
-import java.util.Iterator;
-
+import java.io.BufferedOutputStream;
 import java.io.File;
 import java.io.FileOutputStream;
-import java.io.BufferedOutputStream;
 import java.io.OutputStreamWriter;
+import java.util.ArrayList;
+import java.util.HashSet;
+import java.util.Iterator;
+import java.util.List;
+import java.util.Set;
 
 /**
  * This class ilustrates how to do simple batch processing with GATE.  It loads
@@ -50,6 +48,28 @@ import java.io.OutputStreamWriter;
  * will cause the process to abort.
  */
 public class BatchProcessApp {
+
+	/**
+	 * Index of the first non-option argument on the command line.
+	 */
+	private static int firstFile = 0;
+
+	/**
+	 * Path to the saved application file.
+	 */
+	private static File gappFile = null;
+
+	/**
+	 * List of annotation types to write out.  If null, write everything as
+	 * GateXML.
+	 */
+	private static List annotTypesToWrite = null;
+
+	/**
+	 * The character encoding to use when loading the docments.  If null, the
+	 * platform default encoding is used.
+	 */
+	private static String encoding = null;
 
 	/**
 	 * The main entry point.  First we parse the command line options (see
@@ -216,26 +236,4 @@ public class BatchProcessApp {
 
 		System.exit(1);
 	}
-
-	/**
-	 * Index of the first non-option argument on the command line.
-	 */
-	private static int firstFile = 0;
-
-	/**
-	 * Path to the saved application file.
-	 */
-	private static File gappFile = null;
-
-	/**
-	 * List of annotation types to write out.  If null, write everything as
-	 * GateXML.
-	 */
-	private static List annotTypesToWrite = null;
-
-	/**
-	 * The character encoding to use when loading the docments.  If null, the
-	 * platform default encoding is used.
-	 */
-	private static String encoding = null;
 }
