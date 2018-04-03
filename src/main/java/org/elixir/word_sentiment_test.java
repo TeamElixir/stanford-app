@@ -36,13 +36,13 @@ public class word_sentiment_test {
 		String globalFilePath = new File("").getAbsolutePath();
 		globalFilePath += "/src/main/resources/sentiment_analysis/legal_cases/";
 
-		BufferedWriter out_basic = new BufferedWriter(new FileWriter(globalFilePath + "results/word_sentiment.csv"));
+		BufferedWriter out_basic = new BufferedWriter(new FileWriter(globalFilePath + "results/word_sentiment.csv", true));
 		//BufferedWriter out_final = new BufferedWriter(new FileWriter(globalFilePath+"results/final.csv"));
-		BufferedWriter out_neutral = new BufferedWriter(new FileWriter(globalFilePath + "results/neutral.csv"));
-		BufferedWriter out_negative = new BufferedWriter(new FileWriter(globalFilePath + "results/negative.csv"));
-		BufferedWriter out_positive = new BufferedWriter(new FileWriter(globalFilePath + "results/positive.csv"));
+		BufferedWriter out_neutral = new BufferedWriter(new FileWriter(globalFilePath + "results/neutral.csv", true));
+		BufferedWriter out_negative = new BufferedWriter(new FileWriter(globalFilePath + "results/negative.csv", true));
+		BufferedWriter out_positive = new BufferedWriter(new FileWriter(globalFilePath + "results/positive.csv", true));
 
-		for (int i = 94; i <= 368; i++) {
+		for (int i = 1; i <= 368; i++) {
 			String casename = "crawled_triples/" + String.valueOf(i) + ".txt";
 			String filePath = globalFilePath + casename;
 			Scanner scanner = new Scanner(new File(filePath));
@@ -81,7 +81,7 @@ public class word_sentiment_test {
 
 							if (condition) {
 								if ((!legalTerms_dictionary.contains(lemma)) && linux_dictionary.contains(lemma)
-										&& count < 8000) {
+										&& count < 40000) {
 									count += 1;
 									linux_dictionary.remove(lemma);
 									legalTerms_dictionary.add(lemma);
