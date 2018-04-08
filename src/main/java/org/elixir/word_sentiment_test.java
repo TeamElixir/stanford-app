@@ -89,18 +89,18 @@ public class word_sentiment_test {
 									switch (sentiment.toLowerCase()) {
 										case "neutral":
 											out_neutral.write(lemma + ", " + casename + ", " + triple + " , "
-															+ originalSentence);
+													+ originalSentence);
 											out_neutral.newLine();
 											break;
 										case "positive":
 											out_positive.write(lemma + ", " + casename + ", " + triple + ", "
-															+ originalSentence);
+													+ originalSentence);
 											out_positive.newLine();
 
 											break;
 										case "negative":
 											out_negative.write(lemma + ", " + casename + ", " + triple + ", "
-															+ originalSentence);
+													+ originalSentence);
 											out_negative.newLine();
 											break;
 									}

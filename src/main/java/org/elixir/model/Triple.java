@@ -1,8 +1,11 @@
 package org.elixir.model;
 
 public class Triple {
+
 	private String subject;
+
 	private String relation;
+
 	private String object;
 
 	private Triple() {
@@ -17,7 +20,7 @@ public class Triple {
 
 	@Override
 	public String toString() {
-		return "("+ subject + ", " + relation + ", " + object +")";
+		return "(" + subject + ", " + relation + ", " + object + ")";
 	}
 
 	public String getSubject() {

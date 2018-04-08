@@ -3,8 +3,11 @@ package org.elixir.model;
 import java.util.ArrayList;
 
 public class Case {
+
 	private ArrayList<String> sentences;
+
 	private String title;
+
 	private String fileName;
 
 	public Case() {

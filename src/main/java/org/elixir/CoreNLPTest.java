@@ -14,9 +14,7 @@ import edu.stanford.nlp.util.CoreMap;
 import org.elixir.db.DBCon;
 import org.elixir.utils.Utils;
 
-import java.io.BufferedWriter;
 import java.io.File;
-import java.io.FileWriter;
 import java.io.IOException;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
@@ -46,8 +44,6 @@ public class CoreNLPTest {
 			String fileName = "criminal_triples/case_" + String.valueOf(i) + ".txt";
 			String writePath = globalFilePath + fileName;
 			String textRaw = Utils.readFile(filePath);
-
-//			BufferedWriter out = new BufferedWriter(new FileWriter(new File(writePath)));
 
 			String[] splittedParagraphs = textRaw.split("\n");
 
@@ -80,16 +76,10 @@ public class CoreNLPTest {
 							sentence.get(NaturalLogicAnnotations.RelationTriplesAnnotation.class);
 					// Print the triples
 					for (RelationTriple triple : triples) {
-//						out.write("(" + triple.subjectGloss() + ", "
-//								+ triple.relationGloss() + ", " + triple.objectGloss()
-//								+ ") [" + sentence + "]");
-//						out.newLine();
 						insertWord(triple, sentence, fileName);
 					}
 				}
 			}
-//			out.flush();
-//			out.close();
 		}   // for each case
 
 		try {
