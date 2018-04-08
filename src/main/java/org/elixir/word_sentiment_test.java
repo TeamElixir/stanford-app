@@ -42,8 +42,8 @@ public class word_sentiment_test {
 		BufferedWriter out_negative = new BufferedWriter(new FileWriter(globalFilePath + "results/negative.csv", true));
 		BufferedWriter out_positive = new BufferedWriter(new FileWriter(globalFilePath + "results/positive.csv", true));
 
-		for (int i = 1; i <= 368; i++) {
-			String casename = "crawled_triples/" + String.valueOf(i) + ".txt";
+		for (int i = 11; i <= 22; i++) {
+			String casename = "criminal_triples/case_" + String.valueOf(i) + ".txt";
 			String filePath = globalFilePath + casename;
 			Scanner scanner = new Scanner(new File(filePath));
 

@@ -11,17 +11,23 @@ import edu.stanford.nlp.naturalli.NaturalLogicAnnotations;
 import edu.stanford.nlp.pipeline.Annotation;
 import edu.stanford.nlp.pipeline.StanfordCoreNLP;
 import edu.stanford.nlp.util.CoreMap;
+import org.elixir.db.DBCon;
 import org.elixir.utils.Utils;
 
 import java.io.BufferedWriter;
 import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.SQLException;
 import java.util.Collection;
 import java.util.List;
 import java.util.Properties;
 
 public class CoreNLPTest {
+
+	private static Connection conn = DBCon.getConnection();
 
 	public static void main(String[] args) throws IOException {
 
@@ -34,13 +40,14 @@ public class CoreNLPTest {
 		String globalFilePath = new File("").getAbsolutePath();
 		globalFilePath += "/src/main/resources/sentiment_analysis/legal_cases/";
 
-		for (int i = 1; i <= 2500; i++) {
+		for (int i = 11; i <= 22; i++) {
 			System.out.println(i);
-			String filePath = globalFilePath + "crawled/" + String.valueOf(i) + ".txt";
-			String writePath = globalFilePath + "crawled_triples/" + String.valueOf(i) + ".txt";
+			String filePath = globalFilePath + "criminal/case_" + String.valueOf(i) + ".txt";
+			String fileName = "criminal_triples/case_" + String.valueOf(i) + ".txt";
+			String writePath = globalFilePath + fileName;
 			String textRaw = Utils.readFile(filePath);
 
-			BufferedWriter out = new BufferedWriter(new FileWriter(new File(writePath)));
+//			BufferedWriter out = new BufferedWriter(new FileWriter(new File(writePath)));
 
 			String[] splittedParagraphs = textRaw.split("\n");
 
@@ -73,17 +80,42 @@ public class CoreNLPTest {
 							sentence.get(NaturalLogicAnnotations.RelationTriplesAnnotation.class);
 					// Print the triples
 					for (RelationTriple triple : triples) {
-						out.write("(" + triple.subjectGloss() + ", "
-								+ triple.relationGloss() + ", " + triple.objectGloss()
-								+ ") [" + sentence +"]");
-						out.newLine();
+//						out.write("(" + triple.subjectGloss() + ", "
+//								+ triple.relationGloss() + ", " + triple.objectGloss()
+//								+ ") [" + sentence + "]");
+//						out.newLine();
+						insertWord(triple, sentence, fileName);
 					}
 				}
 			}
-			out.flush();
-			out.close();
+//			out.flush();
+//			out.close();
+		}   // for each case
+
+		try {
+			conn.close();
 		}
+		catch (SQLException e) {
+			System.out.println("Error in closing connection: " + e);
+		}
+	}   // main()
 
-	}
+	private static void insertWord(RelationTriple triple, CoreMap sentence, String fileName) {
+		String query = "INSERT INTO sentences (subject, relation, object, file, sentence)"
+				+ " values(?, ?, ?, ?, ?)";
 
-}
+		try {
+			PreparedStatement preparedStatement = conn.prepareStatement(query);
+			preparedStatement.setString(1, triple.subjectGloss());
+			preparedStatement.setString(2, triple.relationGloss());
+			preparedStatement.setString(3, triple.objectGloss());
+			preparedStatement.setString(4, fileName);
+			preparedStatement.setString(5, sentence.toString());
+
+			preparedStatement.execute();
+		}
+		catch (SQLException e) {
+			e.printStackTrace();
+		}
+	}   // insertWord()
+}   // class CoreNLPTest
