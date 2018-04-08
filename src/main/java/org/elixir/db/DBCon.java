@@ -6,7 +6,9 @@ import java.sql.SQLException;
 
 public class DBCon {
 
-	private static String url = "jdbc:mysql://localhost:3306/10_case_analysis?useSSL=false";
+	private static String db_name = "10_case_analysis";
+
+	private static String url = "jdbc:mysql://localhost:3306/" + db_name + "?useSSL=false";
 
 	private static String driverName = "com.mysql.cj.jdbc.Driver";
 
