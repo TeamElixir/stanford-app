@@ -11,7 +11,10 @@ import edu.stanford.nlp.naturalli.NaturalLogicAnnotations;
 import edu.stanford.nlp.pipeline.Annotation;
 import edu.stanford.nlp.pipeline.StanfordCoreNLP;
 import edu.stanford.nlp.util.CoreMap;
+import org.elixir.db.Controller;
 import org.elixir.db.DBCon;
+import org.elixir.models.Sentence;
+import org.elixir.models.Triple;
 import org.elixir.utils.Utils;
 
 import java.io.File;
@@ -74,10 +77,25 @@ public class CoreNLPTest {
 
 					Collection<RelationTriple> triples =
 							sentence.get(NaturalLogicAnnotations.RelationTriplesAnnotation.class);
-					// Print the triples
-					for (RelationTriple triple : triples) {
-						insertWord(triple, sentence, fileName);
+
+					Sentence sentence1  = new Sentence(fileName, sentence.toString());
+					boolean sentenceInserted = Controller.insertSentence(sentence1);
+					int sentenceId = Controller.getLastestSentenceId();
+					if(sentenceId == -1) {
+						System.out.println("Sentence ID not found. Exiting ...");
+						System.exit(1);
 					}
+
+					if(sentenceInserted) {
+						// Print the triples
+						for (RelationTriple triple : triples) {
+							Triple triple1 = new Triple(triple.subjectGloss(),
+									triple.relationGloss(), triple.objectGloss(), sentenceId);
+							// insert triple to database
+							Controller.insertTriple(triple1);
+						}
+					}
+
 				}
 			}
 		}   // for each case
@@ -90,22 +108,4 @@ public class CoreNLPTest {
 		}
 	}   // main()
 
-	private static void insertWord(RelationTriple triple, CoreMap sentence, String fileName) {
-		String query = "INSERT INTO sentences (subject, relation, object, file, sentence)"
-				+ " values(?, ?, ?, ?, ?)";
-
-		try {
-			PreparedStatement preparedStatement = conn.prepareStatement(query);
-			preparedStatement.setString(1, triple.subjectGloss());
-			preparedStatement.setString(2, triple.relationGloss());
-			preparedStatement.setString(3, triple.objectGloss());
-			preparedStatement.setString(4, fileName);
-			preparedStatement.setString(5, sentence.toString());
-
-			preparedStatement.execute();
-		}
-		catch (SQLException e) {
-			e.printStackTrace();
-		}
-	}   // insertWord()
 }   // class CoreNLPTest

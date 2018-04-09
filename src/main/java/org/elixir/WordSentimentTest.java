@@ -6,7 +6,7 @@ import edu.stanford.nlp.pipeline.Annotation;
 import edu.stanford.nlp.pipeline.StanfordCoreNLP;
 import edu.stanford.nlp.sentiment.SentimentCoreAnnotations;
 import edu.stanford.nlp.util.CoreMap;
-import org.elixir.model.Triple;
+import org.elixir.models.Triple;
 
 import java.io.File;
 import java.io.FileNotFoundException;
@@ -35,7 +35,7 @@ public class WordSentimentTest {
 
 		for (Triple triple : triples) {
 			// extract subject, relation, and object
-			String[] words = new String[] { triple.getSubject(), triple.getRelation(), triple.getObject() };
+			String[] words = new String[] { triple.getSubject(), triple.getRelationship(), triple.getObject() };
 
 			for (String word : words) {
 				Annotation document = new Annotation(word);

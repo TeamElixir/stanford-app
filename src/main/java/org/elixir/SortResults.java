@@ -8,7 +8,7 @@ import java.util.Map;
 import java.util.Scanner;
 import java.util.TreeMap;
 
-public class Sort_results {
+public class SortResults {
 
 	public static void main(String[] args) throws IOException {
 		String filePath = new File("").getAbsolutePath();

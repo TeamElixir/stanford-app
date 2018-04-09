@@ -1,4 +1,4 @@
-package org.elixir.model;
+package org.elixir.models;
 
 import java.util.ArrayList;
 

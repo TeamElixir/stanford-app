@@ -1,4 +1,4 @@
-package org.elixir.model;
+package org.elixir.models;
 
 import java.util.ArrayList;
 
@@ -11,14 +11,27 @@ public class Sentence {
 	private ArrayList<Triple> triples;
 
 	private String sentence;
+	private String file;
 
 	public Sentence() {
 		triples = new ArrayList<>();
 	}
 
-	public Sentence(int id, String sentence) {
+	public Sentence(int id, String sentence, String file) {
+		this.id = id;
 		this.sentence = sentence;
+		this.file = file;
 		triples = new ArrayList<>();
+	}
+
+	public Sentence(String file, String sentence) {
+		this.sentence = sentence;
+		this.file = file;
+		triples = new ArrayList<>();
+	}
+
+	public String getFile() {
+		return file;
 	}
 
 	public void addTriple(Triple triple) {
