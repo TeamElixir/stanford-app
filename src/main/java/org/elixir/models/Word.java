@@ -16,8 +16,7 @@ public class Word {
 
 	}
 
-	public Word(int id, int sentiment, String word, int tripleId) {
-		this.id = id;
+	public Word(int sentiment, String word, int tripleId) {
 		this.sentiment = sentiment;
 		this.word = word;
 		this.tripleId = tripleId;

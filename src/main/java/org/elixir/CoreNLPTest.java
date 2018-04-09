@@ -81,6 +81,7 @@ public class CoreNLPTest {
 					Sentence sentence1  = new Sentence(fileName, sentence.toString());
 					boolean sentenceInserted = Controller.insertSentence(sentence1);
 					int sentenceId = Controller.getLastestSentenceId();
+					System.out.println("sentenceId: " + sentenceId);
 					if(sentenceId == -1) {
 						System.out.println("Sentence ID not found. Exiting ...");
 						System.exit(1);
@@ -93,10 +94,10 @@ public class CoreNLPTest {
 									triple.relationGloss(), triple.objectGloss(), sentenceId);
 							// insert triple to database
 							Controller.insertTriple(triple1);
-						}
+						}   // for each triple
 					}
 
-				}
+				}   // for each sentence
 			}
 		}   // for each case
 

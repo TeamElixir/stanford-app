@@ -76464,8 +76464,8 @@ relate
 related
 relates
 relating
-relationship
-relationship's
+relation
+relation's
 relational
 relations
 relationship

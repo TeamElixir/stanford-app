@@ -19,11 +19,45 @@ public class Controller {
 	private static ArrayList<Sentence> sentences = new ArrayList<>();
 
 	public static void main(String[] args) {
-		getAllSentences();
+		ArrayList<Triple> allTriples = getAllTriples();
+		int i = 0;
+		for (Triple triple:allTriples) {
+			System.out.println(++i + " " + triple);
+		}
+	}
+
+	public static ArrayList<Triple> getAllTriples() {
+		ArrayList<Triple> triples = new ArrayList<>();
+		String query = "SELECT * FROM " + Triple.TABLE_NAME;
+		try {
+			PreparedStatement preparedStatement = conn.prepareStatement(query);
+			resultSet = preparedStatement.executeQuery();
+
+			while (resultSet.next()) {
+				int id = resultSet.getInt("id");
+				String subject = resultSet.getString("subject");
+				String relationship = resultSet.getString("relationship");
+				String object = resultSet.getString("object");
+
+				Triple triple = new Triple();
+				triple.setId(id);
+				triple.setSubject(subject);
+				triple.setRelationship(relationship);
+				triple.setObject(object);
+
+				triples.add(triple);
+			}
+
+			return triples;
+		}
+		catch (SQLException e) {
+			e.printStackTrace();
+			return null;
+		}
 	}
 
 	public static void getAllSentences() {
-		String query = "SELECT * from " + Sentence.TABLE_NAME;
+		String query = "SELECT * FROM " + Sentence.TABLE_NAME;
 		try {
 			PreparedStatement preparedStatement = conn.prepareStatement(query);
 			resultSet = preparedStatement.executeQuery();
@@ -73,7 +107,7 @@ public class Controller {
 	}
 
 	public static boolean insertWord(Word word) {
-		String query = "INSERT INTO " + Word.TABLE_NAME + "(word, sentiment, triple_id) values(?, ?, ?)";
+		String query = "INSERT INTO " + Word.TABLE_NAME + "(word, sentiment, triple_id) VALUES(?, ?, ?)";
 
 		try {
 			PreparedStatement ps = conn.prepareStatement(query);
@@ -90,7 +124,7 @@ public class Controller {
 	}
 
 	public static boolean insertSentence(Sentence sentence) {
-		String query = "INSERT INTO " + Sentence.TABLE_NAME + "(file, sentence) values(?, ?)";
+		String query = "INSERT INTO " + Sentence.TABLE_NAME + "(file, sentence) VALUES(?, ?)";
 
 		try {
 			PreparedStatement ps = conn.prepareStatement(query);
@@ -108,7 +142,7 @@ public class Controller {
 
 	public static boolean insertTriple(Triple triple) {
 		String query = "INSERT INTO " + Triple.TABLE_NAME + "(subject, relationship, object, sentence_id)"
-				+ " values (?, ?, ?, ?)";
+				+ " VALUES (?, ?, ?, ?)";
 
 		try {
 			PreparedStatement ps = conn.prepareStatement(query);

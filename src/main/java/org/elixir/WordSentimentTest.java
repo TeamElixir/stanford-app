@@ -6,7 +6,9 @@ import edu.stanford.nlp.pipeline.Annotation;
 import edu.stanford.nlp.pipeline.StanfordCoreNLP;
 import edu.stanford.nlp.sentiment.SentimentCoreAnnotations;
 import edu.stanford.nlp.util.CoreMap;
+import org.elixir.db.Controller;
 import org.elixir.models.Triple;
+import org.elixir.models.Word;
 
 import java.io.File;
 import java.io.FileNotFoundException;
@@ -31,14 +33,14 @@ public class WordSentimentTest {
 		StanfordCoreNLP pipeline = new StanfordCoreNLP(props);
 
 		linux_dictionary = createDictionary(pipeline);
-		ArrayList<Triple> triples = new ArrayList<>();
+		ArrayList<Triple> triples = Controller.getAllTriples();
 
 		for (Triple triple : triples) {
 			// extract subject, relation, and object
-			String[] words = new String[] { triple.getSubject(), triple.getRelationship(), triple.getObject() };
+			String[] parts = new String[] { triple.getSubject(), triple.getRelationship(), triple.getObject() };
 
-			for (String word : words) {
-				Annotation document = new Annotation(word);
+			for (String part : parts) {
+				Annotation document = new Annotation(part);
 				pipeline.annotate(document);
 				List<CoreMap> sentences = document.get(CoreAnnotations.SentencesAnnotation.class);
 				for (CoreMap sentence : sentences) {
@@ -59,18 +61,26 @@ public class WordSentimentTest {
 							linux_dictionary.remove(lemma);
 							legalTerms_dictionary.add(lemma);
 
+							int sentimentValue = -2;
+
 							switch (sentiment.toLowerCase()) {
 								case "neutral":
+									sentimentValue = 0;
 									break;
 								case "positive":
+									sentimentValue = 1;
 									break;
 								case "negative":
+									sentimentValue = -1;
 									break;
 							}
+
+							Word word1 = new Word(sentimentValue, lemma, triple.getId());
+							Controller.insertWord(word1);
 						}
-					}
-				}
-			}
+					}   // for each token
+				}   // for each CoreMap sentence
+			}   // for each part
 		}
 	}   // main()
 

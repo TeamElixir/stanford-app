@@ -14,7 +14,7 @@ public class Triple {
 
 	private String object;
 
-	private Triple() {
+	public Triple() {
 
 	}
 
@@ -42,11 +42,31 @@ public class Triple {
 		return object;
 	}
 
+	public void setId(int id) {
+		this.id = id;
+	}
+
 	public int getId() {
 		return id;
 	}
 
 	public int getSentenceId() {
 		return sentenceId;
+	}
+
+	public void setSentenceId(int sentenceId) {
+		this.sentenceId = sentenceId;
+	}
+
+	public void setSubject(String subject) {
+		this.subject = subject;
+	}
+
+	public void setRelationship(String relationship) {
+		this.relationship = relationship;
+	}
+
+	public void setObject(String object) {
+		this.object = object;
 	}
 }
