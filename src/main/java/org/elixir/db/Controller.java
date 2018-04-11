@@ -56,7 +56,8 @@ public class Controller {
 		}
 	}
 
-	public static void getAllSentences() {
+	public static ArrayList<Sentence> getAllSentences() {
+		ArrayList<Sentence> sentences = new ArrayList<>();
 		String query = "SELECT * FROM " + Sentence.TABLE_NAME;
 		try {
 			PreparedStatement preparedStatement = conn.prepareStatement(query);
@@ -64,16 +65,17 @@ public class Controller {
 
 			while (resultSet.next()) {
 				int id = resultSet.getInt("id");
-				String subject = resultSet.getString("subject");
-				String relation = resultSet.getString("relation");
-				String object = resultSet.getString("object");
 				String file = resultSet.getString("file");
 				String sentence = resultSet.getString("sentence");
+
+				Sentence s = new Sentence(file, sentence);
+				sentences.add(s);
 			}
 		}
 		catch (SQLException e) {
 			e.printStackTrace();
 		}
+		return sentences;
 	}
 
 	private static int getLatestId(String tableName) {

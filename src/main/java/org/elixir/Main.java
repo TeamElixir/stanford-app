@@ -5,16 +5,38 @@ import edu.stanford.nlp.simple.Document;
 import edu.stanford.nlp.simple.Sentence;
 import edu.stanford.nlp.util.Quadruple;
 import org.elixir.data.Texts;
+import org.elixir.db.Controller;
 
+import java.io.BufferedWriter;
+import java.io.File;
+import java.io.FileWriter;
+import java.io.IOException;
+import java.util.ArrayList;
 import java.util.Collection;
 
 public class Main {
 
 	public static void main(String[] args) {
-		//		ApiSample.coreAPI();
-		//		SimpleAPI.execute();
-		testTriple();
+		writeSentencesToFile();
 	} // main
+
+	private static void writeSentencesToFile() {
+		ArrayList<org.elixir.models.Sentence> allSentences = Controller.getAllSentences();
+		String fileName = "allSentences.txt";
+		try {
+			BufferedWriter bw = new BufferedWriter(new FileWriter(new File(fileName)));
+			for (org.elixir.models.Sentence sentence: allSentences) {
+				bw.write(sentence.getSentence());
+				bw.newLine();
+			}
+
+			bw.flush();
+			bw.close();
+		}
+		catch (IOException e) {
+			e.printStackTrace();
+		}
+	}
 
 	// TRIPLES EXTRACT TEST
 	public static void testTriple() {
