@@ -28,10 +28,6 @@ public class Utils {
 
 			return everything;
 		}
-		catch (FileNotFoundException e) {
-			e.printStackTrace();
-			return null;
-		}
 		catch (IOException e) {
 			e.printStackTrace();
 			return null;
@@ -46,6 +42,10 @@ public class Utils {
 				}
 			}
 		}
+	}
+
+	public static void parseOllieOutputFile() {
+
 	}
 
 	public static void writeToJson(ArrayList<Node> nodes) throws IOException {
