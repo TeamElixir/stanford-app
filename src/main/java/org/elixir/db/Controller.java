@@ -69,7 +69,7 @@ public class Controller {
 				String file = resultSet.getString("file");
 				String sentence = resultSet.getString("sentence");
 
-				Sentence s = new Sentence(file, sentence);
+				Sentence s = new Sentence(id, file, sentence);
 				sentences.add(s);
 			}
 		}
@@ -164,12 +164,17 @@ public class Controller {
 	}
 
 	public static boolean insertPosTaggedWord(PosTaggedWord posTaggedWord) {
-		String query = "INSERT INTO " + PosTaggedWord.TABLE_NAME + "(word, pos_tag, sentence_id)"
-				+ " VALUES (?, ?, ?)";
+		String query = "INSERT INTO " + PosTaggedWord.TABLE_NAME + "(word, pos_tag, ner_tag, sentence_id)"
+				+ " VALUES (?, ?, ?, ?)";
 
 		try {
 			PreparedStatement ps = conn.prepareStatement(query);
+			ps.setString(1, posTaggedWord.getWord());
+			ps.setString(2, posTaggedWord.getPosTag());
+			ps.setString(3, posTaggedWord.getNerTag());
+			ps.setInt(4, posTaggedWord.getSentenceId());
 
+			ps.execute();
 			return true;
 		}
 		catch (SQLException e) {

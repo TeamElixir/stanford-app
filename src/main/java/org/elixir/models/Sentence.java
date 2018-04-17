@@ -18,7 +18,7 @@ public class Sentence {
 		triples = new ArrayList<>();
 	}
 
-	public Sentence(int id, String sentence, String file) {
+	public Sentence(int id, String file, String sentence) {
 		this.id = id;
 		this.sentence = sentence;
 		this.file = file;
@@ -29,6 +29,15 @@ public class Sentence {
 		this.sentence = sentence;
 		this.file = file;
 		triples = new ArrayList<>();
+	}
+
+	@Override
+	public String toString() {
+		return "Sentence{" +
+				"id=" + id +
+				", sentence='" + sentence + '\'' +
+				", file='" + file + '\'' +
+				'}';
 	}
 
 	public String getFile() {
