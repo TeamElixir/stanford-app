@@ -1,6 +1,7 @@
 package org.elixir.controllers;
 
 import org.elixir.db.DBCon;
+import org.elixir.models.GoogleTriple;
 import org.elixir.models.Triple;
 
 import java.sql.Connection;
@@ -9,13 +10,12 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.ArrayList;
 
-public class TripleController {
+public class TriplesController {
 
 	private static Connection conn = DBCon.getConnection();
 
-	private static ResultSet resultSet;
-
 	public static ArrayList<Triple> getAllTriples() {
+		ResultSet resultSet;
 		ArrayList<Triple> triples = new ArrayList<>();
 		String query = "SELECT * FROM " + Triple.TABLE_NAME;
 		try {
@@ -43,6 +43,67 @@ public class TripleController {
 			e.printStackTrace();
 			return null;
 		}
+	}
+
+	public static ArrayList<Triple> getTriplesOfSentence(int sentenceId) {
+		ArrayList<Triple> triples = new ArrayList<>();
+		ResultSet rs;
+		PreparedStatement ps;
+		String query = "SELECT * FROM " + Triple.TABLE_NAME + " WHERE sentence_id='" + sentenceId + "'";
+
+		try {
+			ps = conn.prepareStatement(query);
+			rs = ps.executeQuery();
+
+			while(rs.next()) {
+				int id = rs.getInt("id");
+				String subject = rs.getString("subject");
+				String relation = rs.getString("relation");
+				String object = rs.getString("object");
+				int sId = rs.getInt("sentence_id");
+
+				Triple triple = new Triple(id, subject, relation, object, sId);
+
+				triples.add(triple);
+			}
+		}
+		catch (SQLException e) {
+			e.printStackTrace();
+		}
+
+		return triples;
+
+	}
+
+
+	public static ArrayList<GoogleTriple> getGoogleTriplesOfSentence(int sentenceId) {
+		ArrayList<GoogleTriple> triples = new ArrayList<>();
+		ResultSet rs;
+		PreparedStatement ps;
+		String query = "SELECT * FROM " + Triple.TABLE_NAME + " WHERE sentence_id='" + sentenceId + "'";
+
+		try {
+			ps = conn.prepareStatement(query);
+			rs = ps.executeQuery();
+
+			while(rs.next()) {
+				int id = rs.getInt("id");
+				String subject = rs.getString("subject");
+				String relation = rs.getString("relation");
+				String object = rs.getString("object");
+				int sId = rs.getInt("sentence_id");
+
+				GoogleTriple triple = new GoogleTriple(id, subject, relation, object, sId);
+
+				triples.add(triple);
+			}
+		}
+		catch (SQLException e) {
+			e.printStackTrace();
+		}
+
+		return triples;
+
 	}
 
 	public static boolean insertTriple(Triple triple) {

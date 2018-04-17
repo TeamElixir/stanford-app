@@ -18,6 +18,14 @@ public class Triple {
 
 	}
 
+	public Triple(int id, String subject, String relationship, String object, int sentenceId) {
+		this.id = id;
+		this.sentenceId = sentenceId;
+		this.subject = subject;
+		this.relationship = relationship;
+		this.object = object;
+	}
+
 	public Triple(String subject, String relationship, String object, int sentenceId) {
 		this.subject = subject;
 		this.relationship = relationship;

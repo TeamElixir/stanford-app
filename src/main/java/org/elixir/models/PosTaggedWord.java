@@ -17,6 +17,14 @@ public class PosTaggedWord {
 	public PosTaggedWord() {
 	}
 
+	public PosTaggedWord(int id, String word, String posTag, String nerTag, int sentenceId) {
+		this.id = id;
+		this.word = word;
+		this.posTag = posTag;
+		this.nerTag = nerTag;
+		this.sentenceId = sentenceId;
+	}
+
 	public PosTaggedWord(String word, String posTag, String nerTag, int sentenceId) {
 		this.word = word;
 		this.posTag = posTag;

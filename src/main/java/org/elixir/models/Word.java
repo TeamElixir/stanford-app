@@ -16,6 +16,13 @@ public class Word {
 
 	}
 
+	public Word(int id, String word, int sentiment, int tripleId) {
+		this.id = id;
+		this.sentiment = sentiment;
+		this.word = word;
+		this.tripleId = tripleId;
+	}
+
 	public Word(int sentiment, String word, int tripleId) {
 		this.sentiment = sentiment;
 		this.word = word;

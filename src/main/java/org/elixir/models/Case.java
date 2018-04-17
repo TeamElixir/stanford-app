@@ -4,7 +4,7 @@ import java.util.ArrayList;
 
 public class Case {
 
-	private ArrayList<String> sentences;
+	private ArrayList<Sentence> sentences;
 
 	private String title;
 
@@ -14,14 +14,18 @@ public class Case {
 		sentences = new ArrayList<>();
 	}
 
-	public Case(ArrayList<String> sentences, String title, String fileName) {
+	public Case(ArrayList<Sentence> sentences, String title, String fileName) {
 		this.sentences = sentences;
 		this.title = title;
 		this.fileName = fileName;
 		sentences = new ArrayList<>();
 	}
 
-	public ArrayList<String> getSentences() {
+	public void setSentences(ArrayList<Sentence> sentences) {
+		this.sentences = sentences;
+	}
+
+	public ArrayList<Sentence> getSentences() {
 		return sentences;
 	}
 

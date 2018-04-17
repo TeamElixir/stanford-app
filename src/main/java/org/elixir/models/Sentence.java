@@ -10,6 +10,10 @@ public class Sentence {
 
 	private ArrayList<Triple> triples;
 
+	private ArrayList<GoogleTriple> googleTriples;
+
+	private ArrayList<PosTaggedWord> posTaggedWords;
+
 	private String sentence;
 
 	private String file;
@@ -40,8 +44,28 @@ public class Sentence {
 				'}';
 	}
 
+	public ArrayList<PosTaggedWord> getPosTaggedWords() {
+		return posTaggedWords;
+	}
+
+	public ArrayList<GoogleTriple> getGoogleTriples() {
+		return googleTriples;
+	}
+
+	public void setGoogleTriples(ArrayList<GoogleTriple> googleTriples) {
+		this.googleTriples = googleTriples;
+	}
+
+	public void setPosTaggedWords(ArrayList<PosTaggedWord> posTaggedWords) {
+		this.posTaggedWords = posTaggedWords;
+	}
+
 	public String getFile() {
 		return file;
+	}
+
+	public void setTriples(ArrayList<Triple> triples) {
+		this.triples = triples;
 	}
 
 	public void addTriple(Triple triple) {

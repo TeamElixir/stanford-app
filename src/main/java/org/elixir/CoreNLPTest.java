@@ -11,8 +11,8 @@ import edu.stanford.nlp.naturalli.NaturalLogicAnnotations;
 import edu.stanford.nlp.pipeline.Annotation;
 import edu.stanford.nlp.pipeline.StanfordCoreNLP;
 import edu.stanford.nlp.util.CoreMap;
-import org.elixir.controllers.SentenceController;
-import org.elixir.controllers.TripleController;
+import org.elixir.controllers.SentencesController;
+import org.elixir.controllers.TriplesController;
 import org.elixir.db.Controller;
 import org.elixir.db.DBCon;
 import org.elixir.models.Sentence;
@@ -80,7 +80,7 @@ public class CoreNLPTest {
 							sentence.get(NaturalLogicAnnotations.RelationTriplesAnnotation.class);
 
 					Sentence sentence1 = new Sentence(fileName, sentence.toString());
-					boolean sentenceInserted = SentenceController.insertSentence(sentence1);
+					boolean sentenceInserted = SentencesController.insertSentence(sentence1);
 					int sentenceId = Controller.getLastestSentenceId();
 					System.out.println("sentenceId: " + sentenceId);
 					if (sentenceId == -1) {
@@ -94,7 +94,7 @@ public class CoreNLPTest {
 							Triple triple1 = new Triple(triple.subjectGloss(),
 									triple.relationGloss(), triple.objectGloss(), sentenceId);
 							// insert triple to database
-							TripleController.insertTriple(triple1);
+							TriplesController.insertTriple(triple1);
 						}   // for each triple
 					}
 

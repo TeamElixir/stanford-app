@@ -2,6 +2,7 @@ package org.elixir.controllers;
 
 import org.elixir.db.DBCon;
 import org.elixir.models.Sentence;
+import org.elixir.models.Triple;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
@@ -9,26 +10,33 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.ArrayList;
 
-public class SentenceController {
+public class SentencesController {
 
 	private static Connection conn = DBCon.getConnection();
 
+	/*
+	  11 <= n <= 21 (for now)
+	 */
 	public static ArrayList<Sentence> getSentencesOfCase(int n) {
-		ResultSet resultSet;
+		ResultSet rs;
 		ArrayList<Sentence> sentences = new ArrayList<>();
 		final String caseFileName = "criminal_triples/case_" + n + ".txt";
 		String query = "SELECT * FROM " + Sentence.TABLE_NAME + " WHERE file='" + caseFileName + "'";
 		System.out.println(query);
 		try {
-			PreparedStatement preparedStatement = conn.prepareStatement(query);
-			resultSet = preparedStatement.executeQuery();
+			PreparedStatement ps = conn.prepareStatement(query);
+			rs = ps.executeQuery();
 
-			while (resultSet.next()) {
-				int id = resultSet.getInt("id");
-				String file = resultSet.getString("file");
-				String sentence = resultSet.getString("sentence");
+			while (rs.next()) {
+				int id = rs.getInt("id");
+				String file = rs.getString("file");
+				String rawSentence = rs.getString("sentence");
 
-				Sentence s = new Sentence(id, file, sentence);
+				Sentence s = new Sentence(id, file, rawSentence);
+				s.setTriples(TriplesController.getTriplesOfSentence(s.getId()));
+				s.setGoogleTriples(TriplesController.getGoogleTriplesOfSentence(s.getId()));
+				s.setPosTaggedWords(PosTaggedWordsController.getPosTaggedWordsOfSentence(s.getId()));
+
 				sentences.add(s);
 			}
 		}
@@ -50,9 +58,13 @@ public class SentenceController {
 			while (resultSet.next()) {
 				int id = resultSet.getInt("id");
 				String file = resultSet.getString("file");
-				String sentence = resultSet.getString("sentence");
+				String rawSentence = resultSet.getString("sentence");
 
-				Sentence s = new Sentence(id, file, sentence);
+				Sentence s = new Sentence(id, file, rawSentence);
+				s.setTriples(TriplesController.getTriplesOfSentence(s.getId()));
+				s.setGoogleTriples(TriplesController.getGoogleTriplesOfSentence(s.getId()));
+				s.setPosTaggedWords(PosTaggedWordsController.getPosTaggedWordsOfSentence(s.getId()));
+
 				sentences.add(s);
 			}
 		}
