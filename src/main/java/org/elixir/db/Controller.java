@@ -1,5 +1,6 @@
 package org.elixir.db;
 
+import org.elixir.models.PosTaggedWord;
 import org.elixir.models.Sentence;
 import org.elixir.models.Triple;
 import org.elixir.models.Word;
@@ -21,7 +22,7 @@ public class Controller {
 	public static void main(String[] args) {
 		ArrayList<Triple> allTriples = getAllTriples();
 		int i = 0;
-		for (Triple triple:allTriples) {
+		for (Triple triple : allTriples) {
 			System.out.println(++i + " " + triple);
 		}
 	}
@@ -84,7 +85,7 @@ public class Controller {
 		try {
 			PreparedStatement ps = conn.prepareStatement(query);
 			resultSet = ps.executeQuery();
-			if(resultSet.next()) {
+			if (resultSet.next()) {
 				id = resultSet.getInt("last_insert_id()");
 			}
 		}
@@ -133,7 +134,7 @@ public class Controller {
 			ps.setString(1, sentence.getFile());
 			ps.setString(2, sentence.getSentence());
 			ps.execute();
-			return  true;
+			return true;
 		}
 		catch (SQLException e) {
 			e.printStackTrace();
@@ -161,4 +162,20 @@ public class Controller {
 			return false;
 		}
 	}
+
+	public static boolean insertPosTaggedWord(PosTaggedWord posTaggedWord) {
+		String query = "INSERT INTO " + PosTaggedWord.TABLE_NAME + "(word, pos_tag, sentence_id)"
+				+ " VALUES (?, ?, ?)";
+
+		try {
+			PreparedStatement ps = conn.prepareStatement(query);
+
+			return true;
+		}
+		catch (SQLException e) {
+			e.printStackTrace();
+			return false;
+		}
+	}
+
 }

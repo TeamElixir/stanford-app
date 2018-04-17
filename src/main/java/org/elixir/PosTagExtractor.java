@@ -74,6 +74,9 @@ public class PosTagExtractor {
 		// along with a method for getting the most representative mention
 		// Both sentence and token offsets start at 1!
 		Map<Integer, CorefChain> graph = document.get(CorefCoreAnnotations.CorefChainAnnotation.class);
+	}
+
+	public static void getPosTags(String sentence) {
 
 	}
 }

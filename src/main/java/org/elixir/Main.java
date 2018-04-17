@@ -25,7 +25,7 @@ public class Main {
 		String fileName = "allSentences.txt";
 		try {
 			BufferedWriter bw = new BufferedWriter(new FileWriter(new File(fileName)));
-			for (org.elixir.models.Sentence sentence: allSentences) {
+			for (org.elixir.models.Sentence sentence : allSentences) {
 				bw.write(sentence.getSentence());
 				bw.newLine();
 			}

@@ -11,6 +11,7 @@ public class Sentence {
 	private ArrayList<Triple> triples;
 
 	private String sentence;
+
 	private String file;
 
 	public Sentence() {

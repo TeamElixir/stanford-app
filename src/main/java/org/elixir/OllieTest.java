@@ -5,7 +5,6 @@ import edu.knowitall.ollie.OllieExtraction;
 import edu.knowitall.ollie.OllieExtractionInstance;
 import edu.knowitall.tool.parse.MaltParser;
 import edu.knowitall.tool.parse.graph.DependencyGraph;
-import edu.knowitall.tool.postag.Postagger;
 
 import java.io.File;
 import java.net.MalformedURLException;
@@ -24,7 +23,7 @@ public class OllieTest {
 	public OllieTest() throws MalformedURLException {
 		// initialize MaltParser
 		scala.Option<File> nullOption = scala.Option.apply(null);
-//		maltParser = new MaltParser(new File(MALT_PARSER_FILENAME).toURI().toURL(), nullOption);
+		//		maltParser = new MaltParser(new File(MALT_PARSER_FILENAME).toURI().toURL(), nullOption);
 
 		// initialize Ollie
 		ollie = new Ollie();
