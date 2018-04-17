@@ -4,8 +4,8 @@ import edu.stanford.nlp.ie.util.RelationTriple;
 import edu.stanford.nlp.simple.Document;
 import edu.stanford.nlp.simple.Sentence;
 import edu.stanford.nlp.util.Quadruple;
+import org.elixir.controllers.SentenceController;
 import org.elixir.data.Texts;
-import org.elixir.db.Controller;
 
 import java.io.BufferedWriter;
 import java.io.File;
@@ -17,11 +17,11 @@ import java.util.Collection;
 public class Main {
 
 	public static void main(String[] args) {
-		writeSentencesToFile();
+
 	} // main
 
 	private static void writeSentencesToFile() {
-		ArrayList<org.elixir.models.Sentence> allSentences = Controller.getAllSentences();
+		ArrayList<org.elixir.models.Sentence> allSentences = SentenceController.getAllSentences();
 		String fileName = "allSentences.txt";
 		try {
 			BufferedWriter bw = new BufferedWriter(new FileWriter(new File(fileName)));

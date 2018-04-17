@@ -5,7 +5,8 @@ import edu.stanford.nlp.ling.CoreLabel;
 import edu.stanford.nlp.pipeline.Annotation;
 import edu.stanford.nlp.pipeline.StanfordCoreNLP;
 import edu.stanford.nlp.util.CoreMap;
-import org.elixir.db.Controller;
+import org.elixir.controllers.PosTaggedWordController;
+import org.elixir.controllers.SentenceController;
 import org.elixir.models.PosTaggedWord;
 import org.elixir.models.Sentence;
 
@@ -18,7 +19,7 @@ public class PosTagExtractor {
 	private static StanfordCoreNLP pipeline;
 
 	public static void main(String[] args) {
-		ArrayList<Sentence> allSentences = Controller.getAllSentences();
+		ArrayList<Sentence> allSentences = SentenceController.getAllSentences();
 		// creates a StanfordCoreNLP object, with POS tagging, lemmatization, NER, parsing, and coreference resolution
 		Properties props = new Properties();
 		props.setProperty("annotators", "tokenize, ssplit, pos, lemma, ner, parse, dcoref");
@@ -60,17 +61,11 @@ public class PosTagExtractor {
 					PosTaggedWord posTaggedWord = new PosTaggedWord(word, pos, ne, inputSentence.getId());
 					//				System.out.println(posTaggedWord);
 
-					boolean inserted = Controller.insertPosTaggedWord(posTaggedWord);
-					if(!inserted) {
+					boolean inserted = PosTaggedWordController.insertPosTaggedWord(posTaggedWord);
+					if (!inserted) {
 						System.out.println("Insertion failed");
 					}
 				}
-
-				//				System.out.println(word);
-				//				System.out.println(pos);
-				//				System.out.println(ne);
-				//				System.out.println();
-
 			}
 		}
 	}

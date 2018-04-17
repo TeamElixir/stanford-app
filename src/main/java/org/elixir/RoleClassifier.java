@@ -5,11 +5,12 @@ import edu.stanford.nlp.pipeline.StanfordCoreNLP;
 import java.util.Properties;
 
 public class RoleClassifier {
-    public static void main(String[] args) {
-        Properties props = new Properties();
-        props.setProperty("annotators", "tokenize,ssplit,pos,lemma,parse,natlog,sentiment");
-        StanfordCoreNLP pipeline = new StanfordCoreNLP(props);
-        //update the two arraylists in SentimentGradientAndCost class
+
+	public static void main(String[] args) {
+		Properties props = new Properties();
+		props.setProperty("annotators", "tokenize,ssplit,pos,lemma,parse,natlog,sentiment");
+		StanfordCoreNLP pipeline = new StanfordCoreNLP(props);
+		//update the two arraylists in SentimentGradientAndCost class
 
         /*
         todo
@@ -21,5 +22,5 @@ public class RoleClassifier {
             2. identify the sentences with negative sentiment in complete sentence
         */
 
-    }
+	}
 }

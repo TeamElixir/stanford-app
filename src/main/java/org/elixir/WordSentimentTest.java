@@ -6,7 +6,8 @@ import edu.stanford.nlp.pipeline.Annotation;
 import edu.stanford.nlp.pipeline.StanfordCoreNLP;
 import edu.stanford.nlp.sentiment.SentimentCoreAnnotations;
 import edu.stanford.nlp.util.CoreMap;
-import org.elixir.db.Controller;
+import org.elixir.controllers.TripleController;
+import org.elixir.controllers.WordController;
 import org.elixir.models.Triple;
 import org.elixir.models.Word;
 
@@ -33,7 +34,7 @@ public class WordSentimentTest {
 		StanfordCoreNLP pipeline = new StanfordCoreNLP(props);
 
 		linux_dictionary = createDictionary(pipeline);
-		ArrayList<Triple> triples = Controller.getAllTriples();
+		ArrayList<Triple> triples = TripleController.getAllTriples();
 
 		for (Triple triple : triples) {
 			// extract subject, relation, and object
@@ -76,7 +77,7 @@ public class WordSentimentTest {
 							}
 
 							Word word1 = new Word(sentimentValue, lemma, triple.getId());
-							Controller.insertWord(word1);
+							WordController.insertWord(word1);
 						}
 					}   // for each token
 				}   // for each CoreMap sentence
