@@ -1,0 +1,3 @@
+Instructions.
+1. First build the corenlp project from https://github.com/VirajSalaka/CoreNLP.git
+2. Then replace the jar which is located in .m2/edu/...

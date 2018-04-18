@@ -1,6 +1,7 @@
 package org.elixir;
 
 import edu.stanford.nlp.pipeline.StanfordCoreNLP;
+import edu.stanford.nlp.sentiment.SentimentCostAndGradient;
 import org.elixir.controllers.SentencesController;
 import org.elixir.models.Case;
 import org.elixir.models.PosTaggedWord;
@@ -27,9 +28,19 @@ public class RoleClassifier {
 		String nonNeutralFilePath = filePath + "non_neutral_mini.csv";
 		String nonNegativeFilePath = filePath + "non_negative_mini.csv";
 
-		Scanner nonPositiveScanner = new Scanner(nonNegativeFilePath);
+		Scanner nonPositiveScanner = new Scanner(nonPositiveFilePath);
 		while(nonPositiveScanner.hasNextLine()){
+			SentimentCostAndGradient.nonNeutralList.add(nonPositiveScanner.nextLine());
+		}
 
+		Scanner nonNeutralScanner = new Scanner(nonNeutralFilePath);
+		while(nonNeutralScanner.hasNextLine()){
+			SentimentCostAndGradient.nonNeutralList.add(nonNeutralScanner.nextLine());
+		}
+
+		Scanner nonNegativeScanner = new Scanner(nonNegativeFilePath);
+		while(nonNegativeScanner.hasNextLine()){
+			SentimentCostAndGradient.nonNegativeList.add(nonNegativeScanner.nextLine());
 		}
         /*
         todo
