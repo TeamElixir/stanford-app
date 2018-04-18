@@ -41,14 +41,15 @@ public class RoleClassifier {
 		// sample usage
 		for (Case _case : cases) {
 			for(Sentence sentence: _case.getSentences()) {
+
+				for(PosTaggedWord posTaggedWord: sentence.getPosTaggedWords()) {
+
+				}
+
 				for(Triple triple: sentence.getTriples()) {
 					System.out.println(triple);
 				}
 
-				for(PosTaggedWord posTaggedWord: sentence.getPosTaggedWords()) {
-					System.out.println(posTaggedWord.getPosTag());
-					System.out.println(posTaggedWord.getNerTag());
-				}
 			}
 		}
 	}
