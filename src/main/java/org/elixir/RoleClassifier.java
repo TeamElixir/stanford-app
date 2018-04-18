@@ -8,8 +8,10 @@ import org.elixir.models.Sentence;
 import org.elixir.models.Triple;
 import org.elixir.models.Word;
 
+import java.io.File;
 import java.util.ArrayList;
 import java.util.Properties;
+import java.util.Scanner;
 
 public class RoleClassifier {
 
@@ -18,7 +20,17 @@ public class RoleClassifier {
 		props.setProperty("annotators", "tokenize,ssplit,pos,lemma,parse,natlog,sentiment");
 		StanfordCoreNLP pipeline = new StanfordCoreNLP(props);
 		//update the two arraylists in SentimentGradientAndCost class
+		String filePath = new File("").getAbsolutePath();
+		filePath += "/src/main/resources/sentiment_analysis/legal_cases/results/reviewed/";
 
+		String nonPositiveFilePath = filePath + "non_positive_mini.csv";
+		String nonNeutralFilePath = filePath + "non_neutral_mini.csv";
+		String nonNegativeFilePath = filePath + "non_negative_mini.csv";
+
+		Scanner nonPositiveScanner = new Scanner(nonNegativeFilePath);
+		while(nonPositiveScanner.hasNextLine()){
+
+		}
         /*
         todo
         needs to get pos tag of each word in the sentence
