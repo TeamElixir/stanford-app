@@ -65,8 +65,13 @@ public class RoleClassifier {
 		for (Case _case : cases) {
 			for(Sentence sentence: _case.getSentences()) {
 
-				for(PosTaggedWord posTaggedWord: sentence.getPosTaggedWords()) {
 
+				//to create empty map for the word-postag combinations inside SentimentCostAndGradient class
+				SentimentCostAndGradient.createPosTagMap();
+
+				//to add the word-postag combinations to the map inside SentimentCostAndGradient class
+				for(PosTaggedWord posTaggedWord: sentence.getPosTaggedWords()) {
+					SentimentCostAndGradient.addPosTagsOfWords(posTaggedWord.getWord(),posTaggedWord.getPosTag());
 				}
 
 				for(Triple triple: sentence.getTriples()) {
