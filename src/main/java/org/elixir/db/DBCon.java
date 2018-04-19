@@ -14,7 +14,7 @@ public class DBCon {
 
 	private static String username = "root";
 
-	private static String password = "123456";
+	private static String password = "root";
 
 	public static Connection getConnection() {
 		Connection con = null;

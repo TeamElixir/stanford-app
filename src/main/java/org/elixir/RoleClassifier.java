@@ -1,22 +1,26 @@
 package org.elixir;
 
+import edu.stanford.nlp.ling.CoreAnnotations;
+import edu.stanford.nlp.pipeline.Annotation;
 import edu.stanford.nlp.pipeline.StanfordCoreNLP;
+import edu.stanford.nlp.sentiment.SentimentCoreAnnotations;
 import edu.stanford.nlp.sentiment.SentimentCostAndGradient;
+import edu.stanford.nlp.util.CoreMap;
 import org.elixir.controllers.SentencesController;
-import org.elixir.models.Case;
-import org.elixir.models.PosTaggedWord;
-import org.elixir.models.Sentence;
-import org.elixir.models.Triple;
-import org.elixir.models.Word;
+import org.elixir.models.*;
 
+import java.io.BufferedWriter;
 import java.io.File;
+import java.io.FileWriter;
+import java.io.IOException;
 import java.util.ArrayList;
+import java.util.List;
 import java.util.Properties;
 import java.util.Scanner;
 
 public class RoleClassifier {
 
-	public static void main(String[] args) {
+	public static void main(String[] args) throws IOException {
 		Properties props = new Properties();
 		props.setProperty("annotators", "tokenize,ssplit,pos,lemma,parse,natlog,sentiment");
 		StanfordCoreNLP pipeline = new StanfordCoreNLP(props);
@@ -53,19 +57,27 @@ public class RoleClassifier {
 
 		// for each case from case_11 to case_20
 		// fetch sentences of each case
-        int[] caseNumbers = {11,12,13,14,15,16,17,18,19,20};
+        int[] caseNumbers = {11};
         ArrayList<Case> cases = new ArrayList<>();
 		for (int n : caseNumbers) {
 			Case aCase = new Case();
 			aCase.setSentences(SentencesController.getSentencesOfCase(n));
 			cases.add(aCase);
 		}
+		BufferedWriter bf = new BufferedWriter(new FileWriter(new File("/home/viraj/stanford-core-nlp/FYP/ollie/case_11.txt")));
 
 		// sample usage
 		for (Case _case : cases) {
 			for(Sentence sentence: _case.getSentences()) {
 
-
+				try {
+					bf.write(sentence.getSentence());
+					bf.write("\n");
+					bf.flush();
+				} catch (IOException e) {
+					e.printStackTrace();
+				}
+/*
 				//to create empty map for the word-postag combinations inside SentimentCostAndGradient class
 				SentimentCostAndGradient.createPosTagMap();
 
@@ -74,11 +86,24 @@ public class RoleClassifier {
 					SentimentCostAndGradient.addPosTagsOfWords(posTaggedWord.getWord(),posTaggedWord.getPosTag());
 				}
 
-				for(Triple triple: sentence.getTriples()) {
-					System.out.println(triple);
-				}
+				for(GoogleTriple triple: sentence.getGoogleTriples()) {
+					Annotation annotation = new Annotation(triple.getRelation()+ " "+triple.getObject()+".");
+					//Annotation annotation = new Annotation(triple.getRelation());
+					pipeline.annotate(annotation);
+
+					List<CoreMap> sentences = annotation.get(CoreAnnotations.SentencesAnnotation.class);
+					for(CoreMap coreMapSentence:sentences){
+						String sentiment = coreMapSentence.get(SentimentCoreAnnotations.SentimentClass.class);
+						if(sentiment.equals("Negative")){
+							System.out.println("( " + triple.getSubject() + " , " + triple.getRelation() + " , " +triple.getObject()+" )");
+						}
+
+					}
+
+				}*/
 
 			}
 		}
+		bf.close();
 	}
 }
