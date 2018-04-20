@@ -1,0 +1,1861 @@
+United States Supreme Court
+No extractions found.
+
+JAE LEE v. UNITED STATES, (2017)
+No extractions found.
+
+No. 16-327
+No extractions found.
+
+Argued: March 28, 2017    Decided: June 23, 2017
+No extractions found.
+
+Petitioner Jae Lee moved to the United States from South Korea with his parents when he was 13.
+0.92: (Petitioner Jae Lee; moved to; the United States)[enabler=when he was 13]
+0.891: (Petitioner Jae Lee; moved from; South Korea)[enabler=when he was 13]
+0.824: (Petitioner Jae Lee; moved with; his parents)[enabler=when he was 13]
+0.599: (he; was; 13)
+
+In the 35 years he has spent in this country, he has never returned to South Korea, nor has he become a U. S. citizen, living instead as a lawful permanent resident.
+0.743: (he; has spent in; this country)
+0.726: (he; has never returned to; South Korea)[enabler=the 35 years he has spent in this country]
+0.574: (he; has spent in; the 35 years)
+0.502: (he; has become; a U. S. citizen)
+0.369: (he; has never returned living instead as; a lawful permanent resident)[enabler=the 35 years he has spent in this country]
+
+In 2008, federal officials received a tip from a confidential informant that Lee had sold the informant ecstasy and marijuana.
+0.908: (federal officials; received a tip from; a confidential informant)
+0.829: (federal officials; received; a tip)
+0.804: (a tip; be received from; a confidential informant)
+0.708: (federal officials; received a tip in; 2008)
+0.684: (Lee; had sold; the informant ecstasy and marijuana)
+0.565: (a tip; be received in; 2008)
+
+After obtaining a warrant, the officials searched Lee's house, where they found drugs, cash, and a loaded rifle.
+0.818: (they; found; drugs)
+0.756: (the officials; searched; Lee 's house)
+
+Lee admitted that the drugs were his, and a grand jury indicted him on one count of possessing ecstasy with intent to distribute.
+0.957: (his , and a grand jury; indicted him on; one count possessing ecstasy with intent)[attrib=Lee admitted]
+0.835: (his , and a grand jury; indicted; him)[attrib=Lee admitted]
+0.804: (him; be indicted on; one count possessing ecstasy with intent)[attrib=Lee admitted]
+0.731: (ecstasy; be possessing with; intent to distribute)
+
+Lee retained counsel and entered into plea discussions with the Government.
+0.92: (Lee; entered into; plea discussions)
+0.794: (Lee; retained; counsel)
+
+During the plea process, Lee repeatedly asked his attorney whether he would face deportation; his attorney assured him that he would not be deported as a result of pleading guilty.
+0.805: (he; would not be deported as; a result pleading guilty)
+0.791: (his attorney; assured; him)
+0.753: (Lee; repeatedly asked; his attorney)
+0.677: (Lee; repeatedly asked his attorney of; he)
+0.667: (Lee; repeatedly asked his attorney during; the plea process)
+0.575: (his attorney; be repeatedly asked during; the plea process)
+0.511: (he; would face; deportation)
+
+Based on that assurance, Lee accepted a plea and was sentenced to a year and a day in prison.
+0.883: (Lee; was sentenced to; a year and a day)
+0.821: (Lee; accepted; a plea)
+
+Lee had in fact pleaded guilty to an "aggravated felony" under the Immigration and Nationality Act, 8 U. S. C. §1101(a)(43)(B), so he was, contrary to his attorney's advice, subject to mandatory deportation as a result of that plea.
+0.681: (Lee; had in; fact)
+0.575: (Lee; had; fact)
+0.463: (the Immigration and Nationality Act , 8 U. S. C.; §1101(; a )( 43 )( B))
+
+See §1227(a)(2)(A)(iii).
+No extractions found.
+
+When Lee learned of this consequence, he filed a motion to vacate his conviction and sentence, arguing that his attorney had provided constitutionally ineffective assistance.
+0.92: (Lee; learned of; this consequence)
+0.776: (his attorney; had provided; ineffective assistance)
+0.761: (he; filed; a motion to vacate his conviction and sentence)
+
+At an evidentiary hearing, both Lee and his plea-stage counsel testified that "deportation was the determinative issue" to Lee in deciding whether to accept a plea, and Lee's counsel acknowledged that although Lee's defense to the charge was weak, if he had known Lee would be deported upon pleading guilty, he would have advised him to go to trial.
+0.789: ("deportation; was the determinative issue to; Lee)
+0.717: (Lee and his plea-stage counsel; testified at; an evidentiary hearing)
+0.7: (him; to go to; trial)
+0.589: ("deportation; was; the determinative issue " to Lee in deciding whether to accept a plea , and Lee 's counsel)
+0.456: (Lee 's defense; was; weak)
+0.219: (weak; be Lee 's defense to; the charge)
+0.206: ("deportation; be counsel of; Lee)
+
+A Magistrate Judge recommended that Lee's plea be set aside and his conviction vacated.
+No extractions found.
+
+The District Court, however, denied relief, and the Sixth Circuit affirmed.
+0.691: (The District Court; however denied; relief)
+0.507: (the Sixth Circuit; however denied; relief)
+
+Applying the two-part test for ineffective assistance claims from Strickland v. Washington, 466 U. S. 668, the Sixth Circuit concluded that, while the Government conceded that Lee's counsel had performed deficiently, Lee could not show that he was prejudiced by his attorney's erroneous advice.
+0.75: (he; was prejudiced by; his attorney 's erroneous advice)[attrib=Lee could not show]
+
+Held: Lee has demonstrated that he was prejudiced by his counsel's erroneous advice.
+0.76: (he; was prejudiced by; his counsel 's erroneous advice)
+
+Pp. 5-13.
+No extractions found.
+
+(a) When a defendant claims that his counsel's deficient performance deprived him of a trial by causing him to accept a plea, the defendant can show prejudice by demonstrating a "reasonable probability that, but for counsel's errors, he would not have pleaded guilty and would have insisted on going to trial."
+0.887: (his counsel 's deficient performance; deprived him of; a trial)[attrib=a defendant claims]
+0.747: (the defendant; can show; prejudice)
+0.703: (his counsel 's deficient performance; deprived; him)[attrib=a defendant claims]
+0.7: (him; be deprived of; a trial)[attrib=a defendant claims]
+
+Hill v. Lockhart, 474 U. S. 52, 59.
+No extractions found.
+
+Lee contends that he can make this showing because he never would have accepted a guilty plea had he known the result would be deportation.
+0.693: (the result; would be; deportation)
+0.535: (he; can make; this showing)[enabler=because he never would have accepted a guilty plea had he known the result would be deportation;attrib=Lee contends]
+
+The Government contends that Lee cannot show prejudice from accepting a plea where his only hope at trial was that something unexpected and unpredictable might occur that would lead to acquittal.
+0.671: (Lee; cannot show; prejudice)[attrib=The Government contends]
+
+Pp. 5-8.
+No extractions found.
+
+(b) The Government makes two errors in urging the adoption of a per se rule that a defendant with no viable defense cannot show prejudice from the denial of his right to trial.
+0.788: (The Government; makes; two errors)
+0.712: (a defendant; cannot show; prejudice)
+0.638: (b; makes; two errors)
+
+First, it forgets that categorical rules are ill suited to an inquiry that demands a "case-by-case examination" of the "totality of the evidence."
+0.642: (demands; be a " case-by-case examination of; the " totality of the evidence)
+
+Williams v. Taylor, 529 U. S. 362, 391 (internal quotation marks omitted); Strickland, 466 U. S., at 695.
+0.497: (466 U. S.; be Strickland at; 695)
+
+More fundamentally, it overlooks that the Hill v. Lockhart inquiry focuses on a defendant's decisionmaking, which may not turn solely on the likelihood of conviction after trial.
+0.893: (Lockhart inquiry; focuses on; a defendant 's decisionmaking which may not turn solely on the likelihood of conviction after trial)
+0.839: (the Hill; focuses on; a defendant 's decisionmaking which may not turn solely on the likelihood of conviction after trial)
+
+The decision whether to plead guilty also involves assessing the respective consequences of a conviction after trial and by plea.
+0.743: (the respective consequences of a conviction; be assessing after; trial and by plea)
+0.743: (the respective consequences of a conviction; be assessing by; trial and by plea)
+
+See INS v. St. Cyr, 533 U. S. 289, 322-323.
+No extractions found.
+
+When those consequences are, from the defendant's perspective, similarly dire, even the smallest chance of success at trial may look attractive.
+No extractions found.
+
+For Lee, deportation after some time in prison was not meaningfully different from deportation after somewhat less time; he says he accordingly would have rejected any plea leading to deportation in favor of throwing a "Hail Mary" at trial.
+0.785: (he; accordingly would have rejected; any plea leading to deportation in favor)[attrib=he says]
+0.716: (any plea; leading in; favor throwing a " Hail Mary " at trial)
+0.701: (any plea; leading to; deportation)
+0.593: (a " Hail Mary; be throwing at; trial)
+
+Pointing to Strickland, the Government urges that "[a] defendant has no entitlement to the luck of a lawless decisionmaker."
+0.851: ([a ] defendant; has no entitlement to; the luck of a lawless decisionmaker)
+0.745: ([a ] defendant; has; no entitlement)
+0.704: ([a ] defendant; urges in; Pointing)
+0.339: (the Government; be Pointing to; Strickland)
+
+466 U. S., at 695.
+No extractions found.
+
+That statement, however, was made in the context of discussing the presumption of reliability applied to judicial proceedings, which has no place where, as here, a defendant was deprived of a proceeding altogether.
+0.929: (a defendant; was deprived of; a proceeding)
+0.902: (That statement; however was made in; the context discussing the presumption of reliability applied to judicial proceedings ,)
+0.621: (a defendant; was deprived in; no place)
+0.619: (That statement; however was made on; the context discussing the presumption of reliability applied to judicial proceedings ,)
+0.606: (no place where , as here , a defendant was deprived of a proceeding altogether; be has by; judicial proceedings)
+
+When the inquiry is focused on what an individual defendant would have done, the possibility of even a highly improbable result may be pertinent to the extent it would have affected the defendant's decisionmaking.
+0.755: (the possibility of even a highly improbable result; may be pertinent to; the extent it would have affected the defendant 's decisionmaking)
+0.724: (the possibility of even a highly improbable result; may be; pertinent)
+0.661: (it; would have affected; the defendant 's decisionmaking)
+0.332: (pertinent; be the possibility of; a highly improbable result)
+
+Pp. 8-10.
+No extractions found.
+
+(c) Courts should not upset a plea solely because of post hoc assertions from a defendant about how he would have pleaded but for his attorney's deficiencies.
+0.843: (Courts; should not upset a plea solely because of; post hoc assertions)
+0.721: (a plea; should be not upset solely because of; post hoc assertions)
+0.52: (Courts; should not upset solely; a plea)
+
+Rather, they should look to contemporaneous evidence to substantiate a defendant's expressed preferences.
+0.898: (they; Rather should look to; contemporaneous evidence to substantiate a defendant 's expressed preferences)
+
+In the unusual circumstances of this case, Lee has adequately demonstrated a reasonable probability that he would have rejected the plea had he known that it would lead to mandatory deportation: Both Lee and his attorney testified that "deportation was the determinative issue" to Lee; his responses during his plea colloquy confirmed the importance he placed on deportation; and he had strong connections to the United States, while he had no ties to South Korea.
+0.809: (his responses; confirmed; the importance he placed on deportation)
+0.778: (Lee and his attorney; had strong connections to; the United States)
+0.778: (his responses; had strong connections to; the United States)
+0.757: (he; had strong connections to; the United States)
+0.757: (he; placed on; deportation)
+0.751: (Lee; has adequately demonstrated; a reasonable probability)
+0.718: ("deportation; was the determinative issue to; Lee)
+0.68: (Lee and his attorney; confirmed; the importance he placed on deportation)
+0.667: (Lee and his attorney; had; strong connections)
+0.667: (his responses; had; strong connections)
+0.663: (strong connections; be had to; the United States)
+0.64: (he; had; strong connections)
+0.607: (it; would lead to; mandatory deportation)
+0.526: (he; had; no ties)
+0.48: (he; confirmed; the importance he placed on deportation)
+0.471: ("deportation; was; the determinative issue)
+0.354: (Lee; has adequately demonstrated a reasonable probability that he would have rejected the plea had he known that it would lead to mandatory deportation : Both Lee and his attorney testified that "deportation was the determinative issue " to Lee ; his responses during his plea colloquy confirmed the importance he placed on deportation ; and he had strong connections to the United States , while he had no ties to South Korea in; the unusual circumstances of this case)
+0.3: (Lee and his attorney; be his responses during; his plea colloquy)
+0.157: (he; be his responses during; his plea colloquy)
+
+The Government argues that Lee cannot "convince the court that a decision to reject the plea bargain would have been rational under the circumstances," Padilla v. Kentucky, 559 U. S. 356, 372, since deportation would almost certainly result from a trial.
+0.784: (deportation; would almost certainly result from; a trial)
+0.745: (a decision to reject the plea bargain; would have been rational under; the circumstances)
+0.719: (Padilla; 559; U. S. 356)[enabler=since deportation would almost certainly result from a trial]
+0.581: (Lee; cannot convince; the court)
+
+Unlike the Government, this Court cannot say that it would be irrational for someone in Lee's position to risk additional prison time in exchange for holding on to some chance of avoiding deportation.
+0.679: (additional prison time; to be risk in; exchange)
+0.678: (it; would be irrational for; someone)[attrib=this Court cannot say]
+0.576: (it; would be; irrational)
+0.504: (this Court; cannot say unlike; the Government)
+
+Pp. 10-13.
+No extractions found.
+
+825 F. 3d 311, reversed and remanded.
+0.767: (825 F.; 3d; 311)
+
+Roberts, C. J., delivered the opinion of the Court, in which Kennedy, Ginsburg, Breyer, Sotomayor, and Kagan, JJ., joined.
+0.797: (Roberts; delivered; the opinion of the Court)
+
+Thomas, J., filed a dissenting opinion, in which Alito, J., joined except as to Part I. Gorsuch, J., took no part in the consideration or decision of the case.
+0.861: (no part; be took in; the consideration or decision of the case)
+0.854: (Thomas; filed; a dissenting opinion in which Alito , J. , joined except as to Part I. Gorsuch , J.)
+
+Opinion of the Court
+No extractions found.
+
+582 U. S. ____ (2017)
+No extractions found.
+
+NOTICE:?This opinion is subject to formal revision before publication in the preliminary print of the United States Reports.
+0.844: (:?This opinion; is subject to; formal revision)
+0.808: (:?This opinion; is subject before; publication)
+0.735: (:?This opinion; is; subject)
+
+Readers are requested to notify the Reporter of Decisions, Supreme Court of the United States, Washington, D. C. 20543, of any typographical or other formal errors, in order that corrections may be made before the preliminary print goes to press.
+0.846: (Supreme Court of the United States; may be made of; any typographical or other formal errors)[enabler=before the preliminary print goes to press]
+0.772: (the preliminary print; goes to; press)
+0.769: (Supreme Court of the United States; may be made in; order)[enabler=before the preliminary print goes to press]
+0.737: (corrections; may be made in; order)[enabler=before the preliminary print goes to press]
+0.701: (corrections; may be made of; any typographical or other formal errors)[enabler=before the preliminary print goes to press]
+0.37: (Supreme Court of the United States; may be made on; order)[enabler=before the preliminary print goes to press]
+0.332: (corrections; may be made on; order)[enabler=before the preliminary print goes to press]
+
+No. 16-327
+No extractions found.
+
+JAE LEE, PETITIONER v. UNITED STATES
+No extractions found.
+
+on writ of certiorari to the united states court of appeals for the sixth circuit
+No extractions found.
+
+[June 23, 2017]
+No extractions found.
+
+Chief Justice Roberts delivered the opinion of the Court.
+0.871: (Chief Justice Roberts; delivered; the opinion of the Court)
+0.833: (Chief Justice Roberts; delivered of; the Court)
+
+Petitioner Jae Lee was indicted on one count of possessing ecstasy with intent to distribute.
+0.959: (Petitioner Jae Lee; was indicted on; one count possessing ecstasy with intent)
+0.731: (ecstasy; be possessing with; intent to distribute)
+
+Although he has lived in this country for most of his life, Lee is not a United States citizen, and he feared that a criminal conviction might affect his status as a lawful permanent resident.
+0.823: (Lee; is citizen of; United States)[enabler=Although he has lived in this country for most of his life]
+0.772: (his status; might be affect as; a lawful permanent resident)
+0.758: (a criminal conviction; might affect his status as; a lawful permanent resident)
+0.64: (a criminal conviction; might affect; his status)
+0.611: (he; has lived in; this country)
+0.608: (Lee; is; not a United States citizen)
+0.47: (he; has lived for; most of his life)
+0.3: (he; is; not a United States citizen)
+
+His attorney assured him there was nothing to worry about--the Government would not deport him if he pleaded guilty.
+0.736: (nothing to worry about--the Government; would not deport; him)[enabler=if he pleaded guilty]
+0.732: (His attorney; assured; him)
+
+So Lee, who had no real defense to the charge, opted to accept a plea that carried a lesser prison sentence than he would have faced at trial.
+0.79: (Lee; had no real defense to; the charge)
+0.725: (no real defense; be had to; the charge)
+0.695: (he; would have faced at; trial)
+0.678: (Lee; So opted to accept; a plea that carried a lesser prison sentence than he would have faced at trial)
+0.663: (Lee; to accept; a plea that carried a lesser prison sentence than he would have faced at trial)
+
+Lee's attorney was wrong: The conviction meant that Lee was subject to mandatory deportation from this country.
+0.789: (Lee; was subject to; mandatory deportation)[attrib=The conviction meant]
+0.658: (Lee; was; subject)
+0.651: (Lee 's attorney; was; wrong)
+
+Lee seeks to vacate his conviction on the ground that, in accepting the plea, he received ineffective assistance of counsel in violation of the Sixth Amendment.
+0.888: (Lee; seeks to vacate his conviction on; the ground that , in accepting the plea , he received ineffective assistance of counsel in violation of the Sixth Amendment)
+0.88: (he; received ineffective assistance of counsel in; violation of the Sixth Amendment)
+0.822: (ineffective assistance of counsel; be received in; violation of the Sixth Amendment)
+0.807: (he; received; ineffective assistance of counsel)
+0.806: (his conviction; to be vacate on; the ground that , in accepting the plea , he received ineffective assistance of counsel in violation of the Sixth Amendment)
+0.779: (Lee; seeks to vacate; his conviction)
+
+Everyone agrees that Lee received objectively unreasonable representation.
+0.741: (Lee; received; unreasonable representation)
+
+The question presented is whether he can show he was prejudiced as a result.
+0.832: (he; was prejudiced as; a result)[attrib=he can show]
+
+I
+No extractions found.
+
+Jae Lee moved to the United States from South Korea in 1982.
+0.92: (Jae Lee; moved to; the United States)
+0.891: (Jae Lee; moved from; South Korea)
+0.885: (Jae Lee; moved in; 1982)
+
+He was 13 at the time.
+0.649: (He; was; 13)
+
+His parents settled the family in New York City, where they opened a small coffee shop.
+0.901: (His parents; settled the family in; New York City)
+0.877: (His parents; settled; the family)
+0.853: (they; opened; a small coffee shop)
+0.707: (the family; be settled in; New York City)
+0.67: (His parents; settled the family; New York City)
+
+After graduating from a business high school in Manhattan, Lee set out on his own to Memphis, Tennessee, where he started working at a restaurant.
+0.892: (Lee; set out on; his own)
+0.84: (Lee; set out to; Memphis)
+0.757: (he; started working at; a restaurant)
+
+After three years, Lee decided to try his hand at running a business.
+0.803: (Lee; decided to try; his hand)
+0.749: (Lee; to try; his hand)
+0.728: (Lee; decided after; three years)
+
+With some assistance from his family, Lee opened the Mandarin Palace Chinese Restaurant in a Memphis suburb.
+0.903: (Lee; opened the Mandarin Palace Chinese Restaurant in; a Memphis suburb)
+0.842: (Lee; opened; the Mandarin Palace Chinese Restaurant)
+0.797: (Lee; opened the Mandarin Palace Chinese Restaurant with; some assistance)
+0.768: (the Mandarin Palace Chinese Restaurant; be opened in; a Memphis suburb)
+0.642: (the Mandarin Palace Chinese Restaurant; be opened with; some assistance)
+
+The Mandarin was a success, and Lee eventually opened a second restaurant nearby.
+0.661: (Lee; eventually opened nearby; a second restaurant)
+0.655: (The Mandarin; was; a success)
+0.638: (The Mandarin; eventually opened nearby; a second restaurant)
+0.507: (Lee; was; a success)
+
+In the 35 years he has spent in the country, Lee has never returned to South Korea.
+0.824: (Lee; has never returned to; South Korea)[enabler=the 35 years he has spent in the country]
+0.696: (he; has spent in; the country)
+0.516: (he; has spent in; the 35 years)
+
+He did not become a United States citizen, living instead as a lawful permanent resident.
+0.517: (He; did become; not become a United States citizen)
+
+At the same time he was running his lawful businesses, Lee also engaged in some illegitimate activity.
+0.903: (Lee; also engaged in; some illegitimate activity)
+0.703: (Lee; also engaged at; the same time he was running his lawful businesses)
+0.406: (he; was running; his lawful businesses)
+
+In 2008, a confidential informant told federal officials that Lee had sold the informant approximately 200 ecstasy pills and two ounces of hydroponic marijuana over the course of eight years.
+0.793: (a confidential informant; told; federal officials)
+0.778: (Lee; had sold; informant approximately 200 ecstasy pills and two ounces of hydroponic marijuana)[attrib=a confidential informant told federal officials]
+0.708: (a confidential informant; told federal officials in; 2008)
+0.565: (federal officials; be told in; 2008)
+0.411: (a confidential informant; told federal officials; 2008)
+
+The officials obtained a search warrant for Lee's house, where they found 88 ecstasy pills, three Valium tablets, $32,432 in cash, and a loaded rifle.
+0.837: (The officials; obtained; a search warrant)
+0.821: (they; found; 88 ecstasy pills)
+
+Lee admitted that the drugs were his and that he had given ecstasy to his friends.
+0.696: (the drugs; had given; ecstasy)[attrib=Lee admitted]
+0.587: (he; had given; ecstasy)[attrib=Lee admitted]
+
+A grand jury indicted Lee on one count of possessing ecstasy with intent to distribute in violation of 21 U. S. C. §841(a)(1).
+0.944: (A grand jury; indicted Lee on; one count possessing ecstasy with intent)
+0.879: (Lee; be indicted on; one count possessing ecstasy with intent)
+0.816: (A grand jury; indicted; Lee)
+0.758: (ecstasy; be possessing with; intent to distribute in violation of 21 U. S. C. §841( a )( 1 ))
+0.618: (U. S. C.; §841(; a )( 1)
+
+Lee retained an attorney and entered into plea discussions with the Government.
+0.92: (Lee; entered into; plea discussions)
+0.794: (Lee; retained; an attorney)
+
+The attorney advised Lee that going to trial was "very risky" and that, if he pleaded guilty, he would receive a lighter sentence than he would if convicted at trial.
+0.768: (The attorney; advised; Lee)
+0.711: (he; would receive; a lighter sentence)[attrib=The attorney advised Lee]
+0.489: (The attorney; advised Lee of; he)
+0.283: (he; was "very would; risky)
+0.272: (he; be a lighter sentence than; he)
+
+App.
+No extractions found.
+
+167.
+No extractions found.
+
+Lee informed his attorney of his noncitizen status and repeatedly asked him whether he would face deportation as a result of the criminal proceedings.
+0.772: (deportation; would be face as; a result of the criminal proceedings)
+0.761: (Lee; repeatedly asked; him)
+0.754: (Lee; informed; his attorney of his noncitizen status)
+0.731: (he; would face deportation as; a result of the criminal proceedings)
+0.69: (Lee; repeatedly asked him of; he)
+0.606: (he; would face; deportation)
+
+The attorney told Lee that he would not be deported as a result of pleading guilty.
+0.805: (he; would not be deported as; a result pleading guilty)[attrib=The attorney told Lee]
+0.724: (The attorney; told; Lee)
+
+Lee v. United States, 825 F. 3d 311, 313 (CA6 2016).
+No extractions found.
+
+Based on that assurance, Lee accepted the plea and the District Court sentenced him to a year and a day in prison, though it deferred commencement of Lee's sentence for two months so that Lee could manage his restaurants over the holiday season.
+0.856: (the plea and the District Court; sentenced him to; a year)[enabler=though it deferred commencement of Lee 's sentence for two months so that Lee could manage his restaurants over the holiday season;attrib=Lee accepted]
+0.81: (his restaurants; so could be manage over; the holiday season)
+0.764: (the plea and the District Court; sentenced; him)[enabler=though it deferred commencement of Lee 's sentence for two months so that Lee could manage his restaurants over the holiday season;attrib=Lee accepted]
+0.701: (Lee; so could manage his restaurants over; the holiday season)
+0.684: (the plea and the District Court; be a day in; prison)[attrib=Lee accepted]
+0.621: (him; be sentenced to; a year)[enabler=though it deferred commencement of Lee 's sentence for two months so that Lee could manage his restaurants over the holiday season;attrib=Lee accepted]
+0.617: (it; be deferred commencement of; Lee 's sentence)
+0.586: (Lee; so could manage; his restaurants)
+0.382: (it; be deferred commencement of Lee 's sentence for; two months)
+
+Lee quickly learned, however, that a prison term was not the only consequence of his plea.
+0.849: (a prison term; was not the only consequence of; his plea)
+0.601: (a prison term; was; not the only consequence of his plea)
+
+Lee had pleaded guilty to what qualifies as an "aggravated felony" under the Immigration and Nationality Act, and a noncitizen convicted of such an offense is subject to mandatory deportation.
+0.588: (Lee; had a noncitizen convicted of; such an offense)
+
+See 8 U. S. C. §§1101(a)(43)(B), 1227(a)(2)(A)(iii); Calcano-Martinez v. INS, 533 U. S. 348, 350, n. 1 (2001).
+No extractions found.
+
+Upon learning that he would be deported after serving his sentence, Lee filed a motion under 28 U. S. C. §2255 to vacate his conviction and sentence, arguing that his attorney had provided constitutionally ineffective assistance.
+0.875: (Lee; filed a motion under; 28)
+0.835: (Lee; filed; a motion)
+0.725: (a motion; be filed under; 28)
+0.721: (his attorney; had provided; ineffective assistance)
+0.54: (U. S. C.; §2255 to vacate; his conviction and sentence)[enabler=learning that he would be deported after serving his sentence , Lee filed a motion under 28]
+
+At an evidentiary hearing on Lee's motion, both Lee and his plea-stage counsel testified that "deportation was the determinative issue in Lee's decision whether to accept the plea."
+0.875: ("deportation; was the determinative issue in; Lee 's decision)
+0.832: (Lee and his plea-stage counsel; testified at; an evidentiary hearing)
+0.636: ("deportation; was; the determinative issue)
+
+Report and Recommendation in No. 2:10-cv-02698 (WD Tenn.), pp. 6-7 (Report and Recommendation).
+No extractions found.
+
+In fact, Lee explained, his attorney became "pretty upset because every time something comes up I always ask about immigration status," and the lawyer "always said why [are you] worrying about something that you don't need to worry about."
+0.832: (his attorney; became "pretty; upset)
+0.763: (you; worrying about; something that you do n't need to worry about)
+0.693: (I; always ask about; immigration status)
+0.422: (Lee; explained in; fact)
+
+App.
+No extractions found.
+
+170.
+No extractions found.
+
+According to Lee, the lawyer assured him that if deportation was not in the plea agreement, "the government cannot deport you."
+0.812: (the lawyer; assured; him)
+0.71: (the government; cannot deport; you)[enabler=if deportation was not in the plea agreement]
+0.316: (deportation; was not in; the plea agreement)
+
+Ibid.
+No extractions found.
+
+Lee's attorney testified that he thought Lee's case was a "bad case to try" because Lee's defense to the charge was weak.
+0.786: (Lee 's case; was; a "bad case to try ")
+0.642: (Lee 's attorney; testified; he)
+0.586: (Lee 's defense; was; weak)
+0.272: (weak; be Lee 's defense to; the charge)
+
+Id., at 218-219.
+No extractions found.
+
+The attorney nonetheless acknowledged that if he had known Lee would be deported upon pleading guilty, he would have advised him to go to trial.
+0.7: (him; to go to; trial)
+
+Id., at 236, 244.
+No extractions found.
+
+Based on the hearing testimony, a Magistrate Judge recommended that Lee's plea be set aside and his conviction vacated because he had received ineffective assistance of counsel.
+0.682: (he; had received; ineffective assistance of counsel)
+
+The District Court, however, denied relief.
+0.738: (The District Court; however denied; relief)
+
+Applying our two-part test for ineffective assistance claims from Strickland v. Washington, 466 U. S. 668 (1984), the District Court concluded that Lee's counsel had performed deficiently by giving improper advice about the deportation consequences of the plea.
+No extractions found.
+
+But, "[i]n light of the overwhelming evidence of Lee's guilt," Lee "would have almost certainly" been found guilty and received "a significantly longer prison sentence, and subsequent deportation," had he gone to trial.
+0.707: (light of the overwhelming evidence of Lee 's guilt; been found; guilty and received " a significantly longer prison sentence , and subsequent deportation)
+0.608: (he; had gone to; trial)
+
+Order in No. 2:10-cv-02698 (WD Tenn.), p. 24 (Order).
+No extractions found.
+
+Lee therefore could not show he was prejudiced by his attorney's erroneous advice.
+0.791: (he; was prejudiced by; his attorney 's erroneous advice)[attrib=Lee could not show]
+
+Viewing its resolution of the issue as debatable among jurists of reason, the District Court granted a certificate of appealability.
+0.873: (the District Court; granted; a certificate of appealability)
+0.861: (its resolution of the issue; be Viewing as; debatable)
+
+The Court of Appeals for the Sixth Circuit affirmed the denial of relief.
+0.852: (The Court of Appeals; affirmed; the denial of relief)
+
+On appeal, the Government conceded that the performance of Lee's attorney had been deficient.
+0.695: (the Government; conceded on; appeal)
+0.384: (deficient; be the performance of; Lee 's attorney)
+
+To establish that he was prejudiced by that deficient performance, the court explained, Lee was required to show "a reasonable probability that, but for counsel's errors, he would not have pleaded guilty and would have insisted on going to trial."
+0.71: (he; was prejudiced by; that deficient performance)
+
+825 F. 3d, at 313 (quoting Hill v. Lockhart, 474 U. S. 52, 59 (1985); internal quotation marks omitted).
+No extractions found.
+
+Lee had "no bona fide defense, not even a weak one," so he "stood to gain nothing from going to trial but more prison time."
+0.653: (he; stood to gain; nothing)
+
+825 F. 3d, at 313, 316.
+No extractions found.
+
+Relying on Circuit precedent holding that "no rational defendant charged with a deportable offense and facing overwhelming evidence of guilt would proceed to trial rather than take a plea deal with a shorter prison sentence," the Court of Appeals concluded that Lee could not show prejudice.
+0.79: (no rational defendant charged with a deportable offense; would proceed to; trial)
+0.742: (no rational defendant; be charged with; a deportable offense)
+0.725: (a plea deal; be take with; a shorter prison sentence)
+0.689: (Lee; could not show; prejudice)
+
+Id., at 314 (internal quotation marks omitted).
+0.496: (Id.; omitted ) at; 314 ( internal quotation marks)
+
+We granted certiorari.
+No extractions found.
+
+580 U. S. ___ (2016).
+No extractions found.
+
+II
+No extractions found.
+
+The Sixth Amendment guarantees a defendant the effective assistance of counsel at "critical stages of a criminal proceeding," including when he enters a guilty plea.
+0.728: (The Sixth Amendment; guarantees; a defendant)
+0.678: (he; enters; a guilty plea)
+
+Lafler v. Cooper, 566 U. S. 156, 165 (2012); Hill, 474 U. S., at 58.
+0.555: (474 U. S.; be Hill at; 58)
+
+To demonstrate that counsel was constitutionally ineffective, a defendant must show that counsel's representation "fell below an objective standard of reasonableness" and that he was prejudiced as a result.
+0.854: (counsel 's representation; "fell below; an objective standard of reasonableness)[attrib=a defendant must show]
+0.805: (he; was prejudiced as; a result)[attrib=a defendant must show]
+0.601: (counsel; was constitutionally; ineffective)
+
+Strickland, 466 U. S., at 688, 692.
+0.532: (466 U. S.; be Strickland at; 688)
+
+The first requirement is not at issue in today's case: The Government concedes that Lee's plea-stage counsel provided inadequate representation when he assured Lee that he would not be deported if he pleaded guilty.
+0.836: (The first requirement; is not at; issue)
+0.73: (The first requirement; is not in; today 's case)
+0.674: (he; assured; Lee)
+0.592: (Lee 's plea-stage counsel; provided; inadequate representation)[enabler=when he assured Lee that he would not be deported if he pleaded guilty]
+
+Brief for United States 15.
+No extractions found.
+
+The question is whether Lee can show he was prejudiced by that erroneous advice.
+0.832: (he; was prejudiced by; erroneous advice)[attrib=Lee can show]
+
+A
+No extractions found.
+
+A claim of ineffective assistance of counsel will often involve a claim of attorney error "during the course of a legal proceeding"--for example, that counsel failed to raise an objection at trial or to present an argument on appeal.
+0.821: (A claim of ineffective assistance of counsel; will often involve; a claim of attorney error "during the course of a legal proceeding"--for example)
+0.751: (counsel; failed to raise; an objection)
+0.708: (an argument; to be present on; appeal)
+0.689: (counsel; to raise; an objection)
+
+Roe v. Flores-Ortega, 528 U. S. 470, 481 (2000).
+No extractions found.
+
+A defendant raising such a claim can demonstrate prejudice by showing "a reasonable probability that, but for counsel's unprofessional errors, the result of the proceeding would have been different."
+0.758: (A defendant raising such a claim; can demonstrate; prejudice)
+0.332: (different; be the result of; the proceeding)
+
+Id., at 482 (quoting Strickland, 466 U. S., at 694; internal quotation marks omitted).
+0.533: (466 U. S.; be Id. at; 694)
+0.358: (466 U. S.; be Id. at; 482 (quoting)
+
+But in this case counsel's "deficient performance arguably led not to a judicial proceeding of disputed reliability, but rather to the forfeiture of a proceeding itself."
+No extractions found.
+
+Flores-Ortega, 528 U. S., at 483.
+0.59: (528 U. S.; be Flores-Ortega at; 483)
+
+When a defendant alleges his counsel's deficient performance led him to accept a guilty plea rather than go to trial, we do not ask whether, had he gone to trial, the result of that trial "would have been different" than the result of the plea bargain.
+0.864: (the result of that trial; "would have been different than; the result of the plea bargain)
+0.679: (him; to accept; a guilty plea)
+0.608: (he; had gone to; trial)
+0.456: (different; be the result of; that trial)
+
+That is because, while we ordinarily "apply a strong presumption of reliability to judicial proceedings," "we cannot accord" any such presumption "to judicial proceedings that never took place."
+0.711: (we; cannot accord; any such presumption ")
+0.661: (we; ordinarily "apply; a strong presumption of reliability)
+
+Id., at 482-483 (internal quotation marks omitted).
+0.496: (Id.; omitted ) at; 482-483 ( internal quotation marks)
+
+We instead consider whether the defendant was prejudiced by the "denial of the entire judicial proceeding . . . to which he had a right."
+0.88: (the defendant; was prejudiced by; the "denial of the entire judicial proceeding)[attrib=We instead consider]
+0.618: (he; had; a right)
+
+Id., at 483.
+No extractions found.
+
+As we held in Hill v. Lockhart, when a defendant claims that his counsel's deficient performance deprived him of a trial by causing him to accept a plea, the defendant can show prejudice by demonstrating a "reasonable probability that, but for counsel's errors, he would not have pleaded guilty and would have insisted on going to trial."
+0.887: (his counsel 's deficient performance; deprived him of; a trial)[attrib=a defendant claims]
+0.747: (the defendant; can show; prejudice)[attrib=we held]
+0.703: (his counsel 's deficient performance; deprived; him)[attrib=a defendant claims]
+0.7: (him; be deprived of; a trial)[attrib=a defendant claims]
+0.636: (we; held in; Hill)
+0.236: (we; held; Hill)
+
+474 U. S., at 59.
+No extractions found.
+
+The dissent contends that a defendant must also show that he would have been better off going to trial.
+No extractions found.
+
+That is true when the defendant's decision about going to trial turns on his prospects of success and those are affected by the attorney's error--for instance, where a defendant alleges that his lawyer should have but did not seek to suppress an improperly obtained confession.
+0.948: (the defendant 's decision about going to trial turns on his prospects of success and those; are affected by; the attorney 's error--for instance where a defendant alleges that his lawyer should have but did not seek to suppress an improperly obtained confession)
+
+Premo v. Moore, 562 U. S. 115, 118 (2011); cf., e.g., Hill, 474 U. S., at 59 (discussing failure to investigate potentially exculpatory evidence).
+0.445: (562 U. S. 115; be Premo at; 59)
+0.365: (474 U. S.; be Premo at; 59)
+0.231: (Hill; be Premo at; 59)
+
+Not all errors, however, are of that sort.
+No extractions found.
+
+Here Lee knew, correctly, that his prospects of acquittal at trial were grim, and his attorney's error had nothing to do with that.
+0.864: (his attorney 's error; had; nothing to do with that)
+0.717: (Lee; had; nothing to do with that)
+0.673: (his prospects of acquittal; were; grim)
+0.303: (grim; be his prospects of; acquittal)
+0.195: (grim; be his prospects of acquittal at; trial)
+
+The error was instead one that affected Lee's understanding of the consequences of pleading guilty.
+0.84: (The error; was instead; one that affected Lee 's understanding of the consequences)
+
+The Court confronted precisely this kind of error in Hill.
+0.87: (The Court; confronted; this kind of error)
+
+See id., at 60 ("the claimed error of counsel is erroneous advice as to eligibility for parole").
+0.702: (( " the claimed error of counsel is erroneous advice; be See id at; 60)
+
+Rather than asking how a hypothetical trial would have played out absent the error, the Court considered whether there was an adequate showing that the defendant, properly advised, would have opted to go to trial.
+0.712: (the Court; considered; an adequate showing)[enabler=Rather than asking how a hypothetical trial would have played out absent the error]
+
+The Court rejected the defendant's claim because he had "alleged no special circumstances that might support the conclusion that he placed particular emphasis on his parole eligibility in deciding whether or not to plead guilty."
+0.783: (The Court; rejected; the defendant 's claim)[enabler=because he had "alleged no special circumstances that might support the conclusion that he placed particular emphasis on his parole eligibility in deciding whether or not to plead guilty]
+0.686: (he; placed particular emphasis on; his parole eligibility)
+0.604: (particular emphasis; be that placed on; his parole eligibility)
+0.551: (he; had "alleged; no special circumstances that might support the conclusion)
+0.541: (he; that placed on; his parole eligibility)
+0.43: (he; that placed; particular emphasis)
+
+Ibid.1
+No extractions found.
+
+Lee, on the other hand, argues he can establish prejudice under Hill because he never would have accepted a guilty plea had he known that he would be deported as a result.
+0.796: (he; would be deported as; a result)
+0.782: (Lee; argues on; the other hand)
+0.699: (he; can establish; prejudice)[enabler=because he never would have accepted a guilty plea had he known that he would be deported as a result]
+0.454: (he; be prejudice under; Hill)
+
+Lee insists he would have gambled on trial, risking more jail time for whatever small chance there might be of an acquittal that would let him remain in the United States.2 The Government responds that, since Lee had no viable defense at trial, he would almost certainly have lost and found himself still subject to deportation, with a lengthier prison sentence to boot.
+0.832: (he; would have gambled on; trial)[attrib=Lee insists]
+0.814: (Lee; had no viable defense at; trial)
+0.747: (he; would almost certainly have lost with; a lengthier prison sentence to boot)
+0.725: (no viable defense; be had at; trial)
+0.713: (Lee; had; no viable defense)
+0.703: (whatever small chance; might be be of; an acquittal that would let him remain in the United States.2 The Government responds)
+0.701: (him; remain in; the United States.2)
+0.594: (himself; be still subject to; deportation)
+
+Lee, the Government contends, cannot show prejudice from accepting a plea where his only hope at trial was that something unexpected and unpredictable might occur that would lead to an acquittal.
+No extractions found.
+
+B
+No extractions found.
+
+The Government asks that we, like the Court of Appeals below, adopt a per se rule that a defendant with no viable defense cannot show prejudice from the denial of his right to trial.
+0.758: (a defendant; cannot show; prejudice)
+0.746: (the Court of Appeals; adopt; a per se rule)
+0.66: (we; adopt; a per se rule)
+
+Brief for United States 26.
+No extractions found.
+
+As a general matter, it makes sense that a defendant who has no realistic defense to a charge supported by sufficient evidence will be unable to carry his burden of showing prejudice from accepting a guilty plea.
+0.783: (a defendant; has no realistic defense to; a charge supported by sufficient evidence)
+0.71: (it; makes; sense)
+0.687: (a defendant who has no realistic defense to a charge; will be; unable)
+0.685: (a defendant who has no realistic defense to a charge; to carry; his burden showing prejudice from accepting a guilty plea)
+0.655: (no realistic defense; be has by; a defendant)
+0.655: (a charge; be supported by; sufficient evidence)
+0.223: (it; makes sense that a defendant who has no realistic defense to a charge supported by sufficient evidence will be unable to carry his burden of showing prejudice from accepting a guilty plea as; a general matter)
+
+But in elevating this general proposition to a per se rule, the Government makes two errors.
+0.761: (the Government; makes; two errors)
+
+First, it forgets that categorical rules are ill suited to an inquiry that we have emphasized demands a "case-by-case examination" of the "totality of the evidence."
+0.742: (demands; be a " case-by-case examination of; the " totality of the evidence)
+
+Williams v. Taylor, 529 U. S. 362, 391 (2000) (internal quotation marks omitted); Strickland, 466 U. S., at 695.
+No extractions found.
+
+And, more fundamentally, the Government overlooks that the inquiry we prescribed in Hill v. Lockhart focuses on a defendant's decisionmaking, which may not turn solely on the likelihood of conviction after trial.
+0.885: (the inquiry we prescribed in Hill v. Lockhart; focuses on; a defendant 's decisionmaking which may not turn solely on the likelihood of conviction after trial)
+0.789: (we; prescribed in; Hill)
+
+A defendant without any viable defense will be highly likely to lose at trial.
+0.788: (A defendant; will be highly; likely)
+0.441: (likely; be A defendant without; any viable defense)
+
+And a defendant facing such long odds will rarely be able to show prejudice from accepting a guilty plea that offers him a better resolution than would be likely after trial.
+0.724: (such long odds; will rarely be; able)
+0.723: (such long odds; to show; prejudice)
+0.491: (a better resolution; be offers him by; a guilty plea)
+
+But that is not because the prejudice inquiry in this context looks to the probability of a conviction for its own sake.
+0.848: (the prejudice inquiry; looks to; the probability of a conviction)
+
+It is instead because defendants obviously weigh their prospects at trial in deciding whether to accept a plea.
+0.769: (defendants; obviously weigh their prospects at; trial)
+0.619: (defendants; obviously weigh; their prospects)
+
+See Hill, 474 U. S., at 59.
+0.859: (474 U. S.; be See Hill at; 59)
+0.688: (Hill; be See 474 U. S. , at; 59)
+
+Where a defendant has no plausible chance of an acquittal at trial, it is highly likely that he will accept a plea if the Government offers one.
+0.813: (a defendant; has; no plausible chance of an acquittal)
+0.685: (it; is highly; likely)
+0.606: (he; will accept; a plea)[enabler=if the Government offers one]
+0.156: (the Government; offers; one)
+
+But common sense (not to mention our precedent) recognizes that there is more to consider than simply the likelihood of success at trial.
+No extractions found.
+
+The decision whether to plead guilty also involves assessing the respective consequences of a conviction after trial and by plea.
+0.743: (the respective consequences of a conviction; be assessing after; trial and by plea)
+0.743: (the respective consequences of a conviction; be assessing by; trial and by plea)
+
+See INS v. St. Cyr, 533 U. S. 289, 322-323 (2001).
+No extractions found.
+
+When those consequences are, from the defendant's perspective, similarly dire, even the smallest chance of success at trial may look attractive.
+No extractions found.
+
+For example, a defendant with no realistic defense to a charge carrying a 20-year sentence may nevertheless choose trial, if the prosecution's plea offer is 18 years.
+0.576: (a defendant; may nevertheless choose; trial)[enabler=if the prosecution 's plea offer is 18 years]
+0.168: (a defendant; may nevertheless choose trial for; example)[enabler=if the prosecution 's plea offer is 18 years]
+0.115: (the prosecution 's plea offer; is; 18 years)
+0.112: (trial; may be nevertheless choose for; example)[enabler=if the prosecution 's plea offer is 18 years]
+
+Here Lee alleges that avoiding deportation was the determinative factor for him; deportation after some time in prison was not meaningfully different from deportation after somewhat less time.
+0.844: (deportation; was not meaningfully different from; deportation)
+0.773: (deportation; was not meaningfully different after; less time)
+0.642: (deportation; was meaningfully; not meaningfully different)
+0.428: (not meaningfully different; be deportation after; some time)
+
+He says he accordingly would have rejected any plea leading to deportation--even if it shaved off prison time--in favor of throwing a "Hail Mary" at trial.
+0.785: (he; accordingly would have rejected; any plea leading to deportation--even)[enabler=if it shaved off prison time--in favor of throwing a " Hail Mary " at trial;attrib=He says]
+0.701: (any plea; leading to; deportation--even)
+0.593: (a " Hail Mary; be throwing at; trial)
+0.145: (it; shaved off prison; time--in favor throwing a " Hail Mary " at trial)
+0.013: (it; shaved off time--in favor of throwing a " Hail Mary " at trial; prison)
+
+The Government urges that, in such circumstances, the possibility of an acquittal after trial is "irrelevant to the prejudice inquiry," pointing to our statement in Strickland that "[a] defendant has no entitlement to the luck of a lawless decisionmaker."
+0.851: ([a ] defendant; has no entitlement to; the luck of a lawless decisionmaker)
+0.787: (the possibility of an acquittal; is "irrelevant to; the prejudice inquiry)
+0.745: ([a ] defendant; has; no entitlement)
+0.735: (the possibility of an acquittal; is; "irrelevant)
+0.572: (the possibility of an acquittal; is "irrelevant in; such circumstances)
+0.494: ("irrelevant; be the possibility of; an acquittal)
+0.485: (The Government; urges pointing in; Strickland)
+0.44: (The Government; urges pointing to; our statement)
+0.351: ("irrelevant; be the possibility of an acquittal after; trial)
+
+466 U. S., at 695.
+No extractions found.
+
+That statement, however, was made in the context of discussing the presumption of reliability we apply to judicial proceedings.
+0.907: (That statement; however was made in; the context discussing the presumption of reliability)
+0.783: (we; apply to; judicial proceedings)
+0.634: (That statement; however was made on; the context discussing the presumption of reliability)
+
+As we have explained, that presumption has no place where, as here, a defendant was deprived of a proceeding altogether.
+0.912: (a defendant; was deprived of; a proceeding)
+0.717: (presumption; has; no place where , as here , a defendant was deprived of a proceeding altogether)
+0.564: (a defendant; was deprived in; no place)
+
+Flores-Ortega, 528 U. S., at 483.
+0.59: (528 U. S.; be Flores-Ortega at; 483)
+
+In a presumptively reliable proceeding, "the possibility of arbitrariness, whimsy, caprice, 'nullification,' and the like" must by definition be ignored.
+No extractions found.
+
+Strickland, 466 U. S., at 695.
+0.59: (466 U. S.; be Strickland at; 695)
+
+But where we are instead asking what an individual defendant would have done, the possibility of even a highly improbable result may be pertinent to the extent it would have affected his decisionmaking.3
+0.755: (the possibility of even a highly improbable result; may be pertinent to; the extent it would have affected his decisionmaking.3)
+0.724: (the possibility of even a highly improbable result; may be; pertinent)
+0.599: (it; would have affected; his decisionmaking.3)
+0.332: (pertinent; be the possibility of; a highly improbable result)
+
+C
+No extractions found.
+
+"Surmounting Strickland's high bar is never an easy task," Padilla v. Kentucky, 559 U. S. 356, 371 (2010), and the strong societal interest in finality has "special force with respect to convictions based on guilty pleas."
+0.798: (the strong societal interest; has; special force)
+0.774: (Padilla; 559; U. S. 356)
+0.706: (convictions; be based on; guilty pleas)
+
+United States v. Timmreck, 441 U. S. 780, 784 (1979).
+No extractions found.
+
+Courts should not upset a plea solely because of post hoc assertions from a defendant about how he would have pleaded but for his attorney's deficiencies.
+0.85: (Courts; should not upset a plea solely because of; post hoc assertions)
+0.721: (a plea; should be not upset solely because of; post hoc assertions)
+0.535: (Courts; should not upset solely; a plea)
+
+Judges should instead look to contemporaneous evidence to substantiate a defendant's expressed preferences.
+0.904: (Judges; should instead look to; contemporaneous evidence to substantiate a defendant 's expressed preferences)
+
+In the unusual circumstances of this case, we conclude that Lee has adequately demonstrated a reasonable probability that he would have rejected the plea had he known that it would lead to mandatory deportation.
+0.661: (it; would lead to; mandatory deportation)
+0.653: (Lee; has adequately demonstrated; a reasonable probability)
+0.46: (we; conclude in; the unusual circumstances of this case)
+
+There is no question that "deportation was the determinative issue in Lee's decision whether to accept the plea deal."
+0.875: ("deportation; was the determinative issue in; Lee 's decision)
+0.636: ("deportation; was; the determinative issue)
+
+Report and Recommendation, at 6-7; see also Order, at 14 (noting Government did not dispute testimony to this effect).
+0.799: (Government; did not dispute testimony to; this effect)
+0.798: (Government; did not dispute; testimony)
+0.736: (testimony; did not dispute to; this effect)
+
+Lee asked his attorney repeatedly whether there was any risk of deportation from the proceedings, and both Lee and his attorney testified at the evidentiary hearing below that Lee would have gone to trial if he had known about the deportation consequences.
+0.911: (Lee and his attorney; testified at; the evidentiary hearing)[enabler=if he had known about the deportation consequences]
+0.856: (Lee; would have gone to; trial)
+0.813: (Lee; testified at; the evidentiary hearing)[enabler=if he had known about the deportation consequences]
+0.81: (Lee; asked his attorney repeatedly; any risk of deportation)
+0.713: (Lee and his attorney; asked his attorney repeatedly; any risk of deportation)
+0.543: (Lee; asked repeatedly; his attorney)
+0.258: (Lee and his attorney; asked repeatedly; his attorney)
+0.105: (he; had known about; the deportation consequences)
+
+See Report and Recommendation, at 12 (noting "the undisputed fact that had Lee at all been aware that deportation was possible as a result of his guilty plea, he would . . . not have pled guilty"), adopted in relevant part in Order, at 15.
+0.834: (the undisputed fact; had Lee at; aware)
+0.81: (Lee; be had at; aware)
+0.783: (Report and Recommendation; be See at; 12)
+0.768: (guilty; be adopted at; 15)
+0.699: (deportation; was possible as; a result of his guilty plea)
+0.693: (guilty; be adopted in; Order)
+0.624: (deportation; was; possible)
+0.518: (guilty; be adopted in; relevant part)
+
+Lee demonstrated as much at his plea colloquy: When the judge warned him that a conviction "could result in your being deported," and asked "[d]oes that at all affect your decision about whether you want to plead guilty or not," Lee answered "Yes, Your Honor."
+0.894: (Lee; demonstrated as; much)
+0.777: (Lee; demonstrated at; his plea colloquy)
+0.719: (the judge; warned; him)
+0.59: (the judge; asked; [d]oes that at all affect your decision about whether you want to plead guilty or not)
+
+App.
+No extractions found.
+
+103.
+No extractions found.
+
+When the judge inquired "[h]ow does it affect your decision," Lee responded "I don't understand," and turned to his attorney for advice.
+0.781: (the judge; turned to; his attorney)
+0.737: (Lee; responded of; I)
+0.408: ([h]ow; does affect; your decision)
+0.408: (it; does affect; your decision)
+
+Ibid.
+No extractions found.
+
+Only when Lee's counsel assured him that the judge's statement was a "standard warning" was Lee willing to proceed to plead guilty.
+0.755: (Lee; was; willing)
+0.728: (Lee 's counsel; Only assured; him)
+0.544: (the judge 's statement; was; a " standard warning)
+
+Id., at 210.4
+No extractions found.
+
+There is no reason to doubt the paramount importance Lee placed on avoiding deportation.
+No extractions found.
+
+Deportation is always "a particularly severe penalty," Padilla, 559 U. S., at 365 (internal quotation marks omitted), and we have "recognized that 'preserving the client's right to remain in the United States may be more important to the client than any potential jail sentence,' " id., at 368 (quoting St. Cyr, 533 U. S., at 322; alteration and some internal quotation marks omitted); see also Padilla, 559 U. S., at 364 ("[D]eportation is an integral part--indeed, sometimes the most important part--of the penalty that may be imposed on noncitizen defendants who plead guilty to specified crimes."
+0.736: (the client 's right; may be more than; any potential jail sentence)
+0.72: (Deportation; is always a particularly severe penalty have at; 368 (quoting St . Cyr)
+0.639: (( "[D]eportation; is; an integral part--indeed , sometimes the most important)
+0.577: (we; is always a particularly severe penalty have at; 368 (quoting St . Cyr)
+0.439: (559 U. S.; be Padilla at; 364)
+0.439: (559 U. S.; be Padilla at; 365)
+0.429: (Deportation; is always have; a particularly severe penalty)
+0.163: (we; is always have; a particularly severe penalty)
+
+(footnote omitted)).
+No extractions found.
+
+At the time of his plea, Lee had lived in the United States for nearly three decades, had established two businesses in Tennessee, and was the only family member in the United States who could care for his elderly parents--both naturalized American citizens.
+0.771: (Lee; had had was the only family member in; the United States)
+0.752: (Lee; had lived had in; the United States)
+0.673: (Lee; had lived had for; nearly three decades)
+0.508: (Lee; had had established; two businesses)
+0.506: (Lee; had lived had at; the time of his plea)
+0.5: (Lee; had had was; the only family member)
+0.488: (Lee; had had established two businesses in; Tennessee)
+0.438: (Lee; had had was the only family member of; the United States)
+0.346: (only; had had was family member in; the United States)
+
+In contrast to these strong connections to the United States, there is no indication that he had any ties to South Korea; he had never returned there since leaving as a child.
+0.597: (he; had; any ties)
+0.54: (no indication; is in; contrast)
+
+The Government argues, however, that under Padilla v. Kentucky, a defendant "must convince the court that a decision to reject the plea bargain would have been rational under the circumstances."
+0.698: (a decision to reject the plea bargain; would have been rational under; the circumstances)
+
+Id., at 372.
+No extractions found.
+
+The Government contends that Lee cannot make that showing because he was going to be deported either way; going to trial would only result in a longer sentence before that inevitable consequence.
+0.671: (Lee; cannot make; that showing)[enabler=because he was going to be deported either way;attrib=The Government contends]
+
+See Brief for United States 13, 21-23.
+No extractions found.
+
+We cannot agree that it would be irrational for a defendant in Lee's position to reject the plea offer in favor of trial.
+0.717: (the plea offer; to be reject in; favor of trial)
+0.678: (it; would be irrational for; a defendant)
+0.576: (it; would be; irrational)
+
+But for his attorney's incompetence, Lee would have known that accepting the plea agreement would certainly lead to deportation.
+0.53: (Lee; would have known for; his attorney 's incompetence)
+
+Going to trial?
+No extractions found.
+
+Almost certainly.
+No extractions found.
+
+If deportation were the "determinative issue" for an individual in plea discussions, as it was for Lee; if that individual had strong connections to this country and no other, as did Lee; and if the consequences of taking a chance at trial were not markedly harsher than pleading, as in this case, that "almost" could make all the difference.
+0.676: (strong connections; be had to; this country)
+0.641: (it; was for; Lee)
+0.551: (a chance; be taking at; trial)
+0.274: (deportation; were the "determinative issue for; an individual)
+0.214: (that individual; had strong connections to; this country)
+0.135: (that individual; had; strong connections)
+0.127: (the consequences taking a chance at trial; were not markedly harsher than; pleading)
+0.089: (deportation; were; the "determinative issue)
+0.068: (that individual; were not markedly harsher than; pleading)
+0.063: (the consequences taking a chance at trial; had strong connections to; this country)
+0.037: (the consequences taking a chance at trial; had; strong connections)
+
+Balanced against holding on to some chance of avoiding deportation was a year or two more of prison time.
+No extractions found.
+
+See id., at 6.
+No extractions found.
+
+Not everyone in Lee's position would make the choice to reject the plea.
+0.845: (Not everyone; would make; the choice to reject the plea)
+
+But we cannot say it would be irrational to do so.
+0.685: (it; would be; irrational)
+
+Lee's claim that he would not have accepted a plea had he known it would lead to deportation is backed by substantial and uncontroverted evidence.
+0.8: (Lee 's claim; is backed by; substantial and uncontroverted evidence)
+0.712: (it; would lead to; deportation)
+
+Accordingly we conclude Lee has demonstrated a "reasonable probability that, but for [his] counsel's errors, he would not have pleaded guilty and would have insisted on going to trial."
+0.751: (Lee; has demonstrated; a "reasonable probability)
+
+Hill, 474 U. S., at 59.
+0.59: (474 U. S.; be Hill at; 59)
+
+*??*??*
+No extractions found.
+
+The judgment of the United States Court of Appeals for the Sixth Circuit is reversed, and the case is remanded for further proceedings consistent with this opinion.
+0.925: (the case; is remanded for; further proceedings consistent)
+0.862: (The judgment of the United States Court of Appeals; is remanded for; further proceedings consistent)
+
+It is so ordered.
+No extractions found.
+
+Justice Gorsuch took no part in the consideration or decision of this case.
+0.932: (Justice Gorsuch; took no part in; the consideration or decision of this case)
+0.85: (Justice Gorsuch; took; no part)
+0.831: (no part; be took in; the consideration or decision of this case)
+0.754: (Justice Gorsuch; took no part; the consideration or decision of this case)
+
+Thomas, J., dissenting
+No extractions found.
+
+582 U. S. ____ (2017)
+No extractions found.
+
+No. 16-327
+No extractions found.
+
+JAE LEE, PETITIONER v. UNITED STATES
+No extractions found.
+
+on writ of certiorari to the united states court of appeals for the sixth circuit
+No extractions found.
+
+[June 23, 2017]
+No extractions found.
+
+Justice Thomas, with whom Justice Alito joins except for Part I, dissenting.
+No extractions found.
+
+The Court today holds that a defendant can undo a guilty plea, well after sentencing and in the face of overwhelming evidence of guilt, because he would have chosen to pursue a defense at trial with no reasonable chance of success if his attorney had properly advised him of the immigration consequences of his plea.
+0.746: (a defense; to be pursue with; no reasonable chance of success)
+0.679: (a defense; to be pursue at; trial)
+0.557: (a defendant; can undo; a guilty plea)
+0.256: (his attorney; had properly advised him of; the immigration consequences of his plea)
+0.135: (his attorney; had properly advised; him)
+
+Neither the Sixth Amendment nor this Court's precedents support that conclusion.
+No extractions found.
+
+I respectfully dissent.
+No extractions found.
+
+I
+No extractions found.
+
+As an initial matter, I remain of the view that the Sixth Amendment to the Constitution does not "requir[e] counsel to provide accurate advice concerning the potential removal consequences of a guilty plea."
+0.803: (I; remain of; the view)
+0.45: (I; remain as; an initial matter)
+
+Padilla v. Kentucky, 559 U. S. 356, 388 (2010) (Scalia, J., joined by Thomas, J., dissenting).
+0.747: (Scalia; be joined by; Thomas)
+
+I would therefore affirm the Court of Appeals on the ground that the Sixth Amendment does not apply to the allegedly ineffective assistance in this case.
+0.794: (I; would therefore affirm the Court of Appeals on; the ground)
+0.784: (I; would therefore affirm; the Court of Appeals)
+0.727: (the Court of Appeals; would be therefore affirm on; the ground)
+0.72: (the Sixth Amendment; does not apply to; the allegedly ineffective assistance)
+
+II
+No extractions found.
+
+Because the Court today announces a novel standard for prejudice at the plea stage, I further dissent on the separate ground that its standard does not follow from our precedents.
+0.791: (the Court; announces a novel standard for; prejudice)
+0.77: (its standard; does not follow from; our precedents)
+0.699: (the Court; announces; a novel standard)
+0.69: (I; be further dissent on; the separate ground)[enabler=Because the Court today announces a novel standard for prejudice at the plea stage]
+0.667: (the Court; announces a novel standard at; the plea stage)
+
+A
+No extractions found.
+
+The Court and both of the parties agree that the prejudice inquiry in this context is governed by Strickland v. Washington, 466 U. S. 668 (1984).
+0.819: (the prejudice inquiry; is governed by; Strickland)
+
+See ante, at 5; Brief for Petitioner 16; Brief for United States 15.
+0.834: (ante; be See at; 5)
+
+The Court in Strickland held that a defendant may establish a claim of ineffective assistance of counsel by showing that his "counsel's representation fell below an objective standard of reasonableness" and, as relevant here, that the representation prejudiced the defendant by "actually ha[ving] an adverse effect on the defense."
+0.903: (counsel 's representation; fell below; an objective standard of reasonableness)
+0.775: (a defendant; may establish; a claim of ineffective assistance of counsel)[attrib=The Court held]
+0.751: (the representation; prejudiced; the defendant)[attrib=a defendant may establish a claim of ineffective assistance of counsel]
+0.626: (a defendant; be a claim of; ineffective assistance of counsel)
+0.494: (a defendant; may establish a claim of ineffective assistance of counsel as; relevant)[attrib=The Court held]
+0.492: (a claim of ineffective assistance of counsel; may be establish as; relevant)[attrib=The Court held]
+
+466 U. S., at 688, 693.
+No extractions found.
+
+To establish prejudice under Strickland, a defendant must show a "reasonable probability that, but for counsel's unprofessional errors, the result of the proceeding would have been different."
+0.643: (prejudice; To be establish under; Strickland)
+0.332: (different; be the result of; the proceeding)
+
+Id., at 694.
+No extractions found.
+
+Strickland made clear that the "result of the proceeding" refers to the outcome of the defendant's criminal prosecution as a whole.
+0.848: (the "result of the proceeding; refers to; the outcome of the defendant 's criminal prosecution)
+
+It defined "reasonable probability" as "a probability sufficient to undermine confidence in the outcome."
+0.818: (It; defined "reasonable probability " as; a probability sufficient)
+0.804: ("reasonable probability; be defined as; a probability sufficient)
+0.685: (It; defined; "reasonable probability)
+
+Ibid.
+No extractions found.
+
+(emphasis added).
+No extractions found.
+
+And it explained that "[a]n error by counsel . . . does not warrant setting aside the judgment of a criminal proceeding if the error had no effect on the judgment."
+0.172: (the error; had; no effect)
+
+Id., at 691 (emphasis added).
+0.642: (Id.; added ) at; 691 (emphasis)
+
+The parties agree that this inquiry assumes an "objective" decisionmaker.
+0.679: (this inquiry; assumes; an "objective " decisionmaker)
+
+Brief for Petitioner 17; Brief for United States 17.
+No extractions found.
+
+That conclusion also follows directly from Strickland.
+0.835: (That conclusion; also follows directly from; Strickland)
+
+According to Strickland, the "assessment of the likelihood of a result more favorable to the defendant must exclude the possibility of arbitrariness, whimsy, caprice, 'nullification,' and the like."
+0.826: (the "assessment of the likelihood of a result more favorable; must exclude; the possibility of arbitrariness)
+0.612: (the "assessment of the likelihood of a result more favorable; must exclude the possibility of arbitrariness to; Strickland)
+0.33: (the possibility of arbitrariness; must be exclude to; Strickland)
+
+466 U. S., at 695.
+No extractions found.
+
+It does not depend on subjective factors such as "the idiosyncrasies of the particular decisionmaker," including the decisionmaker's "unusual propensities toward harshness or leniency."
+0.724: (It; does not depend on; subjective factors)
+
+Ibid.
+No extractions found.
+
+These factors are flatly "irrelevant to the prejudice inquiry."
+0.797: (These factors; are flatly "irrelevant to; the prejudice inquiry)
+
+Ibid.
+No extractions found.
+
+In other words, "[a] defendant has no entitlement to the luck of a lawless decisionmaker."
+0.851: ([a ] defendant; has no entitlement to; the luck of a lawless decisionmaker)
+0.745: ([a ] defendant; has; no entitlement)
+0.599: ([a ] defendant; has no entitlement in; other words)
+
+Ibid.
+No extractions found.
+
+Instead, "[t]he assessment of prejudice should proceed on the assumption that the decisionmaker is reasonably, conscientiously, and impartially applying the standards that govern the decision."
+0.812: ([t]he assessment of prejudice; Instead should proceed on; the assumption)
+0.358: (the decisionmaker; is reasonably conscientiously impartially applying; the standards that govern the decision)
+
+Ibid.
+No extractions found.
+
+When the Court extended the right to effective counsel to the plea stage, see Hill v. Lockhart, 474 U. S. 52 (1985), it held that "the same two-part standard" from Strickland applies.
+0.852: (the Court; extended; the right)
+0.78: (the same two-part standard; applies from; Strickland)
+
+474 U. S., at 57 (repeating Strickland's teaching that even an unreasonable error by counsel " 'does not warrant setting aside the judgment' " so long as the error " 'had no effect on the judgment' " (quoting 466 U. S., at 691)).
+0.607: (466 U. S.; be (quoting at; 691)
+
+To be sure, the Court said--and the majority today emphasizes--that a defendant asserting an ineffectiveness claim at the plea stage "must show that there is a reasonable probability that, but for counsel's errors, he would not have pleaded guilty and would have insisted on going to trial."
+0.699: (the Court; said--and; the majority)
+0.663: (the Court; said--and the majority in; today)
+
+474 U. S., at 59.
+No extractions found.
+
+But that requirement merely reflects the reality that a defendant cannot show that the outcome of his case would have been different if he would have accepted his current plea anyway.
+0.747: (that requirement; merely reflects; the reality)
+0.263: (different; be the outcome of; his case)
+0.033: (he; would have accepted anyway; his current plea)
+
+* In other words, the defendant's ability to show that he would have gone to trial is necessary, but not sufficient, to establish prejudice.
+0.769: (the defendant 's ability to show that he would have gone to trial; to establish; prejudice)
+0.676: (the defendant 's ability to show that he would have gone to trial; is; necessary)
+0.597: (the defendant 's ability to show that he would have gone to trial; is necessary in; other words)
+0.588: (he; would have gone to; trial)
+
+The Hill Court went on to explain that Strickland's two-part test applies the same way in the plea context as in other contexts.
+0.791: (Strickland 's two-part test; applies the same way in; the plea context)
+0.699: (Strickland 's two-part test; applies; the same way)
+0.502: (Strickland 's two-part test; applies the same way to; the plea context)
+
+In particular, the "assessment" will primarily turn on "a prediction whether," in the absence of counsel's error, "the evidence" of the defendant's innocence or guilt "likely would have changed the outcome" of the proceeding.
+0.814: (the evidence; "likely would have changed; the outcome " of the proceeding)
+0.688: (a prediction; "likely would have changed; the outcome " of the proceeding)
+0.519: (the "assessment; will primarily turn on in; particular)
+
+474 U. S., at 59.
+No extractions found.
+
+Thus, a defendant cannot show prejudice where it is " 'inconceivable' " not only that he would have gone to trial, but also " 'that if he had done so he either would have been acquitted or, if convicted, would nevertheless have been given a shorter sentence than he actually received.' "
+0.66: (a defendant; Thus cannot show; prejudice where it is " 'inconceivable ' " not only that he would have gone to trial)
+0.588: (he; would have gone to; trial)
+0.467: (it; is; 'inconceivable)
+
+Ibid.
+No extractions found.
+
+(quoting Evans v. Meyer, 742 F. 2d 371, 375 (CA7 1984) (emphasis added)).
+0.773: (Evans; 2d in; Meyer)
+0.587: (742 F.; 2d in; Meyer)
+
+In sum, the proper inquiry requires a defendant to show both that he would have rejected his plea and gone to trial and that he would likely have obtained a more favorable result in the end.
+0.538: (the proper inquiry; requires in; sum)
+0.433: (he; would have would likely have obtained; a more favorable result)
+0.323: (he; would have would likely have obtained a more favorable result in; the end)
+0.273: (he; would have rejected his plea would have to; trial)
+0.163: (he; would have rejected would have; his plea)
+
+To the extent Hill was ambiguous about the standard, our precedents applying it confirm this interpretation.
+0.825: (our precedents; confirm; this interpretation)
+0.678: (it; confirm; this interpretation)
+
+In Premo v. Moore, 562 U. S. 115 (2011), the Court emphasized that "strict adherence to the Strickland standard" is "essential" when reviewing claims about attorney error "at the plea bargain stage."
+0.653: (strict adherence; is; "essential)
+0.532: (claims; be reviewing "at; the plea bargain stage)
+0.512: (the Court; emphasized in; Premo)[enabler=when reviewing claims about attorney error "at the plea bargain stage]
+0.351: ("essential; be strict adherence to; the Strickland standard)
+
+Id., at 125.
+No extractions found.
+
+In that case, the defendant argued that his counsel was constitutionally ineffective because he had failed to seek suppression of his confession before he pleaded no contest.
+0.755: (his counsel; was constitutionally; ineffective)
+0.708: (the defendant; argued in; that case)
+0.617: (he; pleaded; no contest)
+0.602: (he; had failed to seek; suppression of his confession)[enabler=before he pleaded no contest]
+
+In analyzing the prejudice issue, the Court did not focus solely on whether the suppression hearing would have turned out differently, or whether the defendant would have chosen to go to trial.
+0.678: (the defendant; to go to; trial)
+
+It focused as well on the weight of the evidence against the defendant and the fact that he likely would not have obtained a more favorable result at trial, regardless of whether he succeeded at the suppression hearing.
+0.711: (he; succeeded at; the suppression hearing)
+0.588: (he; likely would not have obtained a more favorable result at; trial)
+0.587: (he; likely would not have obtained; a more favorable result)
+0.474: (It; focused as well regardless of whether he succeeded the suppression hearing on; the weight of the evidence)
+
+See id., at 129 (describing the State's case as "formidable" and observing that "[t]he bargain counsel struck" in the plea agreement was "a favorable one" to the defendant compared to what might have happened at trial).
+No extractions found.
+
+The Court in Missouri v. Frye, 566 U. S. 134 (2012), took a similar approach.
+No extractions found.
+
+In that case, the Court extended Hill to hold that counsel could be constitutionally ineffective for failing to communicate a plea deal to a defendant.
+0.754: (the Court; extended; Hill)
+0.699: (the Court; extended Hill to hold; that counsel)
+0.645: (a plea deal; to communicate to be; a defendant)
+0.631: (the Court; extended Hill in; that case)
+0.324: (Hill; be extended in; that case)
+
+566 U. S., at 145.
+No extractions found.
+
+The Court emphasized that, in addition to showing a reasonable probability that the defendant "would have accepted the earlier plea offer," it is also "necessary" to show a "reasonable probability that the end result of the criminal process would have been more favorable by reason of a plea to a lesser charge or a sentence of less prison time."
+0.717: (the end result of the criminal process; would have been favorable by; reason of a plea)
+0.619: (it; to show; a "reasonable probability)
+0.538: (the defendant; "would have accepted; the earlier plea offer)
+0.526: (it; is also; "necessary)
+0.332: (favorable; be the end result of; the criminal process)
+
+Id., at 147; see also id., at 150 (the defendant "must show not only a reasonable probability that he would have accepted the lapsed plea but also a reasonable probability that the prosecution would have adhered to the agreement and that it would have been accepted by the trial court" (emphasis added)).
+0.739: (the prosecution; would have adhered would have to; the agreement)
+0.739: (the prosecution; would have would have been accepted by; the trial court)
+0.638: (it; would have would have been accepted by; the trial court)
+0.492: (he; would have accepted; the lapsed plea)
+0.462: (it; would have adhered would have to; the agreement)
+
+In short, the Court did not focus solely on whether the defendant would have accepted the plea.
+0.655: (the defendant; would have accepted; the plea)
+0.499: (the Court; did not focus in; short)
+
+It instead required the defendant to show that the ultimate outcome would have been different.
+No extractions found.
+
+Finally, the Court's decision in Lafler v. Cooper, 566 U. S. 156 (2012), is to the same effect.
+0.754: (the Court 's decision; Finally 566; U. S. 156)
+
+In that case, the Court concluded that counsel may be constitutionally ineffective by causing a defendant to reject a plea deal he should have accepted.
+0.695: (the Court; concluded in; that case)
+0.687: (counsel; may be constitutionally; ineffective)
+0.446: (he; should have accepted in; a plea deal)
+
+Id., at 164.
+No extractions found.
+
+The Court again emphasized that the prejudice inquiry requires a showing that the criminal prosecution would ultimately have ended differently for the defendant--not merely that the defendant would have accepted the deal.
+0.697: (the criminal prosecution; would ultimately have ended differently for; the defendant--not)
+0.505: (the defendant; merely would have accepted; the deal)
+
+The Court stated that the defendant in those circumstances "must show" a reasonable probability that "the conviction or sentence, or both, under the offer's terms would have been less severe than under the judgment and sentence that in fact were imposed."
+0.628: (the defendant; "must show; a reasonable probability)[attrib=The Court stated]
+0.252: (the judgment and sentence; were imposed in; fact)
+
+Ibid.
+No extractions found.
+
+These precedents are consistent with our cases governing the right to effective assistance of counsel in other contexts.
+0.851: (These precedents; are consistent with; our cases governing the right to effective assistance of counsel in other contexts)
+
+This Court has held that the right to effective counsel applies to all "critical stages of the criminal proceedings."
+0.792: (the right; applies to; all " critical stages of the criminal proceedings)
+
+Montejo v. Louisiana, 556 U. S. 778, 786 (2009) (internal quotation marks omitted).
+No extractions found.
+
+Those stages include not only "the entry of a guilty plea," but also "arraignments, postindictment interrogation, [and] postindictment lineups."
+No extractions found.
+
+Frye, supra, at 140 (citing cases).
+0.548: (supra; be Frye at; 140)
+
+In those circumstances, the Court has not held that the prejudice inquiry focuses on whether that stage of the proceeding would have ended differently.
+0.484: (the Court; has not held in; those circumstances)
+
+It instead has made clear that the prejudice inquiry is the same as in Strickland, which requires a defendant to establish that he would have been better off in the end had his counsel not erred.
+0.634: (It; instead has made; clear)
+0.564: (the prejudice inquiry; is; the same)
+0.52: (he; would have been better in; the end)
+
+See 466 U. S., at 694.
+0.859: (466 U. S.; be See at; 694)
+
+B
+No extractions found.
+
+The majority misapplies this Court's precedents when it concludes that a defendant may establish prejudice by showing only that "he would not have pleaded guilty and would have insisted on going to trial," without showing that "the result of that trial would have been different than the result of the plea bargain."
+0.837: (the result of that trial; would have been different than; the result of the plea bargain)
+0.649: (a defendant; may establish; prejudice)
+0.488: (The majority misapplies; be precedents of; this Court)[enabler=when it concludes that a defendant may establish prejudice by showing only that "he would not have pleaded guilty and would have insisted on going to trial , " without showing that " the result of that trial would have been different than the result of the plea bargain]
+0.332: (different; be the result of; that trial)
+
+Ante, at 5, 6 (internal quotation marks omitted).
+0.684: (Ante; omitted ) at; 5)
+0.475: (6 ( internal quotation marks; omitted ) at; 5)
+
+In reaching this conclusion, the Court relies almost exclusively on the single line from Hill that "the defendant must show that there is a reasonable probability that, but for counsel's errors, he would not have pleaded guilty and would have insisted on going to trial."
+0.819: (the Court; relies almost exclusively on; the single line)
+0.76: (the Court; relies almost exclusively from; Hill)
+
+474 U. S., at 59.
+No extractions found.
+
+For the reasons explained above, that sentence prescribes the threshold showing a defendant must make to establish Strickland prejudice where a defendant has accepted a guilty plea.
+0.759: (a defendant; has accepted; a guilty plea)
+
+In Hill, the Court concluded that the defendant had not made that showing, so it rejected his claim.
+0.697: (the defendant; had not made that; showing)
+0.673: (the Court; concluded in; Hill)
+0.553: (it; rejected; his claim)
+
+The Court did not, however, further hold that a defendant can establish prejudice by making that showing alone.
+0.712: (a defendant; can establish; prejudice)
+
+The majority also relies on a case that arises in a completely different context, Roe v. Flores-Ortega, 528 U. S. 470 (2000).
+0.872: (The majority; also relies on; a case)
+
+There, the Court considered a defendant's claim that his attorney failed to file a notice of appeal.
+0.834: (his attorney; failed to file; a notice of appeal)
+0.786: (his attorney; to file; a notice of appeal)
+0.781: (the Court; There considered; a defendant 's claim)
+
+See id., at 474.
+No extractions found.
+
+The Court observed that the lawyer's failure to file the notice of appeal "arguably led not to a judicial proceeding of disputed reliability," but instead to "the forfeiture of a proceeding itself."
+0.793: (The Court; observed; the lawyer 's failure to file the notice of appeal)
+0.64: (the lawyer 's failure to file the notice of appeal; "arguably led instead to the forfeiture of a proceeding itself to; a judicial proceeding of disputed reliability)[attrib=The Court observed]
+0.603: (the forfeiture of a proceeding; "arguably led instead to to be; a judicial proceeding of disputed reliability)[attrib=The Court observed]
+0.437: (the lawyer 's failure to file the notice of appeal; "arguably led instead to; the forfeiture of a proceeding)[attrib=The Court observed]
+
+Id., at 483.
+No extractions found.
+
+The Court today observes that petitioner's guilty plea meant that he did not go to trial.
+0.661: (he; did not go to; trial)[attrib=petitioner 's guilty plea meant]
+0.599: (petitioner 's guilty plea; meant of; he)
+
+Ante, at 5.
+No extractions found.
+
+Because that trial " 'never took place,' " the Court reasons, we cannot " 'apply a strong presumption of reliability' " to it.
+0.767: ('never; took; place)
+0.735: (the Court reasons; cannot 'apply; a strong presumption of reliability ' ")[enabler=Because that trial " 'never took place]
+0.673: (that trial; took; place)
+0.656: (the Court reasons; cannot 'apply a strong presumption of reliability ' " to; it)[enabler=Because that trial " 'never took place]
+0.648: (we; cannot 'apply; a strong presumption of reliability ' ")[enabler=Because that trial " 'never took place]
+0.631: (a strong presumption of reliability ' "; cannot be 'apply to; it)[enabler=Because that trial " 'never took place]
+0.557: (we; cannot 'apply a strong presumption of reliability ' " to; it)[enabler=Because that trial " 'never took place]
+
+Ante, at 5-6 (quoting Flores-Ortega, supra, at 482-483).
+No extractions found.
+
+And because the presumption of reliability does not apply, we may not depend on Strickland's statement "that '[a] defendant has no entitlement to the luck of a lawless decisionmaker.' "
+0.851: ([a ] defendant; has no entitlement to; the luck of a lawless decisionmaker)
+0.745: ([a ] defendant; has; no entitlement)
+0.712: (we; may not depend on; Strickland 's statement)
+0.548: (no entitlement; be has by; Strickland 's statement)
+
+Ante, at 8 (quoting 466 U. S., at 695).
+No extractions found.
+
+This point is key to the majority's conclusion that petitioner would have chosen to gamble on a trial even though he had no viable defense.
+0.811: (This point; is key to; the majority 's conclusion)
+0.687: (This point; is; key)
+0.626: (petitioner; to gamble on; a trial)
+0.393: (he; even had; no viable defense)
+
+The majority's analysis, however, is directly contrary to Hill, which instructed a court undertaking a prejudice analysis to apply a presumption of reliability to the hypothetical trial that would have occurred had the defendant not pleaded guilty.
+0.654: (The majority 's analysis; however is directly; contrary)
+0.631: (a presumption of reliability; to apply to be; the hypothetical trial that would have occurred)
+0.627: (The majority 's analysis; however is directly contrary to; Hill)
+
+After explaining that a court should engage in a predictive inquiry about the likelihood of a defendant securing a better result at trial, the Court said: "As we explained in Strickland v. Washington, supra, these predictions of the outcome at a possible trial, where necessary, should be made objectively, without regard for the 'idiosyncrasies of the particular decisionmaker.' "
+0.785: (a court; should engage in; a predictive inquiry)
+0.736: (these predictions of the outcome; be explained at; a possible trial where necessary)
+0.723: (we; explained; these predictions of the outcome)
+0.661: (the Court; should be made objectively without; regard)[enabler=As we explained in Strickland v. Washington , supra , these predictions of the outcome at a possible trial , where necessary;attrib=Court said]
+0.583: (we; explained these predictions of the outcome at; a possible trial where necessary)
+0.561: (we; explained these predictions of the outcome in; Strickland)
+0.54: (these predictions of the outcome; be explained in; Strickland)
+
+474 U. S., at 59-60 (quoting 466 U. S., at 695).
+No extractions found.
+
+That quote comes from the same paragraph in Strickland as the discussion about the presumption of reliability that attaches to the trial.
+0.872: (That quote; comes from; the same paragraph)
+0.841: (That quote; comes as; the discussion)
+
+In other words, Hill instructs that the prejudice inquiry must presume that the foregone trial would have been reliable.
+No extractions found.
+
+The majority responds that Hill made statements about presuming a reliable trial only in "discussing how courts should analyze 'predictions of the outcome at a possible trial,' " which "will not always be 'necessary.' "
+0.846: (courts; should analyze; 'predictions of the outcome)
+0.799: (courts; should analyze 'predictions of the outcome at; a possible trial)
+0.658: ('predictions of the outcome; should be analyze at; a possible trial)
+0.598: (Hill; made; statements)
+
+Ante, at 10, n. 3 (quoting Hill, 474 U. S., at 59-60).
+No extractions found.
+
+I agree that such an inquiry is not always necessary--it is not necessary where, as in Hill, the defendant cannot show at the threshold that he would have rejected his plea and chosen to go to trial.
+0.814: (the defendant; cannot show at; the threshold)
+0.492: (he; would have chosen to go to; trial)[attrib=the defendant cannot show]
+0.426: (he; would have rejected; his plea)[attrib=the defendant cannot show]
+0.361: (such an inquiry; is always; not always necessary--it)
+
+But that caveat says nothing about the application of the presumption of reliability when a defendant can make that threshold showing.
+No extractions found.
+
+In any event, the Court in Hill recognized that guilty pleas are themselves generally reliable.
+0.695: (the Court; recognized in; any event)
+
+Guilty pleas "rarely" give rise to the "concern that unfair procedures may have resulted in the conviction of an innocent defendant."
+0.88: (unfair procedures; may have resulted in; the conviction of an innocent defendant)
+0.758: (Guilty pleas; "rarely give rise to; the " concern)
+
+Id., at 58 (internal quotation marks omitted).
+No extractions found.
+
+That is because "a counseled plea of guilty is an admission of factual guilt so reliable that, where voluntary and intelligent, it quite validly removes the issue of factual guilt from the case."
+0.936: (a counseled plea of guilty; is an admission of; factual guilt)
+0.794: (a counseled plea of guilty; is; an admission of factual guilt)
+0.773: (it; quite validly removes; the issue of factual guilt)
+0.734: (an admission of factual guilt; quite validly removes; the issue of factual guilt)
+0.731: (it; quite validly removes the issue of factual guilt from; the case)
+0.688: (an admission of factual guilt; quite validly removes the issue of factual guilt from; the case)
+0.399: (an admission of factual guilt; be a counseled plea of; guilty)
+
+Menna v. New York, 423 U. S. 61, 62, n. 2 (1975) (per curiam) (emphasis deleted).
+No extractions found.
+
+Guilty pleas, like completed trials, are therefore entitled to the protections against collateral attack that the Strickland prejudice standard affords.
+0.94: (Guilty pleas; are therefore entitled to; the protections)
+0.716: (the Strickland; prejudice; standard affords)
+
+Finally, the majority does not dispute that the prejudice inquiry in Frye and Lafler focused on whether the defendant established a reasonable probability of a different outcome.
+0.783: (the defendant; established; a reasonable probability of a different outcome)
+
+The majority instead distinguishes those cases on the ground that they involved a defendant who did not accept a guilty plea.
+0.872: (The majority; instead distinguishes those cases on; the ground)
+0.853: (they; involved; a defendant who did not accept a guilty plea)
+0.807: (The majority; instead distinguishes; those cases)
+
+See ante, at 7, n. 1.
+0.777: (ante; be See n 1 at; 7)
+0.432: (1; be See ante n at; 7)
+
+According to the majority, those cases "articulated a different way to show prejudice, suited to the context of pleas not accepted."
+0.863: (those cases; "articulated; a different way to show prejudice ,)
+0.842: (prejudice; be suited to; the context of pleas)
+
+Ibid.
+No extractions found.
+
+But the Court in Frye and Lafler (and Hill, for that matter) did not purport to establish a "different" test for prejudice.
+0.735: (the Court; did not purport for; that matter)
+0.66: (Hill; did not purport to establish; a "different " test)
+0.652: (the Court; did not purport to establish; a "different " test)
+0.592: (Hill; did not purport for; that matter)
+
+To the contrary, the Court repeatedly stated that it was applying the "same two-part standard" from Strickland.
+0.695: (the Court; repeatedly stated to; the contrary)
+0.641: (the " same two-part standard; was applying from; Strickland)[attrib=the Court repeatedly stated]
+0.358: (it; was applying; the " same two-part standard)[attrib=the Court repeatedly stated]
+0.344: (it; was applying the " same two-part standard from; Strickland)[attrib=the Court repeatedly stated]
+
+Hill, supra, at 57 (emphasis added); accord, Frye, 566, U. S., at 140 ("Hill established that claims of ineffective assistance of counsel in the plea bargain context are governed by the two-part test set forth in Strickland"); Lafler, 566 U. S., at 162-163 (applying Strickland).
+0.548: (supra; be Hill at; 57 (emphasis)
+0.439: (566 U. S.; be Lafler at; 162-163)
+
+The majority today abandons any pretense of applying Strickland to claims of ineffective assistance of counsel that arise at the plea stage.
+0.821: (The majority; abandons; any pretense applying Strickland to claims of ineffective assistance of counsel)
+0.786: (Strickland; be applying to; claims of ineffective assistance of counsel that arise at the plea stage)
+0.737: (claims of ineffective assistance of counsel; arise at; the plea stage)
+
+It instead concludes that one standard applies when a defendant goes to trial (Strickland); another standard applies when a defendant accepts a plea (Hill); and yet another standard applies when counsel does not apprise the defendant of an available plea or when the defendant rejects a plea (Frye and Lafler).
+0.837: (a defendant; accepts; a plea ( Hill ) ; and yet another standard applies when counsel does not apprise the defendant of an available plea or when the defendant rejects a plea ( Frye and Lafler ))
+0.814: (a defendant; goes to; trial)
+0.789: (counsel; does not apprise; the defendant of an available plea)
+0.729: (the defendant; rejects; a plea)
+
+That approach leaves little doubt that the Court has "open[ed] a whole new field of constitutionalized criminal procedure"--"plea-bargaining law"--despite its repeated assurances that it has been applying the same Strickland standard all along.
+0.807: (That approach; leaves; little doubt)
+0.358: (it; has been applying; the same Strickland standard)
+
+Lafler, supra, at 175 (Scalia, J., dissenting).
+0.606: (supra; be Lafler at; 175)
+
+In my view, we should take the Court's precedents at their word and conclude that "[a]n error by counsel . . . does not warrant setting aside the judgment of a criminal proceeding if the error had no effect on the judgment."
+0.581: (the Court 's precedents; should be take . at; their word)
+0.567: (we; should take the Court 's precedents at; their word)
+0.504: (we; should take . at; their word)
+0.399: (we; should take .; the Court 's precedents)
+0.322: (we; should take the Court 's precedents in; my view)
+0.245: (the Court 's precedents; should be take . in; my view)
+0.193: (we; should take . in; my view)
+0.172: (the error; had; no effect)
+
+Strickland, 466, U. S., at 691.
+0.342: (U. S.; be Strickland , 466 at; 691)
+
+III
+No extractions found.
+
+Applying the ordinary Strickland standard in this case, I do not think a defendant in petitioner's circumstances could show a reasonable probability that the result of his criminal proceeding would have been different had he not pleaded guilty.
+0.774: (a defendant; could show; a reasonable probability that the result of his criminal proceeding would have been different had he not pleaded guilty)
+0.694: (the ordinary Strickland standard; be Applying in; this case)
+0.311: (different; be the result of; his criminal proceeding)
+
+Petitioner does not dispute that he possessed large quantities of illegal drugs or that the Government had secured a witness who had purchased the drugs directly from him.
+0.695: (the Government; had secured; a witness who had purchased the drugs directly from him)
+0.64: (he; possessed; large quantities of illegal drugs)
+
+In light of this "overwhelming evidence of . . . guilt," 2014 WL 1260388, *15 (WD Tenn., Mar. 20, 2014), the Court of Appeals concluded that petitioner had "no bona fide defense, not even a weak one," 825 F. 3d 311, 316 (CA6 2016).
+0.605: (petitioner; had; no bona fide defense , not)
+0.278: (WD Tenn.; concluded; petitioner)
+
+His only chance of succeeding would have been to "thro[w] a 'Hail Mary' at trial."
+No extractions found.
+
+Ante, at 8.
+No extractions found.
+
+As I have explained, however, the Court in Strickland expressly foreclosed relying on the possibility of a "Hail Mary" to establish prejudice.
+No extractions found.
+
+See supra, at 3.
+0.864: (supra; be See at; 3.)
+
+Strickland made clear that the prejudice assessment should "proceed on the assumption that the decisionmaker is reasonably, conscientiously, and impartially applying the standards that govern the decision."
+0.85: (Strickland; made; clear)
+0.785: (the prejudice assessment; should "proceed on; the assumption)
+0.358: (the decisionmaker; is reasonably conscientiously impartially applying; the standards that govern the decision)
+
+466 U. S., at 695.
+No extractions found.
+
+In the face of overwhelming evidence of guilt and in the absence of a bona fide defense, a reasonable court or jury applying the law to the facts of this case would find the defendant guilty.
+0.69: (a reasonable court or jury; applying the law to; the facts of this case)
+0.668: (a reasonable court or jury applying the law to the facts of this case; would find in; the face of overwhelming evidence of guilt and in the absence of a bona fide defense)
+0.631: (the law; be applying to; the facts of this case)
+
+There is no reasonable probability of any other verdict.
+No extractions found.
+
+A defendant in petitioner's shoes, therefore, would have suffered the same deportation consequences regardless of whether he accepted a plea or went to trial.
+0.489: (he; accepted; a plea)
+0.411: (A defendant; therefore would have suffered regardless of whether he accepted a plea went trial; the same deportation consequences)
+
+He is thus plainly better off for having accepted his plea: had he gone to trial, he not only would have faced the same deportation consequences, he also likely would have received a higher prison sentence.
+0.661: (he; also likely would have received; a higher prison sentence)
+0.607: (he; not only would have faced; the same deportation consequences)
+0.479: (he; had gone to; trial)
+
+Finding that petitioner has established prejudice in these circumstances turns Strickland on its head.
+0.834: (prejudice; turns Strickland on; its head)
+0.773: (prejudice; turns; Strickland)
+
+IV
+No extractions found.
+
+The Court's decision today will have pernicious consequences for the criminal justice system.
+0.798: (today; will have; pernicious consequences)
+0.574: (today; be pernicious consequences for; the criminal justice system)
+
+This Court has shown special solicitude for the plea process, which brings "stability" and "certainty" to "the criminal justice system."
+0.785: (This Court; has shown; special solicitude)
+0.564: (stability " and "certainty; be brings by; the plea process)
+
+Premo, 562 U. S., at 132.
+0.59: (562 U. S.; be Premo at; 132)
+
+The Court has warned that "the prospect of collateral challenges" threatens to undermine these important values.
+0.772: (the prospect of collateral challenges; threatens to undermine; these important values)
+
+Ibid.
+No extractions found.
+
+And we have explained that "[p]rosecutors must have assurance that a plea will not be undone years later," lest they "forgo plea bargains that would benefit defendants," which would be "a result favorable to no one."
+0.649: (they; "forgo; plea bargains that would benefit defendants)
+
+Id., at 125.
+No extractions found.
+
+The Court today provides no assurance that plea deals negotiated in good faith with guilty defendants will remain final.
+0.797: (The Court; provides; no assurance)
+0.736: (plea deals; be negotiated in; good faith)
+0.655: (plea deals; be negotiated with; guilty defendants)
+0.653: (plea deals negotiated in good faith with guilty defendants; will remain; final)
+
+For one thing, the Court's artificially cabined standard for prejudice in the plea context is likely to generate a high volume of challenges to existing and future plea agreements.
+0.902: (the Court; artificially cabined standard for; prejudice)
+0.82: (the Court; artificially cabined; standard)
+0.804: (standard; be artificially cabined for; prejudice)
+0.746: (the Court; artificially cabined standard for; one thing)
+0.565: (standard; be artificially cabined for; one thing)
+
+Under the majority's standard, defendants bringing these challenges will bear a relatively low burden to show prejudice.
+0.845: (defendants bringing these challenges; will bear; a relatively low burden to show prejudice)
+0.591: (defendants bringing these challenges; will bear a relatively low burden to show prejudice under; the majority 's standard)
+0.473: (a relatively low burden to show prejudice; will be bear under; the majority 's standard)
+
+Whereas a defendant asserting an ordinary claim of ineffective assistance of counsel must prove that the ultimate outcome of his case would have been different, the Court today holds that a defendant who pleaded guilty need show only that he would have rejected his plea and gone to trial.
+0.492: (he; would have gone to; trial)
+0.426: (he; would have rejected; his plea)
+0.263: (different; be the ultimate outcome of; his case)
+
+This standard does not appear to be particularly demanding, as even a defendant who has only the "smallest chance of success at trial"--relying on nothing more than a " 'Hail Mary' "--may be able to satisfy it.
+0.841: (This standard; does not appear as; a defendant who has only the " smallest chance of success at trial"--relying on nothing)
+0.725: (the " smallest chance of success more than a " ' Hail Mary ' "--may be able to satisfy it; be has by; a defendant)
+
+Ante, at 7, 8.
+No extractions found.
+
+For another, the Court does not limit its holding to immigration consequences.
+No extractions found.
+
+Under its rule, so long as a defendant alleges that his counsel omitted or misadvised him on a piece of information during the plea process that he considered of "paramount importance," ante, at 10, he could allege a plausible claim of ineffective assistance of counsel.
+0.697: (his counsel; omitted during; the plea process that he considered of "paramount importance)[attrib=a defendant alleges]
+0.562: (he; that considered of; "paramount importance)
+0.443: (he; so long could allege; a plausible claim of ineffective assistance of counsel)
+0.321: (a plausible claim of ineffective assistance of counsel; so long could be allege at; 10)
+0.245: (a plausible claim of ineffective assistance of counsel; so long could be allege under; its rule)
+0.139: (he; so long could allege a plausible claim of ineffective assistance of counsel at; 10)
+0.105: (he; so long could allege a plausible claim of ineffective assistance of counsel under; its rule)
+
+In addition to undermining finality, the Court's rule will impose significant costs on courts and prosecutors.
+0.834: (the Court 's rule; will impose significant costs on; courts and prosecutors)
+0.798: (the Court 's rule; will impose; significant costs)
+0.708: (significant costs; will be impose on; courts and prosecutors)
+0.679: (the Court 's rule; will impose significant costs in; addition)
+0.568: (significant costs; will be impose in; addition)
+
+Under the Court's standard, a challenge to a guilty plea will be a highly fact-intensive, defendant-specific undertaking.
+0.751: (a challenge; will be; a highly fact-intensive , defendant-specific undertaking)
+0.67: (a challenge; will be a highly fact-intensive , defendant-specific undertaking under; the Court 's standard)
+0.351: (a highly fact-intensive , defendant-specific undertaking; be a challenge to; a guilty plea)
+
+Petitioner suggests that each claim will "at least" require a "hearing to get th[e] facts on the table."
+0.658: (th[e ] facts; to be get on; the table)
+
+Tr.
+No extractions found.
+
+of Oral Arg.
+No extractions found.
+
+7.
+No extractions found.
+
+Given that more than 90 percent of criminal convictions are the result of guilty pleas, Frye, 566 U. S., at 143, the burden of holding evidentiary hearings on these claims could be significant.
+0.898: (than 90 percent of criminal convictions; are the result of; guilty pleas)
+0.792: (the burden holding evidentiary hearings on these claims; could be; significant)
+0.386: (the result of guilty pleas; be than 90 percent of; criminal convictions)
+
+In circumstances where a defendant has admitted his guilt, the evidence against him is overwhelming, and he has no bona fide defense strategy, I see no justification for imposing these costs.
+0.691: (I; see; no justification)[enabler=circumstances where a defendant has admitted his guilt , the evidence against him is overwhelming , and he has no bona fide defense strategy]
+0.68: (the evidence; has; no bona fide defense strategy)
+0.653: (the evidence; is; overwhelming)
+0.642: (a defendant; has admitted; his guilt)
+0.569: (he; has; no bona fide defense strategy)
+0.542: (the evidence; is overwhelming in; circumstances where a defendant has admitted his guilt)
+0.424: (he; is overwhelming in; circumstances where a defendant has admitted his guilt)
+0.364: (he; is; overwhelming)
+0.277: (overwhelming; be the evidence against; him)
+
+*??*??*
+No extractions found.
+
+For these reasons, I would affirm the judgment of the Court of Appeals.
+0.746: (I; would affirm; the judgment of the Court of Appeals)
+0.473: (I; would affirm the judgment of the Court of Appeals for; these reasons)
+0.457: (the judgment of the Court of Appeals; would be affirm for; these reasons)
+
+I respectfully dissent.
+No extractions found.
+
+FOOTNOTES
+No extractions found.
+
+Footnote 1
+No extractions found.
+
+The dissent also relies heavily on Missouri v. Frye, 566 U. S. 134 (2012), and Lafler v. Cooper, 566 U. S. 156 (2012).
+0.835: (The dissent; also relies heavily on; Missouri)
+0.797: (2012 ) , and Lafler; 566; U. S. 156)
+
+Those cases involved defendants who alleged that, but for their attorney's incompetence, they would have accepted a plea deal--not, as here and as in Hill, that they would have rejected a plea.
+0.776: (they; would have accepted; a plea deal--not)[enabler=Those cases involved defendants who alleged that , but for their attorney 's incompetence]
+0.732: (they; would have rejected; a plea)
+0.602: (involved defendants; alleged for; their attorney 's incompetence)
+
+In both Frye and Lafler, the Court highlighted this difference: Immediately following the sentence that the dissent plucks from Frye, post, at 5 (opinion of Thomas, J.), the Court explained that its "application of Strickland to the instances of an uncommunicated, lapsed plea does nothing to alter the standard laid out in Hill."
+0.826: (its "application of Strickland; does; nothing to alter the standard)[attrib=the Court explained]
+0.764: (the standard; be laid out in; Hill)
+0.748: (the dissent; plucks from; Frye)
+
+566 U. S., at 148 ("Hill was correctly decided and applies in the context in which it arose").
+0.747: (566 U. S.; applies in; the context in which it arose " ))
+0.441: (566 U. S.; applies to; the context in which it arose " ))
+
+Lafler, decided the same day as Frye, reiterated that "[i]n contrast to Hill, here the ineffective advice led not to an offer's acceptance but to its rejection."
+0.868: (the ineffective advice; led to; an offer 's acceptance)
+0.858: (Lafler; decided in; the same day)[enabler=as Frye , reiterated that " [i]n contrast to Hill , here the ineffective advice led not to an offer 's acceptance but to its rejection]
+
+566 U. S., at 163.
+No extractions found.
+
+Frye and Lafler articulated a different way to show prejudice, suited to the context of pleas not accepted, not an additional element to the Hill inquiry.
+0.894: (Frye and Lafler; articulated; a different way to show prejudice , suited to the context of pleas not accepted , not an additional element to the Hill inquiry)
+
+See Frye, 566 U. S., at 148 ("Hill does not . . . provide the sole means for demonstrating prejudice arising from the deficient performance of counsel during plea negotiations").
+0.828: (566 U. S.; be See Frye at; 148)
+0.796: (Frye; be See 566 U. S. , at; 148)
+
+Contrary to the dissent's assertion, post, at 8-9, we do not depart from Strickland's requirement of prejudice.
+0.813: (we; do not depart from; Strickland 's requirement of prejudice)
+0.174: (post; be assertion of; the dissent)
+
+The issue is how the required prejudice may be shown.
+No extractions found.
+
+Footnote 2
+No extractions found.
+
+Lee also argues that he can show prejudice because, had his attorney advised him that he would be deported if he accepted the Government's plea offer, he would have bargained for a plea deal that did not result in certain deportation.
+0.91: (he; would have bargained for; a plea deal that did not result in certain deportation)[enabler=that he would be deported if he accepted the Government 's plea offer]
+0.827: (his attorney; advised; him)
+0.592: (he; can show; prejudice)[enabler=because , had his attorney advised him that he would be deported if he accepted the Government 's plea offer , he would have bargained for a plea deal that did not result in certain deportation]
+0.095: (he; accepted; the Government 's plea offer)
+
+Given our conclusion that Lee can show prejudice based on the reasonable probability that he would have gone to trial, we need not reach this argument.
+0.806: (Lee; can show; prejudice based on the reasonable probability)
+0.78: (prejudice; be based on; the reasonable probability that he would have gone to trial)
+0.646: (we; need not reach; this argument)
+0.421: (he; that would have gone to; trial)
+
+Footnote 3
+No extractions found.
+
+The dissent makes much of the fact that Hill v. Lockhart, 474 U. S. 52 (1985), also noted that courts should ignore the "idiosyncrasies of the particular decisionmaker."
+0.701: (courts; should ignore; the "idiosyncrasies of the particular decisionmaker)[attrib=Hill also noted]
+
+Post, at 7 (quoting Hill, 474 U. S., at 60; internal quotation marks omitted).
+0.358: (474 U. S.; be Post at; 7 (quoting)
+
+But Hill made this statement in discussing how courts should analyze "predictions of the outcome at a possible trial."
+0.846: (courts; should analyze; "predictions of the outcome)
+0.799: (courts; should analyze "predictions of the outcome at; a possible trial)
+0.704: (Hill; made; this statement)
+0.658: ("predictions of the outcome; should be analyze at; a possible trial)
+
+Id., at 59-60.
+No extractions found.
+
+As we have explained, assessing the effect of some types of attorney errors on defendants' decisionmaking involves such predictions: Where an attorney error allegedly affects how a trial would have played out, we analyze that error's effects on a defendant's decisionmaking by making a prediction of the likely trial outcome.
+0.758: (we; analyze that; error 's effects)
+0.718: (such predictions; analyze that; error 's effects)
+
+But, as Hill recognized, such predictions will not always be "necessary."
+0.547: (such predictions; will always be; not always be "necessary)
+
+Id., at 60.
+No extractions found.
+
+Such a prediction is neither necessary nor appropriate where, as here, the error is one that is not alleged to be pertinent to a trial outcome, but is instead alleged to have affected a defendant's understanding of the consequences of his guilty plea.
+0.745: (the error; is; one that is not alleged to be pertinent to a trial outcome , but is instead alleged to have affected a defendant 's understanding of the consequences of his guilty plea)
+0.667: (Such a prediction; is; necessary)
+
+Footnote 4
+No extractions found.
+
+Several courts have noted that a judge's warnings at a plea colloquy may undermine a claim that the defendant was prejudiced by his attorney's misadvice.
+0.827: (the defendant; was prejudiced by; his attorney 's misadvice)
+0.712: (a judge 's warnings; may undermine; a claim)
+
+See, e.g., United States v. Newman, 805 F. 3d 1143, 1147 (CADC 2015); United States v. Kayode, 777 F. 3d 719, 728-729 (CA5 2014); United States v. Akinsade, 686 F. 3d 248, 253 (CA4 2012); Boyd v. Yukins, 99 Fed.
+No extractions found.
+
+Appx.
+No extractions found.
+
+699, 705 (CA6 2004).
+No extractions found.
+
+The present case involves a claim of ineffectiveness of counsel extending to advice specifically undermining the judge's warnings themselves, which the defendant contemporaneously stated on the record he did not understand.
+0.799: (The present case; involves; a claim of ineffectiveness of counsel)
+0.783: (the defendant; which contemporaneously stated on; the record)
+0.526: (counsel; extending to; advice specifically undermining the judge 's warnings themselves ,)
+
+There has been no suggestion here that the sentencing judge's statements at the plea colloquy cured any prejudice from the erroneous advice of Lee's counsel.
+0.88: (the sentencing judge 's statements; cured any prejudice from; the erroneous advice of Lee 's counsel)
+0.831: (any prejudice; be cured from; the erroneous advice of Lee 's counsel)
+0.751: (the sentencing judge 's statements; cured; any prejudice)
+
+FOOTNOTES
+No extractions found.
+
+Footnote 1
+No extractions found.
+
+* It is not enough for a defendant to show that he would have obtained a better plea agreement. "
+0.492: (he; would have obtained; a better plea agreement)
+
+[A] defendant has no right to be offered a plea," Missouri v. Frye, 566 U. S. 134, 148 (2012); Lafler v. Cooper, 566 U. S. 156, 168 (2012), and this Court has never concluded that a defendant could show a "reasonable probability" of a different result based on a purely hypothetical plea offer subject to absolute executive discretion.
+0.812: (a defendant; could show; a "reasonable probability " of a different result based on a purely hypothetical plea offer subject to absolute executive discretion)
+0.808: (a "reasonable probability " of a different result; be based on; a purely hypothetical plea offer subject)
+0.754: ([A] defendant; has; right)
+
