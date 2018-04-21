@@ -64,19 +64,19 @@ public class RoleClassifier {
 			aCase.setSentences(SentencesController.getSentencesOfCase(n));
 			cases.add(aCase);
 		}
-		BufferedWriter bf = new BufferedWriter(new FileWriter(new File("/home/viraj/stanford-core-nlp/FYP/ollie/case_11.txt")));
+		//BufferedWriter bf = new BufferedWriter(new FileWriter(new File("/home/viraj/stanford-core-nlp/FYP/ollie/case_11.txt")));
 
 		// sample usage
 		for (Case _case : cases) {
 			for(Sentence sentence: _case.getSentences()) {
 
-				try {
-					bf.write(sentence.getSentence());
-					bf.write("\n");
-					bf.flush();
-				} catch (IOException e) {
-					e.printStackTrace();
-				}
+//				try {
+//					bf.write(sentence.getSentence());
+//					bf.write("\n");
+//					bf.flush();
+//				} catch (IOException e) {
+//					e.printStackTrace();
+//				}
 /*
 				//to create empty map for the word-postag combinations inside SentimentCostAndGradient class
 				SentimentCostAndGradient.createPosTagMap();
@@ -104,6 +104,42 @@ public class RoleClassifier {
 
 			}
 		}
-		bf.close();
+		//bf.close();
+		String myfilePath = new File("").getAbsolutePath();
+		myfilePath += "/src/main/resources/sentiment_analysis/legal_cases/ollie_triples/case_11_ollie_triples.txt";
+
+		Scanner scanner = new Scanner(new File(myfilePath));
+		while(scanner.hasNextLine()){
+			scanner.nextLine();
+			if(scanner.hasNextLine()){
+				String line = scanner.nextLine();
+				if(!line.contains(":")){
+					if(scanner.hasNextLine()){
+						scanner.nextLine();
+					}
+				}else{
+					while(line.contains(":")){
+						String[] tempParts = line.split(";");
+						Annotation annotation = new Annotation(tempParts[1]);
+						pipeline.annotate(annotation);
+
+						List<CoreMap> sentences = annotation.get(CoreAnnotations.SentencesAnnotation.class);
+						for(CoreMap coreMapSentence:sentences){
+							String sentiment = coreMapSentence.get(SentimentCoreAnnotations.SentimentClass.class);
+							if(sentiment.equals("Negative")){
+								System.out.println(line);
+							}
+
+						}
+
+						if(scanner.hasNextLine()){
+							line = scanner.nextLine();
+						}
+
+					}
+				}
+
+			}
+		}
 	}
 }
