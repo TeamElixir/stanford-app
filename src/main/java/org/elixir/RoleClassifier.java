@@ -34,17 +34,17 @@ public class RoleClassifier {
 
 		Scanner nonPositiveScanner = new Scanner(nonPositiveFilePath);
 		while(nonPositiveScanner.hasNextLine()){
-			SentimentCostAndGradient.nonNeutralList.add(nonPositiveScanner.nextLine());
+			//SentimentCostAndGradient.nonNeutralList.add(nonPositiveScanner.nextLine());
 		}
 
 		Scanner nonNeutralScanner = new Scanner(nonNeutralFilePath);
 		while(nonNeutralScanner.hasNextLine()){
-			SentimentCostAndGradient.nonNeutralList.add(nonNeutralScanner.nextLine());
+			//SentimentCostAndGradient.nonNeutralList.add(nonNeutralScanner.nextLine());
 		}
 
 		Scanner nonNegativeScanner = new Scanner(nonNegativeFilePath);
 		while(nonNegativeScanner.hasNextLine()){
-			SentimentCostAndGradient.nonNegativeList.add(nonNegativeScanner.nextLine());
+			//SentimentCostAndGradient.nonNegativeList.add(nonNegativeScanner.nextLine());
 		}
         /*
         todo
