@@ -40,11 +40,11 @@ public class SentenceSplitUtil {
                 //br.write(Integer.valueOf(count) + ". " + sentence.getSentence()+"\n");
                 if(!partOfPrevSentence(sentence.getSentence())){
                     System.out.println(Integer.valueOf(count) + ". " + sentence.getSentence()+"\n");
-                    br1.write(Integer.valueOf(count) + ". " + sentence.getSentence()+"\n\n");
+                    br1.write(sentence.getSentence()+"\n\n");
                     br1.flush();
                 }
                 else{
-                    br2.write(Integer.valueOf(count) + ". " + sentence.getSentence()+"\n\n");
+                    br2.write(sentence.getSentence()+"\n\n");
                     br2.flush();
                 }
                 count += 1;
