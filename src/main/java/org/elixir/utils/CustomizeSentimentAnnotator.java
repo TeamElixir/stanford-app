@@ -11,6 +11,7 @@ import org.elixir.models.PosTaggedWord;
 import org.elixir.models.Sentence;
 
 import java.io.File;
+import java.io.FileNotFoundException;
 import java.util.List;
 import java.util.Properties;
 import java.util.Scanner;
@@ -23,22 +24,23 @@ public class CustomizeSentimentAnnotator {
      * */
     public static void addSentimentLayerToCoreNLPSentiment(String nonPositiveFilePath,
                                                            String nonNegativeFilePath,
-                                                           String nonNeutralFilePath){
+                                                           String nonNeutralFilePath) throws FileNotFoundException {
 
         String filePath = new File("").getAbsolutePath();
         filePath += "/src/main/resources/";
 
-        Scanner nonPositiveScanner = new Scanner(filePath + nonPositiveFilePath);
+        Scanner nonPositiveScanner = new Scanner(new File(filePath + nonPositiveFilePath));
         while(nonPositiveScanner.hasNextLine()){
-            SentimentCostAndGradient.nonNeutralList.add(nonPositiveScanner.nextLine());
+            String line = nonPositiveScanner.nextLine();
+            SentimentCostAndGradient.nonNeutralList.add(line);
         }
 
-        Scanner nonNeutralScanner = new Scanner(filePath + nonNeutralFilePath);
+        Scanner nonNeutralScanner = new Scanner(new File(filePath + nonNeutralFilePath));
         while(nonNeutralScanner.hasNextLine()){
             SentimentCostAndGradient.nonNeutralList.add(nonNeutralScanner.nextLine());
         }
 
-        Scanner nonNegativeScanner = new Scanner(filePath + nonNegativeFilePath);
+        Scanner nonNegativeScanner = new Scanner(new File(filePath + nonNegativeFilePath));
         while(nonNegativeScanner.hasNextLine()){
             SentimentCostAndGradient.nonNegativeList.add(nonNegativeScanner.nextLine());
         }
@@ -64,6 +66,9 @@ public class CustomizeSentimentAnnotator {
 
     // if the sentences are not in database: use this method
     public static void createPosTagMapForSentence(String sentence){
+
+        //to create empty map for the word-postag combinations inside SentimentCostAndGradient class
+        SentimentCostAndGradient.createPosTagMap();
 
         Properties props = new Properties();
         props.setProperty("annotators", "tokenize,ssplit,pos");
