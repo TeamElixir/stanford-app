@@ -66,7 +66,10 @@ public class CoreNLPDepParser {
 
     }
 
-    public static ArrayList<int[]> findIndicesOfOuterVerbAndInnerSentence(Annotation ann, String text){
+    /*
+    first element of array is the ccomp verb in inner sentence, second element is index of the relevant that
+     */
+    public static ArrayList<int[]> findIndicesOfOuterVerbAndInnerVerb(Annotation ann, String text){
 
         ArrayList<TypedDependency> ccompList = new ArrayList<>();
         ArrayList<TypedDependency> thatDependencyList = new ArrayList<>();
@@ -80,21 +83,21 @@ public class CoreNLPDepParser {
 
             for(TypedDependency typedDependency : sg.typedDependencies()){
 
-                if(typedDependency.dep().toString().equals("that")){
+                if(typedDependency.dep().originalText().equals("that")){
                     if (!occurancesOfThat.contains(typedDependency.dep().index())){
                         occurancesOfThat.add(typedDependency.dep().index());
                     }
 
-                }else if(typedDependency.gov().toString().equals("that")){
+                }else if(typedDependency.gov().originalText().equals("that")){
                     if(!occurancesOfThat.contains(typedDependency.gov().index())){
                         occurancesOfThat.add(typedDependency.gov().index());
                     }
                 }
 
-                if(typedDependency.reln().equals("ccomp")){
+                if(typedDependency.reln().toString().equals("ccomp")){
                     ccompList.add(typedDependency);
                 }
-                else if(typedDependency.reln().equals("mark") && typedDependency.dep().toString().equals("that")){
+                else if(typedDependency.reln().toString().equals("mark") && typedDependency.dep().originalText().equals("that")){
                     thatDependencyList.add(typedDependency);
                 }
             }
@@ -104,7 +107,7 @@ public class CoreNLPDepParser {
             for(TypedDependency ccompDependency : ccompList){
                 for(TypedDependency thatDependency : thatDependencyList){
                     if(ccompDependency.gov().index()+1 == thatDependency.dep().index()){
-                        int[] array = {text.indexOf(ccompDependency.dep().toString()),
+                        int[] array = {text.indexOf(ccompDependency.dep().originalText()),
                                 findIthOccuranceOfWord("that", text, occurancesOfThat.indexOf(thatDependency.dep().index())+1)};
                         startIndices.add(array);
                     }

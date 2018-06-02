@@ -42,17 +42,20 @@ public class Party_Extraction_Main {
         props.setProperty("annotators", "tokenize,ssplit,pos,lemma,parse,natlog,depparse,sentiment");
         StanfordCoreNLP pipeline = new StanfordCoreNLP(props);
 
-        String text = "Lee cannot show prejudice from accepting a plea where his only hope at trial was that something unexpected and unpredictable might occur that would lead to acquittal.";
-
+        String text = "The Government contends that Lee cannot show prejudice from accepting a plea where his only hope at trial was that something unexpected and unpredictable might not occur that would lead to acquittal.";
         Annotation ann = new Annotation(text);
         pipeline.annotate(ann);
-        for (CoreMap sent : ann.get(CoreAnnotations.SentencesAnnotation.class)) {
-            SemanticGraph sg = sent.get(SemanticGraphCoreAnnotations.BasicDependenciesAnnotation.class);
-            System.out.println(IOUtils.eolChar + sg.toString(SemanticGraph.OutputFormat.LIST));
+//        for (CoreMap sent : ann.get(CoreAnnotations.SentencesAnnotation.class)) {
+//            SemanticGraph sg = sent.get(SemanticGraphCoreAnnotations.BasicDependenciesAnnotation.class);
+//            System.out.println(IOUtils.eolChar + sg.toString(SemanticGraph.OutputFormat.LIST));
+//
+//            for (TypedDependency i : sg.typedDependencies()){
+//                System.out.println(i.dep().index() + " : " + i.dep());
+//            }
+//        }
 
-            for (TypedDependency i : sg.typedDependencies()){
-                System.out.println(i.dep().index() + " : " + i.dep());
-            }
+        for(int[] array : CoreNLPDepParser.findIndicesOfOuterVerbAndInnerVerb(ann, text)){
+            System.out.println(array[0]+ " : "+ array[1]);
         }
 
 
