@@ -38,7 +38,7 @@ public class Party_Extraction_Main {
 
     public static void main(String[] args) throws FileNotFoundException {
 
-        /*Properties props = new Properties();
+        Properties props = new Properties();
         props.setProperty("annotators", "tokenize,ssplit,pos,lemma,parse,natlog,depparse,sentiment");
         StanfordCoreNLP pipeline = new StanfordCoreNLP(props);
 
@@ -53,7 +53,7 @@ public class Party_Extraction_Main {
             for (TypedDependency i : sg.typedDependencies()){
                 System.out.println(i.dep().index() + " : " + i.dep());
             }
-        }*/
+        }
 
 
 

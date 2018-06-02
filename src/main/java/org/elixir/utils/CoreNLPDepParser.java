@@ -15,6 +15,7 @@ import edu.stanford.nlp.util.CoreMap;
 
 import java.io.StringReader;
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
 
 public class CoreNLPDepParser {
@@ -65,11 +66,13 @@ public class CoreNLPDepParser {
 
     }
 
-    public static ArrayList depParseForCComp(Annotation ann, String text){
+    public static ArrayList<int[]> findIndicesOfOuterVerbAndInnerSentence(Annotation ann, String text){
 
         ArrayList<TypedDependency> ccompList = new ArrayList<>();
-        ArrayList<TypedDependency> dependencyList = new ArrayList<>();
+        ArrayList<TypedDependency> thatDependencyList = new ArrayList<>();
         ArrayList<Integer> occurancesOfThat = new ArrayList<>();
+
+        ArrayList<int[]> startIndices = new ArrayList<>();
 
         for (CoreMap sent : ann.get(CoreAnnotations.SentencesAnnotation.class)) {
 
@@ -78,29 +81,37 @@ public class CoreNLPDepParser {
             for(TypedDependency typedDependency : sg.typedDependencies()){
 
                 if(typedDependency.dep().toString().equals("that")){
-
                     if (!occurancesOfThat.contains(typedDependency.dep().index())){
                         occurancesOfThat.add(typedDependency.dep().index());
                     }
 
                 }else if(typedDependency.gov().toString().equals("that")){
-
                     if(!occurancesOfThat.contains(typedDependency.gov().index())){
                         occurancesOfThat.add(typedDependency.gov().index());
                     }
-
                 }
 
                 if(typedDependency.reln().equals("ccomp")){
                     ccompList.add(typedDependency);
                 }
-                else if(typedDependency.reln().equals("mark") && typedDependency.gov().toString().equals("that")){
-                    dependencyList.add(typedDependency);
+                else if(typedDependency.reln().equals("mark") && typedDependency.dep().toString().equals("that")){
+                    thatDependencyList.add(typedDependency);
+                }
+            }
+
+            Collections.sort(occurancesOfThat);
+
+            for(TypedDependency ccompDependency : ccompList){
+                for(TypedDependency thatDependency : thatDependencyList){
+                    if(ccompDependency.gov().index()+1 == thatDependency.dep().index()){
+                        int[] array = {text.indexOf(ccompDependency.dep().toString()),
+                                findIthOccuranceOfWord("that", text, occurancesOfThat.indexOf(thatDependency.dep().index())+1)};
+                        startIndices.add(array);
+                    }
                 }
             }
         }
-        return null;
-
+        return startIndices;
     }
 
     //can find ith occurance of a certain word in a sentence : working
