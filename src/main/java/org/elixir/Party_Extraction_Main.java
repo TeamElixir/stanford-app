@@ -12,6 +12,7 @@ package org.elixir;
 
 import edu.stanford.nlp.io.IOUtils;
 import edu.stanford.nlp.ling.CoreAnnotations;
+import edu.stanford.nlp.ling.CoreLabel;
 import edu.stanford.nlp.neural.rnn.RNNCoreAnnotations;
 import edu.stanford.nlp.pipeline.Annotation;
 import edu.stanford.nlp.pipeline.StanfordCoreNLP;
@@ -26,6 +27,8 @@ import org.elixir.utils.CoreNLPDepParser;
 import org.elixir.utils.CustomizeSentimentAnnotator;
 
 import java.io.FileNotFoundException;
+import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 import java.util.Properties;
 
@@ -55,8 +58,16 @@ public class Party_Extraction_Main {
 //        }
 
         for(int[] array : CoreNLPDepParser.findIndicesOfOuterVerbAndInnerVerb(ann, text)){
-            System.out.println(array[0]+ " : "+ array[1]);
+            int thatIndex = array[1];
+            int innerVerbIndex = array[0];
+
+            String innerSentence = endExtractedInnerSentence(startPointIndexInnerSentence(array[1],array[0],text),text)[0];
+
+
+
         }
+
+
 
 
 
@@ -90,7 +101,7 @@ public class Party_Extraction_Main {
         //todo : if that followed by when, where or although kind a word dismiss for now
         String[] endPointChars = {",", ".", "?", "\\n"};
 
-        int firstEndPointIndex = -1;
+        int firstEndPointIndex = startIndex;
 
         for(String endPoint : endPointChars){
             if(firstEndPointIndex < text.indexOf(endPoint)){
@@ -108,14 +119,13 @@ public class Party_Extraction_Main {
     }
 
     //returns the start of inner sentence, should provide the index of that: verb related with the verb prior to that, and whole sentence
-    public static int startPointIndexInnerSentence(int indexOfThat,String verb, String sentence){
+    public static int startPointIndexInnerSentence(int indexOfThat,int verbIndex, String sentence){
 
-        int verbIndex = sentence.indexOf(verb);
-        char[] startChars = {','};
-        int startIndex1 = indexOfThat+3;
+        char[] startChars = {',','.'};
+        int startIndex1 = indexOfThat+4;
 
         for(int i=verbIndex;i<0;i--){
-            if (startChars[0] == sentence.charAt(i)){
+            if (startChars[0] == sentence.charAt(i) || startChars[1] == sentence.charAt(i)){
                 if(startIndex1<i){
                     startIndex1 = i;
                     break;
@@ -125,6 +135,31 @@ public class Party_Extraction_Main {
 
         return startIndex1;
     }
+
+    public static String WhtagFilterInEnd(String text){
+        Properties props = new Properties();
+        props.setProperty("annotators", "tokenize,ssplit,pos");
+        StanfordCoreNLP pipeline = new StanfordCoreNLP(props);
+
+        Annotation ann = new Annotation(text);
+        pipeline.annotate(ann);
+
+        String[] whPosTags = {"WDT","WP","WRB"};
+
+
+        for (CoreMap coreMapSentence : ann.get(CoreAnnotations.SentencesAnnotation.class)) {
+            for (CoreLabel token : coreMapSentence.get(CoreAnnotations.TokensAnnotation.class)) {
+                String word = token.get(CoreAnnotations.TextAnnotation.class);
+                String postag = token.get(CoreAnnotations.PartOfSpeechAnnotation.class);
+
+                if(Arrays.asList(whPosTags).contains(postag.toUpperCase())){
+                    return text.substring(0,text.indexOf(word)-1);
+                }
+            }
+        }
+        return text;
+    }
+
 
 
 

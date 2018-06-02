@@ -2,6 +2,7 @@ package org.elixir.utils;
 
 import edu.stanford.nlp.ling.CoreAnnotations;
 import edu.stanford.nlp.ling.HasWord;
+import edu.stanford.nlp.ling.IndexedWord;
 import edu.stanford.nlp.ling.TaggedWord;
 import edu.stanford.nlp.parser.nndep.DependencyParser;
 import edu.stanford.nlp.pipeline.Annotation;
@@ -128,6 +129,87 @@ public class CoreNLPDepParser {
         else{
             return sentence.indexOf(word,findIthOccuranceOfWord(word,sentence,occurance-1)+1);
         }
+    }
+
+
+    public static IndexedWord findRelatedGovWordForGivenWord(Annotation ann, String relation, String otherWord){
+        for (CoreMap sent : ann.get(CoreAnnotations.SentencesAnnotation.class)) {
+            SemanticGraph sg = sent.get(SemanticGraphCoreAnnotations.BasicDependenciesAnnotation.class);
+
+            for(TypedDependency td : sg.typedDependencies()){
+                if(td.reln().toString().equals(relation) && td.dep().originalText().equals(otherWord)){
+                    return td.gov();
+                }
+            }
+        }
+
+        return null;
+    }
+
+    public static IndexedWord findRelatedDepWordForGivenWord(Annotation ann, String relation, String otherWord){
+        for (CoreMap sent : ann.get(CoreAnnotations.SentencesAnnotation.class)) {
+            SemanticGraph sg = sent.get(SemanticGraphCoreAnnotations.BasicDependenciesAnnotation.class);
+
+            for(TypedDependency td : sg.typedDependencies()){
+                if(td.reln().toString().equals(relation) && td.gov().originalText().equals(otherWord)){
+                    return td.dep();
+                }
+            }
+        }
+        return null;
+    }
+
+    public static String findSubjectContext(Annotation ann, IndexedWord subject){
+        ArrayList<IndexedWord> arrayList = new ArrayList<>();
+
+        String[] depRelations = {"amod"};
+        String[] govRelations = {"nmod:poss","amod"};
+
+        for(String i : depRelations){
+            IndexedWord temp = findRelatedDepWordForGivenWord(ann,i, subject.originalText());
+            if(temp != null){
+                arrayList.add(temp);
+            }
+        }
+
+        for (String j : govRelations){
+            IndexedWord temp = findRelatedGovWordForGivenWord(ann, j,subject.originalText());
+            if(temp != null){
+                arrayList.add(temp);
+            }
+        }
+        arrayList.add(subject);
+
+        arrayList.sort((a,b) ->(a.index()<b.index() ? 1 : -1));
+
+        String subjectContext ="";
+
+        for(IndexedWord i : arrayList){
+            subjectContext += (i.originalText()+" ");
+        }
+        return subjectContext;
+    }
+
+
+    public static String findVerbContext(Annotation ann, IndexedWord verb){
+        ArrayList<IndexedWord> arrayList = new ArrayList<>();
+
+        String[] govRelations = {"aux","neg"};
+
+        for (String j : govRelations){
+            IndexedWord temp = findRelatedGovWordForGivenWord(ann, j,verb.originalText());
+            if(temp != null){
+                arrayList.add(temp);
+            }
+        }
+        arrayList.add(verb);
+
+        String verbContext ="";
+
+        for(IndexedWord i : arrayList){
+            verbContext += (i.originalText()+" ");
+        }
+        return verbContext;
     }
 
 
