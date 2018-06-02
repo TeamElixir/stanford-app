@@ -13,6 +13,7 @@ package org.elixir;
 import edu.stanford.nlp.io.IOUtils;
 import edu.stanford.nlp.ling.CoreAnnotations;
 import edu.stanford.nlp.ling.CoreLabel;
+import edu.stanford.nlp.ling.IndexedWord;
 import edu.stanford.nlp.neural.rnn.RNNCoreAnnotations;
 import edu.stanford.nlp.pipeline.Annotation;
 import edu.stanford.nlp.pipeline.StanfordCoreNLP;
@@ -42,10 +43,19 @@ public class Party_Extraction_Main {
     public static void main(String[] args) throws FileNotFoundException {
 
         Properties props = new Properties();
-        props.setProperty("annotators", "tokenize,ssplit,pos,lemma,parse,natlog,depparse,sentiment");
+        props.setProperty("annotators", "tokenize,ssplit,pos,lemma,parse,natlog,depparse");
         StanfordCoreNLP pipeline = new StanfordCoreNLP(props);
 
-        String text = "The Government contends that Lee cannot show prejudice from accepting a plea where his only hope at trial was that something unexpected and unpredictable might not occur that would lead to acquittal.";
+        Properties propsSentiment = new Properties();
+        propsSentiment.setProperty("annotators", "tokenize,ssplit,pos,lemma,parse,natlog,sentiment");
+        StanfordCoreNLP sentimentPipeline = new StanfordCoreNLP(propsSentiment);
+
+        CustomizeSentimentAnnotator.addSentimentLayerToCoreNLPSentiment("sentimentAnnotator/DeviatedSentimentWords/non_positive_mini.csv",
+                "sentimentAnnotator/DeviatedSentimentWords/non_negative_mini.csv",
+                "sentimentAnnotator/DeviatedSentimentWords/non_neutral_mini.csv");
+
+        String text = "Applying the two-part test for ineffective assistance claims from Strickland v. Washington, 466 U. S. 668, the Sixth Circuit concluded that, while the Government conceded that Lee's counsel had performed deficiently, Lee could not show that he was prejudiced by his attorney's erroneous advice.";
+
         Annotation ann = new Annotation(text);
         pipeline.annotate(ann);
 //        for (CoreMap sent : ann.get(CoreAnnotations.SentencesAnnotation.class)) {
@@ -62,21 +72,68 @@ public class Party_Extraction_Main {
             int innerVerbIndex = array[0];
 
             String innerSentence = endExtractedInnerSentence(startPointIndexInnerSentence(array[1],array[0],text),text)[0];
+            innerSentence = WhtagFilterInEnd(innerSentence);
+
+            String innerVerb = text.substring(array[0], text.indexOf(" ",array[0]));
+            IndexedWord innersubject = CoreNLPDepParser.findRelatedDepWordForGivenWord(ann,"nsubj",innerVerb);
+            if(innersubject != null){
+                String innerSubjectContext = CoreNLPDepParser.findSubjectContext(ann,innersubject);
+
+            }
+
+            IndexedWord outerVerb = CoreNLPDepParser.findRelatedGovWordForGivenWord(ann,"ccomp",innerVerb);
+            String outerVerbContext = CoreNLPDepParser.findVerbContext(ann,outerVerb);
+
+            IndexedWord outerSubject = CoreNLPDepParser.findRelatedDepWordForGivenWord(ann,"nsubj",outerVerb.originalText());
+            String outerSubjectContext = CoreNLPDepParser.findSubjectContext(ann, outerSubject);
+
+            CustomizeSentimentAnnotator.createPosTagMapForSentence(innerSentence);
+            Annotation ann2 = new Annotation(innerSentence);
+            System.out.println(innerSentence);
+            sentimentPipeline.annotate(ann2);
+
+            List<CoreMap> sentences = ann2.get(CoreAnnotations.SentencesAnnotation.class);
+
+            System.out.println("innerSentence : "+innerSentence);
+        for(CoreMap coreMapSentence : sentences) {
+            final Tree tree = coreMapSentence.get(SentimentCoreAnnotations.SentimentAnnotatedTree.class);
+            final SimpleMatrix sm = RNNCoreAnnotations.getPredictions(tree);
+            final String sentiment = coreMapSentence.get(SentimentCoreAnnotations.SentimentClass.class);
+            System.out.println("sentence:  "+coreMapSentence);
+            System.out.println("sentiment: "+sentiment);
+            System.out.println("matrix:    "+sm);
+            System.out.println();
+
+        }
 
 
+        String outerSentence = outerSubjectContext.trim()+" "+ outerVerbContext+ "something.";
+        CustomizeSentimentAnnotator.createPosTagMapForSentence(outerSentence);
 
+        ann2 = new Annotation(outerSentence);
+        sentimentPipeline.annotate(ann2);
+            sentences = ann2.get(CoreAnnotations.SentencesAnnotation.class);
+
+            System.out.println("outerSentence");
+            for(CoreMap coreMapSentence : sentences) {
+
+                final Tree tree = coreMapSentence.get(SentimentCoreAnnotations.SentimentAnnotatedTree.class);
+                final SimpleMatrix sm = RNNCoreAnnotations.getPredictions(tree);
+                final String sentiment = coreMapSentence.get(SentimentCoreAnnotations.SentimentClass.class);
+                System.out.println("sentence:  "+coreMapSentence);
+                System.out.println("sentiment: "+sentiment);
+                System.out.println("matrix:    "+sm);
+                System.out.println("\n");
+
+            }
         }
 
 
 
 
 
-        //CoreNLPDepParser.depParseForGivenRelation()
 
-//        CustomizeSentimentAnnotator.addSentimentLayerToCoreNLPSentiment("sentimentAnnotator/DeviatedSentimentWords/non_positive_mini.csv",
-//                "sentimentAnnotator/DeviatedSentimentWords/non_negative_mini.csv",
-//                "sentimentAnnotator/DeviatedSentimentWords/non_neutral_mini.csv");
-//        CustomizeSentimentAnnotator.createPosTagMapForSentence(text);
+
 //
 //        Annotation document =  new Annotation(text);
 //        pipeline.annotate(document);
@@ -101,11 +158,14 @@ public class Party_Extraction_Main {
         //todo : if that followed by when, where or although kind a word dismiss for now
         String[] endPointChars = {",", ".", "?", "\\n"};
 
-        int firstEndPointIndex = startIndex;
+        int firstEndPointIndex = text.length();
 
-        for(String endPoint : endPointChars){
-            if(firstEndPointIndex < text.indexOf(endPoint)){
-                firstEndPointIndex = text.indexOf(endPoint);
+
+        for(int count =startIndex; count<text.length(); count++){
+            if(Arrays.asList(endPointChars).contains(text.charAt(count))){
+                if(firstEndPointIndex>count){
+                    firstEndPointIndex = count;
+                }
             }
         }
         String[] returnString = {null,null};
