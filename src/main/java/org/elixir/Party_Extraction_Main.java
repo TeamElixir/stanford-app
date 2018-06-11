@@ -27,11 +27,8 @@ import org.ejml.simple.SimpleMatrix;
 import org.elixir.utils.CoreNLPDepParser;
 import org.elixir.utils.CustomizeSentimentAnnotator;
 
-import java.io.FileNotFoundException;
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
-import java.util.Properties;
+import java.io.*;
+import java.util.*;
 
 /*task 3
 *design algorithm;
@@ -47,17 +44,24 @@ public class Party_Extraction_Main {
         StanfordCoreNLP pipeline = new StanfordCoreNLP(props);
 
         Properties propsSentiment = new Properties();
-        propsSentiment.setProperty("annotators", "tokenize,ssplit,pos,lemma,parse,natlog,sentiment");
+        propsSentiment.setProperty("annotators","tokenize,ssplit,tokenize,pos,lemma,parse,natlog,sentiment");
         StanfordCoreNLP sentimentPipeline = new StanfordCoreNLP(propsSentiment);
+
+        Scanner sc = new Scanner(new File("/home/viraj/Desktop/case_11.txt"));
 
         CustomizeSentimentAnnotator.addSentimentLayerToCoreNLPSentiment("sentimentAnnotator/DeviatedSentimentWords/non_positive_mini.csv",
                 "sentimentAnnotator/DeviatedSentimentWords/non_negative_mini.csv",
                 "sentimentAnnotator/DeviatedSentimentWords/non_neutral_mini.csv");
 
-        String text = "Applying the two-part test for ineffective assistance claims from Strickland v. Washington, 466 U. S. 668, the Sixth Circuit concluded that, while the Government conceded that Lee's counsel had performed deficiently, Lee could not show that he was prejudiced by his attorney's erroneous advice.";
+//        PrintStream ps = new PrintStream(new BufferedOutputStream(new FileOutputStream("/home/viraj/Desktop/result_corenlp.txt")));
+//        System.setOut(ps);
 
-        Annotation ann = new Annotation(text);
-        pipeline.annotate(ann);
+
+
+
+            String text = sc.nextLine();
+            Annotation ann = new Annotation(text);
+            pipeline.annotate(ann);
 //        for (CoreMap sent : ann.get(CoreAnnotations.SentencesAnnotation.class)) {
 //            SemanticGraph sg = sent.get(SemanticGraphCoreAnnotations.BasicDependenciesAnnotation.class);
 //            System.out.println(IOUtils.eolChar + sg.toString(SemanticGraph.OutputFormat.LIST));
@@ -66,73 +70,73 @@ public class Party_Extraction_Main {
 //                System.out.println(i.dep().index() + " : " + i.dep());
 //            }
 //        }
+            System.out.println(ann.get(CoreAnnotations.SentencesAnnotation.class).size());
 
-        for(int[] array : CoreNLPDepParser.findIndicesOfOuterVerbAndInnerVerb(ann, text)){
-            int thatIndex = array[1];
-            int innerVerbIndex = array[0];
+            for(IndexedWord[] array : CoreNLPDepParser.findIndicesOfOuterVerbAndInnerVerb(ann, text)){
+                IndexedWord thatIndex = array[1];
+                IndexedWord innerVerbIndex = array[0];
 
-            String innerSentence = endExtractedInnerSentence(startPointIndexInnerSentence(array[1],array[0],text),text)[0];
-            innerSentence = WhtagFilterInEnd(innerSentence);
+                String innerSentence = endExtractedInnerSentence(startPointIndexInnerSentence(array[1].beginPosition(),array[0].beginPosition(),text),text)[0];
+                innerSentence = WhtagFilterInEnd(innerSentence);
 
-            String innerVerb = text.substring(array[0], text.indexOf(" ",array[0]));
-            IndexedWord innersubject = CoreNLPDepParser.findRelatedDepWordForGivenWord(ann,"nsubj",innerVerb);
-            if(innersubject != null){
-                String innerSubjectContext = CoreNLPDepParser.findSubjectContext(ann,innersubject);
+                String innerVerb = text.substring(array[0].beginPosition(), text.indexOf(" ",array[0].beginPosition()));
+                IndexedWord innersubject = CoreNLPDepParser.findRelatedDepWordForGivenWord(ann,"nsubj",innerVerb);
+                String innerSubjectContext = "none-innersubject";
+                if(innersubject != null){
+                    innerSubjectContext = CoreNLPDepParser.findSubjectContext(ann,innersubject);
 
+                }
+
+                IndexedWord outerVerb = CoreNLPDepParser.findRelatedGovWordForGivenWord(ann,"ccomp",innerVerb);
+                String outerVerbContext = CoreNLPDepParser.findVerbContext(ann,outerVerb);
+
+                IndexedWord outerSubject = CoreNLPDepParser.findRelatedDepWordForGivenWord(ann,"nsubj",outerVerb.originalText());
+                String outerSubjectContext = "none-outerSubject";
+                if(outerSubject != null){
+                    outerSubjectContext = CoreNLPDepParser.findSubjectContext(ann, outerSubject);
+                }
+
+
+                CustomizeSentimentAnnotator.createPosTagMapForSentence(innerSentence);
+                Annotation ann2 = new Annotation(innerSentence);
+                System.out.println(innerSentence);
+                sentimentPipeline.annotate(ann2);
+
+                List<CoreMap> sentences = ann2.get(CoreAnnotations.SentencesAnnotation.class);
+
+                System.out.println("innerSentence : "+innerSentence);
+                for(CoreMap coreMapSentence : sentences) {
+                    final Tree tree = coreMapSentence.get(SentimentCoreAnnotations.SentimentAnnotatedTree.class);
+                    final SimpleMatrix sm = RNNCoreAnnotations.getPredictions(tree);
+                    final String sentiment = coreMapSentence.get(SentimentCoreAnnotations.SentimentClass.class);
+                    System.out.println("sentence:  "+coreMapSentence);
+//                    System.out.println("sentiment: "+sentiment);
+//                    System.out.println("matrix:    "+sm);
+                    System.out.println();
+
+                }
+
+
+                String outerSentence = outerSubjectContext.trim()+" "+ outerVerbContext+ "something.";
+                CustomizeSentimentAnnotator.createPosTagMapForSentence(outerSentence);
+
+                ann2 = new Annotation(outerSentence);
+                sentimentPipeline.annotate(ann2);
+                sentences = ann2.get(CoreAnnotations.SentencesAnnotation.class);
+
+                System.out.println("outerSentence");
+                for(CoreMap coreMapSentence : sentences) {
+
+                    final Tree tree = coreMapSentence.get(SentimentCoreAnnotations.SentimentAnnotatedTree.class);
+                    final SimpleMatrix sm = RNNCoreAnnotations.getPredictions(tree);
+                    final String sentiment = coreMapSentence.get(SentimentCoreAnnotations.SentimentClass.class);
+                    System.out.println("sentence:  "+coreMapSentence);
+//                    System.out.println("sentiment: "+sentiment);
+//                    System.out.println("matrix:    "+sm);
+                    System.out.println("\n");
+
+                }
             }
-
-            IndexedWord outerVerb = CoreNLPDepParser.findRelatedGovWordForGivenWord(ann,"ccomp",innerVerb);
-            String outerVerbContext = CoreNLPDepParser.findVerbContext(ann,outerVerb);
-
-            IndexedWord outerSubject = CoreNLPDepParser.findRelatedDepWordForGivenWord(ann,"nsubj",outerVerb.originalText());
-            String outerSubjectContext = CoreNLPDepParser.findSubjectContext(ann, outerSubject);
-
-            CustomizeSentimentAnnotator.createPosTagMapForSentence(innerSentence);
-            Annotation ann2 = new Annotation(innerSentence);
-            System.out.println(innerSentence);
-            sentimentPipeline.annotate(ann2);
-
-            List<CoreMap> sentences = ann2.get(CoreAnnotations.SentencesAnnotation.class);
-
-            System.out.println("innerSentence : "+innerSentence);
-        for(CoreMap coreMapSentence : sentences) {
-            final Tree tree = coreMapSentence.get(SentimentCoreAnnotations.SentimentAnnotatedTree.class);
-            final SimpleMatrix sm = RNNCoreAnnotations.getPredictions(tree);
-            final String sentiment = coreMapSentence.get(SentimentCoreAnnotations.SentimentClass.class);
-            System.out.println("sentence:  "+coreMapSentence);
-            System.out.println("sentiment: "+sentiment);
-            System.out.println("matrix:    "+sm);
-            System.out.println();
-
-        }
-
-
-        String outerSentence = outerSubjectContext.trim()+" "+ outerVerbContext+ "something.";
-        CustomizeSentimentAnnotator.createPosTagMapForSentence(outerSentence);
-
-        ann2 = new Annotation(outerSentence);
-        sentimentPipeline.annotate(ann2);
-            sentences = ann2.get(CoreAnnotations.SentencesAnnotation.class);
-
-            System.out.println("outerSentence");
-            for(CoreMap coreMapSentence : sentences) {
-
-                final Tree tree = coreMapSentence.get(SentimentCoreAnnotations.SentimentAnnotatedTree.class);
-                final SimpleMatrix sm = RNNCoreAnnotations.getPredictions(tree);
-                final String sentiment = coreMapSentence.get(SentimentCoreAnnotations.SentimentClass.class);
-                System.out.println("sentence:  "+coreMapSentence);
-                System.out.println("sentiment: "+sentiment);
-                System.out.println("matrix:    "+sm);
-                System.out.println("\n");
-
-            }
-        }
-
-
-
-
-
-
 
 //
 //        Annotation document =  new Annotation(text);
@@ -184,15 +188,12 @@ public class Party_Extraction_Main {
         char[] startChars = {',','.'};
         int startIndex1 = indexOfThat+4;
 
-        for(int i=verbIndex;i<0;i--){
-            if (startChars[0] == sentence.charAt(i) || startChars[1] == sentence.charAt(i)){
-                if(startIndex1<i){
+        for(int i=verbIndex;i>0;i--){
+            if ((startChars[0] == sentence.charAt(i) || startChars[1] == sentence.charAt(i)) && startIndex1<i){
                     startIndex1 = i;
                     break;
-                }
             }
         }
-
         return startIndex1;
     }
 

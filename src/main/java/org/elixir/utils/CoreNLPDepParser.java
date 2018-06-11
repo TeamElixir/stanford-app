@@ -21,13 +21,16 @@ import java.util.List;
 
 public class CoreNLPDepParser {
 
+    //depparse old method : not using currently
     public static String depParse(String text){
+
+        //establishing the dependency parser utility
         String modelPath = DependencyParser.DEFAULT_MODEL;
         String taggerPath = "edu/stanford/nlp/models/pos-tagger/english-left3words/english-left3words-distsim.tagger";
-
         MaxentTagger tagger = new MaxentTagger(taggerPath);
         DependencyParser parser = DependencyParser.loadFromModelFile(modelPath);
 
+        //tokenize
         DocumentPreprocessor tokenizer = new DocumentPreprocessor(new StringReader(text));
         GrammaticalStructure gs =  null;
         for (List<HasWord> sentence : tokenizer) {
@@ -36,13 +39,15 @@ public class CoreNLPDepParser {
 
         }
 
+        //print all dependency edges
         for(TypedDependency typedDependency : gs.typedDependenciesCCprocessed()){
             System.out.println(typedDependency.dep() +" : " + typedDependency.gov() + " : " +typedDependency.reln());
         }
         return "finished - testing ";
     }
 
-    //to find first that related verb.
+    //to find first that related verb. : not used currently
+    //todo : debug the thing using sentence by sentence
     public static String depParseForGivenRelation(String dependency, String outerVerb, String text){
         String modelPath = DependencyParser.DEFAULT_MODEL;
         String taggerPath = "edu/stanford/nlp/models/pos-tagger/english-left3words/english-left3words-distsim.tagger";
@@ -69,14 +74,15 @@ public class CoreNLPDepParser {
 
     /*
     first element of array is the ccomp verb in inner sentence, second element is index of the relevant that
+    //todo: debug -> output contains errors for certain inputs
      */
-    public static ArrayList<int[]> findIndicesOfOuterVerbAndInnerVerb(Annotation ann, String text){
+    public static ArrayList<IndexedWord[]> findIndicesOfOuterVerbAndInnerVerb(Annotation ann, String text){
 
         ArrayList<TypedDependency> ccompList = new ArrayList<>();
         ArrayList<TypedDependency> thatDependencyList = new ArrayList<>();
         ArrayList<Integer> occurancesOfThat = new ArrayList<>();
 
-        ArrayList<int[]> startIndices = new ArrayList<>();
+        ArrayList<IndexedWord[]> startIndices = new ArrayList<>();
 
         for (CoreMap sent : ann.get(CoreAnnotations.SentencesAnnotation.class)) {
 
@@ -108,8 +114,8 @@ public class CoreNLPDepParser {
             for(TypedDependency ccompDependency : ccompList){
                 for(TypedDependency thatDependency : thatDependencyList){
                     if(ccompDependency.gov().index()+1 == thatDependency.dep().index()){
-                        int[] array = {text.indexOf(ccompDependency.dep().originalText()),
-                                findIthOccuranceOfWord("that", text, occurancesOfThat.indexOf(thatDependency.dep().index())+1)};
+                        IndexedWord[] array = {ccompDependency.dep(),
+                                thatDependency.dep()};
                         startIndices.add(array);
                     }
                 }
@@ -197,6 +203,7 @@ public class CoreNLPDepParser {
         String[] govRelations = {"aux","neg"};
 
         for (String j : govRelations){
+
             IndexedWord temp = findRelatedDepWordForGivenWord(ann, j,verb.originalText());
             if(temp != null){
                 arrayList.add(temp);
