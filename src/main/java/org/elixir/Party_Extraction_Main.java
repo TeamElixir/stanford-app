@@ -10,18 +10,14 @@ package org.elixir;
 * solve coreferences in sentences and save in the database, along with that it may require to store mentions
 */
 
-import edu.stanford.nlp.io.IOUtils;
 import edu.stanford.nlp.ling.CoreAnnotations;
 import edu.stanford.nlp.ling.CoreLabel;
 import edu.stanford.nlp.ling.IndexedWord;
 import edu.stanford.nlp.neural.rnn.RNNCoreAnnotations;
 import edu.stanford.nlp.pipeline.Annotation;
 import edu.stanford.nlp.pipeline.StanfordCoreNLP;
-import edu.stanford.nlp.semgraph.SemanticGraph;
-import edu.stanford.nlp.semgraph.SemanticGraphCoreAnnotations;
 import edu.stanford.nlp.sentiment.SentimentCoreAnnotations;
 import edu.stanford.nlp.trees.Tree;
-import edu.stanford.nlp.trees.TypedDependency;
 import edu.stanford.nlp.util.CoreMap;
 import org.ejml.simple.SimpleMatrix;
 import org.elixir.utils.CoreNLPDepParser;
@@ -76,8 +72,9 @@ public class Party_Extraction_Main {
                 IndexedWord thatIndex = array[1];
                 IndexedWord innerVerbIndex = array[0];
 
-                String innerSentence = endExtractedInnerSentence(startPointIndexInnerSentence(array[1].beginPosition(),array[0].beginPosition(),text),text)[0];
-                innerSentence = WhtagFilterInEnd(innerSentence);
+                String innerSentence = endExtractedInnerSentence(startPointIndexInnerSentence(array[1].beginPosition(),array[0].beginPosition(),text),text);
+                innerSentence = innerSentence + " when police arrives";
+                innerSentence = WhTagFilterInEnd(innerSentence);
 
                 String innerVerb = text.substring(array[0].beginPosition(), text.indexOf(" ",array[0].beginPosition()));
                 IndexedWord innersubject = CoreNLPDepParser.findRelatedDepWordForGivenWord(ann,"nsubj",innerVerb);
@@ -138,46 +135,28 @@ public class Party_Extraction_Main {
                 }
             }
 
-//
-//        Annotation document =  new Annotation(text);
-//        pipeline.annotate(document);
-//        List<CoreMap> sentences = document.get(CoreAnnotations.SentencesAnnotation.class);
-//
-//        for(CoreMap sentence : sentences){
-//
-//            final Tree tree = sentence.get(SentimentCoreAnnotations.SentimentAnnotatedTree.class);
-//            final SimpleMatrix sm = RNNCoreAnnotations.getPredictions(tree);
-//            final String sentiment = sentence.get(SentimentCoreAnnotations.SentimentClass.class);
-//            System.out.println("sentence:  "+sentence);
-//            System.out.println("sentiment: "+sentiment);
-//            System.out.println("matrix:    "+sm);
-//
-//        }
 
     }
 
 
-    //should provide the part of sentence begins after the term "that"
-    public static String[] endExtractedInnerSentence(int startIndex , String text){
+    //should provide the part of sentence begins after the term "that" : fine
+    public static String endExtractedInnerSentence(int startIndex , String text){
         //todo : if that followed by when, where or although kind a word dismiss for now
-        String[] endPointChars = {",", ".", "?", "\\n"};
+        char[] endPointChars = {',', '.', '?', '\n'};
 
         int firstEndPointIndex = text.length();
 
-
         for(int count =startIndex; count<text.length(); count++){
-            if(Arrays.asList(endPointChars).contains(text.charAt(count))){
+            if(endPointChars[0] == text.charAt(count) || endPointChars[1] == text.charAt(count) || endPointChars[2] == text.charAt(count) || endPointChars[3] == text.charAt(count)){
                 if(firstEndPointIndex>count){
                     firstEndPointIndex = count;
+                    break;
                 }
             }
         }
-        String[] returnString = {null,null};
+        String returnString = null;
         if(firstEndPointIndex > -1){
-            returnString[0] = text.substring(startIndex,firstEndPointIndex);
-            if(firstEndPointIndex < text.length()-1){
-                returnString[1] = text.substring(firstEndPointIndex+1);
-            }
+            returnString = text.substring(startIndex,firstEndPointIndex);
         }
         return returnString;
     }
@@ -185,19 +164,20 @@ public class Party_Extraction_Main {
     //returns the start of inner sentence, should provide the index of that: verb related with the verb prior to that, and whole sentence
     public static int startPointIndexInnerSentence(int indexOfThat,int verbIndex, String sentence){
 
-        char[] startChars = {',','.'};
+        char[] startChars = {','};
         int startIndex1 = indexOfThat+4;
 
         for(int i=verbIndex;i>0;i--){
-            if ((startChars[0] == sentence.charAt(i) || startChars[1] == sentence.charAt(i)) && startIndex1<i){
-                    startIndex1 = i;
+            if (startChars[0] == sentence.charAt(i) && startIndex1>i+1){
+                    startIndex1 = i+1;
                     break;
             }
         }
         return startIndex1;
     }
 
-    public static String WhtagFilterInEnd(String text){
+    //when the sentence is like " ---- when <some sentence>" needs to remove that when part (any wh word)
+    public static String WhTagFilterInEnd(String text){
         Properties props = new Properties();
         props.setProperty("annotators", "tokenize,ssplit,pos");
         StanfordCoreNLP pipeline = new StanfordCoreNLP(props);
@@ -206,7 +186,6 @@ public class Party_Extraction_Main {
         pipeline.annotate(ann);
 
         String[] whPosTags = {"WDT","WP","WRB"};
-
 
         for (CoreMap coreMapSentence : ann.get(CoreAnnotations.SentencesAnnotation.class)) {
             for (CoreLabel token : coreMapSentence.get(CoreAnnotations.TokensAnnotation.class)) {

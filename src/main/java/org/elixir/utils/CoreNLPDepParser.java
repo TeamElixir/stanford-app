@@ -90,20 +90,26 @@ public class CoreNLPDepParser {
 
             for(TypedDependency typedDependency : sg.typedDependencies()){
 
+                //to keep index of "that" word, if as the dep
                 if(typedDependency.dep().originalText().equals("that")){
+                    //if it already contains the relevant index , do not add
                     if (!occurancesOfThat.contains(typedDependency.dep().index())){
                         occurancesOfThat.add(typedDependency.dep().index());
                     }
 
+                    //"that" index, as the gov
                 }else if(typedDependency.gov().originalText().equals("that")){
                     if(!occurancesOfThat.contains(typedDependency.gov().index())){
                         occurancesOfThat.add(typedDependency.gov().index());
                     }
                 }
 
+                //inner outer sentence match is done by ccomp and mark
+                //to keep "ccomp" typed dependency
                 if(typedDependency.reln().toString().equals("ccomp")){
                     ccompList.add(typedDependency);
                 }
+                //to keep "mark" typedDependency
                 else if(typedDependency.reln().toString().equals("mark") && typedDependency.dep().originalText().equals("that")){
                     thatDependencyList.add(typedDependency);
                 }
@@ -111,6 +117,7 @@ public class CoreNLPDepParser {
 
             Collections.sort(occurancesOfThat);
 
+            //check if "mark" and "ccomp" synced. if add to the array.
             for(TypedDependency ccompDependency : ccompList){
                 for(TypedDependency thatDependency : thatDependencyList){
                     if(ccompDependency.gov().index()+1 == thatDependency.dep().index()){
