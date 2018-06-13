@@ -85,7 +85,6 @@ public class CustomizeSentimentAnnotator {
                 String word = token.get(CoreAnnotations.TextAnnotation.class);
                 String posTag = token.get(CoreAnnotations.PartOfSpeechAnnotation.class);
                 SentimentCostAndGradient.addPosTagsOfWords(word,posTag);
-
             }
         }
     }
