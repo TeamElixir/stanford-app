@@ -145,12 +145,12 @@ public class CoreNLPDepParser {
     }
 
 
-    public static IndexedWord findRelatedGovWordForGivenWord(Annotation ann, String relation, String otherWord){
+    public static IndexedWord findRelatedGovWordForGivenWord(Annotation ann, String relation, IndexedWord otherWord){
         for (CoreMap sent : ann.get(CoreAnnotations.SentencesAnnotation.class)) {
             SemanticGraph sg = sent.get(SemanticGraphCoreAnnotations.BasicDependenciesAnnotation.class);
 
             for(TypedDependency td : sg.typedDependencies()){
-                if(td.reln().toString().equals(relation) && td.dep().originalText().equals(otherWord)){
+                if(td.reln().toString().equals(relation) && td.dep().equals(otherWord)){
                     return td.gov();
                 }
             }
@@ -159,12 +159,12 @@ public class CoreNLPDepParser {
         return null;
     }
 
-    public static IndexedWord findRelatedDepWordForGivenWord(Annotation ann, String relation, String otherWord){
+    public static IndexedWord findRelatedDepWordForGivenWord(Annotation ann, String relation, IndexedWord otherWord){
         for (CoreMap sent : ann.get(CoreAnnotations.SentencesAnnotation.class)) {
             SemanticGraph sg = sent.get(SemanticGraphCoreAnnotations.BasicDependenciesAnnotation.class);
 
             for(TypedDependency td : sg.typedDependencies()){
-                if(td.reln().toString().equals(relation) && td.gov().originalText().equals(otherWord)){
+                if(td.reln().toString().equals(relation) && td.gov().equals(otherWord)){
                     return td.dep();
                 }
             }
@@ -179,14 +179,14 @@ public class CoreNLPDepParser {
         String[] govRelations = {"nmod:poss","amod"};
 
         for(String i : depRelations){
-            IndexedWord temp = findRelatedDepWordForGivenWord(ann,i, subject.originalText());
+            IndexedWord temp = findRelatedDepWordForGivenWord(ann, i, subject);
             if(temp != null){
                 arrayList.add(temp);
             }
         }
 
         for (String j : govRelations){
-            IndexedWord temp = findRelatedGovWordForGivenWord(ann, j,subject.originalText());
+            IndexedWord temp = findRelatedGovWordForGivenWord(ann, j, subject);
             if(temp != null){
                 arrayList.add(temp);
             }
@@ -211,7 +211,7 @@ public class CoreNLPDepParser {
 
         for (String j : govRelations){
 
-            IndexedWord temp = findRelatedDepWordForGivenWord(ann, j,verb.originalText());
+            IndexedWord temp = findRelatedDepWordForGivenWord(ann, j, verb);
             if(temp != null){
                 arrayList.add(temp);
             }

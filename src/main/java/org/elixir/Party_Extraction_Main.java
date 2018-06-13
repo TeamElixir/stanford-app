@@ -33,7 +33,7 @@ import java.util.*;
 
 public class Party_Extraction_Main {
 
-    public static void main(String[] args) throws FileNotFoundException {
+    public static void main(String[] args) throws IOException {
 
         Properties props = new Properties();
         props.setProperty("annotators", "tokenize,ssplit,pos,lemma,parse,natlog,depparse");
@@ -42,6 +42,7 @@ public class Party_Extraction_Main {
         Properties propsSentiment = new Properties();
         propsSentiment.setProperty("annotators","tokenize,ssplit,tokenize,pos,lemma,parse,natlog,sentiment");
         StanfordCoreNLP sentimentPipeline = new StanfordCoreNLP(propsSentiment);
+
 
         Scanner sc = new Scanner(new File("/home/viraj/Desktop/case_11.txt"));
 
@@ -52,9 +53,9 @@ public class Party_Extraction_Main {
 //        PrintStream ps = new PrintStream(new BufferedOutputStream(new FileOutputStream("/home/viraj/Desktop/result_corenlp.txt")));
 //        System.setOut(ps);
 
+        BufferedWriter br = new BufferedWriter(new FileWriter(new File("/home/viraj/Desktop/coreNLP_party.txt")));
 
-
-
+        while (sc.hasNextLine()){
             String text = sc.nextLine();
             Annotation ann = new Annotation(text);
             pipeline.annotate(ann);
@@ -73,21 +74,19 @@ public class Party_Extraction_Main {
                 IndexedWord innerVerbIndex = array[0];
 
                 String innerSentence = endExtractedInnerSentence(startPointIndexInnerSentence(array[1].beginPosition(),array[0].beginPosition(),text),text);
-                innerSentence = innerSentence + " when police arrives";
                 innerSentence = WhTagFilterInEnd(innerSentence);
 
-                String innerVerb = text.substring(array[0].beginPosition(), text.indexOf(" ",array[0].beginPosition()));
-                IndexedWord innersubject = CoreNLPDepParser.findRelatedDepWordForGivenWord(ann,"nsubj",innerVerb);
+                IndexedWord innersubject = CoreNLPDepParser.findRelatedDepWordForGivenWord(ann,"nsubj",array[0]);
                 String innerSubjectContext = "none-innersubject";
                 if(innersubject != null){
                     innerSubjectContext = CoreNLPDepParser.findSubjectContext(ann,innersubject);
 
                 }
 
-                IndexedWord outerVerb = CoreNLPDepParser.findRelatedGovWordForGivenWord(ann,"ccomp",innerVerb);
+                IndexedWord outerVerb = CoreNLPDepParser.findRelatedGovWordForGivenWord(ann,"ccomp",array[0]);
                 String outerVerbContext = CoreNLPDepParser.findVerbContext(ann,outerVerb);
 
-                IndexedWord outerSubject = CoreNLPDepParser.findRelatedDepWordForGivenWord(ann,"nsubj",outerVerb.originalText());
+                IndexedWord outerSubject = CoreNLPDepParser.findRelatedDepWordForGivenWord(ann,"nsubj",outerVerb);
                 String outerSubjectContext = "none-outerSubject";
                 if(outerSubject != null){
                     outerSubjectContext = CoreNLPDepParser.findSubjectContext(ann, outerSubject);
@@ -100,17 +99,22 @@ public class Party_Extraction_Main {
                 sentimentPipeline.annotate(ann2);
 
                 List<CoreMap> sentences = ann2.get(CoreAnnotations.SentencesAnnotation.class);
+                br.write(text+"\n");
 
                 System.out.println("innerSentence : "+innerSentence);
+                br.write("\t"+ "innerSentence : " + innerSentence +"\n");
                 for(CoreMap coreMapSentence : sentences) {
                     final Tree tree = coreMapSentence.get(SentimentCoreAnnotations.SentimentAnnotatedTree.class);
                     final SimpleMatrix sm = RNNCoreAnnotations.getPredictions(tree);
                     final String sentiment = coreMapSentence.get(SentimentCoreAnnotations.SentimentClass.class);
                     System.out.println("sentence:  "+coreMapSentence);
-//                    System.out.println("sentiment: "+sentiment);
-//                    System.out.println("matrix:    "+sm);
+                    System.out.println("sentiment: "+sentiment);
+                    System.out.println("matrix:    "+sm);
+                    br.write("\t\t" + "coremap sentence : " + coreMapSentence+"\n");
+                    br.write("\t\t" + "sentiment : " + sentiment+"\n");
+                    br.write("\t\t" + "matrix" + sm+"\n");
+                    br.write("\t\t---------------------------------------------------------\n");
                     System.out.println();
-
                 }
 
 
@@ -122,32 +126,40 @@ public class Party_Extraction_Main {
                 sentences = ann2.get(CoreAnnotations.SentencesAnnotation.class);
 
                 System.out.println("outerSentence");
+                br.write("\t"+ "innerSentence : " + outerSentence +"\n");
                 for(CoreMap coreMapSentence : sentences) {
 
                     final Tree tree = coreMapSentence.get(SentimentCoreAnnotations.SentimentAnnotatedTree.class);
                     final SimpleMatrix sm = RNNCoreAnnotations.getPredictions(tree);
                     final String sentiment = coreMapSentence.get(SentimentCoreAnnotations.SentimentClass.class);
                     System.out.println("sentence:  "+coreMapSentence);
-//                    System.out.println("sentiment: "+sentiment);
-//                    System.out.println("matrix:    "+sm);
+                    System.out.println("sentiment: "+sentiment);
+                    System.out.println("matrix:    "+sm);
+                    br.write("\t\t" + "coremap sentence : " + coreMapSentence+"\n");
+                    br.write("\t\t" + "sentiment : " + sentiment+"\n");
+                    br.write("\t\t" + "matrix" + sm+"\n");
+                    br.write("\t\t---------------------------------------------------------\n");
                     System.out.println("\n");
-
                 }
+
+                br.write("\t outer Subject : "+outerSubjectContext);
+                br.write(", \t inner Subject : "+ innerSubjectContext+"\n");
             }
-
-
+            br.newLine();
+        }
+        br.close();
     }
 
 
     //should provide the part of sentence begins after the term "that" : fine
     public static String endExtractedInnerSentence(int startIndex , String text){
         //todo : if that followed by when, where or although kind a word dismiss for now
-        char[] endPointChars = {',', '.', '?', '\n'};
+        char[] endPointChars = {',', '?'};
 
         int firstEndPointIndex = text.length();
 
         for(int count =startIndex; count<text.length(); count++){
-            if(endPointChars[0] == text.charAt(count) || endPointChars[1] == text.charAt(count) || endPointChars[2] == text.charAt(count) || endPointChars[3] == text.charAt(count)){
+            if(endPointChars[0] == text.charAt(count) || endPointChars[1] == text.charAt(count) ){
                 if(firstEndPointIndex>count){
                     firstEndPointIndex = count;
                     break;
@@ -168,7 +180,7 @@ public class Party_Extraction_Main {
         int startIndex1 = indexOfThat+4;
 
         for(int i=verbIndex;i>0;i--){
-            if (startChars[0] == sentence.charAt(i) && startIndex1>i+1){
+            if (startChars[0] == sentence.charAt(i) && startIndex1<i+1){
                     startIndex1 = i+1;
                     break;
             }
@@ -177,6 +189,7 @@ public class Party_Extraction_Main {
     }
 
     //when the sentence is like " ---- when <some sentence>" needs to remove that when part (any wh word)
+    //todo : use the previously used annotation
     public static String WhTagFilterInEnd(String text){
         Properties props = new Properties();
         props.setProperty("annotators", "tokenize,ssplit,pos");
