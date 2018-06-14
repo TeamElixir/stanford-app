@@ -53,7 +53,10 @@ public class Party_Extraction_Main {
 //        PrintStream ps = new PrintStream(new BufferedOutputStream(new FileOutputStream("/home/viraj/Desktop/result_corenlp.txt")));
 //        System.setOut(ps);
 
-        BufferedWriter br = new BufferedWriter(new FileWriter(new File("/home/viraj/Desktop/coreNLP_party.txt")));
+        BufferedWriter br = new BufferedWriter(new FileWriter(new File("/home/viraj/Desktop/coreNLP_party_fullinfo_jaelee.txt")));
+        BufferedWriter br2 = new BufferedWriter(new FileWriter(new File("/home/viraj/Desktop/jayLee_parties.txt")));
+
+        ArrayList<Subject_combination> combinationArrayList = new ArrayList<>();
 
         while (sc.hasNextLine()){
             String text = sc.nextLine();
@@ -76,7 +79,7 @@ public class Party_Extraction_Main {
                 String innerSentence = endExtractedInnerSentence(startPointIndexInnerSentence(array[1].beginPosition(),array[0].beginPosition(),text),text);
                 innerSentence = WhTagFilterInEnd(innerSentence);
 
-                IndexedWord innersubject = CoreNLPDepParser.findRelatedDepWordForGivenWord(ann,"nsubj",array[0]);
+                IndexedWord innersubject = CoreNLPDepParser.findSubjectForGivenVerb(ann,array[0]);
                 String innerSubjectContext = "none-innersubject";
                 if(innersubject != null){
                     innerSubjectContext = CoreNLPDepParser.findSubjectContext(ann,innersubject);
@@ -86,7 +89,8 @@ public class Party_Extraction_Main {
                 IndexedWord outerVerb = CoreNLPDepParser.findRelatedGovWordForGivenWord(ann,"ccomp",array[0]);
                 String outerVerbContext = CoreNLPDepParser.findVerbContext(ann,outerVerb);
 
-                IndexedWord outerSubject = CoreNLPDepParser.findRelatedDepWordForGivenWord(ann,"nsubj",outerVerb);
+                IndexedWord outerSubject = CoreNLPDepParser.findSubjectForGivenVerb(ann,outerVerb);
+
                 String outerSubjectContext = "none-outerSubject";
                 if(outerSubject != null){
                     outerSubjectContext = CoreNLPDepParser.findSubjectContext(ann, outerSubject);
@@ -103,6 +107,11 @@ public class Party_Extraction_Main {
 
                 System.out.println("innerSentence : "+innerSentence);
                 br.write("\t"+ "innerSentence : " + innerSentence +"\n");
+
+                Subject_combination subject_combination = new Subject_combination();
+                subject_combination.party_1 = innerSubjectContext;
+                subject_combination.party_2 = outerSubjectContext;
+
                 for(CoreMap coreMapSentence : sentences) {
                     final Tree tree = coreMapSentence.get(SentimentCoreAnnotations.SentimentAnnotatedTree.class);
                     final SimpleMatrix sm = RNNCoreAnnotations.getPredictions(tree);
@@ -115,6 +124,12 @@ public class Party_Extraction_Main {
                     br.write("\t\t" + "matrix" + sm+"\n");
                     br.write("\t\t---------------------------------------------------------\n");
                     System.out.println();
+                    subject_combination.sm1 =sm;
+                    if(sentiment.toLowerCase().equals("negative")){
+                        subject_combination.inner_sentiment = "negative";
+                    }else{
+                        subject_combination.inner_sentiment = "non-negative";
+                    }
                 }
 
 
@@ -127,6 +142,8 @@ public class Party_Extraction_Main {
 
                 System.out.println("outerSentence");
                 br.write("\t"+ "innerSentence : " + outerSentence +"\n");
+                subject_combination.innerSentence = innerSentence;
+                subject_combination.outerSentence = outerSentence;
                 for(CoreMap coreMapSentence : sentences) {
 
                     final Tree tree = coreMapSentence.get(SentimentCoreAnnotations.SentimentAnnotatedTree.class);
@@ -140,21 +157,61 @@ public class Party_Extraction_Main {
                     br.write("\t\t" + "matrix" + sm+"\n");
                     br.write("\t\t---------------------------------------------------------\n");
                     System.out.println("\n");
+                    subject_combination.sm2 = sm;
+
+                    if(sentiment.toLowerCase().equals("negative")){
+                        subject_combination.outer_sentiment = "negative";
+                    }else{
+                        subject_combination.outer_sentiment = "non-negative";
+                    }
                 }
 
                 br.write("\t outer Subject : "+outerSubjectContext);
                 br.write(", \t inner Subject : "+ innerSubjectContext+"\n");
+                combinationArrayList.add(subject_combination);
             }
             br.newLine();
         }
         br.close();
+
+        br2.write("one negative and the other is non-negative\n\n");
+        for(Subject_combination combination : combinationArrayList){
+            if((combination.inner_sentiment.equals("negative") && combination.outer_sentiment.equals("non-negative"))
+                    || combination.inner_sentiment.equals("non-negative") && combination.outer_sentiment.equals("negative")){
+                br2.write(combination.party_1 + " - " + combination.party_2 + "\n");
+            }
+        }
+        br2.write("-----------------\n\n");
+
+        br2.write("both non-negative\n\n");
+        for(Subject_combination combination : combinationArrayList){
+            if(combination.inner_sentiment.equals("negative") && combination.outer_sentiment.equals("negative")){
+                br2.write(combination.party_1 + " - " + combination.party_2 + "\n");
+            }
+        }
+        br2.write("-----------------\n\n");
+        br2.flush();
+        br2.close();
+
+        for(Subject_combination combination : combinationArrayList){
+            if(combination.inner_sentiment.equals("non-negative") && combination.outer_sentiment.equals("non-negative")){
+                System.out.println(combination.innerSentence);
+                System.out.println(combination.sm1);
+                System.out.println(combination.outerSentence);
+                System.out.println(combination.sm2);
+                System.out.println(combination.party_1 + " - " +combination.party_2);
+                System.out.println("------------------");
+                System.out.println();
+
+            }
+        }
     }
 
 
     //should provide the part of sentence begins after the term "that" : fine
     public static String endExtractedInnerSentence(int startIndex , String text){
         //todo : if that followed by when, where or although kind a word dismiss for now
-        char[] endPointChars = {',', '?'};
+        char[] endPointChars = {',', ':',';','?'};
 
         int firstEndPointIndex = text.length();
 
@@ -176,7 +233,7 @@ public class Party_Extraction_Main {
     //returns the start of inner sentence, should provide the index of that: verb related with the verb prior to that, and whole sentence
     public static int startPointIndexInnerSentence(int indexOfThat,int verbIndex, String sentence){
 
-        char[] startChars = {','};
+        char[] startChars = {',',':',';'};
         int startIndex1 = indexOfThat+4;
 
         for(int i=verbIndex;i>0;i--){
@@ -211,6 +268,18 @@ public class Party_Extraction_Main {
             }
         }
         return text;
+    }
+
+    static class Subject_combination{
+        String party_1;
+        String party_2;
+        String inner_sentiment;
+        String outer_sentiment;
+        SimpleMatrix sm1;
+        SimpleMatrix sm2;
+        String innerSentence;
+        String outerSentence;
+
     }
 
 
