@@ -1,0 +1,59 @@
+The Colorado Court of Appeals concluded that both petitioners were entitled to seek refunds of all they had paid, but the Colorado Supreme Court reversed.
+It reasoned that Colorado's Compensation for Certain Exonerated Persons statute (Exoneration Act or Act), Colo.
+The Colorado Supreme Court also held that there was no due process problem under the Act, which permits Colorado to retain conviction-related assessments unless and until the prevailing defendant institutes a discrete civil proceeding and proves her innocence by clear and convincing evidence.
+Colorado argues that an Act that provides sufficient process to compensate a defendant for the loss of her liberty must suffice to compensate a defendant for the lesser deprivation of money.
+Other procedures cited by Colorado--the need for probable cause to support criminal charges, the jury-trial right, and the State's burden to prove guilt beyond a reasonable doubt--do not address the risk faced by a defendant whose conviction has been overturned that she will not recover funds taken from her based solely on a conviction no longer valid.
+The same Colorado Court of Appeals panel heard both cases and concluded that Nelson and Madden were entitled to seek refunds of all they had paid, including amounts allocated to restitution.
+As no other statute addresses refunds, the court concluded that the Exoneration Act is the "exclusive process for exonerated defendants seeking a refund of costs, fees, and restitution."
+Colorado argues that we should instead apply the standard from Medina v. California, 505 U. S. 437, 445 (1992), and inquire whether Nelson and Madden were exposed to a procedure offensive to a fundamental principle of justice.
+Colorado also suggests that "numerous pre- and post-deprivation procedures"--including the need for probable cause to support criminal charges, the jury-trial right, and the State's burden to prove guilt beyond a reasonable doubt--adequately minimize the risk of erroneous deprivation of property.
+It is, instead, the risk faced by a defendant whose conviction has already been overturned that she will not recover funds taken from her solely on the basis of a conviction no longer valid.
+I agree that the judgments of the Colorado Supreme Court must be reversed, but I reach that conclusion by a different route.
+In holding that these payments must be refunded, the Court relies on a feature of the criminal law, the presumption of innocence.
+And since the Court demands that refunds occur either automatically or at least without imposing anything more than "minimal" procedures, see ante, at 10, it appears that they must generally occur as part of the criminal case.
+Indeed, petitioners invite us to measure the Colorado scheme against traditional practice, reminding us that our " 'first due process cases' " recognized that " 'traditional practice provides a touchstone for constitutional analysis,' " Brief for Petitioners 26 (quoting Honda Motor Co. v. Oberg, 512 U. S. 415, 430 (1994)).
+Petitioners then go on to argue at some length that "[t]he traditional rule has always been that when a judgment is reversed, a person who paid money pursuant to that judgment is entitled to receive the money back."
+Where long practice has struck a particular balance between the competing interests of the State and those charged with crimes, we should not lightly disturb that determination.
+American law has long recognized that when an individual is obligated by a civil judgment to pay money to the opposing party and that judgment is later reversed, the money should generally be repaid.
+See, e.g., 25 C. J., at 1165 (noting that "restitution [of fines paid on a conviction later reversed] is not necessarily a matter of right"); Annot., 26 A. L. R., at 1532, §VI(a) (Restitution for fines upon reversal of a conviction "is not a matter of strict legal right, but rather one for the exercise of the court's discretion").
+These stringent requirements all but guarantee that most defendants whose convictions are reversed have no realistic opportunity to prove they are deserving of refunds.
+The implication of this brief statement is that under Mathews, reversal restores the defendant to the status quo ante, see ante, at 3.
+J. L. Reform 123, 145 (2010) (Most U. S. compensation statutes "require that claimants prove their innocence either by a preponderance of the evidence or by clear and convincing evidence" (footnote omitted)).
+In construing the federal statute, courts have held that a compensation proceeding "is not . . . a criminal trial" and that the burden of proof can be placed on the petitioner.
+As noted, Colorado and many other States have similar statutes designed narrowly to compensate those few persons who can demonstrate that they are truly innocent.
+The Court apparently acknowledges that these statutes pose no constitutional difficulty.
+The Court flatly declares that the State is "obliged to refund . . . restitution" in just the same way as fees and court costs.
+Suppose that a victim successfully sues a criminal defendant civilly and introduces the defendant's criminal conviction on the underlying conduct as (potentially preclusive) evidence establishing an essential element of a civil claim.
+And suppose that the defendant's criminal conviction is later reversed for a trial error that did not (and could not) infect the later civil proceeding: for example, the admission of evidence barred by the exclusionary rule or a Confrontation Clause violation.
+It would be unprecedented to suggest that due process requires unwinding the civil judgment simply because it rests in part on a criminal conviction that has since been reversed.
+The only salient difference would be that, in the Colorado case, the civil judgment would have been obtained as part of the criminal proceeding itself.
+It is especially startling to insist that a State must provide a refund after enforcing a restitution judgment on the victims' behalf in reliance on a final judgment that is then vacated on collateral review.
+What if the evidence amply establishes that the defendant injured the victims to whom restitution was paid but the defendant's conviction is reversed on a ground that would be inapplicable in a civil suit?
+Would the Court reach that conclusion if state law mandated a refund from the recipients of the restitution?
+But if the Court had to address this subject to dispose of these cases, it should have acknowledged that--at least in some circumstances--refunds of restitution payments made under later reversed judgments are not constitutionally required.
+Colorado concedes that "if [petitioners] have a present entitlement" to the money--that is, if "it is their prop-erty"--"then due process requires [the State to accord] them some procedure to get it back."
+And Colorado acknowledges that the procedural hurdles it could impose before returning the money "would be fairly minimal," id., at 51, because petitioners would need to prove only that their convictions had been reversed and that they had paid a certain sum of money, see ibid.
+Similarly, petitioners concede that if defendants in their position do not have a substantive right to recover the money--that is, if the money belongs to the State--then Colorado need not "provide any procedure to give it back."
+In my view, petitioners have not demonstrated that defendants whose convictions have been reversed possess a substantive entitlement, under either state law or the Constitution, to recover money they paid to the State pursuant to their convictions.
+The Fourteenth Amendment provides that no State shall "deprive any person of life, liberty, or property, without due process of law."
+14, §1 (emphasis added).1 To show that Colorado has violated the Constitution's procedural guarantees, as relevant here, petitioners must first establish that they have been deprived of a protected property interest.
+Petitioners contend that the money remains their property under state law.
+The key premise of the Colorado Supreme Court's holdings in these cases is that moneys lawfully exacted pursuant to a valid conviction become public funds (or the victims' money) under Colorado law.
+The Colorado Supreme Court further noted that, "[o]nce the state disburses restitution to the victims, the state no longer controls that money."
+The Colorado Supreme Court explained that "Colorado's constitution protects" the Colorado Legislature's "control over public money," and thus a "court may authorize refunds from public funds only pursuant to statutory authority."
+At no point in this litigation have petitioners attempted to demonstrate that they satisfy the requirements of the Exoneration Act.
+Under the Act, Colorado recognizes a substantive entitlement to the kind of property at issue in these cases only if, among other things, the defendant can prove that he is "actually innocent.
+This Court has interpreted the Due Process Clause to require that the States provide certain procedures, such as notice and a hearing, by which an individual can prove a substantive entitlement to (or defend against a deprivation of ) property.
+Thus, to the extent the majority implicitly suggests that petitioners have a state-law right to an automatic refund (a point about which the majority is entirely unclear), it is plainly incorrect.
+No one disputes that if petitioners had never been convicted, Colorado could not have required them to pay the money at issue.
+And no one disputes that Colorado cannot require petitioners to pay any additional costs, fees, or restitution now that their convictions have been invalidated.
+The Court today announces that petitioners have a right to an automatic refund because the State has "no legal right" to that money.
+Citing Bell v. Wolfish, 441 U. S. 520 (1979), Colorado asserts that "[t]he presumption of innocence applies only at criminal trials" and thus has no application here.
+Our opinion in that case recognized that "under the Due Process Clause," a detainee who "has not been adjudged guilty of any crime" may not be punished.
+The presumption of innocence unquestionably fits that bill.
+Colorado invites a distinction between convictions merely "voidable," rather than "void," and urges that the invalidated convictions here fall in the voidable category.
+Colorado additionally argues that defendants can request a stay of sentence pending appeal, thereby reducing the risk of erroneous deprivation.
+The Court suggests that Medina would support its judgment because the presumption of innocence is deeply rooted and fundamental.
+Because Colorado does not advance that argument, and because it is unnecessary to resolve the issue in these cases.
+I assume that the Due Process Clause requires some baseline procedures regardless of the provisions of Colorado law.
+More specifically, the Exoneration Act entitles an exonerated defendant to compensation if he was convicted of a felony, was incarcerated, and, among other requirements, can prove by clear and convincing evidence that he is "actually innocent," meaning that his "conviction was the result of a miscarriage of justice" or that he is factually innocent.

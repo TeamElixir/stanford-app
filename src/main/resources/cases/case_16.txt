@@ -1,0 +1,66 @@
+The judge instructed the jury that, to convict Marinello of an Omnibus Clause violation, it must find that he "corruptly" engaged in at least one of eight specified activities, but the jury was not told that it needed to find that Marinello knew he was under investigation and intended corruptly to interfere with that investigation.
+Held: To convict a defendant under the Omnibus Clause, the Government must prove the defendant was aware of a pending tax-related proceeding, such as a particular investigation or audit, or could reasonably foresee that such a proceeding would commence.
+The Court said that the defendant's "act must have a relationship in time, causation, or logic with the judicial proceedings."
+In reaching this conclusion, the Court emphasized that it has "traditionally exercised restraint in assessing the reach of a federal criminal statute, both out of deference to the prerogatives of Congress and out of concern that 'a fair warning should be given to the world in language that the common world will understand, of what the law intends to do if a certain line is passed.' "
+The Government claims that the "corrupt state of mind" requirement will cure any overbreadth problem, but it is difficult to imagine a scenario when that requirement will make a practical difference in the context of federal tax prosecutions.
+(b) Following the same approach taken in similar cases, the Government here must show that there is a "nexus" between the defendant's conduct and a particular administrative proceeding, such as an investigation, an audit, or other targeted administrative action.
+Just because a taxpayer knows that the IRS will review her tax return annually does not transform every Tax Code violation into an obstruction charge.
+In addition to satisfying the nexus requirement, the Government must show that the proceeding was pending at the time the defendant engaged in the obstructive conduct or, at the least, was then reasonably foreseeable by the defendant.
+In respect to the Omnibus Clause the Government claimed that Marinello had engaged in at least one of eight different specified activities, including "failing to maintain corporate books and records," "failing to provide" his tax accountant "with complete and accurate" tax "information," "destroying . . . business records," "hiding income," and "paying employees . . . with cash."
+The judge, however, did not instruct the jury that it must find that Marinello knew he was under investigation and intended corruptly to interfere with that investigation.
+He argued, among other things, that a violation of the Omnibus Clause requires the Government to show that the defendant had tried to interfere with a "pending IRS proceeding," such as a particular investigation.
+It held that a defendant need not possess " 'an awareness of a particular [IRS] action or investigation.' "
+In interpreting that statute we pointed to earlier cases in which courts had held that the Government must prove "an intent to influence judicial or grand jury proceedings."
+We noted that some courts had imposed a " 'nexus' requirement": that the defendant's "act must have a relationship in time, causation, or logic with the judicial proceedings."
+We wrote that we "have traditionally exercised restraint in assessing the reach of a federal criminal statute, both out of deference to the prerogatives of Congress and out of concern that 'a fair warning should be given to the world in language that the common world will understand, of what the law intends to do if a certain line is passed.' "
+Here statutory context confirms that the text refers to specific, targeted acts of administration.
+It says that §7212 "covers all cases where the officer is intimidated or injured; that is, where corruptly, by force or threat of force, directly or by communication, an attempt is made to impede the administration of the internal-revenue laws."
+We have found nothing in the statute's history suggesting that Congress intended the Omnibus Clause as a catchall applicable to the entire Code including the routine processing of tax returns, receipt of tax payments, and issuance of tax refunds.
+Such an individual may sometimes believe that, in doing so, he is running the risk of having violated an IRS rule, but we sincerely doubt he would believe he is facing a potential felony prosecution for tax obstruction.
+Had Congress intended that outcome, it would have spoken with more clarity than it did in §7212(a).
+The Government argues that the need to show the defendant's obstructive conduct was done "corruptly" will cure any overbreadth problem.
+The Government asserts that "corruptly" means acting with "the specific intent to obtain an unlawful advantage" for the defendant or another.
+See Cheek v. United States, 498 U. S. 192, 201 (1991) ("Willfulness . . . requires the Government to prove that the law imposed a duty on the defendant, that the defendant knew of this duty, and that he voluntarily and intentionally violated that duty") A taxpayer may know with a fair degree of certainty that her babysitter will not declare a cash payment as income--and, if so, a jury could readily find that the taxpayer acted to obtain an unlawful benefit for another.
+And, at oral argument the Government told us that, where more punitive and less punitive criminal provisions both apply to a defendant's conduct, the Government will charge a violation of the more punitive provision as long as it can readily prove that violation at trial.
+That is one reason why we have said that we "cannot construe a criminal statute on the assumption that the Government will 'use it responsibly.' "
+Congress then used that same amended formulation when it enacted §7212, prohibiting the "obstruction of the due administration" of the Tax Code.
+We conclude that, to secure a conviction under the Omnibus Clause, the Government must show (among other things) that there is a "nexus" between the defendant's conduct and a particular administrative proceeding, such as an investigation, an audit, or other targeted administrative action.
+Just because a taxpayer knows that the IRS will review her tax return every year does not transform every violation of the Tax Code into an obstruction charge.
+In addition to satisfying this nexus requirement, the Government must show that the proceeding was pending at the time the defendant engaged in the obstructive conduct or, at the least, was then reasonably foreseeable by the defendant.
+I would hold that the Omnibus Clause does what it says: forbid corrupt efforts to impede the IRS from performing any of these activities.
+The Court may well prefer a statute written that way, but that is not what Congress enacted.
+The IRS learned that he had not filed a tax return--corporate or individual--since at least 1992.
+He admitted that he earned more than $1,000 per year, but said he " 'never got around' " to paying taxes.
+He also admitted that he shredded documents, did not keep track of the company's income or expenses, and used the company's income for personal bills.
+His only excuse was that he "took the easy way out."
+I agree with the Court's interpretations of "obstruct or impede" and "due administration," which together refer to conduct that hinders the IRS' performance of its official duties.
+I also agree that the object of these words--the thing a person is prohibited from obstructing the due administration of--is "this title," i.e., Title 26, which contains the entire Tax Code.
+But I part ways when the Court concludes that the whole phrase "due administration of the Tax Code" means "only some of" the Tax Code--specifically "particular [IRS] proceeding[s], such as an investigation, an audit, or other targeted administrative action."
+It requires taxpayers to keep certain records and file certain returns, §6001; specifies that taxpayers with qualifying incomes must file returns, §6012; and authorizes the Secretary of the Treasury to create returns for taxpayers who fail to file returns or who file fraudulent ones, §6020.
+It concludes that the statute prohibits only acts related to a pending or imminent proceeding.
+The Omnibus Clause nowhere suggests that "only some of" the processes in the Tax Code are covered, ante, at 5, or that the line between covered and uncovered processes is drawn at some vague notion of "proceeding."
+This Court cannot "lightly assume that Congress has omitted from its adopted text requirements that it nonetheless intends to apply."
+First, the Court contends that the Omnibus Clause must be limited to pending or imminent proceedings because the other clauses of §7212 are limited to actions "taken against individual identifiable persons or property."
+See Ali v. Federal Bureau of Prisons, 552 U. S. 214, 225 (2008) (explaining that the ejusdem generis canon does not apply to a "disjunctive" phrase in a statute "with one specific and one general category").
+Second, the Court asserts that its reading prevents the Omnibus Clause from overlapping with certain misdemeanors in the Tax Code.
+The Omnibus Clause requires that an act be done "corruptly," but the misdemeanor provisions require that an act be done "willfully."
+While "willfully" requires proof only "that the law imposed a duty on the defendant, that the defendant knew of this duty, and that he voluntarily and intentionally violated that duty," Cheek v. United States, 498 U. S. 192, 201 (1991), "corruptly" requires proof that the defendant "act[ed] with an intent to procure an unlawful benefit either for [himself] or for some other person," United States v. Floyd, 740 F. 3d 22, 31 (CA1 2014) (collecting cases); see also Black's Law Dictionary 414 (rev. 4th ed.
+In other words, "corruptly" requires proof that the defendant not only knew he was obtaining an "unlawful benefit" but that his "objective" or "purpose" was to obtain that unlawful benefit.
+2d, Criminal Law §114 (2016) (explaining that specific intent requires both knowledge and purpose).
+The law recognizes that the same conduct, when committed with a higher mens rea, is more culpable and thus more deserving of punishment.
+See, e.g., 40 C. J. S., Homicide §80 (2014) (explaining that the distinction between first- and second-degree murder is based on the defendant's state of mind); §103 (same for voluntary and involuntary manslaughter).
+Certain misdemeanor offenses in the Tax Code--such as failing to obey a summons, §7210--apply to conduct that takes place during a proceeding and, thus, would still violate the Omnibus Clause under the Court's interpretation.
+The Court contends that its narrow reading of "due administration of this title" is supported by three decisions interpreting other obstruction statutes, though it admits that the "language and history" of the Omnibus Clause "differ somewhat" from those other obstruction provisions.
+The Court concluded that this language requires the prosecution to prove a "nexus" between the defendant's obstructive act and "judicial proceedings."
+Based on this statutory history, the Court assumed that §1503 continued to refer to the administration of justice in a court.
+Relying on Aguilar, the Court concluded that §1512(b)(2)(A) required the Government to show a "nexus" with "[a] particular proceeding."
+If anything, then, §1512(b)(2)(A) cuts against the Court's interpretation of the Omnibus Clause because it shows that Congress knows how to impose a "proceeding" requirement when it wants to do so.
+The four Justices in the plurality recognized that this language made §1519 broader than other obstruction statutes: Section 1519 "covers conduct intended to impede any federal investigation or proceeding, including one not even on the verge of commencement."
+The plurality contrasted the term "official proceeding" with the phrase "investigation or proper administration of any matter within the jurisdiction of any department or agency," noting that the latter is broader.
+In sum, these cases demonstrate that, when text and history justify it, this Court interprets obstruction statutes to include a proceeding requirement.
+If the Court is concerned that the Omnibus Clause does not give defendants "fair warning" of what it prohibits, ante, at 7, I am hard pressed to see how today's decision makes things better.
+Further, the Government must prove that the proceeding was "reasonably foreseeable" to the defendant.
+Congress may well have concluded that a broad statute was warranted because "our tax structure is based on a system of self-reporting" and "the Government depends upon the good faith and integrity of each potential taxpayer to disclose honestly all information relevant to tax liability."
+The Court frets that the Omnibus Clause might apply to "a person who pays a babysitter $41 per week in cash without withholding taxes," "leaves a large cash tip in a restaurant," "fails to keep donation receipts from every charity," or "fails to provide every record to an accountant."
+But what should not be debatable is that the statute covers Marinello, who systematically shredded documents and hid evidence about his company's earnings to avoid paying taxes even after warnings from his lawyer and accountant.
+However, the solution is not to restrict that authority so as to undermine the efficacy of the federal tax system."

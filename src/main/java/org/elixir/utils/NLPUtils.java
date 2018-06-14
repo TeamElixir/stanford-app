@@ -2,7 +2,6 @@ package org.elixir.utils;
 
 import edu.stanford.nlp.coref.CorefCoreAnnotations;
 import edu.stanford.nlp.coref.data.CorefChain;
-import edu.stanford.nlp.coref.data.Mention;
 import edu.stanford.nlp.ling.CoreAnnotations;
 import edu.stanford.nlp.ling.CoreLabel;
 import edu.stanford.nlp.pipeline.Annotation;
@@ -53,7 +52,7 @@ public class NLPUtils {
         return "Positive".equals(sentiment);
     }
 
-    public static ArrayList<String> getCoref(String inputText) {
+    public static ArrayList<String> getCorefChains(String inputText) {
         ArrayList<String> corefs = new ArrayList<>();
 
         Annotation document = new Annotation(inputText);
@@ -61,24 +60,19 @@ public class NLPUtils {
         props.setProperty("annotators", "tokenize,ssplit,pos,lemma,ner,parse,coref");
         StanfordCoreNLP pipeline = new StanfordCoreNLP(props);
         pipeline.annotate(document);
+
         System.out.println("---");
         System.out.println("coref chains");
+
         for (CorefChain cc : document.get(CorefCoreAnnotations.CorefChainAnnotation.class).values()) {
-            System.out.println("cc: " + cc);
+//            System.out.println("cc: " + cc);
             List<CorefChain.CorefMention> mentionsInTextualOrder = cc.getMentionsInTextualOrder();
-            System.out.println("Foreach in mentionsInTextualOrder");
+//            System.out.println("Foreach in mentionsInTextualOrder");
             for (CorefChain.CorefMention mention : mentionsInTextualOrder) {
-                System.out.println(mention);
-            }
-        }
-        for (CoreMap sentence : document.get(CoreAnnotations.SentencesAnnotation.class)) {
-            System.out.println("---");
-            System.out.println("mentions");
-            for (Mention m : sentence.get(CorefCoreAnnotations.CorefMentionsAnnotation.class)) {
-                System.out.println("mention: " + m);
-                System.out.println("sentNum: " + m.sentNum);
-//                System.out.println("mentionSpan: " + m.);
-                System.out.println();
+                int sentNo = mention.sentNum;
+                String word = mention.mentionSpan;
+                System.out.println(sentNo + " " + word);
+                System.out.println("---------");
             }
         }
 

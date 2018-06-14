@@ -1,0 +1,32 @@
+It also acknowledged that restitution was mandatory but deferred determination of the restitution amount.
+When he nonetheless challenged the restitution amount before the Eleventh Circuit, the Government argued that he had forfeited his right to do so by failing to file a second notice of appeal.
+The Eleventh Circuit agreed, holding that petitioner could not challenge the restitution amount.
+(a) Both 18 U. S. C. §3742(a), which governs criminal appeals, and Federal Rule of Appellate Procedure 3(a)(1) contemplate that a defendant will file a notice of appeal after the district court has decided the issue sought to be appealed.
+Even if the District Court's acknowledgment in the initial judgment that restitution was mandatory could qualify as a "sentence" that the District Court "announced" under Rule 4(b)(2), petitioner has never disputed that restitution is mandatory for his offense.
+We hold that it is not, at least where, as here, the Government objects to the defendant's failure to file a notice of appeal following the amended judgment.
+At the sentencing hearing, the court acknowledged that restitution was mandatory.
+Accordingly, the judgment expressly deferred "determination of restitution" and noted that an "Amended Judgment . . . w[ould] be entered after such determination."
+The court ordered petitioner to pay $4,500 in restitution to her and entered an amended judgment the next day imposing that sentence.
+The Government countered that petitioner had forfeited his right to challenge the restitution amount by failing to file a second notice of appeal.
+The Court of Appeals agreed that petitioner could not challenge the restitution amount and declined to consider his challenge.
+The statute that governs appeals of criminal sentences, 18 U. S. C. §3742(a), provides that a "defendant may file a notice of appeal in the district court for review of an otherwise final sentence" in certain specified circumstances.
+And Federal Rule of Appellate Procedure 3(a)(1) specifies that "[a]n appeal permitted by law as of right . . . may be taken only by filing a notice of appeal with the district clerk within the time allowed by Rule 4."
+Both §3742(a) and Rule 4 contemplate that the defendant will file the notice of appeal after the district court has decided the issue sought to be appealed.
+The Government contends that filing a notice of appeal from the judgment imposing restitution is a jurisdictional prerequisite to securing appellate review of the restitution amount.
+Mandatory claim-processing rules "seek to promote the orderly progress of litigation by requiring that the parties take certain procedural steps at certain specified times."
+See Brief for United States in No. 14-13029 (CA11), pp. 22-25 (arguing that petitioner "waived his right to appeal the district court's order of restitution by failing to file a notice of appeal from that order" (capitalization omitted)).
+Petitioner disputes this conclusion, arguing that his single notice of appeal sufficed under the Rules to appeal both the initial judgment and the amended judgment imposing restitution.
+Petitioner argues that the initial judgment deferring restitution and the amended judgment imposing a specific restitution amount merge to become "the judgment" referenced in the Federal Rules.
+He argues that his notice of appeal, which was filed within 14 days of the initial judgment, was therefore sufficient to invoke appellate review of the merged judgment.
+The petitioner in that case argued that the amended judgment imposing restitution is the only final, appealable judgment in a deferred restitution case.
+That Rule provides that a "notice of appeal filed after the court announces a decision, sentence, or order--but before the entry of the judgment or order--is treated as filed on the date of and after the entry."
+Even if describing restitution as mandatory could qualify as a "sentence" that the District Court "announced" under Rule 4(b)(2), petitioner has never disputed that restitution is mandatory for his offense.
+Because petitioner's notice of appeal was filed well before the District Court announced the sentence imposing $4,500 in restitution, the notice of appeal did not "spring forward" to become effective on the date the court entered its amended judgment imposing that sentence.
+The filing of a notice of appeal from an amended judgment imposing restitution is at least a mandatory claim-processing rule, Part II-A, supra, meaning that the requirement to file such a notice is unalterable, so long as the opposing party raises the issue.
+We hold that a defendant who wishes to appeal an order imposing restitution in a deferred restitution case must file a notice of appeal from that order.
+But even assuming, arguendo, that separate appeal notices are ordinarily required, I would hold that Manrique is not barred from appealing the restitution order in the circumstances of this case.
+The Government agrees that the District Court was "absolutely" required to advise Manrique of his right to appeal the restitution order, and anticipates that the required advice "will prevent cases like this from arising again in the future."
+Aware of its obligation to advise Manrique of his right to appeal, the District Court appears to have assumed that no second notice was required to place the restitution amount before the Court of Appeals.
+Without awaiting another appeal notice, the District Court clerk transmitted the amended judgment, five days after its entry, to the Court of Appeals, which filed that judgment on the docket of the appeal from the conviction and sentence already pending in that court.
+In light of what occurred here, I would hold that the clerk's dispatch of the amended judgment to the Court of Appeals "confer[red] jurisdiction on the court of appeals."
+We do not intend to call into question this Court's decision in Corey v. United States, 375 U. S. 169, 176 (1963) (holding that a defendant may challenge his conviction after a single notice of appeal filed from a final sentence imposed under §4208(b)).
