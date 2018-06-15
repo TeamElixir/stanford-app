@@ -15,7 +15,10 @@ import java.util.ArrayList;
 
 public class CorefRunner {
     public static void main(String[] args) {
-        insertSentencesOfParasToDB();
+//        insertSentencesOfParasToDB();
+//        insertParagraphsIntoDB();
+//        insertCorefChainsOfParasIntoDB();
+        exampleUsage();
     }
 
     private static void exampleUsage() {
@@ -36,7 +39,7 @@ public class CorefRunner {
     }
 
     private static void insertSentencesOfParasToDB() {
-        for (int i = 11; i < 22; i++) {
+        for (int i = 11; i <= 20; i++) {
             System.out.println("Paragraph: " + i);
             ArrayList<Paragraph> paragraphsOfCase = ParagraphsController.getParagraphsOfCase(i);
             for (Paragraph p : paragraphsOfCase) {
@@ -50,7 +53,7 @@ public class CorefRunner {
     }
 
     private static void insertCorefChainsOfParasIntoDB() {
-        for (int i = 11; i < 22; i++) {
+        for (int i = 11; i <= 20; i++) {
             System.out.println("Paragraph: " + i);
             ArrayList<Paragraph> paragraphsOfCase = ParagraphsController.getParagraphsOfCase(i);
             for (Paragraph p : paragraphsOfCase) {
@@ -69,8 +72,13 @@ public class CorefRunner {
         for (String case_ : fullCases) {
             String[] paragraphs = case_.split("\n");
             for (String paragraph : paragraphs) {
-                Paragraph p = new Paragraph(i, paragraph);
-                boolean inserted = ParagraphsController.insertParagraph(p);
+                Paragraph p = new Paragraph(i, paragraph.trim());
+                // validate paragraph
+                String[] wordsOfPara = p.getParagraph().split(" ");
+                if (wordsOfPara.length > 5) {
+                    boolean inserted = ParagraphsController.insertParagraph(p);
+                }
+
             }
             System.out.println("Case: " + i++);
         }
