@@ -45,6 +45,7 @@ public class ParagraphsController {
                 String paragraph = rs.getString("paragraph");
                 Paragraph p = new Paragraph(id, caseNumber, paragraph);
                 p.setCorefChains(CorefChainOfParagraphsController.getCorefChainsOfParagraph(p.getId()));
+                p.setSentences(SentencesOfParagraphsController.getSentencesOfParagraph(p.getId()));
                 paragraphs.add(p);
             }
         } catch (SQLException e) {

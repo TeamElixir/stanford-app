@@ -17,21 +17,29 @@ import java.util.ArrayList;
 
 public class CorefRunner {
     public static void main(String[] args) {
-        Case aCase = CasesController.getCaseByNumber(12);
+        int caseNumber = 12;
+        Case aCase = CasesController.getCaseByNumber(caseNumber);
+        System.out.println("Case: " + caseNumber);
         ArrayList<Paragraph> paragraphs = aCase.getParagraphs();
         for (Paragraph p : paragraphs) {
-            ArrayList<CorefChainOfParagraph> corefChains = p.getCorefChains();
-            for (CorefChainOfParagraph corefChain : corefChains) {
-                System.out.println(corefChain);
+            ArrayList<SentenceOfParagraph> sentences = p.getSentences();
+            for (int i = 0; i < sentences.size(); i++) {
+                System.out.println((i+1) + ": " + sentences.get(i).getSentence());
             }
 
-            ArrayList<SentenceOfParagraph> sentences = p.getSentences();
-            for (SentenceOfParagraph s : sentences) {
-                System.out.println(s);
+            System.out.println();
+
+            ArrayList<CorefChainOfParagraph> corefChains = p.getCorefChains();
+            if (corefChains.size() == 0) {
+                System.out.println("No coref chains!");
             }
+            for (CorefChainOfParagraph corefChain : corefChains) {
+                System.out.println(corefChain.getCorefChain());
+            }
+
+            System.out.println("--------\n");
         }
     }
-
 
     private static void insertSentencesOfParasToDB() {
         for (int i = 11; i <= 20; i++) {
