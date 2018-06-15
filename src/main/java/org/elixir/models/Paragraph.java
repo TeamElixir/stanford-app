@@ -6,32 +6,43 @@ public class Paragraph {
     public static final String TABLE_NAME = "paragraphs";
     private int id;
     private int caseNumber;
-    private String paragraph;
+    private String text;
     private ArrayList<CorefChainOfParagraph> corefChains;
+    private ArrayList<SentenceOfParagraph> sentences;
 
-    public Paragraph(int id, int caseNumber, String paragraph) {
+    public Paragraph(int id, int caseNumber, String text) {
         this.id = id;
         this.caseNumber = caseNumber;
-        this.paragraph = paragraph;
+        this.text = text;
         this.corefChains = new ArrayList<>();
+        this.sentences = new ArrayList<>();
     }
 
-    public Paragraph(int caseNumber, String paragraph) {
+    public Paragraph(int caseNumber, String text) {
         this.caseNumber = caseNumber;
-        this.paragraph = paragraph;
+        this.text = text;
         this.corefChains = new ArrayList<>();
+        this.sentences = new ArrayList<>();
     }
 
     @Override
     public String toString() {
         return "Paragraph{" +
                 "caseNumber=" + caseNumber +
-                ", paragraph='" + paragraph + '\'' +
+                ", text='" + text + '\'' +
                 '}';
     }
 
-    public void addCorefChain(CorefChainOfParagraph corefChain) {
-        this.corefChains.add(corefChain);
+    public ArrayList<SentenceOfParagraph> getSentences() {
+        return sentences;
+    }
+
+    public void setSentences(ArrayList<SentenceOfParagraph> sentences) {
+        this.sentences = sentences;
+    }
+
+    public void setCorefChains(ArrayList<CorefChainOfParagraph> corefChains) {
+        this.corefChains = corefChains;
     }
 
     public ArrayList<CorefChainOfParagraph> getCorefChains() {
@@ -50,7 +61,7 @@ public class Paragraph {
         return caseNumber;
     }
 
-    public String getParagraph() {
-        return paragraph;
+    public String getText() {
+        return text;
     }
 }

@@ -29,7 +29,7 @@ public class CorefChainOfParagraphsController {
         }
     }
 
-    public static ArrayList<CorefChainOfParagraph> getCorefChainsOfPara(int paragraphId) {
+    public static ArrayList<CorefChainOfParagraph> getCorefChainsOfParagraph(int paragraphId) {
         ArrayList<CorefChainOfParagraph> chainOfParagraphs = new ArrayList<>();
         PreparedStatement ps;
         ResultSet rs;

@@ -3,45 +3,50 @@ package org.elixir.models;
 import java.util.ArrayList;
 
 public class Case {
+    private int number;
 
-	private ArrayList<Sentence> sentences;
+    private ArrayList<Sentence> sentences;
 
-	private String title;
+    private ArrayList<Paragraph> paragraphs;
 
-	private String fileName;
 
-	public Case() {
-		sentences = new ArrayList<>();
-	}
+    private String fileName;
 
-	public Case(ArrayList<Sentence> sentences, String title, String fileName) {
-		this.sentences = sentences;
-		this.title = title;
-		this.fileName = fileName;
-		sentences = new ArrayList<>();
-	}
+    public Case() {
+        sentences = new ArrayList<>();
+    }
 
-	public void setSentences(ArrayList<Sentence> sentences) {
-		this.sentences = sentences;
-	}
+    public Case(int number) {
+        this.number = number;
+        this.sentences = new ArrayList<>();
+        this.paragraphs = new ArrayList<>();
+    }
 
-	public ArrayList<Sentence> getSentences() {
-		return sentences;
-	}
+    public int getNumber() {
+        return number;
+    }
 
-	public String getTitle() {
-		return title;
-	}
+    public ArrayList<Paragraph> getParagraphs() {
+        return paragraphs;
+    }
 
-	public void setTitle(String title) {
-		this.title = title;
-	}
+    public void setParagraphs(ArrayList<Paragraph> paragraphs) {
+        this.paragraphs = paragraphs;
+    }
 
-	public String getFileName() {
-		return fileName;
-	}
+    public void setSentences(ArrayList<Sentence> sentences) {
+        this.sentences = sentences;
+    }
 
-	public void setFileName(String fileName) {
-		this.fileName = fileName;
-	}
+    public ArrayList<Sentence> getSentences() {
+        return sentences;
+    }
+
+    public String getFileName() {
+        return fileName;
+    }
+
+    public void setFileName(String fileName) {
+        this.fileName = fileName;
+    }
 }

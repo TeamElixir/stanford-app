@@ -29,7 +29,7 @@ public class SentencesOfParagraphsController {
         }
     }
 
-    public static ArrayList<SentenceOfParagraph> getSentencesOfPara(int paragraphId) {
+    public static ArrayList<SentenceOfParagraph> getSentencesOfParagraph(int paragraphId) {
         ArrayList<SentenceOfParagraph> sentencesOfParagraph = new ArrayList<>();
         PreparedStatement ps;
         ResultSet rs;

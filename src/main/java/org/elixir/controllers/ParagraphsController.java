@@ -19,7 +19,7 @@ public class ParagraphsController {
         try {
             PreparedStatement ps = conn.prepareStatement(query);
             ps.setInt(1, paragraph.getCaseNumber());
-            ps.setString(2, paragraph.getParagraph());
+            ps.setString(2, paragraph.getText());
 
             ps.execute();
             return true;
@@ -43,7 +43,9 @@ public class ParagraphsController {
                 int id = rs.getInt("id");
                 int caseNumber = rs.getInt("case_number");
                 String paragraph = rs.getString("paragraph");
-                paragraphs.add(new Paragraph(id, caseNumber, paragraph));
+                Paragraph p = new Paragraph(id, caseNumber, paragraph);
+                p.setCorefChains(CorefChainOfParagraphsController.getCorefChainsOfParagraph(p.getId()));
+                paragraphs.add(p);
             }
         } catch (SQLException e) {
             e.printStackTrace();
