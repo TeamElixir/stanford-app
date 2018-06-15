@@ -52,6 +52,31 @@ public class NLPUtils {
         return "Positive".equals(sentiment);
     }
 
+    public static ArrayList<String> getSentencesOfText(String text) {
+        ArrayList<String> sentencesList = new ArrayList<>();
+        // creates a StanfordCoreNLP object, with POS tagging, lemmatization, NER, parsing, and coreference resolution
+        Properties props = new Properties();
+        props.setProperty("annotators", "tokenize,ssplit,pos,lemma,depparse,natlog, openie, ner");
+//        props.setProperty("ner.model","edu/stanford/nlp/models/ner/english.muc.7class.caseless.distsim.crf.ser.gz");
+        StanfordCoreNLP pipeline = new StanfordCoreNLP(props);
+
+        // create an empty Annotation just with the given text
+        Annotation document = new Annotation(text);
+
+        // run all Annotators on this text
+        pipeline.annotate(document);
+
+        // these are all the sentences in this document
+        // a CoreMap is essentially a Map that uses class objects as keys and has values with custom types
+        List<CoreMap> sentences = document.get(CoreAnnotations.SentencesAnnotation.class);
+
+        for (CoreMap sentence : sentences) {
+            sentencesList.add(sentence.toString());
+        }
+
+        return sentencesList;
+    }
+
     public static ArrayList<CorefChain> getCorefChains(String inputText) {
         ArrayList<CorefChain> corefs = new ArrayList<>();
 

@@ -63,5 +63,5 @@ public class CoreNLPTest {
                         triple.objectGloss());
             }
         }
-    }
+    }   // main()
 }
