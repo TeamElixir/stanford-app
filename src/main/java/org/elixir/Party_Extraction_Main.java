@@ -39,22 +39,34 @@ public class Party_Extraction_Main {
         props.setProperty("annotators", "tokenize,ssplit,pos,lemma,parse,natlog,depparse");
         StanfordCoreNLP pipeline = new StanfordCoreNLP(props);
 
+        String absoluteFilePath = new File("").getAbsolutePath();
+        String source_filePath = absoluteFilePath + "/src/main/resources/SentimentAnalysis/thatSent/";
+        String target_filePath = absoluteFilePath +"/src/main/resources/SentimentAnalysis/InnerOuterSentenceSentiment/";
+
         Properties propsSentiment = new Properties();
         propsSentiment.setProperty("annotators","tokenize,ssplit,tokenize,pos,lemma,parse,natlog,sentiment");
         StanfordCoreNLP sentimentPipeline = new StanfordCoreNLP(propsSentiment);
 
 
-        Scanner sc = new Scanner(new File("/home/viraj/Desktop/case_11.txt"));
+        Scanner sc = new Scanner(new File(source_filePath+"case_11.txt"));
 
         CustomizeSentimentAnnotator.addSentimentLayerToCoreNLPSentiment("sentimentAnnotator/DeviatedSentimentWords/non_positive_mini.csv",
                 "sentimentAnnotator/DeviatedSentimentWords/non_negative_mini.csv",
                 "sentimentAnnotator/DeviatedSentimentWords/non_neutral_mini.csv");
 
-//        PrintStream ps = new PrintStream(new BufferedOutputStream(new FileOutputStream("/home/viraj/Desktop/result_corenlp.txt")));
-//        System.setOut(ps);
 
-        BufferedWriter br = new BufferedWriter(new FileWriter(new File("/home/viraj/Desktop/coreNLP_party_fullinfo_jaelee.txt")));
-        BufferedWriter br2 = new BufferedWriter(new FileWriter(new File("/home/viraj/Desktop/jayLee_parties.txt")));
+        File full_infoFile = new File(target_filePath + "case_11/fullinfo.txt");
+        full_infoFile.getParentFile().mkdirs();
+
+        File intermediate_sentiment_File = new File(target_filePath + "case_11/InnerOuterSentiment.txt");
+        intermediate_sentiment_File.getParentFile().mkdirs();
+
+        File party_file = new File(target_filePath + "case_11/party-combinations-first-iteration.txt");
+        party_file.getParentFile().mkdirs();
+
+        BufferedWriter br = new BufferedWriter(new FileWriter(full_infoFile));
+        BufferedWriter br2 = new BufferedWriter(new FileWriter(intermediate_sentiment_File));
+        BufferedWriter br3 = new BufferedWriter(new FileWriter(party_file));
 
         ArrayList<Subject_combination> combinationArrayList = new ArrayList<>();
 
@@ -62,31 +74,22 @@ public class Party_Extraction_Main {
             String text = sc.nextLine();
             Annotation ann = new Annotation(text);
             pipeline.annotate(ann);
-//        for (CoreMap sent : ann.get(CoreAnnotations.SentencesAnnotation.class)) {
-//            SemanticGraph sg = sent.get(SemanticGraphCoreAnnotations.BasicDependenciesAnnotation.class);
-//            System.out.println(IOUtils.eolChar + sg.toString(SemanticGraph.OutputFormat.LIST));
-//
-//            for (TypedDependency i : sg.typedDependencies()){
-//                System.out.println(i.dep().index() + " : " + i.dep());
-//            }
-//        }
-            System.out.println(ann.get(CoreAnnotations.SentencesAnnotation.class).size());
 
             for(IndexedWord[] array : CoreNLPDepParser.findIndicesOfOuterVerbAndInnerVerb(ann, text)){
-                IndexedWord thatIndex = array[1];
-                IndexedWord innerVerbIndex = array[0];
+                IndexedWord thatIndexWord = array[1];
+                IndexedWord innerVerbIndexWord = array[0];
 
-                String innerSentence = endExtractedInnerSentence(startPointIndexInnerSentence(array[1].beginPosition(),array[0].beginPosition(),text),text);
+                String innerSentence = endExtractedInnerSentence(startPointIndexInnerSentence(thatIndexWord.beginPosition(),innerVerbIndexWord.beginPosition(),text),text);
                 innerSentence = WhTagFilterInEnd(innerSentence);
 
-                IndexedWord innersubject = CoreNLPDepParser.findSubjectForGivenVerb(ann,array[0]);
+                IndexedWord innersubject = CoreNLPDepParser.findSubjectForGivenVerb(ann,innerVerbIndexWord);
                 String innerSubjectContext = "none-innersubject";
                 if(innersubject != null){
                     innerSubjectContext = CoreNLPDepParser.findSubjectContext(ann,innersubject);
 
                 }
 
-                IndexedWord outerVerb = CoreNLPDepParser.findRelatedGovWordForGivenWord(ann,"ccomp",array[0]);
+                IndexedWord outerVerb = CoreNLPDepParser.findRelatedGovWordForGivenWord(ann,"ccomp",innerVerbIndexWord);
                 String outerVerbContext = CoreNLPDepParser.findVerbContext(ann,outerVerb);
 
                 IndexedWord outerSubject = CoreNLPDepParser.findSubjectForGivenVerb(ann,outerVerb);
@@ -99,14 +102,14 @@ public class Party_Extraction_Main {
 
                 CustomizeSentimentAnnotator.createPosTagMapForSentence(innerSentence);
                 Annotation ann2 = new Annotation(innerSentence);
-                System.out.println(innerSentence);
                 sentimentPipeline.annotate(ann2);
 
                 List<CoreMap> sentences = ann2.get(CoreAnnotations.SentencesAnnotation.class);
+
                 br.write(text+"\n");
+                br.write("\t"+ "innerSentence : " + innerSentence +"\n");
 
                 System.out.println("innerSentence : "+innerSentence);
-                br.write("\t"+ "innerSentence : " + innerSentence +"\n");
 
                 Subject_combination subject_combination = new Subject_combination();
                 subject_combination.party_1 = innerSubjectContext;
@@ -122,7 +125,12 @@ public class Party_Extraction_Main {
                     br.write("\t\t" + "coremap sentence : " + coreMapSentence+"\n");
                     br.write("\t\t" + "sentiment : " + sentiment+"\n");
                     br.write("\t\t" + "matrix" + sm+"\n");
-                    br.write("\t\t---------------------------------------------------------\n");
+                    br.write("\t\t-----\n");
+                    br3.write(innerSentence+"\n");
+                    br3.write(sentiment+"\n");
+                    br3.write(sm.toString() +"\n");
+                    br3.flush();
+
                     System.out.println();
                     subject_combination.sm1 =sm;
                     if(sentiment.toLowerCase().equals("negative")){
@@ -141,7 +149,7 @@ public class Party_Extraction_Main {
                 sentences = ann2.get(CoreAnnotations.SentencesAnnotation.class);
 
                 System.out.println("outerSentence");
-                br.write("\t"+ "innerSentence : " + outerSentence +"\n");
+                br.write("\t"+ "outerSentence : " + outerSentence +"\n");
                 subject_combination.innerSentence = innerSentence;
                 subject_combination.outerSentence = outerSentence;
                 for(CoreMap coreMapSentence : sentences) {
@@ -155,7 +163,13 @@ public class Party_Extraction_Main {
                     br.write("\t\t" + "coremap sentence : " + coreMapSentence+"\n");
                     br.write("\t\t" + "sentiment : " + sentiment+"\n");
                     br.write("\t\t" + "matrix" + sm+"\n");
-                    br.write("\t\t---------------------------------------------------------\n");
+                    br.write("\t\t-----\n");
+
+                    br3.write(outerSentence+"\n");
+                    br3.write(sentiment + "\n");
+                    br3.write(sm.toString() + "\n");
+                    br3.flush();
+
                     System.out.println("\n");
                     subject_combination.sm2 = sm;
 
@@ -168,11 +182,16 @@ public class Party_Extraction_Main {
 
                 br.write("\t outer Subject : "+outerSubjectContext);
                 br.write(", \t inner Subject : "+ innerSubjectContext+"\n");
+                br3.write(outerSubjectContext);
+                br3.write("::"+innerSubjectContext+"\n");
+                br3.newLine();
+                br3.flush();
                 combinationArrayList.add(subject_combination);
             }
             br.newLine();
         }
         br.close();
+        br3.close();
 
         br2.write("one negative and the other is non-negative\n\n");
         for(Subject_combination combination : combinationArrayList){

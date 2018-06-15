@@ -194,11 +194,12 @@ public class CoreNLPDepParser {
         }
 
         IndexedWord advclGov = findRelatedGovWordForGivenWord(ann,"advcl",verb);
-        if(xcompGov != null){
+        if(advclGov != null){
             if(findSubjectForGivenVerb(ann,advclGov) != null){
                 return findSubjectForGivenVerb(ann,advclGov);
             }
         }
+//
         return null;
     }
 

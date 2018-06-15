@@ -1,0 +1,77 @@
+one negative and the other is non-negative
+
+Lee plea  - Judge 
+Lee  - Circuit 
+Lee counsel  - Government 
+he  - Lee 
+he  - Lee 
+deficient counsel performance  - defendant 
+he  - Lee 
+defendant  - Government 
+criminal conviction  - he 
+he  - Lee 
+he  - Lee attorney 
+he  - attorney 
+Lee plea  - Judge 
+Lee counsel  - Court 
+he  - court 
+counsel  - defendant 
+counsel representation  - defendant 
+deficient counsel performance  - defendant 
+defendant  - dissent 
+he  - defendant 
+his lawyer  - defendant 
+he  - he 
+he  - Government 
+we  - Government 
+Lee  - Government 
+defendant  - Court 
+inquiry  - Court 
+defendant  - Court 
+error  - it 
+two-part Strickland test  - Court 
+his counsel  - defendant 
+it  - Court 
+ultimate outcome  - It 
+counsel  - Court 
+inquiry  - Court 
+criminal prosecution  - none-outerSubject
+defendant  - none-outerSubject
+inquiry  - Court 
+he  - which 
+defendant  - it 
+result  - none-outerSubject
+defendant  - Court 
+lawyer failure  - Court 
+guilty petitioner plea  - Court 
+he  - guilty petitioner plea 
+court  - Court 
+inquiry  - Hill 
+foregone trial  - inquiry 
+inquiry  - I 
+it  - Court 
+claims  - Hill 
+error  - none-outerSubject
+he  - Petitioner 
+petitioner  - Court 
+rosecutors  - we 
+ultimate outcome  - defendant 
+claim  - Petitioner 
+percent  - none-outerSubject
+its application  - Court 
+judge warnings  - Several courts 
+defendant  - Lafler 
+-----------------
+
+both non-negative
+
+categorical rules  - it 
+it  - Court 
+performance  - Government 
+categorical rules  - it 
+more  - common sense 
+it  - We 
+outcome  - defendant 
+inquiry  - majority 
+-----------------
+
