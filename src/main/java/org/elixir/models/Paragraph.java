@@ -1,20 +1,41 @@
 package org.elixir.models;
 
+import java.util.ArrayList;
+
 public class Paragraph {
     public static final String TABLE_NAME = "paragraphs";
     private int id;
     private int caseNumber;
     private String paragraph;
+    private ArrayList<CorefChainOfPara> corefChains;
 
     public Paragraph(int id, int caseNumber, String paragraph) {
         this.id = id;
         this.caseNumber = caseNumber;
         this.paragraph = paragraph;
+        this.corefChains = new ArrayList<>();
     }
 
     public Paragraph(int caseNumber, String paragraph) {
         this.caseNumber = caseNumber;
         this.paragraph = paragraph;
+        this.corefChains = new ArrayList<>();
+    }
+
+    @Override
+    public String toString() {
+        return "Paragraph{" +
+                "caseNumber=" + caseNumber +
+                ", paragraph='" + paragraph + '\'' +
+                '}';
+    }
+
+    public void addCorefChain(CorefChainOfPara corefChain) {
+        this.corefChains.add(corefChain);
+    }
+
+    public ArrayList<CorefChainOfPara> getCorefChains() {
+        return corefChains;
     }
 
     public int getId() {

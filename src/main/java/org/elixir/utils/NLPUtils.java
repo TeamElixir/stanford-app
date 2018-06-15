@@ -52,8 +52,8 @@ public class NLPUtils {
         return "Positive".equals(sentiment);
     }
 
-    public static ArrayList<String> getCorefChains(String inputText) {
-        ArrayList<String> corefs = new ArrayList<>();
+    public static ArrayList<CorefChain> getCorefChains(String inputText) {
+        ArrayList<CorefChain> corefs = new ArrayList<>();
 
         Annotation document = new Annotation(inputText);
         Properties props = new Properties();
@@ -65,15 +65,7 @@ public class NLPUtils {
         System.out.println("coref chains");
 
         for (CorefChain cc : document.get(CorefCoreAnnotations.CorefChainAnnotation.class).values()) {
-//            System.out.println("cc: " + cc);
-            List<CorefChain.CorefMention> mentionsInTextualOrder = cc.getMentionsInTextualOrder();
-//            System.out.println("Foreach in mentionsInTextualOrder");
-            for (CorefChain.CorefMention mention : mentionsInTextualOrder) {
-                int sentNo = mention.sentNum;
-                String word = mention.mentionSpan;
-                System.out.println(sentNo + " " + word);
-                System.out.println("---------");
-            }
+            corefs.add(cc);
         }
 
         return corefs;

@@ -1,6 +1,9 @@
 package org.elixir;
 
+import edu.stanford.nlp.coref.data.CorefChain;
+import org.elixir.controllers.CorefChainOfParasController;
 import org.elixir.controllers.ParagraphsController;
+import org.elixir.models.CorefChainOfPara;
 import org.elixir.models.Paragraph;
 import org.elixir.utils.NLPUtils;
 import org.elixir.utils.Utils;
@@ -10,11 +13,32 @@ import java.util.ArrayList;
 
 public class CorefRunner {
     public static void main(String[] args) {
-        for (int i = 11; i < 22; i++) {
+        for (int i = 11; i < 21; i++) {
+            System.out.println("Case: " + i);
+            System.out.println("-----------------------------");
             ArrayList<Paragraph> paragraphsOfCase = ParagraphsController.getParagraphsOfCase(i);
             for (Paragraph p : paragraphsOfCase) {
-                NLPUtils.getCorefChains(p.getParagraph());
-                System.exit(0);
+                System.out.println("Paragraph: " + p);
+                ArrayList<CorefChainOfPara> corefChainsOfPara = CorefChainOfParasController.getCorefChainsOfPara(p.getId());
+                for (CorefChainOfPara corefChain : corefChainsOfPara) {
+                    System.out.println(corefChain);
+                }
+                System.out.println("--------------------\n");
+            }
+            System.out.println("========================\n");
+        }
+    }
+
+    private static void insertCorefChainsOfParasIntoDB() {
+        for (int i = 11; i < 22; i++) {
+            System.out.println("Paragraph: " + i);
+            ArrayList<Paragraph> paragraphsOfCase = ParagraphsController.getParagraphsOfCase(i);
+            for (Paragraph p : paragraphsOfCase) {
+                ArrayList<CorefChain> corefChains = NLPUtils.getCorefChains(p.getParagraph());
+                for (CorefChain cc : corefChains) {
+                    CorefChainOfPara chainOfPara = new CorefChainOfPara(p.getId(), cc.toString());
+                    CorefChainOfParasController.insertCorefChainOfPara(chainOfPara);
+                }
             }
         }
     }
