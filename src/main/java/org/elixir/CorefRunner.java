@@ -1,6 +1,11 @@
 package org.elixir;
 
 import edu.stanford.nlp.coref.data.CorefChain;
+import edu.stanford.nlp.ling.CoreAnnotations;
+import edu.stanford.nlp.ling.CoreLabel;
+import edu.stanford.nlp.pipeline.Annotation;
+import edu.stanford.nlp.pipeline.StanfordCoreNLP;
+import edu.stanford.nlp.util.CoreMap;
 import org.elixir.controllers.CasesController;
 import org.elixir.controllers.CorefChainOfParagraphsController;
 import org.elixir.controllers.ParagraphsController;
@@ -14,6 +19,8 @@ import org.elixir.utils.Utils;
 
 import java.io.File;
 import java.util.ArrayList;
+import java.util.List;
+import java.util.Properties;
 
 public class CorefRunner {
     public static void main(String[] args) {
@@ -22,12 +29,8 @@ public class CorefRunner {
         System.out.println("Case: " + caseNumber);
         ArrayList<Paragraph> paragraphs = aCase.getParagraphs();
         for (Paragraph p : paragraphs) {
-            ArrayList<SentenceOfParagraph> sentences = p.getSentences();
-            for (int i = 0; i < sentences.size(); i++) {
-                System.out.println((i+1) + ": " + sentences.get(i).getSentence());
-            }
 
-            System.out.println();
+            ArrayList<CorefChainMapping> ccmList = new ArrayList<>();
 
             ArrayList<CorefChainOfParagraph> corefChains = p.getCorefChains();
             if (corefChains.size() == 0) {
@@ -35,9 +38,17 @@ public class CorefRunner {
             }
             for (CorefChainOfParagraph corefChain : corefChains) {
                 CorefChainMapping ccm = new CorefChainMapping();
-                ccm.processCorefChainString(corefChain.getCorefChain().toString());
+                ccm.processCorefChainString(corefChain.getCorefChain());
+                ccmList.add(ccm);
                 //System.out.println(corefChain.getCorefChain());
             }
+
+            ArrayList<SentenceOfParagraph> sentences = p.getSentences();
+            for (int i = 0; i < sentences.size(); i++) {
+                System.out.println((i+1) + ": " + sentences.get(i).getSentence());
+            }
+
+            System.out.println();
 
             System.out.println("--------\n");
         }
@@ -99,6 +110,8 @@ public class CorefRunner {
 
         return fullCases;
     }
+
+
 
     //this denotes a single corefchain
     static class CorefChainMapping{
