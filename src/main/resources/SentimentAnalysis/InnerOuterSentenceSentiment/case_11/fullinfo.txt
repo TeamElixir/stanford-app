@@ -1,0 +1,2867 @@
+Lee admitted that the drugs were his, and a grand jury indicted him on one count of possessing ecstasy with intent to distribute.
+	innerSentence :  the drugs were his
+		coremap sentence : the drugs were his
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.000  
+ 0.003  
+ 0.994  
+ 0.003  
+ 0.000  
+
+		-----
+	outerSentence : Lee admitted something.
+		coremap sentence : Lee admitted something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.003  
+ 0.019  
+ 0.734  
+ 0.234  
+ 0.010  
+
+		-----
+	 outer Subject : Lee , 	 inner Subject : drugs 
+
+When Lee learned of this consequence, he filed a motion to vacate his conviction and sentence, arguing that his attorney had provided constitutionally ineffective assistance.
+	innerSentence :  his attorney had provided constitutionally ineffective assistance.
+		coremap sentence : his attorney had provided constitutionally ineffective assistance.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.043  
+ 0.428  
+ 0.479  
+ 0.043  
+ 0.007  
+
+		-----
+	outerSentence : he arguing something.
+		coremap sentence : he arguing something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.005  
+ 0.024  
+ 0.661  
+ 0.288  
+ 0.022  
+
+		-----
+	 outer Subject : he , 	 inner Subject : his attorney 
+
+At an evidentiary hearing, both Lee and his plea-stage counsel testified that "deportation was the determinative issue" to Lee in deciding whether to accept a plea, and Lee's counsel acknowledged that although Lee's defense to the charge was weak, if he had known Lee would be deported upon pleading guilty, he would have advised him to go to trial.
+	innerSentence :  "deportation was the determinative issue" to Lee in deciding whether to accept a plea
+		coremap sentence : "deportation was the determinative issue" to Lee in deciding whether to accept a plea
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.009  
+ 0.117  
+ 0.837  
+ 0.034  
+ 0.003  
+
+		-----
+	outerSentence : Lee testified something.
+		coremap sentence : Lee testified something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.008  
+ 0.035  
+ 0.617  
+ 0.318  
+ 0.022  
+
+		-----
+	 outer Subject : Lee , 	 inner Subject : deportation 
+At an evidentiary hearing, both Lee and his plea-stage counsel testified that "deportation was the determinative issue" to Lee in deciding whether to accept a plea, and Lee's counsel acknowledged that although Lee's defense to the charge was weak, if he had known Lee would be deported upon pleading guilty, he would have advised him to go to trial.
+	innerSentence :  if he had known Lee would be deported upon pleading guilty
+		coremap sentence : if he had known Lee would be deported upon pleading guilty
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.056  
+ 0.419  
+ 0.472  
+ 0.044  
+ 0.009  
+
+		-----
+	outerSentence : Lee counsel acknowledged something.
+		coremap sentence : Lee counsel acknowledged something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.026  
+ 0.134  
+ 0.395  
+ 0.394  
+ 0.051  
+
+		-----
+	 outer Subject : Lee counsel , 	 inner Subject : Lee 
+
+A Magistrate Judge recommended that Lee's plea be set aside and his conviction vacated.
+	innerSentence :  Lee's plea be set aside and his conviction vacated.
+		coremap sentence : Lee's plea be set aside and his conviction vacated.
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.205  
+ 0.602  
+ 0.163  
+ 0.019  
+ 0.011  
+
+		-----
+	outerSentence : Judge recommended something.
+		coremap sentence : Judge recommended something.
+		sentiment : Positive
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.015  
+ 0.048  
+ 0.259  
+ 0.550  
+ 0.128  
+
+		-----
+	 outer Subject : Judge , 	 inner Subject : Lee plea 
+
+Applying the two-part test for ineffective assistance claims from Strickland v. Washington, 466 U. S. 668, the Sixth Circuit concluded that, while the Government conceded that Lee's counsel had performed deficiently, Lee could not show that he was prejudiced by his attorney's erroneous advice.
+	innerSentence :  Lee could not show that he was prejudiced by his attorney's erroneous advice.
+		coremap sentence : Lee could not show that he was prejudiced by his attorney's erroneous advice.
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.263  
+ 0.507  
+ 0.187  
+ 0.029  
+ 0.014  
+
+		-----
+	outerSentence : Circuit concluded something.
+		coremap sentence : Circuit concluded something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.013  
+ 0.092  
+ 0.789  
+ 0.095  
+ 0.011  
+
+		-----
+	 outer Subject : Circuit , 	 inner Subject : Lee 
+Applying the two-part test for ineffective assistance claims from Strickland v. Washington, 466 U. S. 668, the Sixth Circuit concluded that, while the Government conceded that Lee's counsel had performed deficiently, Lee could not show that he was prejudiced by his attorney's erroneous advice.
+	innerSentence :  Lee's counsel had performed deficiently
+		coremap sentence : Lee's counsel had performed deficiently
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.047  
+ 0.347  
+ 0.404  
+ 0.175  
+ 0.026  
+
+		-----
+	outerSentence : Government conceded something.
+		coremap sentence : Government conceded something.
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.070  
+ 0.410  
+ 0.373  
+ 0.118  
+ 0.030  
+
+		-----
+	 outer Subject : Government , 	 inner Subject : Lee counsel 
+Applying the two-part test for ineffective assistance claims from Strickland v. Washington, 466 U. S. 668, the Sixth Circuit concluded that, while the Government conceded that Lee's counsel had performed deficiently, Lee could not show that he was prejudiced by his attorney's erroneous advice.
+	innerSentence :  he was prejudiced by his attorney's erroneous advice.
+		coremap sentence : he was prejudiced by his attorney's erroneous advice.
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.333  
+ 0.585  
+ 0.068  
+ 0.007  
+ 0.007  
+
+		-----
+	outerSentence : Lee could not show something.
+		coremap sentence : Lee could not show something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.041  
+ 0.385  
+ 0.536  
+ 0.032  
+ 0.005  
+
+		-----
+	 outer Subject : Lee , 	 inner Subject : he 
+
+Held: Lee has demonstrated that he was prejudiced by his counsel's erroneous advice.
+	innerSentence :  he was prejudiced by his counsel's erroneous advice.
+		coremap sentence : he was prejudiced by his counsel's erroneous advice.
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.333  
+ 0.585  
+ 0.068  
+ 0.007  
+ 0.007  
+
+		-----
+	outerSentence : Lee has demonstrated something.
+		coremap sentence : Lee has demonstrated something.
+		sentiment : Positive
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.002  
+ 0.007  
+ 0.453  
+ 0.511  
+ 0.026  
+
+		-----
+	 outer Subject : Lee , 	 inner Subject : he 
+
+(a) When a defendant claims that his counsel's deficient performance deprived him of a trial by causing him to accept a plea, the defendant can show prejudice by demonstrating a "reasonable probability that, but for counsel's errors, he would not have pleaded guilty and would have insisted on going to trial."
+	innerSentence :  his counsel's deficient performance deprived him of a trial by causing him to accept a plea
+		coremap sentence : his counsel's deficient performance deprived him of a trial by causing him to accept a plea
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.207  
+ 0.620  
+ 0.150  
+ 0.013  
+ 0.010  
+
+		-----
+	outerSentence : defendant claims something.
+		coremap sentence : defendant claims something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.031  
+ 0.182  
+ 0.518  
+ 0.231  
+ 0.038  
+
+		-----
+	 outer Subject : defendant , 	 inner Subject : deficient counsel performance 
+
+Lee contends that he can make this showing because he never would have accepted a guilty plea had he known the result would be deportation.
+	innerSentence :  he can make this showing because he never would have accepted a guilty plea had he known the result would be deportation.
+		coremap sentence : he can make this showing because he never would have accepted a guilty plea had he known the result would be deportation.
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.128  
+ 0.504  
+ 0.257  
+ 0.080  
+ 0.030  
+
+		-----
+	outerSentence : Lee contends something.
+		coremap sentence : Lee contends something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.008  
+ 0.035  
+ 0.617  
+ 0.318  
+ 0.022  
+
+		-----
+	 outer Subject : Lee , 	 inner Subject : he 
+
+The Government contends that Lee cannot show prejudice from accepting a plea where his only hope at trial was that something unexpected and unpredictable might occur that would lead to acquittal.
+	innerSentence :  Lee cannot show prejudice from accepting a plea
+		coremap sentence : Lee cannot show prejudice from accepting a plea
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.032  
+ 0.333  
+ 0.554  
+ 0.074  
+ 0.008  
+
+		-----
+	outerSentence : Government contends something.
+		coremap sentence : Government contends something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.036  
+ 0.166  
+ 0.391  
+ 0.340  
+ 0.067  
+
+		-----
+	 outer Subject : Government , 	 inner Subject : Lee 
+The Government contends that Lee cannot show prejudice from accepting a plea where his only hope at trial was that something unexpected and unpredictable might occur that would lead to acquittal.
+	innerSentence :  something unexpected and unpredictable might occur that would lead to acquittal.
+		coremap sentence : something unexpected and unpredictable might occur that would lead to acquittal.
+		sentiment : Positive
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.005  
+ 0.023  
+ 0.096  
+ 0.811  
+ 0.066  
+
+		-----
+	outerSentence : only his hope was something.
+		coremap sentence : only his hope was something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.029  
+ 0.322  
+ 0.525  
+ 0.115  
+ 0.009  
+
+		-----
+	 outer Subject : only his hope , 	 inner Subject : unexpected something 
+
+First, it forgets that categorical rules are ill suited to an inquiry that demands a "case-by-case examination" of the "totality of the evidence."
+	innerSentence :  categorical rules are ill suited to an inquiry
+		coremap sentence : categorical rules are ill suited to an inquiry
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.089  
+ 0.651  
+ 0.238  
+ 0.016  
+ 0.006  
+
+		-----
+	outerSentence : it forgets something.
+		coremap sentence : it forgets something.
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.065  
+ 0.422  
+ 0.385  
+ 0.108  
+ 0.020  
+
+		-----
+	 outer Subject : it , 	 inner Subject : categorical rules 
+
+More fundamentally, it overlooks that the Hill v. Lockhart inquiry focuses on a defendant's decisionmaking, which may not turn solely on the likelihood of conviction after trial.
+	innerSentence :  the Hill v. Lockhart inquiry focuses on a defendant's decisionmaking
+		coremap sentence : the Hill v. Lockhart inquiry focuses on a defendant's decisionmaking
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.006  
+ 0.062  
+ 0.843  
+ 0.084  
+ 0.005  
+
+		-----
+	outerSentence : it overlooks something.
+		coremap sentence : it overlooks something.
+		sentiment : Positive
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.018  
+ 0.086  
+ 0.409  
+ 0.441  
+ 0.045  
+
+		-----
+	 outer Subject : it , 	 inner Subject : inquiry 
+
+Pointing to Strickland, the Government urges that "[a] defendant has no entitlement to the luck of a lawless decisionmaker."
+	innerSentence :  "[a] defendant has no entitlement to the luck of a lawless decisionmaker."
+		coremap sentence : "[a] defendant has no entitlement to the luck of a lawless decisionmaker."
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.147  
+ 0.711  
+ 0.114  
+ 0.020  
+ 0.009  
+
+		-----
+	outerSentence : Government urges something.
+		coremap sentence : Government urges something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.049  
+ 0.234  
+ 0.360  
+ 0.294  
+ 0.063  
+
+		-----
+	 outer Subject : Government , 	 inner Subject : defendant 
+
+In the unusual circumstances of this case, Lee has adequately demonstrated a reasonable probability that he would have rejected the plea had he known that it would lead to mandatory deportation: Both Lee and his attorney testified that "deportation was the determinative issue" to Lee; his responses during his plea colloquy confirmed the importance he placed on deportation; and he had strong connections to the United States, while he had no ties to South Korea.
+	innerSentence :  it would lead to mandatory deportation
+		coremap sentence : it would lead to mandatory deportation
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.014  
+ 0.170  
+ 0.702  
+ 0.107  
+ 0.008  
+
+		-----
+	outerSentence : he had known something.
+		coremap sentence : he had known something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.003  
+ 0.017  
+ 0.886  
+ 0.089  
+ 0.005  
+
+		-----
+	 outer Subject : he , 	 inner Subject : it 
+In the unusual circumstances of this case, Lee has adequately demonstrated a reasonable probability that he would have rejected the plea had he known that it would lead to mandatory deportation: Both Lee and his attorney testified that "deportation was the determinative issue" to Lee; his responses during his plea colloquy confirmed the importance he placed on deportation; and he had strong connections to the United States, while he had no ties to South Korea.
+	innerSentence :  "deportation was the determinative issue" to Lee; his responses during his plea colloquy confirmed the importance he placed on deportation; and he had strong connections to the United States
+		coremap sentence : "deportation was the determinative issue" to Lee; his responses during his plea colloquy confirmed the importance he placed on deportation; and he had strong connections to the United States
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.065  
+ 0.236  
+ 0.309  
+ 0.302  
+ 0.088  
+
+		-----
+	outerSentence : Lee testified something.
+		coremap sentence : Lee testified something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.008  
+ 0.035  
+ 0.617  
+ 0.318  
+ 0.022  
+
+		-----
+	 outer Subject : Lee , 	 inner Subject : deportation 
+
+The Government argues that Lee cannot "convince the court that a decision to reject the plea bargain would have been rational under the circumstances," Padilla v. Kentucky, 559 U. S. 356, 372, since deportation would almost certainly result from a trial.
+	innerSentence :  Lee cannot "convince the court that a decision to reject the plea bargain would have been rational under the circumstances
+		coremap sentence : Lee cannot "convince the court that a decision to reject the plea bargain would have been rational under the circumstances
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.044  
+ 0.437  
+ 0.447  
+ 0.063  
+ 0.008  
+
+		-----
+	outerSentence : Government argues something.
+		coremap sentence : Government argues something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.043  
+ 0.255  
+ 0.494  
+ 0.172  
+ 0.035  
+
+		-----
+	 outer Subject : Government , 	 inner Subject : Lee 
+
+Unlike the Government, this Court cannot say that it would be irrational for someone in Lee's position to risk additional prison time in exchange for holding on to some chance of avoiding deportation.
+	innerSentence :  it would be irrational for someone in Lee's position to risk additional prison time in exchange for holding on to some chance of avoiding deportation.
+		coremap sentence : it would be irrational for someone in Lee's position to risk additional prison time in exchange for holding on to some chance of avoiding deportation.
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.079  
+ 0.519  
+ 0.326  
+ 0.063  
+ 0.013  
+
+		-----
+	outerSentence : Court can not say something.
+		coremap sentence : Court can not say something.
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.075  
+ 0.476  
+ 0.353  
+ 0.075  
+ 0.021  
+
+		-----
+	 outer Subject : Court , 	 inner Subject : it 
+
+Although he has lived in this country for most of his life, Lee is not a United States citizen, and he feared that a criminal conviction might affect his status as a lawful permanent resident.
+	innerSentence :  a criminal conviction might affect his status as a lawful permanent resident.
+		coremap sentence : a criminal conviction might affect his status as a lawful permanent resident.
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.115  
+ 0.566  
+ 0.239  
+ 0.061  
+ 0.020  
+
+		-----
+	outerSentence : he feared something.
+		coremap sentence : he feared something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.014  
+ 0.062  
+ 0.589  
+ 0.300  
+ 0.036  
+
+		-----
+	 outer Subject : he , 	 inner Subject : criminal conviction 
+
+Lee's attorney was wrong: The conviction meant that Lee was subject to mandatory deportation from this country.
+	innerSentence :  Lee was subject to mandatory deportation from this country.
+		coremap sentence : Lee was subject to mandatory deportation from this country.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.032  
+ 0.271  
+ 0.637  
+ 0.053  
+ 0.007  
+
+		-----
+	outerSentence : conviction meant something.
+		coremap sentence : conviction meant something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.022  
+ 0.274  
+ 0.691  
+ 0.010  
+ 0.002  
+
+		-----
+	 outer Subject : conviction , 	 inner Subject : Lee 
+
+Everyone agrees that Lee received objectively unreasonable representation.
+	innerSentence :  Lee received objectively unreasonable representation.
+		coremap sentence : Lee received objectively unreasonable representation.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.058  
+ 0.343  
+ 0.501  
+ 0.084  
+ 0.014  
+
+		-----
+	outerSentence : Everyone agrees something.
+		coremap sentence : Everyone agrees something.
+		sentiment : Positive
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.052  
+ 0.242  
+ 0.320  
+ 0.322  
+ 0.063  
+
+		-----
+	 outer Subject : Everyone , 	 inner Subject : Lee 
+
+Lee admitted that the drugs were his and that he had given ecstasy to his friends.
+	innerSentence :  the drugs were his and that he had given ecstasy to his friends.
+		coremap sentence : the drugs were his and that he had given ecstasy to his friends.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.004  
+ 0.048  
+ 0.922  
+ 0.025  
+ 0.001  
+
+		-----
+	outerSentence : Lee admitted something.
+		coremap sentence : Lee admitted something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.003  
+ 0.019  
+ 0.734  
+ 0.234  
+ 0.010  
+
+		-----
+	 outer Subject : Lee , 	 inner Subject : drugs 
+
+Upon learning that he would be deported after serving his sentence, Lee filed a motion under 28 U. S. C. §2255 to vacate his conviction and sentence, arguing that his attorney had provided constitutionally ineffective assistance.
+	innerSentence :  he would be deported after serving his sentence
+		coremap sentence : he would be deported after serving his sentence
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.154  
+ 0.571  
+ 0.260  
+ 0.009  
+ 0.005  
+
+		-----
+	outerSentence : Lee learning something.
+		coremap sentence : Lee learning something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.002  
+ 0.011  
+ 0.596  
+ 0.381  
+ 0.010  
+
+		-----
+	 outer Subject : Lee , 	 inner Subject : he 
+Upon learning that he would be deported after serving his sentence, Lee filed a motion under 28 U. S. C. §2255 to vacate his conviction and sentence, arguing that his attorney had provided constitutionally ineffective assistance.
+	innerSentence :  his attorney had provided constitutionally ineffective assistance.
+		coremap sentence : his attorney had provided constitutionally ineffective assistance.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.043  
+ 0.428  
+ 0.479  
+ 0.043  
+ 0.007  
+
+		-----
+	outerSentence : Lee arguing something.
+		coremap sentence : Lee arguing something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.002  
+ 0.014  
+ 0.602  
+ 0.370  
+ 0.011  
+
+		-----
+	 outer Subject : Lee , 	 inner Subject : his attorney 
+
+At an evidentiary hearing on Lee's motion, both Lee and his plea-stage counsel testified that "deportation was the determinative issue in Lee's decision whether to accept the plea."
+	innerSentence :  "deportation was the determinative issue in Lee's decision whether to accept the plea."
+		coremap sentence : "deportation was the determinative issue in Lee's decision whether to accept the plea."
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.012  
+ 0.160  
+ 0.799  
+ 0.026  
+ 0.003  
+
+		-----
+	outerSentence : Lee testified something.
+		coremap sentence : Lee testified something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.008  
+ 0.035  
+ 0.617  
+ 0.318  
+ 0.022  
+
+		-----
+	 outer Subject : Lee , 	 inner Subject : deportation 
+
+Lee's attorney testified that he thought Lee's case was a "bad case to try" because Lee's defense to the charge was weak.
+	innerSentence :  he thought Lee's case was a "bad case to try" because Lee's defense to the charge was weak.
+		coremap sentence : he thought Lee's case was a "bad case to try" because Lee's defense to the charge was weak.
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.281  
+ 0.533  
+ 0.138  
+ 0.028  
+ 0.019  
+
+		-----
+	outerSentence : Lee attorney testified something.
+		coremap sentence : Lee attorney testified something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.026  
+ 0.134  
+ 0.395  
+ 0.394  
+ 0.051  
+
+		-----
+	 outer Subject : Lee attorney , 	 inner Subject : he 
+
+The attorney nonetheless acknowledged that if he had known Lee would be deported upon pleading guilty, he would have advised him to go to trial.
+	innerSentence :  he would have advised him to go to trial.
+		coremap sentence : he would have advised him to go to trial.
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.091  
+ 0.568  
+ 0.303  
+ 0.029  
+ 0.010  
+
+		-----
+	outerSentence : attorney acknowledged something.
+		coremap sentence : attorney acknowledged something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.036  
+ 0.166  
+ 0.391  
+ 0.340  
+ 0.067  
+
+		-----
+	 outer Subject : attorney , 	 inner Subject : he 
+
+Based on the hearing testimony, a Magistrate Judge recommended that Lee's plea be set aside and his conviction vacated because he had received ineffective assistance of counsel.
+	innerSentence :  Lee's plea be set aside and his conviction vacated because he had received ineffective assistance of counsel.
+		coremap sentence : Lee's plea be set aside and his conviction vacated because he had received ineffective assistance of counsel.
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.273  
+ 0.629  
+ 0.085  
+ 0.007  
+ 0.005  
+
+		-----
+	outerSentence : Judge recommended something.
+		coremap sentence : Judge recommended something.
+		sentiment : Positive
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.015  
+ 0.048  
+ 0.259  
+ 0.550  
+ 0.128  
+
+		-----
+	 outer Subject : Judge , 	 inner Subject : Lee plea 
+
+Applying our two-part test for ineffective assistance claims from Strickland v. Washington, 466 U. S. 668 (1984), the District Court concluded that Lee's counsel had performed deficiently by giving improper advice about the deportation consequences of the plea.
+	innerSentence :  Lee's counsel had performed deficiently by giving improper advice about the deportation consequences of the plea.
+		coremap sentence : Lee's counsel had performed deficiently by giving improper advice about the deportation consequences of the plea.
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.086  
+ 0.518  
+ 0.279  
+ 0.095  
+ 0.022  
+
+		-----
+	outerSentence : Court concluded something.
+		coremap sentence : Court concluded something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.036  
+ 0.166  
+ 0.391  
+ 0.340  
+ 0.067  
+
+		-----
+	 outer Subject : Court , 	 inner Subject : Lee counsel 
+
+On appeal, the Government conceded that the performance of Lee's attorney had been deficient.
+	innerSentence :  the performance of Lee's attorney had been deficient.
+		coremap sentence : the performance of Lee's attorney had been deficient.
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.073  
+ 0.566  
+ 0.276  
+ 0.074  
+ 0.012  
+
+		-----
+	outerSentence : Government conceded something.
+		coremap sentence : Government conceded something.
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.070  
+ 0.410  
+ 0.373  
+ 0.118  
+ 0.030  
+
+		-----
+	 outer Subject : Government , 	 inner Subject : performance 
+
+To establish that he was prejudiced by that deficient performance, the court explained, Lee was required to show "a reasonable probability that, but for counsel's errors, he would not have pleaded guilty and would have insisted on going to trial."
+	innerSentence :  he was prejudiced by that deficient performance
+		coremap sentence : he was prejudiced by that deficient performance
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.369  
+ 0.520  
+ 0.104  
+ 0.004  
+ 0.004  
+
+		-----
+	outerSentence : court establish something.
+		coremap sentence : court establish something.
+		sentiment : Positive
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.006  
+ 0.014  
+ 0.068  
+ 0.760  
+ 0.152  
+
+		-----
+	 outer Subject : court , 	 inner Subject : he 
+
+Relying on Circuit precedent holding that "no rational defendant charged with a deportable offense and facing overwhelming evidence of guilt would proceed to trial rather than take a plea deal with a shorter prison sentence," the Court of Appeals concluded that Lee could not show prejudice.
+	innerSentence :  "no rational defendant charged with a deportable offense and facing overwhelming evidence of guilt would proceed to trial rather than take a plea deal with a shorter prison sentence
+		coremap sentence : "no rational defendant charged with a deportable offense and facing overwhelming evidence of guilt would proceed to trial rather than take a plea deal with a shorter prison sentence
+		sentiment : Very negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.530  
+ 0.350  
+ 0.102  
+ 0.004  
+ 0.013  
+
+		-----
+	outerSentence : none-outerSubject holding something.
+		coremap sentence : none-outerSubject holding something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.016  
+ 0.098  
+ 0.661  
+ 0.205  
+ 0.020  
+
+		-----
+	 outer Subject : none-outerSubject, 	 inner Subject : rational defendant 
+Relying on Circuit precedent holding that "no rational defendant charged with a deportable offense and facing overwhelming evidence of guilt would proceed to trial rather than take a plea deal with a shorter prison sentence," the Court of Appeals concluded that Lee could not show prejudice.
+	innerSentence :  Lee could not show prejudice.
+		coremap sentence : Lee could not show prejudice.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.041  
+ 0.323  
+ 0.564  
+ 0.063  
+ 0.008  
+
+		-----
+	outerSentence : Court concluded something.
+		coremap sentence : Court concluded something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.036  
+ 0.166  
+ 0.391  
+ 0.340  
+ 0.067  
+
+		-----
+	 outer Subject : Court , 	 inner Subject : Lee 
+
+To demonstrate that counsel was constitutionally ineffective, a defendant must show that counsel's representation "fell below an objective standard of reasonableness" and that he was prejudiced as a result.
+	innerSentence :  counsel was constitutionally ineffective
+		coremap sentence : counsel was constitutionally ineffective
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.072  
+ 0.474  
+ 0.355  
+ 0.078  
+ 0.021  
+
+		-----
+	outerSentence : defendant demonstrate something.
+		coremap sentence : defendant demonstrate something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.027  
+ 0.124  
+ 0.391  
+ 0.389  
+ 0.068  
+
+		-----
+	 outer Subject : defendant , 	 inner Subject : counsel 
+To demonstrate that counsel was constitutionally ineffective, a defendant must show that counsel's representation "fell below an objective standard of reasonableness" and that he was prejudiced as a result.
+	innerSentence :  counsel's representation "fell below an objective standard of reasonableness" and that he was prejudiced as a result.
+		coremap sentence : counsel's representation "fell below an objective standard of reasonableness" and that he was prejudiced as a result.
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.264  
+ 0.588  
+ 0.130  
+ 0.011  
+ 0.008  
+
+		-----
+	outerSentence : defendant must show something.
+		coremap sentence : defendant must show something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.029  
+ 0.153  
+ 0.467  
+ 0.301  
+ 0.050  
+
+		-----
+	 outer Subject : defendant , 	 inner Subject : counsel representation 
+
+The first requirement is not at issue in today's case: The Government concedes that Lee's plea-stage counsel provided inadequate representation when he assured Lee that he would not be deported if he pleaded guilty.
+	innerSentence :  Lee's plea-stage counsel provided inadequate representation
+		coremap sentence : Lee's plea-stage counsel provided inadequate representation
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.035  
+ 0.321  
+ 0.550  
+ 0.081  
+ 0.013  
+
+		-----
+	outerSentence : Government concedes something.
+		coremap sentence : Government concedes something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.036  
+ 0.166  
+ 0.391  
+ 0.340  
+ 0.067  
+
+		-----
+	 outer Subject : Government , 	 inner Subject : plea-stage Lee counsel 
+
+As we held in Hill v. Lockhart, when a defendant claims that his counsel's deficient performance deprived him of a trial by causing him to accept a plea, the defendant can show prejudice by demonstrating a "reasonable probability that, but for counsel's errors, he would not have pleaded guilty and would have insisted on going to trial."
+	innerSentence :  his counsel's deficient performance deprived him of a trial by causing him to accept a plea
+		coremap sentence : his counsel's deficient performance deprived him of a trial by causing him to accept a plea
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.207  
+ 0.620  
+ 0.150  
+ 0.013  
+ 0.010  
+
+		-----
+	outerSentence : defendant claims something.
+		coremap sentence : defendant claims something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.031  
+ 0.182  
+ 0.518  
+ 0.231  
+ 0.038  
+
+		-----
+	 outer Subject : defendant , 	 inner Subject : deficient counsel performance 
+
+The dissent contends that a defendant must also show that he would have been better off going to trial.
+	innerSentence :  a defendant must also show that he would have been better off going to trial.
+		coremap sentence : a defendant must also show that he would have been better off going to trial.
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.127  
+ 0.549  
+ 0.252  
+ 0.053  
+ 0.018  
+
+		-----
+	outerSentence : dissent contends something.
+		coremap sentence : dissent contends something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.026  
+ 0.274  
+ 0.666  
+ 0.030  
+ 0.005  
+
+		-----
+	 outer Subject : dissent , 	 inner Subject : defendant 
+The dissent contends that a defendant must also show that he would have been better off going to trial.
+	innerSentence :  he would have been better off going to trial.
+		coremap sentence : he would have been better off going to trial.
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.123  
+ 0.625  
+ 0.221  
+ 0.022  
+ 0.009  
+
+		-----
+	outerSentence : defendant must show something.
+		coremap sentence : defendant must show something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.029  
+ 0.153  
+ 0.467  
+ 0.301  
+ 0.050  
+
+		-----
+	 outer Subject : defendant , 	 inner Subject : he 
+
+That is true when the defendant's decision about going to trial turns on his prospects of success and those are affected by the attorney's error--for instance, where a defendant alleges that his lawyer should have but did not seek to suppress an improperly obtained confession.
+	innerSentence :  his lawyer should have but did not seek to suppress an improperly obtained confession.
+		coremap sentence : his lawyer should have but did not seek to suppress an improperly obtained confession.
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.069  
+ 0.488  
+ 0.347  
+ 0.079  
+ 0.016  
+
+		-----
+	outerSentence : defendant alleges something.
+		coremap sentence : defendant alleges something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.036  
+ 0.166  
+ 0.391  
+ 0.340  
+ 0.067  
+
+		-----
+	 outer Subject : defendant , 	 inner Subject : his lawyer 
+
+Rather than asking how a hypothetical trial would have played out absent the error, the Court considered whether there was an adequate showing that the defendant, properly advised, would have opted to go to trial.
+	innerSentence :  would have opted to go to trial.
+		coremap sentence : would have opted to go to trial.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.042  
+ 0.324  
+ 0.538  
+ 0.086  
+ 0.011  
+
+		-----
+	outerSentence : none-outerSubject showing something.
+		coremap sentence : none-outerSubject showing something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.024  
+ 0.112  
+ 0.410  
+ 0.392  
+ 0.061  
+
+		-----
+	 outer Subject : none-outerSubject, 	 inner Subject : defendant 
+
+Lee, on the other hand, argues he can establish prejudice under Hill because he never would have accepted a guilty plea had he known that he would be deported as a result.
+	innerSentence :  he would be deported as a result.
+		coremap sentence : he would be deported as a result.
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.208  
+ 0.602  
+ 0.160  
+ 0.019  
+ 0.010  
+
+		-----
+	outerSentence : he had known something.
+		coremap sentence : he had known something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.003  
+ 0.017  
+ 0.886  
+ 0.089  
+ 0.005  
+
+		-----
+	 outer Subject : he , 	 inner Subject : he 
+
+Lee insists he would have gambled on trial, risking more jail time for whatever small chance there might be of an acquittal that would let him remain in the United States.2 The Government responds that, since Lee had no viable defense at trial, he would almost certainly have lost and found himself still subject to deportation, with a lengthier prison sentence to boot.
+	innerSentence :  he would almost certainly have lost and found himself still subject to deportation
+		coremap sentence : he would almost certainly have lost and found himself still subject to deportation
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.058  
+ 0.522  
+ 0.382  
+ 0.030  
+ 0.007  
+
+		-----
+	outerSentence : Government responds something.
+		coremap sentence : Government responds something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.036  
+ 0.166  
+ 0.391  
+ 0.340  
+ 0.067  
+
+		-----
+	 outer Subject : Government , 	 inner Subject : he 
+
+Lee, the Government contends, cannot show prejudice from accepting a plea where his only hope at trial was that something unexpected and unpredictable might occur that would lead to an acquittal.
+	innerSentence :  something unexpected and unpredictable might occur that would lead to an acquittal.
+		coremap sentence : something unexpected and unpredictable might occur that would lead to an acquittal.
+		sentiment : Positive
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.005  
+ 0.023  
+ 0.097  
+ 0.809  
+ 0.066  
+
+		-----
+	outerSentence : only his hope was something.
+		coremap sentence : only his hope was something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.029  
+ 0.322  
+ 0.525  
+ 0.115  
+ 0.009  
+
+		-----
+	 outer Subject : only his hope , 	 inner Subject : unexpected something 
+
+The Government asks that we, like the Court of Appeals below, adopt a per se rule that a defendant with no viable defense cannot show prejudice from the denial of his right to trial.
+	innerSentence :  adopt a per se rule that a defendant with no viable defense cannot show prejudice from the denial of his right to trial.
+		coremap sentence : adopt a per se rule that a defendant with no viable defense cannot show prejudice from the denial of his right to trial.
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.126  
+ 0.577  
+ 0.273  
+ 0.018  
+ 0.006  
+
+		-----
+	outerSentence : Government asks something.
+		coremap sentence : Government asks something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.033  
+ 0.153  
+ 0.388  
+ 0.361  
+ 0.064  
+
+		-----
+	 outer Subject : Government , 	 inner Subject : we 
+
+First, it forgets that categorical rules are ill suited to an inquiry that we have emphasized demands a "case-by-case examination" of the "totality of the evidence."
+	innerSentence :  categorical rules are ill suited to an inquiry that we have emphasized demands a "case-by-case examination" of the "totality of the evidence."
+		coremap sentence : categorical rules are ill suited to an inquiry that we have emphasized demands a "case-by-case examination" of the "totality of the evidence."
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.090  
+ 0.549  
+ 0.345  
+ 0.010  
+ 0.005  
+
+		-----
+	outerSentence : it forgets something.
+		coremap sentence : it forgets something.
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.065  
+ 0.422  
+ 0.385  
+ 0.108  
+ 0.020  
+
+		-----
+	 outer Subject : it , 	 inner Subject : categorical rules 
+
+And, more fundamentally, the Government overlooks that the inquiry we prescribed in Hill v. Lockhart focuses on a defendant's decisionmaking, which may not turn solely on the likelihood of conviction after trial.
+	innerSentence :  the inquiry we prescribed in Hill v. Lockhart focuses on a defendant's decisionmaking
+		coremap sentence : the inquiry we prescribed in Hill v. Lockhart focuses on a defendant's decisionmaking
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.015  
+ 0.143  
+ 0.720  
+ 0.114  
+ 0.009  
+
+		-----
+	outerSentence : Government overlooks something.
+		coremap sentence : Government overlooks something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.036  
+ 0.166  
+ 0.391  
+ 0.340  
+ 0.067  
+
+		-----
+	 outer Subject : Government , 	 inner Subject : inquiry 
+
+But common sense (not to mention our precedent) recognizes that there is more to consider than simply the likelihood of success at trial.
+	innerSentence :  there is more to consider than simply the likelihood of success at trial.
+		coremap sentence : there is more to consider than simply the likelihood of success at trial.
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.128  
+ 0.653  
+ 0.193  
+ 0.019  
+ 0.008  
+
+		-----
+	outerSentence : common sense recognizes something.
+		coremap sentence : common sense recognizes something.
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.119  
+ 0.487  
+ 0.187  
+ 0.154  
+ 0.053  
+
+		-----
+	 outer Subject : common sense , 	 inner Subject : more 
+
+Here Lee alleges that avoiding deportation was the determinative factor for him; deportation after some time in prison was not meaningfully different from deportation after somewhat less time.
+	innerSentence :  avoiding deportation was the determinative factor for him; deportation after some time in prison was not meaningfully different from deportation after somewhat less time.
+		coremap sentence : avoiding deportation was the determinative factor for him; deportation after some time in prison was not meaningfully different from deportation after somewhat less time.
+		sentiment : Very negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.488  
+ 0.417  
+ 0.085  
+ 0.003  
+ 0.008  
+
+		-----
+	outerSentence : Lee alleges something.
+		coremap sentence : Lee alleges something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.008  
+ 0.035  
+ 0.617  
+ 0.318  
+ 0.022  
+
+		-----
+	 outer Subject : Lee , 	 inner Subject : none-innersubject
+
+The Government urges that, in such circumstances, the possibility of an acquittal after trial is "irrelevant to the prejudice inquiry," pointing to our statement in Strickland that "[a] defendant has no entitlement to the luck of a lawless decisionmaker."
+	innerSentence :  the possibility of an acquittal after trial is "irrelevant to the prejudice inquiry
+		coremap sentence : the possibility of an acquittal after trial is "irrelevant to the prejudice inquiry
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.036  
+ 0.428  
+ 0.465  
+ 0.064  
+ 0.007  
+
+		-----
+	outerSentence : Government urges something.
+		coremap sentence : Government urges something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.049  
+ 0.234  
+ 0.360  
+ 0.294  
+ 0.063  
+
+		-----
+	 outer Subject : Government , 	 inner Subject : possibility 
+
+In the unusual circumstances of this case, we conclude that Lee has adequately demonstrated a reasonable probability that he would have rejected the plea had he known that it would lead to mandatory deportation.
+	innerSentence :  Lee has adequately demonstrated a reasonable probability that he would have rejected the plea had he known that it would lead to mandatory deportation.
+		coremap sentence : Lee has adequately demonstrated a reasonable probability that he would have rejected the plea had he known that it would lead to mandatory deportation.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.091  
+ 0.409  
+ 0.413  
+ 0.070  
+ 0.017  
+
+		-----
+	outerSentence : we conclude something.
+		coremap sentence : we conclude something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.011  
+ 0.052  
+ 0.621  
+ 0.287  
+ 0.029  
+
+		-----
+	 outer Subject : we , 	 inner Subject : Lee 
+In the unusual circumstances of this case, we conclude that Lee has adequately demonstrated a reasonable probability that he would have rejected the plea had he known that it would lead to mandatory deportation.
+	innerSentence :  it would lead to mandatory deportation.
+		coremap sentence : it would lead to mandatory deportation.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.040  
+ 0.320  
+ 0.489  
+ 0.136  
+ 0.016  
+
+		-----
+	outerSentence : he had known something.
+		coremap sentence : he had known something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.003  
+ 0.017  
+ 0.886  
+ 0.089  
+ 0.005  
+
+		-----
+	 outer Subject : he , 	 inner Subject : it 
+
+Lee demonstrated as much at his plea colloquy: When the judge warned him that a conviction "could result in your being deported," and asked "[d]oes that at all affect your decision about whether you want to plead guilty or not," Lee answered "Yes, Your Honor."
+	innerSentence :  at all affect your decision about whether you want to plead guilty or not
+		coremap sentence : at all affect your decision about whether you want to plead guilty or not
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.028  
+ 0.366  
+ 0.568  
+ 0.034  
+ 0.004  
+
+		-----
+	outerSentence : none-outerSubject oes something.
+		coremap sentence : none-outerSubject oes something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.014  
+ 0.078  
+ 0.606  
+ 0.274  
+ 0.028  
+
+		-----
+	 outer Subject : none-outerSubject, 	 inner Subject : none-innersubject
+
+Deportation is always "a particularly severe penalty," Padilla, 559 U. S., at 365 (internal quotation marks omitted), and we have "recognized that 'preserving the client's right to remain in the United States may be more important to the client than any potential jail sentence,' " id., at 368 (quoting St. Cyr, 533 U. S., at 322; alteration and some internal quotation marks omitted); see also Padilla, 559 U. S., at 364 ("[D]eportation is an integral part--indeed, sometimes the most important part--of the penalty that may be imposed on noncitizen defendants who plead guilty to specified crimes."
+	innerSentence :  'preserving the client's right to remain in the United States may be more important to the client than any potential jail sentence
+		coremap sentence : 'preserving the client's right to remain in the United States may be more important to the client than any potential jail sentence
+		sentiment : Positive
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.015  
+ 0.036  
+ 0.081  
+ 0.709  
+ 0.159  
+
+		-----
+	outerSentence : we have recognized something.
+		coremap sentence : we have recognized something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.053  
+ 0.229  
+ 0.436  
+ 0.235  
+ 0.047  
+
+		-----
+	 outer Subject : we , 	 inner Subject : none-innersubject
+
+The Government contends that Lee cannot make that showing because he was going to be deported either way; going to trial would only result in a longer sentence before that inevitable consequence.
+	innerSentence :  Lee cannot make that showing because he was going to be deported either way; going to trial would only result in a longer sentence before that inevitable consequence.
+		coremap sentence : Lee cannot make that showing because he was going to be deported either way; going to trial would only result in a longer sentence before that inevitable consequence.
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.417  
+ 0.426  
+ 0.119  
+ 0.014  
+ 0.024  
+
+		-----
+	outerSentence : Government contends something.
+		coremap sentence : Government contends something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.036  
+ 0.166  
+ 0.391  
+ 0.340  
+ 0.067  
+
+		-----
+	 outer Subject : Government , 	 inner Subject : Lee 
+
+We cannot agree that it would be irrational for a defendant in Lee's position to reject the plea offer in favor of trial.
+	innerSentence :  it would be irrational for a defendant in Lee's position to reject the plea offer in favor of trial.
+		coremap sentence : it would be irrational for a defendant in Lee's position to reject the plea offer in favor of trial.
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.059  
+ 0.464  
+ 0.400  
+ 0.066  
+ 0.011  
+
+		-----
+	outerSentence : We can not agree something.
+		coremap sentence : We can not agree something.
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.104  
+ 0.733  
+ 0.134  
+ 0.022  
+ 0.008  
+
+		-----
+	 outer Subject : We , 	 inner Subject : it 
+
+But for his attorney's incompetence, Lee would have known that accepting the plea agreement would certainly lead to deportation.
+	innerSentence :  accepting the plea agreement would certainly lead to deportation.
+		coremap sentence : accepting the plea agreement would certainly lead to deportation.
+		sentiment : Positive
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.046  
+ 0.271  
+ 0.271  
+ 0.357  
+ 0.055  
+
+		-----
+	outerSentence : Lee would known something.
+		coremap sentence : Lee would known something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.002  
+ 0.017  
+ 0.852  
+ 0.125  
+ 0.004  
+
+		-----
+	 outer Subject : Lee , 	 inner Subject : none-innersubject
+
+The Court today holds that a defendant can undo a guilty plea, well after sentencing and in the face of overwhelming evidence of guilt, because he would have chosen to pursue a defense at trial with no reasonable chance of success if his attorney had properly advised him of the immigration consequences of his plea.
+	innerSentence :  a defendant can undo a guilty plea
+		coremap sentence : a defendant can undo a guilty plea
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.076  
+ 0.518  
+ 0.296  
+ 0.090  
+ 0.020  
+
+		-----
+	outerSentence : Court holds something.
+		coremap sentence : Court holds something.
+		sentiment : Positive
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.011  
+ 0.031  
+ 0.216  
+ 0.599  
+ 0.142  
+
+		-----
+	 outer Subject : Court , 	 inner Subject : defendant 
+
+
+The Court and both of the parties agree that the prejudice inquiry in this context is governed by Strickland v. Washington, 466 U. S. 668 (1984).
+	innerSentence :  the prejudice inquiry in this context is governed by Strickland v. Washington
+		coremap sentence : the prejudice inquiry in this context is governed by Strickland v. Washington
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.055  
+ 0.571  
+ 0.331  
+ 0.036  
+ 0.007  
+
+		-----
+	outerSentence : Court agree something.
+		coremap sentence : Court agree something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.036  
+ 0.166  
+ 0.391  
+ 0.340  
+ 0.067  
+
+		-----
+	 outer Subject : Court , 	 inner Subject : inquiry 
+
+The Court in Strickland held that a defendant may establish a claim of ineffective assistance of counsel by showing that his "counsel's representation fell below an objective standard of reasonableness" and, as relevant here, that the representation prejudiced the defendant by "actually ha[ving] an adverse effect on the defense."
+	innerSentence :  a defendant may establish a claim of ineffective assistance of counsel by showing that his "counsel's representation fell below an objective standard of reasonableness" and
+		coremap sentence : a defendant may establish a claim of ineffective assistance of counsel by showing that his "counsel's representation fell below an objective standard of reasonableness" and
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.222  
+ 0.588  
+ 0.160  
+ 0.019  
+ 0.010  
+
+		-----
+	outerSentence : Court held something.
+		coremap sentence : Court held something.
+		sentiment : Positive
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.017  
+ 0.071  
+ 0.391  
+ 0.449  
+ 0.073  
+
+		-----
+	 outer Subject : Court , 	 inner Subject : defendant 
+
+And it explained that "[a]n error by counsel . . . does not warrant setting aside the judgment of a criminal proceeding if the error had no effect on the judgment."
+	innerSentence :  "[a]n error by counsel . . . does not warrant setting aside the judgment of a criminal proceeding if the error had no effect on the judgment."
+		coremap sentence : "[a]n error by counsel . . . does not warrant setting aside the judgment of a criminal proceeding if the error had no effect on the judgment."
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.158  
+ 0.684  
+ 0.131  
+ 0.019  
+ 0.007  
+
+		-----
+	outerSentence : it explained something.
+		coremap sentence : it explained something.
+		sentiment : Positive
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.018  
+ 0.086  
+ 0.409  
+ 0.441  
+ 0.045  
+
+		-----
+	 outer Subject : it , 	 inner Subject : error 
+
+The parties agree that this inquiry assumes an "objective" decisionmaker.
+	innerSentence :  this inquiry assumes an "objective" decisionmaker.
+		coremap sentence : this inquiry assumes an "objective" decisionmaker.
+		sentiment : Positive
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.048  
+ 0.101  
+ 0.108  
+ 0.528  
+ 0.214  
+
+		-----
+	outerSentence : parties agree something.
+		coremap sentence : parties agree something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.016  
+ 0.083  
+ 0.511  
+ 0.350  
+ 0.040  
+
+		-----
+	 outer Subject : parties , 	 inner Subject : inquiry 
+
+When the Court extended the right to effective counsel to the plea stage, see Hill v. Lockhart, 474 U. S. 52 (1985), it held that "the same two-part standard" from Strickland applies.
+	innerSentence :  "the same two-part standard" from Strickland applies.
+		coremap sentence : "the same two-part standard" from Strickland applies.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.042  
+ 0.379  
+ 0.516  
+ 0.053  
+ 0.009  
+
+		-----
+	outerSentence : it held something.
+		coremap sentence : it held something.
+		sentiment : Positive
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.006  
+ 0.024  
+ 0.339  
+ 0.588  
+ 0.044  
+
+		-----
+	 outer Subject : it , 	 inner Subject : same standard 
+
+To be sure, the Court said--and the majority today emphasizes--that a defendant asserting an ineffectiveness claim at the plea stage "must show that there is a reasonable probability that, but for counsel's errors, he would not have pleaded guilty and would have insisted on going to trial."
+	innerSentence :  there is a reasonable probability
+		coremap sentence : there is a reasonable probability
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.036  
+ 0.220  
+ 0.378  
+ 0.330  
+ 0.035  
+
+		-----
+	outerSentence : defendant must show something.
+		coremap sentence : defendant must show something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.029  
+ 0.153  
+ 0.467  
+ 0.301  
+ 0.050  
+
+		-----
+	 outer Subject : defendant , 	 inner Subject : reasonable probability 
+
+But that requirement merely reflects the reality that a defendant cannot show that the outcome of his case would have been different if he would have accepted his current plea anyway.
+	innerSentence :  the outcome of his case would have been different if he would have accepted his current plea anyway.
+		coremap sentence : the outcome of his case would have been different if he would have accepted his current plea anyway.
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.137  
+ 0.700  
+ 0.136  
+ 0.020  
+ 0.007  
+
+		-----
+	outerSentence : defendant can not show something.
+		coremap sentence : defendant can not show something.
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.087  
+ 0.515  
+ 0.315  
+ 0.063  
+ 0.020  
+
+		-----
+	 outer Subject : defendant , 	 inner Subject : outcome 
+
+* In other words, the defendant's ability to show that he would have gone to trial is necessary, but not sufficient, to establish prejudice.
+	innerSentence :  he would have gone to trial is necessary
+		coremap sentence : he would have gone to trial is necessary
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.017  
+ 0.186  
+ 0.730  
+ 0.061  
+ 0.007  
+
+		-----
+	outerSentence : none-outerSubject show something.
+		coremap sentence : none-outerSubject show something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.014  
+ 0.078  
+ 0.661  
+ 0.225  
+ 0.022  
+
+		-----
+	 outer Subject : none-outerSubject, 	 inner Subject : he 
+
+The Hill Court went on to explain that Strickland's two-part test applies the same way in the plea context as in other contexts.
+	innerSentence :  Strickland's two-part test applies the same way in the plea context as in other contexts.
+		coremap sentence : Strickland's two-part test applies the same way in the plea context as in other contexts.
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.073  
+ 0.591  
+ 0.302  
+ 0.026  
+ 0.008  
+
+		-----
+	outerSentence : Court explain something.
+		coremap sentence : Court explain something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.017  
+ 0.082  
+ 0.540  
+ 0.317  
+ 0.044  
+
+		-----
+	 outer Subject : Court , 	 inner Subject : two-part Strickland test 
+
+In Premo v. Moore, 562 U. S. 115 (2011), the Court emphasized that "strict adherence to the Strickland standard" is "essential" when reviewing claims about attorney error "at the plea bargain stage."
+	innerSentence :  "strict adherence to the Strickland standard" is "essential"
+		coremap sentence : "strict adherence to the Strickland standard" is "essential"
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.040  
+ 0.309  
+ 0.412  
+ 0.213  
+ 0.025  
+
+		-----
+	outerSentence : Court emphasized something.
+		coremap sentence : Court emphasized something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.029  
+ 0.160  
+ 0.510  
+ 0.259  
+ 0.042  
+
+		-----
+	 outer Subject : Court , 	 inner Subject : strict adherence 
+
+In that case, the defendant argued that his counsel was constitutionally ineffective because he had failed to seek suppression of his confession before he pleaded no contest.
+	innerSentence :  his counsel was constitutionally ineffective because he had failed to seek suppression of his confession before he pleaded no contest.
+		coremap sentence : his counsel was constitutionally ineffective because he had failed to seek suppression of his confession before he pleaded no contest.
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.194  
+ 0.627  
+ 0.157  
+ 0.014  
+ 0.008  
+
+		-----
+	outerSentence : defendant argued something.
+		coremap sentence : defendant argued something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.036  
+ 0.166  
+ 0.391  
+ 0.340  
+ 0.067  
+
+		-----
+	 outer Subject : defendant , 	 inner Subject : his counsel 
+
+
+
+The Court emphasized that, in addition to showing a reasonable probability that the defendant "would have accepted the earlier plea offer," it is also "necessary" to show a "reasonable probability that the end result of the criminal process would have been more favorable by reason of a plea to a lesser charge or a sentence of less prison time."
+	innerSentence : " it is also "necessary" to show a "reasonable probability that the end result of the criminal process would have been more favorable by reason of a plea to a lesser charge or a sentence of less prison time."
+		coremap sentence : " it is also "necessary" to show a "reasonable probability that the end result of the criminal process would have been more favorable by reason of a plea to a lesser charge or a sentence of less prison time."
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.128  
+ 0.651  
+ 0.154  
+ 0.053  
+ 0.014  
+
+		-----
+	outerSentence : Court emphasized something.
+		coremap sentence : Court emphasized something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.029  
+ 0.160  
+ 0.510  
+ 0.259  
+ 0.042  
+
+		-----
+	 outer Subject : Court , 	 inner Subject : it 
+
+It instead required the defendant to show that the ultimate outcome would have been different.
+	innerSentence :  the ultimate outcome would have been different.
+		coremap sentence : the ultimate outcome would have been different.
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.119  
+ 0.620  
+ 0.225  
+ 0.026  
+ 0.009  
+
+		-----
+	outerSentence : It show something.
+		coremap sentence : It show something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.009  
+ 0.043  
+ 0.533  
+ 0.390  
+ 0.025  
+
+		-----
+	 outer Subject : It , 	 inner Subject : ultimate outcome 
+
+In that case, the Court concluded that counsel may be constitutionally ineffective by causing a defendant to reject a plea deal he should have accepted.
+	innerSentence :  counsel may be constitutionally ineffective by causing a defendant to reject a plea deal he should have accepted.
+		coremap sentence : counsel may be constitutionally ineffective by causing a defendant to reject a plea deal he should have accepted.
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.097  
+ 0.537  
+ 0.303  
+ 0.046  
+ 0.016  
+
+		-----
+	outerSentence : Court concluded something.
+		coremap sentence : Court concluded something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.036  
+ 0.166  
+ 0.391  
+ 0.340  
+ 0.067  
+
+		-----
+	 outer Subject : Court , 	 inner Subject : counsel 
+
+The Court again emphasized that the prejudice inquiry requires a showing that the criminal prosecution would ultimately have ended differently for the defendant--not merely that the defendant would have accepted the deal.
+	innerSentence :  the prejudice inquiry requires a showing that the criminal prosecution would ultimately have ended differently for the defendant--not merely that the defendant would have accepted the deal.
+		coremap sentence : the prejudice inquiry requires a showing that the criminal prosecution would ultimately have ended differently for the defendant--not merely that the defendant would have accepted the deal.
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.200  
+ 0.593  
+ 0.191  
+ 0.010  
+ 0.006  
+
+		-----
+	outerSentence : Court emphasized something.
+		coremap sentence : Court emphasized something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.029  
+ 0.160  
+ 0.510  
+ 0.259  
+ 0.042  
+
+		-----
+	 outer Subject : Court , 	 inner Subject : inquiry 
+The Court again emphasized that the prejudice inquiry requires a showing that the criminal prosecution would ultimately have ended differently for the defendant--not merely that the defendant would have accepted the deal.
+	innerSentence :  the criminal prosecution would ultimately have ended differently for the defendant--not merely that the defendant would have accepted the deal.
+		coremap sentence : the criminal prosecution would ultimately have ended differently for the defendant--not merely that the defendant would have accepted the deal.
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.274  
+ 0.496  
+ 0.207  
+ 0.012  
+ 0.010  
+
+		-----
+	outerSentence : none-outerSubject showing something.
+		coremap sentence : none-outerSubject showing something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.024  
+ 0.112  
+ 0.410  
+ 0.392  
+ 0.061  
+
+		-----
+	 outer Subject : none-outerSubject, 	 inner Subject : criminal prosecution 
+The Court again emphasized that the prejudice inquiry requires a showing that the criminal prosecution would ultimately have ended differently for the defendant--not merely that the defendant would have accepted the deal.
+	innerSentence :  the defendant would have accepted the deal.
+		coremap sentence : the defendant would have accepted the deal.
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.059  
+ 0.465  
+ 0.385  
+ 0.077  
+ 0.014  
+
+		-----
+	outerSentence : none-outerSubject not merely something.
+		coremap sentence : none-outerSubject not merely something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.041  
+ 0.320  
+ 0.524  
+ 0.100  
+ 0.014  
+
+		-----
+	 outer Subject : none-outerSubject, 	 inner Subject : defendant 
+
+The Court stated that the defendant in those circumstances "must show" a reasonable probability that "the conviction or sentence, or both, under the offer's terms would have been less severe than under the judgment and sentence that in fact were imposed."
+	innerSentence :  the defendant in those circumstances "must show" a reasonable probability that "the conviction or sentence
+		coremap sentence : the defendant in those circumstances "must show" a reasonable probability that "the conviction or sentence
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.030  
+ 0.204  
+ 0.426  
+ 0.307  
+ 0.032  
+
+		-----
+	outerSentence : Court stated something.
+		coremap sentence : Court stated something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.036  
+ 0.166  
+ 0.391  
+ 0.340  
+ 0.067  
+
+		-----
+	 outer Subject : Court , 	 inner Subject : defendant 
+
+This Court has held that the right to effective counsel applies to all "critical stages of the criminal proceedings."
+	innerSentence :  the right to effective counsel applies to all "critical stages of the criminal proceedings."
+		coremap sentence : the right to effective counsel applies to all "critical stages of the criminal proceedings."
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.042  
+ 0.341  
+ 0.481  
+ 0.118  
+ 0.019  
+
+		-----
+	outerSentence : Court has held something.
+		coremap sentence : Court has held something.
+		sentiment : Positive
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.017  
+ 0.062  
+ 0.315  
+ 0.513  
+ 0.093  
+
+		-----
+	 outer Subject : Court , 	 inner Subject : right 
+
+In those circumstances, the Court has not held that the prejudice inquiry focuses on whether that stage of the proceeding would have ended differently.
+	innerSentence :  the prejudice inquiry focuses on whether that stage of the proceeding would have ended differently.
+		coremap sentence : the prejudice inquiry focuses on whether that stage of the proceeding would have ended differently.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.038  
+ 0.388  
+ 0.526  
+ 0.042  
+ 0.006  
+
+		-----
+	outerSentence : Court has not held something.
+		coremap sentence : Court has not held something.
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.098  
+ 0.537  
+ 0.282  
+ 0.061  
+ 0.021  
+
+		-----
+	 outer Subject : Court , 	 inner Subject : inquiry 
+
+It instead has made clear that the prejudice inquiry is the same as in Strickland, which requires a defendant to establish that he would have been better off in the end had his counsel not erred.
+	innerSentence :  the prejudice inquiry is the same as in Strickland
+		coremap sentence : the prejudice inquiry is the same as in Strickland
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.016  
+ 0.253  
+ 0.695  
+ 0.034  
+ 0.003  
+
+		-----
+	outerSentence : It clear something.
+		coremap sentence : It clear something.
+		sentiment : Positive
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.006  
+ 0.029  
+ 0.382  
+ 0.547  
+ 0.036  
+
+		-----
+	 outer Subject : It , 	 inner Subject : inquiry 
+It instead has made clear that the prejudice inquiry is the same as in Strickland, which requires a defendant to establish that he would have been better off in the end had his counsel not erred.
+	innerSentence :  he would have been better off in the end had his counsel not erred.
+		coremap sentence : he would have been better off in the end had his counsel not erred.
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.161  
+ 0.618  
+ 0.189  
+ 0.022  
+ 0.010  
+
+		-----
+	outerSentence : which establish something.
+		coremap sentence : which establish something.
+		sentiment : Positive
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.008  
+ 0.022  
+ 0.236  
+ 0.634  
+ 0.100  
+
+		-----
+	 outer Subject : which , 	 inner Subject : he 
+
+The majority misapplies this Court's precedents when it concludes that a defendant may establish prejudice by showing only that "he would not have pleaded guilty and would have insisted on going to trial," without showing that "the result of that trial would have been different than the result of the plea bargain."
+	innerSentence :  a defendant may establish prejudice by showing only that "he would not have pleaded guilty and would have insisted on going to trial
+		coremap sentence : a defendant may establish prejudice by showing only that "he would not have pleaded guilty and would have insisted on going to trial
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.158  
+ 0.595  
+ 0.206  
+ 0.030  
+ 0.012  
+
+		-----
+	outerSentence : it concludes something.
+		coremap sentence : it concludes something.
+		sentiment : Positive
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.009  
+ 0.038  
+ 0.344  
+ 0.562  
+ 0.046  
+
+		-----
+	 outer Subject : it , 	 inner Subject : defendant 
+The majority misapplies this Court's precedents when it concludes that a defendant may establish prejudice by showing only that "he would not have pleaded guilty and would have insisted on going to trial," without showing that "the result of that trial would have been different than the result of the plea bargain."
+	innerSentence :  "the result of that trial would have been different than the result of the plea bargain."
+		coremap sentence : "the result of that trial would have been different than the result of the plea bargain."
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.097  
+ 0.664  
+ 0.184  
+ 0.044  
+ 0.011  
+
+		-----
+	outerSentence : none-outerSubject showing something.
+		coremap sentence : none-outerSubject showing something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.024  
+ 0.112  
+ 0.410  
+ 0.392  
+ 0.061  
+
+		-----
+	 outer Subject : none-outerSubject, 	 inner Subject : result 
+
+In reaching this conclusion, the Court relies almost exclusively on the single line from Hill that "the defendant must show that there is a reasonable probability that, but for counsel's errors, he would not have pleaded guilty and would have insisted on going to trial."
+	innerSentence :  there is a reasonable probability
+		coremap sentence : there is a reasonable probability
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.036  
+ 0.220  
+ 0.378  
+ 0.330  
+ 0.035  
+
+		-----
+	outerSentence : defendant must show something.
+		coremap sentence : defendant must show something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.029  
+ 0.153  
+ 0.467  
+ 0.301  
+ 0.050  
+
+		-----
+	 outer Subject : defendant , 	 inner Subject : reasonable probability 
+
+In Hill, the Court concluded that the defendant had not made that showing, so it rejected his claim.
+	innerSentence :  the defendant had not made that showing
+		coremap sentence : the defendant had not made that showing
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.043  
+ 0.488  
+ 0.402  
+ 0.058  
+ 0.009  
+
+		-----
+	outerSentence : Court concluded something.
+		coremap sentence : Court concluded something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.036  
+ 0.166  
+ 0.391  
+ 0.340  
+ 0.067  
+
+		-----
+	 outer Subject : Court , 	 inner Subject : defendant 
+
+
+The Court observed that the lawyer's failure to file the notice of appeal "arguably led not to a judicial proceeding of disputed reliability," but instead to "the forfeiture of a proceeding itself."
+	innerSentence :  the lawyer's failure to file the notice of appeal "arguably led not to a judicial proceeding of disputed reliability
+		coremap sentence : the lawyer's failure to file the notice of appeal "arguably led not to a judicial proceeding of disputed reliability
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.237  
+ 0.544  
+ 0.182  
+ 0.019  
+ 0.018  
+
+		-----
+	outerSentence : Court observed something.
+		coremap sentence : Court observed something.
+		sentiment : Positive
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.014  
+ 0.044  
+ 0.274  
+ 0.564  
+ 0.105  
+
+		-----
+	 outer Subject : Court , 	 inner Subject : lawyer failure 
+
+The Court today observes that petitioner's guilty plea meant that he did not go to trial.
+	innerSentence :  petitioner's guilty plea meant that he did not go to trial.
+		coremap sentence : petitioner's guilty plea meant that he did not go to trial.
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.051  
+ 0.481  
+ 0.423  
+ 0.037  
+ 0.007  
+
+		-----
+	outerSentence : Court observes something.
+		coremap sentence : Court observes something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.035  
+ 0.166  
+ 0.405  
+ 0.330  
+ 0.064  
+
+		-----
+	 outer Subject : Court , 	 inner Subject : guilty petitioner plea 
+The Court today observes that petitioner's guilty plea meant that he did not go to trial.
+	innerSentence :  he did not go to trial.
+		coremap sentence : he did not go to trial.
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.064  
+ 0.496  
+ 0.399  
+ 0.033  
+ 0.009  
+
+		-----
+	outerSentence : guilty petitioner plea meant something.
+		coremap sentence : guilty petitioner plea meant something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.031  
+ 0.314  
+ 0.594  
+ 0.053  
+ 0.007  
+
+		-----
+	 outer Subject : guilty petitioner plea , 	 inner Subject : he 
+
+After explaining that a court should engage in a predictive inquiry about the likelihood of a defendant securing a better result at trial, the Court said: "As we explained in Strickland v. Washington, supra, these predictions of the outcome at a possible trial, where necessary, should be made objectively, without regard for the 'idiosyncrasies of the particular decisionmaker.' "
+	innerSentence :  a court should engage in a predictive inquiry about the likelihood of a defendant securing a better result at trial
+		coremap sentence : a court should engage in a predictive inquiry about the likelihood of a defendant securing a better result at trial
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.064  
+ 0.458  
+ 0.328  
+ 0.128  
+ 0.022  
+
+		-----
+	outerSentence : Court explaining something.
+		coremap sentence : Court explaining something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.013  
+ 0.080  
+ 0.656  
+ 0.230  
+ 0.021  
+
+		-----
+	 outer Subject : Court , 	 inner Subject : court 
+
+In other words, Hill instructs that the prejudice inquiry must presume that the foregone trial would have been reliable.
+	innerSentence :  the prejudice inquiry must presume that the foregone trial would have been reliable.
+		coremap sentence : the prejudice inquiry must presume that the foregone trial would have been reliable.
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.075  
+ 0.564  
+ 0.318  
+ 0.035  
+ 0.008  
+
+		-----
+	outerSentence : Hill instructs something.
+		coremap sentence : Hill instructs something.
+		sentiment : Positive
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.007  
+ 0.025  
+ 0.360  
+ 0.548  
+ 0.060  
+
+		-----
+	 outer Subject : Hill , 	 inner Subject : inquiry 
+In other words, Hill instructs that the prejudice inquiry must presume that the foregone trial would have been reliable.
+	innerSentence :  the foregone trial would have been reliable.
+		coremap sentence : the foregone trial would have been reliable.
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.090  
+ 0.509  
+ 0.265  
+ 0.108  
+ 0.028  
+
+		-----
+	outerSentence : inquiry must presume something.
+		coremap sentence : inquiry must presume something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.031  
+ 0.178  
+ 0.571  
+ 0.191  
+ 0.030  
+
+		-----
+	 outer Subject : inquiry , 	 inner Subject : foregone trial 
+
+The majority responds that Hill made statements about presuming a reliable trial only in "discussing how courts should analyze 'predictions of the outcome at a possible trial,' " which "will not always be 'necessary.' "
+	innerSentence :  Hill made statements about presuming a reliable trial only in "discussing
+		coremap sentence : Hill made statements about presuming a reliable trial only in "discussing
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.017  
+ 0.142  
+ 0.669  
+ 0.154  
+ 0.018  
+
+		-----
+	outerSentence : majority responds something.
+		coremap sentence : majority responds something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.011  
+ 0.066  
+ 0.663  
+ 0.240  
+ 0.020  
+
+		-----
+	 outer Subject : majority , 	 inner Subject : Hill 
+
+I agree that such an inquiry is not always necessary--it is not necessary where, as in Hill, the defendant cannot show at the threshold that he would have rejected his plea and chosen to go to trial.
+	innerSentence :  such an inquiry is not always necessary--it is not necessary
+		coremap sentence : such an inquiry is not always necessary--it is not necessary
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.110  
+ 0.608  
+ 0.264  
+ 0.012  
+ 0.007  
+
+		-----
+	outerSentence : I agree something.
+		coremap sentence : I agree something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.019  
+ 0.076  
+ 0.424  
+ 0.420  
+ 0.061  
+
+		-----
+	 outer Subject : I , 	 inner Subject : inquiry 
+
+
+In any event, the Court in Hill recognized that guilty pleas are themselves generally reliable.
+	innerSentence :  guilty pleas are themselves generally reliable.
+		coremap sentence : guilty pleas are themselves generally reliable.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.058  
+ 0.281  
+ 0.312  
+ 0.290  
+ 0.059  
+
+		-----
+	outerSentence : Court recognized something.
+		coremap sentence : Court recognized something.
+		sentiment : Positive
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.089  
+ 0.281  
+ 0.225  
+ 0.295  
+ 0.110  
+
+		-----
+	 outer Subject : Court , 	 inner Subject : guilty pleas 
+
+Finally, the majority does not dispute that the prejudice inquiry in Frye and Lafler focused on whether the defendant established a reasonable probability of a different outcome.
+	innerSentence :  the prejudice inquiry in Frye and Lafler focused on whether the defendant established a reasonable probability of a different outcome.
+		coremap sentence : the prejudice inquiry in Frye and Lafler focused on whether the defendant established a reasonable probability of a different outcome.
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.070  
+ 0.572  
+ 0.298  
+ 0.050  
+ 0.011  
+
+		-----
+	outerSentence : majority does not dispute something.
+		coremap sentence : majority does not dispute something.
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.054  
+ 0.454  
+ 0.454  
+ 0.031  
+ 0.007  
+
+		-----
+	 outer Subject : majority , 	 inner Subject : inquiry 
+
+To the contrary, the Court repeatedly stated that it was applying the "same two-part standard" from Strickland.
+	innerSentence :  it was applying the "same two-part standard" from Strickland.
+		coremap sentence : it was applying the "same two-part standard" from Strickland.
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.059  
+ 0.451  
+ 0.402  
+ 0.075  
+ 0.013  
+
+		-----
+	outerSentence : Court stated something.
+		coremap sentence : Court stated something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.036  
+ 0.166  
+ 0.391  
+ 0.340  
+ 0.067  
+
+		-----
+	 outer Subject : Court , 	 inner Subject : it 
+
+Hill, supra, at 57 (emphasis added); accord, Frye, 566, U. S., at 140 ("Hill established that claims of ineffective assistance of counsel in the plea bargain context are governed by the two-part test set forth in Strickland"); Lafler, 566 U. S., at 162-163 (applying Strickland).
+	innerSentence :  claims of ineffective assistance of counsel in the plea bargain context are governed by the two-part test set forth in Strickland"); Lafler
+		coremap sentence : claims of ineffective assistance of counsel in the plea bargain context are governed by the two-part test set forth in Strickland"); Lafler
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.126  
+ 0.709  
+ 0.143  
+ 0.014  
+ 0.007  
+
+		-----
+	outerSentence : Hill established something.
+		coremap sentence : Hill established something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.003  
+ 0.013  
+ 0.618  
+ 0.338  
+ 0.028  
+
+		-----
+	 outer Subject : Hill , 	 inner Subject : claims 
+
+It instead concludes that one standard applies when a defendant goes to trial (Strickland); another standard applies when a defendant accepts a plea (Hill); and yet another standard applies when counsel does not apprise the defendant of an available plea or when the defendant rejects a plea (Frye and Lafler).
+	innerSentence :  one standard applies
+		coremap sentence : one standard applies
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.011  
+ 0.091  
+ 0.811  
+ 0.080  
+ 0.007  
+
+		-----
+	outerSentence : It concludes something.
+		coremap sentence : It concludes something.
+		sentiment : Positive
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.013  
+ 0.049  
+ 0.374  
+ 0.506  
+ 0.058  
+
+		-----
+	 outer Subject : It , 	 inner Subject : standard 
+
+In my view, we should take the Court's precedents at their word and conclude that "[a]n error by counsel . . . does not warrant setting aside the judgment of a criminal proceeding if the error had no effect on the judgment."
+	innerSentence :  "[a]n error by counsel . . . does not warrant setting aside the judgment of a criminal proceeding if the error had no effect on the judgment."
+		coremap sentence : "[a]n error by counsel . . . does not warrant setting aside the judgment of a criminal proceeding if the error had no effect on the judgment."
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.158  
+ 0.684  
+ 0.131  
+ 0.019  
+ 0.007  
+
+		-----
+	outerSentence : none-outerSubject conclude something.
+		coremap sentence : none-outerSubject conclude something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.036  
+ 0.166  
+ 0.391  
+ 0.340  
+ 0.067  
+
+		-----
+	 outer Subject : none-outerSubject, 	 inner Subject : error 
+
+Petitioner does not dispute that he possessed large quantities of illegal drugs or that the Government had secured a witness who had purchased the drugs directly from him.
+	innerSentence :  he possessed large quantities of illegal drugs or that the Government had secured a witness
+		coremap sentence : he possessed large quantities of illegal drugs or that the Government had secured a witness
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.042  
+ 0.359  
+ 0.524  
+ 0.064  
+ 0.011  
+
+		-----
+	outerSentence : Petitioner does not dispute something.
+		coremap sentence : Petitioner does not dispute something.
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.090  
+ 0.522  
+ 0.317  
+ 0.053  
+ 0.017  
+
+		-----
+	 outer Subject : Petitioner , 	 inner Subject : he 
+
+In light of this "overwhelming evidence of . . . guilt," 2014 WL 1260388, *15 (WD Tenn., Mar. 20, 2014), the Court of Appeals concluded that petitioner had "no bona fide defense, not even a weak one," 825 F. 3d 311, 316 (CA6 2016).
+	innerSentence :  petitioner had "no bona fide defense
+		coremap sentence : petitioner had "no bona fide defense
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.101  
+ 0.514  
+ 0.290  
+ 0.072  
+ 0.023  
+
+		-----
+	outerSentence : Court concluded something.
+		coremap sentence : Court concluded something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.036  
+ 0.166  
+ 0.391  
+ 0.340  
+ 0.067  
+
+		-----
+	 outer Subject : Court , 	 inner Subject : petitioner 
+
+
+The Court has warned that "the prospect of collateral challenges" threatens to undermine these important values.
+	innerSentence :  "the prospect of collateral challenges" threatens to undermine these important values.
+		coremap sentence : "the prospect of collateral challenges" threatens to undermine these important values.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.036  
+ 0.397  
+ 0.447  
+ 0.107  
+ 0.012  
+
+		-----
+	outerSentence : Court has warned something.
+		coremap sentence : Court has warned something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.062  
+ 0.358  
+ 0.403  
+ 0.143  
+ 0.033  
+
+		-----
+	 outer Subject : Court , 	 inner Subject : prospect 
+
+And we have explained that "[p]rosecutors must have assurance that a plea will not be undone years later," lest they "forgo plea bargains that would benefit defendants," which would be "a result favorable to no one."
+	innerSentence :  "[p]rosecutors must have assurance that a plea will not be undone years later
+		coremap sentence : "[p]rosecutors must have assurance that a plea will not be undone years later
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.083  
+ 0.562  
+ 0.230  
+ 0.102  
+ 0.023  
+
+		-----
+	outerSentence : we have explained something.
+		coremap sentence : we have explained something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.008  
+ 0.048  
+ 0.711  
+ 0.216  
+ 0.017  
+
+		-----
+	 outer Subject : we , 	 inner Subject : rosecutors 
+
+Whereas a defendant asserting an ordinary claim of ineffective assistance of counsel must prove that the ultimate outcome of his case would have been different, the Court today holds that a defendant who pleaded guilty need show only that he would have rejected his plea and gone to trial.
+	innerSentence :  the ultimate outcome of his case would have been different
+		coremap sentence : the ultimate outcome of his case would have been different
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.093  
+ 0.647  
+ 0.247  
+ 0.009  
+ 0.004  
+
+		-----
+	outerSentence : defendant must prove something.
+		coremap sentence : defendant must prove something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.037  
+ 0.214  
+ 0.474  
+ 0.233  
+ 0.041  
+
+		-----
+	 outer Subject : defendant , 	 inner Subject : ultimate outcome 
+
+Under its rule, so long as a defendant alleges that his counsel omitted or misadvised him on a piece of information during the plea process that he considered of "paramount importance," ante, at 10, he could allege a plausible claim of ineffective assistance of counsel.
+	innerSentence :  his counsel omitted or misadvised him on a piece of information during the plea process that he considered of "paramount importance
+		coremap sentence : his counsel omitted or misadvised him on a piece of information during the plea process that he considered of "paramount importance
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.034  
+ 0.399  
+ 0.523  
+ 0.038  
+ 0.006  
+
+		-----
+	outerSentence : defendant alleges something.
+		coremap sentence : defendant alleges something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.036  
+ 0.166  
+ 0.391  
+ 0.340  
+ 0.067  
+
+		-----
+	 outer Subject : defendant , 	 inner Subject : his counsel 
+
+Petitioner suggests that each claim will "at least" require a "hearing to get th[e] facts on the table."
+	innerSentence :  each claim will "at least" require a "hearing to get th[e] facts on the table."
+		coremap sentence : each claim will "at least" require a "hearing to get th[e] facts on the table."
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.090  
+ 0.638  
+ 0.245  
+ 0.021  
+ 0.006  
+
+		-----
+	outerSentence : Petitioner suggests something.
+		coremap sentence : Petitioner suggests something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.034  
+ 0.223  
+ 0.503  
+ 0.205  
+ 0.034  
+
+		-----
+	 outer Subject : Petitioner , 	 inner Subject : claim 
+
+Given that more than 90 percent of criminal convictions are the result of guilty pleas, Frye, 566 U. S., at 143, the burden of holding evidentiary hearings on these claims could be significant.
+	innerSentence :  more than 90 percent of criminal convictions are the result of guilty pleas
+		coremap sentence : more than 90 percent of criminal convictions are the result of guilty pleas
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.111  
+ 0.634  
+ 0.208  
+ 0.033  
+ 0.014  
+
+		-----
+	outerSentence : none-outerSubject Given something.
+		coremap sentence : none-outerSubject Given something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.035  
+ 0.201  
+ 0.468  
+ 0.254  
+ 0.042  
+
+		-----
+	 outer Subject : none-outerSubject, 	 inner Subject : percent 
+
+
+In both Frye and Lafler, the Court highlighted this difference: Immediately following the sentence that the dissent plucks from Frye, post, at 5 (opinion of Thomas, J.), the Court explained that its "application of Strickland to the instances of an uncommunicated, lapsed plea does nothing to alter the standard laid out in Hill."
+	innerSentence :  lapsed plea does nothing to alter the standard laid out in Hill."
+		coremap sentence : lapsed plea does nothing to alter the standard laid out in Hill."
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.089  
+ 0.592  
+ 0.293  
+ 0.019  
+ 0.007  
+
+		-----
+	outerSentence : Court explained something.
+		coremap sentence : Court explained something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.036  
+ 0.166  
+ 0.391  
+ 0.340  
+ 0.067  
+
+		-----
+	 outer Subject : Court , 	 inner Subject : its application 
+
+
+Lee also argues that he can show prejudice because, had his attorney advised him that he would be deported if he accepted the Government's plea offer, he would have bargained for a plea deal that did not result in certain deportation.
+	innerSentence :  he would have bargained for a plea deal
+		coremap sentence : he would have bargained for a plea deal
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.023  
+ 0.231  
+ 0.662  
+ 0.076  
+ 0.009  
+
+		-----
+	outerSentence : Lee argues something.
+		coremap sentence : Lee argues something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.010  
+ 0.064  
+ 0.804  
+ 0.114  
+ 0.008  
+
+		-----
+	 outer Subject : Lee , 	 inner Subject : he 
+Lee also argues that he can show prejudice because, had his attorney advised him that he would be deported if he accepted the Government's plea offer, he would have bargained for a plea deal that did not result in certain deportation.
+	innerSentence :  he can show prejudice because
+		coremap sentence : he can show prejudice because
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.004  
+ 0.033  
+ 0.906  
+ 0.054  
+ 0.003  
+
+		-----
+	outerSentence : Lee argues something.
+		coremap sentence : Lee argues something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.010  
+ 0.064  
+ 0.804  
+ 0.114  
+ 0.008  
+
+		-----
+	 outer Subject : Lee , 	 inner Subject : he 
+
+The dissent makes much of the fact that Hill v. Lockhart, 474 U. S. 52 (1985), also noted that courts should ignore the "idiosyncrasies of the particular decisionmaker."
+	innerSentence :  courts should ignore the "idiosyncrasies of the particular decisionmaker."
+		coremap sentence : courts should ignore the "idiosyncrasies of the particular decisionmaker."
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.036  
+ 0.359  
+ 0.582  
+ 0.018  
+ 0.005  
+
+		-----
+	outerSentence : Hill noted something.
+		coremap sentence : Hill noted something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.010  
+ 0.049  
+ 0.579  
+ 0.325  
+ 0.037  
+
+		-----
+	 outer Subject : Hill , 	 inner Subject : courts 
+
+
+Several courts have noted that a judge's warnings at a plea colloquy may undermine a claim that the defendant was prejudiced by his attorney's misadvice.
+	innerSentence :  a judge's warnings at a plea colloquy may undermine a claim that the defendant was prejudiced by his attorney's misadvice.
+		coremap sentence : a judge's warnings at a plea colloquy may undermine a claim that the defendant was prejudiced by his attorney's misadvice.
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.174  
+ 0.662  
+ 0.133  
+ 0.022  
+ 0.008  
+
+		-----
+	outerSentence : Several courts have noted something.
+		coremap sentence : Several courts have noted something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.019  
+ 0.136  
+ 0.604  
+ 0.221  
+ 0.020  
+
+		-----
+	 outer Subject : Several courts , 	 inner Subject : judge warnings 
+
+* It is not enough for a defendant to show that he would have obtained a better plea agreement. "
+	innerSentence :  he would have obtained a better plea agreement. "
+		coremap sentence : he would have obtained a better plea agreement. "
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.043  
+ 0.361  
+ 0.564  
+ 0.026  
+ 0.006  
+
+		-----
+	outerSentence : defendant show something.
+		coremap sentence : defendant show something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.022  
+ 0.105  
+ 0.497  
+ 0.329  
+ 0.047  
+
+		-----
+	 outer Subject : defendant , 	 inner Subject : he 
+
+[A] defendant has no right to be offered a plea," Missouri v. Frye, 566 U. S. 134, 148 (2012); Lafler v. Cooper, 566 U. S. 156, 168 (2012), and this Court has never concluded that a defendant could show a "reasonable probability" of a different result based on a purely hypothetical plea offer subject to absolute executive discretion.
+	innerSentence :  a defendant could show a "reasonable probability" of a different result based on a purely hypothetical plea offer subject to absolute executive discretion.
+		coremap sentence : a defendant could show a "reasonable probability" of a different result based on a purely hypothetical plea offer subject to absolute executive discretion.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.057  
+ 0.322  
+ 0.371  
+ 0.210  
+ 0.040  
+
+		-----
+	outerSentence : Lafler has never concluded something.
+		coremap sentence : Lafler has never concluded something.
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.070  
+ 0.344  
+ 0.341  
+ 0.195  
+ 0.050  
+
+		-----
+	 outer Subject : Lafler , 	 inner Subject : defendant 
+

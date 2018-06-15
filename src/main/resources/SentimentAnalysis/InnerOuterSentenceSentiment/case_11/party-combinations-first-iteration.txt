@@ -1,0 +1,2300 @@
+ the drugs were his
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.000  
+ 0.003  
+ 0.994  
+ 0.003  
+ 0.000  
+
+Lee admitted something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.003  
+ 0.019  
+ 0.734  
+ 0.234  
+ 0.010  
+
+Lee ::drugs 
+
+ his attorney had provided constitutionally ineffective assistance.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.043  
+ 0.428  
+ 0.479  
+ 0.043  
+ 0.007  
+
+he arguing something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.005  
+ 0.024  
+ 0.661  
+ 0.288  
+ 0.022  
+
+he ::his attorney 
+
+ "deportation was the determinative issue" to Lee in deciding whether to accept a plea
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.009  
+ 0.117  
+ 0.837  
+ 0.034  
+ 0.003  
+
+Lee testified something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.008  
+ 0.035  
+ 0.617  
+ 0.318  
+ 0.022  
+
+Lee ::deportation 
+
+ if he had known Lee would be deported upon pleading guilty
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.056  
+ 0.419  
+ 0.472  
+ 0.044  
+ 0.009  
+
+Lee counsel acknowledged something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.026  
+ 0.134  
+ 0.395  
+ 0.394  
+ 0.051  
+
+Lee counsel ::Lee 
+
+ Lee's plea be set aside and his conviction vacated.
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.205  
+ 0.602  
+ 0.163  
+ 0.019  
+ 0.011  
+
+Judge recommended something.
+Positive
+Type = dense , numRows = 5 , numCols = 1
+ 0.015  
+ 0.048  
+ 0.259  
+ 0.550  
+ 0.128  
+
+Judge ::Lee plea 
+
+ Lee could not show that he was prejudiced by his attorney's erroneous advice.
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.263  
+ 0.507  
+ 0.187  
+ 0.029  
+ 0.014  
+
+Circuit concluded something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.013  
+ 0.092  
+ 0.789  
+ 0.095  
+ 0.011  
+
+Circuit ::Lee 
+
+ Lee's counsel had performed deficiently
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.047  
+ 0.347  
+ 0.404  
+ 0.175  
+ 0.026  
+
+Government conceded something.
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.070  
+ 0.410  
+ 0.373  
+ 0.118  
+ 0.030  
+
+Government ::Lee counsel 
+
+ he was prejudiced by his attorney's erroneous advice.
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.333  
+ 0.585  
+ 0.068  
+ 0.007  
+ 0.007  
+
+Lee could not show something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.041  
+ 0.385  
+ 0.536  
+ 0.032  
+ 0.005  
+
+Lee ::he 
+
+ he was prejudiced by his counsel's erroneous advice.
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.333  
+ 0.585  
+ 0.068  
+ 0.007  
+ 0.007  
+
+Lee has demonstrated something.
+Positive
+Type = dense , numRows = 5 , numCols = 1
+ 0.002  
+ 0.007  
+ 0.453  
+ 0.511  
+ 0.026  
+
+Lee ::he 
+
+ his counsel's deficient performance deprived him of a trial by causing him to accept a plea
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.207  
+ 0.620  
+ 0.150  
+ 0.013  
+ 0.010  
+
+defendant claims something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.031  
+ 0.182  
+ 0.518  
+ 0.231  
+ 0.038  
+
+defendant ::deficient counsel performance 
+
+ he can make this showing because he never would have accepted a guilty plea had he known the result would be deportation.
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.128  
+ 0.504  
+ 0.257  
+ 0.080  
+ 0.030  
+
+Lee contends something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.008  
+ 0.035  
+ 0.617  
+ 0.318  
+ 0.022  
+
+Lee ::he 
+
+ Lee cannot show prejudice from accepting a plea
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.032  
+ 0.333  
+ 0.554  
+ 0.074  
+ 0.008  
+
+Government contends something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.036  
+ 0.166  
+ 0.391  
+ 0.340  
+ 0.067  
+
+Government ::Lee 
+
+ something unexpected and unpredictable might occur that would lead to acquittal.
+Positive
+Type = dense , numRows = 5 , numCols = 1
+ 0.005  
+ 0.023  
+ 0.096  
+ 0.811  
+ 0.066  
+
+only his hope was something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.029  
+ 0.322  
+ 0.525  
+ 0.115  
+ 0.009  
+
+only his hope ::unexpected something 
+
+ categorical rules are ill suited to an inquiry
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.089  
+ 0.651  
+ 0.238  
+ 0.016  
+ 0.006  
+
+it forgets something.
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.065  
+ 0.422  
+ 0.385  
+ 0.108  
+ 0.020  
+
+it ::categorical rules 
+
+ the Hill v. Lockhart inquiry focuses on a defendant's decisionmaking
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.006  
+ 0.062  
+ 0.843  
+ 0.084  
+ 0.005  
+
+it overlooks something.
+Positive
+Type = dense , numRows = 5 , numCols = 1
+ 0.018  
+ 0.086  
+ 0.409  
+ 0.441  
+ 0.045  
+
+it ::inquiry 
+
+ "[a] defendant has no entitlement to the luck of a lawless decisionmaker."
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.147  
+ 0.711  
+ 0.114  
+ 0.020  
+ 0.009  
+
+Government urges something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.049  
+ 0.234  
+ 0.360  
+ 0.294  
+ 0.063  
+
+Government ::defendant 
+
+ it would lead to mandatory deportation
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.014  
+ 0.170  
+ 0.702  
+ 0.107  
+ 0.008  
+
+he had known something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.003  
+ 0.017  
+ 0.886  
+ 0.089  
+ 0.005  
+
+he ::it 
+
+ "deportation was the determinative issue" to Lee; his responses during his plea colloquy confirmed the importance he placed on deportation; and he had strong connections to the United States
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.065  
+ 0.236  
+ 0.309  
+ 0.302  
+ 0.088  
+
+Lee testified something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.008  
+ 0.035  
+ 0.617  
+ 0.318  
+ 0.022  
+
+Lee ::deportation 
+
+ Lee cannot "convince the court that a decision to reject the plea bargain would have been rational under the circumstances
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.044  
+ 0.437  
+ 0.447  
+ 0.063  
+ 0.008  
+
+Government argues something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.043  
+ 0.255  
+ 0.494  
+ 0.172  
+ 0.035  
+
+Government ::Lee 
+
+ it would be irrational for someone in Lee's position to risk additional prison time in exchange for holding on to some chance of avoiding deportation.
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.079  
+ 0.519  
+ 0.326  
+ 0.063  
+ 0.013  
+
+Court can not say something.
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.075  
+ 0.476  
+ 0.353  
+ 0.075  
+ 0.021  
+
+Court ::it 
+
+ a criminal conviction might affect his status as a lawful permanent resident.
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.115  
+ 0.566  
+ 0.239  
+ 0.061  
+ 0.020  
+
+he feared something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.014  
+ 0.062  
+ 0.589  
+ 0.300  
+ 0.036  
+
+he ::criminal conviction 
+
+ Lee was subject to mandatory deportation from this country.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.032  
+ 0.271  
+ 0.637  
+ 0.053  
+ 0.007  
+
+conviction meant something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.022  
+ 0.274  
+ 0.691  
+ 0.010  
+ 0.002  
+
+conviction ::Lee 
+
+ Lee received objectively unreasonable representation.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.058  
+ 0.343  
+ 0.501  
+ 0.084  
+ 0.014  
+
+Everyone agrees something.
+Positive
+Type = dense , numRows = 5 , numCols = 1
+ 0.052  
+ 0.242  
+ 0.320  
+ 0.322  
+ 0.063  
+
+Everyone ::Lee 
+
+ the drugs were his and that he had given ecstasy to his friends.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.004  
+ 0.048  
+ 0.922  
+ 0.025  
+ 0.001  
+
+Lee admitted something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.003  
+ 0.019  
+ 0.734  
+ 0.234  
+ 0.010  
+
+Lee ::drugs 
+
+ he would be deported after serving his sentence
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.154  
+ 0.571  
+ 0.260  
+ 0.009  
+ 0.005  
+
+Lee learning something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.002  
+ 0.011  
+ 0.596  
+ 0.381  
+ 0.010  
+
+Lee ::he 
+
+ his attorney had provided constitutionally ineffective assistance.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.043  
+ 0.428  
+ 0.479  
+ 0.043  
+ 0.007  
+
+Lee arguing something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.002  
+ 0.014  
+ 0.602  
+ 0.370  
+ 0.011  
+
+Lee ::his attorney 
+
+ "deportation was the determinative issue in Lee's decision whether to accept the plea."
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.012  
+ 0.160  
+ 0.799  
+ 0.026  
+ 0.003  
+
+Lee testified something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.008  
+ 0.035  
+ 0.617  
+ 0.318  
+ 0.022  
+
+Lee ::deportation 
+
+ he thought Lee's case was a "bad case to try" because Lee's defense to the charge was weak.
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.281  
+ 0.533  
+ 0.138  
+ 0.028  
+ 0.019  
+
+Lee attorney testified something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.026  
+ 0.134  
+ 0.395  
+ 0.394  
+ 0.051  
+
+Lee attorney ::he 
+
+ he would have advised him to go to trial.
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.091  
+ 0.568  
+ 0.303  
+ 0.029  
+ 0.010  
+
+attorney acknowledged something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.036  
+ 0.166  
+ 0.391  
+ 0.340  
+ 0.067  
+
+attorney ::he 
+
+ Lee's plea be set aside and his conviction vacated because he had received ineffective assistance of counsel.
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.273  
+ 0.629  
+ 0.085  
+ 0.007  
+ 0.005  
+
+Judge recommended something.
+Positive
+Type = dense , numRows = 5 , numCols = 1
+ 0.015  
+ 0.048  
+ 0.259  
+ 0.550  
+ 0.128  
+
+Judge ::Lee plea 
+
+ Lee's counsel had performed deficiently by giving improper advice about the deportation consequences of the plea.
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.086  
+ 0.518  
+ 0.279  
+ 0.095  
+ 0.022  
+
+Court concluded something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.036  
+ 0.166  
+ 0.391  
+ 0.340  
+ 0.067  
+
+Court ::Lee counsel 
+
+ the performance of Lee's attorney had been deficient.
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.073  
+ 0.566  
+ 0.276  
+ 0.074  
+ 0.012  
+
+Government conceded something.
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.070  
+ 0.410  
+ 0.373  
+ 0.118  
+ 0.030  
+
+Government ::performance 
+
+ he was prejudiced by that deficient performance
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.369  
+ 0.520  
+ 0.104  
+ 0.004  
+ 0.004  
+
+court establish something.
+Positive
+Type = dense , numRows = 5 , numCols = 1
+ 0.006  
+ 0.014  
+ 0.068  
+ 0.760  
+ 0.152  
+
+court ::he 
+
+ "no rational defendant charged with a deportable offense and facing overwhelming evidence of guilt would proceed to trial rather than take a plea deal with a shorter prison sentence
+Very negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.530  
+ 0.350  
+ 0.102  
+ 0.004  
+ 0.013  
+
+none-outerSubject holding something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.016  
+ 0.098  
+ 0.661  
+ 0.205  
+ 0.020  
+
+none-outerSubject::rational defendant 
+
+ Lee could not show prejudice.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.041  
+ 0.323  
+ 0.564  
+ 0.063  
+ 0.008  
+
+Court concluded something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.036  
+ 0.166  
+ 0.391  
+ 0.340  
+ 0.067  
+
+Court ::Lee 
+
+ counsel was constitutionally ineffective
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.072  
+ 0.474  
+ 0.355  
+ 0.078  
+ 0.021  
+
+defendant demonstrate something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.027  
+ 0.124  
+ 0.391  
+ 0.389  
+ 0.068  
+
+defendant ::counsel 
+
+ counsel's representation "fell below an objective standard of reasonableness" and that he was prejudiced as a result.
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.264  
+ 0.588  
+ 0.130  
+ 0.011  
+ 0.008  
+
+defendant must show something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.029  
+ 0.153  
+ 0.467  
+ 0.301  
+ 0.050  
+
+defendant ::counsel representation 
+
+ Lee's plea-stage counsel provided inadequate representation
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.035  
+ 0.321  
+ 0.550  
+ 0.081  
+ 0.013  
+
+Government concedes something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.036  
+ 0.166  
+ 0.391  
+ 0.340  
+ 0.067  
+
+Government ::plea-stage Lee counsel 
+
+ his counsel's deficient performance deprived him of a trial by causing him to accept a plea
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.207  
+ 0.620  
+ 0.150  
+ 0.013  
+ 0.010  
+
+defendant claims something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.031  
+ 0.182  
+ 0.518  
+ 0.231  
+ 0.038  
+
+defendant ::deficient counsel performance 
+
+ a defendant must also show that he would have been better off going to trial.
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.127  
+ 0.549  
+ 0.252  
+ 0.053  
+ 0.018  
+
+dissent contends something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.026  
+ 0.274  
+ 0.666  
+ 0.030  
+ 0.005  
+
+dissent ::defendant 
+
+ he would have been better off going to trial.
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.123  
+ 0.625  
+ 0.221  
+ 0.022  
+ 0.009  
+
+defendant must show something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.029  
+ 0.153  
+ 0.467  
+ 0.301  
+ 0.050  
+
+defendant ::he 
+
+ his lawyer should have but did not seek to suppress an improperly obtained confession.
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.069  
+ 0.488  
+ 0.347  
+ 0.079  
+ 0.016  
+
+defendant alleges something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.036  
+ 0.166  
+ 0.391  
+ 0.340  
+ 0.067  
+
+defendant ::his lawyer 
+
+ would have opted to go to trial.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.042  
+ 0.324  
+ 0.538  
+ 0.086  
+ 0.011  
+
+none-outerSubject showing something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.024  
+ 0.112  
+ 0.410  
+ 0.392  
+ 0.061  
+
+none-outerSubject::defendant 
+
+ he would be deported as a result.
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.208  
+ 0.602  
+ 0.160  
+ 0.019  
+ 0.010  
+
+he had known something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.003  
+ 0.017  
+ 0.886  
+ 0.089  
+ 0.005  
+
+he ::he 
+
+ he would almost certainly have lost and found himself still subject to deportation
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.058  
+ 0.522  
+ 0.382  
+ 0.030  
+ 0.007  
+
+Government responds something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.036  
+ 0.166  
+ 0.391  
+ 0.340  
+ 0.067  
+
+Government ::he 
+
+ something unexpected and unpredictable might occur that would lead to an acquittal.
+Positive
+Type = dense , numRows = 5 , numCols = 1
+ 0.005  
+ 0.023  
+ 0.097  
+ 0.809  
+ 0.066  
+
+only his hope was something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.029  
+ 0.322  
+ 0.525  
+ 0.115  
+ 0.009  
+
+only his hope ::unexpected something 
+
+ adopt a per se rule that a defendant with no viable defense cannot show prejudice from the denial of his right to trial.
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.126  
+ 0.577  
+ 0.273  
+ 0.018  
+ 0.006  
+
+Government asks something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.033  
+ 0.153  
+ 0.388  
+ 0.361  
+ 0.064  
+
+Government ::we 
+
+ categorical rules are ill suited to an inquiry that we have emphasized demands a "case-by-case examination" of the "totality of the evidence."
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.090  
+ 0.549  
+ 0.345  
+ 0.010  
+ 0.005  
+
+it forgets something.
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.065  
+ 0.422  
+ 0.385  
+ 0.108  
+ 0.020  
+
+it ::categorical rules 
+
+ the inquiry we prescribed in Hill v. Lockhart focuses on a defendant's decisionmaking
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.015  
+ 0.143  
+ 0.720  
+ 0.114  
+ 0.009  
+
+Government overlooks something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.036  
+ 0.166  
+ 0.391  
+ 0.340  
+ 0.067  
+
+Government ::inquiry 
+
+ there is more to consider than simply the likelihood of success at trial.
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.128  
+ 0.653  
+ 0.193  
+ 0.019  
+ 0.008  
+
+common sense recognizes something.
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.119  
+ 0.487  
+ 0.187  
+ 0.154  
+ 0.053  
+
+common sense ::more 
+
+ avoiding deportation was the determinative factor for him; deportation after some time in prison was not meaningfully different from deportation after somewhat less time.
+Very negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.488  
+ 0.417  
+ 0.085  
+ 0.003  
+ 0.008  
+
+Lee alleges something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.008  
+ 0.035  
+ 0.617  
+ 0.318  
+ 0.022  
+
+Lee ::none-innersubject
+
+ the possibility of an acquittal after trial is "irrelevant to the prejudice inquiry
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.036  
+ 0.428  
+ 0.465  
+ 0.064  
+ 0.007  
+
+Government urges something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.049  
+ 0.234  
+ 0.360  
+ 0.294  
+ 0.063  
+
+Government ::possibility 
+
+ Lee has adequately demonstrated a reasonable probability that he would have rejected the plea had he known that it would lead to mandatory deportation.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.091  
+ 0.409  
+ 0.413  
+ 0.070  
+ 0.017  
+
+we conclude something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.011  
+ 0.052  
+ 0.621  
+ 0.287  
+ 0.029  
+
+we ::Lee 
+
+ it would lead to mandatory deportation.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.040  
+ 0.320  
+ 0.489  
+ 0.136  
+ 0.016  
+
+he had known something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.003  
+ 0.017  
+ 0.886  
+ 0.089  
+ 0.005  
+
+he ::it 
+
+ at all affect your decision about whether you want to plead guilty or not
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.028  
+ 0.366  
+ 0.568  
+ 0.034  
+ 0.004  
+
+none-outerSubject oes something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.014  
+ 0.078  
+ 0.606  
+ 0.274  
+ 0.028  
+
+none-outerSubject::none-innersubject
+
+ 'preserving the client's right to remain in the United States may be more important to the client than any potential jail sentence
+Positive
+Type = dense , numRows = 5 , numCols = 1
+ 0.015  
+ 0.036  
+ 0.081  
+ 0.709  
+ 0.159  
+
+we have recognized something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.053  
+ 0.229  
+ 0.436  
+ 0.235  
+ 0.047  
+
+we ::none-innersubject
+
+ Lee cannot make that showing because he was going to be deported either way; going to trial would only result in a longer sentence before that inevitable consequence.
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.417  
+ 0.426  
+ 0.119  
+ 0.014  
+ 0.024  
+
+Government contends something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.036  
+ 0.166  
+ 0.391  
+ 0.340  
+ 0.067  
+
+Government ::Lee 
+
+ it would be irrational for a defendant in Lee's position to reject the plea offer in favor of trial.
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.059  
+ 0.464  
+ 0.400  
+ 0.066  
+ 0.011  
+
+We can not agree something.
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.104  
+ 0.733  
+ 0.134  
+ 0.022  
+ 0.008  
+
+We ::it 
+
+ accepting the plea agreement would certainly lead to deportation.
+Positive
+Type = dense , numRows = 5 , numCols = 1
+ 0.046  
+ 0.271  
+ 0.271  
+ 0.357  
+ 0.055  
+
+Lee would known something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.002  
+ 0.017  
+ 0.852  
+ 0.125  
+ 0.004  
+
+Lee ::none-innersubject
+
+ a defendant can undo a guilty plea
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.076  
+ 0.518  
+ 0.296  
+ 0.090  
+ 0.020  
+
+Court holds something.
+Positive
+Type = dense , numRows = 5 , numCols = 1
+ 0.011  
+ 0.031  
+ 0.216  
+ 0.599  
+ 0.142  
+
+Court ::defendant 
+
+ the prejudice inquiry in this context is governed by Strickland v. Washington
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.055  
+ 0.571  
+ 0.331  
+ 0.036  
+ 0.007  
+
+Court agree something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.036  
+ 0.166  
+ 0.391  
+ 0.340  
+ 0.067  
+
+Court ::inquiry 
+
+ a defendant may establish a claim of ineffective assistance of counsel by showing that his "counsel's representation fell below an objective standard of reasonableness" and
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.222  
+ 0.588  
+ 0.160  
+ 0.019  
+ 0.010  
+
+Court held something.
+Positive
+Type = dense , numRows = 5 , numCols = 1
+ 0.017  
+ 0.071  
+ 0.391  
+ 0.449  
+ 0.073  
+
+Court ::defendant 
+
+ "[a]n error by counsel . . . does not warrant setting aside the judgment of a criminal proceeding if the error had no effect on the judgment."
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.158  
+ 0.684  
+ 0.131  
+ 0.019  
+ 0.007  
+
+it explained something.
+Positive
+Type = dense , numRows = 5 , numCols = 1
+ 0.018  
+ 0.086  
+ 0.409  
+ 0.441  
+ 0.045  
+
+it ::error 
+
+ this inquiry assumes an "objective" decisionmaker.
+Positive
+Type = dense , numRows = 5 , numCols = 1
+ 0.048  
+ 0.101  
+ 0.108  
+ 0.528  
+ 0.214  
+
+parties agree something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.016  
+ 0.083  
+ 0.511  
+ 0.350  
+ 0.040  
+
+parties ::inquiry 
+
+ "the same two-part standard" from Strickland applies.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.042  
+ 0.379  
+ 0.516  
+ 0.053  
+ 0.009  
+
+it held something.
+Positive
+Type = dense , numRows = 5 , numCols = 1
+ 0.006  
+ 0.024  
+ 0.339  
+ 0.588  
+ 0.044  
+
+it ::same standard 
+
+ there is a reasonable probability
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.036  
+ 0.220  
+ 0.378  
+ 0.330  
+ 0.035  
+
+defendant must show something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.029  
+ 0.153  
+ 0.467  
+ 0.301  
+ 0.050  
+
+defendant ::reasonable probability 
+
+ the outcome of his case would have been different if he would have accepted his current plea anyway.
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.137  
+ 0.700  
+ 0.136  
+ 0.020  
+ 0.007  
+
+defendant can not show something.
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.087  
+ 0.515  
+ 0.315  
+ 0.063  
+ 0.020  
+
+defendant ::outcome 
+
+ he would have gone to trial is necessary
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.017  
+ 0.186  
+ 0.730  
+ 0.061  
+ 0.007  
+
+none-outerSubject show something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.014  
+ 0.078  
+ 0.661  
+ 0.225  
+ 0.022  
+
+none-outerSubject::he 
+
+ Strickland's two-part test applies the same way in the plea context as in other contexts.
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.073  
+ 0.591  
+ 0.302  
+ 0.026  
+ 0.008  
+
+Court explain something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.017  
+ 0.082  
+ 0.540  
+ 0.317  
+ 0.044  
+
+Court ::two-part Strickland test 
+
+ "strict adherence to the Strickland standard" is "essential"
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.040  
+ 0.309  
+ 0.412  
+ 0.213  
+ 0.025  
+
+Court emphasized something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.029  
+ 0.160  
+ 0.510  
+ 0.259  
+ 0.042  
+
+Court ::strict adherence 
+
+ his counsel was constitutionally ineffective because he had failed to seek suppression of his confession before he pleaded no contest.
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.194  
+ 0.627  
+ 0.157  
+ 0.014  
+ 0.008  
+
+defendant argued something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.036  
+ 0.166  
+ 0.391  
+ 0.340  
+ 0.067  
+
+defendant ::his counsel 
+
+" it is also "necessary" to show a "reasonable probability that the end result of the criminal process would have been more favorable by reason of a plea to a lesser charge or a sentence of less prison time."
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.128  
+ 0.651  
+ 0.154  
+ 0.053  
+ 0.014  
+
+Court emphasized something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.029  
+ 0.160  
+ 0.510  
+ 0.259  
+ 0.042  
+
+Court ::it 
+
+ the ultimate outcome would have been different.
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.119  
+ 0.620  
+ 0.225  
+ 0.026  
+ 0.009  
+
+It show something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.009  
+ 0.043  
+ 0.533  
+ 0.390  
+ 0.025  
+
+It ::ultimate outcome 
+
+ counsel may be constitutionally ineffective by causing a defendant to reject a plea deal he should have accepted.
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.097  
+ 0.537  
+ 0.303  
+ 0.046  
+ 0.016  
+
+Court concluded something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.036  
+ 0.166  
+ 0.391  
+ 0.340  
+ 0.067  
+
+Court ::counsel 
+
+ the prejudice inquiry requires a showing that the criminal prosecution would ultimately have ended differently for the defendant--not merely that the defendant would have accepted the deal.
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.200  
+ 0.593  
+ 0.191  
+ 0.010  
+ 0.006  
+
+Court emphasized something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.029  
+ 0.160  
+ 0.510  
+ 0.259  
+ 0.042  
+
+Court ::inquiry 
+
+ the criminal prosecution would ultimately have ended differently for the defendant--not merely that the defendant would have accepted the deal.
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.274  
+ 0.496  
+ 0.207  
+ 0.012  
+ 0.010  
+
+none-outerSubject showing something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.024  
+ 0.112  
+ 0.410  
+ 0.392  
+ 0.061  
+
+none-outerSubject::criminal prosecution 
+
+ the defendant would have accepted the deal.
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.059  
+ 0.465  
+ 0.385  
+ 0.077  
+ 0.014  
+
+none-outerSubject not merely something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.041  
+ 0.320  
+ 0.524  
+ 0.100  
+ 0.014  
+
+none-outerSubject::defendant 
+
+ the defendant in those circumstances "must show" a reasonable probability that "the conviction or sentence
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.030  
+ 0.204  
+ 0.426  
+ 0.307  
+ 0.032  
+
+Court stated something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.036  
+ 0.166  
+ 0.391  
+ 0.340  
+ 0.067  
+
+Court ::defendant 
+
+ the right to effective counsel applies to all "critical stages of the criminal proceedings."
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.042  
+ 0.341  
+ 0.481  
+ 0.118  
+ 0.019  
+
+Court has held something.
+Positive
+Type = dense , numRows = 5 , numCols = 1
+ 0.017  
+ 0.062  
+ 0.315  
+ 0.513  
+ 0.093  
+
+Court ::right 
+
+ the prejudice inquiry focuses on whether that stage of the proceeding would have ended differently.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.038  
+ 0.388  
+ 0.526  
+ 0.042  
+ 0.006  
+
+Court has not held something.
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.098  
+ 0.537  
+ 0.282  
+ 0.061  
+ 0.021  
+
+Court ::inquiry 
+
+ the prejudice inquiry is the same as in Strickland
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.016  
+ 0.253  
+ 0.695  
+ 0.034  
+ 0.003  
+
+It clear something.
+Positive
+Type = dense , numRows = 5 , numCols = 1
+ 0.006  
+ 0.029  
+ 0.382  
+ 0.547  
+ 0.036  
+
+It ::inquiry 
+
+ he would have been better off in the end had his counsel not erred.
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.161  
+ 0.618  
+ 0.189  
+ 0.022  
+ 0.010  
+
+which establish something.
+Positive
+Type = dense , numRows = 5 , numCols = 1
+ 0.008  
+ 0.022  
+ 0.236  
+ 0.634  
+ 0.100  
+
+which ::he 
+
+ a defendant may establish prejudice by showing only that "he would not have pleaded guilty and would have insisted on going to trial
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.158  
+ 0.595  
+ 0.206  
+ 0.030  
+ 0.012  
+
+it concludes something.
+Positive
+Type = dense , numRows = 5 , numCols = 1
+ 0.009  
+ 0.038  
+ 0.344  
+ 0.562  
+ 0.046  
+
+it ::defendant 
+
+ "the result of that trial would have been different than the result of the plea bargain."
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.097  
+ 0.664  
+ 0.184  
+ 0.044  
+ 0.011  
+
+none-outerSubject showing something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.024  
+ 0.112  
+ 0.410  
+ 0.392  
+ 0.061  
+
+none-outerSubject::result 
+
+ there is a reasonable probability
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.036  
+ 0.220  
+ 0.378  
+ 0.330  
+ 0.035  
+
+defendant must show something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.029  
+ 0.153  
+ 0.467  
+ 0.301  
+ 0.050  
+
+defendant ::reasonable probability 
+
+ the defendant had not made that showing
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.043  
+ 0.488  
+ 0.402  
+ 0.058  
+ 0.009  
+
+Court concluded something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.036  
+ 0.166  
+ 0.391  
+ 0.340  
+ 0.067  
+
+Court ::defendant 
+
+ the lawyer's failure to file the notice of appeal "arguably led not to a judicial proceeding of disputed reliability
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.237  
+ 0.544  
+ 0.182  
+ 0.019  
+ 0.018  
+
+Court observed something.
+Positive
+Type = dense , numRows = 5 , numCols = 1
+ 0.014  
+ 0.044  
+ 0.274  
+ 0.564  
+ 0.105  
+
+Court ::lawyer failure 
+
+ petitioner's guilty plea meant that he did not go to trial.
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.051  
+ 0.481  
+ 0.423  
+ 0.037  
+ 0.007  
+
+Court observes something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.035  
+ 0.166  
+ 0.405  
+ 0.330  
+ 0.064  
+
+Court ::guilty petitioner plea 
+
+ he did not go to trial.
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.064  
+ 0.496  
+ 0.399  
+ 0.033  
+ 0.009  
+
+guilty petitioner plea meant something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.031  
+ 0.314  
+ 0.594  
+ 0.053  
+ 0.007  
+
+guilty petitioner plea ::he 
+
+ a court should engage in a predictive inquiry about the likelihood of a defendant securing a better result at trial
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.064  
+ 0.458  
+ 0.328  
+ 0.128  
+ 0.022  
+
+Court explaining something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.013  
+ 0.080  
+ 0.656  
+ 0.230  
+ 0.021  
+
+Court ::court 
+
+ the prejudice inquiry must presume that the foregone trial would have been reliable.
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.075  
+ 0.564  
+ 0.318  
+ 0.035  
+ 0.008  
+
+Hill instructs something.
+Positive
+Type = dense , numRows = 5 , numCols = 1
+ 0.007  
+ 0.025  
+ 0.360  
+ 0.548  
+ 0.060  
+
+Hill ::inquiry 
+
+ the foregone trial would have been reliable.
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.090  
+ 0.509  
+ 0.265  
+ 0.108  
+ 0.028  
+
+inquiry must presume something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.031  
+ 0.178  
+ 0.571  
+ 0.191  
+ 0.030  
+
+inquiry ::foregone trial 
+
+ Hill made statements about presuming a reliable trial only in "discussing
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.017  
+ 0.142  
+ 0.669  
+ 0.154  
+ 0.018  
+
+majority responds something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.011  
+ 0.066  
+ 0.663  
+ 0.240  
+ 0.020  
+
+majority ::Hill 
+
+ such an inquiry is not always necessary--it is not necessary
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.110  
+ 0.608  
+ 0.264  
+ 0.012  
+ 0.007  
+
+I agree something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.019  
+ 0.076  
+ 0.424  
+ 0.420  
+ 0.061  
+
+I ::inquiry 
+
+ guilty pleas are themselves generally reliable.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.058  
+ 0.281  
+ 0.312  
+ 0.290  
+ 0.059  
+
+Court recognized something.
+Positive
+Type = dense , numRows = 5 , numCols = 1
+ 0.089  
+ 0.281  
+ 0.225  
+ 0.295  
+ 0.110  
+
+Court ::guilty pleas 
+
+ the prejudice inquiry in Frye and Lafler focused on whether the defendant established a reasonable probability of a different outcome.
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.070  
+ 0.572  
+ 0.298  
+ 0.050  
+ 0.011  
+
+majority does not dispute something.
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.054  
+ 0.454  
+ 0.454  
+ 0.031  
+ 0.007  
+
+majority ::inquiry 
+
+ it was applying the "same two-part standard" from Strickland.
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.059  
+ 0.451  
+ 0.402  
+ 0.075  
+ 0.013  
+
+Court stated something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.036  
+ 0.166  
+ 0.391  
+ 0.340  
+ 0.067  
+
+Court ::it 
+
+ claims of ineffective assistance of counsel in the plea bargain context are governed by the two-part test set forth in Strickland"); Lafler
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.126  
+ 0.709  
+ 0.143  
+ 0.014  
+ 0.007  
+
+Hill established something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.003  
+ 0.013  
+ 0.618  
+ 0.338  
+ 0.028  
+
+Hill ::claims 
+
+ one standard applies
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.011  
+ 0.091  
+ 0.811  
+ 0.080  
+ 0.007  
+
+It concludes something.
+Positive
+Type = dense , numRows = 5 , numCols = 1
+ 0.013  
+ 0.049  
+ 0.374  
+ 0.506  
+ 0.058  
+
+It ::standard 
+
+ "[a]n error by counsel . . . does not warrant setting aside the judgment of a criminal proceeding if the error had no effect on the judgment."
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.158  
+ 0.684  
+ 0.131  
+ 0.019  
+ 0.007  
+
+none-outerSubject conclude something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.036  
+ 0.166  
+ 0.391  
+ 0.340  
+ 0.067  
+
+none-outerSubject::error 
+
+ he possessed large quantities of illegal drugs or that the Government had secured a witness
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.042  
+ 0.359  
+ 0.524  
+ 0.064  
+ 0.011  
+
+Petitioner does not dispute something.
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.090  
+ 0.522  
+ 0.317  
+ 0.053  
+ 0.017  
+
+Petitioner ::he 
+
+ petitioner had "no bona fide defense
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.101  
+ 0.514  
+ 0.290  
+ 0.072  
+ 0.023  
+
+Court concluded something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.036  
+ 0.166  
+ 0.391  
+ 0.340  
+ 0.067  
+
+Court ::petitioner 
+
+ "the prospect of collateral challenges" threatens to undermine these important values.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.036  
+ 0.397  
+ 0.447  
+ 0.107  
+ 0.012  
+
+Court has warned something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.062  
+ 0.358  
+ 0.403  
+ 0.143  
+ 0.033  
+
+Court ::prospect 
+
+ "[p]rosecutors must have assurance that a plea will not be undone years later
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.083  
+ 0.562  
+ 0.230  
+ 0.102  
+ 0.023  
+
+we have explained something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.008  
+ 0.048  
+ 0.711  
+ 0.216  
+ 0.017  
+
+we ::rosecutors 
+
+ the ultimate outcome of his case would have been different
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.093  
+ 0.647  
+ 0.247  
+ 0.009  
+ 0.004  
+
+defendant must prove something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.037  
+ 0.214  
+ 0.474  
+ 0.233  
+ 0.041  
+
+defendant ::ultimate outcome 
+
+ his counsel omitted or misadvised him on a piece of information during the plea process that he considered of "paramount importance
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.034  
+ 0.399  
+ 0.523  
+ 0.038  
+ 0.006  
+
+defendant alleges something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.036  
+ 0.166  
+ 0.391  
+ 0.340  
+ 0.067  
+
+defendant ::his counsel 
+
+ each claim will "at least" require a "hearing to get th[e] facts on the table."
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.090  
+ 0.638  
+ 0.245  
+ 0.021  
+ 0.006  
+
+Petitioner suggests something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.034  
+ 0.223  
+ 0.503  
+ 0.205  
+ 0.034  
+
+Petitioner ::claim 
+
+ more than 90 percent of criminal convictions are the result of guilty pleas
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.111  
+ 0.634  
+ 0.208  
+ 0.033  
+ 0.014  
+
+none-outerSubject Given something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.035  
+ 0.201  
+ 0.468  
+ 0.254  
+ 0.042  
+
+none-outerSubject::percent 
+
+ lapsed plea does nothing to alter the standard laid out in Hill."
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.089  
+ 0.592  
+ 0.293  
+ 0.019  
+ 0.007  
+
+Court explained something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.036  
+ 0.166  
+ 0.391  
+ 0.340  
+ 0.067  
+
+Court ::its application 
+
+ he would have bargained for a plea deal
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.023  
+ 0.231  
+ 0.662  
+ 0.076  
+ 0.009  
+
+Lee argues something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.010  
+ 0.064  
+ 0.804  
+ 0.114  
+ 0.008  
+
+Lee ::he 
+
+ he can show prejudice because
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.004  
+ 0.033  
+ 0.906  
+ 0.054  
+ 0.003  
+
+Lee argues something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.010  
+ 0.064  
+ 0.804  
+ 0.114  
+ 0.008  
+
+Lee ::he 
+
+ courts should ignore the "idiosyncrasies of the particular decisionmaker."
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.036  
+ 0.359  
+ 0.582  
+ 0.018  
+ 0.005  
+
+Hill noted something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.010  
+ 0.049  
+ 0.579  
+ 0.325  
+ 0.037  
+
+Hill ::courts 
+
+ a judge's warnings at a plea colloquy may undermine a claim that the defendant was prejudiced by his attorney's misadvice.
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.174  
+ 0.662  
+ 0.133  
+ 0.022  
+ 0.008  
+
+Several courts have noted something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.019  
+ 0.136  
+ 0.604  
+ 0.221  
+ 0.020  
+
+Several courts ::judge warnings 
+
+ he would have obtained a better plea agreement. "
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.043  
+ 0.361  
+ 0.564  
+ 0.026  
+ 0.006  
+
+defendant show something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.022  
+ 0.105  
+ 0.497  
+ 0.329  
+ 0.047  
+
+defendant ::he 
+
+ a defendant could show a "reasonable probability" of a different result based on a purely hypothetical plea offer subject to absolute executive discretion.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.057  
+ 0.322  
+ 0.371  
+ 0.210  
+ 0.040  
+
+Lafler has never concluded something.
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.070  
+ 0.344  
+ 0.341  
+ 0.195  
+ 0.050  
+
+Lafler ::defendant 
+

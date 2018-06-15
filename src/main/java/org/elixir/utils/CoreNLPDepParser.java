@@ -120,7 +120,7 @@ public class CoreNLPDepParser {
             //check if "mark" and "ccomp" synced. if add to the array.
             for(TypedDependency ccompDependency : ccompList){
                 for(TypedDependency thatDependency : thatDependencyList){
-                    if(ccompDependency.gov().index()+1 == thatDependency.dep().index()){
+                    if((ccompDependency.gov().index()+1 == thatDependency.dep().index()) && (!ccompDependency.gov().tag().equals("NN"))){
                         IndexedWord[] array = {ccompDependency.dep(),
                                 thatDependency.dep()};
                         startIndices.add(array);
@@ -172,11 +172,42 @@ public class CoreNLPDepParser {
         return null;
     }
 
+    //find
+    public static IndexedWord findSubjectForGivenVerb(Annotation ann, IndexedWord verb){
+        IndexedWord subject = findRelatedDepWordForGivenWord(ann,"nsubj", verb);
+
+        if(subject != null){
+            return subject;
+        }
+
+        subject = findRelatedDepWordForGivenWord(ann,"nsubjpass", verb);
+
+        if(subject != null){
+            return subject;
+        }
+
+        IndexedWord xcompGov = findRelatedGovWordForGivenWord(ann,"xcomp",verb);
+        if(xcompGov != null){
+            if(findSubjectForGivenVerb(ann,xcompGov) != null){
+                return findSubjectForGivenVerb(ann,xcompGov);
+            }
+        }
+
+        IndexedWord advclGov = findRelatedGovWordForGivenWord(ann,"advcl",verb);
+        if(advclGov != null){
+            if(findSubjectForGivenVerb(ann,advclGov) != null){
+                return findSubjectForGivenVerb(ann,advclGov);
+            }
+        }
+//
+        return null;
+    }
+
     public static String findSubjectContext(Annotation ann, IndexedWord subject){
         ArrayList<IndexedWord> arrayList = new ArrayList<>();
 
-        String[] depRelations = {"amod", "nmod:poss"};
-        String[] govRelations = {"nmod:poss","amod"};
+        String[] depRelations = {"amod", "nmod:poss", "pos"};
+        String[] govRelations = {"nmod:poss","amod", "pos"};
 
         for(String i : depRelations){
             IndexedWord temp = findRelatedDepWordForGivenWord(ann, i, subject);
@@ -207,7 +238,7 @@ public class CoreNLPDepParser {
     public static String findVerbContext(Annotation ann, IndexedWord verb){
         ArrayList<IndexedWord> arrayList = new ArrayList<>();
 
-        String[] govRelations = {"aux","neg"};
+        String[] govRelations = {"aux","neg", "auxpass"};
 
         for (String j : govRelations){
 
