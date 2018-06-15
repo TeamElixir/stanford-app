@@ -7,7 +7,7 @@ public class Paragraph {
     private int id;
     private int caseNumber;
     private String paragraph;
-    private ArrayList<CorefChainOfPara> corefChains;
+    private ArrayList<CorefChainOfParagraph> corefChains;
 
     public Paragraph(int id, int caseNumber, String paragraph) {
         this.id = id;
@@ -30,11 +30,11 @@ public class Paragraph {
                 '}';
     }
 
-    public void addCorefChain(CorefChainOfPara corefChain) {
+    public void addCorefChain(CorefChainOfParagraph corefChain) {
         this.corefChains.add(corefChain);
     }
 
-    public ArrayList<CorefChainOfPara> getCorefChains() {
+    public ArrayList<CorefChainOfParagraph> getCorefChains() {
         return corefChains;
     }
 

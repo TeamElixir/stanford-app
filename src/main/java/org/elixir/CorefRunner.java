@@ -1,12 +1,12 @@
 package org.elixir;
 
 import edu.stanford.nlp.coref.data.CorefChain;
-import org.elixir.controllers.CorefChainOfParasController;
+import org.elixir.controllers.CorefChainOfParagraphsController;
 import org.elixir.controllers.ParagraphsController;
-import org.elixir.controllers.SentencesOfParasController;
-import org.elixir.models.CorefChainOfPara;
+import org.elixir.controllers.SentencesOfParagraphsController;
+import org.elixir.models.CorefChainOfParagraph;
 import org.elixir.models.Paragraph;
-import org.elixir.models.SentenceOfPara;
+import org.elixir.models.SentenceOfParagraph;
 import org.elixir.utils.NLPUtils;
 import org.elixir.utils.Utils;
 
@@ -28,8 +28,8 @@ public class CorefRunner {
             ArrayList<Paragraph> paragraphsOfCase = ParagraphsController.getParagraphsOfCase(i);
             for (Paragraph p : paragraphsOfCase) {
                 System.out.println("Paragraph: " + p);
-                ArrayList<CorefChainOfPara> corefChainsOfPara = CorefChainOfParasController.getCorefChainsOfPara(p.getId());
-                for (CorefChainOfPara corefChain : corefChainsOfPara) {
+                ArrayList<CorefChainOfParagraph> corefChainsOfPara = CorefChainOfParagraphsController.getCorefChainsOfPara(p.getId());
+                for (CorefChainOfParagraph corefChain : corefChainsOfPara) {
                     System.out.println(corefChain);
                 }
                 System.out.println("--------------------\n");
@@ -45,8 +45,8 @@ public class CorefRunner {
             for (Paragraph p : paragraphsOfCase) {
                 ArrayList<String> sentencesOfText = NLPUtils.getSentencesOfText(p.getParagraph());
                 for (String sentence : sentencesOfText) {
-                    SentenceOfPara sentenceOfPara = new SentenceOfPara(p.getId(), sentence);
-                    SentencesOfParasController.insertSentenceOfPara(sentenceOfPara);
+                    SentenceOfParagraph sentenceOfParagraph = new SentenceOfParagraph(p.getId(), sentence);
+                    SentencesOfParagraphsController.insertSentenceOfParagraph(sentenceOfParagraph);
                 }
             }
         }
@@ -59,8 +59,8 @@ public class CorefRunner {
             for (Paragraph p : paragraphsOfCase) {
                 ArrayList<CorefChain> corefChains = NLPUtils.getCorefChains(p.getParagraph());
                 for (CorefChain cc : corefChains) {
-                    CorefChainOfPara chainOfPara = new CorefChainOfPara(p.getId(), cc.toString());
-                    CorefChainOfParasController.insertCorefChainOfPara(chainOfPara);
+                    CorefChainOfParagraph chainOfPara = new CorefChainOfParagraph(p.getId(), cc.toString());
+                    CorefChainOfParagraphsController.insertCorefChainOfParagraphs(chainOfPara);
                 }
             }
         }
