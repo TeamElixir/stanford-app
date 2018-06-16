@@ -10,7 +10,7 @@ import java.util.List;
 import java.util.Properties;
 
 // to identify the structure : that followed by verb
-public class thatSentenceIdentifier {
+public class ThatSentenceIdentifier {
     public static boolean checkVerbThatStructure(String sentence) {
 
         //to check occurance of verb
