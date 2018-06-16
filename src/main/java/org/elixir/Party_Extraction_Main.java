@@ -355,61 +355,65 @@ public class Party_Extraction_Main {
                 }
             }
 
+            String outerSubjectResolution  = "--";
             for(CorefChainMapping ccm : ccmList){
                 String resolvedTerm = ccm.resolveTerm(outerSubjectContext,sentenceId);
                 if(resolvedTerm != null){
-                    outerSubjectContext += ("--resolved as " + resolvedTerm);
+                    outerSubjectResolution = resolvedTerm;
                 }
             }
 
+            String innerSubjectResoultion = "--";
             for (CorefChainMapping ccm :ccmList){
                 String resolvedTerm = ccm.resolveTerm(innerSubjectContext,sentenceId);
 
                 if(resolvedTerm != null){
-                    innerSubjectContext += ("--resolved as " + resolvedTerm);
+                    innerSubjectResoultion = resolvedTerm;
                 }
             }
             br.write("\t outer Subject : "+outerSubjectContext);
             br.write("\t,\tinner Subject : "+ innerSubjectContext+"\n");
-            br3.write(outerSubjectContext);
-            br3.write("::"+innerSubjectContext+"\n");
+            br.write("resolved as : (" + outerSubjectResolution + ", " + innerSubjectResoultion + ")");
+            br3.write(outerSubjectContext+","+ outerSubjectResolution);
+            br3.write("::"+innerSubjectContext + "," + innerSubjectResoultion +"\n");
             br3.newLine();
+            br.flush();
             br3.flush();
             combinationArrayList.add(subject_combination);
         }
         br.newLine();
-        br2.write("one negative and the other is non-negative\n\n");
-        for(Subject_combination combination : combinationArrayList){
-            if((combination.inner_sentiment.equals("negative") && combination.outer_sentiment.equals("non-negative"))
-                    || combination.inner_sentiment.equals("non-negative") && combination.outer_sentiment.equals("negative")){
-                br2.write(combination.party_1 + " - " + combination.party_2 + "\n");
-            }
-        }
-        br2.write("-----------------\n\n");
-
-        br2.write("both non-negative\n\n");
-        for(Subject_combination combination : combinationArrayList){
-            if(combination.inner_sentiment.equals("negative") && combination.outer_sentiment.equals("negative")){
-                br2.write(combination.party_1 + " - " + combination.party_2 + "\n");
-            }
-        }
-        br2.write("-----------------\n\n");
-        br2.flush();
-        br.flush();
-        br3.flush();
-
-        for(Subject_combination combination : combinationArrayList){
-            if(combination.inner_sentiment.equals("non-negative") && combination.outer_sentiment.equals("non-negative")){
-                System.out.println(combination.innerSentence);
-                System.out.println(combination.sm1);
-                System.out.println(combination.outerSentence);
-                System.out.println(combination.sm2);
-                System.out.println(combination.party_1 + " - " +combination.party_2);
-                System.out.println("------------------");
-                System.out.println();
-
-            }
-        }
+//        br2.write("one negative and the other is non-negative\n\n");
+//        for(Subject_combination combination : combinationArrayList){
+//            if((combination.inner_sentiment.equals("negative") && combination.outer_sentiment.equals("non-negative"))
+//                    || combination.inner_sentiment.equals("non-negative") && combination.outer_sentiment.equals("negative")){
+//                br2.write(combination.party_1 + " - " + combination.party_2 + "\n");
+//            }
+//        }
+//        br2.write("-----------------\n\n");
+//
+//        br2.write("both non-negative\n\n");
+//        for(Subject_combination combination : combinationArrayList){
+//            if(combination.inner_sentiment.equals("negative") && combination.outer_sentiment.equals("negative")){
+//                br2.write(combination.party_1 + " - " + combination.party_2 + "\n");
+//            }
+//        }
+//        br2.write("-----------------\n\n");
+//        br2.flush();
+//        br.flush();
+//        br3.flush();
+//
+//        for(Subject_combination combination : combinationArrayList){
+//            if(combination.inner_sentiment.equals("non-negative") && combination.outer_sentiment.equals("non-negative")){
+//                System.out.println(combination.innerSentence);
+//                System.out.println(combination.sm1);
+//                System.out.println(combination.outerSentence);
+//                System.out.println(combination.sm2);
+//                System.out.println(combination.party_1 + " - " +combination.party_2);
+//                System.out.println("------------------");
+//                System.out.println();
+//
+//            }
+//        }
 
 }
 
@@ -424,7 +428,7 @@ public class Party_Extraction_Main {
 
         for(int count =startIndex; count<text.length(); count++){
             if(endPointChars[0] == text.charAt(count) || endPointChars[1] == text.charAt(count) ){
-                if(firstEndPointIndex>count){
+                if(firstEndPointIndex > count){
                     firstEndPointIndex = count;
                     break;
                 }
@@ -487,6 +491,85 @@ public class Party_Extraction_Main {
         String innerSentence;
         String outerSentence;
 
+    }
+
+    public static void processIntermediateFile(String caseName) throws IOException {
+        String absoluteFilePath = new File("").getAbsolutePath();
+        String source_filePath = absoluteFilePath +"/src/main/resources/SentimentAnalysis/InnerOuterSentenceSentiment/" + caseName +"/intermediate.txt";
+
+        Scanner sc = null;
+        try {
+            sc = new Scanner(new File(source_filePath));
+        } catch (FileNotFoundException e) {
+            System.out.println("intermediate file  is not found. ");
+        }
+
+        BufferedWriter br1 = new BufferedWriter(new FileWriter(new File(absoluteFilePath+"/src/main/resources/SentimentAnalysis/InnerOuterSentenceSentiment/"
+                + caseName +"/one_negative.txt")));
+        BufferedWriter br2 = new BufferedWriter(new FileWriter(new File(absoluteFilePath+"/src/main/resources/SentimentAnalysis/InnerOuterSentenceSentiment/"
+                + caseName +"/negative_negative.txt")));
+        /* this is the string file segment to be added during one iteration
+
+        the drugs were his
+        Neutral
+        Type = dense , numRows = 5 , numCols = 1
+         0.000
+         0.003
+         0.994
+         0.003
+         0.000
+
+        Lee admitted something.
+        Neutral
+        Type = dense , numRows = 5 , numCols = 1
+         0.003
+         0.019
+         0.734
+         0.234
+         0.010
+
+        Lee ,Petitioner Jae Lee::drugs ,--
+
+        */
+        while(sc.hasNextLine()){
+            skipScannerLines(sc,1);
+            String innerSentimentOutput = sc.nextLine().toLowerCase();
+            skipScannerLines(sc,2);
+            Double innerSentimentMatrixValue = Double.parseDouble(sc.nextLine());
+            skipScannerLines(sc,5);
+
+            String outerSentimentOutput = sc.nextLine().toLowerCase();
+            skipScannerLines(sc,2);
+            Double outerSentimentMatrixValue = Double.parseDouble(sc.nextLine());
+            skipScannerLines(sc,4);
+
+            String subjectInfoLine = sc.nextLine();
+            String[] outerInnerSubjects = subjectInfoLine.split("::");
+            String[] innerSubjectParts = outerInnerSubjects[0].split(",");
+            String[] outerSubjectParts = outerInnerSubjects[1].split(",");
+            String output = outerSubjectParts[0] + " : " + innerSubjectParts[0]+ "\t (" + outerSubjectParts[1] + " : " + innerSubjectParts[1] +")";
+
+            if((innerSentimentOutput.equals("negative") || innerSentimentMatrixValue >= 0.4)
+                    && (outerSentimentOutput.equals("negative") || outerSentimentMatrixValue >= 0.4)){
+                br2.write(output + "\n");
+                br2.flush();
+            }else if((innerSentimentOutput.equals("negative") || innerSentimentMatrixValue >= 0.4)
+                    || (outerSentimentOutput.equals("negative") || outerSentimentMatrixValue >= 0.4)){
+                br1.write(output + "\n");
+                br1.flush();
+            }
+            skipScannerLines(sc,1);
+        }
+        br1.close();
+        br2.close();
+    }
+
+    private static void skipScannerLines(Scanner sc, int numberOfLines){
+        int count = 0;
+        while(sc.hasNextLine() && count < numberOfLines){
+            sc.nextLine();
+            count += 1;
+        }
     }
 
 

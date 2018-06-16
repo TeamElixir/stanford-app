@@ -44,12 +44,13 @@ public class CorefRunner {
         File intermediate_sentiment_File = new File(target_filePath + caseName +"/InnerOuterSentiment.txt");
         intermediate_sentiment_File.getParentFile().mkdirs();
 
-        File party_file = new File(target_filePath + caseName +"/party-combinations-first-iteration.txt");
+        File party_file = new File(target_filePath + caseName +"/intermediate.txt");
         party_file.getParentFile().mkdirs();
 
         BufferedWriter br = new BufferedWriter(new FileWriter(full_infoFile));
         BufferedWriter br2 = new BufferedWriter(new FileWriter(intermediate_sentiment_File));
         BufferedWriter br3 = new BufferedWriter(new FileWriter(party_file));
+
         for (Paragraph p : paragraphs) {
 
             ArrayList<CorefChainMapping> ccmList = new ArrayList<>();
@@ -73,7 +74,7 @@ public class CorefRunner {
                 if(!ThatSentenceIdentifier.checkVerbThatStructure(currentSentence)){
                     continue;
                 }
-                Party_Extraction_Main.outputPartyExtraction(i+1,currentSentence,caseName,ccmList,br, br3, br2);
+                Party_Extraction_Main.outputPartyExtraction(i+1,currentSentence,caseName,ccmList,br, br2, br3);
             }
 
             System.out.println();

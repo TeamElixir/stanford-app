@@ -1,0 +1,8 @@
+categorical rules  : it 	 (-- : The Government)
+it  : Court 	 (this Court : --)
+performance  : Government 	 (-- : --)
+categorical rules  : it 	 (-- : the Government)
+more  : common sense 	 (-- : --)
+it  : We 	 (-- : --)
+outcome  : defendant 	 (-- : --)
+inquiry  : majority 	 (-- : --)
