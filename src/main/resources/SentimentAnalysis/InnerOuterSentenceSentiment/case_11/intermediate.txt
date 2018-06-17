@@ -176,7 +176,7 @@ Type = dense , numRows = 5 , numCols = 1
  0.511  
  0.026  
 
-Lee ,his counsel 's::he ,his counsel 's
+Lee ,Lee::he ,Lee
 
  his counsel's deficient performance deprived him of a trial by causing him to accept a plea
 Negative
@@ -216,7 +216,7 @@ Type = dense , numRows = 5 , numCols = 1
  0.318  
  0.022  
 
-Lee ,his::he ,his
+Lee ,Lee::he ,Lee
 
  Lee cannot show prejudice from accepting a plea
 Neutral
@@ -236,7 +236,7 @@ Type = dense , numRows = 5 , numCols = 1
  0.340  
  0.067  
 
-Government ,--::Lee ,his
+Government ,--::Lee ,Lee
 
  something unexpected and unpredictable might occur that would lead to acquittal.
 Positive
@@ -256,7 +256,7 @@ Type = dense , numRows = 5 , numCols = 1
  0.115  
  0.009  
 
-only his hope ,his::unexpected something ,--
+only his hope ,Lee::unexpected something ,--
 
  categorical rules are ill suited to an inquiry
 Negative
@@ -336,7 +336,7 @@ Type = dense , numRows = 5 , numCols = 1
  0.089  
  0.005  
 
-he ,his::it ,the plea
+he ,Lee::it ,the plea
 
  "deportation was the determinative issue" to Lee; his responses during his plea colloquy confirmed the importance he placed on deportation; and he had strong connections to the United States
 Neutral
@@ -356,7 +356,7 @@ Type = dense , numRows = 5 , numCols = 1
  0.318  
  0.022  
 
-Lee ,his::deportation ,--
+Lee ,Lee::deportation ,--
 
  Lee cannot "convince the court that a decision to reject the plea bargain would have been rational under the circumstances
 Neutral
@@ -496,7 +496,7 @@ Type = dense , numRows = 5 , numCols = 1
  0.381  
  0.010  
 
-Lee ,Lee::he ,his
+Lee ,Lee::he ,--
 
  his attorney had provided constitutionally ineffective assistance.
 Neutral
@@ -516,7 +516,7 @@ Type = dense , numRows = 5 , numCols = 1
  0.370  
  0.011  
 
-Lee ,Lee::his attorney ,his
+Lee ,Lee::his attorney ,--
 
  "deportation was the determinative issue in Lee's decision whether to accept the plea."
 Neutral
@@ -1016,7 +1016,7 @@ Type = dense , numRows = 5 , numCols = 1
  0.318  
  0.022  
 
-Lee ,him::none-innersubject,--
+Lee ,Lee::none-innersubject,--
 
  the possibility of an acquittal after trial is "irrelevant to the prejudice inquiry
 Neutral
@@ -1076,7 +1076,7 @@ Type = dense , numRows = 5 , numCols = 1
  0.089  
  0.005  
 
-he ,Lee 's::it ,his guilty plea
+he ,Lee 's::it ,the plea
 
  at all affect your decision about whether you want to plead guilty or not
 Neutral
@@ -1636,7 +1636,7 @@ Type = dense , numRows = 5 , numCols = 1
  0.634  
  0.100  
 
-which ,--::he ,his
+which ,--::he ,--
 
  a defendant may establish prejudice by showing only that "he would not have pleaded guilty and would have insisted on going to trial
 Negative

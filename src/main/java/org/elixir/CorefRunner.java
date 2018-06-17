@@ -14,21 +14,24 @@ import org.elixir.models.Case;
 import org.elixir.models.CorefChainOfParagraph;
 import org.elixir.models.Paragraph;
 import org.elixir.models.SentenceOfParagraph;
-import org.elixir.utils.CorefChainMapping;
-import org.elixir.utils.NLPUtils;
-import org.elixir.utils.ThatSentenceIdentifier;
-import org.elixir.utils.Utils;
+import org.elixir.utils.*;
 
-import java.io.BufferedWriter;
-import java.io.File;
-import java.io.FileWriter;
-import java.io.IOException;
+import java.io.*;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Properties;
 
 public class CorefRunner {
     public static void main(String[] args) throws IOException {
+
+
+        try {
+            CustomizeSentimentAnnotator.addSentimentLayerToCoreNLPSentiment("sentimentAnnotator/DeviatedSentimentWords/non_positive_mini.csv",
+                    "sentimentAnnotator/DeviatedSentimentWords/non_negative_mini.csv",
+                    "sentimentAnnotator/DeviatedSentimentWords/non_neutral_mini.csv");
+        } catch (FileNotFoundException e) {
+            System.out.println("SentimentCostAndGradientInputFile is not recognized");
+        }
         int caseNumber = 11;
         Case aCase = CasesController.getCaseByNumber(caseNumber);
         System.out.println("Case: " + caseNumber);

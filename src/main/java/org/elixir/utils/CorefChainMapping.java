@@ -1,7 +1,12 @@
 package org.elixir.utils;
 
+import edu.stanford.nlp.ling.CoreAnnotations;
+import edu.stanford.nlp.pipeline.Annotation;
+import edu.stanford.nlp.pipeline.StanfordCoreNLP;
+
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Properties;
 
 //to resolve coreferences of the given paragraph
 public class CorefChainMapping {
@@ -12,7 +17,7 @@ public class CorefChainMapping {
     }
 
     public ArrayList<CorefSentenceMapping> termList = new ArrayList<>();
-    public String longestTerm="";
+    public String longestTerm="--";
 
     public void assignTerm(String term, int sentenceNumber){
 
@@ -21,9 +26,18 @@ public class CorefChainMapping {
         csm.sentenceNumber = sentenceNumber;
         termList.add(csm);
 
+        Properties props = new Properties();
+        props.setProperty("annotators", "tokenize,ssplit,pos");
+        StanfordCoreNLP pipeline = new StanfordCoreNLP(props);
+
+        Annotation ann = new Annotation(term);
+        pipeline.annotate(ann);
+
+        String postag = ann.get(CoreAnnotations.SentencesAnnotation.class).get(0).get(CoreAnnotations.TokensAnnotation.class).get(0).get(CoreAnnotations.PartOfSpeechAnnotation.class);
+
         if(termList.size() == 0){
             longestTerm = term;
-        }else if(term.length() >= longestTerm.length()){
+        }else if(term.length() >= longestTerm.length() && !postag.equals("PRP") && !postag.equals("PRP$")){
             longestTerm = term;
         }
     }

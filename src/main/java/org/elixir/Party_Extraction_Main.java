@@ -236,14 +236,6 @@ public class Party_Extraction_Main {
         propsSentiment.setProperty("annotators","tokenize,ssplit,tokenize,pos,lemma,parse,natlog,sentiment");
         StanfordCoreNLP sentimentPipeline = new StanfordCoreNLP(propsSentiment);
 
-        try {
-            CustomizeSentimentAnnotator.addSentimentLayerToCoreNLPSentiment("sentimentAnnotator/DeviatedSentimentWords/non_positive_mini.csv",
-                    "sentimentAnnotator/DeviatedSentimentWords/non_negative_mini.csv",
-                    "sentimentAnnotator/DeviatedSentimentWords/non_neutral_mini.csv");
-        } catch (FileNotFoundException e) {
-            System.out.println("SentimentCostAndGradientInputFile is not recognized");
-        }
-
         ArrayList<Subject_combination> combinationArrayList = new ArrayList<>();
 
         String text = currentSentence;
@@ -373,7 +365,7 @@ public class Party_Extraction_Main {
             }
             br.write("\t outer Subject : "+outerSubjectContext);
             br.write("\t,\tinner Subject : "+ innerSubjectContext+"\n");
-            br.write("resolved as : (" + outerSubjectResolution + ", " + innerSubjectResoultion + ")");
+            br.write("resolved as : (" + outerSubjectResolution + ", " + innerSubjectResoultion + ")\n");
             br3.write(outerSubjectContext+","+ outerSubjectResolution);
             br3.write("::"+innerSubjectContext + "," + innerSubjectResoultion +"\n");
             br3.newLine();

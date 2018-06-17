@@ -16,7 +16,7 @@ Type = dense , numRows = 5 , numCols = 1
  0.234  
  0.010  
 
-Lee --resolved as Petitioner Jae Lee::drugs 
+Lee ::drugs 
 
  his attorney had provided constitutionally ineffective assistance.
 Neutral
@@ -36,7 +36,7 @@ Type = dense , numRows = 5 , numCols = 1
  0.288  
  0.022  
 
-he --resolved as Petitioner Jae Lee::his attorney --resolved as Petitioner Jae Lee
+he ::his attorney 
 
  "deportation was the determinative issue" to Lee in deciding whether to accept a plea
 Neutral
@@ -56,7 +56,7 @@ Type = dense , numRows = 5 , numCols = 1
  0.318  
  0.022  
 
-Lee --resolved as Petitioner Jae Lee::deportation 
+Lee ::deportation 
 
  if he had known Lee would be deported upon pleading guilty
 Neutral
@@ -76,7 +76,7 @@ Type = dense , numRows = 5 , numCols = 1
  0.394  
  0.051  
 
-Lee counsel --resolved as Petitioner Jae Lee::Lee --resolved as Petitioner Jae Lee
+Lee counsel ::Lee 
 
  Lee's plea be set aside and his conviction vacated.
 Negative
@@ -116,7 +116,7 @@ Type = dense , numRows = 5 , numCols = 1
  0.095  
  0.011  
 
-Circuit ::Lee --resolved as Petitioner Jae Lee
+Circuit ::Lee 
 
  Lee's counsel had performed deficiently
 Neutral
@@ -136,7 +136,7 @@ Type = dense , numRows = 5 , numCols = 1
  0.118  
  0.030  
 
-Government ::Lee counsel --resolved as Petitioner Jae Lee
+Government ::Lee counsel 
 
  he was prejudiced by his attorney's erroneous advice.
 Negative
@@ -156,7 +156,7 @@ Type = dense , numRows = 5 , numCols = 1
  0.032  
  0.005  
 
-Lee --resolved as Petitioner Jae Lee::he --resolved as Petitioner Jae Lee
+Lee ::he 
 
  he was prejudiced by his counsel's erroneous advice.
 Negative
@@ -176,7 +176,7 @@ Type = dense , numRows = 5 , numCols = 1
  0.511  
  0.026  
 
-Lee --resolved as his counsel 's::he --resolved as his counsel 's
+Lee ::he 
 
  his counsel's deficient performance deprived him of a trial by causing him to accept a plea
 Negative
@@ -216,7 +216,7 @@ Type = dense , numRows = 5 , numCols = 1
  0.318  
  0.022  
 
-Lee --resolved as his::he --resolved as his
+Lee ::he 
 
  Lee cannot show prejudice from accepting a plea
 Neutral
@@ -236,7 +236,7 @@ Type = dense , numRows = 5 , numCols = 1
  0.340  
  0.067  
 
-Government ::Lee --resolved as his
+Government ::Lee 
 
  something unexpected and unpredictable might occur that would lead to acquittal.
 Positive
@@ -256,7 +256,7 @@ Type = dense , numRows = 5 , numCols = 1
  0.115  
  0.009  
 
-only his hope --resolved as his::unexpected something 
+only his hope ::unexpected something 
 
  categorical rules are ill suited to an inquiry
 Negative
@@ -276,7 +276,7 @@ Type = dense , numRows = 5 , numCols = 1
  0.108  
  0.020  
 
-it --resolved as The Government::categorical rules 
+it ::categorical rules 
 
  the Hill v. Lockhart inquiry focuses on a defendant's decisionmaking
 Neutral
@@ -296,7 +296,7 @@ Type = dense , numRows = 5 , numCols = 1
  0.441  
  0.045  
 
-it --resolved as The Government::inquiry 
+it ::inquiry 
 
  "[a] defendant has no entitlement to the luck of a lawless decisionmaker."
 Negative
@@ -336,7 +336,7 @@ Type = dense , numRows = 5 , numCols = 1
  0.089  
  0.005  
 
-he --resolved as his::it --resolved as the plea
+he ::it 
 
  "deportation was the determinative issue" to Lee; his responses during his plea colloquy confirmed the importance he placed on deportation; and he had strong connections to the United States
 Neutral
@@ -356,7 +356,7 @@ Type = dense , numRows = 5 , numCols = 1
  0.318  
  0.022  
 
-Lee --resolved as his::deportation 
+Lee ::deportation 
 
  Lee cannot "convince the court that a decision to reject the plea bargain would have been rational under the circumstances
 Neutral
@@ -376,7 +376,7 @@ Type = dense , numRows = 5 , numCols = 1
  0.172  
  0.035  
 
-Government ::Lee --resolved as Lee 's
+Government ::Lee 
 
  it would be irrational for someone in Lee's position to risk additional prison time in exchange for holding on to some chance of avoiding deportation.
 Negative
@@ -396,7 +396,7 @@ Type = dense , numRows = 5 , numCols = 1
  0.075  
  0.021  
 
-Court ::it --resolved as this Court
+Court ::it 
 
  a criminal conviction might affect his status as a lawful permanent resident.
 Negative
@@ -416,7 +416,7 @@ Type = dense , numRows = 5 , numCols = 1
  0.300  
  0.036  
 
-he --resolved as Lee, who had no real defense to the charge::criminal conviction 
+he ::criminal conviction 
 
  Lee was subject to mandatory deportation from this country.
 Neutral
@@ -436,7 +436,7 @@ Type = dense , numRows = 5 , numCols = 1
  0.010  
  0.002  
 
-conviction ::Lee --resolved as Lee 's
+conviction ::Lee 
 
  Lee received objectively unreasonable representation.
 Neutral
@@ -456,7 +456,7 @@ Type = dense , numRows = 5 , numCols = 1
  0.322  
  0.063  
 
-Everyone ::Lee --resolved as Lee 's
+Everyone ::Lee 
 
  the drugs were his and that he had given ecstasy to his friends.
 Neutral
@@ -476,7 +476,7 @@ Type = dense , numRows = 5 , numCols = 1
  0.234  
  0.010  
 
-Lee --resolved as Lee 's::drugs 
+Lee ::drugs 
 
  he would be deported after serving his sentence
 Negative
@@ -496,7 +496,7 @@ Type = dense , numRows = 5 , numCols = 1
  0.381  
  0.010  
 
-Lee --resolved as Lee::he --resolved as his
+Lee ::he 
 
  his attorney had provided constitutionally ineffective assistance.
 Neutral
@@ -516,7 +516,7 @@ Type = dense , numRows = 5 , numCols = 1
  0.370  
  0.011  
 
-Lee --resolved as Lee::his attorney --resolved as his
+Lee ::his attorney 
 
  "deportation was the determinative issue in Lee's decision whether to accept the plea."
 Neutral
@@ -536,7 +536,7 @@ Type = dense , numRows = 5 , numCols = 1
  0.318  
  0.022  
 
-Lee --resolved as According to Lee::deportation 
+Lee ::deportation 
 
  he thought Lee's case was a "bad case to try" because Lee's defense to the charge was weak.
 Negative
@@ -556,7 +556,7 @@ Type = dense , numRows = 5 , numCols = 1
  0.394  
  0.051  
 
-Lee attorney ::he --resolved as According to Lee
+Lee attorney ::he 
 
  he would have advised him to go to trial.
 Negative
@@ -576,7 +576,7 @@ Type = dense , numRows = 5 , numCols = 1
  0.340  
  0.067  
 
-attorney ::he --resolved as According to Lee
+attorney ::he 
 
  Lee's plea be set aside and his conviction vacated because he had received ineffective assistance of counsel.
 Negative
@@ -656,7 +656,7 @@ Type = dense , numRows = 5 , numCols = 1
  0.760  
  0.152  
 
-court ::he --resolved as Lockhart
+court ::he 
 
  "no rational defendant charged with a deportable offense and facing overwhelming evidence of guilt would proceed to trial rather than take a plea deal with a shorter prison sentence
 Very negative
@@ -696,7 +696,7 @@ Type = dense , numRows = 5 , numCols = 1
  0.340  
  0.067  
 
-Court ::Lee --resolved as Lockhart
+Court ::Lee 
 
  counsel was constitutionally ineffective
 Negative
@@ -756,7 +756,7 @@ Type = dense , numRows = 5 , numCols = 1
  0.340  
  0.067  
 
-Government ::plea-stage Lee counsel --resolved as Lee 's
+Government ::plea-stage Lee counsel 
 
  his counsel's deficient performance deprived him of a trial by causing him to accept a plea
 Negative
@@ -816,7 +816,7 @@ Type = dense , numRows = 5 , numCols = 1
  0.301  
  0.050  
 
-defendant ::he --resolved as the defendant 's
+defendant ::he 
 
  his lawyer should have but did not seek to suppress an improperly obtained confession.
 Negative
@@ -836,7 +836,7 @@ Type = dense , numRows = 5 , numCols = 1
  0.340  
  0.067  
 
-defendant ::his lawyer --resolved as the defendant 's
+defendant ::his lawyer 
 
  would have opted to go to trial.
 Neutral
@@ -876,7 +876,7 @@ Type = dense , numRows = 5 , numCols = 1
  0.089  
  0.005  
 
-he --resolved as Lee, on the other hand::he --resolved as Lee, on the other hand
+he ::he 
 
  he would almost certainly have lost and found himself still subject to deportation
 Negative
@@ -896,7 +896,7 @@ Type = dense , numRows = 5 , numCols = 1
  0.340  
  0.067  
 
-Government ::he --resolved as Lee, on the other hand
+Government ::he 
 
  something unexpected and unpredictable might occur that would lead to an acquittal.
 Positive
@@ -916,7 +916,7 @@ Type = dense , numRows = 5 , numCols = 1
  0.115  
  0.009  
 
-only his hope --resolved as Lee, on the other hand::unexpected something 
+only his hope ::unexpected something 
 
  adopt a per se rule that a defendant with no viable defense cannot show prejudice from the denial of his right to trial.
 Negative
@@ -956,7 +956,7 @@ Type = dense , numRows = 5 , numCols = 1
  0.108  
  0.020  
 
-it --resolved as the Government::categorical rules 
+it ::categorical rules 
 
  the inquiry we prescribed in Hill v. Lockhart focuses on a defendant's decisionmaking
 Neutral
@@ -1016,7 +1016,7 @@ Type = dense , numRows = 5 , numCols = 1
  0.318  
  0.022  
 
-Lee --resolved as him::none-innersubject
+Lee ::none-innersubject
 
  the possibility of an acquittal after trial is "irrelevant to the prejudice inquiry
 Neutral
@@ -1056,7 +1056,7 @@ Type = dense , numRows = 5 , numCols = 1
  0.287  
  0.029  
 
-we ::Lee --resolved as Lee 's
+we ::Lee 
 
  it would lead to mandatory deportation.
 Neutral
@@ -1076,7 +1076,7 @@ Type = dense , numRows = 5 , numCols = 1
  0.089  
  0.005  
 
-he --resolved as Lee 's::it --resolved as his guilty plea
+he ::it 
 
  at all affect your decision about whether you want to plead guilty or not
 Neutral
@@ -1136,7 +1136,7 @@ Type = dense , numRows = 5 , numCols = 1
  0.340  
  0.067  
 
-Government ::Lee --resolved as Lee
+Government ::Lee 
 
  it would be irrational for a defendant in Lee's position to reject the plea offer in favor of trial.
 Negative
@@ -1176,7 +1176,7 @@ Type = dense , numRows = 5 , numCols = 1
  0.125  
  0.004  
 
-Lee --resolved as Lee 's::none-innersubject
+Lee ::none-innersubject
 
  a defendant can undo a guilty plea
 Negative
@@ -1296,7 +1296,7 @@ Type = dense , numRows = 5 , numCols = 1
  0.588  
  0.044  
 
-it --resolved as the Court::same standard 
+it ::same standard 
 
  there is a reasonable probability
 Neutral
@@ -1356,7 +1356,7 @@ Type = dense , numRows = 5 , numCols = 1
  0.225  
  0.022  
 
-none-outerSubject::he --resolved as the defendant 's
+none-outerSubject::he 
 
  Strickland's two-part test applies the same way in the plea context as in other contexts.
 Negative
@@ -1416,7 +1416,7 @@ Type = dense , numRows = 5 , numCols = 1
  0.340  
  0.067  
 
-defendant ::his counsel --resolved as the defendant
+defendant ::his counsel 
 
 " it is also "necessary" to show a "reasonable probability that the end result of the criminal process would have been more favorable by reason of a plea to a lesser charge or a sentence of less prison time."
 Negative
@@ -1436,7 +1436,7 @@ Type = dense , numRows = 5 , numCols = 1
  0.259  
  0.042  
 
-Court ::it --resolved as The Court in Missouri v. Frye, 566 U. S. 134 -LRB- 2012 -RRB-
+Court ::it 
 
  the ultimate outcome would have been different.
 Negative
@@ -1456,7 +1456,7 @@ Type = dense , numRows = 5 , numCols = 1
  0.390  
  0.025  
 
-It --resolved as The Court in Missouri v. Frye, 566 U. S. 134 -LRB- 2012 -RRB-::ultimate outcome 
+It ::ultimate outcome 
 
  counsel may be constitutionally ineffective by causing a defendant to reject a plea deal he should have accepted.
 Negative
@@ -1616,7 +1616,7 @@ Type = dense , numRows = 5 , numCols = 1
  0.547  
  0.036  
 
-It --resolved as This Court::inquiry 
+It ::inquiry 
 
  he would have been better off in the end had his counsel not erred.
 Negative
@@ -1636,7 +1636,7 @@ Type = dense , numRows = 5 , numCols = 1
  0.634  
  0.100  
 
-which ::he --resolved as his
+which ::he 
 
  a defendant may establish prejudice by showing only that "he would not have pleaded guilty and would have insisted on going to trial
 Negative
@@ -1856,7 +1856,7 @@ Type = dense , numRows = 5 , numCols = 1
  0.240  
  0.020  
 
-majority ::Hill --resolved as Hill, 474 U. S., at 59-60
+majority ::Hill 
 
  such an inquiry is not always necessary--it is not necessary
 Negative
@@ -1936,7 +1936,7 @@ Type = dense , numRows = 5 , numCols = 1
  0.340  
  0.067  
 
-Court ::it --resolved as the Court in Frye and Lafler
+Court ::it 
 
  claims of ineffective assistance of counsel in the plea bargain context are governed by the two-part test set forth in Strickland"); Lafler
 Negative
@@ -1956,7 +1956,7 @@ Type = dense , numRows = 5 , numCols = 1
  0.338  
  0.028  
 
-Hill --resolved as Hill::claims 
+Hill ::claims 
 
  one standard applies
 Neutral
@@ -2016,7 +2016,7 @@ Type = dense , numRows = 5 , numCols = 1
  0.053  
  0.017  
 
-Petitioner --resolved as petitioner 's::he --resolved as a defendant in petitioner 's circumstances
+Petitioner ::he 
 
  petitioner had "no bona fide defense
 Negative
@@ -2036,7 +2036,7 @@ Type = dense , numRows = 5 , numCols = 1
  0.340  
  0.067  
 
-Court ::petitioner --resolved as petitioner 's
+Court ::petitioner 
 
  "the prospect of collateral challenges" threatens to undermine these important values.
 Neutral
@@ -2116,7 +2116,7 @@ Type = dense , numRows = 5 , numCols = 1
  0.340  
  0.067  
 
-defendant ::his counsel --resolved as a defendant
+defendant ::his counsel 
 
  each claim will "at least" require a "hearing to get th[e] facts on the table."
 Negative
@@ -2176,7 +2176,7 @@ Type = dense , numRows = 5 , numCols = 1
  0.340  
  0.067  
 
-Court ::its application --resolved as the Court
+Court ::its application 
 
  he would have bargained for a plea deal
 Neutral
@@ -2196,7 +2196,7 @@ Type = dense , numRows = 5 , numCols = 1
  0.114  
  0.008  
 
-Lee --resolved as Lee::he --resolved as Lee
+Lee ::he 
 
  he can show prejudice because
 Neutral
@@ -2216,7 +2216,7 @@ Type = dense , numRows = 5 , numCols = 1
  0.114  
  0.008  
 
-Lee --resolved as Lee::he --resolved as Lee
+Lee ::he 
 
  courts should ignore the "idiosyncrasies of the particular decisionmaker."
 Neutral
@@ -2236,7 +2236,7 @@ Type = dense , numRows = 5 , numCols = 1
  0.325  
  0.037  
 
-Hill --resolved as Hill::courts 
+Hill ::courts 
 
  a judge's warnings at a plea colloquy may undermine a claim that the defendant was prejudiced by his attorney's misadvice.
 Negative
