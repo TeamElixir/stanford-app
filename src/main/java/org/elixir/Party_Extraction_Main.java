@@ -347,6 +347,7 @@ public class Party_Extraction_Main {
                 }
             }
 
+            //correference resolved
             String outerSubjectResolution  = "--";
             for(CorefChainMapping ccm : ccmList){
                 String resolvedTerm = ccm.resolveTerm(outerSubjectContext,sentenceId);
@@ -355,6 +356,7 @@ public class Party_Extraction_Main {
                 }
             }
 
+            //correference resolved
             String innerSubjectResoultion = "--";
             for (CorefChainMapping ccm :ccmList){
                 String resolvedTerm = ccm.resolveTerm(innerSubjectContext,sentenceId);

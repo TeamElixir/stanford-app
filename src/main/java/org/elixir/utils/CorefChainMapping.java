@@ -4,9 +4,7 @@ import edu.stanford.nlp.ling.CoreAnnotations;
 import edu.stanford.nlp.pipeline.Annotation;
 import edu.stanford.nlp.pipeline.StanfordCoreNLP;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Properties;
+import java.util.*;
 
 //to resolve coreferences of the given paragraph
 public class CorefChainMapping {
@@ -18,6 +16,8 @@ public class CorefChainMapping {
 
     public ArrayList<CorefSentenceMapping> termList = new ArrayList<>();
     public String longestTerm="--";
+    public String non_prep_words = ";";
+    public TreeSet<String> referredTermList = new TreeSet<>();
 
     public void assignTerm(String term, int sentenceNumber){
 
@@ -34,11 +34,18 @@ public class CorefChainMapping {
         pipeline.annotate(ann);
 
         String postag = ann.get(CoreAnnotations.SentencesAnnotation.class).get(0).get(CoreAnnotations.TokensAnnotation.class).get(0).get(CoreAnnotations.PartOfSpeechAnnotation.class);
+        //String word = ann.get(CoreAnnotations.SentencesAnnotation.class).get(0).get(CoreAnnotations.TokensAnnotation.class).get(0).get(CoreAnnotations.TextAnnotation.class);
+
 
         if(termList.size() == 0){
             longestTerm = term;
-        }else if(term.length() >= longestTerm.length() && !postag.equals("PRP") && !postag.equals("PRP$")){
-            longestTerm = term;
+        }
+        if(!postag.equals("PRP") && !postag.equals("PRP$")){
+            if(term.length() >= longestTerm.length()){
+                longestTerm = term;
+            }
+
+            referredTermList.add(term);
         }
     }
 
@@ -78,7 +85,16 @@ public class CorefChainMapping {
 
         for(CorefSentenceMapping i : termList){
             if(i.sentenceNumber == sentence_id && Arrays.asList(partialTerms).contains(i.term)){
-                return longestTerm;
+                String listString = "";
+
+                for (String s : referredTermList)
+                {
+                    listString += s + ";";
+                }
+                if(listString.length()==0){
+                    return longestTerm;
+                }
+                return  listString;
             }
         }
         return null;

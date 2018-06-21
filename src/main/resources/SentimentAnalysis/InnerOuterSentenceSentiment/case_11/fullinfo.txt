@@ -22,7 +22,7 @@ Lee admitted that the drugs were his, and a grand jury indicted him on one count
 
 		-----
 	 outer Subject : Lee 	,	inner Subject : drugs 
-resolved as : (Petitioner Jae Lee, --)
+resolved as : (Lee;Lee 's;Petitioner Jae Lee;, --)
 
 When Lee learned of this consequence, he filed a motion to vacate his conviction and sentence, arguing that his attorney had provided constitutionally ineffective assistance.
 	innerSentence :  his attorney had provided constitutionally ineffective assistance.
@@ -48,7 +48,7 @@ When Lee learned of this consequence, he filed a motion to vacate his conviction
 
 		-----
 	 outer Subject : he 	,	inner Subject : his attorney 
-resolved as : (Petitioner Jae Lee, Petitioner Jae Lee)
+resolved as : (Lee;Lee 's;Petitioner Jae Lee;, Lee;Lee 's;Petitioner Jae Lee;)
 
 At an evidentiary hearing, both Lee and his plea-stage counsel testified that "deportation was the determinative issue" to Lee in deciding whether to accept a plea, and Lee's counsel acknowledged that although Lee's defense to the charge was weak, if he had known Lee would be deported upon pleading guilty, he would have advised him to go to trial.
 	innerSentence :  "deportation was the determinative issue" to Lee in deciding whether to accept a plea
@@ -74,7 +74,7 @@ At an evidentiary hearing, both Lee and his plea-stage counsel testified that "d
 
 		-----
 	 outer Subject : Lee 	,	inner Subject : deportation 
-resolved as : (Petitioner Jae Lee, --)
+resolved as : (Lee;Lee 's;Petitioner Jae Lee;, --)
 At an evidentiary hearing, both Lee and his plea-stage counsel testified that "deportation was the determinative issue" to Lee in deciding whether to accept a plea, and Lee's counsel acknowledged that although Lee's defense to the charge was weak, if he had known Lee would be deported upon pleading guilty, he would have advised him to go to trial.
 	innerSentence :  if he had known Lee would be deported upon pleading guilty
 		coremap sentence : if he had known Lee would be deported upon pleading guilty
@@ -99,7 +99,7 @@ At an evidentiary hearing, both Lee and his plea-stage counsel testified that "d
 
 		-----
 	 outer Subject : Lee counsel 	,	inner Subject : Lee 
-resolved as : (Petitioner Jae Lee, Petitioner Jae Lee)
+resolved as : (Lee;Lee 's;Petitioner Jae Lee;, Lee;Lee 's;Petitioner Jae Lee;)
 
 A Magistrate Judge recommended that Lee's plea be set aside and his conviction vacated.
 	innerSentence :  Lee's plea be set aside and his conviction vacated.
@@ -151,7 +151,7 @@ Applying the two-part test for ineffective assistance claims from Strickland v. 
 
 		-----
 	 outer Subject : Circuit 	,	inner Subject : Lee 
-resolved as : (--, Petitioner Jae Lee)
+resolved as : (--, Lee;Lee 's;Petitioner Jae Lee;)
 Applying the two-part test for ineffective assistance claims from Strickland v. Washington, 466 U. S. 668, the Sixth Circuit concluded that, while the Government conceded that Lee's counsel had performed deficiently, Lee could not show that he was prejudiced by his attorney's erroneous advice.
 	innerSentence :  Lee's counsel had performed deficiently
 		coremap sentence : Lee's counsel had performed deficiently
@@ -176,7 +176,7 @@ Applying the two-part test for ineffective assistance claims from Strickland v. 
 
 		-----
 	 outer Subject : Government 	,	inner Subject : Lee counsel 
-resolved as : (--, Petitioner Jae Lee)
+resolved as : (--, Lee;Lee 's;Petitioner Jae Lee;)
 Applying the two-part test for ineffective assistance claims from Strickland v. Washington, 466 U. S. 668, the Sixth Circuit concluded that, while the Government conceded that Lee's counsel had performed deficiently, Lee could not show that he was prejudiced by his attorney's erroneous advice.
 	innerSentence :  he was prejudiced by his attorney's erroneous advice.
 		coremap sentence : he was prejudiced by his attorney's erroneous advice.
@@ -201,7 +201,7 @@ Applying the two-part test for ineffective assistance claims from Strickland v. 
 
 		-----
 	 outer Subject : Lee 	,	inner Subject : he 
-resolved as : (Petitioner Jae Lee, Petitioner Jae Lee)
+resolved as : (Lee;Lee 's;Petitioner Jae Lee;, Lee;Lee 's;Petitioner Jae Lee;)
 
 Held: Lee has demonstrated that he was prejudiced by his counsel's erroneous advice.
 	innerSentence :  he was prejudiced by his counsel's erroneous advice.
@@ -227,7 +227,7 @@ Held: Lee has demonstrated that he was prejudiced by his counsel's erroneous adv
 
 		-----
 	 outer Subject : Lee 	,	inner Subject : he 
-resolved as : (Lee, Lee)
+resolved as : (Lee;, Lee;)
 
 (a) When a defendant claims that his counsel's deficient performance deprived him of a trial by causing him to accept a plea, the defendant can show prejudice by demonstrating a "reasonable probability that, but for counsel's errors, he would not have pleaded guilty and would have insisted on going to trial."
 	innerSentence :  his counsel's deficient performance deprived him of a trial by causing him to accept a plea
@@ -279,7 +279,7 @@ Lee contends that he can make this showing because he never would have accepted 
 
 		-----
 	 outer Subject : Lee 	,	inner Subject : he 
-resolved as : (Lee, Lee)
+resolved as : (Lee;, Lee;)
 
 The Government contends that Lee cannot show prejudice from accepting a plea where his only hope at trial was that something unexpected and unpredictable might occur that would lead to acquittal.
 	innerSentence :  Lee cannot show prejudice from accepting a plea
@@ -305,7 +305,7 @@ The Government contends that Lee cannot show prejudice from accepting a plea whe
 
 		-----
 	 outer Subject : Government 	,	inner Subject : Lee 
-resolved as : (--, Lee)
+resolved as : (--, Lee;)
 The Government contends that Lee cannot show prejudice from accepting a plea where his only hope at trial was that something unexpected and unpredictable might occur that would lead to acquittal.
 	innerSentence :  something unexpected and unpredictable might occur that would lead to acquittal.
 		coremap sentence : something unexpected and unpredictable might occur that would lead to acquittal.
@@ -330,7 +330,7 @@ The Government contends that Lee cannot show prejudice from accepting a plea whe
 
 		-----
 	 outer Subject : only his hope 	,	inner Subject : unexpected something 
-resolved as : (Lee, --)
+resolved as : (Lee;, --)
 
 First, it forgets that categorical rules are ill suited to an inquiry that demands a "case-by-case examination" of the "totality of the evidence."
 	innerSentence :  categorical rules are ill suited to an inquiry
@@ -356,7 +356,7 @@ First, it forgets that categorical rules are ill suited to an inquiry that deman
 
 		-----
 	 outer Subject : it 	,	inner Subject : categorical rules 
-resolved as : (The Government, --)
+resolved as : (The Government;, --)
 
 More fundamentally, it overlooks that the Hill v. Lockhart inquiry focuses on a defendant's decisionmaking, which may not turn solely on the likelihood of conviction after trial.
 	innerSentence :  the Hill v. Lockhart inquiry focuses on a defendant's decisionmaking
@@ -382,7 +382,7 @@ More fundamentally, it overlooks that the Hill v. Lockhart inquiry focuses on a 
 
 		-----
 	 outer Subject : it 	,	inner Subject : inquiry 
-resolved as : (The Government, --)
+resolved as : (The Government;, --)
 
 Pointing to Strickland, the Government urges that "[a] defendant has no entitlement to the luck of a lawless decisionmaker."
 	innerSentence :  "[a] defendant has no entitlement to the luck of a lawless decisionmaker."
@@ -434,7 +434,7 @@ In the unusual circumstances of this case, Lee has adequately demonstrated a rea
 
 		-----
 	 outer Subject : he 	,	inner Subject : it 
-resolved as : (Lee, the plea)
+resolved as : (Lee;, a plea;the plea;)
 In the unusual circumstances of this case, Lee has adequately demonstrated a reasonable probability that he would have rejected the plea had he known that it would lead to mandatory deportation: Both Lee and his attorney testified that "deportation was the determinative issue" to Lee; his responses during his plea colloquy confirmed the importance he placed on deportation; and he had strong connections to the United States, while he had no ties to South Korea.
 	innerSentence :  "deportation was the determinative issue" to Lee; his responses during his plea colloquy confirmed the importance he placed on deportation; and he had strong connections to the United States
 		coremap sentence : "deportation was the determinative issue" to Lee; his responses during his plea colloquy confirmed the importance he placed on deportation; and he had strong connections to the United States
@@ -459,7 +459,7 @@ In the unusual circumstances of this case, Lee has adequately demonstrated a rea
 
 		-----
 	 outer Subject : Lee 	,	inner Subject : deportation 
-resolved as : (Lee, --)
+resolved as : (Lee;, --)
 
 The Government argues that Lee cannot "convince the court that a decision to reject the plea bargain would have been rational under the circumstances," Padilla v. Kentucky, 559 U. S. 356, 372, since deportation would almost certainly result from a trial.
 	innerSentence :  Lee cannot "convince the court that a decision to reject the plea bargain would have been rational under the circumstances
@@ -485,7 +485,7 @@ The Government argues that Lee cannot "convince the court that a decision to rej
 
 		-----
 	 outer Subject : Government 	,	inner Subject : Lee 
-resolved as : (--, Lee 's)
+resolved as : (--, Lee;Lee 's;)
 
 Unlike the Government, this Court cannot say that it would be irrational for someone in Lee's position to risk additional prison time in exchange for holding on to some chance of avoiding deportation.
 	innerSentence :  it would be irrational for someone in Lee's position to risk additional prison time in exchange for holding on to some chance of avoiding deportation.
@@ -511,7 +511,7 @@ Unlike the Government, this Court cannot say that it would be irrational for som
 
 		-----
 	 outer Subject : Court 	,	inner Subject : it 
-resolved as : (--, this Court)
+resolved as : (--, the court;this Court;)
 
 Although he has lived in this country for most of his life, Lee is not a United States citizen, and he feared that a criminal conviction might affect his status as a lawful permanent resident.
 	innerSentence :  a criminal conviction might affect his status as a lawful permanent resident.
@@ -537,7 +537,7 @@ Although he has lived in this country for most of his life, Lee is not a United 
 
 		-----
 	 outer Subject : he 	,	inner Subject : criminal conviction 
-resolved as : (Lee, who had no real defense to the charge, --)
+resolved as : (Lee;Lee, who had no real defense to the charge;Petitioner Jae Lee;, --)
 
 Lee's attorney was wrong: The conviction meant that Lee was subject to mandatory deportation from this country.
 	innerSentence :  Lee was subject to mandatory deportation from this country.
@@ -563,7 +563,7 @@ Lee's attorney was wrong: The conviction meant that Lee was subject to mandatory
 
 		-----
 	 outer Subject : conviction 	,	inner Subject : Lee 
-resolved as : (--, Lee 's)
+resolved as : (--, Lee;Lee 's;)
 
 Everyone agrees that Lee received objectively unreasonable representation.
 	innerSentence :  Lee received objectively unreasonable representation.
@@ -589,7 +589,7 @@ Everyone agrees that Lee received objectively unreasonable representation.
 
 		-----
 	 outer Subject : Everyone 	,	inner Subject : Lee 
-resolved as : (--, Lee 's)
+resolved as : (--, Lee;Lee 's;)
 
 Lee admitted that the drugs were his and that he had given ecstasy to his friends.
 	innerSentence :  the drugs were his and that he had given ecstasy to his friends.
@@ -615,7 +615,7 @@ Lee admitted that the drugs were his and that he had given ecstasy to his friend
 
 		-----
 	 outer Subject : Lee 	,	inner Subject : drugs 
-resolved as : (Lee 's, --)
+resolved as : (Lee;Lee 's;, --)
 
 Upon learning that he would be deported after serving his sentence, Lee filed a motion under 28 U. S. C. §2255 to vacate his conviction and sentence, arguing that his attorney had provided constitutionally ineffective assistance.
 	innerSentence :  he would be deported after serving his sentence
@@ -641,7 +641,7 @@ Upon learning that he would be deported after serving his sentence, Lee filed a 
 
 		-----
 	 outer Subject : Lee 	,	inner Subject : he 
-resolved as : (Lee, --)
+resolved as : (Lee;, --)
 Upon learning that he would be deported after serving his sentence, Lee filed a motion under 28 U. S. C. §2255 to vacate his conviction and sentence, arguing that his attorney had provided constitutionally ineffective assistance.
 	innerSentence :  his attorney had provided constitutionally ineffective assistance.
 		coremap sentence : his attorney had provided constitutionally ineffective assistance.
@@ -666,7 +666,7 @@ Upon learning that he would be deported after serving his sentence, Lee filed a 
 
 		-----
 	 outer Subject : Lee 	,	inner Subject : his attorney 
-resolved as : (Lee, --)
+resolved as : (Lee;, --)
 
 At an evidentiary hearing on Lee's motion, both Lee and his plea-stage counsel testified that "deportation was the determinative issue in Lee's decision whether to accept the plea."
 	innerSentence :  "deportation was the determinative issue in Lee's decision whether to accept the plea."
@@ -692,7 +692,7 @@ At an evidentiary hearing on Lee's motion, both Lee and his plea-stage counsel t
 
 		-----
 	 outer Subject : Lee 	,	inner Subject : deportation 
-resolved as : (According to Lee, --)
+resolved as : (According to Lee;Lee;Lee 's;Lee 's attorney;The attorney;, --)
 
 Lee's attorney testified that he thought Lee's case was a "bad case to try" because Lee's defense to the charge was weak.
 	innerSentence :  he thought Lee's case was a "bad case to try" because Lee's defense to the charge was weak.
@@ -718,7 +718,7 @@ Lee's attorney testified that he thought Lee's case was a "bad case to try" beca
 
 		-----
 	 outer Subject : Lee attorney 	,	inner Subject : he 
-resolved as : (--, According to Lee)
+resolved as : (--, According to Lee;Lee;Lee 's;Lee 's attorney;The attorney;)
 
 The attorney nonetheless acknowledged that if he had known Lee would be deported upon pleading guilty, he would have advised him to go to trial.
 	innerSentence :  he would have advised him to go to trial.
@@ -744,7 +744,7 @@ The attorney nonetheless acknowledged that if he had known Lee would be deported
 
 		-----
 	 outer Subject : attorney 	,	inner Subject : he 
-resolved as : (--, According to Lee)
+resolved as : (--, According to Lee;Lee;Lee 's;Lee 's attorney;The attorney;)
 
 Based on the hearing testimony, a Magistrate Judge recommended that Lee's plea be set aside and his conviction vacated because he had received ineffective assistance of counsel.
 	innerSentence :  Lee's plea be set aside and his conviction vacated because he had received ineffective assistance of counsel.
@@ -848,7 +848,7 @@ To establish that he was prejudiced by that deficient performance, the court exp
 
 		-----
 	 outer Subject : court 	,	inner Subject : he 
-resolved as : (--, Lockhart)
+resolved as : (--, Hill;Lee;Lee 's;Lockhart;)
 
 Relying on Circuit precedent holding that "no rational defendant charged with a deportable offense and facing overwhelming evidence of guilt would proceed to trial rather than take a plea deal with a shorter prison sentence," the Court of Appeals concluded that Lee could not show prejudice.
 	innerSentence :  "no rational defendant charged with a deportable offense and facing overwhelming evidence of guilt would proceed to trial rather than take a plea deal with a shorter prison sentence
@@ -899,7 +899,7 @@ Relying on Circuit precedent holding that "no rational defendant charged with a 
 
 		-----
 	 outer Subject : Court 	,	inner Subject : Lee 
-resolved as : (--, Lockhart)
+resolved as : (--, Hill;Lee;Lee 's;Lockhart;)
 
 To demonstrate that counsel was constitutionally ineffective, a defendant must show that counsel's representation "fell below an objective standard of reasonableness" and that he was prejudiced as a result.
 	innerSentence :  counsel was constitutionally ineffective
@@ -976,7 +976,7 @@ The first requirement is not at issue in today's case: The Government concedes t
 
 		-----
 	 outer Subject : Government 	,	inner Subject : plea-stage Lee counsel 
-resolved as : (--, Lee 's)
+resolved as : (--, Lee;Lee 's;)
 
 As we held in Hill v. Lockhart, when a defendant claims that his counsel's deficient performance deprived him of a trial by causing him to accept a plea, the defendant can show prejudice by demonstrating a "reasonable probability that, but for counsel's errors, he would not have pleaded guilty and would have insisted on going to trial."
 	innerSentence :  his counsel's deficient performance deprived him of a trial by causing him to accept a plea
@@ -1053,7 +1053,7 @@ The dissent contends that a defendant must also show that he would have been bet
 
 		-----
 	 outer Subject : defendant 	,	inner Subject : he 
-resolved as : (--, the defendant 's)
+resolved as : (--, a defendant;the attorney 's;the defendant 's;)
 
 That is true when the defendant's decision about going to trial turns on his prospects of success and those are affected by the attorney's error--for instance, where a defendant alleges that his lawyer should have but did not seek to suppress an improperly obtained confession.
 	innerSentence :  his lawyer should have but did not seek to suppress an improperly obtained confession.
@@ -1079,7 +1079,7 @@ That is true when the defendant's decision about going to trial turns on his pro
 
 		-----
 	 outer Subject : defendant 	,	inner Subject : his lawyer 
-resolved as : (--, the defendant 's)
+resolved as : (--, a defendant;the attorney 's;the defendant 's;)
 
 Rather than asking how a hypothetical trial would have played out absent the error, the Court considered whether there was an adequate showing that the defendant, properly advised, would have opted to go to trial.
 	innerSentence :  would have opted to go to trial.
@@ -1131,7 +1131,7 @@ Lee, on the other hand, argues he can establish prejudice under Hill because he 
 
 		-----
 	 outer Subject : he 	,	inner Subject : he 
-resolved as : (Lee, on the other hand, Lee, on the other hand)
+resolved as : (Lee;Lee, on the other hand;, Lee;Lee, on the other hand;)
 
 Lee insists he would have gambled on trial, risking more jail time for whatever small chance there might be of an acquittal that would let him remain in the United States.2 The Government responds that, since Lee had no viable defense at trial, he would almost certainly have lost and found himself still subject to deportation, with a lengthier prison sentence to boot.
 	innerSentence :  he would almost certainly have lost and found himself still subject to deportation
@@ -1157,7 +1157,7 @@ Lee insists he would have gambled on trial, risking more jail time for whatever 
 
 		-----
 	 outer Subject : Government 	,	inner Subject : he 
-resolved as : (--, Lee, on the other hand)
+resolved as : (--, Lee;Lee, on the other hand;)
 
 Lee, the Government contends, cannot show prejudice from accepting a plea where his only hope at trial was that something unexpected and unpredictable might occur that would lead to an acquittal.
 	innerSentence :  something unexpected and unpredictable might occur that would lead to an acquittal.
@@ -1183,7 +1183,7 @@ Lee, the Government contends, cannot show prejudice from accepting a plea where 
 
 		-----
 	 outer Subject : only his hope 	,	inner Subject : unexpected something 
-resolved as : (Lee, on the other hand, --)
+resolved as : (Lee;Lee, on the other hand;, --)
 
 The Government asks that we, like the Court of Appeals below, adopt a per se rule that a defendant with no viable defense cannot show prejudice from the denial of his right to trial.
 	innerSentence :  adopt a per se rule that a defendant with no viable defense cannot show prejudice from the denial of his right to trial.
@@ -1235,7 +1235,7 @@ First, it forgets that categorical rules are ill suited to an inquiry that we ha
 
 		-----
 	 outer Subject : it 	,	inner Subject : categorical rules 
-resolved as : (the Government, --)
+resolved as : (The Government;the Government;, --)
 
 And, more fundamentally, the Government overlooks that the inquiry we prescribed in Hill v. Lockhart focuses on a defendant's decisionmaking, which may not turn solely on the likelihood of conviction after trial.
 	innerSentence :  the inquiry we prescribed in Hill v. Lockhart focuses on a defendant's decisionmaking
@@ -1313,7 +1313,7 @@ Here Lee alleges that avoiding deportation was the determinative factor for him;
 
 		-----
 	 outer Subject : Lee 	,	inner Subject : none-innersubject
-resolved as : (Lee, --)
+resolved as : (Lee;, --)
 
 The Government urges that, in such circumstances, the possibility of an acquittal after trial is "irrelevant to the prejudice inquiry," pointing to our statement in Strickland that "[a] defendant has no entitlement to the luck of a lawless decisionmaker."
 	innerSentence :  the possibility of an acquittal after trial is "irrelevant to the prejudice inquiry
@@ -1365,7 +1365,7 @@ In the unusual circumstances of this case, we conclude that Lee has adequately d
 
 		-----
 	 outer Subject : we 	,	inner Subject : Lee 
-resolved as : (--, Lee 's)
+resolved as : (--, Lee;Lee 's;)
 In the unusual circumstances of this case, we conclude that Lee has adequately demonstrated a reasonable probability that he would have rejected the plea had he known that it would lead to mandatory deportation.
 	innerSentence :  it would lead to mandatory deportation.
 		coremap sentence : it would lead to mandatory deportation.
@@ -1390,7 +1390,7 @@ In the unusual circumstances of this case, we conclude that Lee has adequately d
 
 		-----
 	 outer Subject : he 	,	inner Subject : it 
-resolved as : (Lee 's, the plea)
+resolved as : (Lee;Lee 's;, the plea;)
 
 Lee demonstrated as much at his plea colloquy: When the judge warned him that a conviction "could result in your being deported," and asked "[d]oes that at all affect your decision about whether you want to plead guilty or not," Lee answered "Yes, Your Honor."
 	innerSentence :  at all affect your decision about whether you want to plead guilty or not
@@ -1468,7 +1468,7 @@ The Government contends that Lee cannot make that showing because he was going t
 
 		-----
 	 outer Subject : Government 	,	inner Subject : Lee 
-resolved as : (--, Lee)
+resolved as : (--, Lee;)
 
 We cannot agree that it would be irrational for a defendant in Lee's position to reject the plea offer in favor of trial.
 	innerSentence :  it would be irrational for a defendant in Lee's position to reject the plea offer in favor of trial.
@@ -1520,7 +1520,7 @@ But for his attorney's incompetence, Lee would have known that accepting the ple
 
 		-----
 	 outer Subject : Lee 	,	inner Subject : none-innersubject
-resolved as : (Lee 's, --)
+resolved as : (Lee;Lee 's;, --)
 
 The Court today holds that a defendant can undo a guilty plea, well after sentencing and in the face of overwhelming evidence of guilt, because he would have chosen to pursue a defense at trial with no reasonable chance of success if his attorney had properly advised him of the immigration consequences of his plea.
 	innerSentence :  a defendant can undo a guilty plea
@@ -1677,7 +1677,7 @@ When the Court extended the right to effective counsel to the plea stage, see Hi
 
 		-----
 	 outer Subject : it 	,	inner Subject : same standard 
-resolved as : (the Court, --)
+resolved as : (the Court;, --)
 
 To be sure, the Court said--and the majority today emphasizes--that a defendant asserting an ineffectiveness claim at the plea stage "must show that there is a reasonable probability that, but for counsel's errors, he would not have pleaded guilty and would have insisted on going to trial."
 	innerSentence :  there is a reasonable probability
@@ -1755,7 +1755,7 @@ resolved as : (--, --)
 
 		-----
 	 outer Subject : none-outerSubject	,	inner Subject : he 
-resolved as : (--, the defendant 's)
+resolved as : (--, a defendant;the defendant 's;)
 
 The Hill Court went on to explain that Strickland's two-part test applies the same way in the plea context as in other contexts.
 	innerSentence :  Strickland's two-part test applies the same way in the plea context as in other contexts.
@@ -1833,7 +1833,7 @@ In that case, the defendant argued that his counsel was constitutionally ineffec
 
 		-----
 	 outer Subject : defendant 	,	inner Subject : his counsel 
-resolved as : (--, the defendant)
+resolved as : (--, the defendant;)
 
 
 
@@ -1861,7 +1861,7 @@ The Court emphasized that, in addition to showing a reasonable probability that 
 
 		-----
 	 outer Subject : Court 	,	inner Subject : it 
-resolved as : (--, The Court in Missouri v. Frye, 566 U. S. 134 -LRB- 2012 -RRB-)
+resolved as : (--, The Court;The Court in Missouri v. Frye, 566 U. S. 134 -LRB- 2012 -RRB-;the Court;)
 
 It instead required the defendant to show that the ultimate outcome would have been different.
 	innerSentence :  the ultimate outcome would have been different.
@@ -1887,7 +1887,7 @@ It instead required the defendant to show that the ultimate outcome would have b
 
 		-----
 	 outer Subject : It 	,	inner Subject : ultimate outcome 
-resolved as : (The Court in Missouri v. Frye, 566 U. S. 134 -LRB- 2012 -RRB-, --)
+resolved as : (The Court;The Court in Missouri v. Frye, 566 U. S. 134 -LRB- 2012 -RRB-;the Court;, --)
 
 In that case, the Court concluded that counsel may be constitutionally ineffective by causing a defendant to reject a plea deal he should have accepted.
 	innerSentence :  counsel may be constitutionally ineffective by causing a defendant to reject a plea deal he should have accepted.
@@ -2093,7 +2093,7 @@ It instead has made clear that the prejudice inquiry is the same as in Stricklan
 
 		-----
 	 outer Subject : It 	,	inner Subject : inquiry 
-resolved as : (This Court, --)
+resolved as : (This Court;the Court;, --)
 It instead has made clear that the prejudice inquiry is the same as in Strickland, which requires a defendant to establish that he would have been better off in the end had his counsel not erred.
 	innerSentence :  he would have been better off in the end had his counsel not erred.
 		coremap sentence : he would have been better off in the end had his counsel not erred.
@@ -2402,7 +2402,7 @@ The majority responds that Hill made statements about presuming a reliable trial
 
 		-----
 	 outer Subject : majority 	,	inner Subject : Hill 
-resolved as : (--, Hill, 474 U. S., at 59-60)
+resolved as : (--, Hill;Hill, 474 U. S., at 59-60;)
 
 I agree that such an inquiry is not always necessary--it is not necessary where, as in Hill, the defendant cannot show at the threshold that he would have rejected his plea and chosen to go to trial.
 	innerSentence :  such an inquiry is not always necessary--it is not necessary
@@ -2507,7 +2507,7 @@ To the contrary, the Court repeatedly stated that it was applying the "same two-
 
 		-----
 	 outer Subject : Court 	,	inner Subject : it 
-resolved as : (--, the Court in Frye and Lafler)
+resolved as : (--, the Court;the Court in Frye and Lafler;)
 
 Hill, supra, at 57 (emphasis added); accord, Frye, 566, U. S., at 140 ("Hill established that claims of ineffective assistance of counsel in the plea bargain context are governed by the two-part test set forth in Strickland"); Lafler, 566 U. S., at 162-163 (applying Strickland).
 	innerSentence :  claims of ineffective assistance of counsel in the plea bargain context are governed by the two-part test set forth in Strickland"); Lafler
@@ -2533,7 +2533,7 @@ Hill, supra, at 57 (emphasis added); accord, Frye, 566, U. S., at 140 ("Hill est
 
 		-----
 	 outer Subject : Hill 	,	inner Subject : claims 
-resolved as : (Hill, --)
+resolved as : (Hill;, --)
 
 It instead concludes that one standard applies when a defendant goes to trial (Strickland); another standard applies when a defendant accepts a plea (Hill); and yet another standard applies when counsel does not apprise the defendant of an available plea or when the defendant rejects a plea (Frye and Lafler).
 	innerSentence :  one standard applies
@@ -2611,7 +2611,7 @@ Petitioner does not dispute that he possessed large quantities of illegal drugs 
 
 		-----
 	 outer Subject : Petitioner 	,	inner Subject : he 
-resolved as : (petitioner 's, a defendant in petitioner 's circumstances)
+resolved as : (Petitioner;petitioner;petitioner 's;, a defendant in petitioner 's circumstances;)
 
 In light of this "overwhelming evidence of . . . guilt," 2014 WL 1260388, *15 (WD Tenn., Mar. 20, 2014), the Court of Appeals concluded that petitioner had "no bona fide defense, not even a weak one," 825 F. 3d 311, 316 (CA6 2016).
 	innerSentence :  petitioner had "no bona fide defense
@@ -2637,7 +2637,7 @@ In light of this "overwhelming evidence of . . . guilt," 2014 WL 1260388, *15 (W
 
 		-----
 	 outer Subject : Court 	,	inner Subject : petitioner 
-resolved as : (--, petitioner 's)
+resolved as : (--, Petitioner;petitioner;petitioner 's;)
 
 
 The Court has warned that "the prospect of collateral challenges" threatens to undermine these important values.
@@ -2742,7 +2742,7 @@ Under its rule, so long as a defendant alleges that his counsel omitted or misad
 
 		-----
 	 outer Subject : defendant 	,	inner Subject : his counsel 
-resolved as : (--, a defendant)
+resolved as : (--, a defendant;)
 
 Petitioner suggests that each claim will "at least" require a "hearing to get th[e] facts on the table."
 	innerSentence :  each claim will "at least" require a "hearing to get th[e] facts on the table."
@@ -2821,7 +2821,7 @@ In both Frye and Lafler, the Court highlighted this difference: Immediately foll
 
 		-----
 	 outer Subject : Court 	,	inner Subject : its application 
-resolved as : (--, the Court)
+resolved as : (--, the Court;)
 
 
 Lee also argues that he can show prejudice because, had his attorney advised him that he would be deported if he accepted the Government's plea offer, he would have bargained for a plea deal that did not result in certain deportation.
@@ -2848,7 +2848,7 @@ Lee also argues that he can show prejudice because, had his attorney advised him
 
 		-----
 	 outer Subject : Lee 	,	inner Subject : he 
-resolved as : (Lee, Lee)
+resolved as : (Lee;, Lee;)
 Lee also argues that he can show prejudice because, had his attorney advised him that he would be deported if he accepted the Government's plea offer, he would have bargained for a plea deal that did not result in certain deportation.
 	innerSentence :  he can show prejudice because
 		coremap sentence : he can show prejudice because
@@ -2873,7 +2873,7 @@ Lee also argues that he can show prejudice because, had his attorney advised him
 
 		-----
 	 outer Subject : Lee 	,	inner Subject : he 
-resolved as : (Lee, Lee)
+resolved as : (Lee;, Lee;)
 
 The dissent makes much of the fact that Hill v. Lockhart, 474 U. S. 52 (1985), also noted that courts should ignore the "idiosyncrasies of the particular decisionmaker."
 	innerSentence :  courts should ignore the "idiosyncrasies of the particular decisionmaker."
@@ -2899,7 +2899,7 @@ The dissent makes much of the fact that Hill v. Lockhart, 474 U. S. 52 (1985), a
 
 		-----
 	 outer Subject : Hill 	,	inner Subject : courts 
-resolved as : (Hill, --)
+resolved as : (Hill;, --)
 
 
 Several courts have noted that a judge's warnings at a plea colloquy may undermine a claim that the defendant was prejudiced by his attorney's misadvice.
