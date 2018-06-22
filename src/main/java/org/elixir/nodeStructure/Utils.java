@@ -1,16 +1,23 @@
 package org.elixir.nodeStructure;
 
+import org.elixir.nodeStructure.models.Edge;
+import org.elixir.nodeStructure.models.Node;
+
 import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileReader;
 import java.io.IOException;
+import java.util.ArrayList;
 
 public class Utils {
     public static void main(String[] args) {
-        getEntitiesFromFile();
+        ArrayList<Edge> allEdges = getAllEdges();
     }
 
-    public static void getEntitiesFromFile() {
+    public static ArrayList<Edge> getAllEdges() {
+        ArrayList<Node> nodes = new ArrayList<>();
+        ArrayList<Edge> edges = new ArrayList<>();
+
         BufferedReader br = null;
         FileReader fr = null;
         String absoluteFilePath = new File("").getAbsolutePath();
@@ -24,6 +31,10 @@ public class Utils {
                 String[] splits = wholeString.split(":");
                 String one = splits[0].trim();
                 String two = splits[1].trim();
+                nodes.add(new Node(one));
+                nodes.add(new Node(two));
+
+                Edge e = new Edge(0, new Node(one), new Node(two));
 
                 line = br.readLine();
 
@@ -48,5 +59,7 @@ public class Utils {
                 }
             }
         }
-    }   // getEntitiesFromFile()
+
+        return edges;
+    }   // getAllEdges()
 }
