@@ -1,6 +1,6 @@
 package org.elixir.nodeStructure.models;
 
-public class Edge {
+public class Edge implements Comparable<Edge> {
     private int count;
     private Node nodeOne;
     private Node nodeTwo;
@@ -46,5 +46,14 @@ public class Edge {
 
     public void setNodeTwo(Node nodeTwo) {
         this.nodeTwo = nodeTwo;
+    }
+
+    @Override
+    public int compareTo(Edge o) {
+        if (this.nodeOne.compareTo(o.getNodeOne()) == 0 && this.nodeTwo.compareTo(o.getNodeTwo()) == 0) {
+            return 0;
+        } else {
+            return -1;
+        }
     }
 }

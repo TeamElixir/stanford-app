@@ -1,21 +1,16 @@
 package org.elixir.nodeStructure.models;
 
-import java.util.ArrayList;
-
-public class Node {
+public class Node implements Comparable<Node> {
     private String name;
-    private ArrayList<Edge> edges;
 
     public Node(String name) {
         this.name = name;
-        this.edges = new ArrayList<>();
     }
 
     @Override
     public String toString() {
         return "Node{" +
                 "name='" + name + '\'' +
-                ", edges=" + edges +
                 '}';
     }
 
@@ -25,5 +20,10 @@ public class Node {
 
     public void setName(String name) {
         this.name = name;
+    }
+
+    @Override
+    public int compareTo(Node o) {
+        return this.name.compareTo(o.getName());
     }
 }

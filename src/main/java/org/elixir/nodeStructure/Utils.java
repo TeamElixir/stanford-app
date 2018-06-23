@@ -11,11 +11,10 @@ import java.util.ArrayList;
 
 public class Utils {
     public static void main(String[] args) {
-        ArrayList<Edge> allEdges = getAllEdges();
+
     }
 
     public static ArrayList<Edge> getAllEdges() {
-        ArrayList<Node> nodes = new ArrayList<>();
         ArrayList<Edge> edges = new ArrayList<>();
 
         BufferedReader br = null;
@@ -31,15 +30,14 @@ public class Utils {
                 String[] splits = wholeString.split(":");
                 String one = splits[0].trim();
                 String two = splits[1].trim();
-                nodes.add(new Node(one));
-                nodes.add(new Node(two));
 
                 Edge e = new Edge(0, new Node(one), new Node(two));
+                edges.add(e);
 
                 line = br.readLine();
 
-                System.out.println(one + ", " + two);
-                System.out.println();
+//                System.out.println(one + ", " + two);
+//                System.out.println();
             }
         } catch (IOException e) {
             e.printStackTrace();
