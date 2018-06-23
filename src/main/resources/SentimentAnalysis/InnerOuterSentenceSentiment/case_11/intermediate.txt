@@ -67,16 +67,16 @@ Type = dense , numRows = 5 , numCols = 1
  0.044  
  0.009  
 
-Lee counsel acknowledged something.
-Neutral
+Lee 's counsel acknowledged something.
+Positive
 Type = dense , numRows = 5 , numCols = 1
- 0.026  
- 0.134  
- 0.395  
- 0.394  
- 0.051  
+ 0.022  
+ 0.105  
+ 0.406  
+ 0.413  
+ 0.054  
 
-Lee counsel ,Lee;Lee 's;Petitioner Jae Lee;::Lee ,Lee;Lee 's;Petitioner Jae Lee;
+Lee 's counsel ,Lee;Lee 's;Petitioner Jae Lee;::Lee ,Lee;Lee 's;Petitioner Jae Lee;
 
  Lee's plea be set aside and his conviction vacated.
 Negative
@@ -96,7 +96,7 @@ Type = dense , numRows = 5 , numCols = 1
  0.550  
  0.128  
 
-Judge ,--::Lee plea ,--
+Judge ,--::Lee 's plea ,--
 
  Lee could not show that he was prejudiced by his attorney's erroneous advice.
 Negative
@@ -136,7 +136,7 @@ Type = dense , numRows = 5 , numCols = 1
  0.118  
  0.030  
 
-Government ,--::Lee counsel ,Lee;Lee 's;Petitioner Jae Lee;
+Government ,--::Lee 's counsel ,Lee;Lee 's;Petitioner Jae Lee;
 
  he was prejudiced by his attorney's erroneous advice.
 Negative
@@ -196,7 +196,7 @@ Type = dense , numRows = 5 , numCols = 1
  0.231  
  0.038  
 
-defendant ,--::deficient counsel performance ,--
+defendant ,--::deficient counsel 's performance ,--
 
  he can make this showing because he never would have accepted a guilty plea had he known the result would be deportation.
 Negative
@@ -547,16 +547,16 @@ Type = dense , numRows = 5 , numCols = 1
  0.028  
  0.019  
 
-Lee attorney testified something.
-Neutral
+Lee 's attorney testified something.
+Positive
 Type = dense , numRows = 5 , numCols = 1
- 0.026  
- 0.134  
- 0.395  
- 0.394  
- 0.051  
+ 0.022  
+ 0.105  
+ 0.406  
+ 0.413  
+ 0.054  
 
-Lee attorney ,--::he ,According to Lee;Lee;Lee 's;Lee 's attorney;The attorney;
+Lee 's attorney ,--::he ,According to Lee;Lee;Lee 's;Lee 's attorney;The attorney;
 
  he would have advised him to go to trial.
 Negative
@@ -596,7 +596,7 @@ Type = dense , numRows = 5 , numCols = 1
  0.550  
  0.128  
 
-Judge ,--::Lee plea ,--
+Judge ,--::Lee 's plea ,--
 
  Lee's counsel had performed deficiently by giving improper advice about the deportation consequences of the plea.
 Negative
@@ -616,7 +616,7 @@ Type = dense , numRows = 5 , numCols = 1
  0.340  
  0.067  
 
-Court ,--::Lee counsel ,--
+Court ,--::Lee 's counsel ,--
 
  the performance of Lee's attorney had been deficient.
 Negative
@@ -736,7 +736,7 @@ Type = dense , numRows = 5 , numCols = 1
  0.301  
  0.050  
 
-defendant ,--::counsel representation ,--
+defendant ,--::counsel 's representation ,--
 
  Lee's plea-stage counsel provided inadequate representation
 Neutral
@@ -756,7 +756,7 @@ Type = dense , numRows = 5 , numCols = 1
  0.340  
  0.067  
 
-Government ,--::plea-stage Lee counsel ,Lee;Lee 's;
+Government ,--::plea-stage Lee 's counsel ,Lee;Lee 's;
 
  his counsel's deficient performance deprived him of a trial by causing him to accept a plea
 Negative
@@ -776,7 +776,7 @@ Type = dense , numRows = 5 , numCols = 1
  0.231  
  0.038  
 
-defendant ,--::deficient counsel performance ,--
+defendant ,--::deficient counsel 's performance ,--
 
  a defendant must also show that he would have been better off going to trial.
 Negative
@@ -1376,7 +1376,7 @@ Type = dense , numRows = 5 , numCols = 1
  0.317  
  0.044  
 
-Court ,--::two-part Strickland test ,--
+Court ,--::two-part Strickland 's test ,--
 
  "strict adherence to the Strickland standard" is "essential"
 Neutral
@@ -1736,7 +1736,7 @@ Type = dense , numRows = 5 , numCols = 1
  0.564  
  0.105  
 
-Court ,--::lawyer failure ,--
+Court ,--::lawyer 's failure ,--
 
  petitioner's guilty plea meant that he did not go to trial.
 Negative
@@ -1756,7 +1756,7 @@ Type = dense , numRows = 5 , numCols = 1
  0.330  
  0.064  
 
-Court ,--::guilty petitioner plea ,--
+Court ,--::guilty petitioner 's plea ,--
 
  he did not go to trial.
 Negative
@@ -1767,16 +1767,16 @@ Type = dense , numRows = 5 , numCols = 1
  0.033  
  0.009  
 
-guilty petitioner plea meant something.
+guilty petitioner 's plea meant something.
 Neutral
 Type = dense , numRows = 5 , numCols = 1
- 0.031  
- 0.314  
- 0.594  
- 0.053  
- 0.007  
+ 0.008  
+ 0.095  
+ 0.849  
+ 0.045  
+ 0.003  
 
-guilty petitioner plea ,--::he ,--
+guilty petitioner 's plea ,--::he ,--
 
  a court should engage in a predictive inquiry about the likelihood of a defendant securing a better result at trial
 Negative
@@ -2256,7 +2256,7 @@ Type = dense , numRows = 5 , numCols = 1
  0.221  
  0.020  
 
-Several courts ,--::judge warnings ,--
+Several courts ,--::judge 's warnings ,--
 
  he would have obtained a better plea agreement. "
 Neutral

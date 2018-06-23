@@ -71,8 +71,8 @@ public class Party_Extraction_Main {
 
         ArrayList<Subject_combination> combinationArrayList = new ArrayList<>();
 
-        while (sc.hasNextLine()){
-            String text = sc.nextLine();
+//        while (sc.hasNextLine()){
+            String text = "At an evidentiary hearing, both Lee and his plea-stage counsel testified that \"deportation was the determinative issue\" to Lee in deciding whether to accept a plea, and Lee's counsel acknowledged that although Lee's defense to the charge was weak, if he had known Lee would be deported upon pleading guilty, he would have advised him to go to trial.";
             Annotation ann = new Annotation(text);
             pipeline.annotate(ann);
 
@@ -190,7 +190,7 @@ public class Party_Extraction_Main {
                 combinationArrayList.add(subject_combination);
             }
             br.newLine();
-        }
+
         br.close();
         br3.close();
 
@@ -227,20 +227,14 @@ public class Party_Extraction_Main {
         }
     }
 
-    public static void outputPartyExtraction(int sentenceId, String currentSentence, String caseName, ArrayList<CorefChainMapping> ccmList, BufferedWriter br, BufferedWriter br2, BufferedWriter br3) throws IOException {
-        Properties props = new Properties();
-        props.setProperty("annotators", "tokenize,ssplit,pos,lemma,parse,natlog,depparse");
-        StanfordCoreNLP pipeline = new StanfordCoreNLP(props);
+    public static void outputPartyExtraction(StanfordCoreNLP depparsePipeline,StanfordCoreNLP sentimentPipeline, int sentenceId, String currentSentence, String caseName, ArrayList<CorefChainMapping> ccmList, BufferedWriter br, BufferedWriter br2, BufferedWriter br3) throws IOException {
 
-        Properties propsSentiment = new Properties();
-        propsSentiment.setProperty("annotators","tokenize,ssplit,tokenize,pos,lemma,parse,natlog,sentiment");
-        StanfordCoreNLP sentimentPipeline = new StanfordCoreNLP(propsSentiment);
 
         ArrayList<Subject_combination> combinationArrayList = new ArrayList<>();
 
         String text = currentSentence;
         Annotation ann = new Annotation(text);
-        pipeline.annotate(ann);
+        depparsePipeline.annotate(ann);
 
         for(IndexedWord[] array : CoreNLPDepParser.findIndicesOfOuterVerbAndInnerVerb(ann, text)){
             IndexedWord thatIndexWord = array[1];

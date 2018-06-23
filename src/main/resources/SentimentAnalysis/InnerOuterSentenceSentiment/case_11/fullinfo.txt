@@ -87,18 +87,18 @@ At an evidentiary hearing, both Lee and his plea-stage counsel testified that "d
  0.009  
 
 		-----
-	outerSentence : Lee counsel acknowledged something.
-		coremap sentence : Lee counsel acknowledged something.
-		sentiment : Neutral
+	outerSentence : Lee 's counsel acknowledged something.
+		coremap sentence : Lee 's counsel acknowledged something.
+		sentiment : Positive
 		matrixType = dense , numRows = 5 , numCols = 1
- 0.026  
- 0.134  
- 0.395  
- 0.394  
- 0.051  
+ 0.022  
+ 0.105  
+ 0.406  
+ 0.413  
+ 0.054  
 
 		-----
-	 outer Subject : Lee counsel 	,	inner Subject : Lee 
+	 outer Subject : Lee 's counsel 	,	inner Subject : Lee 
 resolved as : (Lee;Lee 's;Petitioner Jae Lee;, Lee;Lee 's;Petitioner Jae Lee;)
 
 A Magistrate Judge recommended that Lee's plea be set aside and his conviction vacated.
@@ -124,7 +124,7 @@ A Magistrate Judge recommended that Lee's plea be set aside and his conviction v
  0.128  
 
 		-----
-	 outer Subject : Judge 	,	inner Subject : Lee plea 
+	 outer Subject : Judge 	,	inner Subject : Lee 's plea 
 resolved as : (--, --)
 
 Applying the two-part test for ineffective assistance claims from Strickland v. Washington, 466 U. S. 668, the Sixth Circuit concluded that, while the Government conceded that Lee's counsel had performed deficiently, Lee could not show that he was prejudiced by his attorney's erroneous advice.
@@ -175,7 +175,7 @@ Applying the two-part test for ineffective assistance claims from Strickland v. 
  0.030  
 
 		-----
-	 outer Subject : Government 	,	inner Subject : Lee counsel 
+	 outer Subject : Government 	,	inner Subject : Lee 's counsel 
 resolved as : (--, Lee;Lee 's;Petitioner Jae Lee;)
 Applying the two-part test for ineffective assistance claims from Strickland v. Washington, 466 U. S. 668, the Sixth Circuit concluded that, while the Government conceded that Lee's counsel had performed deficiently, Lee could not show that he was prejudiced by his attorney's erroneous advice.
 	innerSentence :  he was prejudiced by his attorney's erroneous advice.
@@ -252,7 +252,7 @@ resolved as : (Lee;, Lee;)
  0.038  
 
 		-----
-	 outer Subject : defendant 	,	inner Subject : deficient counsel performance 
+	 outer Subject : defendant 	,	inner Subject : deficient counsel 's performance 
 resolved as : (--, --)
 
 Lee contends that he can make this showing because he never would have accepted a guilty plea had he known the result would be deportation.
@@ -706,18 +706,18 @@ Lee's attorney testified that he thought Lee's case was a "bad case to try" beca
  0.019  
 
 		-----
-	outerSentence : Lee attorney testified something.
-		coremap sentence : Lee attorney testified something.
-		sentiment : Neutral
+	outerSentence : Lee 's attorney testified something.
+		coremap sentence : Lee 's attorney testified something.
+		sentiment : Positive
 		matrixType = dense , numRows = 5 , numCols = 1
- 0.026  
- 0.134  
- 0.395  
- 0.394  
- 0.051  
+ 0.022  
+ 0.105  
+ 0.406  
+ 0.413  
+ 0.054  
 
 		-----
-	 outer Subject : Lee attorney 	,	inner Subject : he 
+	 outer Subject : Lee 's attorney 	,	inner Subject : he 
 resolved as : (--, According to Lee;Lee;Lee 's;Lee 's attorney;The attorney;)
 
 The attorney nonetheless acknowledged that if he had known Lee would be deported upon pleading guilty, he would have advised him to go to trial.
@@ -769,7 +769,7 @@ Based on the hearing testimony, a Magistrate Judge recommended that Lee's plea b
  0.128  
 
 		-----
-	 outer Subject : Judge 	,	inner Subject : Lee plea 
+	 outer Subject : Judge 	,	inner Subject : Lee 's plea 
 resolved as : (--, --)
 
 Applying our two-part test for ineffective assistance claims from Strickland v. Washington, 466 U. S. 668 (1984), the District Court concluded that Lee's counsel had performed deficiently by giving improper advice about the deportation consequences of the plea.
@@ -795,7 +795,7 @@ Applying our two-part test for ineffective assistance claims from Strickland v. 
  0.067  
 
 		-----
-	 outer Subject : Court 	,	inner Subject : Lee counsel 
+	 outer Subject : Court 	,	inner Subject : Lee 's counsel 
 resolved as : (--, --)
 
 On appeal, the Government conceded that the performance of Lee's attorney had been deficient.
@@ -949,7 +949,7 @@ To demonstrate that counsel was constitutionally ineffective, a defendant must s
  0.050  
 
 		-----
-	 outer Subject : defendant 	,	inner Subject : counsel representation 
+	 outer Subject : defendant 	,	inner Subject : counsel 's representation 
 resolved as : (--, --)
 
 The first requirement is not at issue in today's case: The Government concedes that Lee's plea-stage counsel provided inadequate representation when he assured Lee that he would not be deported if he pleaded guilty.
@@ -975,7 +975,7 @@ The first requirement is not at issue in today's case: The Government concedes t
  0.067  
 
 		-----
-	 outer Subject : Government 	,	inner Subject : plea-stage Lee counsel 
+	 outer Subject : Government 	,	inner Subject : plea-stage Lee 's counsel 
 resolved as : (--, Lee;Lee 's;)
 
 As we held in Hill v. Lockhart, when a defendant claims that his counsel's deficient performance deprived him of a trial by causing him to accept a plea, the defendant can show prejudice by demonstrating a "reasonable probability that, but for counsel's errors, he would not have pleaded guilty and would have insisted on going to trial."
@@ -1001,7 +1001,7 @@ As we held in Hill v. Lockhart, when a defendant claims that his counsel's defic
  0.038  
 
 		-----
-	 outer Subject : defendant 	,	inner Subject : deficient counsel performance 
+	 outer Subject : defendant 	,	inner Subject : deficient counsel 's performance 
 resolved as : (--, --)
 
 The dissent contends that a defendant must also show that he would have been better off going to trial.
@@ -1780,7 +1780,7 @@ The Hill Court went on to explain that Strickland's two-part test applies the sa
  0.044  
 
 		-----
-	 outer Subject : Court 	,	inner Subject : two-part Strickland test 
+	 outer Subject : Court 	,	inner Subject : two-part Strickland 's test 
 resolved as : (--, --)
 
 In Premo v. Moore, 562 U. S. 115 (2011), the Court emphasized that "strict adherence to the Strickland standard" is "essential" when reviewing claims about attorney error "at the plea bargain stage."
@@ -2247,7 +2247,7 @@ The Court observed that the lawyer's failure to file the notice of appeal "argua
  0.105  
 
 		-----
-	 outer Subject : Court 	,	inner Subject : lawyer failure 
+	 outer Subject : Court 	,	inner Subject : lawyer 's failure 
 resolved as : (--, --)
 
 The Court today observes that petitioner's guilty plea meant that he did not go to trial.
@@ -2273,7 +2273,7 @@ The Court today observes that petitioner's guilty plea meant that he did not go 
  0.064  
 
 		-----
-	 outer Subject : Court 	,	inner Subject : guilty petitioner plea 
+	 outer Subject : Court 	,	inner Subject : guilty petitioner 's plea 
 resolved as : (--, --)
 The Court today observes that petitioner's guilty plea meant that he did not go to trial.
 	innerSentence :  he did not go to trial.
@@ -2287,18 +2287,18 @@ The Court today observes that petitioner's guilty plea meant that he did not go 
  0.009  
 
 		-----
-	outerSentence : guilty petitioner plea meant something.
-		coremap sentence : guilty petitioner plea meant something.
+	outerSentence : guilty petitioner 's plea meant something.
+		coremap sentence : guilty petitioner 's plea meant something.
 		sentiment : Neutral
 		matrixType = dense , numRows = 5 , numCols = 1
- 0.031  
- 0.314  
- 0.594  
- 0.053  
- 0.007  
+ 0.008  
+ 0.095  
+ 0.849  
+ 0.045  
+ 0.003  
 
 		-----
-	 outer Subject : guilty petitioner plea 	,	inner Subject : he 
+	 outer Subject : guilty petitioner 's plea 	,	inner Subject : he 
 resolved as : (--, --)
 
 After explaining that a court should engage in a predictive inquiry about the likelihood of a defendant securing a better result at trial, the Court said: "As we explained in Strickland v. Washington, supra, these predictions of the outcome at a possible trial, where necessary, should be made objectively, without regard for the 'idiosyncrasies of the particular decisionmaker.' "
@@ -2925,7 +2925,7 @@ Several courts have noted that a judge's warnings at a plea colloquy may undermi
  0.020  
 
 		-----
-	 outer Subject : Several courts 	,	inner Subject : judge warnings 
+	 outer Subject : Several courts 	,	inner Subject : judge 's warnings 
 resolved as : (--, --)
 
 * It is not enough for a defendant to show that he would have obtained a better plea agreement. "

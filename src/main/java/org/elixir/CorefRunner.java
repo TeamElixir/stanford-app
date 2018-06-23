@@ -32,6 +32,14 @@ public class CorefRunner {
         } catch (FileNotFoundException e) {
             System.out.println("SentimentCostAndGradientInputFile is not recognized");
         }
+
+        Properties props = new Properties();
+        props.setProperty("annotators", "tokenize,ssplit,pos,lemma,parse,natlog,depparse");
+        StanfordCoreNLP pipeline = new StanfordCoreNLP(props);
+
+        Properties propsSentiment = new Properties();
+        propsSentiment.setProperty("annotators","tokenize,ssplit,tokenize,pos,lemma,parse,natlog,sentiment");
+        StanfordCoreNLP sentimentPipeline = new StanfordCoreNLP(propsSentiment);
         int caseNumber = 11;
         Case aCase = CasesController.getCaseByNumber(caseNumber);
         System.out.println("Case: " + caseNumber);
@@ -77,7 +85,7 @@ public class CorefRunner {
                 if(!ThatSentenceIdentifier.checkVerbThatStructure(currentSentence)){
                     continue;
                 }
-                Party_Extraction_Main.outputPartyExtraction(i+1,currentSentence,caseName,ccmList,br, br2, br3);
+                Party_Extraction_Main.outputPartyExtraction(pipeline, sentimentPipeline,i+1,currentSentence,caseName,ccmList,br, br2, br3);
             }
 
             System.out.println();

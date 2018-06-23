@@ -203,16 +203,23 @@ public class CoreNLPDepParser {
         return null;
     }
 
+
     public static String findSubjectContext(Annotation ann, IndexedWord subject){
         ArrayList<IndexedWord> arrayList = new ArrayList<>();
 
-        String[] depRelations = {"amod", "nmod:poss", "pos"};
-        String[] govRelations = {"nmod:poss","amod", "pos"};
+        String[] depRelations = {"amod", "nmod:poss"};
+        String[] govRelations = {"nmod:poss","amod"};
 
         for(String i : depRelations){
             IndexedWord temp = findRelatedDepWordForGivenWord(ann, i, subject);
             if(temp != null){
                 arrayList.add(temp);
+            }
+            if(i.equals("nmod:poss")){
+                IndexedWord tempPoss = findRelatedDepWordForGivenWord(ann, "case", temp);
+                if(tempPoss != null){
+                    arrayList.add(tempPoss);
+                }
             }
         }
 
@@ -220,6 +227,12 @@ public class CoreNLPDepParser {
             IndexedWord temp = findRelatedGovWordForGivenWord(ann, j, subject);
             if(temp != null){
                 arrayList.add(temp);
+            }
+            if(j.equals("nmod:poss")){
+                IndexedWord tempPoss = findRelatedDepWordForGivenWord(ann, "case", temp);
+                if(tempPoss != null){
+                    arrayList.add(tempPoss);
+                }
             }
         }
         arrayList.add(subject);
