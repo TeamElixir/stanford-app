@@ -1,10 +1,14 @@
 package org.elixir.nodeStructure.models;
 
+import java.util.ArrayList;
+
 public class Node implements Comparable<Node> {
     private String name;
+    private ArrayList<String> corefs;
 
     public Node(String name) {
         this.name = name;
+        this.corefs = new ArrayList<>();
     }
 
     @Override
@@ -12,6 +16,14 @@ public class Node implements Comparable<Node> {
         return "Node{" +
                 "name='" + name + '\'' +
                 '}';
+    }
+
+    public void setCorefs(ArrayList<String> corefs) {
+        this.corefs = corefs;
+    }
+
+    public ArrayList<String> getCorefs() {
+        return corefs;
     }
 
     public String getName() {

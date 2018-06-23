@@ -32,7 +32,6 @@ public class Main {
             }
         }
 
-
         int count = 0;
         for (int i = 0; i < allEdges.size(); i++) {
             if (allEdges.get(i) != null) {
@@ -40,14 +39,27 @@ public class Main {
             }
         }
 
-        System.out.println("After removing duplicates: " + count);
+        System.out.println("Size after removing duplicates: " + count);
         System.out.println();
 
         for (Edge e : allEdges) {
-            if(e != null) {
+            if (e != null) {
                 System.out.println(e);
+                ArrayList<String> corefs = e.getNodeOne().getCorefs();
+                for (String coref : corefs) {
+                    System.out.println(coref);
+                }
             }
         }
 
+    }
+
+    private static void printEdgesForPythonGraph(ArrayList<Edge> edges) {
+        for (Edge e : edges) {
+            if (e != null) {
+                System.out.println("G.add_edge(\"" + e.getNodeOne().getName() + "\", \""
+                        + e.getNodeTwo().getName() + "\", weight=" + e.getCount() + ")");
+            }
+        }
     }
 }

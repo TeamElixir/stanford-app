@@ -8,6 +8,7 @@ import java.io.File;
 import java.io.FileReader;
 import java.io.IOException;
 import java.util.ArrayList;
+import java.util.Arrays;
 
 public class Utils {
     public static void main(String[] args) {
@@ -26,12 +27,22 @@ public class Utils {
             br = new BufferedReader(fr);
             String line = br.readLine();
             while (line != null) {
-                String wholeString = line.substring(0, line.indexOf("("));
-                String[] splits = wholeString.split(":");
-                String one = splits[0].trim();
-                String two = splits[1].trim();
+                String twoParties = line.substring(0, line.indexOf("("));
+                String allCoref = line.substring(line.indexOf("("), line.indexOf(")"));
 
-                Edge e = new Edge(0, new Node(one), new Node(two));
+                String[] partySplits = twoParties.split(":");
+                String one = partySplits[0].trim();
+                String two = partySplits[1].trim();
+                Node n1 = new Node(one);
+                Node n2 = new Node(two);
+
+                String[] corefSplits = allCoref.split(":");
+                ArrayList<String> oneCorefs = new ArrayList<>(Arrays.asList(corefSplits[0].trim().split(";")));
+                ArrayList<String> twoCorefs = new ArrayList<>(Arrays.asList(corefSplits[1].trim().split(";")));
+                n1.setCorefs(oneCorefs);
+                n2.setCorefs(twoCorefs);
+
+                Edge e = new Edge(0, n1, n2);
                 edges.add(e);
 
                 line = br.readLine();
