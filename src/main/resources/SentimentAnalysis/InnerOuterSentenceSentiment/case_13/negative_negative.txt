@@ -1,0 +1,5 @@
+jurists  : Tharpe 	 (-- : Tharpe;)
+Pena-Rodriguez  : reasonable jurist 	 (Pena-Rodriguez; : --)
+Court  : reasonable jurist 	 (-- : --)
+Court 's deference  : none-outerSubject	 (-- : --)
+court 's decision  : reasonable jurist 	 (-- : --)

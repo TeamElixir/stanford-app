@@ -1,0 +1,3335 @@
+Ake v. Oklahoma, 470 U. S. 68, 83, clearly established that when an indigent "defendant demonstrates . . . that his sanity at the time of the offense is to be a significant fact at trial, the State must" provide the defendant with "access to a competent psychiatrist who will conduct an appropriate examination and assist in evaluation, preparation, and presentation of the defense."
+	innerSentence :  the State must" provide the defendant with "access to a competent psychiatrist
+		coremap sentence : the State must" provide the defendant with "access to a competent psychiatrist
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.029  
+ 0.244  
+ 0.555  
+ 0.156  
+ 0.016  
+
+		-----
+	outerSentence : Ake established something.
+		coremap sentence : Ake established something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.018  
+ 0.080  
+ 0.460  
+ 0.380  
+ 0.062  
+
+		-----
+	 outer Subject : Ake 	,	inner Subject : State 
+resolved as : (--, --)
+
+The court granted the motion and the State convened a commission, which concluded that McWilliams was competent to stand trial and had not been suffering from mental illness at the time of the alleged offense.
+	innerSentence :  McWilliams was competent to stand trial and had not been suffering from mental illness at the time of the alleged offense.
+		coremap sentence : McWilliams was competent to stand trial and had not been suffering from mental illness at the time of the alleged offense.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.076  
+ 0.310  
+ 0.386  
+ 0.179  
+ 0.049  
+
+		-----
+	outerSentence : which concluded something.
+		coremap sentence : which concluded something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.017  
+ 0.099  
+ 0.632  
+ 0.226  
+ 0.026  
+
+		-----
+	 outer Subject : which 	,	inner Subject : McWilliams 
+resolved as : (--, McWilliams;McWilliams ';McWilliams of capital murder;petitioner McWilliams with rape and murder;)
+
+He concluded that McWilliams was likely exaggerating his symptoms, but nonetheless appeared to have some genuine neuropsychological problems.
+	innerSentence :  McWilliams was likely exaggerating his symptoms
+		coremap sentence : McWilliams was likely exaggerating his symptoms
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.042  
+ 0.336  
+ 0.535  
+ 0.073  
+ 0.014  
+
+		-----
+	outerSentence : He concluded something.
+		coremap sentence : He concluded something.
+		sentiment : Positive
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.017  
+ 0.080  
+ 0.239  
+ 0.601  
+ 0.064  
+
+		-----
+	 outer Subject : He 	,	inner Subject : McWilliams 
+resolved as : (Dr. Goff;, McWilliams;McWilliams ';McWilliams of capital murder;petitioner McWilliams with rape and murder;)
+
+On appeal, McWilliams argued that the trial court denied him the right to meaningful expert assistance guarantee by Ake.
+	innerSentence :  the trial court denied him the right to meaningful expert assistance guarantee by Ake.
+		coremap sentence : the trial court denied him the right to meaningful expert assistance guarantee by Ake.
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.149  
+ 0.586  
+ 0.168  
+ 0.067  
+ 0.030  
+
+		-----
+	outerSentence : McWilliams argued something.
+		coremap sentence : McWilliams argued something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.018  
+ 0.079  
+ 0.519  
+ 0.338  
+ 0.047  
+
+		-----
+	 outer Subject : McWilliams 	,	inner Subject : court 
+resolved as : (McWilliams;McWilliams ';, --)
+
+The Alabama Court of Criminal Appeals affirmed McWilliams' conviction and sentence, holding that Dr. Goff's examination satisfied Ake's requirements.
+	innerSentence :  Dr. Goff's examination satisfied Ake's requirements.
+		coremap sentence : Dr. Goff's examination satisfied Ake's requirements.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.023  
+ 0.131  
+ 0.461  
+ 0.345  
+ 0.040  
+
+		-----
+	outerSentence : Court holding something.
+		coremap sentence : Court holding something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.023  
+ 0.134  
+ 0.592  
+ 0.223  
+ 0.028  
+
+		-----
+	 outer Subject : Court 	,	inner Subject : Goff 's examination 
+resolved as : (--, --)
+
+
+Ake clearly established that when certain threshold criteria are met, the state must provide a defendant with access to a mental health expert who is sufficiently available to the defense and independent from the prosecution to effectively "conduct an appropriate examination and assist in evaluation, preparation, and presentation of the defense."
+	innerSentence :  the state must provide a defendant with access to a mental health expert
+		coremap sentence : the state must provide a defendant with access to a mental health expert
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.028  
+ 0.371  
+ 0.543  
+ 0.051  
+ 0.006  
+
+		-----
+	outerSentence : Ake established something.
+		coremap sentence : Ake established something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.018  
+ 0.080  
+ 0.460  
+ 0.380  
+ 0.062  
+
+		-----
+	 outer Subject : Ake 	,	inner Subject : state 
+resolved as : (Ake;, --)
+
+Even if the episodic help of an outside volunteer could satisfy Ake, the State does not refer to any specific record facts that indicate that the volunteer psychologist was available to the defense at the judicial sentencing proceeding.
+	innerSentence :  the volunteer psychologist was available to the defense at the judicial sentencing proceeding.
+		coremap sentence : the volunteer psychologist was available to the defense at the judicial sentencing proceeding.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.050  
+ 0.376  
+ 0.425  
+ 0.128  
+ 0.021  
+
+		-----
+	outerSentence : that indicate something.
+		coremap sentence : that indicate something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.006  
+ 0.035  
+ 0.754  
+ 0.193  
+ 0.012  
+
+		-----
+	 outer Subject : that 	,	inner Subject : psychologist 
+resolved as : (--, --)
+
+Third, contrary to Alabama's suggestion, the record indicates that McWilliams did not get all the mental health assistance that he requested.
+	innerSentence :  McWilliams did not get all the mental health assistance that he requested.
+		coremap sentence : McWilliams did not get all the mental health assistance that he requested.
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.073  
+ 0.453  
+ 0.394  
+ 0.064  
+ 0.016  
+
+		-----
+	outerSentence : record indicates something.
+		coremap sentence : record indicates something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.019  
+ 0.110  
+ 0.644  
+ 0.204  
+ 0.023  
+
+		-----
+	 outer Subject : record 	,	inner Subject : McWilliams 
+resolved as : (--, McWilliams;)
+
+It requires that the State provide the defense with "access to a competent psychiatrist who will conduct an appropriate [1] examination and assist in [2] evaluation, [3] preparation, and [4] presentation of the defense."
+	innerSentence :  the State provide the defense with "access to a competent psychiatrist
+		coremap sentence : the State provide the defense with "access to a competent psychiatrist
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.012  
+ 0.082  
+ 0.543  
+ 0.343  
+ 0.020  
+
+		-----
+	outerSentence : It requires something.
+		coremap sentence : It requires something.
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.092  
+ 0.440  
+ 0.327  
+ 0.113  
+ 0.028  
+
+		-----
+	 outer Subject : It 	,	inner Subject : State 
+resolved as : (--, --)
+
+Even assuming that Alabama met the examination requirement, it did not meet any of the other three.
+	innerSentence :  Alabama met the examination requirement
+		coremap sentence : Alabama met the examination requirement
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.018  
+ 0.099  
+ 0.539  
+ 0.303  
+ 0.041  
+
+		-----
+	outerSentence : it assuming something.
+		coremap sentence : it assuming something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.025  
+ 0.231  
+ 0.634  
+ 0.100  
+ 0.010  
+
+		-----
+	 outer Subject : it 	,	inner Subject : Alabama 
+resolved as : (Alabama;Alabama 's;, Alabama;Alabama 's;)
+
+No expert helped the defense prepare and present arguments that might, e.g., have explained that McWilliams' purported malingering was not necessarily inconsistent with mental illness.
+	innerSentence :  McWilliams' purported malingering was not necessarily inconsistent with mental illness.
+		coremap sentence : McWilliams' purported malingering was not necessarily inconsistent with mental illness.
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.127  
+ 0.610  
+ 0.224  
+ 0.028  
+ 0.012  
+
+		-----
+	outerSentence : that might explained something.
+		coremap sentence : that might explained something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.025  
+ 0.187  
+ 0.641  
+ 0.132  
+ 0.016  
+
+		-----
+	 outer Subject : that 	,	inner Subject : purported McWilliams ' malingering 
+resolved as : (--, --)
+
+McWilliams challenged his sentence on appeal, arguing that the State had failed to provide him with the expert mental health assistance the Constitution requires, but the Alabama courts refused to grant relief.
+	innerSentence :  the State had failed to provide him with the expert mental health assistance the Constitution requires
+		coremap sentence : the State had failed to provide him with the expert mental health assistance the Constitution requires
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.099  
+ 0.679  
+ 0.209  
+ 0.009  
+ 0.004  
+
+		-----
+	outerSentence : McWilliams arguing something.
+		coremap sentence : McWilliams arguing something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.005  
+ 0.028  
+ 0.578  
+ 0.367  
+ 0.021  
+
+		-----
+	 outer Subject : McWilliams 	,	inner Subject : State 
+resolved as : (McWilliams;, --)
+
+We hold that it was.
+	innerSentence :  it was.
+		coremap sentence : it was.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.011  
+ 0.089  
+ 0.702  
+ 0.187  
+ 0.012  
+
+		-----
+	outerSentence : We hold something.
+		coremap sentence : We hold something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.015  
+ 0.081  
+ 0.470  
+ 0.400  
+ 0.035  
+
+		-----
+	 outer Subject : We 	,	inner Subject : it 
+resolved as : (--, --)
+
+Our decision in Ake v. Oklahoma, 470 U. S. 68 (1985), clearly established that, when certain threshold criteria are met, the State must provide an indigent defendant with access to a mental health expert who is sufficiently available to the defense and independent from the prosecution to effectively "assist in evaluation, preparation, and presentation of the defense."
+	innerSentence :  the State must provide an indigent defendant with access to a mental health expert
+		coremap sentence : the State must provide an indigent defendant with access to a mental health expert
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.043  
+ 0.548  
+ 0.380  
+ 0.025  
+ 0.004  
+
+		-----
+	outerSentence : none-outerSubject established something.
+		coremap sentence : none-outerSubject established something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.014  
+ 0.068  
+ 0.496  
+ 0.380  
+ 0.042  
+
+		-----
+	 outer Subject : none-outerSubject	,	inner Subject : State 
+resolved as : (--, --)
+
+
+McWilliams and the State of Alabama agree that Ake (which this Court decided in February 1985) sets forth the applicable constitutional standards.
+	innerSentence :  Ake 
+		coremap sentence : Ake
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.029  
+ 0.144  
+ 0.631  
+ 0.154  
+ 0.043  
+
+		-----
+	outerSentence : McWilliams agree something.
+		coremap sentence : McWilliams agree something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.018  
+ 0.079  
+ 0.519  
+ 0.338  
+ 0.047  
+
+		-----
+	 outer Subject : McWilliams 	,	inner Subject : Ake 
+resolved as : (--, Ake;)
+
+The Court began by stating that the "issue in this case is whether the Constitution requires that an indigent defendant have access to the psychiatric examination and assistance necessary to prepare an effective defense based on his mental condition, when his sanity at the time of the offense is seriously in question."
+	innerSentence :  the "issue in this case is whether the Constitution requires that an indigent defendant have access to the psychiatric examination and assistance necessary to prepare an effective defense based on his mental condition
+		coremap sentence : the "issue in this case is whether the Constitution requires that an indigent defendant have access to the psychiatric examination and assistance necessary to prepare an effective defense based on his mental condition
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.096  
+ 0.689  
+ 0.201  
+ 0.011  
+ 0.003  
+
+		-----
+	outerSentence : Court stating something.
+		coremap sentence : Court stating something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.028  
+ 0.144  
+ 0.491  
+ 0.294  
+ 0.044  
+
+		-----
+	 outer Subject : Court 	,	inner Subject : issue 
+resolved as : (--, --)
+The Court began by stating that the "issue in this case is whether the Constitution requires that an indigent defendant have access to the psychiatric examination and assistance necessary to prepare an effective defense based on his mental condition, when his sanity at the time of the offense is seriously in question."
+	innerSentence :  an indigent defendant have access to the psychiatric examination and assistance necessary to prepare an effective defense based on his mental condition
+		coremap sentence : an indigent defendant have access to the psychiatric examination and assistance necessary to prepare an effective defense based on his mental condition
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.093  
+ 0.526  
+ 0.284  
+ 0.074  
+ 0.023  
+
+		-----
+	outerSentence : Constitution requires something.
+		coremap sentence : Constitution requires something.
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.092  
+ 0.459  
+ 0.278  
+ 0.131  
+ 0.040  
+
+		-----
+	 outer Subject : Constitution 	,	inner Subject : indigent defendant 
+resolved as : (--, --)
+
+
+The Court then wrote that "when the State has made the defendant's mental condition relevant to his criminal culpability and to the punishment he might suffer, the assistance of a psychiatrist may well be crucial to the defendant's ability to marshal his defense."
+	innerSentence :  the assistance of a psychiatrist may well be crucial to the defendant's ability to marshal his defense."
+		coremap sentence : the assistance of a psychiatrist may well be crucial to the defendant's ability to marshal his defense."
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.020  
+ 0.124  
+ 0.508  
+ 0.315  
+ 0.033  
+
+		-----
+	outerSentence : Court wrote something.
+		coremap sentence : Court wrote something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.030  
+ 0.172  
+ 0.505  
+ 0.253  
+ 0.039  
+
+		-----
+	 outer Subject : Court 	,	inner Subject : assistance 
+resolved as : (--, --)
+
+
+Our concern is that the indigent defendant have access to a competent psychiatrist for the[se] purpose[s]."
+	innerSentence :  the indigent defendant have access to a competent psychiatrist for the[se] purpose[s]."
+		coremap sentence : the indigent defendant have access to a competent psychiatrist for the[se] purpose[s]."
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.054  
+ 0.415  
+ 0.437  
+ 0.079  
+ 0.016  
+
+		-----
+	outerSentence : Our concern is something.
+		coremap sentence : Our concern is something.
+		sentiment : Positive
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.018  
+ 0.072  
+ 0.200  
+ 0.627  
+ 0.084  
+
+		-----
+	 outer Subject : Our concern 	,	inner Subject : indigent defendant 
+resolved as : (--, --)
+
+Ake thus clearly establishes that when its threshold criteria are met, a State must provide a mental health professional capable of performing a certain role: "conduct[ing] an appropriate examination and assist[ing] in evaluation, preparation, and presentation of the defense."
+	innerSentence :  a State must provide a mental health professional capable of performing a certain role
+		coremap sentence : a State must provide a mental health professional capable of performing a certain role
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.065  
+ 0.504  
+ 0.290  
+ 0.121  
+ 0.020  
+
+		-----
+	outerSentence : Ake establishes something.
+		coremap sentence : Ake establishes something.
+		sentiment : Positive
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.016  
+ 0.056  
+ 0.316  
+ 0.521  
+ 0.091  
+
+		-----
+	 outer Subject : Ake 	,	inner Subject : State 
+resolved as : (Ake;, --)
+
+The three members, all psychiatrists, concluded that McWilliams was competent to stand trial and that he had not been suffering from mental illness at the time of the alleged offense.
+	innerSentence :  McWilliams was competent to stand trial and that he had not been suffering from mental illness at the time of the alleged offense.
+		coremap sentence : McWilliams was competent to stand trial and that he had not been suffering from mental illness at the time of the alleged offense.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.085  
+ 0.325  
+ 0.353  
+ 0.182  
+ 0.055  
+
+		-----
+	outerSentence : members concluded something.
+		coremap sentence : members concluded something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.017  
+ 0.108  
+ 0.654  
+ 0.199  
+ 0.022  
+
+		-----
+	 outer Subject : members 	,	inner Subject : McWilliams 
+resolved as : (--, Dr. Nagi;McWilliams;McWilliams ';Mr. McWilliams;)
+
+One of them, Dr. Kamal Nagi, wrote that "Mr. McWilliams is grossly exaggerating his psychological symptoms to mimic mental illness."
+	innerSentence :  "Mr. McWilliams is grossly exaggerating his psychological symptoms to mimic mental illness."
+		coremap sentence : "Mr. McWilliams is grossly exaggerating his psychological symptoms to mimic mental illness."
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.131  
+ 0.702  
+ 0.145  
+ 0.016  
+ 0.006  
+
+		-----
+	outerSentence : One wrote something.
+		coremap sentence : One wrote something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.008  
+ 0.042  
+ 0.673  
+ 0.253  
+ 0.024  
+
+		-----
+	 outer Subject : One 	,	inner Subject : McWilliams 
+resolved as : (--, --)
+
+Dr. Nagi noted that McWilliams' performance on one of the tests "suggested that [McWilliams] had exaggerated his endorsement of symptoms of illness and the profile was considered a 'fake bad.' "
+	innerSentence :  McWilliams' performance on one of the tests "suggested that [McWilliams] had exaggerated his endorsement of symptoms of illness and the profile was considered a 'fake bad.' "
+		coremap sentence : McWilliams' performance on one of the tests "suggested that [McWilliams] had exaggerated his endorsement of symptoms of illness and the profile was considered a 'fake bad.' "
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.237  
+ 0.683  
+ 0.074  
+ 0.003  
+ 0.003  
+
+		-----
+	outerSentence : Nagi noted something.
+		coremap sentence : Nagi noted something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.036  
+ 0.166  
+ 0.391  
+ 0.340  
+ 0.067  
+
+		-----
+	 outer Subject : Nagi 	,	inner Subject : McWilliams ' performance 
+resolved as : (--, Dr. Nagi;McWilliams;McWilliams ';Mr. McWilliams;)
+Dr. Nagi noted that McWilliams' performance on one of the tests "suggested that [McWilliams] had exaggerated his endorsement of symptoms of illness and the profile was considered a 'fake bad.' "
+	innerSentence :  [McWilliams] had exaggerated his endorsement of symptoms of illness and the profile was considered a 'fake bad.' "
+		coremap sentence : [McWilliams] had exaggerated his endorsement of symptoms of illness and the profile was considered a 'fake bad.' "
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.305  
+ 0.638  
+ 0.052  
+ 0.002  
+ 0.003  
+
+		-----
+	outerSentence : McWilliams ' performance suggested something.
+		coremap sentence : McWilliams ' performance suggested something.
+		sentiment : Positive
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.008  
+ 0.027  
+ 0.333  
+ 0.560  
+ 0.073  
+
+		-----
+	 outer Subject : McWilliams ' performance 	,	inner Subject : none-innersubject
+resolved as : (Dr. Nagi;McWilliams;McWilliams ';Mr. McWilliams;, --)
+
+The prosecution reintroduced evidence from the guilt phase and called a police officer to testify that McWilliams had a prior conviction.
+	innerSentence :  McWilliams had a prior conviction.
+		coremap sentence : McWilliams had a prior conviction.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.022  
+ 0.172  
+ 0.700  
+ 0.093  
+ 0.013  
+
+		-----
+	outerSentence : none-outerSubject testify something.
+		coremap sentence : none-outerSubject testify something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.055  
+ 0.274  
+ 0.393  
+ 0.226  
+ 0.052  
+
+		-----
+	 outer Subject : none-outerSubject	,	inner Subject : McWilliams 
+resolved as : (--, McWilliams;McWilliams ';)
+
+
+McWilliams also described his history of psychiatric and psychological evaluations, reading from the prearrest report of one psychologist, who concluded that McWilliams had a "blatantly psychotic thought disorder" and needed inpatient treatment.
+	innerSentence :  McWilliams had a "blatantly psychotic thought disorder" and needed inpatient treatment.
+		coremap sentence : McWilliams had a "blatantly psychotic thought disorder" and needed inpatient treatment.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.034  
+ 0.168  
+ 0.472  
+ 0.281  
+ 0.045  
+
+		-----
+	outerSentence : who concluded something.
+		coremap sentence : who concluded something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.009  
+ 0.052  
+ 0.774  
+ 0.153  
+ 0.011  
+
+		-----
+	 outer Subject : who 	,	inner Subject : McWilliams 
+resolved as : (--, McWilliams;McWilliams ';)
+
+Dr. Nagi testified that he had found no evidence of psychosis, but did not appear to be aware of McWilliams' history of head trauma.
+	innerSentence :  he had found no evidence of psychosis
+		coremap sentence : he had found no evidence of psychosis
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.008  
+ 0.095  
+ 0.863  
+ 0.031  
+ 0.003  
+
+		-----
+	outerSentence : Nagi testified something.
+		coremap sentence : Nagi testified something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.036  
+ 0.166  
+ 0.391  
+ 0.340  
+ 0.067  
+
+		-----
+	 outer Subject : Nagi 	,	inner Subject : he 
+resolved as : (--, Dr. Kamal Nagi;Dr. Nagi;)
+
+Dr. Poythress testified that one of the tests that McWilliams took was "clinically invalid" because the test's "validity scales" indicated that McWilliams had exaggerated or faked his symptoms.
+	innerSentence :  one of the tests
+		coremap sentence : one of the tests
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.010  
+ 0.080  
+ 0.697  
+ 0.197  
+ 0.016  
+
+		-----
+	outerSentence : Poythress testified something.
+		coremap sentence : Poythress testified something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.036  
+ 0.166  
+ 0.391  
+ 0.340  
+ 0.067  
+
+		-----
+	 outer Subject : Poythress 	,	inner Subject : one 
+resolved as : (--, --)
+Dr. Poythress testified that one of the tests that McWilliams took was "clinically invalid" because the test's "validity scales" indicated that McWilliams had exaggerated or faked his symptoms.
+	innerSentence :  McWilliams had exaggerated or faked his symptoms.
+		coremap sentence : McWilliams had exaggerated or faked his symptoms.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.025  
+ 0.190  
+ 0.677  
+ 0.094  
+ 0.013  
+
+		-----
+	outerSentence : test 's scales indicated something.
+		coremap sentence : test 's scales indicated something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.019  
+ 0.120  
+ 0.578  
+ 0.259  
+ 0.024  
+
+		-----
+	 outer Subject : test 's scales 	,	inner Subject : McWilliams 
+resolved as : (--, McWilliams;)
+
+The report concluded that McWilliams presented "some diagnostic dilemmas."
+	innerSentence :  McWilliams presented "some diagnostic dilemmas."
+		coremap sentence : McWilliams presented "some diagnostic dilemmas."
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.091  
+ 0.499  
+ 0.341  
+ 0.052  
+ 0.017  
+
+		-----
+	outerSentence : report concluded something.
+		coremap sentence : report concluded something.
+		sentiment : Positive
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.033  
+ 0.113  
+ 0.251  
+ 0.510  
+ 0.093  
+
+		-----
+	 outer Subject : report 	,	inner Subject : McWilliams 
+resolved as : (--, McWilliams;McWilliams ';)
+
+The report added that McWilliams' "obvious neuropsychological deficit" could be related to his "low frustration tolerance and impulsivity," and suggested a diagnosis of "organic personality syndrome."
+	innerSentence :  McWilliams' "obvious neuropsychological deficit" could be related to his "low frustration tolerance and impulsivity
+		coremap sentence : McWilliams' "obvious neuropsychological deficit" could be related to his "low frustration tolerance and impulsivity
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.276  
+ 0.499  
+ 0.170  
+ 0.031  
+ 0.024  
+
+		-----
+	outerSentence : report added something.
+		coremap sentence : report added something.
+		sentiment : Positive
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.011  
+ 0.029  
+ 0.107  
+ 0.716  
+ 0.136  
+
+		-----
+	 outer Subject : report 	,	inner Subject : obvious McWilliams ' deficit 
+resolved as : (--, --)
+
+The prison records indicated that McWilliams was taking an assortment of psychotropic medications including Desyrel, Librium, and an antipsychotic, Mellaril.
+	innerSentence :  McWilliams was taking an assortment of psychotropic medications including Desyrel
+		coremap sentence : McWilliams was taking an assortment of psychotropic medications including Desyrel
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.070  
+ 0.471  
+ 0.368  
+ 0.072  
+ 0.018  
+
+		-----
+	outerSentence : records indicated something.
+		coremap sentence : records indicated something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.005  
+ 0.025  
+ 0.604  
+ 0.335  
+ 0.031  
+
+		-----
+	 outer Subject : records 	,	inner Subject : McWilliams 
+resolved as : (--, --)
+
+
+Defense counsel protested that "there is no way that I can go through this material," but the judge immediately added, "Well, I will give you the opportunity. . . .
+	innerSentence :  "there is no way that I can go through this material
+		coremap sentence : "there is no way that I can go through this material
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.105  
+ 0.727  
+ 0.127  
+ 0.032  
+ 0.009  
+
+		-----
+	outerSentence : counsel protested something.
+		coremap sentence : counsel protested something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.036  
+ 0.166  
+ 0.391  
+ 0.340  
+ 0.067  
+
+		-----
+	 outer Subject : counsel 	,	inner Subject : way 
+resolved as : (--, --)
+
+He said that "the abritrary [sic] position taken by this Court regarding the Defendant's right to present mitigating circumstances is unconscionable resulting in this proceeding being a mockery."
+	innerSentence :  "the abritrary [sic] position taken by this Court regarding the Defendant's right to present mitigating circumstances is unconscionable resulting in this proceeding being a mockery."
+		coremap sentence : "the abritrary [sic] position taken by this Court regarding the Defendant's right to present mitigating circumstances is unconscionable resulting in this proceeding being a mockery."
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.221  
+ 0.679  
+ 0.080  
+ 0.012  
+ 0.008  
+
+		-----
+	outerSentence : He said something.
+		coremap sentence : He said something.
+		sentiment : Positive
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.011  
+ 0.065  
+ 0.302  
+ 0.586  
+ 0.037  
+
+		-----
+	 outer Subject : He 	,	inner Subject : abritrary position 
+resolved as : (defense counsel;, --)
+
+He added that "further participation would be tantamount to exceptance [sic] of the Court's ruling."
+	innerSentence :  "further participation would be tantamount to exceptance [sic] of the Court's ruling."
+		coremap sentence : "further participation would be tantamount to exceptance [sic] of the Court's ruling."
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.040  
+ 0.406  
+ 0.510  
+ 0.038  
+ 0.007  
+
+		-----
+	outerSentence : He added something.
+		coremap sentence : He added something.
+		sentiment : Positive
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.005  
+ 0.015  
+ 0.095  
+ 0.801  
+ 0.084  
+
+		-----
+	 outer Subject : He 	,	inner Subject : further participation 
+resolved as : (defense counsel;, --)
+
+We believe that he has the type of diagnosed illness that we pointed out earlier for The Court and have mentioned for The Court.
+	innerSentence :  he has the type of diagnosed illness that we pointed out earlier for The Court and have mentioned for The Court.
+		coremap sentence : he has the type of diagnosed illness that we pointed out earlier for The Court and have mentioned for The Court.
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.129  
+ 0.560  
+ 0.241  
+ 0.049  
+ 0.021  
+
+		-----
+	outerSentence : We believe something.
+		coremap sentence : We believe something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.024  
+ 0.163  
+ 0.506  
+ 0.282  
+ 0.026  
+
+		-----
+	 outer Subject : We 	,	inner Subject : he 
+resolved as : (Taylor Hardin, and the Lunacy Commission, and at Holman;the Lunacy Commission;, the Defendant;)
+
+The prosecutor then offered his closing statement, in which he argued that there were "no mitigating circumstances."
+	innerSentence :  there were "no mitigating circumstances."
+		coremap sentence : there were "no mitigating circumstances."
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.101  
+ 0.568  
+ 0.298  
+ 0.024  
+ 0.009  
+
+		-----
+	outerSentence : he argued something.
+		coremap sentence : he argued something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.014  
+ 0.062  
+ 0.589  
+ 0.300  
+ 0.036  
+
+		-----
+	 outer Subject : he 	,	inner Subject : mitigating circumstances 
+resolved as : (The prosecutor;the prosecutor 's;, --)
+
+Defense counsel replied that he "would be pleased to respond to [the prosecutor's] remarks that there are no mitigating circumstances in this case if I were able to have time to produce . . . any mitigating circumstances."
+	innerSentence :  he "would be pleased to respond to [the prosecutor's] remarks that there are no mitigating circumstances in this case if I were able to have time to produce . . . any mitigating circumstances."
+		coremap sentence : he "would be pleased to respond to [the prosecutor's] remarks that there are no mitigating circumstances in this case if I were able to have time to produce . . . any mitigating circumstances."
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.062  
+ 0.460  
+ 0.451  
+ 0.021  
+ 0.006  
+
+		-----
+	outerSentence : counsel replied something.
+		coremap sentence : counsel replied something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.036  
+ 0.166  
+ 0.391  
+ 0.340  
+ 0.067  
+
+		-----
+	 outer Subject : counsel 	,	inner Subject : he 
+resolved as : (--, The prosecutor;the prosecutor 's;)
+Defense counsel replied that he "would be pleased to respond to [the prosecutor's] remarks that there are no mitigating circumstances in this case if I were able to have time to produce . . . any mitigating circumstances."
+	innerSentence :  there are no mitigating circumstances in this case if I were able to have time to produce . . . any mitigating circumstances."
+		coremap sentence : there are no mitigating circumstances in this case if I were able to have time to produce . . . any mitigating circumstances."
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.191  
+ 0.653  
+ 0.147  
+ 0.005  
+ 0.005  
+
+		-----
+	outerSentence : he remarks something.
+		coremap sentence : he remarks something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.015  
+ 0.069  
+ 0.567  
+ 0.310  
+ 0.039  
+
+		-----
+	 outer Subject : he 	,	inner Subject : mitigating circumstances 
+resolved as : (The prosecutor;the prosecutor 's;, --)
+
+The trial judge then said that he had reviewed the records himself and found evidence that McWilliams was faking and manipulative.
+	innerSentence :  he had reviewed the records himself and found evidence that McWilliams was faking and manipulative.
+		coremap sentence : he had reviewed the records himself and found evidence that McWilliams was faking and manipulative.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.061  
+ 0.421  
+ 0.460  
+ 0.046  
+ 0.011  
+
+		-----
+	outerSentence : judge said something.
+		coremap sentence : judge said something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.008  
+ 0.057  
+ 0.833  
+ 0.093  
+ 0.008  
+
+		-----
+	 outer Subject : judge 	,	inner Subject : he 
+resolved as : (--, The trial judge;)
+
+
+
+
+It found that McWilliams "was not and is not psychotic," and that "the preponderance of the evidence from these tests and reports show [McWilliams] to be feigning, faking, and manipulative."
+	innerSentence : " and that "the preponderance of the evidence from these tests and reports show [McWilliams] to be feigning
+		coremap sentence : " and that "the preponderance of the evidence from these tests and reports show [McWilliams] to be feigning
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.037  
+ 0.367  
+ 0.443  
+ 0.137  
+ 0.016  
+
+		-----
+	outerSentence : It found something.
+		coremap sentence : It found something.
+		sentiment : Positive
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.006  
+ 0.017  
+ 0.306  
+ 0.615  
+ 0.057  
+
+		-----
+	 outer Subject : It 	,	inner Subject : McWilliams 
+resolved as : (The court;, McWilliams;McWilliams ';)
+
+The court wrote that even if McWilliams' mental health issues "did rise to the level of a mitigating circumstance, the aggravating circumstances would far outweigh this as a mitigating circumstance."
+	innerSentence :  the aggravating circumstances would far outweigh this as a mitigating circumstance."
+		coremap sentence : the aggravating circumstances would far outweigh this as a mitigating circumstance."
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.135  
+ 0.561  
+ 0.264  
+ 0.026  
+ 0.013  
+
+		-----
+	outerSentence : court wrote something.
+		coremap sentence : court wrote something.
+		sentiment : Positive
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.024  
+ 0.187  
+ 0.339  
+ 0.415  
+ 0.034  
+
+		-----
+	 outer Subject : court 	,	inner Subject : aggravating circumstances 
+resolved as : (--, --)
+
+McWilliams appealed, arguing that the trial court had denied him the right to meaningful expert assistance guaranteed by Ake.
+	innerSentence :  the trial court had denied him the right to meaningful expert assistance guaranteed by Ake.
+		coremap sentence : the trial court had denied him the right to meaningful expert assistance guaranteed by Ake.
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.068  
+ 0.518  
+ 0.366  
+ 0.039  
+ 0.008  
+
+		-----
+	outerSentence : McWilliams arguing something.
+		coremap sentence : McWilliams arguing something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.005  
+ 0.028  
+ 0.578  
+ 0.367  
+ 0.021  
+
+		-----
+	 outer Subject : McWilliams 	,	inner Subject : court 
+resolved as : (McWilliams;McWilliams ';McWilliams, 640 So;, --)
+
+It wrote that Ake's requirements "are met when the State provides the [defendant] with a competent psychiatrist."
+	innerSentence :  Ake's requirements "are met
+		coremap sentence : Ake's requirements "are met
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.028  
+ 0.188  
+ 0.511  
+ 0.243  
+ 0.029  
+
+		-----
+	outerSentence : It wrote something.
+		coremap sentence : It wrote something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.014  
+ 0.089  
+ 0.627  
+ 0.252  
+ 0.018  
+
+		-----
+	 outer Subject : It 	,	inner Subject : Ake 's requirements 
+resolved as : (The Alabama Court of Criminal Appeals;The appeals court;The court;the trial court;the trial court 's;, --)
+
+The court added that "[t]here is no indication in the record that [McWilliams] could not have called Dr. Goff as a witness to explain his findings or that he even tried to contact the psychiatrist to discuss his findings," ibid.; that "the trial court indicated that it would have considered a motion to present an expert to evaluate this report" had one been made, ibid.; and that there was "no prejudice by the trial court's denial of [McWilliams'] motion for continuance," id., at 993.
+	innerSentence :  "[t]here is no indication in the record
+		coremap sentence : "[t]here is no indication in the record
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.038  
+ 0.352  
+ 0.475  
+ 0.120  
+ 0.015  
+
+		-----
+	outerSentence : court added something.
+		coremap sentence : court added something.
+		sentiment : Positive
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.009  
+ 0.035  
+ 0.107  
+ 0.751  
+ 0.098  
+
+		-----
+	 outer Subject : court 	,	inner Subject : t 
+resolved as : (--, --)
+The court added that "[t]here is no indication in the record that [McWilliams] could not have called Dr. Goff as a witness to explain his findings or that he even tried to contact the psychiatrist to discuss his findings," ibid.; that "the trial court indicated that it would have considered a motion to present an expert to evaluate this report" had one been made, ibid.; and that there was "no prejudice by the trial court's denial of [McWilliams'] motion for continuance," id., at 993.
+	innerSentence :  it would have considered a motion to present an expert to evaluate this report" had one been made
+		coremap sentence : it would have considered a motion to present an expert to evaluate this report" had one been made
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.107  
+ 0.573  
+ 0.278  
+ 0.033  
+ 0.009  
+
+		-----
+	outerSentence : court indicated something.
+		coremap sentence : court indicated something.
+		sentiment : Positive
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.014  
+ 0.069  
+ 0.201  
+ 0.650  
+ 0.065  
+
+		-----
+	 outer Subject : court 	,	inner Subject : it 
+resolved as : (--, The Alabama Court of Criminal Appeals;The appeals court;The court;the trial court;the trial court 's;)
+
+He wrote that McWilliams had "received the assistance required by Ake" because Dr. Goff "completed the testing" that McWilliams requested.
+	innerSentence :  McWilliams had "received the assistance required by Ake" because Dr. Goff "completed the testing"
+		coremap sentence : McWilliams had "received the assistance required by Ake" because Dr. Goff "completed the testing"
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.075  
+ 0.473  
+ 0.368  
+ 0.068  
+ 0.017  
+
+		-----
+	outerSentence : He wrote something.
+		coremap sentence : He wrote something.
+		sentiment : Positive
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.013  
+ 0.090  
+ 0.369  
+ 0.496  
+ 0.031  
+
+		-----
+	 outer Subject : He 	,	inner Subject : McWilliams 
+resolved as : (Ake;McWilliams;, Ake;McWilliams;)
+
+First, no one denies that the conditions that trigger application of Ake are present.
+	innerSentence :  the conditions
+		coremap sentence : the conditions
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.003  
+ 0.021  
+ 0.923  
+ 0.049  
+ 0.004  
+
+		-----
+	outerSentence : one denies something.
+		coremap sentence : one denies something.
+		sentiment : Positive
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.019  
+ 0.069  
+ 0.346  
+ 0.472  
+ 0.094  
+
+		-----
+	 outer Subject : one 	,	inner Subject : conditions 
+resolved as : (--, --)
+
+
+Alabama does not refer to any specific record facts that indicate that she was available to the defense at this time.
+	innerSentence :  she was available to the defense at this time.
+		coremap sentence : she was available to the defense at this time.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.017  
+ 0.110  
+ 0.580  
+ 0.269  
+ 0.024  
+
+		-----
+	outerSentence : that indicate something.
+		coremap sentence : that indicate something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.006  
+ 0.035  
+ 0.754  
+ 0.193  
+ 0.012  
+
+		-----
+	 outer Subject : that 	,	inner Subject : she 
+resolved as : (--, --)
+
+Third, Alabama argues that Ake's requirements are irrelevant because McWilliams "never asked for more expert assistance" than he got, "even though the trial court gave him the opportunity to do so."
+	innerSentence :  Ake's requirements are irrelevant because McWilliams "never asked for more expert assistance" than he got
+		coremap sentence : Ake's requirements are irrelevant because McWilliams "never asked for more expert assistance" than he got
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.078  
+ 0.548  
+ 0.295  
+ 0.063  
+ 0.016  
+
+		-----
+	outerSentence : Alabama argues something.
+		coremap sentence : Alabama argues something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.011  
+ 0.055  
+ 0.754  
+ 0.157  
+ 0.023  
+
+		-----
+	 outer Subject : Alabama 	,	inner Subject : Ake 's requirements 
+resolved as : (--, --)
+
+Thus the record, in our view, indicates that McWilliams did request additional help from mental health experts.
+	innerSentence :  McWilliams did request additional help from mental health experts.
+		coremap sentence : McWilliams did request additional help from mental health experts.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.019  
+ 0.114  
+ 0.648  
+ 0.197  
+ 0.022  
+
+		-----
+	outerSentence : record indicates something.
+		coremap sentence : record indicates something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.019  
+ 0.110  
+ 0.644  
+ 0.204  
+ 0.023  
+
+		-----
+	 outer Subject : record 	,	inner Subject : McWilliams 
+resolved as : (--, McWilliams;)
+
+McWilliams would have us answer "yes" on the ground that Ake clearly established that a State must provide an indigent defendant with a qualified mental health expert retained specifically for the defense team, not a neutral expert available to both parties.
+	innerSentence :  a State must provide an indigent defendant with a qualified mental health expert retained specifically for the defense team
+		coremap sentence : a State must provide an indigent defendant with a qualified mental health expert retained specifically for the defense team
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.071  
+ 0.659  
+ 0.242  
+ 0.023  
+ 0.006  
+
+		-----
+	outerSentence : Ake established something.
+		coremap sentence : Ake established something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.018  
+ 0.080  
+ 0.460  
+ 0.380  
+ 0.062  
+
+		-----
+	 outer Subject : Ake 	,	inner Subject : State 
+resolved as : (Ake;, --)
+
+
+As discussed above, Ake clearly established that a defendant must receive the assistance of a mental health expert who is sufficiently available to the defense and independent from the prosecution to effectively "assist in evaluation, preparation, and presentation of the defense."
+	innerSentence :  a defendant must receive the assistance of a mental health expert
+		coremap sentence : a defendant must receive the assistance of a mental health expert
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.026  
+ 0.216  
+ 0.535  
+ 0.201  
+ 0.022  
+
+		-----
+	outerSentence : Ake established something.
+		coremap sentence : Ake established something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.018  
+ 0.080  
+ 0.460  
+ 0.380  
+ 0.062  
+
+		-----
+	 outer Subject : Ake 	,	inner Subject : defendant 
+resolved as : (Ake;Ake 's;, --)
+
+40 (respondent conceding that "this issue really has been mooted over the last 30-some-odd years because of statutory changes").
+	innerSentence :  "this issue really has been mooted over the last 30-some-odd years because of statutory changes").
+		coremap sentence : "this issue really has been mooted over the last 30-some-odd years because of statutory changes").
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.129  
+ 0.690  
+ 0.134  
+ 0.036  
+ 0.011  
+
+		-----
+	outerSentence : none-outerSubject conceding something.
+		coremap sentence : none-outerSubject conceding something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.036  
+ 0.166  
+ 0.391  
+ 0.340  
+ 0.067  
+
+		-----
+	 outer Subject : none-outerSubject	,	inner Subject : issue 
+resolved as : (--, --)
+
+We recognize that we granted petitioner's first question presented--which addressed whether Ake clearly established a right to an independent expert--and not his second, which raised more case-specific concerns.
+	innerSentence :  we granted petitioner's first question presented-
+		coremap sentence : we granted petitioner's first question presented-
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.012  
+ 0.120  
+ 0.830  
+ 0.034  
+ 0.004  
+
+		-----
+	outerSentence : We recognize something.
+		coremap sentence : We recognize something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.019  
+ 0.148  
+ 0.635  
+ 0.183  
+ 0.015  
+
+		-----
+	 outer Subject : We 	,	inner Subject : we 
+resolved as : (--, --)
+
+As we explain below, our determination that Ake clearly established that a defendant must receive the assistance of a mental health expert who is sufficiently available to the defense and independent from the prosecution to effectively "assist in evaluation, preparation, and presentation of the defense," 470 U. S., at 83, is sufficient to resolve the case.
+	innerSentence :  a defendant must receive the assistance of a mental health expert
+		coremap sentence : a defendant must receive the assistance of a mental health expert
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.026  
+ 0.216  
+ 0.535  
+ 0.201  
+ 0.022  
+
+		-----
+	outerSentence : Ake established something.
+		coremap sentence : Ake established something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.018  
+ 0.080  
+ 0.460  
+ 0.380  
+ 0.062  
+
+		-----
+	 outer Subject : Ake 	,	inner Subject : defendant 
+resolved as : (Ake;, --)
+
+In fact, the State devoted an entire section of its merits brief to explaining why it thought that "[n]o matter how the Court resolves the [independent expert] question, the court of appeals correctly denied the habeas petition."
+	innerSentence :  the court of appeals correctly denied the habeas petition."
+		coremap sentence : the court of appeals correctly denied the habeas petition."
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.089  
+ 0.584  
+ 0.227  
+ 0.081  
+ 0.018  
+
+		-----
+	outerSentence : it thought something.
+		coremap sentence : it thought something.
+		sentiment : Positive
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.004  
+ 0.018  
+ 0.394  
+ 0.557  
+ 0.027  
+
+		-----
+	 outer Subject : it 	,	inner Subject : court 
+resolved as : (the State;, --)
+
+The Alabama appeals court held that "the requirements of Ake v. Oklahoma . . . are met when the State provides the [defendant] with a competent psychiatrist.
+	innerSentence :  "the requirements of Ake v. Oklahoma . . . are met
+		coremap sentence : "the requirements of Ake v. Oklahoma . . . are met
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.051  
+ 0.429  
+ 0.374  
+ 0.127  
+ 0.019  
+
+		-----
+	outerSentence : court held something.
+		coremap sentence : court held something.
+		sentiment : Positive
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.010  
+ 0.044  
+ 0.180  
+ 0.699  
+ 0.067  
+
+		-----
+	 outer Subject : court 	,	inner Subject : requirements 
+resolved as : (--, --)
+
+We are willing to assume that Alabama met the examination portion of this requirement by providing for Dr. Goff's examination of McWilliams.
+	innerSentence :  Alabama met the examination portion of this requirement by providing for Dr. Goff's examination of McWilliams.
+		coremap sentence : Alabama met the examination portion of this requirement by providing for Dr. Goff's examination of McWilliams.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.082  
+ 0.310  
+ 0.443  
+ 0.120  
+ 0.046  
+
+		-----
+	outerSentence : We assume something.
+		coremap sentence : We assume something.
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.089  
+ 0.694  
+ 0.184  
+ 0.026  
+ 0.008  
+
+		-----
+	 outer Subject : We 	,	inner Subject : Alabama 
+resolved as : (--, --)
+
+Neither Dr. Goff nor any other expert helped the defense prepare and present arguments that might, for example, have explained that McWilliams' purported malingering was not necessarily inconsistent with mental illness (as an expert later testified in postconviction proceedings, see P. C. T. 936-943).
+	innerSentence :  McWilliams' purported malingering was not necessarily inconsistent with mental illness (as an expert later testified in postconviction proceedings
+		coremap sentence : McWilliams' purported malingering was not necessarily inconsistent with mental illness (as an expert later testified in postconviction proceedings
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.146  
+ 0.637  
+ 0.191  
+ 0.017  
+ 0.009  
+
+		-----
+	outerSentence : that might explained something.
+		coremap sentence : that might explained something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.025  
+ 0.187  
+ 0.641  
+ 0.132  
+ 0.016  
+
+		-----
+	 outer Subject : that 	,	inner Subject : purported McWilliams ' malingering 
+resolved as : (--, --)
+
+The dissent emphasizes that Dr. Goff was never ordered to do any of these things by the trial court.
+	innerSentence :  Dr. Goff was never ordered to do any of these things by the trial court.
+		coremap sentence : Dr. Goff was never ordered to do any of these things by the trial court.
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.072  
+ 0.562  
+ 0.304  
+ 0.050  
+ 0.012  
+
+		-----
+	outerSentence : dissent emphasizes something.
+		coremap sentence : dissent emphasizes something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.024  
+ 0.286  
+ 0.670  
+ 0.017  
+ 0.003  
+
+		-----
+	 outer Subject : dissent 	,	inner Subject : Goff 
+resolved as : (--, --)
+
+
+Since Alabama's provision of mental health assistance fell so dramatically short of what Ake requires, we must conclude that the Alabama court decision affirming McWilliams's conviction and sentence was "contrary to, or involved an unreasonable application of, clearly established Federal law."
+	innerSentence :  the Alabama court decision affirming McWilliams's conviction and sentence was "contrary to
+		coremap sentence : the Alabama court decision affirming McWilliams's conviction and sentence was "contrary to
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.030  
+ 0.299  
+ 0.515  
+ 0.140  
+ 0.016  
+
+		-----
+	outerSentence : we must conclude something.
+		coremap sentence : we must conclude something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.013  
+ 0.072  
+ 0.670  
+ 0.222  
+ 0.022  
+
+		-----
+	 outer Subject : we 	,	inner Subject : decision 
+resolved as : (--, --)
+
+There is reason to think that it could have.
+	innerSentence :  it could have.
+		coremap sentence : it could have.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.026  
+ 0.235  
+ 0.573  
+ 0.153  
+ 0.013  
+
+		-----
+	outerSentence : none-outerSubject think something.
+		coremap sentence : none-outerSubject think something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.010  
+ 0.064  
+ 0.730  
+ 0.180  
+ 0.014  
+
+		-----
+	 outer Subject : none-outerSubject	,	inner Subject : it 
+resolved as : (--, The Eleventh Circuit;the Eleventh Circuit;)
+
+If McWilliams had the assistance of an expert to explain that "[m]alingering is not inconsistent with serious mental illness," Brief for American Psychiatric Association et al. as Amici Curiae 20, he might have been able to alter the judge's perception of the case.
+	innerSentence :  "[m]alingering is not inconsistent with serious mental illness
+		coremap sentence : "[m]alingering is not inconsistent with serious mental illness
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.120  
+ 0.714  
+ 0.130  
+ 0.026  
+ 0.009  
+
+		-----
+	outerSentence : none-outerSubject explain something.
+		coremap sentence : none-outerSubject explain something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.017  
+ 0.082  
+ 0.540  
+ 0.317  
+ 0.044  
+
+		-----
+	 outer Subject : none-outerSubject	,	inner Subject : alingering 
+resolved as : (--, --)
+
+We granted review in this case to decide a straightforward legal question on which the lower courts are divided: whether our decision in Ake v. Oklahoma, 470 U. S. 68 (1985), clearly established that an indigent defendant whose mental health will be a significant factor at trial is entitled to the assistance of a psychiatric expert who is a member of the defense team instead of a neutral expert who is available to assist both the prosecution and the defense.1
+	innerSentence :  an indigent defendant
+		coremap sentence : an indigent defendant
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.035  
+ 0.202  
+ 0.513  
+ 0.215  
+ 0.036  
+
+		-----
+	outerSentence : none-outerSubject established something.
+		coremap sentence : none-outerSubject established something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.014  
+ 0.068  
+ 0.496  
+ 0.380  
+ 0.042  
+
+		-----
+	 outer Subject : none-outerSubject	,	inner Subject : indigent defendant 
+resolved as : (--, --)
+
+The answer to that question is plain: Ake did not clearly establish that a defendant is entitled to an expert who is a member of the defense team.
+	innerSentence :  a defendant is entitled to an expert
+		coremap sentence : a defendant is entitled to an expert
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.058  
+ 0.337  
+ 0.351  
+ 0.214  
+ 0.040  
+
+		-----
+	outerSentence : Ake did not establish something.
+		coremap sentence : Ake did not establish something.
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.086  
+ 0.455  
+ 0.294  
+ 0.129  
+ 0.036  
+
+		-----
+	 outer Subject : Ake 	,	inner Subject : defendant 
+resolved as : (Ake;, --)
+
+
+
+It requires habeas petitioners to "show that the state court's ruling on the claim . . . was so lacking in justification that there was an error well understood and comprehended in existing law beyond any possibility for fairminded disagreement."
+	innerSentence :  the state court's ruling on the claim . . . was so lacking in justification that there was an error well understood and comprehended in existing law beyond any possibility for fairminded disagreement."
+		coremap sentence : the state court's ruling on the claim . . . was so lacking in justification that there was an error well understood and comprehended in existing law beyond any possibility for fairminded disagreement."
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.281  
+ 0.524  
+ 0.178  
+ 0.009  
+ 0.009  
+
+		-----
+	outerSentence : It show something.
+		coremap sentence : It show something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.009  
+ 0.043  
+ 0.533  
+ 0.390  
+ 0.025  
+
+		-----
+	 outer Subject : It 	,	inner Subject : court 's ruling 
+resolved as : (--, --)
+
+In Ake, we held that a defendant must be provided "access to a competent psychiatrist" in two circumstances: first, "when [the] defendant demonstrates to the trial judge that his sanity at the time of the offense is to be a significant factor at trial," and, second, at the sentencing phase of a capital trial, "when the State presents psychiatric evidence of the defendant's future dangerousness."
+	innerSentence :  a defendant must be provided "access to a competent psychiatrist" in two circumstances
+		coremap sentence : a defendant must be provided "access to a competent psychiatrist" in two circumstances
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.028  
+ 0.248  
+ 0.549  
+ 0.157  
+ 0.018  
+
+		-----
+	outerSentence : we held something.
+		coremap sentence : we held something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.004  
+ 0.015  
+ 0.551  
+ 0.401  
+ 0.030  
+
+		-----
+	 outer Subject : we 	,	inner Subject : defendant 
+resolved as : (--, --)
+
+Did Ake clearly establish that a defendant in the two situations just noted must be provided with the services of an expert who functions solely as a dedicated member of the defense team as opposed to a neutral expert who examines the defendant, reports his or her conclusions to the court and the parties, and is available to assist and testify for both sides?
+	innerSentence :  a defendant in the two situations just noted must be provided with the services of an expert
+		coremap sentence : a defendant in the two situations just noted must be provided with the services of an expert
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.066  
+ 0.463  
+ 0.341  
+ 0.107  
+ 0.023  
+
+		-----
+	outerSentence : Ake Did establish something.
+		coremap sentence : Ake Did establish something.
+		sentiment : Positive
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.030  
+ 0.144  
+ 0.373  
+ 0.385  
+ 0.068  
+
+		-----
+	 outer Subject : Ake 	,	inner Subject : defendant 
+resolved as : (Ake;, --)
+
+Explaining the need for the appointment of a psychiatric expert, Ake noted that a psychiatrist can "assist in preparing the cross-examination of a State's psychiatric witnesses" and would "know the probative questions to ask of the opposing party's psychiatrists and how to interpret their answers."
+	innerSentence :  a psychiatrist can "assist in preparing the cross-examination of a State's psychiatric witnesses" and would "know the probative questions to ask of the opposing party's psychiatrists and
+		coremap sentence : a psychiatrist can "assist in preparing the cross-examination of a State's psychiatric witnesses" and would "know the probative questions to ask of the opposing party's psychiatrists and
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.028  
+ 0.336  
+ 0.578  
+ 0.052  
+ 0.006  
+
+		-----
+	outerSentence : Ake noted something.
+		coremap sentence : Ake noted something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.036  
+ 0.166  
+ 0.391  
+ 0.340  
+ 0.067  
+
+		-----
+	 outer Subject : Ake 	,	inner Subject : psychiatrist 
+resolved as : (Ake;, --)
+
+And when Ake discussed expert assistance during capital sentencing, the Court said that it is important for a defendant to "offer a well-informed expert's opposing view" in the form of "responsive psychiatric testimony."
+	innerSentence :  it is important for a defendant to "offer a well-informed expert's opposing view" in the form of "responsive psychiatric testimony."
+		coremap sentence : it is important for a defendant to "offer a well-informed expert's opposing view" in the form of "responsive psychiatric testimony."
+		sentiment : Positive
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.005  
+ 0.015  
+ 0.247  
+ 0.651  
+ 0.082  
+
+		-----
+	outerSentence : Court said something.
+		coremap sentence : Court said something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.027  
+ 0.147  
+ 0.491  
+ 0.292  
+ 0.044  
+
+		-----
+	 outer Subject : Court 	,	inner Subject : it 
+resolved as : (--, the Court;)
+
+Ake also explained that factfinding is improved when evidence is offered by "psychiatrists for each party."
+	innerSentence :  factfinding is improved
+		coremap sentence : factfinding is improved
+		sentiment : Positive
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.017  
+ 0.047  
+ 0.113  
+ 0.660  
+ 0.162  
+
+		-----
+	outerSentence : Ake explained something.
+		coremap sentence : Ake explained something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.036  
+ 0.166  
+ 0.391  
+ 0.340  
+ 0.067  
+
+		-----
+	 outer Subject : Ake 	,	inner Subject : factfinding 
+resolved as : (Ake;, --)
+
+On the contrary, Ake expressly stated that a State need only provide for a single psychiatric expert to be selected by the trial judge.
+	innerSentence :  a State need only provide for a single psychiatric expert to be selected by the trial judge.
+		coremap sentence : a State need only provide for a single psychiatric expert to be selected by the trial judge.
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.073  
+ 0.596  
+ 0.297  
+ 0.027  
+ 0.006  
+
+		-----
+	outerSentence : Ake stated something.
+		coremap sentence : Ake stated something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.036  
+ 0.166  
+ 0.391  
+ 0.340  
+ 0.067  
+
+		-----
+	 outer Subject : Ake 	,	inner Subject : State 
+resolved as : (Ake;, --)
+
+
+While Ake also declared that Baldi did not limit the Court "in considering whether fundamental fairness today requires a different result," 470 U. S., at 85, Ake did not explicitly overrule Baldi, and ultimately its treatment of that case was "most ambiguous," LaFave §8.2, at 450, n. 124.
+	innerSentence :  Baldi did not limit the Court "in considering whether fundamental fairness today requires a different result
+		coremap sentence : Baldi did not limit the Court "in considering whether fundamental fairness today requires a different result
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.092  
+ 0.523  
+ 0.309  
+ 0.057  
+ 0.018  
+
+		-----
+	outerSentence : Ake declared something.
+		coremap sentence : Ake declared something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.024  
+ 0.124  
+ 0.512  
+ 0.296  
+ 0.044  
+
+		-----
+	 outer Subject : Ake 	,	inner Subject : Baldi 
+resolved as : (Ake;, Baldi;)
+
+in No. 83-5424 p. 21 (arguing that Ake's rights were violated even under Baldi).
+	innerSentence :  Ake's rights were violated even under Baldi).
+		coremap sentence : Ake's rights were violated even under Baldi).
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.153  
+ 0.596  
+ 0.211  
+ 0.026  
+ 0.014  
+
+		-----
+	outerSentence : none-outerSubject arguing something.
+		coremap sentence : none-outerSubject arguing something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.023  
+ 0.108  
+ 0.440  
+ 0.370  
+ 0.059  
+
+		-----
+	 outer Subject : none-outerSubject	,	inner Subject : Ake 's rights 
+resolved as : (--, --)
+
+If the Justices who joined Justice Marshall's opinion for the Court had agreed that a defense-team expert must be appointed, it would have been a simple matter for the Court to say so expressly.
+	innerSentence :  a defense-team expert must be appointed
+		coremap sentence : a defense-team expert must be appointed
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.060  
+ 0.337  
+ 0.349  
+ 0.209  
+ 0.045  
+
+		-----
+	outerSentence : Justices had agreed something.
+		coremap sentence : Justices had agreed something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.024  
+ 0.134  
+ 0.533  
+ 0.272  
+ 0.037  
+
+		-----
+	 outer Subject : Justices 	,	inner Subject : defense-team expert 
+resolved as : (--, --)
+
+The most reasonable conclusion to draw from the Court's silence is that the exact type of expert required by Ake has remained "an open question in our jurisprudence."
+	innerSentence :  the exact type of expert required by Ake has remained "an open question in our jurisprudence."
+		coremap sentence : the exact type of expert required by Ake has remained "an open question in our jurisprudence."
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.102  
+ 0.374  
+ 0.224  
+ 0.222  
+ 0.078  
+
+		-----
+	outerSentence : reasonable conclusion is something.
+		coremap sentence : reasonable conclusion is something.
+		sentiment : Positive
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.004  
+ 0.011  
+ 0.137  
+ 0.743  
+ 0.105  
+
+		-----
+	 outer Subject : reasonable conclusion 	,	inner Subject : exact type 
+resolved as : (--, --)
+
+At the time the Alabama court addressed McWilliams's Ake claim on the merits, some courts had held that Ake requires the appointment of a defense-team expert.
+	innerSentence :  Ake requires the appointment of a defense-team expert.
+		coremap sentence : Ake requires the appointment of a defense-team expert.
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.176  
+ 0.624  
+ 0.150  
+ 0.031  
+ 0.019  
+
+		-----
+	outerSentence : courts had held something.
+		coremap sentence : courts had held something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.007  
+ 0.054  
+ 0.787  
+ 0.140  
+ 0.011  
+
+		-----
+	 outer Subject : courts 	,	inner Subject : Ake 
+resolved as : (--, Ake;Ake -RSB- to a state-funded psychiatric expert;)
+
+The Fifth Circuit had held that a defense-team expert is not required.
+	innerSentence :  a defense-team expert is not required.
+		coremap sentence : a defense-team expert is not required.
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.121  
+ 0.541  
+ 0.244  
+ 0.067  
+ 0.027  
+
+		-----
+	outerSentence : Circuit had held something.
+		coremap sentence : Circuit had held something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.005  
+ 0.049  
+ 0.888  
+ 0.054  
+ 0.004  
+
+		-----
+	 outer Subject : Circuit 	,	inner Subject : defense-team expert 
+resolved as : (--, --)
+
+1989) ("[D]ue process does not entitle [Ake] to a state-funded psychiatric expert to support his claim; rather, due process requires that he have access to a competent and impartial psychiatrist").
+	innerSentence :  he have access to a competent and impartial psychiatrist").
+		coremap sentence : he have access to a competent and impartial psychiatrist").
+		sentiment : Positive
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.005  
+ 0.014  
+ 0.296  
+ 0.603  
+ 0.082  
+
+		-----
+	outerSentence : due process requires something.
+		coremap sentence : due process requires something.
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.074  
+ 0.390  
+ 0.323  
+ 0.173  
+ 0.039  
+
+		-----
+	 outer Subject : due process 	,	inner Subject : he 
+resolved as : (--, Ake;Ake -RSB- to a state-funded psychiatric expert;)
+
+Two Eleventh Circuit panels held that a neutral expert suffices, see Magwood v. Smith, 791 F. 2d 1438, 1443 (1986) (Ake satisfied where neutral, court-appointed experts examined the defendant and testified); Clisby v. Jones, 907 F. 2d 1047, 1050 (1990) (per curiam) ("The state provided a duly qualified psychiatrist not beholden to the prosecution and, therefore, met its obligation under Ake"), reh'g en banc, 960 F. 2d 925, 928-934 (1992) (rejecting Ake claim on other grounds).
+	innerSentence :  a neutral expert suffices
+		coremap sentence : a neutral expert suffices
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.028  
+ 0.175  
+ 0.445  
+ 0.308  
+ 0.045  
+
+		-----
+	outerSentence : panels held something.
+		coremap sentence : panels held something.
+		sentiment : Positive
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.017  
+ 0.071  
+ 0.391  
+ 0.449  
+ 0.073  
+
+		-----
+	 outer Subject : panels 	,	inner Subject : neutral expert 
+resolved as : (--, --)
+
+Cowley v. Stricklin, 929 F. 2d 640, 644 (1991) (holding that due process requires more than a neutral expert).
+	innerSentence :  due process requires more than a neutral expert).
+		coremap sentence : due process requires more than a neutral expert).
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.137  
+ 0.657  
+ 0.162  
+ 0.031  
+ 0.014  
+
+		-----
+	outerSentence : none-outerSubject holding something.
+		coremap sentence : none-outerSubject holding something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.016  
+ 0.098  
+ 0.661  
+ 0.205  
+ 0.020  
+
+		-----
+	 outer Subject : none-outerSubject	,	inner Subject : due process 
+resolved as : (--, --)
+
+A Sixth Circuit panel held that Ake does not require appointment of a defense-team expert.
+	innerSentence :  Ake does not require appointment of a defense-team expert.
+		coremap sentence : Ake does not require appointment of a defense-team expert.
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.112  
+ 0.562  
+ 0.270  
+ 0.041  
+ 0.016  
+
+		-----
+	outerSentence : panel held something.
+		coremap sentence : panel held something.
+		sentiment : Positive
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.017  
+ 0.071  
+ 0.391  
+ 0.449  
+ 0.073  
+
+		-----
+	 outer Subject : panel 	,	inner Subject : Ake 
+resolved as : (--, Ake;)
+
+
+L. Rev. 1, 16 (2012) (Ake held that "the defense had the right of access to an expert, but the Court did not conclude that access had to be a defense expert"); Greeley, The Plight of Indigent Defendants in a Computer-Based Age: Maintaining the Adversarial System by Granting Defendants Access to Computer Experts, 16 Va.
+	innerSentence :  "the defense had the right of access to an expert
+		coremap sentence : "the defense had the right of access to an expert
+		sentiment : Positive
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.013  
+ 0.108  
+ 0.421  
+ 0.432  
+ 0.026  
+
+		-----
+	outerSentence : Ake held something.
+		coremap sentence : Ake held something.
+		sentiment : Positive
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.017  
+ 0.071  
+ 0.391  
+ 0.449  
+ 0.073  
+
+		-----
+	 outer Subject : Ake 	,	inner Subject : defense 
+resolved as : (1545;1551;1985;21 Tulsa L.;Ake;Ake 's;Ake, 30;Competent Psychiatric Assistance After Ake v. Oklahoma, 14 Vt.;Giannelli, Ake v. Oklahoma;Groendyke, Ake v. Oklahoma;, --)
+L. Rev. 1, 16 (2012) (Ake held that "the defense had the right of access to an expert, but the Court did not conclude that access had to be a defense expert"); Greeley, The Plight of Indigent Defendants in a Computer-Based Age: Maintaining the Adversarial System by Granting Defendants Access to Computer Experts, 16 Va.
+	innerSentence :  access had to be a defense expert"); Greeley
+		coremap sentence : access had to be a defense expert"); Greeley
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.044  
+ 0.491  
+ 0.405  
+ 0.052  
+ 0.008  
+
+		-----
+	outerSentence : Court did not conclude something.
+		coremap sentence : Court did not conclude something.
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.072  
+ 0.471  
+ 0.351  
+ 0.084  
+ 0.022  
+
+		-----
+	 outer Subject : Court 	,	inner Subject : access 
+resolved as : (--, --)
+
+L. Rev. 121, 127 (1989) (Ake "left unanswered many questions," including "whether the defendant is entitled to 'neutral' or 'partisan' assistance"); Dubia, The Defense Right to Psychiatric Assistance in Light of Ake v. Oklahoma, 1987 Army Lawyer 15, 19-20 (Ake "did not define clearly the role of the state-supplied psychiatrist," and "[a] strong case can be made that Ake requires only access to an independent psychiatric examination"); Note, Due Process and Psychiatric Assistance: Ake v. Oklahoma, 21 Tulsa L. J. 121, 143 (1985) ("The Court is unclear as to the exact nature and scope of the substantive right it has created"); Sallet, Book Review, After Hinckley: The Insanity Defense Reexamined, 94 Yale L. J. 1545, 1551, n. 18 (1985) (predicting that "whether the Constitution requires one psychiatrist or rather one defense-oriented psy-chiatrist" would "likely be the next constitutional issue adjudicated").
+	innerSentence :  Ake requires only access to an independent psychiatric examination"); Note
+		coremap sentence : Ake requires only access to an independent psychiatric examination"); Note
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.138  
+ 0.596  
+ 0.235  
+ 0.019  
+ 0.011  
+
+		-----
+	outerSentence : strong case can be made something.
+		coremap sentence : strong case can be made something.
+		sentiment : Positive
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.011  
+ 0.047  
+ 0.235  
+ 0.635  
+ 0.071  
+
+		-----
+	 outer Subject : strong case 	,	inner Subject : Ake 
+resolved as : (--, 1545;1551;1985;21 Tulsa L.;Ake;Ake 's;Ake, 30;Competent Psychiatric Assistance After Ake v. Oklahoma, 14 Vt.;Giannelli, Ake v. Oklahoma;Groendyke, Ake v. Oklahoma;)
+L. Rev. 121, 127 (1989) (Ake "left unanswered many questions," including "whether the defendant is entitled to 'neutral' or 'partisan' assistance"); Dubia, The Defense Right to Psychiatric Assistance in Light of Ake v. Oklahoma, 1987 Army Lawyer 15, 19-20 (Ake "did not define clearly the role of the state-supplied psychiatrist," and "[a] strong case can be made that Ake requires only access to an independent psychiatric examination"); Note, Due Process and Psychiatric Assistance: Ake v. Oklahoma, 21 Tulsa L. J. 121, 143 (1985) ("The Court is unclear as to the exact nature and scope of the substantive right it has created"); Sallet, Book Review, After Hinckley: The Insanity Defense Reexamined, 94 Yale L. J. 1545, 1551, n. 18 (1985) (predicting that "whether the Constitution requires one psychiatrist or rather one defense-oriented psy-chiatrist" would "likely be the next constitutional issue adjudicated").
+	innerSentence :  "whether the Constitution requires one psychiatrist or rather one defense-oriented psy-chiatrist" would "likely be the next constitutional issue adjudicated").
+		coremap sentence : "whether the Constitution requires one psychiatrist or rather one defense-oriented psy-chiatrist" would "likely be the next constitutional issue adjudicated").
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.094  
+ 0.663  
+ 0.192  
+ 0.040  
+ 0.010  
+
+		-----
+	outerSentence : J. predicting something.
+		coremap sentence : J. predicting something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.005  
+ 0.038  
+ 0.874  
+ 0.079  
+ 0.004  
+
+		-----
+	 outer Subject : J. 	,	inner Subject : none-innersubject
+resolved as : (--, --)
+
+In this case, the Alabama courts held that Ake is satisfied by the appointment of a neutral expert, and it is impossible to say that "there could be no reasonable dispute that they were wrong."
+	innerSentence :  Ake is satisfied by the appointment of a neutral expert
+		coremap sentence : Ake is satisfied by the appointment of a neutral expert
+		sentiment : Positive
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.043  
+ 0.205  
+ 0.326  
+ 0.355  
+ 0.071  
+
+		-----
+	outerSentence : courts held something.
+		coremap sentence : courts held something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.006  
+ 0.030  
+ 0.686  
+ 0.256  
+ 0.023  
+
+		-----
+	 outer Subject : courts 	,	inner Subject : Ake 
+resolved as : (--, --)
+In this case, the Alabama courts held that Ake is satisfied by the appointment of a neutral expert, and it is impossible to say that "there could be no reasonable dispute that they were wrong."
+	innerSentence :  "there could be no reasonable dispute that they were wrong."
+		coremap sentence : "there could be no reasonable dispute that they were wrong."
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.101  
+ 0.626  
+ 0.239  
+ 0.027  
+ 0.008  
+
+		-----
+	outerSentence : it say something.
+		coremap sentence : it say something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.006  
+ 0.039  
+ 0.678  
+ 0.264  
+ 0.012  
+
+		-----
+	 outer Subject : it 	,	inner Subject : none-innersubject
+resolved as : (--, --)
+
+The Court holds that "Alabama here did not meet even Ake's most basic requirements."
+	innerSentence :  "Alabama here did not meet even Ake's most basic requirements."
+		coremap sentence : "Alabama here did not meet even Ake's most basic requirements."
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.018  
+ 0.203  
+ 0.603  
+ 0.163  
+ 0.012  
+
+		-----
+	outerSentence : Court holds something.
+		coremap sentence : Court holds something.
+		sentiment : Positive
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.011  
+ 0.031  
+ 0.216  
+ 0.599  
+ 0.142  
+
+		-----
+	 outer Subject : Court 	,	inner Subject : Alabama 
+resolved as : (--, --)
+
+
+Instead, the crux of the Court's complaint is that Dr. Goff merely submitted his report and did not provide further assistance to the defense.
+	innerSentence :  Dr. Goff merely submitted his report and did not provide further assistance to the defense.
+		coremap sentence : Dr. Goff merely submitted his report and did not provide further assistance to the defense.
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.155  
+ 0.582  
+ 0.248  
+ 0.009  
+ 0.006  
+
+		-----
+	outerSentence : crux is something.
+		coremap sentence : crux is something.
+		sentiment : Positive
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.014  
+ 0.056  
+ 0.303  
+ 0.550  
+ 0.078  
+
+		-----
+	 outer Subject : crux 	,	inner Subject : Goff 
+resolved as : (--, --)
+
+Among other things, they give the parties notice of the question to be decided and ensure that we receive adversarial briefing, see Yee, supra, at 536, which in turns helps the Court reach sound decisions.
+	innerSentence :  we receive adversarial briefing
+		coremap sentence : we receive adversarial briefing
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.020  
+ 0.188  
+ 0.703  
+ 0.081  
+ 0.009  
+
+		-----
+	outerSentence : none-outerSubject ensure something.
+		coremap sentence : none-outerSubject ensure something.
+		sentiment : Positive
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.019  
+ 0.081  
+ 0.372  
+ 0.456  
+ 0.072  
+
+		-----
+	 outer Subject : none-outerSubject	,	inner Subject : we 
+resolved as : (--, These Rules;)
+
+
+The State surely believed that it did not need to brief the second question presented in McWilliams's petition.
+	innerSentence :  it did not need to brief the second question presented in McWilliams's petition.
+		coremap sentence : it did not need to brief the second question presented in McWilliams's petition.
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.080  
+ 0.525  
+ 0.310  
+ 0.070  
+ 0.014  
+
+		-----
+	outerSentence : State believed something.
+		coremap sentence : State believed something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.033  
+ 0.134  
+ 0.403  
+ 0.363  
+ 0.068  
+
+		-----
+	 outer Subject : State 	,	inner Subject : it 
+resolved as : (--, The State;the State;)
+
+It is worth remembering that today's ruling requires the Court to conclude that the state court's treatment of McWilliams's Ake claim "was so lacking in justification that there was an error well understood and comprehended in existing law beyond any possibility for fairminded disagreement."
+	innerSentence :  today's ruling requires the Court to conclude that the state court's treatment of McWilliams's Ake claim "was so lacking in justification that there was an error well understood and comprehended in existing law beyond any possibility for fairminded disagreement."
+		coremap sentence : today's ruling requires the Court to conclude that the state court's treatment of McWilliams's Ake claim "was so lacking in justification that there was an error well understood and comprehended in existing law beyond any possibility for fairminded disagreement."
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.177  
+ 0.613  
+ 0.195  
+ 0.009  
+ 0.005  
+
+		-----
+	outerSentence : none-outerSubject remembering something.
+		coremap sentence : none-outerSubject remembering something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.023  
+ 0.124  
+ 0.545  
+ 0.269  
+ 0.039  
+
+		-----
+	 outer Subject : none-outerSubject	,	inner Subject : today 's ruling 
+resolved as : (--, --)
+It is worth remembering that today's ruling requires the Court to conclude that the state court's treatment of McWilliams's Ake claim "was so lacking in justification that there was an error well understood and comprehended in existing law beyond any possibility for fairminded disagreement."
+	innerSentence :  the state court's treatment of McWilliams's Ake claim "was so lacking in justification that there was an error well understood and comprehended in existing law beyond any possibility for fairminded disagreement."
+		coremap sentence : the state court's treatment of McWilliams's Ake claim "was so lacking in justification that there was an error well understood and comprehended in existing law beyond any possibility for fairminded disagreement."
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.207  
+ 0.630  
+ 0.146  
+ 0.012  
+ 0.006  
+
+		-----
+	outerSentence : today 's ruling conclude something.
+		coremap sentence : today 's ruling conclude something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.021  
+ 0.104  
+ 0.467  
+ 0.364  
+ 0.044  
+
+		-----
+	 outer Subject : today 's ruling 	,	inner Subject : court 's treatment 
+resolved as : (--, --)
+
+It is debatable whether the Court has even answered question two correctly (and, of course, meaningful briefing by the parties would have allowed the Court to answer the question with more confidence).5 But the fundamental point is that the Court should not have addressed this question at all.
+	innerSentence :  the Court should not have addressed this question at all.
+		coremap sentence : the Court should not have addressed this question at all.
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.098  
+ 0.631  
+ 0.238  
+ 0.025  
+ 0.008  
+
+		-----
+	outerSentence : fundamental point is something.
+		coremap sentence : fundamental point is something.
+		sentiment : Positive
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.034  
+ 0.129  
+ 0.296  
+ 0.442  
+ 0.099  
+
+		-----
+	 outer Subject : fundamental point 	,	inner Subject : Court 
+resolved as : (--, --)
+
+Having completed an arduous detour around the question that we agreed to decide, the majority encounters an inconvenient roadblock: The Court of Appeals has already determined that any error of the sort the majority identifies today was harmless.
+	innerSentence :  any error of the sort the majority identifies today was harmless.
+		coremap sentence : any error of the sort the majority identifies today was harmless.
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.077  
+ 0.561  
+ 0.311  
+ 0.041  
+ 0.010  
+
+		-----
+	outerSentence : Court has determined something.
+		coremap sentence : Court has determined something.
+		sentiment : Positive
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.013  
+ 0.045  
+ 0.341  
+ 0.511  
+ 0.090  
+
+		-----
+	 outer Subject : Court 	,	inner Subject : error 
+resolved as : (--, --)
+
+The majority claims that the Court of Appeals did not "specifically consider whether access to the type of meaningful assistance in evaluating, preparing, and presenting the defense that Ake requires would have mattered."
+	innerSentence :  the Court of Appeals did not "specifically consider whether access to the type of meaningful assistance in evaluating
+		coremap sentence : the Court of Appeals did not "specifically consider whether access to the type of meaningful assistance in evaluating
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.057  
+ 0.539  
+ 0.348  
+ 0.046  
+ 0.010  
+
+		-----
+	outerSentence : majority claims something.
+		coremap sentence : majority claims something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.005  
+ 0.043  
+ 0.862  
+ 0.086  
+ 0.005  
+
+		-----
+	 outer Subject : majority 	,	inner Subject : Court 
+resolved as : (--, --)
+
+But the Court of Appeals concluded that, even if Dr. Goff's performance did not satisfy Ake, the error did not have a substantial and injurious effect on the outcome of the sentencing proceeding.
+	innerSentence :  the error did not have a substantial and injurious effect on the outcome of the sentencing proceeding.
+		coremap sentence : the error did not have a substantial and injurious effect on the outcome of the sentencing proceeding.
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.225  
+ 0.534  
+ 0.184  
+ 0.034  
+ 0.022  
+
+		-----
+	outerSentence : Court concluded something.
+		coremap sentence : Court concluded something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.036  
+ 0.166  
+ 0.391  
+ 0.340  
+ 0.067  
+
+		-----
+	 outer Subject : Court 	,	inner Subject : error 
+resolved as : (--, --)
+
+If the majority disagrees with the Court of Appeals' decision on that question, it should explain its reasons, but the majority is unwilling to tackle that matter and instead recites that "we are a court of review, not first view."
+	innerSentence :  "we are a court of review
+		coremap sentence : "we are a court of review
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.002  
+ 0.019  
+ 0.773  
+ 0.200  
+ 0.006  
+
+		-----
+	outerSentence : none-outerSubject recites something.
+		coremap sentence : none-outerSubject recites something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.030  
+ 0.154  
+ 0.529  
+ 0.250  
+ 0.038  
+
+		-----
+	 outer Subject : none-outerSubject	,	inner Subject : we 
+resolved as : (--, Appeals ';)
+
+But the sentencing court concluded that this evidence "did not rise to the level of a mitigating circumstance," in part because of the extensive evidence that McWilliams was feigning symptoms.
+	innerSentence :  this evidence "did not rise to the level of a mitigating circumstance
+		coremap sentence : this evidence "did not rise to the level of a mitigating circumstance
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.074  
+ 0.550  
+ 0.292  
+ 0.073  
+ 0.011  
+
+		-----
+	outerSentence : court concluded something.
+		coremap sentence : court concluded something.
+		sentiment : Positive
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.028  
+ 0.145  
+ 0.232  
+ 0.525  
+ 0.070  
+
+		-----
+	 outer Subject : court 	,	inner Subject : evidence 
+resolved as : (--, --)
+
+And in any event, the sentencing court found that "the aggravating circumstances would far outweigh this as a mitigating circumstance."
+	innerSentence :  "the aggravating circumstances would far outweigh this as a mitigating circumstance."
+		coremap sentence : "the aggravating circumstances would far outweigh this as a mitigating circumstance."
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.120  
+ 0.657  
+ 0.169  
+ 0.041  
+ 0.012  
+
+		-----
+	outerSentence : court found something.
+		coremap sentence : court found something.
+		sentiment : Positive
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.006  
+ 0.025  
+ 0.132  
+ 0.770  
+ 0.067  
+
+		-----
+	 outer Subject : court 	,	inner Subject : aggravating circumstances 
+resolved as : (--, --)
+
+The defense would have faced potential rebuttal testimony from three doctors who evaluated McWilliams and firmly concluded that McWilliams's mental state did not reduce his responsibility for his actions.
+	innerSentence :  McWilliams's mental state did not reduce his responsibility for his actions.
+		coremap sentence : McWilliams's mental state did not reduce his responsibility for his actions.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.042  
+ 0.447  
+ 0.460  
+ 0.045  
+ 0.006  
+
+		-----
+	outerSentence : none-outerSubject concluded something.
+		coremap sentence : none-outerSubject concluded something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.036  
+ 0.166  
+ 0.391  
+ 0.340  
+ 0.067  
+
+		-----
+	 outer Subject : none-outerSubject	,	inner Subject : mental McWilliams 's state 
+resolved as : (--, McWilliams;McWilliams 's;)
+
+One of these psychiatrists also concluded that McWilliams was "grossly exaggerating his psychological symptoms to mimic mental illness" and that he "obviously" did so "to evade criminal prosecution."
+	innerSentence :  McWilliams was "grossly exaggerating his psychological symptoms to mimic mental illness" and that he "obviously" did so "to evade criminal prosecution."
+		coremap sentence : McWilliams was "grossly exaggerating his psychological symptoms to mimic mental illness" and that he "obviously" did so "to evade criminal prosecution."
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.121  
+ 0.581  
+ 0.224  
+ 0.055  
+ 0.019  
+
+		-----
+	outerSentence : One concluded something.
+		coremap sentence : One concluded something.
+		sentiment : Positive
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.017  
+ 0.054  
+ 0.380  
+ 0.454  
+ 0.096  
+
+		-----
+	 outer Subject : One 	,	inner Subject : McWilliams 
+resolved as : (--, McWilliams;McWilliams 's;)
+
+If the sentencing judge had thought that there was a possibility that hearing from Dr. Goff would change his evaluation of aggravating and mitigating factors, he could have granted a continuance and called for Dr. Goff to appear.
+	innerSentence :  there was a possibility that hearing from Dr. Goff would change his evaluation of aggravating and mitigating factors
+		coremap sentence : there was a possibility that hearing from Dr. Goff would change his evaluation of aggravating and mitigating factors
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.067  
+ 0.570  
+ 0.303  
+ 0.051  
+ 0.009  
+
+		-----
+	outerSentence : judge had thought something.
+		coremap sentence : judge had thought something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.007  
+ 0.050  
+ 0.855  
+ 0.081  
+ 0.006  
+
+		-----
+	 outer Subject : judge 	,	inner Subject : possibility 
+resolved as : (--, --)
+
+The majority also ignores the fact that McWilliams has already had the chance to show that the outcome of the sentencing proceeding would have been different if he had been given more expert assistance.
+	innerSentence :  the outcome of the sentencing proceeding would have been different if he had been given more expert assistance.
+		coremap sentence : the outcome of the sentencing proceeding would have been different if he had been given more expert assistance.
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.155  
+ 0.655  
+ 0.162  
+ 0.020  
+ 0.008  
+
+		-----
+	outerSentence : none-outerSubject show something.
+		coremap sentence : none-outerSubject show something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.014  
+ 0.078  
+ 0.661  
+ 0.225  
+ 0.022  
+
+		-----
+	 outer Subject : none-outerSubject	,	inner Subject : outcome 
+resolved as : (--, --)
+
+In state postconviction proceedings, McWilliams argued that he was denied effective assistance of counsel because his lawyers did not obtain an expert who would have fully probed his mental state for purposes of mitigation.
+	innerSentence :  he was denied effective assistance of counsel because his lawyers did not obtain an expert
+		coremap sentence : he was denied effective assistance of counsel because his lawyers did not obtain an expert
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.224  
+ 0.641  
+ 0.127  
+ 0.004  
+ 0.004  
+
+		-----
+	outerSentence : McWilliams argued something.
+		coremap sentence : McWilliams argued something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.018  
+ 0.079  
+ 0.519  
+ 0.338  
+ 0.047  
+
+		-----
+	 outer Subject : McWilliams 	,	inner Subject : he 
+resolved as : (Dr. Goff;Dr. Goff 's;Dr. Woods;Dr. Woods 's;McWilliams;McWilliams 's;Mr. McWilliams;Reynolds;, Dr. Goff;Dr. Goff 's;Dr. Woods;Dr. Woods 's;McWilliams;McWilliams 's;Mr. McWilliams;Reynolds;)
+
+McWilliams called an expert, Dr. Woods, who offered the opinion that McWilliams suffered from bipolar disorder at the time of the crime and testified that McWilliams's exaggeration of symptoms was not inconsistent with psychiatric problems.
+	innerSentence :  McWilliams's exaggeration of symptoms was not inconsistent with psychiatric problems.
+		coremap sentence : McWilliams's exaggeration of symptoms was not inconsistent with psychiatric problems.
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.208  
+ 0.635  
+ 0.128  
+ 0.017  
+ 0.012  
+
+		-----
+	outerSentence : none-outerSubject testified something.
+		coremap sentence : none-outerSubject testified something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.036  
+ 0.166  
+ 0.391  
+ 0.340  
+ 0.067  
+
+		-----
+	 outer Subject : none-outerSubject	,	inner Subject : McWilliams 's exaggeration 
+resolved as : (--, Dr. Goff;Dr. Goff 's;Dr. Woods;Dr. Woods 's;McWilliams;McWilliams 's;Mr. McWilliams;Reynolds;)
+
+But Dr. Woods also acknowledged that McWilliams "tr[ied] to malinger for purposes of making himself look worse than he is," agreed that this malingering could have been done for the purpose of avoiding the death penalty, and declined to say that McWilliams's disorder explains why he raped and murdered Reynolds.
+	innerSentence : " agreed that this malingering could have been done for the purpose of avoiding the death penalty
+		coremap sentence : " agreed that this malingering could have been done for the purpose of avoiding the death penalty
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.040  
+ 0.298  
+ 0.411  
+ 0.226  
+ 0.025  
+
+		-----
+	outerSentence : Woods acknowledged something.
+		coremap sentence : Woods acknowledged something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.038  
+ 0.226  
+ 0.467  
+ 0.230  
+ 0.040  
+
+		-----
+	 outer Subject : Woods 	,	inner Subject : tr 
+resolved as : (--, --)
+But Dr. Woods also acknowledged that McWilliams "tr[ied] to malinger for purposes of making himself look worse than he is," agreed that this malingering could have been done for the purpose of avoiding the death penalty, and declined to say that McWilliams's disorder explains why he raped and murdered Reynolds.
+	innerSentence :  this malingering could have been done for the purpose of avoiding the death penalty
+		coremap sentence : this malingering could have been done for the purpose of avoiding the death penalty
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.092  
+ 0.521  
+ 0.318  
+ 0.052  
+ 0.016  
+
+		-----
+	outerSentence : tr agreed something.
+		coremap sentence : tr agreed something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.023  
+ 0.104  
+ 0.439  
+ 0.374  
+ 0.060  
+
+		-----
+	 outer Subject : tr 	,	inner Subject : malingering 
+resolved as : (--, --)
+But Dr. Woods also acknowledged that McWilliams "tr[ied] to malinger for purposes of making himself look worse than he is," agreed that this malingering could have been done for the purpose of avoiding the death penalty, and declined to say that McWilliams's disorder explains why he raped and murdered Reynolds.
+	innerSentence :  McWilliams's disorder explains
+		coremap sentence : McWilliams's disorder explains
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.010  
+ 0.128  
+ 0.838  
+ 0.021  
+ 0.002  
+
+		-----
+	outerSentence : none-outerSubject say something.
+		coremap sentence : none-outerSubject say something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.022  
+ 0.128  
+ 0.579  
+ 0.237  
+ 0.034  
+
+		-----
+	 outer Subject : none-outerSubject	,	inner Subject : McWilliams 's disorder 
+resolved as : (--, Dr. Goff;Dr. Goff 's;Dr. Woods;Dr. Woods 's;McWilliams;McWilliams 's;Mr. McWilliams;Reynolds;)
+
+The State introduced a psychologist of its own (Dr. Kirkland) who strenuously disagreed with Dr. Woods's diagnosis and concluded that nothing "indicate[s] that Mr. McWilliams was mentally impaired on the night of the offense."
+	innerSentence :  nothing "indicate[s] that Mr. McWilliams was mentally impaired on the night of the offense."
+		coremap sentence : nothing "indicate[s] that Mr. McWilliams was mentally impaired on the night of the offense."
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.189  
+ 0.516  
+ 0.236  
+ 0.038  
+ 0.021  
+
+		-----
+	outerSentence : none-outerSubject concluded something.
+		coremap sentence : none-outerSubject concluded something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.036  
+ 0.166  
+ 0.391  
+ 0.340  
+ 0.067  
+
+		-----
+	 outer Subject : none-outerSubject	,	inner Subject : nothing 
+resolved as : (--, --)
+
+At the end of a lengthy hearing in which both experts addressed the malingering issue (see, e.g., id., at 935-943, 955, 964-966, 1076-1077), the state postconviction court found that "McWilliams's claims based upon the testimony of Dr. Woods are without merit."
+	innerSentence :  "McWilliams's claims based upon the testimony of Dr. Woods are without merit."
+		coremap sentence : "McWilliams's claims based upon the testimony of Dr. Woods are without merit."
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.058  
+ 0.495  
+ 0.340  
+ 0.092  
+ 0.015  
+
+		-----
+	outerSentence : court found something.
+		coremap sentence : court found something.
+		sentiment : Positive
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.006  
+ 0.025  
+ 0.132  
+ 0.770  
+ 0.067  
+
+		-----
+	 outer Subject : court 	,	inner Subject : McWilliams 's claims 
+resolved as : (--, --)
+
+It credited the "consensus opinion" reached by the three neutral state psychiatrists, who observed and evaluated McWilliams for over a month before his trial and concluded that he "did not suffer from a mental illness."
+	innerSentence :  he "did not suffer from a mental illness."
+		coremap sentence : he "did not suffer from a mental illness."
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.062  
+ 0.442  
+ 0.466  
+ 0.023  
+ 0.007  
+
+		-----
+	outerSentence : none-outerSubject concluded something.
+		coremap sentence : none-outerSubject concluded something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.036  
+ 0.166  
+ 0.391  
+ 0.340  
+ 0.067  
+
+		-----
+	 outer Subject : none-outerSubject	,	inner Subject : he 
+resolved as : (--, Dr. Goff;Dr. Goff 's;Dr. Woods;Dr. Woods 's;McWilliams;McWilliams 's;Mr. McWilliams;Reynolds;)
+
+It expressly found that "both the credibility of Dr. Woods and the reliability of his findings are questionable."
+	innerSentence :  "both the credibility of Dr. Woods and the reliability of his findings are questionable."
+		coremap sentence : "both the credibility of Dr. Woods and the reliability of his findings are questionable."
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.056  
+ 0.508  
+ 0.369  
+ 0.057  
+ 0.010  
+
+		-----
+	outerSentence : It found something.
+		coremap sentence : It found something.
+		sentiment : Positive
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.006  
+ 0.017  
+ 0.306  
+ 0.615  
+ 0.057  
+
+		-----
+	 outer Subject : It 	,	inner Subject : credibility 
+resolved as : (--, --)
+
+And even if Dr. Woods's diagnosis was accurate, the court stated, it "[would] not find that a failure to present" evidence of this sort "made a difference in the outcome."
+	innerSentence :  a failure to present" evidence of this sort "made a difference in the outcome."
+		coremap sentence : a failure to present" evidence of this sort "made a difference in the outcome."
+		sentiment : Very negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.572  
+ 0.367  
+ 0.036  
+ 0.004  
+ 0.020  
+
+		-----
+	outerSentence : none-outerSubject would not find something.
+		coremap sentence : none-outerSubject would not find something.
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.079  
+ 0.508  
+ 0.333  
+ 0.062  
+ 0.018  
+
+		-----
+	 outer Subject : none-outerSubject	,	inner Subject : failure 
+resolved as : (--, --)
+
+The question was worded as follows: "When this Court held in Ake that an indigent defendant is entitled to meaningful expert assistance for the 'evaluation, preparation, and presentation of the defense,' did it clearly establish that the expert should be independent of the prosecution?"
+	innerSentence :  the expert should be independent of the prosecution?"
+		coremap sentence : the expert should be independent of the prosecution?"
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.032  
+ 0.250  
+ 0.580  
+ 0.120  
+ 0.019  
+
+		-----
+	outerSentence : it did establish something.
+		coremap sentence : it did establish something.
+		sentiment : Positive
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.009  
+ 0.032  
+ 0.188  
+ 0.693  
+ 0.078  
+
+		-----
+	 outer Subject : it 	,	inner Subject : expert 
+resolved as : (the prosecution;this Court held in Ake that an indigent defendant is entitled to meaningful expert assistance for the ` evaluation, preparation, and presentation of the defense;, --)
+
+Defending its approach, the Court says that it had no need to decide the "sweeping" question on which review was granted "when a narrow one will do."
+	innerSentence :  it had no need to decide the "sweeping" question on
+		coremap sentence : it had no need to decide the "sweeping" question on
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.049  
+ 0.435  
+ 0.447  
+ 0.059  
+ 0.010  
+
+		-----
+	outerSentence : Court says something.
+		coremap sentence : Court says something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.042  
+ 0.267  
+ 0.479  
+ 0.179  
+ 0.033  
+
+		-----
+	 outer Subject : Court 	,	inner Subject : it 
+resolved as : (--, the Court;the question;this narrow ground;this possible disposition;)
+
+Years after Kordenbrock, a Sixth Circuit panel held that Ake requires a defense expert.
+	innerSentence :  Ake requires a defense expert.
+		coremap sentence : Ake requires a defense expert.
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.153  
+ 0.629  
+ 0.168  
+ 0.032  
+ 0.018  
+
+		-----
+	outerSentence : panel held something.
+		coremap sentence : panel held something.
+		sentiment : Positive
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.017  
+ 0.071  
+ 0.391  
+ 0.449  
+ 0.073  
+
+		-----
+	 outer Subject : panel 	,	inner Subject : Ake 
+resolved as : (--, Ake;Ake 's;)
+
+A later panel insisted that "Ake does not entitle [defendants] to . . . an [independent psychiatric] expert," but to "a 'friend of the court' appointment."
+	innerSentence :  "Ake does not entitle [defendants] to . . . an [independent psychiatric] expert
+		coremap sentence : "Ake does not entitle [defendants] to . . . an [independent psychiatric] expert
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.131  
+ 0.659  
+ 0.154  
+ 0.043  
+ 0.013  
+
+		-----
+	outerSentence : later panel insisted something.
+		coremap sentence : later panel insisted something.
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.080  
+ 0.489  
+ 0.324  
+ 0.085  
+ 0.021  
+
+		-----
+	 outer Subject : later panel 	,	inner Subject : Ake 
+resolved as : (--, Ake;Ake 's;)
+
+The Sixth Circuit ultimately concluded that Ake did not itself clearly compel an answer to this question for AEDPA purposes.
+	innerSentence :  Ake did not itself clearly compel an answer to this question for AEDPA purposes.
+		coremap sentence : Ake did not itself clearly compel an answer to this question for AEDPA purposes.
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.067  
+ 0.420  
+ 0.393  
+ 0.096  
+ 0.024  
+
+		-----
+	outerSentence : Circuit concluded something.
+		coremap sentence : Circuit concluded something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.013  
+ 0.092  
+ 0.789  
+ 0.095  
+ 0.011  
+
+		-----
+	 outer Subject : Circuit 	,	inner Subject : Ake 
+resolved as : (--, Ake;Ake 's;)
+
+The Court is incorrect in suggesting that Alabama "devoted an entire section of its merits brief" to the question that the Court decides.
+	innerSentence :  Alabama "devoted an entire section of its merits brief" to the question that the Court decides.
+		coremap sentence : Alabama "devoted an entire section of its merits brief" to the question that the Court decides.
+		sentiment : Positive
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.020  
+ 0.050  
+ 0.140  
+ 0.618  
+ 0.171  
+
+		-----
+	outerSentence : Court suggesting something.
+		coremap sentence : Court suggesting something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.011  
+ 0.070  
+ 0.684  
+ 0.216  
+ 0.019  
+
+		-----
+	 outer Subject : Court 	,	inner Subject : Alabama 
+resolved as : (--, Alabama;)
+
+In the section to which the Court refers, Alabama argued that even if McWilliams was entitled to relief under Ake to a partisan expert, no relief was warranted because he "had a consulting expert that did not report to the State," i.e. "a psychologist employed at the University of Alabama," and because the trial court ordered every form of testing that the defense requested.
+	innerSentence :  no relief was warranted because he "had a consulting expert
+		coremap sentence : no relief was warranted because he "had a consulting expert
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.123  
+ 0.685  
+ 0.177  
+ 0.010  
+ 0.005  
+
+		-----
+	outerSentence : Alabama argued something.
+		coremap sentence : Alabama argued something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.010  
+ 0.032  
+ 0.450  
+ 0.436  
+ 0.072  
+
+		-----
+	 outer Subject : Alabama 	,	inner Subject : relief 
+resolved as : (Alabama;, --)
+
+The Court says that Dr. Goff did not play the role Ake requires of an expert because he only examined McWilliams and reported his findings to the trial court.
+	innerSentence :  Dr. Goff did not play the role Ake requires of an expert because he only examined McWilliams and reported his findings to the trial court.
+		coremap sentence : Dr. Goff did not play the role Ake requires of an expert because he only examined McWilliams and reported his findings to the trial court.
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.185  
+ 0.595  
+ 0.180  
+ 0.026  
+ 0.014  
+
+		-----
+	outerSentence : Court says something.
+		coremap sentence : Court says something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.042  
+ 0.267  
+ 0.479  
+ 0.179  
+ 0.033  
+
+		-----
+	 outer Subject : Court 	,	inner Subject : Goff 
+resolved as : (--, --)
+
+The Court briskly concludes that Dr. Goff did not assist the defense in understanding his report prior to the hearing or testify for McWilliams at the judicial sentencing hearing.
+	innerSentence :  Dr. Goff did not assist the defense in understanding his report prior to the hearing or testify for McWilliams at the judicial sentencing hearing.
+		coremap sentence : Dr. Goff did not assist the defense in understanding his report prior to the hearing or testify for McWilliams at the judicial sentencing hearing.
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.092  
+ 0.617  
+ 0.251  
+ 0.030  
+ 0.010  
+
+		-----
+	outerSentence : Court concludes something.
+		coremap sentence : Court concludes something.
+		sentiment : Positive
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.023  
+ 0.100  
+ 0.373  
+ 0.429  
+ 0.074  
+
+		-----
+	 outer Subject : Court 	,	inner Subject : Goff 
+resolved as : (--, --)
+
+It also suggests that, to McWilliams's postconviction counsel, Dr. Goff 's diagnosis and the opportunity to present it to the sentencer was not as important as McWilliams suggests.
+	innerSentence :  Dr. Goff 's diagnosis and the opportunity to present it to the sentencer was not as important as McWilliams suggests.
+		coremap sentence : Dr. Goff 's diagnosis and the opportunity to present it to the sentencer was not as important as McWilliams suggests.
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.101  
+ 0.658  
+ 0.218  
+ 0.016  
+ 0.006  
+
+		-----
+	outerSentence : It suggests something.
+		coremap sentence : It suggests something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.014  
+ 0.114  
+ 0.696  
+ 0.166  
+ 0.011  
+
+		-----
+	 outer Subject : It 	,	inner Subject : Goff 's diagnosis 
+resolved as : (--, --)
+
+Ake held that the right to a psychiatric expert at capital sentencing comes into play "when the State presents psychiatric evidence of the defendant's future dangerousness."
+	innerSentence :  the right to a psychiatric expert at capital sentencing comes into play 
+		coremap sentence : the right to a psychiatric expert at capital sentencing comes into play
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.041  
+ 0.268  
+ 0.339  
+ 0.310  
+ 0.042  
+
+		-----
+	outerSentence : Ake held something.
+		coremap sentence : Ake held something.
+		sentiment : Positive
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.017  
+ 0.071  
+ 0.391  
+ 0.449  
+ 0.073  
+
+		-----
+	 outer Subject : Ake 	,	inner Subject : right 
+resolved as : (Ake;, --)
+
+As lower courts have noted, we have never held that a capital defendant is entitled to the assistance of a psychiatric expert at sentencing where future dangerousness is not in issue and the State does not introduce psychiatric evidence to prove it.
+	innerSentence :  a capital defendant is entitled to the assistance of a psychiatric expert at sentencing
+		coremap sentence : a capital defendant is entitled to the assistance of a psychiatric expert at sentencing
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.098  
+ 0.584  
+ 0.257  
+ 0.046  
+ 0.016  
+
+		-----
+	outerSentence : we have never held something.
+		coremap sentence : we have never held something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.018  
+ 0.109  
+ 0.660  
+ 0.192  
+ 0.021  
+
+		-----
+	 outer Subject : we 	,	inner Subject : defendant 
+resolved as : (--, --)
+

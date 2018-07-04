@@ -40,7 +40,8 @@ public class CorefRunner {
         Properties propsSentiment = new Properties();
         propsSentiment.setProperty("annotators","tokenize,ssplit,tokenize,pos,lemma,parse,natlog,sentiment");
         StanfordCoreNLP sentimentPipeline = new StanfordCoreNLP(propsSentiment);
-        int caseNumber = 11;
+        //int caseNumber = 15;
+        for(int caseNumber = 16; caseNumber <=20;caseNumber++){
         Case aCase = CasesController.getCaseByNumber(caseNumber);
         System.out.println("Case: " + caseNumber);
         String caseName = "case_" + Integer.valueOf(caseNumber);
@@ -96,7 +97,7 @@ public class CorefRunner {
         br.close();
         br2.close();
         br3.close();
-    }
+    }}
 
     private static void insertSentencesOfParasToDB() {
         for (int i = 11; i <= 20; i++) {

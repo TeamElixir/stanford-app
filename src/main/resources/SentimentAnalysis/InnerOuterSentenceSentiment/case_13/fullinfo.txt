@@ -1,0 +1,1507 @@
+The District Court also noted that Tharpe could not overcome that procedural default because he had failed to produce any clear and convincing evidence contradicting the state court's determination that Gattie's presence on the jury did not prejudice him.
+	innerSentence :  Tharpe could not overcome that procedural default because he had failed to produce any clear and convincing evidence contradicting the state court's determination that Gattie's presence on the jury did not prejudice him.
+		coremap sentence : Tharpe could not overcome that procedural default because he had failed to produce any clear and convincing evidence contradicting the state court's determination that Gattie's presence on the jury did not prejudice him.
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.220  
+ 0.527  
+ 0.201  
+ 0.033  
+ 0.019  
+
+		-----
+	outerSentence : Court noted something.
+		coremap sentence : Court noted something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.036  
+ 0.166  
+ 0.391  
+ 0.340  
+ 0.067  
+
+		-----
+	 outer Subject : Court 	,	inner Subject : Tharpe 
+resolved as : (--, Barney Gattie;Petitioner Keith Tharpe;Tharpe;Tharpe 's;)
+
+The Eleventh Circuit denied his COA application after deciding that jurists of reason could not dispute that the District Court's procedural ruling was correct.
+	innerSentence :  jurists of reason could not dispute that the District Court's procedural ruling was correct.
+		coremap sentence : jurists of reason could not dispute that the District Court's procedural ruling was correct.
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.103  
+ 0.611  
+ 0.245  
+ 0.030  
+ 0.011  
+
+		-----
+	outerSentence : Circuit deciding something.
+		coremap sentence : Circuit deciding something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.014  
+ 0.138  
+ 0.799  
+ 0.045  
+ 0.004  
+
+		-----
+	 outer Subject : Circuit 	,	inner Subject : jurists 
+resolved as : (--, --)
+The Eleventh Circuit denied his COA application after deciding that jurists of reason could not dispute that the District Court's procedural ruling was correct.
+	innerSentence :  the District Court's procedural ruling was correct.
+		coremap sentence : the District Court's procedural ruling was correct.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.026  
+ 0.297  
+ 0.603  
+ 0.067  
+ 0.007  
+
+		-----
+	outerSentence : jurists could not dispute something.
+		coremap sentence : jurists could not dispute something.
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.083  
+ 0.500  
+ 0.337  
+ 0.062  
+ 0.018  
+
+		-----
+	 outer Subject : jurists 	,	inner Subject : procedural Court 's ruling 
+resolved as : (--, --)
+
+The Eleventh Circuit's decision, as we read it, was based solely on its conclusion, rooted in the state court's factfinding, that Tharpe had failed to show prejudice in connection with his procedurally defaulted claim, i.e., that Tharpe had "failed to demonstrate that Barney Gattie's behavior 'had substantial and injurious effect or influence in determining the jury's verdict.' "
+	innerSentence :  Barney Gattie's behavior 'had substantial and injurious effect or influence in determining the jury's verdict.' "
+		coremap sentence : Barney Gattie's behavior 'had substantial and injurious effect or influence in determining the jury's verdict.' "
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.070  
+ 0.511  
+ 0.396  
+ 0.017  
+ 0.006  
+
+		-----
+	outerSentence : Tharpe demonstrate something.
+		coremap sentence : Tharpe demonstrate something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.027  
+ 0.124  
+ 0.391  
+ 0.389  
+ 0.068  
+
+		-----
+	 outer Subject : Tharpe 	,	inner Subject : Gattie 's behavior 
+resolved as : (Tharpe;, --)
+
+In light of the standard for relief from judgment under Rule 60(b)(6), which is available only in " 'extraordinary circumstances,' " Gonzalez v. Crosby, 545 U. S. 524, 536 (2005), Tharpe faces a high bar in showing that jurists of reason could disagree whether the District Court abused its discretion in denying his motion.
+	innerSentence :  jurists of reason could disagree whether the District Court abused its discretion in denying his motion.
+		coremap sentence : jurists of reason could disagree whether the District Court abused its discretion in denying his motion.
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.088  
+ 0.606  
+ 0.267  
+ 0.029  
+ 0.009  
+
+		-----
+	outerSentence : Tharpe showing something.
+		coremap sentence : Tharpe showing something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.017  
+ 0.090  
+ 0.492  
+ 0.359  
+ 0.041  
+
+		-----
+	 outer Subject : Tharpe 	,	inner Subject : jurists 
+resolved as : (Gonzalez v. Crosby, 545 U. S. 524, 536 -LRB- 2005 -RRB-, Tharpe;Tharpe;Tharpe 's;, --)
+
+It may be that, at the end of the day, Tharpe should not receive a COA.
+	innerSentence :  Tharpe should not receive a COA.
+		coremap sentence : Tharpe should not receive a COA.
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.098  
+ 0.552  
+ 0.283  
+ 0.049  
+ 0.017  
+
+		-----
+	outerSentence : It may be something.
+		coremap sentence : It may be something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.016  
+ 0.099  
+ 0.615  
+ 0.252  
+ 0.019  
+
+		-----
+	 outer Subject : It 	,	inner Subject : Tharpe 
+resolved as : (--, Gonzalez v. Crosby, 545 U. S. 524, 536 -LRB- 2005 -RRB-, Tharpe;Tharpe;Tharpe 's;)
+
+But their odiousness does not excuse us from doing our job correctly, or allow us to pretend that the lower courts have not done theirs.
+	innerSentence :  the lower courts have not done theirs.
+		coremap sentence : the lower courts have not done theirs.
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.317  
+ 0.535  
+ 0.125  
+ 0.010  
+ 0.012  
+
+		-----
+	outerSentence : none-outerSubject pretend something.
+		coremap sentence : none-outerSubject pretend something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.051  
+ 0.212  
+ 0.342  
+ 0.319  
+ 0.077  
+
+		-----
+	 outer Subject : none-outerSubject	,	inner Subject : lower courts 
+resolved as : (--, --)
+
+As aggravating factors, the jury found that Tharpe murdered Freeman while committing two other capital felonies--the aggravated kidnapings of his wife and Freeman--and that the murder was outrageously or wantonly vile, horrible, or inhuman.
+	innerSentence :  Tharpe murdered Freeman while committing two other capital felonies--the aggravated kidnapings of his wife and Freeman--and that the murder was outrageously or wantonly vile
+		coremap sentence : Tharpe murdered Freeman while committing two other capital felonies--the aggravated kidnapings of his wife and Freeman--and that the murder was outrageously or wantonly vile
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.306  
+ 0.546  
+ 0.126  
+ 0.011  
+ 0.011  
+
+		-----
+	outerSentence : jury found something.
+		coremap sentence : jury found something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.018  
+ 0.080  
+ 0.459  
+ 0.392  
+ 0.051  
+
+		-----
+	 outer Subject : jury 	,	inner Subject : Tharpe 
+resolved as : (--, --)
+
+The resulting affidavit stated that Gattie knew Freeman, and that her family was "what [he] would call a nice [b]lack family."
+	innerSentence :  Gattie knew Freeman
+		coremap sentence : Gattie knew Freeman
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.008  
+ 0.053  
+ 0.830  
+ 0.099  
+ 0.010  
+
+		-----
+	outerSentence : resulting affidavit stated something.
+		coremap sentence : resulting affidavit stated something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.058  
+ 0.277  
+ 0.322  
+ 0.279  
+ 0.065  
+
+		-----
+	 outer Subject : resulting affidavit 	,	inner Subject : Gattie 
+resolved as : (--, Barney Gattie;Gattie;Gattie 's;Tharpe;Tharpe 's;the type Tharpe;)
+
+The affidavit continued that, in Gattie's view, "there are two types of black people: 1.
+	innerSentence :  "there are two types of black people
+		coremap sentence : "there are two types of black people
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.002  
+ 0.025  
+ 0.847  
+ 0.123  
+ 0.003  
+
+		-----
+	outerSentence : affidavit continued something.
+		coremap sentence : affidavit continued something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.036  
+ 0.187  
+ 0.441  
+ 0.284  
+ 0.051  
+
+		-----
+	 outer Subject : affidavit 	,	inner Subject : types 
+resolved as : (--, --)
+
+Gattie's affidavit went on to explain that "[a]fter studying the Bible," he had "wondered if black people even have souls."
+	innerSentence : " he had "wondered if black people even have souls."
+		coremap sentence : " he had "wondered if black people even have souls."
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.002  
+ 0.021  
+ 0.880  
+ 0.094  
+ 0.003  
+
+		-----
+	outerSentence : Gattie 's affidavit explain something.
+		coremap sentence : Gattie 's affidavit explain something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.015  
+ 0.091  
+ 0.632  
+ 0.237  
+ 0.025  
+
+		-----
+	 outer Subject : Gattie 's affidavit 	,	inner Subject : he 
+resolved as : (--, Barney Gattie;Gattie;Gattie 's;Tharpe;Tharpe 's;the type Tharpe;)
+
+The affidavit also noted that some of the other jurors "wanted blacks to know they weren't going to get away with killing each other."
+	innerSentence :  some of the other jurors "wanted blacks to know they weren't going to get away with killing each other."
+		coremap sentence : some of the other jurors "wanted blacks to know they weren't going to get away with killing each other."
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.047  
+ 0.459  
+ 0.450  
+ 0.037  
+ 0.006  
+
+		-----
+	outerSentence : affidavit noted something.
+		coremap sentence : affidavit noted something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.036  
+ 0.166  
+ 0.391  
+ 0.340  
+ 0.067  
+
+		-----
+	 outer Subject : affidavit 	,	inner Subject : some 
+resolved as : (--, --)
+
+In that second affidavit, Gattie stated that he "did not vote to impose the death penalty because [Tharpe] was a black man," but instead because the evidence presented at trial justified it and because Tharpe showed no remorse.
+	innerSentence :  he "did not vote to impose the death penalty because [Tharpe] was a black man
+		coremap sentence : he "did not vote to impose the death penalty because [Tharpe] was a black man
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.061  
+ 0.467  
+ 0.371  
+ 0.087  
+ 0.014  
+
+		-----
+	outerSentence : Gattie stated something.
+		coremap sentence : Gattie stated something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.036  
+ 0.166  
+ 0.391  
+ 0.340  
+ 0.067  
+
+		-----
+	 outer Subject : Gattie 	,	inner Subject : he 
+resolved as : (Gattie;, Gattie;)
+
+The affidavit explained that Gattie had consumed "seven or more beers" on the afternoon he signed the first affidavit.
+	innerSentence :  Gattie had consumed "seven or more beers" on the afternoon he signed the first affidavit.
+		coremap sentence : Gattie had consumed "seven or more beers" on the afternoon he signed the first affidavit.
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.065  
+ 0.395  
+ 0.381  
+ 0.129  
+ 0.030  
+
+		-----
+	outerSentence : affidavit explained something.
+		coremap sentence : affidavit explained something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.036  
+ 0.166  
+ 0.391  
+ 0.340  
+ 0.067  
+
+		-----
+	 outer Subject : affidavit 	,	inner Subject : Gattie 
+resolved as : (--, Gattie;)
+
+He also attested that many of the statements in the first affidavit "were taken out of context and simply not accurate."
+	innerSentence :  many of the statements in the first affidavit "were taken out of context and simply not accurate."
+		coremap sentence : many of the statements in the first affidavit "were taken out of context and simply not accurate."
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.142  
+ 0.754  
+ 0.082  
+ 0.014  
+ 0.008  
+
+		-----
+	outerSentence : He attested something.
+		coremap sentence : He attested something.
+		sentiment : Positive
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.017  
+ 0.080  
+ 0.239  
+ 0.601  
+ 0.064  
+
+		-----
+	 outer Subject : He 	,	inner Subject : many 
+resolved as : (Gattie;, --)
+
+And he felt that the lawyers who took it "were deceiving and misrepresented what they stood for."
+	innerSentence :  the lawyers
+		coremap sentence : the lawyers
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.002  
+ 0.018  
+ 0.895  
+ 0.081  
+ 0.004  
+
+		-----
+	outerSentence : he felt something.
+		coremap sentence : he felt something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.007  
+ 0.031  
+ 0.653  
+ 0.287  
+ 0.023  
+
+		-----
+	 outer Subject : he 	,	inner Subject : lawyers 
+resolved as : (Gattie;, --)
+
+
+
+
+One of his claims was that "improper racial animus . . . infected the deliberations of the jury."
+	innerSentence :  "improper racial animus . . . infected the deliberations of the jury."
+		coremap sentence : "improper racial animus . . . infected the deliberations of the jury."
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.128  
+ 0.697  
+ 0.160  
+ 0.010  
+ 0.005  
+
+		-----
+	outerSentence : One was something.
+		coremap sentence : One was something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.007  
+ 0.031  
+ 0.592  
+ 0.340  
+ 0.031  
+
+		-----
+	 outer Subject : One 	,	inner Subject : improper animus 
+resolved as : (--, --)
+
+
+The District Court acknowledged that ineffective assistance of counsel can provide cause to overcome a procedural default, but it explained that Tharpe "fail[ed] to provide any details regarding this allegation."
+	innerSentence :  ineffective assistance of counsel can provide cause to overcome a procedural default
+		coremap sentence : ineffective assistance of counsel can provide cause to overcome a procedural default
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.097  
+ 0.629  
+ 0.197  
+ 0.059  
+ 0.019  
+
+		-----
+	outerSentence : Court acknowledged something.
+		coremap sentence : Court acknowledged something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.036  
+ 0.166  
+ 0.391  
+ 0.340  
+ 0.067  
+
+		-----
+	 outer Subject : Court 	,	inner Subject : ineffective assistance 
+resolved as : (--, --)
+The District Court acknowledged that ineffective assistance of counsel can provide cause to overcome a procedural default, but it explained that Tharpe "fail[ed] to provide any details regarding this allegation."
+	innerSentence :  Tharpe "fail[ed] to provide any details regarding this allegation."
+		coremap sentence : Tharpe "fail[ed] to provide any details regarding this allegation."
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.114  
+ 0.563  
+ 0.284  
+ 0.027  
+ 0.012  
+
+		-----
+	outerSentence : it explained something.
+		coremap sentence : it explained something.
+		sentiment : Positive
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.018  
+ 0.086  
+ 0.409  
+ 0.441  
+ 0.045  
+
+		-----
+	 outer Subject : it 	,	inner Subject : Tharpe 
+resolved as : (The District Court;The United States District Court for the Middle District of Georgia;, Tharpe;)
+
+The District Court concluded that Tharpe "ha[d] not established that his counsels' ineffectiveness constituted cause to overcome the procedural defaul[t]" and that he "failed to show actual prejudice."
+	innerSentence :  Tharpe "ha[d] not established that his counsels' ineffectiveness constituted cause to overcome the procedural defaul[t]" and that he "failed to show actual prejudice."
+		coremap sentence : Tharpe "ha[d] not established that his counsels' ineffectiveness constituted cause to overcome the procedural defaul[t]" and that he "failed to show actual prejudice."
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.111  
+ 0.573  
+ 0.263  
+ 0.039  
+ 0.015  
+
+		-----
+	outerSentence : Court concluded something.
+		coremap sentence : Court concluded something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.036  
+ 0.166  
+ 0.391  
+ 0.340  
+ 0.067  
+
+		-----
+	 outer Subject : Court 	,	inner Subject : ha 
+resolved as : (--, --)
+The District Court concluded that Tharpe "ha[d] not established that his counsels' ineffectiveness constituted cause to overcome the procedural defaul[t]" and that he "failed to show actual prejudice."
+	innerSentence :  his counsels' ineffectiveness constituted cause to overcome the procedural defaul[t]" and that he "failed to show actual prejudice."
+		coremap sentence : his counsels' ineffectiveness constituted cause to overcome the procedural defaul[t]" and that he "failed to show actual prejudice."
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.064  
+ 0.489  
+ 0.389  
+ 0.049  
+ 0.010  
+
+		-----
+	outerSentence : ha not established something.
+		coremap sentence : ha not established something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.033  
+ 0.173  
+ 0.493  
+ 0.263  
+ 0.039  
+
+		-----
+	 outer Subject : ha 	,	inner Subject : ineffectiveness 
+resolved as : (--, --)
+
+According to Tharpe, Buck established that extraordinary circumstances are present when a defendant was sentenced due to his race and new law provides an opportunity to consider the merits of his previously defaulted, race-based sentencing claim.
+	innerSentence :  extraordinary circumstances are present
+		coremap sentence : extraordinary circumstances are present
+		sentiment : Very positive
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.005  
+ 0.003  
+ 0.006  
+ 0.439  
+ 0.547  
+
+		-----
+	outerSentence : Buck established something.
+		coremap sentence : Buck established something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.018  
+ 0.080  
+ 0.460  
+ 0.380  
+ 0.062  
+
+		-----
+	 outer Subject : Buck 	,	inner Subject : extraordinary circumstances 
+resolved as : (Buck;, --)
+
+Pena-Rodriguez supplied that new law, Tharpe argued, because it held that a state no-impeachment rule must yield when there is a "clear statement that indicates [a juror] relied on racial stereotypes or animus to convict a criminal defendant."
+	innerSentence :  a state no-impeachment rule must yield
+		coremap sentence : a state no-impeachment rule must yield
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.047  
+ 0.395  
+ 0.412  
+ 0.127  
+ 0.019  
+
+		-----
+	outerSentence : it held something.
+		coremap sentence : it held something.
+		sentiment : Positive
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.006  
+ 0.024  
+ 0.339  
+ 0.588  
+ 0.044  
+
+		-----
+	 outer Subject : it 	,	inner Subject : rule 
+resolved as : (new law, Tharpe;, --)
+
+It first explained that Pena-Rodriguez announced a new procedural rule that does not apply retroactively on federal collateral review.
+	innerSentence :  Pena-Rodriguez announced a new procedural rule
+		coremap sentence : Pena-Rodriguez announced a new procedural rule
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.030  
+ 0.186  
+ 0.516  
+ 0.234  
+ 0.035  
+
+		-----
+	outerSentence : It explained something.
+		coremap sentence : It explained something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.026  
+ 0.107  
+ 0.434  
+ 0.380  
+ 0.053  
+
+		-----
+	 outer Subject : It 	,	inner Subject : Pena-Rodriguez 
+resolved as : (The District Court;the state court;the state court 's;, Pena-Rodriguez;)
+
+
+It explained that the District Court had concluded in its first decision that Tharpe failed to prove cause and prejudice.
+	innerSentence :  the District Court had concluded in its first decision
+		coremap sentence : the District Court had concluded in its first decision
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.030  
+ 0.267  
+ 0.577  
+ 0.111  
+ 0.014  
+
+		-----
+	outerSentence : It explained something.
+		coremap sentence : It explained something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.026  
+ 0.107  
+ 0.434  
+ 0.380  
+ 0.053  
+
+		-----
+	 outer Subject : It 	,	inner Subject : Court 
+resolved as : (The Eleventh Circuit;the Eleventh Circuit;, --)
+
+"As the [state court] and the District Court found, Tharpe failed to demonstrate that Barney Gattie's behavior 'had substantial and injurious effect or influence in determining the jury's verdict.' "
+	innerSentence :  Barney Gattie's behavior 'had substantial and injurious effect or influence in determining the jury's verdict.' "
+		coremap sentence : Barney Gattie's behavior 'had substantial and injurious effect or influence in determining the jury's verdict.' "
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.070  
+ 0.511  
+ 0.396  
+ 0.017  
+ 0.006  
+
+		-----
+	outerSentence : Tharpe demonstrate something.
+		coremap sentence : Tharpe demonstrate something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.027  
+ 0.124  
+ 0.391  
+ 0.389  
+ 0.068  
+
+		-----
+	 outer Subject : Tharpe 	,	inner Subject : Gattie 's behavior 
+resolved as : (Tharpe;Tharpe 's;, --)
+
+"Nor," the Eleventh Circuit continued, "has Tharpe shown that 'jurists of reason would find it debatable whether the district court was correct in its procedural ruling.' "
+	innerSentence :  'jurists of reason would find it debatable whether the district court was correct in its procedural ruling.' "
+		coremap sentence : 'jurists of reason would find it debatable whether the district court was correct in its procedural ruling.' "
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.047  
+ 0.429  
+ 0.499  
+ 0.021  
+ 0.005  
+
+		-----
+	outerSentence : Tharpe has shown something.
+		coremap sentence : Tharpe has shown something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.060  
+ 0.274  
+ 0.338  
+ 0.265  
+ 0.064  
+
+		-----
+	 outer Subject : Tharpe 	,	inner Subject : jurists 
+resolved as : (Tharpe;Tharpe 's;, --)
+
+The Court is not willing to say that Tharpe can satisfy this standard.
+	innerSentence :  Tharpe can satisfy this standard.
+		coremap sentence : Tharpe can satisfy this standard.
+		sentiment : Positive
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.073  
+ 0.266  
+ 0.265  
+ 0.304  
+ 0.092  
+
+		-----
+	outerSentence : Court say something.
+		coremap sentence : Court say something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.022  
+ 0.128  
+ 0.579  
+ 0.237  
+ 0.034  
+
+		-----
+	 outer Subject : Court 	,	inner Subject : Tharpe 
+resolved as : (--, Tharpe;Tharpe 's;)
+
+
+
+The Eleventh Circuit first held that Tharpe had failed to make a " 'substantial showing of the denial of a constitutional right,' " explaining that he had "failed to demonstrate that . . . Gattie's behavior 'had substantial and injurious effect or influence in determining the jury's verdict.' "
+	innerSentence :  Tharpe had failed to make a " 'substantial showing of the denial of a constitutional right
+		coremap sentence : Tharpe had failed to make a " 'substantial showing of the denial of a constitutional right
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.107  
+ 0.572  
+ 0.268  
+ 0.037  
+ 0.015  
+
+		-----
+	outerSentence : Circuit held something.
+		coremap sentence : Circuit held something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.004  
+ 0.029  
+ 0.828  
+ 0.129  
+ 0.010  
+
+		-----
+	 outer Subject : Circuit 	,	inner Subject : Tharpe 
+resolved as : (--, Tharpe;)
+The Eleventh Circuit first held that Tharpe had failed to make a " 'substantial showing of the denial of a constitutional right,' " explaining that he had "failed to demonstrate that . . . Gattie's behavior 'had substantial and injurious effect or influence in determining the jury's verdict.' "
+	innerSentence :  he had "failed to demonstrate that . . . Gattie's behavior 'had substantial and injurious effect or influence in determining the jury's verdict.' "
+		coremap sentence : he had "failed to demonstrate that . . . Gattie's behavior 'had substantial and injurious effect or influence in determining the jury's verdict.' "
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.197  
+ 0.709  
+ 0.089  
+ 0.003  
+ 0.002  
+
+		-----
+	outerSentence : none-outerSubject explaining something.
+		coremap sentence : none-outerSubject explaining something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.028  
+ 0.156  
+ 0.506  
+ 0.270  
+ 0.041  
+
+		-----
+	 outer Subject : none-outerSubject	,	inner Subject : he 
+resolved as : (--, Tharpe;)
+The Eleventh Circuit first held that Tharpe had failed to make a " 'substantial showing of the denial of a constitutional right,' " explaining that he had "failed to demonstrate that . . . Gattie's behavior 'had substantial and injurious effect or influence in determining the jury's verdict.' "
+	innerSentence :  . . . Gattie's behavior 'had substantial and injurious effect or influence in determining the jury's verdict.' "
+		coremap sentence : . . . Gattie's behavior 'had substantial and injurious effect or influence in determining the jury's verdict.' "
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.067  
+ 0.525  
+ 0.390  
+ 0.013  
+ 0.005  
+
+		-----
+	outerSentence : he demonstrate something.
+		coremap sentence : he demonstrate something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.008  
+ 0.036  
+ 0.568  
+ 0.354  
+ 0.034  
+
+		-----
+	 outer Subject : he 	,	inner Subject : Gattie 's behavior 
+resolved as : (Tharpe;, --)
+
+Then the Eleventh Circuit alternatively held that Tharpe had not "shown that 'jurists of reason would find it debatable whether the district court was correct in its procedural ruling.' "
+	innerSentence :  Tharpe had not "shown that 'jurists of reason would find it debatable whether the district court was correct in its procedural ruling.' "
+		coremap sentence : Tharpe had not "shown that 'jurists of reason would find it debatable whether the district court was correct in its procedural ruling.' "
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.116  
+ 0.491  
+ 0.358  
+ 0.024  
+ 0.011  
+
+		-----
+	outerSentence : Circuit held something.
+		coremap sentence : Circuit held something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.004  
+ 0.029  
+ 0.828  
+ 0.129  
+ 0.010  
+
+		-----
+	 outer Subject : Circuit 	,	inner Subject : Tharpe 
+resolved as : (--, Tharpe;)
+Then the Eleventh Circuit alternatively held that Tharpe had not "shown that 'jurists of reason would find it debatable whether the district court was correct in its procedural ruling.' "
+	innerSentence :  'jurists of reason would find it debatable whether the district court was correct in its procedural ruling.' "
+		coremap sentence : 'jurists of reason would find it debatable whether the district court was correct in its procedural ruling.' "
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.047  
+ 0.429  
+ 0.499  
+ 0.021  
+ 0.005  
+
+		-----
+	outerSentence : Tharpe had not shown something.
+		coremap sentence : Tharpe had not shown something.
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.083  
+ 0.521  
+ 0.313  
+ 0.064  
+ 0.019  
+
+		-----
+	 outer Subject : Tharpe 	,	inner Subject : jurists 
+resolved as : (Tharpe;, --)
+
+Indeed, neither party suggests that the Eleventh Circuit's decision did not reach cause, and both parties briefed the issue to this Court.
+	innerSentence :  the Eleventh Circuit's decision did not reach cause
+		coremap sentence : the Eleventh Circuit's decision did not reach cause
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.024  
+ 0.374  
+ 0.569  
+ 0.029  
+ 0.004  
+
+		-----
+	outerSentence : party suggests something.
+		coremap sentence : party suggests something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.010  
+ 0.130  
+ 0.809  
+ 0.048  
+ 0.003  
+
+		-----
+	 outer Subject : party 	,	inner Subject : Circuit 's decision 
+resolved as : (--, --)
+
+In fact, "[a]n appropriately self-respecting response to today's summary vacatur would be summary reissuance of the same opinion," ibid., with a sentence clarifying that the Eleventh Circuit agrees with the District Court's decision on cause.
+	innerSentence :  the Eleventh Circuit agrees with the District Court's decision on cause.
+		coremap sentence : the Eleventh Circuit agrees with the District Court's decision on cause.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.056  
+ 0.399  
+ 0.425  
+ 0.101  
+ 0.019  
+
+		-----
+	outerSentence : none-outerSubject clarifying something.
+		coremap sentence : none-outerSubject clarifying something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.036  
+ 0.166  
+ 0.391  
+ 0.340  
+ 0.067  
+
+		-----
+	 outer Subject : none-outerSubject	,	inner Subject : Circuit 
+resolved as : (--, --)
+
+The Court acknowledges that our review "is certainly not limited to grounds expressly addressed by the court whose decision is under review."
+	innerSentence :  our review "is certainly not limited to grounds expressly addressed by the court whose decision is under review."
+		coremap sentence : our review "is certainly not limited to grounds expressly addressed by the court whose decision is under review."
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.052  
+ 0.495  
+ 0.424  
+ 0.024  
+ 0.004  
+
+		-----
+	outerSentence : Court acknowledges something.
+		coremap sentence : Court acknowledges something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.041  
+ 0.226  
+ 0.438  
+ 0.250  
+ 0.045  
+
+		-----
+	 outer Subject : Court 	,	inner Subject : our review 
+resolved as : (--, The Court;The Court 's;the Court;the Court 's;the District Court;the court whose decision is under review;)
+
+The Court's self-imposed limitation is inexcusable given that Tharpe's collateral challenges to his sentence have lasted 24 years, the Court's failure to consider alternative grounds has halted an imminent execution, the alternative grounds were reached below, several of them were briefed here, and many of them are obviously correct.
+	innerSentence :  Tharpe's collateral challenges to his sentence have lasted 24 years
+		coremap sentence : Tharpe's collateral challenges to his sentence have lasted 24 years
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.023  
+ 0.214  
+ 0.641  
+ 0.111  
+ 0.011  
+
+		-----
+	outerSentence : none-outerSubject given something.
+		coremap sentence : none-outerSubject given something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.023  
+ 0.130  
+ 0.567  
+ 0.244  
+ 0.036  
+
+		-----
+	 outer Subject : none-outerSubject	,	inner Subject : Tharpe 's challenges 
+resolved as : (--, --)
+
+First, no reasonable jurist could argue that Pena-Rodriguez applies retroactively on collateral review.
+	innerSentence :  Pena-Rodriguez applies retroactively on collateral review.
+		coremap sentence : Pena-Rodriguez applies retroactively on collateral review.
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.066  
+ 0.467  
+ 0.400  
+ 0.053  
+ 0.015  
+
+		-----
+	outerSentence : reasonable jurist could argue something.
+		coremap sentence : reasonable jurist could argue something.
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.061  
+ 0.395  
+ 0.342  
+ 0.168  
+ 0.034  
+
+		-----
+	 outer Subject : reasonable jurist 	,	inner Subject : Pena-Rodriguez 
+resolved as : (--, Pena-Rodriguez;)
+
+Pena-Rodriguez established a new rule: The opinion states that it is answering a question "left open" by this Court's earlier precedents.
+	innerSentence :  it is answering a question "left open" by this Court's earlier precedents.
+		coremap sentence : it is answering a question "left open" by this Court's earlier precedents.
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.145  
+ 0.585  
+ 0.180  
+ 0.066  
+ 0.025  
+
+		-----
+	outerSentence : opinion states something.
+		coremap sentence : opinion states something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.004  
+ 0.035  
+ 0.877  
+ 0.080  
+ 0.004  
+
+		-----
+	 outer Subject : opinion 	,	inner Subject : it 
+resolved as : (--, The opinion;)
+
+Since Pena-Rodriguez permits a trial court "to consider [certain] evidence," 580 U. S., at ___ (slip op., at 17), and does not "alte[r] the range of conduct or the class of persons that the law punishes," Schriro v. Summerlin, 542 U. S. 348, 353 (2004), it cannot be a substantive rule.2 And Tharpe does not even attempt to argue that Pena-Rodriguez established a watershed rule of criminal procedure--a class of rules that is so "narrow" that it is " 'unlikely that any has yet to emerge.' "
+	innerSentence :  Pena-Rodriguez established a watershed rule of criminal procedure--a class of rules
+		coremap sentence : Pena-Rodriguez established a watershed rule of criminal procedure--a class of rules
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.039  
+ 0.257  
+ 0.496  
+ 0.182  
+ 0.026  
+
+		-----
+	outerSentence : Schriro argue something.
+		coremap sentence : Schriro argue something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.039  
+ 0.239  
+ 0.508  
+ 0.180  
+ 0.034  
+
+		-----
+	 outer Subject : Schriro 	,	inner Subject : Pena-Rodriguez 
+resolved as : (Schriro;, Pena-Rodriguez;)
+Since Pena-Rodriguez permits a trial court "to consider [certain] evidence," 580 U. S., at ___ (slip op., at 17), and does not "alte[r] the range of conduct or the class of persons that the law punishes," Schriro v. Summerlin, 542 U. S. 348, 353 (2004), it cannot be a substantive rule.2 And Tharpe does not even attempt to argue that Pena-Rodriguez established a watershed rule of criminal procedure--a class of rules that is so "narrow" that it is " 'unlikely that any has yet to emerge.' "
+	innerSentence :  any has yet to emerge.' "
+		coremap sentence : any has yet to emerge.' "
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.001  
+ 0.015  
+ 0.958  
+ 0.026  
+ 0.001  
+
+		-----
+	outerSentence : none-outerSubject unlikely something.
+		coremap sentence : none-outerSubject unlikely something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.024  
+ 0.154  
+ 0.628  
+ 0.172  
+ 0.022  
+
+		-----
+	 outer Subject : none-outerSubject	,	inner Subject : any 
+resolved as : (--, --)
+
+Second, no reasonable jurist could argue that Tharpe demonstrated cause for his procedural default.
+	innerSentence :  Tharpe demonstrated cause for his procedural default.
+		coremap sentence : Tharpe demonstrated cause for his procedural default.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.048  
+ 0.304  
+ 0.444  
+ 0.170  
+ 0.033  
+
+		-----
+	outerSentence : reasonable jurist could argue something.
+		coremap sentence : reasonable jurist could argue something.
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.061  
+ 0.395  
+ 0.342  
+ 0.168  
+ 0.034  
+
+		-----
+	 outer Subject : reasonable jurist 	,	inner Subject : Tharpe 
+resolved as : (--, Tharpe;Tharpe 's;)
+
+
+In his reply brief in support of certiorari in this Court, Tharpe argues that he did not have to raise his claim of juror bias on direct appeal.
+	innerSentence :  he did not have to raise his claim of juror bias on direct appeal.
+		coremap sentence : he did not have to raise his claim of juror bias on direct appeal.
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.104  
+ 0.599  
+ 0.260  
+ 0.028  
+ 0.010  
+
+		-----
+	outerSentence : Tharpe argues something.
+		coremap sentence : Tharpe argues something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.043  
+ 0.255  
+ 0.494  
+ 0.172  
+ 0.035  
+
+		-----
+	 outer Subject : Tharpe 	,	inner Subject : he 
+resolved as : (Tharpe;Tharpe 's;, Tharpe;Tharpe 's;)
+
+The state court's finding that Tharpe "failed to show that any alleged racial bias of Mr. Gattie's was the basis for sentencing" him, App.
+	innerSentence :  any alleged racial bias of Mr. Gattie's was the basis for sentencing" him
+		coremap sentence : any alleged racial bias of Mr. Gattie's was the basis for sentencing" him
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.032  
+ 0.456  
+ 0.500  
+ 0.010  
+ 0.002  
+
+		-----
+	outerSentence : Tharpe show something.
+		coremap sentence : Tharpe show something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.022  
+ 0.105  
+ 0.497  
+ 0.329  
+ 0.047  
+
+		-----
+	 outer Subject : Tharpe 	,	inner Subject : alleged bias 
+resolved as : (Tharpe;Tharpe 's;, --)
+
+He also denied having sworn to the first affidavit and explained that he had consumed a substantial amount of alcohol on the day he signed it.
+	innerSentence :  he had consumed a substantial amount of alcohol on the day he signed it.
+		coremap sentence : he had consumed a substantial amount of alcohol on the day he signed it.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.013  
+ 0.060  
+ 0.516  
+ 0.372  
+ 0.040  
+
+		-----
+	outerSentence : none-outerSubject explained something.
+		coremap sentence : none-outerSubject explained something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.036  
+ 0.166  
+ 0.391  
+ 0.340  
+ 0.067  
+
+		-----
+	 outer Subject : none-outerSubject	,	inner Subject : he 
+resolved as : (--, Gattie;Gattie 's;Mr. Gattie 's;credit Gattie 's;)
+
+Gattie's testimony was consistent with the testimony of the other ten jurors deposed in front of the trial court, each of whom testified that they did not consider race and that race was not discussed during their deliberations.
+	innerSentence :  they did not consider race and that race was not discussed during their deliberations.
+		coremap sentence : they did not consider race and that race was not discussed during their deliberations.
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.075  
+ 0.543  
+ 0.346  
+ 0.029  
+ 0.008  
+
+		-----
+	outerSentence : each testified something.
+		coremap sentence : each testified something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.008  
+ 0.041  
+ 0.727  
+ 0.207  
+ 0.016  
+
+		-----
+	 outer Subject : each 	,	inner Subject : they 
+resolved as : (--, each of whom;)
+
+Instead, the relevant question is whether a reasonable jurist could argue that the District Court abused its discretion by concluding that the state court's decision to credit Gattie's testimony has not been rebutted by clear and convincing evidence.
+	innerSentence :  the District Court abused its discretion by concluding that the state court's decision to credit Gattie's testimony has not been rebutted by clear and convincing evidence.
+		coremap sentence : the District Court abused its discretion by concluding that the state court's decision to credit Gattie's testimony has not been rebutted by clear and convincing evidence.
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.150  
+ 0.643  
+ 0.185  
+ 0.014  
+ 0.008  
+
+		-----
+	outerSentence : reasonable jurist could argue something.
+		coremap sentence : reasonable jurist could argue something.
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.061  
+ 0.395  
+ 0.342  
+ 0.168  
+ 0.034  
+
+		-----
+	 outer Subject : reasonable jurist 	,	inner Subject : Court 
+resolved as : (--, --)
+Instead, the relevant question is whether a reasonable jurist could argue that the District Court abused its discretion by concluding that the state court's decision to credit Gattie's testimony has not been rebutted by clear and convincing evidence.
+	innerSentence :  the state court's decision to credit Gattie's testimony has not been rebutted by clear and convincing evidence.
+		coremap sentence : the state court's decision to credit Gattie's testimony has not been rebutted by clear and convincing evidence.
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.116  
+ 0.700  
+ 0.148  
+ 0.026  
+ 0.010  
+
+		-----
+	outerSentence : Court concluding something.
+		coremap sentence : Court concluding something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.028  
+ 0.144  
+ 0.491  
+ 0.294  
+ 0.044  
+
+		-----
+	 outer Subject : Court 	,	inner Subject : court 's decision 
+resolved as : (--, --)
+
+
+Under these standards, no reasonable jurist could argue that Tharpe rebutted the state court's decision by clear and convincing evidence, much less that the District Court's deference to the state court's credibility determination was an abuse of discretion.
+	innerSentence :  Tharpe rebutted the state court's decision by clear and convincing evidence
+		coremap sentence : Tharpe rebutted the state court's decision by clear and convincing evidence
+		sentiment : Positive
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.035  
+ 0.169  
+ 0.351  
+ 0.378  
+ 0.067  
+
+		-----
+	outerSentence : reasonable jurist could argue something.
+		coremap sentence : reasonable jurist could argue something.
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.061  
+ 0.395  
+ 0.342  
+ 0.168  
+ 0.034  
+
+		-----
+	 outer Subject : reasonable jurist 	,	inner Subject : Tharpe 
+resolved as : (--, --)
+Under these standards, no reasonable jurist could argue that Tharpe rebutted the state court's decision by clear and convincing evidence, much less that the District Court's deference to the state court's credibility determination was an abuse of discretion.
+	innerSentence :  the District Court's deference to the state court's credibility determination was an abuse of discretion.
+		coremap sentence : the District Court's deference to the state court's credibility determination was an abuse of discretion.
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.121  
+ 0.670  
+ 0.182  
+ 0.018  
+ 0.008  
+
+		-----
+	outerSentence : none-outerSubject less something.
+		coremap sentence : none-outerSubject less something.
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.210  
+ 0.616  
+ 0.146  
+ 0.015  
+ 0.013  
+
+		-----
+	 outer Subject : none-outerSubject	,	inner Subject : Court 's deference 
+resolved as : (--, --)
+
+It openly anticipates that he will not be able to obtain a COA, which makes sense given the insurmountable barriers he faces on remand.
+	innerSentence :  he will not be able to obtain a COA
+		coremap sentence : he will not be able to obtain a COA
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.048  
+ 0.423  
+ 0.437  
+ 0.080  
+ 0.013  
+
+		-----
+	outerSentence : It anticipates something.
+		coremap sentence : It anticipates something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.026  
+ 0.107  
+ 0.434  
+ 0.380  
+ 0.053  
+
+		-----
+	 outer Subject : It 	,	inner Subject : he 
+resolved as : (The Court;the Court 's;, --)
+
+The Eleventh Circuit also held that Tharpe had not exhausted his Pena-Rodriguez claim in state court.
+	innerSentence :  Tharpe had not exhausted his Pena-Rodriguez claim in state court.
+		coremap sentence : Tharpe had not exhausted his Pena-Rodriguez claim in state court.
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.070  
+ 0.457  
+ 0.373  
+ 0.079  
+ 0.021  
+
+		-----
+	outerSentence : Circuit held something.
+		coremap sentence : Circuit held something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.004  
+ 0.029  
+ 0.828  
+ 0.129  
+ 0.010  
+
+		-----
+	 outer Subject : Circuit 	,	inner Subject : Tharpe 
+resolved as : (--, Tharpe;)
+
+Moreover, because the state court considered Tharpe's evidence of racial bias anyway, despite Georgia's no-impeachment rule, no reasonable jurist could argue that Pena-Rodriguez presents an extraordinary circumstance that entitles Tharpe to reopen his judgment under Rule 60(b).
+	innerSentence :  Pena-Rodriguez presents an extraordinary circumstance
+		coremap sentence : Pena-Rodriguez presents an extraordinary circumstance
+		sentiment : Positive
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.012  
+ 0.019  
+ 0.069  
+ 0.581  
+ 0.320  
+
+		-----
+	outerSentence : reasonable jurist could argue something.
+		coremap sentence : reasonable jurist could argue something.
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.061  
+ 0.395  
+ 0.342  
+ 0.168  
+ 0.034  
+
+		-----
+	 outer Subject : reasonable jurist 	,	inner Subject : Pena-Rodriguez 
+resolved as : (--, Pena-Rodriguez;)
+
+Even if Tharpe could show that Pena-Rodriguez is retroactive under Teague and could overcome his procedural default, no reasonable jurist could argue that he has stated a valid juror-bias claim on the merits.
+	innerSentence :  Pena-Rodriguez is retroactive under Teague and could overcome his procedural default
+		coremap sentence : Pena-Rodriguez is retroactive under Teague and could overcome his procedural default
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.120  
+ 0.537  
+ 0.211  
+ 0.097  
+ 0.035  
+
+		-----
+	outerSentence : Tharpe could show something.
+		coremap sentence : Tharpe could show something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.037  
+ 0.242  
+ 0.473  
+ 0.213  
+ 0.034  
+
+		-----
+	 outer Subject : Tharpe 	,	inner Subject : Pena-Rodriguez 
+resolved as : (Tharpe;, Pena-Rodriguez;)
+Even if Tharpe could show that Pena-Rodriguez is retroactive under Teague and could overcome his procedural default, no reasonable jurist could argue that he has stated a valid juror-bias claim on the merits.
+	innerSentence :  he has stated a valid juror-bias claim on the merits.
+		coremap sentence : he has stated a valid juror-bias claim on the merits.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.051  
+ 0.215  
+ 0.422  
+ 0.256  
+ 0.056  
+
+		-----
+	outerSentence : reasonable jurist could argue something.
+		coremap sentence : reasonable jurist could argue something.
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.061  
+ 0.395  
+ 0.342  
+ 0.168  
+ 0.034  
+
+		-----
+	 outer Subject : reasonable jurist 	,	inner Subject : he 
+resolved as : (--, Pena-Rodriguez;)
+
+The state court concluded that his claim failed in the absence of any admissible evidence to support it.
+	innerSentence :  his claim failed in the absence of any admissible evidence to support it.
+		coremap sentence : his claim failed in the absence of any admissible evidence to support it.
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.160  
+ 0.722  
+ 0.107  
+ 0.006  
+ 0.005  
+
+		-----
+	outerSentence : court concluded something.
+		coremap sentence : court concluded something.
+		sentiment : Positive
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.028  
+ 0.145  
+ 0.232  
+ 0.525  
+ 0.070  
+
+		-----
+	 outer Subject : court 	,	inner Subject : his claim 
+resolved as : (--, Pena-Rodriguez;)
+
+To obtain federal habeas relief, Tharpe must show that this merits decision "was contrary to, or involved an unreasonable application of, clearly established Federal law, as determined by the Supreme Court of the United States."
+	innerSentence :  this merits decision "was contrary to
+		coremap sentence : this merits decision "was contrary to
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.031  
+ 0.304  
+ 0.559  
+ 0.095  
+ 0.011  
+
+		-----
+	outerSentence : Tharpe must show something.
+		coremap sentence : Tharpe must show something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.029  
+ 0.153  
+ 0.467  
+ 0.301  
+ 0.050  
+
+		-----
+	 outer Subject : Tharpe 	,	inner Subject : decision 
+resolved as : (Tharpe;, --)
+
+Since the state court issued its decision nearly a decade before Pena-Rodriguez, no reasonable jurist could argue that the state court's decision was contrary to clearly established law at "the time the state court render[ed] its decision."
+	innerSentence :  the state court's decision was contrary to clearly established law at "the time the state court render[ed] its decision."
+		coremap sentence : the state court's decision was contrary to clearly established law at "the time the state court render[ed] its decision."
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.125  
+ 0.612  
+ 0.247  
+ 0.010  
+ 0.006  
+
+		-----
+	outerSentence : reasonable jurist could argue something.
+		coremap sentence : reasonable jurist could argue something.
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.061  
+ 0.395  
+ 0.342  
+ 0.168  
+ 0.034  
+
+		-----
+	 outer Subject : reasonable jurist 	,	inner Subject : court 's decision 
+resolved as : (--, --)
+

@@ -1,0 +1,2239 @@
+A state habeas court subsequently determined that, under Atkins v. Virginia, 536 U. S. 304, and Hall v. Florida, 572 U. S. ___, Moore qualified as intellectually disabled and that his death sentence therefore violated the Eighth Amendment's proscription of "cruel and unusual punishments."
+	innerSentence :  536 U. S. 304
+		coremap sentence : 536 U. S. 304
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.043  
+ 0.266  
+ 0.466  
+ 0.189  
+ 0.036  
+
+		-----
+	outerSentence : none-outerSubject determined something.
+		coremap sentence : none-outerSubject determined something.
+		sentiment : Positive
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.015  
+ 0.055  
+ 0.397  
+ 0.464  
+ 0.069  
+
+		-----
+	 outer Subject : none-outerSubject	,	inner Subject : none-innersubject
+resolved as : (--, --)
+
+Based on only two of Moore's IQ scores (of 74 and 78), the CCA concluded that Moore had not shown significantly subaverage intellectual functioning.
+	innerSentence :  Moore had not shown significantly subaverage intellectual functioning.
+		coremap sentence : Moore had not shown significantly subaverage intellectual functioning.
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.216  
+ 0.579  
+ 0.160  
+ 0.029  
+ 0.016  
+
+		-----
+	outerSentence : CCA concluded something.
+		coremap sentence : CCA concluded something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.036  
+ 0.166  
+ 0.391  
+ 0.340  
+ 0.067  
+
+		-----
+	 outer Subject : CCA 	,	inner Subject : Moore 
+resolved as : (--, Moore;Moore 's;Petitioner Moore;)
+
+Briseno's seven evidentiary factors, the CCA further determined, weighed against finding that Moore had satisfied the relatedness requirement.
+	innerSentence :  Moore had satisfied the relatedness requirement.
+		coremap sentence : Moore had satisfied the relatedness requirement.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.024  
+ 0.157  
+ 0.667  
+ 0.138  
+ 0.015  
+
+		-----
+	outerSentence : evidentiary Briseno 's factors finding something.
+		coremap sentence : evidentiary Briseno 's factors finding something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.024  
+ 0.128  
+ 0.462  
+ 0.343  
+ 0.043  
+
+		-----
+	 outer Subject : evidentiary Briseno 's factors 	,	inner Subject : Moore 
+resolved as : (--, Moore;Moore 's;Petitioner Moore;)
+
+Hall indicated that being informed by the medical community does not demand adherence to everything stated in the latest medical guide.
+	innerSentence :  being informed by the medical community does not demand adherence to everything stated in the latest medical guide.
+		coremap sentence : being informed by the medical community does not demand adherence to everything stated in the latest medical guide.
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.101  
+ 0.716  
+ 0.157  
+ 0.020  
+ 0.006  
+
+		-----
+	outerSentence : Hall indicated something.
+		coremap sentence : Hall indicated something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.005  
+ 0.021  
+ 0.551  
+ 0.397  
+ 0.027  
+
+		-----
+	 outer Subject : Hall 	,	inner Subject : none-innersubject
+resolved as : (Hall;, --)
+
+(b) The CCA's conclusion that Moore's IQ scores established that he is not intellectually disabled is irreconcilable with Hall, which instructs that, where an IQ score is close to, but above, 70, courts must account for the test's "standard error of measurement."
+	innerSentence :  he is not intellectually disabled is irreconcilable with Hall
+		coremap sentence : he is not intellectually disabled is irreconcilable with Hall
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.090  
+ 0.568  
+ 0.317  
+ 0.019  
+ 0.007  
+
+		-----
+	outerSentence : Moore 's scores established something.
+		coremap sentence : Moore 's scores established something.
+		sentiment : Positive
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.003  
+ 0.010  
+ 0.263  
+ 0.659  
+ 0.064  
+
+		-----
+	 outer Subject : Moore 's scores 	,	inner Subject : he 
+resolved as : (--, Moore 's;)
+(b) The CCA's conclusion that Moore's IQ scores established that he is not intellectually disabled is irreconcilable with Hall, which instructs that, where an IQ score is close to, but above, 70, courts must account for the test's "standard error of measurement."
+	innerSentence :  courts must account for the test's "standard error of measurement."
+		coremap sentence : courts must account for the test's "standard error of measurement."
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.036  
+ 0.331  
+ 0.602  
+ 0.026  
+ 0.006  
+
+		-----
+	outerSentence : which instructs something.
+		coremap sentence : which instructs something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.014  
+ 0.063  
+ 0.466  
+ 0.411  
+ 0.047  
+
+		-----
+	 outer Subject : which 	,	inner Subject : courts 
+resolved as : (--, --)
+
+(2) The CCA further concluded that Moore's record of academic failure, along with a history of childhood abuse and suffering, detracted from a determination that his intellectual and adaptive deficits were related.
+	innerSentence :  detracted from a determination that his intellectual and adaptive deficits were related.
+		coremap sentence : detracted from a determination that his intellectual and adaptive deficits were related.
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.105  
+ 0.632  
+ 0.237  
+ 0.019  
+ 0.007  
+
+		-----
+	outerSentence : CCA concluded something.
+		coremap sentence : CCA concluded something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.036  
+ 0.166  
+ 0.391  
+ 0.340  
+ 0.067  
+
+		-----
+	 outer Subject : CCA 	,	inner Subject : Moore 's record 
+resolved as : (--, --)
+
+The CCA also departed from clinical practice by requiring Moore to show that his adaptive deficits were not related to "a personality disorder."
+	innerSentence :  his adaptive deficits were not related to "a personality disorder."
+		coremap sentence : his adaptive deficits were not related to "a personality disorder."
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.047  
+ 0.491  
+ 0.446  
+ 0.013  
+ 0.004  
+
+		-----
+	outerSentence : CCA show something.
+		coremap sentence : CCA show something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.022  
+ 0.105  
+ 0.497  
+ 0.329  
+ 0.047  
+
+		-----
+	 outer Subject : CCA 	,	inner Subject : adaptive his deficits 
+resolved as : (--, Moore;Moore 's;)
+
+Mental-health professionals recognize that intellectually disabled people may have other co-existing mental or physical impairments, including, e.g., attention-deficit/hyperactivity disorder, depressive and bipolar disorders, and autism.
+	innerSentence :  intellectually disabled people may have other co-existing mental or physical impairments
+		coremap sentence : intellectually disabled people may have other co-existing mental or physical impairments
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.056  
+ 0.538  
+ 0.396  
+ 0.008  
+ 0.003  
+
+		-----
+	outerSentence : professionals recognize something.
+		coremap sentence : professionals recognize something.
+		sentiment : Positive
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.017  
+ 0.066  
+ 0.163  
+ 0.658  
+ 0.096  
+
+		-----
+	 outer Subject : professionals 	,	inner Subject : disabled people 
+resolved as : (--, --)
+
+
+The habeas court therefore recommended that Moore be granted relief.
+	innerSentence :  Moore be granted relief.
+		coremap sentence : Moore be granted relief.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.051  
+ 0.273  
+ 0.528  
+ 0.126  
+ 0.022  
+
+		-----
+	outerSentence : court recommended something.
+		coremap sentence : court recommended something.
+		sentiment : Positive
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.007  
+ 0.023  
+ 0.104  
+ 0.745  
+ 0.121  
+
+		-----
+	 outer Subject : court 	,	inner Subject : Moore 
+resolved as : (--, Bobby James Moore;Moore;Moore 's;)
+
+The appeals court further determined that the evidentiary factors announced in Briseno "weigh[ed] heavily" against upsetting Moore's death sentence.
+	innerSentence :  the evidentiary factors announced in Briseno "weigh[ed] heavily" against upsetting Moore's death sentence.
+		coremap sentence : the evidentiary factors announced in Briseno "weigh[ed] heavily" against upsetting Moore's death sentence.
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.159  
+ 0.635  
+ 0.170  
+ 0.023  
+ 0.014  
+
+		-----
+	outerSentence : court determined something.
+		coremap sentence : court determined something.
+		sentiment : Positive
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.007  
+ 0.030  
+ 0.161  
+ 0.746  
+ 0.057  
+
+		-----
+	 outer Subject : court 	,	inner Subject : evidentiary factors 
+resolved as : (--, --)
+
+A federal habeas court later vacated that sentence based on ineffective assistance of trial counsel, see Moore v. Collins, 1995 U. S. Dist.
+	innerSentence :  see Moore v. Collins
+		coremap sentence : see Moore v. Collins
+		sentiment : Positive
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.033  
+ 0.209  
+ 0.305  
+ 0.415  
+ 0.039  
+
+		-----
+	outerSentence : federal court vacated something.
+		coremap sentence : federal court vacated something.
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.073  
+ 0.474  
+ 0.346  
+ 0.086  
+ 0.022  
+
+		-----
+	 outer Subject : federal court 	,	inner Subject : sentence 
+resolved as : (--, --)
+
+The evidence revealed that Moore had significant mental and social difficulties beginning at an early age.
+	innerSentence :  Moore had significant mental and social difficulties beginning at an early age.
+		coremap sentence : Moore had significant mental and social difficulties beginning at an early age.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.048  
+ 0.308  
+ 0.535  
+ 0.093  
+ 0.015  
+
+		-----
+	outerSentence : evidence revealed something.
+		coremap sentence : evidence revealed something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.005  
+ 0.026  
+ 0.626  
+ 0.324  
+ 0.019  
+
+		-----
+	 outer Subject : evidence 	,	inner Subject : Moore 
+resolved as : (--, Ex parte Moore, No. 314483-C -LRB- 185th Jud;Moore;Moore 's;)
+
+Based on this evidence, the state habeas court recommended that the CCA reduce Moore's sentence to life in prison or grant him a new trial on intellectual disability.
+	innerSentence :  the CCA reduce Moore's sentence to life in prison or grant him a new trial on intellectual disability.
+		coremap sentence : the CCA reduce Moore's sentence to life in prison or grant him a new trial on intellectual disability.
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.069  
+ 0.533  
+ 0.332  
+ 0.054  
+ 0.012  
+
+		-----
+	outerSentence : court recommended something.
+		coremap sentence : court recommended something.
+		sentiment : Positive
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.007  
+ 0.023  
+ 0.104  
+ 0.745  
+ 0.121  
+
+		-----
+	 outer Subject : court 	,	inner Subject : CCA 
+resolved as : (--, --)
+
+Employing Briseno, the CCA first determined that Moore had failed to prove significantly subaverage intellectual functioning.
+	innerSentence :  Moore had failed to prove significantly subaverage intellectual functioning.
+		coremap sentence : Moore had failed to prove significantly subaverage intellectual functioning.
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.239  
+ 0.570  
+ 0.159  
+ 0.020  
+ 0.012  
+
+		-----
+	outerSentence : first determined something.
+		coremap sentence : first determined something.
+		sentiment : Positive
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.002  
+ 0.008  
+ 0.405  
+ 0.568  
+ 0.018  
+
+		-----
+	 outer Subject : first 	,	inner Subject : Moore 
+resolved as : (--, Moore;Moore 's;)
+
+
+Based on the two scores, but not on the lower portion of their ranges, the court concluded that Moore's scores ranked "above the intellectually disabled range" (i.e., above 70).
+	innerSentence :  Moore's scores ranked "above the intellectually disabled range" (i.e.
+		coremap sentence : Moore's scores ranked "above the intellectually disabled range" (i.e.
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.050  
+ 0.451  
+ 0.404  
+ 0.082  
+ 0.012  
+
+		-----
+	outerSentence : court concluded something.
+		coremap sentence : court concluded something.
+		sentiment : Positive
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.028  
+ 0.145  
+ 0.232  
+ 0.525  
+ 0.070  
+
+		-----
+	 outer Subject : court 	,	inner Subject : Moore 's scores 
+resolved as : (--, --)
+
+"Even if [Moore] had proven that he suffers from significantly sub-average general intellectual functioning," the court continued, he failed to prove "significant and related limitations in adaptive functioning."
+	innerSentence :  he suffers from significantly sub-average general intellectual functioning
+		coremap sentence : he suffers from significantly sub-average general intellectual functioning
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.066  
+ 0.333  
+ 0.382  
+ 0.178  
+ 0.041  
+
+		-----
+	outerSentence : none-outerSubject had proven something.
+		coremap sentence : none-outerSubject had proven something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.027  
+ 0.155  
+ 0.518  
+ 0.262  
+ 0.038  
+
+		-----
+	 outer Subject : none-outerSubject	,	inner Subject : he 
+resolved as : (--, -LSB- Moore;Moore;Moore 's;the State 's expert;the expert;)
+
+True, the court acknowledged, Moore's and the State's experts agreed that Moore's adaptive-functioning test scores fell more than two standard deviations below the mean.
+	innerSentence :  Moore's adaptive-functioning test scores fell more than two standard deviations below the mean.
+		coremap sentence : Moore's adaptive-functioning test scores fell more than two standard deviations below the mean.
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.250  
+ 0.592  
+ 0.099  
+ 0.033  
+ 0.026  
+
+		-----
+	outerSentence : Moore 's experts agreed something.
+		coremap sentence : Moore 's experts agreed something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.013  
+ 0.066  
+ 0.516  
+ 0.371  
+ 0.035  
+
+		-----
+	 outer Subject : Moore 's experts 	,	inner Subject : adaptive-functioning Moore 's scores 
+resolved as : (--, --)
+
+Moore's significant improvement in prison, in the CCA's view, confirmed that his academic and social difficulties were not related to intellectual-functioning deficits.
+	innerSentence :  his academic and social difficulties were not related to intellectual-functioning deficits.
+		coremap sentence : his academic and social difficulties were not related to intellectual-functioning deficits.
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.056  
+ 0.539  
+ 0.355  
+ 0.042  
+ 0.007  
+
+		-----
+	outerSentence : significant Moore 's improvement confirmed something.
+		coremap sentence : significant Moore 's improvement confirmed something.
+		sentiment : Positive
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.027  
+ 0.096  
+ 0.206  
+ 0.548  
+ 0.123  
+
+		-----
+	 outer Subject : significant Moore 's improvement 	,	inner Subject : academic his difficulties 
+resolved as : (--, Moore;Moore 's;)
+
+The court then examined each of the seven Briseno evidentiary factors, see supra, at 5-6, and n. 6, concluding that those factors "weigh[ed] heavily" against finding that Moore had satisfied the relatedness requirement.
+	innerSentence :  those factors "weigh[ed] heavily" against finding that Moore had satisfied the relatedness requirement.
+		coremap sentence : those factors "weigh[ed] heavily" against finding that Moore had satisfied the relatedness requirement.
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.101  
+ 0.653  
+ 0.187  
+ 0.047  
+ 0.013  
+
+		-----
+	outerSentence : none-outerSubject concluding something.
+		coremap sentence : none-outerSubject concluding something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.036  
+ 0.166  
+ 0.391  
+ 0.340  
+ 0.067  
+
+		-----
+	 outer Subject : none-outerSubject	,	inner Subject : factors 
+resolved as : (--, --)
+The court then examined each of the seven Briseno evidentiary factors, see supra, at 5-6, and n. 6, concluding that those factors "weigh[ed] heavily" against finding that Moore had satisfied the relatedness requirement.
+	innerSentence :  Moore had satisfied the relatedness requirement.
+		coremap sentence : Moore had satisfied the relatedness requirement.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.024  
+ 0.157  
+ 0.667  
+ 0.138  
+ 0.015  
+
+		-----
+	outerSentence : factors finding something.
+		coremap sentence : factors finding something.
+		sentiment : Positive
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.015  
+ 0.067  
+ 0.340  
+ 0.526  
+ 0.053  
+
+		-----
+	 outer Subject : factors 	,	inner Subject : Moore 
+resolved as : (--, Moore;Moore 's;)
+
+
+
+In Hall v. Florida, we held that a State cannot refuse to entertain other evidence of intellectual disability when a defendant has an IQ score above 70.
+	innerSentence :  a State cannot refuse to entertain other evidence of intellectual disability
+		coremap sentence : a State cannot refuse to entertain other evidence of intellectual disability
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.085  
+ 0.648  
+ 0.205  
+ 0.050  
+ 0.011  
+
+		-----
+	outerSentence : we held something.
+		coremap sentence : we held something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.004  
+ 0.015  
+ 0.551  
+ 0.401  
+ 0.030  
+
+		-----
+	 outer Subject : we 	,	inner Subject : State 
+resolved as : (Atkins and Hall;, --)
+
+We further noted that Florida had parted ways with practices and trends in other States.
+	innerSentence :  Florida had parted ways with practices and trends in other States.
+		coremap sentence : Florida had parted ways with practices and trends in other States.
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.088  
+ 0.498  
+ 0.317  
+ 0.075  
+ 0.022  
+
+		-----
+	outerSentence : We noted something.
+		coremap sentence : We noted something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.044  
+ 0.272  
+ 0.425  
+ 0.226  
+ 0.033  
+
+		-----
+	 outer Subject : We 	,	inner Subject : Florida 
+resolved as : (Atkins and Hall;, Florida;)
+
+Hall indicated that being informed by the medical community does not demand adherence to everything stated in the latest medical guide.
+	innerSentence :  being informed by the medical community does not demand adherence to everything stated in the latest medical guide.
+		coremap sentence : being informed by the medical community does not demand adherence to everything stated in the latest medical guide.
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.101  
+ 0.716  
+ 0.157  
+ 0.020  
+ 0.006  
+
+		-----
+	outerSentence : Hall indicated something.
+		coremap sentence : Hall indicated something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.005  
+ 0.021  
+ 0.551  
+ 0.397  
+ 0.027  
+
+		-----
+	 outer Subject : Hall 	,	inner Subject : none-innersubject
+resolved as : (Hall;, --)
+
+The CCA's conclusion that Moore's IQ scores established that he is not intellectually disabled is irreconcilable with Hall.
+	innerSentence :  he is not intellectually disabled is irreconcilable with Hall.
+		coremap sentence : he is not intellectually disabled is irreconcilable with Hall.
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.130  
+ 0.624  
+ 0.219  
+ 0.018  
+ 0.009  
+
+		-----
+	outerSentence : Moore 's scores established something.
+		coremap sentence : Moore 's scores established something.
+		sentiment : Positive
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.003  
+ 0.010  
+ 0.263  
+ 0.659  
+ 0.064  
+
+		-----
+	 outer Subject : Moore 's scores 	,	inner Subject : he 
+resolved as : (--, Moore 's;)
+
+Hall instructs that, where an IQ score is close to, but above, 70, courts must account for the test's "standard error of measurement."
+	innerSentence :  courts must account for the test's "standard error of measurement."
+		coremap sentence : courts must account for the test's "standard error of measurement."
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.036  
+ 0.331  
+ 0.602  
+ 0.026  
+ 0.006  
+
+		-----
+	outerSentence : Hall instructs something.
+		coremap sentence : Hall instructs something.
+		sentiment : Positive
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.007  
+ 0.027  
+ 0.383  
+ 0.535  
+ 0.049  
+
+		-----
+	 outer Subject : Hall 	,	inner Subject : courts 
+resolved as : (Hall;, --)
+
+"For purposes of most IQ tests," this imprecision in the testing instrument "means that an individual's score is best understood as a range of scores on either side of the recorded score . . . within which one may say an individual's true IQ score lies."
+	innerSentence :  an individual's score is best understood as a range of scores on either side of the recorded score . . . within
+		coremap sentence : an individual's score is best understood as a range of scores on either side of the recorded score . . . within
+		sentiment : Positive
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.003  
+ 0.005  
+ 0.035  
+ 0.674  
+ 0.283  
+
+		-----
+	outerSentence : imprecision means something.
+		coremap sentence : imprecision means something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.015  
+ 0.172  
+ 0.797  
+ 0.014  
+ 0.002  
+
+		-----
+	 outer Subject : imprecision 	,	inner Subject : individual 's score 
+resolved as : (--, --)
+
+Both Texas and the dissent maintain that the CCA properly considered factors unique to Moore in disregarding the lower end of the standard-error range.
+	innerSentence :  the CCA properly considered factors unique to Moore in disregarding the lower end of the standard-error range.
+		coremap sentence : the CCA properly considered factors unique to Moore in disregarding the lower end of the standard-error range.
+		sentiment : Positive
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.100  
+ 0.242  
+ 0.139  
+ 0.378  
+ 0.142  
+
+		-----
+	outerSentence : Texas maintain something.
+		coremap sentence : Texas maintain something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.010  
+ 0.050  
+ 0.801  
+ 0.120  
+ 0.019  
+
+		-----
+	 outer Subject : Texas 	,	inner Subject : CCA 
+resolved as : (--, --)
+
+In requiring the CCA to move on to consider Moore's adaptive functioning in light of his IQ evidence, we do not suggest that "the Eighth Amendment turns on the slightest numerical difference in IQ score," post, at 15-16.
+	innerSentence :  "the Eighth Amendment turns on the slightest numerical difference in IQ score
+		coremap sentence : "the Eighth Amendment turns on the slightest numerical difference in IQ score
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.029  
+ 0.269  
+ 0.480  
+ 0.203  
+ 0.019  
+
+		-----
+	outerSentence : we do not suggest something.
+		coremap sentence : we do not suggest something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.034  
+ 0.287  
+ 0.621  
+ 0.051  
+ 0.008  
+
+		-----
+	 outer Subject : we 	,	inner Subject : Amendment 
+resolved as : (--, --)
+
+Rather, in line with Hall, we require that courts continue the inquiry and consider other evidence of intellectual disability where an individual's IQ score, adjusted for the test's standard error, falls within the clinically established range for intellectual-functioning deficits.
+	innerSentence :  courts continue the inquiry and consider other evidence of intellectual disability
+		coremap sentence : courts continue the inquiry and consider other evidence of intellectual disability
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.023  
+ 0.240  
+ 0.639  
+ 0.087  
+ 0.010  
+
+		-----
+	outerSentence : we require something.
+		coremap sentence : we require something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.007  
+ 0.064  
+ 0.855  
+ 0.069  
+ 0.005  
+
+		-----
+	 outer Subject : we 	,	inner Subject : courts 
+resolved as : (--, --)
+
+In concluding that Moore did not suffer significant adaptive deficits, the CCA overemphasized Moore's perceived adaptive strengths.
+	innerSentence :  Moore did not suffer significant adaptive deficits
+		coremap sentence : Moore did not suffer significant adaptive deficits
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.052  
+ 0.443  
+ 0.475  
+ 0.025  
+ 0.006  
+
+		-----
+	outerSentence : CCA concluding something.
+		coremap sentence : CCA concluding something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.028  
+ 0.144  
+ 0.491  
+ 0.294  
+ 0.044  
+
+		-----
+	 outer Subject : CCA 	,	inner Subject : Moore 
+resolved as : (--, Moore;Moore 's;)
+
+The CCA furthermore concluded that Moore's record of academic failure, along with the childhood abuse and suffering he endured, detracted from a determination that his intellectual and adaptive deficits were related.
+	innerSentence :  detracted from a determination that his intellectual and adaptive deficits were related.
+		coremap sentence : detracted from a determination that his intellectual and adaptive deficits were related.
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.105  
+ 0.632  
+ 0.237  
+ 0.019  
+ 0.007  
+
+		-----
+	outerSentence : CCA concluded something.
+		coremap sentence : CCA concluded something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.036  
+ 0.166  
+ 0.391  
+ 0.340  
+ 0.067  
+
+		-----
+	 outer Subject : CCA 	,	inner Subject : Moore 's record 
+resolved as : (--, --)
+
+The CCA also departed from clinical practice by requiring Moore to show that his adaptive deficits were not related to "a personality disorder."
+	innerSentence :  his adaptive deficits were not related to "a personality disorder."
+		coremap sentence : his adaptive deficits were not related to "a personality disorder."
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.047  
+ 0.491  
+ 0.446  
+ 0.013  
+ 0.004  
+
+		-----
+	outerSentence : CCA show something.
+		coremap sentence : CCA show something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.022  
+ 0.105  
+ 0.497  
+ 0.329  
+ 0.047  
+
+		-----
+	 outer Subject : CCA 	,	inner Subject : adaptive his deficits 
+resolved as : (--, Moore;Moore 's;)
+
+After observing that persons with "mild" intellectual disability might be treated differently under clinical standards than under Texas' capital system, the CCA defined its objective as identifying the "consensus of Texas citizens" on who "should be exempted from the death penalty."
+	innerSentence :  persons with "mild" intellectual disability might be treated differently under clinical standards than under Texas' capital system
+		coremap sentence : persons with "mild" intellectual disability might be treated differently under clinical standards than under Texas' capital system
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.176  
+ 0.642  
+ 0.150  
+ 0.020  
+ 0.012  
+
+		-----
+	outerSentence : CCA observing something.
+		coremap sentence : CCA observing something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.028  
+ 0.144  
+ 0.491  
+ 0.294  
+ 0.044  
+
+		-----
+	 outer Subject : CCA 	,	inner Subject : persons 
+resolved as : (--, --)
+
+
+In Moore's case, the habeas court applied current medical standards in concluding that Moore is intellectually disabled and therefore ineligible for the death penalty.
+	innerSentence :  Moore is intellectually disabled and therefore ineligible for the death penalty.
+		coremap sentence : Moore is intellectually disabled and therefore ineligible for the death penalty.
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.163  
+ 0.552  
+ 0.264  
+ 0.013  
+ 0.007  
+
+		-----
+	outerSentence : court concluding something.
+		coremap sentence : court concluding something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.024  
+ 0.124  
+ 0.429  
+ 0.372  
+ 0.051  
+
+		-----
+	 outer Subject : court 	,	inner Subject : Moore 
+resolved as : (--, Moore;Moore 's;)
+
+The Texas Court of Criminal Appeals (CCA) concluded that Bobby James Moore was not intellectually disabled so as to be exempt from the death penalty under Atkins v. Virginia, 536 U. S. 304 (2002).
+	innerSentence :  Bobby James Moore was not intellectually disabled so as to be exempt from the death penalty under Atkins v. Virginia
+		coremap sentence : Bobby James Moore was not intellectually disabled so as to be exempt from the death penalty under Atkins v. Virginia
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.130  
+ 0.629  
+ 0.205  
+ 0.028  
+ 0.010  
+
+		-----
+	outerSentence : Court concluded something.
+		coremap sentence : Court concluded something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.036  
+ 0.166  
+ 0.391  
+ 0.340  
+ 0.067  
+
+		-----
+	 outer Subject : Court 	,	inner Subject : Moore 
+resolved as : (--, --)
+
+It reached that conclusion based on its findings that he had failed to establish either significantly subaverage intellectual functioning or related significant deficits in adaptive behavior.
+	innerSentence :  he had failed to establish either significantly subaverage intellectual functioning or related significant deficits in adaptive behavior.
+		coremap sentence : he had failed to establish either significantly subaverage intellectual functioning or related significant deficits in adaptive behavior.
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.252  
+ 0.633  
+ 0.096  
+ 0.011  
+ 0.008  
+
+		-----
+	outerSentence : none-outerSubject findings something.
+		coremap sentence : none-outerSubject findings something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.021  
+ 0.121  
+ 0.609  
+ 0.221  
+ 0.027  
+
+		-----
+	 outer Subject : none-outerSubject	,	inner Subject : he 
+resolved as : (--, --)
+
+But I do not agree that the CCA erred as to Moore's intellectual functioning.
+	innerSentence :  the CCA erred as to Moore's intellectual functioning.
+		coremap sentence : the CCA erred as to Moore's intellectual functioning.
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.123  
+ 0.665  
+ 0.180  
+ 0.023  
+ 0.010  
+
+		-----
+	outerSentence : I do not agree something.
+		coremap sentence : I do not agree something.
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.067  
+ 0.429  
+ 0.377  
+ 0.108  
+ 0.020  
+
+		-----
+	 outer Subject : I 	,	inner Subject : CCA 
+resolved as : (--, --)
+
+My broader concern with today's opinion, however, is that it abandons the usual mode of analysis this Court has employed in Eighth Amendment cases.
+	innerSentence :  it abandons the usual mode of analysis this Court has employed in Eighth Amendment cases.
+		coremap sentence : it abandons the usual mode of analysis this Court has employed in Eighth Amendment cases.
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.093  
+ 0.538  
+ 0.298  
+ 0.057  
+ 0.015  
+
+		-----
+	outerSentence : broader My concern is something.
+		coremap sentence : broader My concern is something.
+		sentiment : Positive
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.012  
+ 0.039  
+ 0.166  
+ 0.669  
+ 0.114  
+
+		-----
+	 outer Subject : broader My concern 	,	inner Subject : it 
+resolved as : (--, --)
+
+The court concluded that Moore had shown intellectual disability and recommended that he be granted relief.
+	innerSentence :  Moore had shown intellectual disability and recommended that he be granted relief.
+		coremap sentence : Moore had shown intellectual disability and recommended that he be granted relief.
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.139  
+ 0.516  
+ 0.276  
+ 0.049  
+ 0.020  
+
+		-----
+	outerSentence : court concluded something.
+		coremap sentence : court concluded something.
+		sentiment : Positive
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.028  
+ 0.145  
+ 0.232  
+ 0.525  
+ 0.070  
+
+		-----
+	 outer Subject : court 	,	inner Subject : Moore 
+resolved as : (--, Moore;Moore 's;)
+The court concluded that Moore had shown intellectual disability and recommended that he be granted relief.
+	innerSentence :  he be granted relief.
+		coremap sentence : he be granted relief.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.049  
+ 0.290  
+ 0.526  
+ 0.112  
+ 0.023  
+
+		-----
+	outerSentence : none-outerSubject recommended something.
+		coremap sentence : none-outerSubject recommended something.
+		sentiment : Positive
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.015  
+ 0.048  
+ 0.259  
+ 0.550  
+ 0.128  
+
+		-----
+	 outer Subject : none-outerSubject	,	inner Subject : he 
+resolved as : (--, Moore;Moore 's;)
+
+
+
+
+The CCA concluded that "the legal test we established in Briseno remains adequately 'informed by the medical community's diagnostic framework,' " and went on to evaluate the case under that approach.
+	innerSentence :  "the legal test we established in Briseno remains adequately 'informed by the medical community's diagnostic framework
+		coremap sentence : "the legal test we established in Briseno remains adequately 'informed by the medical community's diagnostic framework
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.044  
+ 0.416  
+ 0.434  
+ 0.093  
+ 0.013  
+
+		-----
+	outerSentence : CCA concluded something.
+		coremap sentence : CCA concluded something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.036  
+ 0.166  
+ 0.391  
+ 0.340  
+ 0.067  
+
+		-----
+	 outer Subject : CCA 	,	inner Subject : legal test 
+resolved as : (--, --)
+
+The CCA concluded that five of the tests the habeas court had considered were unreliable: two of them were neuropsychological tests rather than formal IQ measures; two were group-administered tests, which Moore's own experts had criticized, App.
+	innerSentence :  five of the tests the habeas court had considered were unreliable
+		coremap sentence : five of the tests the habeas court had considered were unreliable
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.023  
+ 0.291  
+ 0.639  
+ 0.042  
+ 0.005  
+
+		-----
+	outerSentence : CCA concluded something.
+		coremap sentence : CCA concluded something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.036  
+ 0.166  
+ 0.391  
+ 0.340  
+ 0.067  
+
+		-----
+	 outer Subject : CCA 	,	inner Subject : five 
+resolved as : (--, --)
+
+The CCA accordingly concluded that Moore had failed to present sufficient evidence of significantly subaverage intellectual functioning.
+	innerSentence :  Moore had failed to present sufficient evidence of significantly subaverage intellectual functioning.
+		coremap sentence : Moore had failed to present sufficient evidence of significantly subaverage intellectual functioning.
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.210  
+ 0.581  
+ 0.173  
+ 0.023  
+ 0.013  
+
+		-----
+	outerSentence : CCA concluded something.
+		coremap sentence : CCA concluded something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.036  
+ 0.166  
+ 0.391  
+ 0.340  
+ 0.067  
+
+		-----
+	 outer Subject : CCA 	,	inner Subject : Moore 
+resolved as : (--, Moore;Moore 's;)
+
+But Dr. Kristi Compton, the state expert who had administered that test, explained that it was not an accurate measure of Moore's abilities.
+	innerSentence :  it was not an accurate measure of Moore's abilities.
+		coremap sentence : it was not an accurate measure of Moore's abilities.
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.104  
+ 0.593  
+ 0.215  
+ 0.069  
+ 0.019  
+
+		-----
+	outerSentence : Compton explained something.
+		coremap sentence : Compton explained something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.036  
+ 0.166  
+ 0.391  
+ 0.340  
+ 0.067  
+
+		-----
+	 outer Subject : Compton 	,	inner Subject : it 
+resolved as : (--, The CCA;the CCA 's;)
+
+Dr. Compton further opined that her evaluation of Moore and review of documentary evidence--including school, trial, and prison records--did not show adaptive deficits sufficient for an intellectual disability diagnosis.
+	innerSentence :  and prison records--did not show adaptive deficits sufficient for an intellectual disability diagnosis.
+		coremap sentence : and prison records--did not show adaptive deficits sufficient for an intellectual disability diagnosis.
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.052  
+ 0.544  
+ 0.377  
+ 0.022  
+ 0.005  
+
+		-----
+	outerSentence : Compton opined something.
+		coremap sentence : Compton opined something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.036  
+ 0.166  
+ 0.391  
+ 0.340  
+ 0.067  
+
+		-----
+	 outer Subject : Compton 	,	inner Subject : her evaluation 
+resolved as : (--, Dr. Kristi Compton, the state expert who had administered that test;)
+
+The CCA also considered and recounted the testimony of the other experts who, unlike Dr. Compton, concluded that Moore had shown significant adaptive deficits.
+	innerSentence :  Moore had shown significant adaptive deficits.
+		coremap sentence : Moore had shown significant adaptive deficits.
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.123  
+ 0.565  
+ 0.272  
+ 0.029  
+ 0.011  
+
+		-----
+	outerSentence : who concluded something.
+		coremap sentence : who concluded something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.009  
+ 0.052  
+ 0.774  
+ 0.153  
+ 0.011  
+
+		-----
+	 outer Subject : who 	,	inner Subject : Moore 
+resolved as : (--, Moore;Moore 's;)
+
+Finally, the CCA considered whether, even assuming that Moore had made sufficient showings as to intellectual functioning and adaptive deficits, those two were related.
+	innerSentence :  Moore had made sufficient showings as to intellectual functioning and adaptive deficits
+		coremap sentence : Moore had made sufficient showings as to intellectual functioning and adaptive deficits
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.050  
+ 0.412  
+ 0.498  
+ 0.033  
+ 0.007  
+
+		-----
+	outerSentence : two assuming something.
+		coremap sentence : two assuming something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.009  
+ 0.094  
+ 0.859  
+ 0.035  
+ 0.002  
+
+		-----
+	 outer Subject : two 	,	inner Subject : Moore 
+resolved as : (--, Moore;Moore 's;)
+
+Again finding Dr. Compton's testimony the most credible, the CCA concluded that "the record overwhelmingly supports the conclusion" that Moore's observed academic and social difficulties stemmed, not from low intellectual abilities, but instead from outside factors like the trauma and abuse he suffered as a child and his drug use at a young age.
+	innerSentence :  "the record overwhelmingly supports the conclusion"
+		coremap sentence : "the record overwhelmingly supports the conclusion"
+		sentiment : Positive
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.007  
+ 0.041  
+ 0.278  
+ 0.641  
+ 0.033  
+
+		-----
+	outerSentence : CCA concluded something.
+		coremap sentence : CCA concluded something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.036  
+ 0.166  
+ 0.391  
+ 0.340  
+ 0.067  
+
+		-----
+	 outer Subject : CCA 	,	inner Subject : record 
+resolved as : (--, --)
+
+The CCA explained that, in addition to Dr. Compton's expert testimony, consideration of the seven Briseno factors reinforced that relatedness conclusion.
+	innerSentence :  consideration of the seven Briseno factors reinforced that relatedness conclusion.
+		coremap sentence : consideration of the seven Briseno factors reinforced that relatedness conclusion.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.026  
+ 0.127  
+ 0.421  
+ 0.379  
+ 0.048  
+
+		-----
+	outerSentence : CCA explained something.
+		coremap sentence : CCA explained something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.036  
+ 0.166  
+ 0.391  
+ 0.340  
+ 0.067  
+
+		-----
+	 outer Subject : CCA 	,	inner Subject : consideration 
+resolved as : (--, --)
+
+Given that Moore had failed to present sufficient evidence on intellectual functioning or related adaptive deficits, the CCA "conclude[d] that for Eighth Amendment purposes," Moore had not shown he was intellectually disabled.
+	innerSentence :  Moore had failed to present sufficient evidence on intellectual functioning or related adaptive deficits
+		coremap sentence : Moore had failed to present sufficient evidence on intellectual functioning or related adaptive deficits
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.114  
+ 0.578  
+ 0.294  
+ 0.009  
+ 0.004  
+
+		-----
+	outerSentence : CCA Given something.
+		coremap sentence : CCA Given something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.035  
+ 0.201  
+ 0.468  
+ 0.254  
+ 0.042  
+
+		-----
+	 outer Subject : CCA 	,	inner Subject : Moore 
+resolved as : (--, Moore;)
+
+For that reason, we have emphasized that "judgment should be informed by objective factors to the maximum possible extent."
+	innerSentence :  "judgment should be informed by objective factors to the maximum possible extent."
+		coremap sentence : "judgment should be informed by objective factors to the maximum possible extent."
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.007  
+ 0.060  
+ 0.590  
+ 0.326  
+ 0.017  
+
+		-----
+	outerSentence : we have emphasized something.
+		coremap sentence : we have emphasized something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.006  
+ 0.036  
+ 0.791  
+ 0.157  
+ 0.010  
+
+		-----
+	 outer Subject : we 	,	inner Subject : judgment 
+resolved as : (--, --)
+
+In holding that the Eighth Amendment prohibits the execution of intellectually disabled individuals in Atkins, the Court first identified a national consensus against the practice and then, applying our own "independent evaluation of the issue," concluded that there was "no reason to disagree" with that consensus.
+	innerSentence :  the Eighth Amendment prohibits the execution of intellectually disabled individuals in Atkins
+		coremap sentence : the Eighth Amendment prohibits the execution of intellectually disabled individuals in Atkins
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.067  
+ 0.499  
+ 0.365  
+ 0.055  
+ 0.013  
+
+		-----
+	outerSentence : Court holding something.
+		coremap sentence : Court holding something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.023  
+ 0.134  
+ 0.592  
+ 0.223  
+ 0.028  
+
+		-----
+	 outer Subject : Court 	,	inner Subject : Amendment 
+resolved as : (--, --)
+In holding that the Eighth Amendment prohibits the execution of intellectually disabled individuals in Atkins, the Court first identified a national consensus against the practice and then, applying our own "independent evaluation of the issue," concluded that there was "no reason to disagree" with that consensus.
+	innerSentence :  there was "no reason to disagree" with that consensus.
+		coremap sentence : there was "no reason to disagree" with that consensus.
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.110  
+ 0.622  
+ 0.219  
+ 0.038  
+ 0.011  
+
+		-----
+	outerSentence : none-outerSubject concluded something.
+		coremap sentence : none-outerSubject concluded something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.036  
+ 0.166  
+ 0.391  
+ 0.340  
+ 0.067  
+
+		-----
+	 outer Subject : none-outerSubject	,	inner Subject : reason 
+resolved as : (--, --)
+
+We recognized that there remained the potential for "serious disagreement . . . in determining which offenders are in fact retarded."
+	innerSentence :  there remained the potential for "serious disagreement . . . in determining
+		coremap sentence : there remained the potential for "serious disagreement . . . in determining
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.040  
+ 0.402  
+ 0.477  
+ 0.072  
+ 0.009  
+
+		-----
+	outerSentence : We recognized something.
+		coremap sentence : We recognized something.
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.127  
+ 0.449  
+ 0.189  
+ 0.166  
+ 0.069  
+
+		-----
+	 outer Subject : We 	,	inner Subject : none-innersubject
+resolved as : (--, --)
+
+Although the Court thought it "proper to consider the psychiatric and professional studies that elaborate on the purpose and meaning of IQ scores," it emphasized that "[t]he legal determination of intellectual disability is distinct from a medical diagnosis."
+	innerSentence :  "[t]he legal determination of intellectual disability is distinct from a medical diagnosis."
+		coremap sentence : "[t]he legal determination of intellectual disability is distinct from a medical diagnosis."
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.059  
+ 0.586  
+ 0.329  
+ 0.021  
+ 0.005  
+
+		-----
+	outerSentence : it emphasized something.
+		coremap sentence : it emphasized something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.011  
+ 0.069  
+ 0.581  
+ 0.317  
+ 0.022  
+
+		-----
+	 outer Subject : it 	,	inner Subject : none-innersubject
+resolved as : (The Court;The Court 's;the Court;the Court 's;, --)
+
+Today's decision departs from this Court's precedents, followed in Atkins and Hall, establishing that the determination of what is cruel and unusual rests on a judicial judgment about societal standards of decency, not a medical assessment of clinical practice.
+	innerSentence :  the determination of
+		coremap sentence : the determination of
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.001  
+ 0.009  
+ 0.950  
+ 0.039  
+ 0.001  
+
+		-----
+	outerSentence : Today 's decision establishing something.
+		coremap sentence : Today 's decision establishing something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.003  
+ 0.026  
+ 0.873  
+ 0.093  
+ 0.004  
+
+		-----
+	 outer Subject : Today 's decision 	,	inner Subject : determination 
+resolved as : (--, --)
+
+
+Recognizing that we have, in the very recent past, held that " 'the views of medical experts' do not 'dictate' a court's intellectual-disability determination," the Court assures us that it is not requiring adherence "to everything stated in the latest medical guide," ante, at 9-10 (quoting Hall, 572 U. S., at ___ (slip op., at 19)); States have "some flexibility" but cannot "disregard" medical standards.
+	innerSentence :  we have
+		coremap sentence : we have
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.002  
+ 0.015  
+ 0.952  
+ 0.030  
+ 0.002  
+
+		-----
+	outerSentence : none-outerSubject Recognizing something.
+		coremap sentence : none-outerSubject Recognizing something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.036  
+ 0.166  
+ 0.391  
+ 0.340  
+ 0.067  
+
+		-----
+	 outer Subject : none-outerSubject	,	inner Subject : we 
+resolved as : (--, --)
+Recognizing that we have, in the very recent past, held that " 'the views of medical experts' do not 'dictate' a court's intellectual-disability determination," the Court assures us that it is not requiring adherence "to everything stated in the latest medical guide," ante, at 9-10 (quoting Hall, 572 U. S., at ___ (slip op., at 19)); States have "some flexibility" but cannot "disregard" medical standards.
+	innerSentence :  " 'the views of medical experts' do not 'dictate' a court's intellectual-disability determination
+		coremap sentence : " 'the views of medical experts' do not 'dictate' a court's intellectual-disability determination
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.032  
+ 0.292  
+ 0.512  
+ 0.151  
+ 0.013  
+
+		-----
+	outerSentence : none-outerSubject held something.
+		coremap sentence : none-outerSubject held something.
+		sentiment : Positive
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.017  
+ 0.071  
+ 0.391  
+ 0.449  
+ 0.073  
+
+		-----
+	 outer Subject : none-outerSubject	,	inner Subject : views 
+resolved as : (--, --)
+
+For example, the Court faults the CCA for placing too much weight on Moore's adaptive strengths and functioning in prison, implying that this marked a dismissal of clinical standards.
+	innerSentence :  this marked a dismissal of clinical standards.
+		coremap sentence : this marked a dismissal of clinical standards.
+		sentiment : Positive
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.057  
+ 0.170  
+ 0.249  
+ 0.401  
+ 0.122  
+
+		-----
+	outerSentence : none-outerSubject implying something.
+		coremap sentence : none-outerSubject implying something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.036  
+ 0.166  
+ 0.391  
+ 0.340  
+ 0.067  
+
+		-----
+	 outer Subject : none-outerSubject	,	inner Subject : this 
+resolved as : (--, --)
+
+As to prison conduct, the CCA decided that the fundamental questions the Atkins inquiry sought to answer were best considered--and "sound scientific principles" best served--by taking account of "all possible data that sheds light on a person's adaptive functioning, including his conduct in a prison society."
+	innerSentence :  the fundamental questions the Atkins inquiry sought to answer were best considered--and "sound scientific principles" best served--by taking account of "all possible data
+		coremap sentence : the fundamental questions the Atkins inquiry sought to answer were best considered--and "sound scientific principles" best served--by taking account of "all possible data
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.143  
+ 0.435  
+ 0.127  
+ 0.183  
+ 0.112  
+
+		-----
+	outerSentence : CCA decided something.
+		coremap sentence : CCA decided something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.021  
+ 0.104  
+ 0.572  
+ 0.265  
+ 0.038  
+
+		-----
+	 outer Subject : CCA 	,	inner Subject : fundamental questions 
+resolved as : (--, --)
+
+The CCA considered clinical standards and explained why it decided that departure from those standards was warranted.
+	innerSentence :  departure from those standards was warranted.
+		coremap sentence : departure from those standards was warranted.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.042  
+ 0.331  
+ 0.478  
+ 0.131  
+ 0.017  
+
+		-----
+	outerSentence : it decided something.
+		coremap sentence : it decided something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.004  
+ 0.025  
+ 0.671  
+ 0.287  
+ 0.012  
+
+		-----
+	 outer Subject : it 	,	inner Subject : departure 
+resolved as : (The CCA;the CCA;the CCA for;, --)
+
+The Court faults the CCA for "overemphasiz[ing]" strengths and "stress[ing]" Moore's conduct in prison, ante, at 12-13, suggesting that some--but not too much--consideration of strengths and prison functioning is acceptable.
+	innerSentence :  some--but not too much--consideration of strengths and prison functioning is acceptable.
+		coremap sentence : some--but not too much--consideration of strengths and prison functioning is acceptable.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.042  
+ 0.287  
+ 0.422  
+ 0.217  
+ 0.030  
+
+		-----
+	outerSentence : Court suggesting something.
+		coremap sentence : Court suggesting something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.011  
+ 0.070  
+ 0.684  
+ 0.216  
+ 0.019  
+
+		-----
+	 outer Subject : Court 	,	inner Subject : some consideration 
+resolved as : (--, --)
+
+Even assuming that all clinicians would agree with this statement, there are a number of ways it might be interpreted: as meaning that strengths in one of the three adaptive skill areas--conceptual, social, and practical--should not cancel out deficits in another; as meaning that strengths should not outweigh deficits within the same skill area; or as meaning that evidence of some ability to perform a skill should not offset evidence of the inability to perform that same skill.
+	innerSentence :  all clinicians would agree with this statement
+		coremap sentence : all clinicians would agree with this statement
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.041  
+ 0.348  
+ 0.460  
+ 0.134  
+ 0.017  
+
+		-----
+	outerSentence : none-outerSubject assuming something.
+		coremap sentence : none-outerSubject assuming something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.050  
+ 0.360  
+ 0.466  
+ 0.101  
+ 0.022  
+
+		-----
+	 outer Subject : none-outerSubject	,	inner Subject : clinicians 
+resolved as : (--, --)
+Even assuming that all clinicians would agree with this statement, there are a number of ways it might be interpreted: as meaning that strengths in one of the three adaptive skill areas--conceptual, social, and practical--should not cancel out deficits in another; as meaning that strengths should not outweigh deficits within the same skill area; or as meaning that evidence of some ability to perform a skill should not offset evidence of the inability to perform that same skill.
+	innerSentence :  and practical--should not cancel out deficits in another; as meaning that strengths should not outweigh deficits within the same skill area; or as meaning that evidence of some ability to perform a skill should not offset evidence of the inability to perform that same skill.
+		coremap sentence : and practical--should not cancel out deficits in another; as meaning that strengths should not outweigh deficits within the same skill area; or as meaning that evidence of some ability to perform a skill should not offset evidence of the inability to perform that same skill.
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.077  
+ 0.539  
+ 0.325  
+ 0.050  
+ 0.010  
+
+		-----
+	outerSentence : number meaning something.
+		coremap sentence : number meaning something.
+		sentiment : Positive
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.010  
+ 0.044  
+ 0.353  
+ 0.545  
+ 0.049  
+
+		-----
+	 outer Subject : number 	,	inner Subject : strengths 
+resolved as : (--, --)
+Even assuming that all clinicians would agree with this statement, there are a number of ways it might be interpreted: as meaning that strengths in one of the three adaptive skill areas--conceptual, social, and practical--should not cancel out deficits in another; as meaning that strengths should not outweigh deficits within the same skill area; or as meaning that evidence of some ability to perform a skill should not offset evidence of the inability to perform that same skill.
+	innerSentence :  strengths should not outweigh deficits within the same skill area; or as meaning that evidence of some ability to perform a skill should not offset evidence of the inability to perform that same skill.
+		coremap sentence : strengths should not outweigh deficits within the same skill area; or as meaning that evidence of some ability to perform a skill should not offset evidence of the inability to perform that same skill.
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.115  
+ 0.548  
+ 0.202  
+ 0.107  
+ 0.029  
+
+		-----
+	outerSentence : number meaning something.
+		coremap sentence : number meaning something.
+		sentiment : Positive
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.010  
+ 0.044  
+ 0.353  
+ 0.545  
+ 0.049  
+
+		-----
+	 outer Subject : number 	,	inner Subject : strengths 
+resolved as : (--, --)
+Even assuming that all clinicians would agree with this statement, there are a number of ways it might be interpreted: as meaning that strengths in one of the three adaptive skill areas--conceptual, social, and practical--should not cancel out deficits in another; as meaning that strengths should not outweigh deficits within the same skill area; or as meaning that evidence of some ability to perform a skill should not offset evidence of the inability to perform that same skill.
+	innerSentence :  evidence of some ability to perform a skill should not offset evidence of the inability to perform that same skill.
+		coremap sentence : evidence of some ability to perform a skill should not offset evidence of the inability to perform that same skill.
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.094  
+ 0.540  
+ 0.219  
+ 0.117  
+ 0.029  
+
+		-----
+	outerSentence : none-outerSubject meaning something.
+		coremap sentence : none-outerSubject meaning something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.014  
+ 0.074  
+ 0.555  
+ 0.322  
+ 0.034  
+
+		-----
+	 outer Subject : none-outerSubject	,	inner Subject : evidence 
+resolved as : (--, --)
+
+And it appears that clinicians do, in fact, disagree about what this direction means.
+	innerSentence :  clinicians do
+		coremap sentence : clinicians do
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.005  
+ 0.042  
+ 0.874  
+ 0.071  
+ 0.007  
+
+		-----
+	outerSentence : it appears something.
+		coremap sentence : it appears something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.013  
+ 0.107  
+ 0.656  
+ 0.211  
+ 0.013  
+
+		-----
+	 outer Subject : it 	,	inner Subject : clinicians 
+resolved as : (--, --)
+
+In determining that the CCA erred in this regard, the Court implicitly rejects the DSM-5's approach to the proper consideration of prison conduct and accepts what it takes to be that of the AAIDD.
+	innerSentence :  the CCA erred in this regard
+		coremap sentence : the CCA erred in this regard
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.051  
+ 0.464  
+ 0.410  
+ 0.064  
+ 0.012  
+
+		-----
+	outerSentence : Court determining something.
+		coremap sentence : Court determining something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.028  
+ 0.144  
+ 0.491  
+ 0.294  
+ 0.044  
+
+		-----
+	 outer Subject : Court 	,	inner Subject : CCA 
+resolved as : (--, --)
+
+Although the CCA reviewed these factors to determine whether Moore's adaptive deficits were "related" to his intellectual functioning, it may be that consideration of those factors tainted the whole of the CCA's adaptive functioning analysis.
+	innerSentence :  consideration of those factors tainted the whole of the CCA's adaptive functioning analysis.
+		coremap sentence : consideration of those factors tainted the whole of the CCA's adaptive functioning analysis.
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.101  
+ 0.471  
+ 0.256  
+ 0.134  
+ 0.038  
+
+		-----
+	outerSentence : none-outerSubject be something.
+		coremap sentence : none-outerSubject be something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.024  
+ 0.123  
+ 0.505  
+ 0.303  
+ 0.046  
+
+		-----
+	 outer Subject : none-outerSubject	,	inner Subject : consideration 
+resolved as : (--, --)
+
+I need not decide this question, however, because the CCA reached the issue of Moore's adaptive functioning only after concluding that he had failed to demonstrate intellectual functioning sufficiently low to warrant a finding of intellectual disability, regardless of his adaptive deficits or their relationship to his IQ.
+	innerSentence :  he had failed to demonstrate intellectual functioning sufficiently low to warrant a finding of intellectual disability
+		coremap sentence : he had failed to demonstrate intellectual functioning sufficiently low to warrant a finding of intellectual disability
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.127  
+ 0.675  
+ 0.186  
+ 0.008  
+ 0.005  
+
+		-----
+	outerSentence : none-outerSubject concluding something.
+		coremap sentence : none-outerSubject concluding something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.036  
+ 0.166  
+ 0.391  
+ 0.340  
+ 0.067  
+
+		-----
+	 outer Subject : none-outerSubject	,	inner Subject : he 
+resolved as : (--, Moore;Moore 's;)
+
+
+The Court concludes that the CCA's assessment of Moore's IQ scores is "irreconcilable with Hall."
+	innerSentence :  the CCA's assessment of Moore's IQ scores is "irreconcilable with Hall."
+		coremap sentence : the CCA's assessment of Moore's IQ scores is "irreconcilable with Hall."
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.110  
+ 0.616  
+ 0.214  
+ 0.044  
+ 0.016  
+
+		-----
+	outerSentence : Court concludes something.
+		coremap sentence : Court concludes something.
+		sentiment : Positive
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.023  
+ 0.100  
+ 0.373  
+ 0.429  
+ 0.074  
+
+		-----
+	 outer Subject : Court 	,	inner Subject : CCA 's assessment 
+resolved as : (--, --)
+
+The court in fact began by taking account of the SEM, explaining that Moore's tested score of 74 led to an IQ range between 69 and 79.
+	innerSentence :  Moore's tested score of 74 led to an IQ range between 69 and 79.
+		coremap sentence : Moore's tested score of 74 led to an IQ range between 69 and 79.
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.065  
+ 0.399  
+ 0.304  
+ 0.193  
+ 0.038  
+
+		-----
+	outerSentence : court explaining something.
+		coremap sentence : court explaining something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.011  
+ 0.074  
+ 0.678  
+ 0.221  
+ 0.016  
+
+		-----
+	 outer Subject : court 	,	inner Subject : tested Moore 's score 
+resolved as : (--, --)
+
+
+Based on that evidence, the CCA discounted portions of the SEM-generated range and concluded that Moore's IQ did not lie in the relevant range for intellectual disability.
+	innerSentence :  Moore's IQ did not lie in the relevant range for intellectual disability.
+		coremap sentence : Moore's IQ did not lie in the relevant range for intellectual disability.
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.061  
+ 0.544  
+ 0.344  
+ 0.043  
+ 0.008  
+
+		-----
+	outerSentence : none-outerSubject concluded something.
+		coremap sentence : none-outerSubject concluded something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.036  
+ 0.166  
+ 0.391  
+ 0.340  
+ 0.067  
+
+		-----
+	 outer Subject : none-outerSubject	,	inner Subject : Moore 's IQ 
+resolved as : (--, --)
+
+
+The CCA certainly did not "disregard" SEM in assessing Moore's IQ, and it explained why other factors led it to conclude that his actual score did not fall near the lower end of the SEM range.
+	innerSentence :  his actual score did not fall near the lower end of the SEM range.
+		coremap sentence : his actual score did not fall near the lower end of the SEM range.
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.128  
+ 0.635  
+ 0.192  
+ 0.035  
+ 0.009  
+
+		-----
+	outerSentence : other factors conclude something.
+		coremap sentence : other factors conclude something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.015  
+ 0.093  
+ 0.618  
+ 0.253  
+ 0.022  
+
+		-----
+	 outer Subject : other factors 	,	inner Subject : actual his score 
+resolved as : (--, Moore 's;Moore 's IQ;)
+
+In concluding that the Eighth Amendment turns on the slightest numerical difference in IQ score, the Court today is just as wrong as the Florida Supreme Court was in Hall.
+	innerSentence :  the Eighth Amendment turns on the slightest numerical difference in IQ score
+		coremap sentence : the Eighth Amendment turns on the slightest numerical difference in IQ score
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.036  
+ 0.333  
+ 0.535  
+ 0.082  
+ 0.013  
+
+		-----
+	outerSentence : Court concluding something.
+		coremap sentence : Court concluding something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.028  
+ 0.144  
+ 0.491  
+ 0.294  
+ 0.044  
+
+		-----
+	 outer Subject : Court 	,	inner Subject : Amendment 
+resolved as : (--, --)
+
+Perhaps there are reasons to expand Hall's holding--to say that States must read IQ tests as rigidly encompassing the entire SEM range, regardless of any other evidentiary considerations, or to say that the reasons that the CCA gave for discounting the lower end of Moore's IQ range were improper.
+	innerSentence :  States must read IQ tests as rigidly encompassing the entire SEM range
+		coremap sentence : States must read IQ tests as rigidly encompassing the entire SEM range
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.036  
+ 0.310  
+ 0.468  
+ 0.169  
+ 0.018  
+
+		-----
+	outerSentence : none-outerSubject say something.
+		coremap sentence : none-outerSubject say something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.022  
+ 0.128  
+ 0.579  
+ 0.237  
+ 0.034  
+
+		-----
+	 outer Subject : none-outerSubject	,	inner Subject : States 
+resolved as : (--, --)
+Perhaps there are reasons to expand Hall's holding--to say that States must read IQ tests as rigidly encompassing the entire SEM range, regardless of any other evidentiary considerations, or to say that the reasons that the CCA gave for discounting the lower end of Moore's IQ range were improper.
+	innerSentence :  the reasons that the CCA gave for discounting the lower end of Moore's IQ range were improper.
+		coremap sentence : the reasons that the CCA gave for discounting the lower end of Moore's IQ range were improper.
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.234  
+ 0.564  
+ 0.150  
+ 0.037  
+ 0.016  
+
+		-----
+	outerSentence : none-outerSubject say something.
+		coremap sentence : none-outerSubject say something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.022  
+ 0.128  
+ 0.579  
+ 0.237  
+ 0.034  
+
+		-----
+	 outer Subject : none-outerSubject	,	inner Subject : reasons 
+resolved as : (--, --)
+
+But before holding that the Constitution demands either result, our precedent requires consulting state judgments on the matter to determine whether a national consensus has developed.
+	innerSentence :  the Constitution demands either result
+		coremap sentence : the Constitution demands either result
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.003  
+ 0.024  
+ 0.922  
+ 0.048  
+ 0.003  
+
+		-----
+	outerSentence : our precedent holding something.
+		coremap sentence : our precedent holding something.
+		sentiment : Positive
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.004  
+ 0.021  
+ 0.385  
+ 0.564  
+ 0.026  
+
+		-----
+	 outer Subject : our precedent 	,	inner Subject : demands 
+resolved as : (--, --)
+
+Moore has presented no argument as to such a consensus, and the majority does not claim that there is one.
+	innerSentence :  there is one.
+		coremap sentence : there is one.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.011  
+ 0.077  
+ 0.658  
+ 0.240  
+ 0.013  
+
+		-----
+	outerSentence : majority does not claim something.
+		coremap sentence : majority does not claim something.
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.058  
+ 0.497  
+ 0.419  
+ 0.021  
+ 0.006  
+
+		-----
+	 outer Subject : majority 	,	inner Subject : one 
+resolved as : (--, --)
+
+170a-172a, but did not include that score in the calculation of Moore's average IQ score, see id., at 170a.
+	innerSentence :  see id.
+		coremap sentence : see id.
+		sentiment : Positive
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.024  
+ 0.112  
+ 0.395  
+ 0.414  
+ 0.054  
+
+		-----
+	outerSentence : none-outerSubject did not include something.
+		coremap sentence : none-outerSubject did not include something.
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.062  
+ 0.440  
+ 0.388  
+ 0.088  
+ 0.021  
+
+		-----
+	 outer Subject : none-outerSubject	,	inner Subject : score 
+resolved as : (--, --)
+
+&TLRbull2;     "Does his conduct show leadership or does it show that he is led around by others?
+	innerSentence :  he is led around by others?
+		coremap sentence : he is led around by others?
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.006  
+ 0.073  
+ 0.894  
+ 0.024  
+ 0.002  
+
+		-----
+	outerSentence : it does show something.
+		coremap sentence : it does show something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.009  
+ 0.060  
+ 0.582  
+ 0.328  
+ 0.020  
+
+		-----
+	 outer Subject : it 	,	inner Subject : he 
+resolved as : (--, --)
+
+The dissent suggests that Hall tacitly approved Idaho's approach to capital sentencing, which the dissent characterizes as "grant[ing] trial courts discretion to draw 'reasonable inferences' about IQ scores and, where appropriate, decline to consider the full range of the [standard error of measurement]."
+	innerSentence :  Hall tacitly approved Idaho's approach to capital sentencing
+		coremap sentence : Hall tacitly approved Idaho's approach to capital sentencing
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.042  
+ 0.294  
+ 0.509  
+ 0.133  
+ 0.022  
+
+		-----
+	outerSentence : dissent suggests something.
+		coremap sentence : dissent suggests something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.028  
+ 0.335  
+ 0.625  
+ 0.009  
+ 0.003  
+
+		-----
+	 outer Subject : dissent 	,	inner Subject : Hall 
+resolved as : (--, Hall;Hall, 572 U. S., at ___;)
+
+We referred in Hall to Idaho's capital-sentencing scheme, however, only to note that the State had "passed legislation allowing a defendant to present additional evidence of intellectual disability even when an IQ test score is above 70."
+	innerSentence :  the State had "passed legislation allowing a defendant to present additional evidence of intellectual disability even
+		coremap sentence : the State had "passed legislation allowing a defendant to present additional evidence of intellectual disability even
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.029  
+ 0.313  
+ 0.548  
+ 0.100  
+ 0.010  
+
+		-----
+	outerSentence : We note something.
+		coremap sentence : We note something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.024  
+ 0.150  
+ 0.479  
+ 0.314  
+ 0.032  
+
+		-----
+	 outer Subject : We 	,	inner Subject : State 
+resolved as : (--, --)
+
+The dissent suggests that disagreement exists about the precise role of adaptive strengths in the adaptive-functioning inquiry.
+	innerSentence :  disagreement exists about the precise role of adaptive strengths in the adaptive-functioning inquiry.
+		coremap sentence : disagreement exists about the precise role of adaptive strengths in the adaptive-functioning inquiry.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.024  
+ 0.258  
+ 0.681  
+ 0.031  
+ 0.005  
+
+		-----
+	outerSentence : dissent suggests something.
+		coremap sentence : dissent suggests something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.028  
+ 0.335  
+ 0.625  
+ 0.009  
+ 0.003  
+
+		-----
+	 outer Subject : dissent 	,	inner Subject : disagreement 
+resolved as : (--, --)
+
+The Court correctly notes that Hall cited Pizzuto as an instance of a State that had enacted "legislation allowing a defendant to present additional evidence of intellectual disability even when an IQ test score is above 70."
+	innerSentence :  Hall cited Pizzuto as an instance of a State
+		coremap sentence : Hall cited Pizzuto as an instance of a State
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.022  
+ 0.160  
+ 0.618  
+ 0.180  
+ 0.020  
+
+		-----
+	outerSentence : Court notes something.
+		coremap sentence : Court notes something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.034  
+ 0.212  
+ 0.514  
+ 0.205  
+ 0.034  
+
+		-----
+	 outer Subject : Court 	,	inner Subject : Hall 
+resolved as : (--, --)
+

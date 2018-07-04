@@ -1,0 +1,1280 @@
+ he "corruptly" engaged in at least one of eight specified activities
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.090  
+ 0.592  
+ 0.276  
+ 0.034  
+ 0.009  
+
+it must find something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.017  
+ 0.099  
+ 0.509  
+ 0.345  
+ 0.030  
+
+it ,the jury;::he ,--
+
+ it needed to find that Marinello knew he was under investigation and intended corruptly to interfere with that investigation.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.056  
+ 0.413  
+ 0.455  
+ 0.065  
+ 0.012  
+
+jury was not told something.
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.065  
+ 0.512  
+ 0.386  
+ 0.029  
+ 0.008  
+
+jury ,--::it ,the jury;
+
+ Marinello knew he was under investigation and intended corruptly to interfere with that investigation.
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.114  
+ 0.493  
+ 0.296  
+ 0.072  
+ 0.026  
+
+it find something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.013  
+ 0.074  
+ 0.460  
+ 0.424  
+ 0.029  
+
+it ,the jury;::Marinello ,Marinello;Marinello of an Omnibus Clause violation;petitioner Marinello 's;
+
+ such a proceeding would commence.
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.082  
+ 0.496  
+ 0.260  
+ 0.133  
+ 0.029  
+
+none-outerSubject could foresee something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.048  
+ 0.289  
+ 0.418  
+ 0.206  
+ 0.039  
+
+none-outerSubject,--::proceeding ,--
+
+ the defendant's "act must have a relationship in time
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.013  
+ 0.110  
+ 0.491  
+ 0.366  
+ 0.020  
+
+Court said something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.027  
+ 0.147  
+ 0.491  
+ 0.292  
+ 0.044  
+
+Court ,--::defendant ,--
+
+ it has "traditionally exercised restraint in assessing the reach of a federal criminal statute
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.042  
+ 0.333  
+ 0.474  
+ 0.134  
+ 0.017  
+
+Court emphasized something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.029  
+ 0.160  
+ 0.510  
+ 0.259  
+ 0.042  
+
+Court ,--::it ,The Court;the Court;
+
+ the "corrupt state of mind" requirement will cure any overbreadth problem
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.043  
+ 0.479  
+ 0.384  
+ 0.085  
+ 0.009  
+
+Government claims something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.031  
+ 0.182  
+ 0.518  
+ 0.231  
+ 0.038  
+
+Government ,--::corrupt state ,--
+
+ there is a "nexus" between the defendant's conduct and a particular administrative proceeding
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.019  
+ 0.173  
+ 0.642  
+ 0.156  
+ 0.011  
+
+Government must show something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.029  
+ 0.153  
+ 0.467  
+ 0.301  
+ 0.050  
+
+Government ,--::nexus ,--
+
+ the IRS will review her tax return annually does not transform every Tax Code violation into an obstruction charge.
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.076  
+ 0.489  
+ 0.340  
+ 0.077  
+ 0.017  
+
+taxpayer knows something.
+Positive
+Type = dense , numRows = 5 , numCols = 1
+ 0.011  
+ 0.032  
+ 0.282  
+ 0.565  
+ 0.110  
+
+taxpayer ,--::IRS ,--
+
+ the proceeding was pending at the time the defendant engaged in the obstructive conduct or
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.030  
+ 0.292  
+ 0.587  
+ 0.080  
+ 0.011  
+
+Government must show something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.029  
+ 0.153  
+ 0.467  
+ 0.301  
+ 0.050  
+
+Government ,--::proceeding ,--
+
+ Marinello had engaged in at least one of eight different specified activities
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.040  
+ 0.282  
+ 0.515  
+ 0.138  
+ 0.026  
+
+Government claimed something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.036  
+ 0.166  
+ 0.391  
+ 0.340  
+ 0.067  
+
+Government ,--::Marinello ,Carlo Marinello;Marinello;
+
+ Marinello knew he was under investigation and intended corruptly to interfere with that investigation.
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.114  
+ 0.493  
+ 0.296  
+ 0.072  
+ 0.026  
+
+it must find something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.017  
+ 0.099  
+ 0.509  
+ 0.345  
+ 0.030  
+
+it ,The jury;the jury;the jury retired to consider the charges;::Marinello ,Marinello;Marinello on all counts;
+
+ the defendant had tried to interfere with a "pending IRS proceeding
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.032  
+ 0.367  
+ 0.561  
+ 0.034  
+ 0.006  
+
+violation show something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.021  
+ 0.251  
+ 0.715  
+ 0.011  
+ 0.002  
+
+violation ,--::defendant ,--
+
+ a defendant need not possess " 'an awareness of a particular [IRS] action or investigation.' "
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.045  
+ 0.394  
+ 0.523  
+ 0.031  
+ 0.007  
+
+It held something.
+Positive
+Type = dense , numRows = 5 , numCols = 1
+ 0.009  
+ 0.031  
+ 0.361  
+ 0.543  
+ 0.056  
+
+It ,The appeals court;The full Court of Appeals;::defendant ,--
+
+ the Government must prove "an intent to influence judicial or grand jury proceedings."
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.035  
+ 0.355  
+ 0.564  
+ 0.039  
+ 0.007  
+
+courts had held something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.007  
+ 0.054  
+ 0.787  
+ 0.140  
+ 0.011  
+
+courts ,--::Government ,--
+
+ some courts had imposed a " 'nexus' requirement"
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.035  
+ 0.492  
+ 0.452  
+ 0.018  
+ 0.003  
+
+We noted something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.044  
+ 0.272  
+ 0.425  
+ 0.226  
+ 0.033  
+
+We ,--::courts ,--
+
+ some courts had imposed a " 'nexus' requirement"
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.035  
+ 0.492  
+ 0.452  
+ 0.018  
+ 0.003  
+
+We noted something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.044  
+ 0.272  
+ 0.425  
+ 0.226  
+ 0.033  
+
+We ,--::defendant ,--
+
+ we "have traditionally exercised restraint in assessing the reach of a federal criminal statute
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.022  
+ 0.205  
+ 0.708  
+ 0.057  
+ 0.007  
+
+We wrote something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.031  
+ 0.277  
+ 0.547  
+ 0.132  
+ 0.012  
+
+We ,Congress;::we ,Congress;
+
+ the text refers to specific
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.005  
+ 0.052  
+ 0.865  
+ 0.074  
+ 0.004  
+
+statutory context confirms something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.010  
+ 0.045  
+ 0.593  
+ 0.317  
+ 0.035  
+
+statutory context ,--::text ,--
+
+ §7212 "covers all cases
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.029  
+ 0.158  
+ 0.446  
+ 0.316  
+ 0.050  
+
+It says something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.027  
+ 0.185  
+ 0.606  
+ 0.166  
+ 0.016  
+
+It ,The Senate Report;::7212 ,--
+
+ Congress intended the Omnibus Clause as a catchall applicable to the entire Code including the routine processing of tax returns
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.073  
+ 0.518  
+ 0.352  
+ 0.043  
+ 0.013  
+
+We suggesting something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.020  
+ 0.181  
+ 0.656  
+ 0.133  
+ 0.010  
+
+We ,--::Congress ,Congress;
+
+ he is running the risk of having violated an IRS rule
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.110  
+ 0.642  
+ 0.239  
+ 0.006  
+ 0.003  
+
+individual may believe something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.010  
+ 0.098  
+ 0.785  
+ 0.100  
+ 0.007  
+
+individual ,--::he ,--
+
+ the need to show the defendant's obstructive conduct was done "corruptly" will cure any overbreadth problem.
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.174  
+ 0.577  
+ 0.195  
+ 0.040  
+ 0.014  
+
+Government argues something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.043  
+ 0.255  
+ 0.494  
+ 0.172  
+ 0.035  
+
+Government ,--::need ,--
+
+ "corruptly" means acting with "the specific intent to obtain an unlawful advantage" for the defendant or another.
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.078  
+ 0.461  
+ 0.299  
+ 0.133  
+ 0.029  
+
+Government asserts something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.036  
+ 0.166  
+ 0.391  
+ 0.340  
+ 0.067  
+
+Government ,--::none-innersubject,--
+
+ the law imposed a duty on the defendant
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.046  
+ 0.394  
+ 0.445  
+ 0.100  
+ 0.015  
+
+none-outerSubject prove something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.033  
+ 0.180  
+ 0.469  
+ 0.272  
+ 0.046  
+
+none-outerSubject,--::law ,--
+
+ duty") A taxpayer may know with a fair degree of certainty that her babysitter will not declare a cash payment as income--and
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.080  
+ 0.592  
+ 0.276  
+ 0.039  
+ 0.012  
+
+he violated something.
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.096  
+ 0.333  
+ 0.321  
+ 0.184  
+ 0.066  
+
+he ,the defendant;the defendant 's;::taxpayer ,--
+
+ the taxpayer acted to obtain an unlawful benefit for another.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.061  
+ 0.364  
+ 0.384  
+ 0.161  
+ 0.030  
+
+jury could find something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.043  
+ 0.349  
+ 0.492  
+ 0.102  
+ 0.015  
+
+jury ,--::taxpayer ,--
+
+ we "cannot construe a criminal statute on the assumption that the Government will 'use it responsibly.' "
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.053  
+ 0.382  
+ 0.512  
+ 0.044  
+ 0.009  
+
+we have said something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.005  
+ 0.034  
+ 0.810  
+ 0.142  
+ 0.009  
+
+we ,--::we ,--
+
+ the Government must show (among other things) that there is a "nexus" between the defendant's conduct and a particular administrative proceeding
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.039  
+ 0.357  
+ 0.463  
+ 0.124  
+ 0.016  
+
+We conclude something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.044  
+ 0.272  
+ 0.425  
+ 0.226  
+ 0.033  
+
+We ,the IRS;::Government ,--
+
+ the IRS will review her tax return every year does not transform every violation of the Tax Code into an obstruction charge.
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.137  
+ 0.612  
+ 0.183  
+ 0.051  
+ 0.017  
+
+taxpayer knows something.
+Positive
+Type = dense , numRows = 5 , numCols = 1
+ 0.011  
+ 0.032  
+ 0.282  
+ 0.565  
+ 0.110  
+
+taxpayer ,--::IRS ,--
+
+ the proceeding was pending at the time the defendant engaged in the obstructive conduct or
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.030  
+ 0.292  
+ 0.587  
+ 0.080  
+ 0.011  
+
+Government must show something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.029  
+ 0.153  
+ 0.467  
+ 0.301  
+ 0.050  
+
+Government ,--::proceeding ,--
+
+ the Omnibus Clause does
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.001  
+ 0.007  
+ 0.956  
+ 0.034  
+ 0.002  
+
+I would hold something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.014  
+ 0.076  
+ 0.512  
+ 0.363  
+ 0.034  
+
+I ,--::Clause ,--
+
+ he had not filed a tax return--corporate or individual--since at least 1992.
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.073  
+ 0.526  
+ 0.361  
+ 0.031  
+ 0.009  
+
+IRS learned something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.023  
+ 0.118  
+ 0.538  
+ 0.279  
+ 0.043  
+
+IRS ,--::he ,--
+
+ he earned more than $1
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.020  
+ 0.162  
+ 0.635  
+ 0.166  
+ 0.016  
+
+He admitted something.
+Positive
+Type = dense , numRows = 5 , numCols = 1
+ 0.011  
+ 0.064  
+ 0.287  
+ 0.597  
+ 0.041  
+
+He ,Marinello;::he ,Marinello;
+
+ he shredded documents
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.059  
+ 0.454  
+ 0.427  
+ 0.048  
+ 0.012  
+
+He admitted something.
+Positive
+Type = dense , numRows = 5 , numCols = 1
+ 0.011  
+ 0.064  
+ 0.287  
+ 0.597  
+ 0.041  
+
+He ,Marinello;::he ,Marinello;
+
+ he "took the easy way out."
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.009  
+ 0.069  
+ 0.845  
+ 0.071  
+ 0.006  
+
+only His excuse was something.
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.058  
+ 0.685  
+ 0.232  
+ 0.021  
+ 0.004  
+
+only His excuse ,Marinello;::he ,Marinello;
+
+ the object of these words--the thing a person is prohibited from obstructing the due administration of--is "this title
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.047  
+ 0.522  
+ 0.394  
+ 0.032  
+ 0.005  
+
+I agree something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.019  
+ 0.076  
+ 0.424  
+ 0.420  
+ 0.061  
+
+I ,--::object ,--
+
+ the whole phrase "due administration of the Tax Code" means "only some of" the Tax Code--specifically "particular [IRS] proceeding[s]
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.109  
+ 0.648  
+ 0.224  
+ 0.013  
+ 0.006  
+
+Court concludes something.
+Positive
+Type = dense , numRows = 5 , numCols = 1
+ 0.023  
+ 0.100  
+ 0.373  
+ 0.429  
+ 0.074  
+
+Court ,--::whole phrase ,--
+
+ taxpayers with qualifying incomes must file returns
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.082  
+ 0.424  
+ 0.214  
+ 0.224  
+ 0.055  
+
+none-outerSubject specifies something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.036  
+ 0.166  
+ 0.391  
+ 0.340  
+ 0.067  
+
+none-outerSubject,--::taxpayers ,--
+
+ the statute prohibits only acts related to a pending or imminent proceeding.
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.089  
+ 0.592  
+ 0.287  
+ 0.025  
+ 0.008  
+
+It concludes something.
+Positive
+Type = dense , numRows = 5 , numCols = 1
+ 0.013  
+ 0.049  
+ 0.374  
+ 0.506  
+ 0.058  
+
+It ,The Court;::statute ,--
+
+ "only some of" the processes in the Tax Code are covered
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.051  
+ 0.561  
+ 0.349  
+ 0.033  
+ 0.006  
+
+Clause suggests something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.001  
+ 0.012  
+ 0.981  
+ 0.007  
+ 0.000  
+
+Clause ,--::some ,--
+
+ Congress has omitted from its adopted text requirements that it nonetheless intends to apply."
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.273  
+ 0.484  
+ 0.217  
+ 0.013  
+ 0.012  
+
+Court can not assume something.
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.098  
+ 0.539  
+ 0.294  
+ 0.050  
+ 0.018  
+
+Court ,--::Congress ,Congress;
+
+ the Omnibus Clause must be limited to pending or imminent proceedings because the other clauses of §7212 are limited to actions "taken against individual identifiable persons or property."
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.030  
+ 0.344  
+ 0.596  
+ 0.025  
+ 0.004  
+
+Court contends something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.036  
+ 0.166  
+ 0.391  
+ 0.340  
+ 0.067  
+
+Court ,--::Clause ,--
+
+ the ejusdem generis canon does not apply to a "disjunctive" phrase in a statute "with one specific and one general category").
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.060  
+ 0.416  
+ 0.414  
+ 0.092  
+ 0.018  
+
+none-outerSubject explaining something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.028  
+ 0.156  
+ 0.506  
+ 0.270  
+ 0.041  
+
+none-outerSubject,--::ejusdem ,--
+
+ its reading prevents the Omnibus Clause from overlapping with certain misdemeanors in the Tax Code.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.035  
+ 0.433  
+ 0.511  
+ 0.018  
+ 0.003  
+
+Court asserts something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.036  
+ 0.166  
+ 0.391  
+ 0.340  
+ 0.067  
+
+Court ,--::its reading ,the Court;
+
+ an act be done "corruptly
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.077  
+ 0.568  
+ 0.280  
+ 0.061  
+ 0.013  
+
+Clause requires something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.032  
+ 0.267  
+ 0.663  
+ 0.032  
+ 0.006  
+
+Clause ,--::act ,--
+
+ an act be done "willfully."
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.014  
+ 0.131  
+ 0.727  
+ 0.119  
+ 0.009  
+
+provisions require something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.043  
+ 0.289  
+ 0.457  
+ 0.178  
+ 0.033  
+
+provisions ,--::act ,--
+
+ specific intent requires both knowledge and purpose).
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.061  
+ 0.433  
+ 0.428  
+ 0.065  
+ 0.014  
+
+none-outerSubject explaining something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.028  
+ 0.156  
+ 0.506  
+ 0.270  
+ 0.041  
+
+none-outerSubject,--::specific intent ,--
+
+ is more culpable and thus more deserving of punishment.
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.121  
+ 0.628  
+ 0.217  
+ 0.024  
+ 0.010  
+
+law recognizes something.
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.067  
+ 0.425  
+ 0.425  
+ 0.065  
+ 0.017  
+
+law ,--::same conduct ,--
+
+ the distinction between first- and second-degree murder is based on the defendant's state of mind); §103 (same for voluntary and involuntary manslaughter).
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.138  
+ 0.695  
+ 0.150  
+ 0.011  
+ 0.006  
+
+none-outerSubject explaining something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.028  
+ 0.156  
+ 0.506  
+ 0.270  
+ 0.041  
+
+none-outerSubject,--::distinction ,--
+
+ its narrow reading of "due administration of this title" is supported by three decisions interpreting other obstruction statutes
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.087  
+ 0.711  
+ 0.187  
+ 0.011  
+ 0.004  
+
+Court contends something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.036  
+ 0.166  
+ 0.391  
+ 0.340  
+ 0.067  
+
+Court ,--::narrow its reading ,The Court;the Court 's;
+
+ the "language and history" of the Omnibus Clause "differ somewhat" from those other obstruction provisions.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.046  
+ 0.373  
+ 0.461  
+ 0.108  
+ 0.012  
+
+it admits something.
+Positive
+Type = dense , numRows = 5 , numCols = 1
+ 0.018  
+ 0.086  
+ 0.409  
+ 0.441  
+ 0.045  
+
+it ,The Court;the Court 's;::language ,--
+
+ this language requires the prosecution to prove a "nexus" between the defendant's obstructive act and "judicial proceedings."
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.112  
+ 0.665  
+ 0.211  
+ 0.009  
+ 0.004  
+
+Court concluded something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.036  
+ 0.166  
+ 0.391  
+ 0.340  
+ 0.067  
+
+Court ,--::language ,--
+
+ §1503 continued to refer to the administration of justice in a court.
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.071  
+ 0.338  
+ 0.312  
+ 0.222  
+ 0.057  
+
+Court assumed something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.036  
+ 0.166  
+ 0.391  
+ 0.340  
+ 0.067  
+
+Court ,--::1503 ,1503;
+
+ §1512(b)(2)(A) required the Government to show a "nexus" with "[a] particular proceeding."
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.178  
+ 0.665  
+ 0.127  
+ 0.018  
+ 0.012  
+
+Court concluded something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.036  
+ 0.166  
+ 0.391  
+ 0.340  
+ 0.067  
+
+Court ,--::1512 ,1512;
+
+ Congress knows
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.017  
+ 0.092  
+ 0.655  
+ 0.207  
+ 0.029  
+
+it shows something.
+Positive
+Type = dense , numRows = 5 , numCols = 1
+ 0.007  
+ 0.030  
+ 0.320  
+ 0.604  
+ 0.039  
+
+it ,Congress;::Congress ,Congress;
+
+ this language made §1519 broader than other obstruction statutes
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.097  
+ 0.575  
+ 0.236  
+ 0.074  
+ 0.017  
+
+Justices recognized something.
+Positive
+Type = dense , numRows = 5 , numCols = 1
+ 0.089  
+ 0.281  
+ 0.225  
+ 0.295  
+ 0.110  
+
+Justices ,--::language ,--
+
+ the latter is broader.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.024  
+ 0.119  
+ 0.496  
+ 0.320  
+ 0.041  
+
+plurality noting something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.028  
+ 0.144  
+ 0.491  
+ 0.294  
+ 0.044  
+
+plurality ,--::latter ,--
+
+ this Court interprets obstruction statutes to include a proceeding requirement.
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.078  
+ 0.502  
+ 0.358  
+ 0.048  
+ 0.013  
+
+cases demonstrate something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.013  
+ 0.072  
+ 0.714  
+ 0.177  
+ 0.024  
+
+cases ,--::Court ,--
+
+ the Omnibus Clause does not give defendants "fair warning" of
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.050  
+ 0.559  
+ 0.349  
+ 0.036  
+ 0.006  
+
+Court is concerned something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.023  
+ 0.111  
+ 0.463  
+ 0.351  
+ 0.051  
+
+Court ,--::Clause ,--
+
+ the proceeding was "reasonably foreseeable" to the defendant.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.041  
+ 0.349  
+ 0.492  
+ 0.103  
+ 0.015  
+
+Government must prove something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.037  
+ 0.214  
+ 0.474  
+ 0.233  
+ 0.041  
+
+Government ,--::proceeding ,--
+
+ a broad statute was warranted because "our tax structure is based on a system of self-reporting" and "the Government depends upon the good faith and integrity of each potential taxpayer to disclose honestly all information relevant to tax liability."
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.074  
+ 0.502  
+ 0.350  
+ 0.060  
+ 0.014  
+
+Congress may concluded something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.038  
+ 0.208  
+ 0.447  
+ 0.262  
+ 0.046  
+
+Congress ,Congress;Congress enacted;::broad statute ,--
+
+ the Omnibus Clause might apply to "a person
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.007  
+ 0.097  
+ 0.774  
+ 0.116  
+ 0.005  
+
+Court frets something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.036  
+ 0.166  
+ 0.391  
+ 0.340  
+ 0.067  
+
+Court ,--::Clause ,--
+
+ the statute covers Marinello
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.019  
+ 0.144  
+ 0.563  
+ 0.252  
+ 0.021  
+
+none-outerSubject is something.
+Positive
+Type = dense , numRows = 5 , numCols = 1
+ 0.021  
+ 0.094  
+ 0.404  
+ 0.416  
+ 0.065  
+
+none-outerSubject,--::statute ,--
+

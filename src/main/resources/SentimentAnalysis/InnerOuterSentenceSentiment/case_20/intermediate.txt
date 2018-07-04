@@ -1,0 +1,720 @@
+ the site permits minor children to become members or to create or maintain personal Web pages."
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.014  
+ 0.068  
+ 0.440  
+ 0.428  
+ 0.050  
+
+offender knows something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.019  
+ 0.190  
+ 0.761  
+ 0.026  
+ 0.003  
+
+offender ,--::site ,--
+
+ all persons have access to places
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.011  
+ 0.103  
+ 0.784  
+ 0.096  
+ 0.007  
+
+fundamental principle is something.
+Positive
+Type = dense , numRows = 5 , numCols = 1
+ 0.037  
+ 0.155  
+ 0.315  
+ 0.409  
+ 0.085  
+
+fundamental principle ,--::persons ,--
+
+ courts must be conscious that
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.007  
+ 0.074  
+ 0.857  
+ 0.057  
+ 0.005  
+
+none-outerSubject reaching something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.049  
+ 0.291  
+ 0.453  
+ 0.172  
+ 0.035  
+
+none-outerSubject,--::courts ,--
+
+ the First Amendment provides scant protection for access to vast networks in that medium.
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.067  
+ 0.426  
+ 0.371  
+ 0.113  
+ 0.023  
+
+Court suggesting something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.011  
+ 0.070  
+ 0.684  
+ 0.216  
+ 0.019  
+
+Court ,--::Amendment ,--
+
+ the statute is content neutral and thus subject to intermediate scrutiny
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.108  
+ 0.593  
+ 0.199  
+ 0.076  
+ 0.024  
+
+provision assuming something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.036  
+ 0.262  
+ 0.595  
+ 0.092  
+ 0.014  
+
+provision ,--::statute ,--
+
+ the law applies to commonplace social networking sites like Facebook
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.024  
+ 0.317  
+ 0.627  
+ 0.027  
+ 0.004  
+
+it assume something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.054  
+ 0.406  
+ 0.437  
+ 0.089  
+ 0.014  
+
+it ,the Court;::law ,--
+
+ the First Amendment permits a State to enact specific
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.033  
+ 0.295  
+ 0.506  
+ 0.152  
+ 0.015  
+
+Court assumes something.
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.077  
+ 0.341  
+ 0.312  
+ 0.211  
+ 0.059  
+
+Court ,--::Amendment ,--
+
+ this sweeping law is necessary or legitimate to serve its purpose of keeping convicted sex offenders away from vulnerable victims.
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.146  
+ 0.585  
+ 0.211  
+ 0.043  
+ 0.015  
+
+State show something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.009  
+ 0.066  
+ 0.798  
+ 0.118  
+ 0.009  
+
+State ,--::sweeping law ,--
+
+ the site permits minor children to become members or to create or maintain personal Web pages."
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.014  
+ 0.068  
+ 0.440  
+ 0.428  
+ 0.050  
+
+offender knows something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.019  
+ 0.190  
+ 0.761  
+ 0.026  
+ 0.003  
+
+offender ,--::site ,--
+
+ a traffic citation for petitioner had been dismissed around the time of the post.
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.232  
+ 0.587  
+ 0.152  
+ 0.019  
+ 0.011  
+
+officer discovered something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.009  
+ 0.037  
+ 0.461  
+ 0.446  
+ 0.048  
+
+officer ,--::citation ,--
+
+ petitioner contacted a minor--or committed any other illicit act--on the Internet.
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.129  
+ 0.571  
+ 0.228  
+ 0.050  
+ 0.022  
+
+State did allege something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.023  
+ 0.183  
+ 0.682  
+ 0.100  
+ 0.012  
+
+State ,--::petitioner ,Petitioner;petitioner;
+
+ the law is not narrowly tailored to serve the State's legitimate interest in protecting minors from sexual abuse.
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.088  
+ 0.650  
+ 0.240  
+ 0.016  
+ 0.005  
+
+court explaining something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.011  
+ 0.074  
+ 0.678  
+ 0.221  
+ 0.016  
+
+court ,--::law ,--
+
+ the law is "constitutional in all respects."
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.068  
+ 0.480  
+ 0.378  
+ 0.061  
+ 0.014  
+
+Court concluding something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.028  
+ 0.144  
+ 0.491  
+ 0.294  
+ 0.044  
+
+Court ,--::law ,--
+
+ the law is "carefully tailored . . . to prohibit registered sex offenders from accessing only those Web sites
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.083  
+ 0.629  
+ 0.256  
+ 0.025  
+ 0.007  
+
+court explained something.
+Positive
+Type = dense , numRows = 5 , numCols = 1
+ 0.028  
+ 0.145  
+ 0.232  
+ 0.525  
+ 0.070  
+
+court ,--::law ,--
+
+ the law leaves open adequate alternative means of communication because it permits petitioner to gain access to websites that the court believed perform the "same or similar" functions as social media
+Positive
+Type = dense , numRows = 5 , numCols = 1
+ 0.028  
+ 0.115  
+ 0.249  
+ 0.522  
+ 0.085  
+
+court held something.
+Positive
+Type = dense , numRows = 5 , numCols = 1
+ 0.010  
+ 0.044  
+ 0.180  
+ 0.699  
+ 0.067  
+
+court ,--::law ,--
+
+ the law impermissibly "creates a criminal prohibition of alarming breadth and extends well beyond the evils the State seeks to combat."
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.086  
+ 0.570  
+ 0.287  
+ 0.045  
+ 0.012  
+
+They stated something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.018  
+ 0.104  
+ 0.585  
+ 0.263  
+ 0.030  
+
+They ,Two justices;::law ,--
+
+ all persons have access to places
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.011  
+ 0.103  
+ 0.784  
+ 0.096  
+ 0.007  
+
+fundamental principle is something.
+Positive
+Type = dense , numRows = 5 , numCols = 1
+ 0.037  
+ 0.155  
+ 0.315  
+ 0.409  
+ 0.085  
+
+fundamental principle ,--::persons ,--
+
+ a street or a park is a quintessential forum for the exercise of First Amendment rights.
+Positive
+Type = dense , numRows = 5 , numCols = 1
+ 0.008  
+ 0.024  
+ 0.189  
+ 0.673  
+ 0.106  
+
+none-outerSubject is something.
+Positive
+Type = dense , numRows = 5 , numCols = 1
+ 0.021  
+ 0.094  
+ 0.404  
+ 0.416  
+ 0.065  
+
+none-outerSubject,--::street ,--
+
+ even its participants may be unaware of it.
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.073  
+ 0.676  
+ 0.218  
+ 0.028  
+ 0.005  
+
+nature can be something.
+Positive
+Type = dense , numRows = 5 , numCols = 1
+ 0.003  
+ 0.015  
+ 0.421  
+ 0.534  
+ 0.026  
+
+nature ,--::its participants ,The American war;The nature of a revolution in thought;
+
+ courts must be conscious that
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.007  
+ 0.074  
+ 0.857  
+ 0.057  
+ 0.005  
+
+none-outerSubject reaching something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.049  
+ 0.291  
+ 0.453  
+ 0.172  
+ 0.035  
+
+none-outerSubject,--::courts ,--
+
+ the First Amendment provides scant protection for access to vast networks in that medium.
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.067  
+ 0.426  
+ 0.371  
+ 0.113  
+ 0.023  
+
+Court suggesting something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.011  
+ 0.070  
+ 0.684  
+ 0.216  
+ 0.019  
+
+Court ,--::Amendment ,--
+
+ the law applies (as the State concedes it does) to social networking sites "as commonly understood"-
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.020  
+ 0.293  
+ 0.664  
+ 0.020  
+ 0.003  
+
+It assume something.
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.070  
+ 0.442  
+ 0.412  
+ 0.064  
+ 0.013  
+
+It ,--::law ,--
+
+ the First Amendment permits a State to enact specific
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.033  
+ 0.295  
+ 0.506  
+ 0.152  
+ 0.015  
+
+it can be assumed something.
+Positive
+Type = dense , numRows = 5 , numCols = 1
+ 0.015  
+ 0.081  
+ 0.404  
+ 0.461  
+ 0.038  
+
+it ,issue;the issue;::Amendment ,--
+
+ only a limited set of websites can be used even by persons
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.078  
+ 0.667  
+ 0.236  
+ 0.014  
+ 0.005  
+
+It suggest something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.029  
+ 0.193  
+ 0.601  
+ 0.159  
+ 0.017  
+
+It ,--::limited set ,--
+
+ the law must be this broad to serve its preventative purpose of keeping convicted sex offenders away from vulnerable victims.
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.128  
+ 0.589  
+ 0.238  
+ 0.034  
+ 0.011  
+
+primary response is something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.004  
+ 0.017  
+ 0.627  
+ 0.332  
+ 0.020  
+
+primary response ,--::law ,--
+
+ this sweeping law is necessary or legitimate to serve that purpose.
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.075  
+ 0.322  
+ 0.278  
+ 0.259  
+ 0.066  
+
+State show something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.009  
+ 0.066  
+ 0.798  
+ 0.118  
+ 0.009  
+
+State ,--::sweeping law ,--
+
+ the Government "may not suppress lawful speech as the means to suppress unlawful speech."
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.088  
+ 0.576  
+ 0.297  
+ 0.030  
+ 0.009  
+
+It is established something.
+Positive
+Type = dense , numRows = 5 , numCols = 1
+ 0.008  
+ 0.028  
+ 0.317  
+ 0.584  
+ 0.063  
+
+It ,--::Government ,--
+
+ the States are largely powerless to restrict even the most dangerous sexual predators from visiting any internet sites
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.068  
+ 0.636  
+ 0.253  
+ 0.036  
+ 0.007  
+
+language mean something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.021  
+ 0.117  
+ 0.528  
+ 0.301  
+ 0.034  
+
+language ,--::States ,--
+
+ the site permits minor children to become members or to create or maintain personal Web pages."
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.014  
+ 0.068  
+ 0.440  
+ 0.428  
+ 0.050  
+
+offender knows something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.019  
+ 0.190  
+ 0.761  
+ 0.026  
+ 0.003  
+
+offender ,--::site ,--
+
+ the law in question is content neutral and merely regulates a "place" (i.e.
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.153  
+ 0.711  
+ 0.093  
+ 0.028  
+ 0.014  
+
+State argues something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.029  
+ 0.223  
+ 0.682  
+ 0.057  
+ 0.009  
+
+State ,--::law ,--
+
+ the challenged statute is "unlike any law this Court has considered as a time
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.044  
+ 0.309  
+ 0.401  
+ 0.217  
+ 0.029  
+
+Packingham responds something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.036  
+ 0.166  
+ 0.391  
+ 0.340  
+ 0.067  
+
+Packingham ,--::challenged statute ,--
+
+ any website with such a function satisfies this requirement.
+Positive
+Type = dense , numRows = 5 , numCols = 1
+ 0.008  
+ 0.016  
+ 0.078  
+ 0.704  
+ 0.194  
+
+function follow something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.015  
+ 0.117  
+ 0.752  
+ 0.107  
+ 0.009  
+
+function ,--::website ,--
+
+ its wide sweep precludes access to a large number of websites
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.029  
+ 0.252  
+ 0.513  
+ 0.190  
+ 0.017  
+
+fatal problem is something.
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.102  
+ 0.810  
+ 0.079  
+ 0.006  
+ 0.002  
+
+fatal problem ,--::wide its sweep ,The fatal problem for § 14-202.5;
+
+ the user uploads.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.035  
+ 0.207  
+ 0.501  
+ 0.223  
+ 0.034  
+
+none-outerSubject reviews something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.016  
+ 0.093  
+ 0.634  
+ 0.232  
+ 0.024  
+
+none-outerSubject,--::user ,--
+
+ "a street or a park is a quintessential forum for the exercise of First Amendment rights
+Positive
+Type = dense , numRows = 5 , numCols = 1
+ 0.003  
+ 0.011  
+ 0.090  
+ 0.840  
+ 0.055  
+
+Court noting something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.028  
+ 0.144  
+ 0.491  
+ 0.294  
+ 0.044  
+
+Court ,--::street ,--
+
+ "cyberspace" and "social media in particular" are now "the most important places (in a spatial sense) for the exchange of views."
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.007  
+ 0.062  
+ 0.667  
+ 0.253  
+ 0.011  
+
+Court states something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.029  
+ 0.144  
+ 0.456  
+ 0.319  
+ 0.053  
+
+Court ,--::cyberspace ,--
+

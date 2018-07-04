@@ -1,0 +1,1965 @@
+An arresting officer also reported that, based on his "training and experience," he "knew the pills to be ecstasy."
+	innerSentence : " he "knew the pills to be ecstasy."
+		coremap sentence : " he "knew the pills to be ecstasy."
+		sentiment : Positive
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.012  
+ 0.082  
+ 0.419  
+ 0.458  
+ 0.029  
+
+		-----
+	outerSentence : arresting officer reported something.
+		coremap sentence : arresting officer reported something.
+		sentiment : Positive
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.009  
+ 0.023  
+ 0.136  
+ 0.692  
+ 0.141  
+
+		-----
+	 outer Subject : arresting officer 	,	inner Subject : he 
+resolved as : (--, An arresting officer;)
+
+While Manuel was in jail, the Illinois police laboratory tested the seized pills and reported that they contained no controlled substances.
+	innerSentence :  they contained no controlled substances.
+		coremap sentence : they contained no controlled substances.
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.091  
+ 0.586  
+ 0.294  
+ 0.021  
+ 0.008  
+
+		-----
+	outerSentence : none-outerSubject reported something.
+		coremap sentence : none-outerSubject reported something.
+		sentiment : Positive
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.021  
+ 0.093  
+ 0.409  
+ 0.410  
+ 0.066  
+
+		-----
+	 outer Subject : none-outerSubject	,	inner Subject : they 
+resolved as : (--, the Illinois police laboratory;)
+
+More than two years after his arrest, but less than two years after his criminal case was dismissed, Manuel filed a 42 U. S. C. §1983 lawsuit against Joliet and several of its police officers (collectively, the City), alleging that his arrest and detention violated the Fourth Amendment.
+	innerSentence :  his arrest and detention violated the Fourth Amendment.
+		coremap sentence : his arrest and detention violated the Fourth Amendment.
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.176  
+ 0.583  
+ 0.193  
+ 0.033  
+ 0.015  
+
+		-----
+	outerSentence : none-outerSubject alleging something.
+		coremap sentence : none-outerSubject alleging something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.036  
+ 0.166  
+ 0.391  
+ 0.340  
+ 0.067  
+
+		-----
+	 outer Subject : none-outerSubject	,	inner Subject : his arrest 
+resolved as : (--, Manuel;Manuel 's;the judge 's;)
+
+In Gerstein v. Pugh, 420 U. S. 103, the Court decided that a pretrial detention challenge was governed by the Fourth Amendment, noting that the Fourth Amendment establishes the minimum constitutional "standards and procedures" not just for arrest but also for "detention," id., at 111, and "always has been thought to define" the appropriate process "for seizures of person[s] . . . in criminal cases, including the detention of suspects pending trial," id., at 125, n. 27.
+	innerSentence :  a pretrial detention challenge was governed by the Fourth Amendment
+		coremap sentence : a pretrial detention challenge was governed by the Fourth Amendment
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.079  
+ 0.556  
+ 0.320  
+ 0.034  
+ 0.012  
+
+		-----
+	outerSentence : Court decided something.
+		coremap sentence : Court decided something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.021  
+ 0.104  
+ 0.572  
+ 0.265  
+ 0.038  
+
+		-----
+	 outer Subject : Court 	,	inner Subject : pretrial challenge 
+resolved as : (--, --)
+In Gerstein v. Pugh, 420 U. S. 103, the Court decided that a pretrial detention challenge was governed by the Fourth Amendment, noting that the Fourth Amendment establishes the minimum constitutional "standards and procedures" not just for arrest but also for "detention," id., at 111, and "always has been thought to define" the appropriate process "for seizures of person[s] . . . in criminal cases, including the detention of suspects pending trial," id., at 125, n. 27.
+	innerSentence :  the Fourth Amendment establishes the minimum constitutional "standards and procedures" not just for arrest but also for "detention
+		coremap sentence : the Fourth Amendment establishes the minimum constitutional "standards and procedures" not just for arrest but also for "detention
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.098  
+ 0.594  
+ 0.259  
+ 0.037  
+ 0.012  
+
+		-----
+	outerSentence : Court noting something.
+		coremap sentence : Court noting something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.028  
+ 0.144  
+ 0.491  
+ 0.294  
+ 0.044  
+
+		-----
+	 outer Subject : Court 	,	inner Subject : Fourth Amendment 
+resolved as : (--, --)
+
+Relying on Gerstein, the plurality reiterated that the Fourth Amendment is the "relevan[t]" constitutional provision to assess the "deprivations of liberty that go hand in hand with criminal prosecutions."
+	innerSentence :  the Fourth Amendment is the "relevan[t]" constitutional provision to assess the "deprivations of liberty
+		coremap sentence : the Fourth Amendment is the "relevan[t]" constitutional provision to assess the "deprivations of liberty
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.068  
+ 0.542  
+ 0.326  
+ 0.052  
+ 0.012  
+
+		-----
+	outerSentence : plurality reiterated something.
+		coremap sentence : plurality reiterated something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.036  
+ 0.166  
+ 0.391  
+ 0.340  
+ 0.067  
+
+		-----
+	 outer Subject : plurality 	,	inner Subject : Fourth Amendment 
+resolved as : (--, --)
+
+That the pretrial restraints in Albright arose pursuant to legal process made no difference, given that they were allegedly unsupported by probable cause.
+	innerSentence :  they were allegedly unsupported by probable cause.
+		coremap sentence : they were allegedly unsupported by probable cause.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.049  
+ 0.460  
+ 0.478  
+ 0.011  
+ 0.003  
+
+		-----
+	outerSentence : pretrial restraints given something.
+		coremap sentence : pretrial restraints given something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.026  
+ 0.187  
+ 0.609  
+ 0.160  
+ 0.019  
+
+		-----
+	 outer Subject : pretrial restraints 	,	inner Subject : they 
+resolved as : (--, pretrial restraints;the pretrial restraints in Albright;)
+
+On remand, the Seventh Circuit should determine the claim's accrual date, unless it finds that the City has previously waived its timeliness argument.
+	innerSentence :  the City has previously waived its timeliness argument.
+		coremap sentence : the City has previously waived its timeliness argument.
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.146  
+ 0.662  
+ 0.172  
+ 0.015  
+ 0.006  
+
+		-----
+	outerSentence : it finds something.
+		coremap sentence : it finds something.
+		sentiment : Positive
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.005  
+ 0.017  
+ 0.263  
+ 0.667  
+ 0.048  
+
+		-----
+	 outer Subject : it 	,	inner Subject : City 
+resolved as : (The court;the Seventh Circuit;the court;, --)
+
+Suspecting that the pills were actually illegal drugs, the officers conducted a field test of the bottle's contents.
+	innerSentence :  the pills were actually illegal drugs
+		coremap sentence : the pills were actually illegal drugs
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.036  
+ 0.395  
+ 0.519  
+ 0.042  
+ 0.007  
+
+		-----
+	outerSentence : officers Suspecting something.
+		coremap sentence : officers Suspecting something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.028  
+ 0.144  
+ 0.491  
+ 0.294  
+ 0.044  
+
+		-----
+	 outer Subject : officers 	,	inner Subject : pills 
+resolved as : (--, --)
+
+But the technician lied in his report, claiming that one of the pills was "found to be . . . positive for the probable presence of ecstasy."
+	innerSentence :  one of the pills was "found to be . . . positive for the probable presence of ecstasy."
+		coremap sentence : one of the pills was "found to be . . . positive for the probable presence of ecstasy."
+		sentiment : Positive
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.018  
+ 0.066  
+ 0.324  
+ 0.504  
+ 0.089  
+
+		-----
+	outerSentence : technician claiming something.
+		coremap sentence : technician claiming something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.028  
+ 0.144  
+ 0.491  
+ 0.294  
+ 0.044  
+
+		-----
+	 outer Subject : technician 	,	inner Subject : one 
+resolved as : (--, --)
+
+
+Manuel's complaint alleged that the City violated his Fourth Amendment rights in two ways--first by arresting him at the roadside without any reason, and next by "detaining him in police custody" for almost seven weeks based entirely on made-up evidence.
+	innerSentence :  the City violated his Fourth Amendment rights in two ways--first by arresting him at the roadside without any reason
+		coremap sentence : the City violated his Fourth Amendment rights in two ways--first by arresting him at the roadside without any reason
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.118  
+ 0.658  
+ 0.163  
+ 0.044  
+ 0.016  
+
+		-----
+	outerSentence : Manuel 's complaint alleged something.
+		coremap sentence : Manuel 's complaint alleged something.
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.060  
+ 0.492  
+ 0.402  
+ 0.037  
+ 0.009  
+
+		-----
+	 outer Subject : Manuel 's complaint 	,	inner Subject : City 
+resolved as : (--, --)
+
+The court first held that the applicable two-year statute of limitations barred Manuel's claim for unlawful arrest, because more than two years had elapsed between the date of his arrest (March 18, 2011) and the filing of his complaint (April 22, 2013).
+	innerSentence :  the applicable two-year statute of limitations barred Manuel's claim for unlawful arrest
+		coremap sentence : the applicable two-year statute of limitations barred Manuel's claim for unlawful arrest
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.099  
+ 0.655  
+ 0.222  
+ 0.016  
+ 0.008  
+
+		-----
+	outerSentence : court held something.
+		coremap sentence : court held something.
+		sentiment : Positive
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.010  
+ 0.044  
+ 0.180  
+ 0.699  
+ 0.067  
+
+		-----
+	 outer Subject : court 	,	inner Subject : applicable statute 
+resolved as : (--, --)
+
+Because Manuel's complaint rested solely on the Fourth Amendment--and because, in any event, Illinois's remedies were robust enough to preclude the due process avenue--the District Court found that Manuel had no way to proceed.
+	innerSentence :  Manuel had no way to proceed.
+		coremap sentence : Manuel had no way to proceed.
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.084  
+ 0.493  
+ 0.341  
+ 0.063  
+ 0.019  
+
+		-----
+	outerSentence : Court found something.
+		coremap sentence : Court found something.
+		sentiment : Positive
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.015  
+ 0.052  
+ 0.354  
+ 0.496  
+ 0.082  
+
+		-----
+	 outer Subject : Court 	,	inner Subject : Manuel 
+resolved as : (--, Manuel;Manuel 's;)
+
+Invoking its prior caselaw, the Court of Appeals reiterated that such claims could not be brought under the Fourth Amendment.
+	innerSentence :  such claims could not be brought under the Fourth Amendment.
+		coremap sentence : such claims could not be brought under the Fourth Amendment.
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.133  
+ 0.678  
+ 0.154  
+ 0.026  
+ 0.009  
+
+		-----
+	outerSentence : Court reiterated something.
+		coremap sentence : Court reiterated something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.036  
+ 0.166  
+ 0.391  
+ 0.340  
+ 0.067  
+
+		-----
+	 outer Subject : Court 	,	inner Subject : such claims 
+resolved as : (--, --)
+
+So the Seventh Circuit held that Manuel's complaint, in alleging only a Fourth Amendment violation, rested on the wrong part of the Constitution: A person detained following the onset of legal process could at most (although, the court agreed, not in Illinois) challenge his pretrial confinement via the Due Process Clause.
+	innerSentence :  rested on the wrong part of the Constitution
+		coremap sentence : rested on the wrong part of the Constitution
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.032  
+ 0.250  
+ 0.566  
+ 0.133  
+ 0.020  
+
+		-----
+	outerSentence : Circuit held something.
+		coremap sentence : Circuit held something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.004  
+ 0.029  
+ 0.828  
+ 0.129  
+ 0.010  
+
+		-----
+	 outer Subject : Circuit 	,	inner Subject : Manuel 's complaint 
+resolved as : (--, --)
+
+The Seventh Circuit recognized that its position makes it an outlier among the Courts of Appeals, with ten others taking the opposite view.
+	innerSentence :  its position makes it an outlier among the Courts of Appeals
+		coremap sentence : its position makes it an outlier among the Courts of Appeals
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.044  
+ 0.269  
+ 0.355  
+ 0.289  
+ 0.044  
+
+		-----
+	outerSentence : Circuit recognized something.
+		coremap sentence : Circuit recognized something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.070  
+ 0.309  
+ 0.420  
+ 0.156  
+ 0.045  
+
+		-----
+	 outer Subject : Circuit 	,	inner Subject : its position 
+resolved as : (--, The Seventh Circuit;the court;)
+
+79-80; Bailey v. United States, 568 U. S. 186, 192 (2013) ("[T]he general rule [is] that Fourth Amendment seizures are 'reasonable' only if based on probable cause to believe that the individual has committed a crime").
+	innerSentence :  the individual has committed a crime").
+		coremap sentence : the individual has committed a crime").
+		sentiment : Positive
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.025  
+ 0.101  
+ 0.379  
+ 0.431  
+ 0.064  
+
+		-----
+	outerSentence : Fourth seizures believe something.
+		coremap sentence : Fourth seizures believe something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.058  
+ 0.319  
+ 0.355  
+ 0.221  
+ 0.046  
+
+		-----
+	 outer Subject : Fourth seizures 	,	inner Subject : individual 
+resolved as : (--, --)
+
+In Gerstein, two persons arrested without a warrant brought a §1983 suit complaining that they had been held in custody for "a substantial period solely on the decision of a prosecutor."
+	innerSentence :  they had been held in custody for "a substantial period solely on the decision of a prosecutor."
+		coremap sentence : they had been held in custody for "a substantial period solely on the decision of a prosecutor."
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.008  
+ 0.124  
+ 0.858  
+ 0.009  
+ 0.001  
+
+		-----
+	outerSentence : none-outerSubject complaining something.
+		coremap sentence : none-outerSubject complaining something.
+		sentiment : Positive
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.041  
+ 0.166  
+ 0.332  
+ 0.375  
+ 0.087  
+
+		-----
+	 outer Subject : none-outerSubject	,	inner Subject : they 
+resolved as : (--, two persons arrested without a warrant;)
+
+In choosing that Amendment "as the rationale for decision," the Court responded to a concurring Justice's view that the Due Process Clause offered the better framework: The Fourth Amendment, the majority countered, was "tailored explicitly for the criminal justice system, and it[ ] always has been thought to define" the appropriate process "for seizures of person[s] . . . in criminal cases, including the detention of suspects pending trial."
+	innerSentence : " the Court responded to a concurring Justice's view that the Due Process Clause offered the better framework
+		coremap sentence : " the Court responded to a concurring Justice's view that the Due Process Clause offered the better framework
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.071  
+ 0.633  
+ 0.247  
+ 0.039  
+ 0.009  
+
+		-----
+	outerSentence : none-outerSubject choosing something.
+		coremap sentence : none-outerSubject choosing something.
+		sentiment : Positive
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.023  
+ 0.098  
+ 0.387  
+ 0.422  
+ 0.070  
+
+		-----
+	 outer Subject : none-outerSubject	,	inner Subject : Amendment 
+resolved as : (--, --)
+
+For uncertain reasons, Albright ignored the Fourth Amendment in drafting his complaint; instead, he alleged that the defendant officer had infringed his substantive due process rights.
+	innerSentence :  the defendant officer had infringed his substantive due process rights.
+		coremap sentence : the defendant officer had infringed his substantive due process rights.
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.110  
+ 0.592  
+ 0.249  
+ 0.037  
+ 0.011  
+
+		-----
+	outerSentence : he alleged something.
+		coremap sentence : he alleged something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.055  
+ 0.367  
+ 0.505  
+ 0.058  
+ 0.014  
+
+		-----
+	 outer Subject : he 	,	inner Subject : officer 
+resolved as : (Albright;, --)
+
+
+See id., at 271 (plurality opinion) ("We hold that it is the Fourth Amendment . . . under which [ his] claim must be judged"); id., at 290 (Souter, J., concurring in judgment) ("[I]njuries like those [ he] alleges are cognizable in §1983 claims founded upon . . . the Fourth Amendment").
+	innerSentence :  it is the Fourth Amendment . . . under
+		coremap sentence : it is the Fourth Amendment . . . under
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.054  
+ 0.368  
+ 0.387  
+ 0.167  
+ 0.025  
+
+		-----
+	outerSentence : We hold something.
+		coremap sentence : We hold something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.015  
+ 0.081  
+ 0.470  
+ 0.400  
+ 0.035  
+
+		-----
+	 outer Subject : We 	,	inner Subject : it 
+resolved as : (--, --)
+
+That the deprivations at issue were pursuant to legal process made no difference, given that they were (allegedly) unsupported by probable cause; indeed, neither of the two opinions so much as mentioned that procedural circumstance.
+	innerSentence :  they were (allegedly) unsupported by probable cause; indeed
+		coremap sentence : they were (allegedly) unsupported by probable cause; indeed
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.114  
+ 0.666  
+ 0.209  
+ 0.007  
+ 0.004  
+
+		-----
+	outerSentence : none-outerSubject given something.
+		coremap sentence : none-outerSubject given something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.023  
+ 0.130  
+ 0.567  
+ 0.244  
+ 0.036  
+
+		-----
+	 outer Subject : none-outerSubject	,	inner Subject : they 
+resolved as : (--, pretrial deprivations of liberty;the deprivations at issue;)
+
+Relying on Gerstein, the plurality stated that the Fourth Amendment remained the "relevan[t]" constitutional provision to assess the "deprivations of liberty"--most notably, pretrial detention--"that go hand in hand with criminal prosecutions."
+	innerSentence :  the Fourth Amendment remained the "relevan[t]" constitutional provision to assess the "deprivations of liberty"--most notably
+		coremap sentence : the Fourth Amendment remained the "relevan[t]" constitutional provision to assess the "deprivations of liberty"--most notably
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.073  
+ 0.573  
+ 0.302  
+ 0.041  
+ 0.011  
+
+		-----
+	outerSentence : plurality stated something.
+		coremap sentence : plurality stated something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.036  
+ 0.166  
+ 0.391  
+ 0.340  
+ 0.067  
+
+		-----
+	 outer Subject : plurality 	,	inner Subject : Fourth Amendment 
+resolved as : (--, --)
+
+
+If the complaint is that a form of legal process resulted in pretrial detention unsupported by probable cause, then the right allegedly infringed lies in the Fourth Amendment.6
+	innerSentence :  a form of legal process resulted in pretrial detention unsupported by probable cause
+		coremap sentence : a form of legal process resulted in pretrial detention unsupported by probable cause
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.121  
+ 0.718  
+ 0.131  
+ 0.022  
+ 0.008  
+
+		-----
+	outerSentence : complaint is something.
+		coremap sentence : complaint is something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.037  
+ 0.324  
+ 0.391  
+ 0.226  
+ 0.023  
+
+		-----
+	 outer Subject : complaint 	,	inner Subject : form 
+resolved as : (--, --)
+
+
+
+(explaining that tort principles "provide the appropriate starting point" in specifying the conditions for recovery under §1983); Wallace v. Kato, 549 U. S. 384, 388-390 (2007) (same for accrual dates in particular).
+	innerSentence :  tort principles "provide the appropriate starting point" in specifying the conditions for recovery under §1983); Wallace v. Kato
+		coremap sentence : tort principles "provide the appropriate starting point" in specifying the conditions for recovery under §1983); Wallace v. Kato
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.031  
+ 0.346  
+ 0.594  
+ 0.026  
+ 0.004  
+
+		-----
+	outerSentence : none-outerSubject explaining something.
+		coremap sentence : none-outerSubject explaining something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.028  
+ 0.156  
+ 0.506  
+ 0.270  
+ 0.041  
+
+		-----
+	 outer Subject : none-outerSubject	,	inner Subject : principles 
+resolved as : (--, --)
+
+Hartman v. Moore, 547 U. S. 250, 258 (2006); see Rehberg v. Paulk, 566 U. S. 356, 366 (2012) (noting that "§1983 is [not] simply a federalized amalgamation of pre-existing common-law claims").
+	innerSentence :  "§1983 is [not] simply a federalized amalgamation of pre-existing common-law claims").
+		coremap sentence : "§1983 is [not] simply a federalized amalgamation of pre-existing common-law claims").
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.131  
+ 0.648  
+ 0.135  
+ 0.064  
+ 0.022  
+
+		-----
+	outerSentence : none-outerSubject noting something.
+		coremap sentence : none-outerSubject noting something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.036  
+ 0.166  
+ 0.391  
+ 0.340  
+ 0.067  
+
+		-----
+	 outer Subject : none-outerSubject	,	inner Subject : 1983 
+resolved as : (--, 1983;)
+
+Man-uel argues that following the same rule in suits like his will avoid "conflicting resolutions" in §1983 litigation and criminal proceedings by "preclud[ing] the possibility of the claimant succeeding in the tort action after having been convicted in the underlying criminal prosecution."
+	innerSentence :  following the same rule in suits like his will avoid "conflicting resolutions" in §1983 litigation and criminal proceedings by "preclud[ing] the possibility of the claimant succeeding in the tort action after having been convicted in the underlying criminal prosecution."
+		coremap sentence : following the same rule in suits like his will avoid "conflicting resolutions" in §1983 litigation and criminal proceedings by "preclud[ing] the possibility of the claimant succeeding in the tort action after having been convicted in the underlying criminal prosecution."
+		sentiment : Very negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.410  
+ 0.371  
+ 0.194  
+ 0.011  
+ 0.014  
+
+		-----
+	outerSentence : Man-uel argues something.
+		coremap sentence : Man-uel argues something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.043  
+ 0.255  
+ 0.494  
+ 0.172  
+ 0.035  
+
+		-----
+	 outer Subject : Man-uel 	,	inner Subject : none-innersubject
+resolved as : (--, --)
+
+The City, however, contends that any such Fourth Amendment claim accrues (and the limitations period starts to run) on the date of the initiation of legal process--here, on March 18, 2011, more than two years before Manuel filed suit.
+	innerSentence :  any such Fourth Amendment claim accrues (and the limitations period starts to run) on the date of the initiation of legal process--here
+		coremap sentence : any such Fourth Amendment claim accrues (and the limitations period starts to run) on the date of the initiation of legal process--here
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.067  
+ 0.592  
+ 0.298  
+ 0.035  
+ 0.008  
+
+		-----
+	outerSentence : City contends something.
+		coremap sentence : City contends something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.023  
+ 0.111  
+ 0.548  
+ 0.282  
+ 0.036  
+
+		-----
+	 outer Subject : City 	,	inner Subject : such claim 
+resolved as : (--, --)
+
+
+And finally, the City contends that Manuel forfeited an alternative theory for treating his date of release as the date of accrual: to wit, that his pretrial detention "constitute[d] a continuing Fourth Amendment violation," each day of which triggered the statute of limitations anew.
+	innerSentence :  Manuel forfeited an alternative theory for treating his date of release as the date of accrual
+		coremap sentence : Manuel forfeited an alternative theory for treating his date of release as the date of accrual
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.064  
+ 0.487  
+ 0.402  
+ 0.036  
+ 0.011  
+
+		-----
+	outerSentence : City contends something.
+		coremap sentence : City contends something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.023  
+ 0.111  
+ 0.548  
+ 0.282  
+ 0.036  
+
+		-----
+	 outer Subject : City 	,	inner Subject : Manuel 
+resolved as : (--, Manuel;Manuel 's;Manuel, the City concludes;)
+
+Because the Seventh Circuit wrongly held that Manuel lacked any Fourth Amendment claim once legal process began, the court never addressed the elements of, or rules applicable to, such a claim.
+	innerSentence :  Manuel lacked any Fourth Amendment claim once legal process began
+		coremap sentence : Manuel lacked any Fourth Amendment claim once legal process began
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.073  
+ 0.500  
+ 0.355  
+ 0.056  
+ 0.016  
+
+		-----
+	outerSentence : Circuit held something.
+		coremap sentence : Circuit held something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.004  
+ 0.029  
+ 0.828  
+ 0.129  
+ 0.010  
+
+		-----
+	 outer Subject : Circuit 	,	inner Subject : Manuel 
+resolved as : (--, Manuel;Manuel 's;)
+
+And in particular, the court never confronted the accrual issue that the parties contest here.10 On remand, the Court of Appeals should decide that question, unless it finds that the City has previously waived its timeliness argument.
+	innerSentence :  the City has previously waived its timeliness argument.
+		coremap sentence : the City has previously waived its timeliness argument.
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.146  
+ 0.662  
+ 0.172  
+ 0.015  
+ 0.006  
+
+		-----
+	outerSentence : it finds something.
+		coremap sentence : it finds something.
+		sentiment : Positive
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.005  
+ 0.017  
+ 0.263  
+ 0.667  
+ 0.048  
+
+		-----
+	 outer Subject : it 	,	inner Subject : City 
+resolved as : (the parties contest here .10 On remand, the Court of Appeals;, --)
+
+Justice Alito suggests that a claim for unreasonable seizure based on a warrantless arrest might not accrue until the "first appearance" under Illinois law (or the "initial appearance" under federal law)--which ordinarily represents the first judicial determination of probable cause for that kind of arrest--rather than at the time of the arrest.
+	innerSentence :  a claim for unreasonable seizure based on a warrantless arrest might not accrue until the "first appearance" under Illinois law (or the "initial appearance" under federal law)-
+		coremap sentence : a claim for unreasonable seizure based on a warrantless arrest might not accrue until the "first appearance" under Illinois law (or the "initial appearance" under federal law)-
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.023  
+ 0.248  
+ 0.667  
+ 0.057  
+ 0.006  
+
+		-----
+	outerSentence : Alito suggests something.
+		coremap sentence : Alito suggests something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.034  
+ 0.223  
+ 0.503  
+ 0.205  
+ 0.034  
+
+		-----
+	 outer Subject : Alito 	,	inner Subject : claim 
+resolved as : (--, --)
+
+What is perhaps most remarkable about the Court's approach is that it entirely ignores the question that we agreed to decide, i.e., whether a claim of malicious prosecution may be brought under the Fourth Amendment.
+	innerSentence :  it entirely ignores the question that we agreed to decide
+		coremap sentence : it entirely ignores the question that we agreed to decide
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.025  
+ 0.177  
+ 0.468  
+ 0.303  
+ 0.027  
+
+		-----
+	outerSentence : none-outerSubject is something.
+		coremap sentence : none-outerSubject is something.
+		sentiment : Positive
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.021  
+ 0.094  
+ 0.404  
+ 0.416  
+ 0.065  
+
+		-----
+	 outer Subject : none-outerSubject	,	inner Subject : it 
+resolved as : (--, the Court 's approach;)
+
+I would decide that question and hold that the Fourth Amendment cannot house any such claim.
+	innerSentence :  the Fourth Amendment cannot house any such claim.
+		coremap sentence : the Fourth Amendment cannot house any such claim.
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.123  
+ 0.628  
+ 0.203  
+ 0.033  
+ 0.013  
+
+		-----
+	outerSentence : none-outerSubject hold something.
+		coremap sentence : none-outerSubject hold something.
+		sentiment : Positive
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.012  
+ 0.044  
+ 0.299  
+ 0.574  
+ 0.071  
+
+		-----
+	 outer Subject : none-outerSubject	,	inner Subject : Fourth Amendment 
+resolved as : (--, --)
+
+Since then, the First, Second, Third, Fourth, Fifth, Sixth, Ninth, Tenth, Eleventh, and D. C. Circuits have all held that a Fourth Amendment malicious prosecution claim is cognizable through 42 U. S. C. §1983 ("Section 1983").
+	innerSentence :  a Fourth Amendment malicious prosecution claim is cognizable through 42 U. S. C. §1983 ("Section 1983").
+		coremap sentence : a Fourth Amendment malicious prosecution claim is cognizable through 42 U. S. C. §1983 ("Section 1983").
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.267  
+ 0.562  
+ 0.150  
+ 0.010  
+ 0.011  
+
+		-----
+	outerSentence : Third have held something.
+		coremap sentence : Third have held something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.010  
+ 0.045  
+ 0.524  
+ 0.384  
+ 0.037  
+
+		-----
+	 outer Subject : Third 	,	inner Subject : Fourth claim 
+resolved as : (--, --)
+
+
+
+
+See Wallace, supra, at 397 (holding that a claim for false imprisonment under the Fourth Amendment accrues when "the claimant becomes detained pursuant to legal process").
+	innerSentence :  a claim for false imprisonment under the Fourth Amendment accrues
+		coremap sentence : a claim for false imprisonment under the Fourth Amendment accrues
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.042  
+ 0.361  
+ 0.520  
+ 0.068  
+ 0.010  
+
+		-----
+	outerSentence : none-outerSubject holding something.
+		coremap sentence : none-outerSubject holding something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.016  
+ 0.098  
+ 0.661  
+ 0.205  
+ 0.020  
+
+		-----
+	 outer Subject : none-outerSubject	,	inner Subject : claim 
+resolved as : (--, --)
+
+In this case, Manuel charges that he was seized without probable cause in violation of the Fourth Amendment.
+	innerSentence :  he was seized without probable cause in violation of the Fourth Amendment.
+		coremap sentence : he was seized without probable cause in violation of the Fourth Amendment.
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.232  
+ 0.642  
+ 0.111  
+ 0.009  
+ 0.007  
+
+		-----
+	outerSentence : Manuel charges something.
+		coremap sentence : Manuel charges something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.036  
+ 0.166  
+ 0.391  
+ 0.340  
+ 0.067  
+
+		-----
+	 outer Subject : Manuel 	,	inner Subject : he 
+resolved as : (Manuel;, Manuel;)
+
+Manuel says that the appropriate analog is the tort of malicious prosecution, so we should look to the elements of that tort.
+	innerSentence :  the appropriate analog is the tort of malicious prosecution
+		coremap sentence : the appropriate analog is the tort of malicious prosecution
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.058  
+ 0.482  
+ 0.389  
+ 0.060  
+ 0.011  
+
+		-----
+	outerSentence : Manuel says something.
+		coremap sentence : Manuel says something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.042  
+ 0.267  
+ 0.479  
+ 0.179  
+ 0.033  
+
+		-----
+	 outer Subject : Manuel 	,	inner Subject : appropriate analog 
+resolved as : (Manuel;, --)
+
+Second, while subjective bad faith, i.e., malice, is the core element of a malicious prosecution claim, it is firmly established that the Fourth Amendment standard of reasonableness is fundamentally objective.
+	innerSentence :  the Fourth Amendment standard of reasonableness is fundamentally objective.
+		coremap sentence : the Fourth Amendment standard of reasonableness is fundamentally objective.
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.060  
+ 0.457  
+ 0.350  
+ 0.113  
+ 0.019  
+
+		-----
+	outerSentence : it is established something.
+		coremap sentence : it is established something.
+		sentiment : Positive
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.006  
+ 0.022  
+ 0.297  
+ 0.627  
+ 0.049  
+
+		-----
+	 outer Subject : it 	,	inner Subject : Fourth standard 
+resolved as : (subjective bad faith, i.e., malice;, --)
+
+Finally, malicious prosecution's favorable-termination element makes no sense when the claim is that a seizure violated the Fourth Amendment.
+	innerSentence :  a seizure violated the Fourth Amendment.
+		coremap sentence : a seizure violated the Fourth Amendment.
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.104  
+ 0.521  
+ 0.321  
+ 0.041  
+ 0.013  
+
+		-----
+	outerSentence : claim is something.
+		coremap sentence : claim is something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.004  
+ 0.032  
+ 0.819  
+ 0.139  
+ 0.006  
+
+		-----
+	 outer Subject : claim 	,	inner Subject : seizure 
+resolved as : (--, --)
+
+For example, we have recognized that there is no favorable-termination element for a Fourth Amendment false imprisonment claim.
+	innerSentence :  there is no favorable-termination element for a Fourth Amendment false imprisonment claim.
+		coremap sentence : there is no favorable-termination element for a Fourth Amendment false imprisonment claim.
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.153  
+ 0.645  
+ 0.184  
+ 0.012  
+ 0.006  
+
+		-----
+	outerSentence : we have recognized something.
+		coremap sentence : we have recognized something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.053  
+ 0.229  
+ 0.436  
+ 0.235  
+ 0.047  
+
+		-----
+	 outer Subject : we 	,	inner Subject : favorable-termination element 
+resolved as : (--, --)
+
+See Wallace, 549 U. S., at 389-392.2 An arrestee can file such a claim while his prosecution is pending--and, in at least some situations--will need to do so to ensure that the claim is not time barred.
+	innerSentence :  the claim is not time barred.
+		coremap sentence : the claim is not time barred.
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.073  
+ 0.671  
+ 0.239  
+ 0.014  
+ 0.004  
+
+		-----
+	outerSentence : none-outerSubject ensure something.
+		coremap sentence : none-outerSubject ensure something.
+		sentiment : Positive
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.019  
+ 0.081  
+ 0.372  
+ 0.456  
+ 0.072  
+
+		-----
+	 outer Subject : none-outerSubject	,	inner Subject : claim 
+resolved as : (--, --)
+
+The Court held that respondent's suit could proceed--despite his valid conviction.
+	innerSentence :  respondent's suit could proceed--despite his valid conviction.
+		coremap sentence : respondent's suit could proceed--despite his valid conviction.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.025  
+ 0.254  
+ 0.669  
+ 0.048  
+ 0.004  
+
+		-----
+	outerSentence : Court held something.
+		coremap sentence : Court held something.
+		sentiment : Positive
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.017  
+ 0.071  
+ 0.391  
+ 0.449  
+ 0.073  
+
+		-----
+	 outer Subject : Court 	,	inner Subject : respondent 's suit 
+resolved as : (--, --)
+
+Manuel alleges that he was arrested and held based entirely on falsified evidence.
+	innerSentence :  he was arrested and held based entirely on falsified evidence.
+		coremap sentence : he was arrested and held based entirely on falsified evidence.
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.378  
+ 0.541  
+ 0.066  
+ 0.007  
+ 0.007  
+
+		-----
+	outerSentence : Manuel alleges something.
+		coremap sentence : Manuel alleges something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.036  
+ 0.166  
+ 0.391  
+ 0.340  
+ 0.067  
+
+		-----
+	 outer Subject : Manuel 	,	inner Subject : he 
+resolved as : (Manuel;Manuel 's;, Manuel;Manuel 's;)
+
+So the answer to the question presented in Manuel's certiorari petition is that the Fourth Amendment does not give rise to a malicious prosecution claim, and this means that Manuel's suit is untimely.
+	innerSentence :  the Fourth Amendment does not give rise to a malicious prosecution claim
+		coremap sentence : the Fourth Amendment does not give rise to a malicious prosecution claim
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.093  
+ 0.596  
+ 0.261  
+ 0.039  
+ 0.012  
+
+		-----
+	outerSentence : answer is something.
+		coremap sentence : answer is something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.004  
+ 0.025  
+ 0.848  
+ 0.117  
+ 0.006  
+
+		-----
+	 outer Subject : answer 	,	inner Subject : Fourth Amendment 
+resolved as : (--, --)
+So the answer to the question presented in Manuel's certiorari petition is that the Fourth Amendment does not give rise to a malicious prosecution claim, and this means that Manuel's suit is untimely.
+	innerSentence :  Manuel's suit is untimely.
+		coremap sentence : Manuel's suit is untimely.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.039  
+ 0.209  
+ 0.484  
+ 0.230  
+ 0.038  
+
+		-----
+	outerSentence : this means something.
+		coremap sentence : this means something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.002  
+ 0.007  
+ 0.619  
+ 0.351  
+ 0.021  
+
+		-----
+	 outer Subject : this 	,	inner Subject : Manuel 's suit 
+resolved as : (--, --)
+
+The Court purports to refrain from deciding any issue of timeliness, see ante, at 10, but the Court's opinion is certain to be read by some to mean that every moment of pretrial confinement without probable cause constitutes a violation of the Fourth Amendment.
+	innerSentence :  every moment of pretrial confinement without probable cause constitutes a violation of the Fourth Amendment.
+		coremap sentence : every moment of pretrial confinement without probable cause constitutes a violation of the Fourth Amendment.
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.065  
+ 0.549  
+ 0.330  
+ 0.046  
+ 0.010  
+
+		-----
+	outerSentence : Court 's opinion mean something.
+		coremap sentence : Court 's opinion mean something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.005  
+ 0.042  
+ 0.859  
+ 0.090  
+ 0.004  
+
+		-----
+	 outer Subject : Court 's opinion 	,	inner Subject : moment 
+resolved as : (--, --)
+
+And if that is so, it would seem to follow that new Fourth Amendment claims continue to accrue as long as the pretrial detention lasts.
+	innerSentence :  new Fourth Amendment claims continue to accrue as long as the pretrial detention lasts.
+		coremap sentence : new Fourth Amendment claims continue to accrue as long as the pretrial detention lasts.
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.096  
+ 0.547  
+ 0.294  
+ 0.048  
+ 0.015  
+
+		-----
+	outerSentence : it follow something.
+		coremap sentence : it follow something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.011  
+ 0.072  
+ 0.537  
+ 0.358  
+ 0.023  
+
+		-----
+	 outer Subject : it 	,	inner Subject : new claims 
+resolved as : (The Court;the Court 's;, --)
+
+The Court is mistaken in saying that its decision "follows from settled precedent."
+	innerSentence :  its decision "follows from settled precedent."
+		coremap sentence : its decision "follows from settled precedent."
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.009  
+ 0.122  
+ 0.840  
+ 0.026  
+ 0.002  
+
+		-----
+	outerSentence : Court saying something.
+		coremap sentence : Court saying something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.011  
+ 0.053  
+ 0.543  
+ 0.361  
+ 0.032  
+
+		-----
+	 outer Subject : Court 	,	inner Subject : its decision 
+resolved as : (--, The Court;The Court 's;the Court;)
+
+The Court reads Albright v. Oliver, 510 U. S. 266 (1994), and Gerstein v. Pugh, 420 U. S. 103 (1975), to mean that the Fourth Amendment can be violated "when legal process itself goes wrong," ante, at 9, but the accuracy of that interpretation depends on the meaning of "legal process."
+	innerSentence :  the Fourth Amendment can be violated 
+		coremap sentence : the Fourth Amendment can be violated
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.058  
+ 0.413  
+ 0.368  
+ 0.137  
+ 0.024  
+
+		-----
+	outerSentence : Court mean something.
+		coremap sentence : Court mean something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.034  
+ 0.207  
+ 0.495  
+ 0.228  
+ 0.037  
+
+		-----
+	 outer Subject : Court 	,	inner Subject : Fourth Amendment 
+resolved as : (--, --)
+
+According to the Seventh Circuit, probable cause was sorely lacking, id., at 345, and Albright sued Oliver under 42 U. S. C. §1983, claiming that Oliver had violated his substantive due process right not to be prosecuted without probable cause.
+	innerSentence :  Oliver had violated his substantive due process right not to be prosecuted without probable cause.
+		coremap sentence : Oliver had violated his substantive due process right not to be prosecuted without probable cause.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.033  
+ 0.134  
+ 0.530  
+ 0.263  
+ 0.040  
+
+		-----
+	outerSentence : Albright claiming something.
+		coremap sentence : Albright claiming something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.028  
+ 0.144  
+ 0.491  
+ 0.294  
+ 0.044  
+
+		-----
+	 outer Subject : Albright 	,	inner Subject : Oliver 
+resolved as : (Albright;Albright 's;, Oliver;)
+
+All that this Court held was that Albright's claim had to be analyzed under the Fourth Amendment, not substantive due process.
+	innerSentence :  Albright's claim had to be analyzed under the Fourth Amendment
+		coremap sentence : Albright's claim had to be analyzed under the Fourth Amendment
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.015  
+ 0.235  
+ 0.716  
+ 0.031  
+ 0.003  
+
+		-----
+	outerSentence : All was something.
+		coremap sentence : All was something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.004  
+ 0.022  
+ 0.785  
+ 0.178  
+ 0.011  
+
+		-----
+	 outer Subject : All 	,	inner Subject : Albright 's claim 
+resolved as : (--, --)
+
+The Court now reads Albright to mean that a Fourth Amendment seizure continues "after the start of 'legal process," but three forms of what might be termed "legal process" were issued in Albright: the arrest warrant, the order releasing him on bond after his first appearance, and the order holding him over for trial after the preliminary examination.
+	innerSentence :  a Fourth Amendment seizure continues "after the start of 'legal process
+		coremap sentence : a Fourth Amendment seizure continues "after the start of 'legal process
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.033  
+ 0.292  
+ 0.581  
+ 0.085  
+ 0.009  
+
+		-----
+	outerSentence : Court mean something.
+		coremap sentence : Court mean something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.034  
+ 0.207  
+ 0.495  
+ 0.228  
+ 0.037  
+
+		-----
+	 outer Subject : Court 	,	inner Subject : Fourth seizure 
+resolved as : (--, --)
+
+I agree that Albright's seizure did not end with the issuance of the warrant (that would be ridiculous since he had not even been arrested at that point) or the first appearance, see ante, at 8-9, and n. 6, but it is impossible to read anything more into the holding in Albright.
+	innerSentence :  Albright's seizure did not end with the issuance of the warrant 
+		coremap sentence : Albright's seizure did not end with the issuance of the warrant
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.046  
+ 0.487  
+ 0.422  
+ 0.036  
+ 0.008  
+
+		-----
+	outerSentence : I agree something.
+		coremap sentence : I agree something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.019  
+ 0.076  
+ 0.424  
+ 0.420  
+ 0.061  
+
+		-----
+	 outer Subject : I 	,	inner Subject : Albright 's seizure 
+resolved as : (--, Albright;Albright 's;)
+
+All that the Court held in Gerstein was that if there is no probable-cause finding by a neutral magistrate before an arrest, there must be one after the arrest.
+	innerSentence :  there must be one after the arrest.
+		coremap sentence : there must be one after the arrest.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.029  
+ 0.231  
+ 0.623  
+ 0.107  
+ 0.011  
+
+		-----
+	outerSentence : All was something.
+		coremap sentence : All was something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.004  
+ 0.022  
+ 0.785  
+ 0.178  
+ 0.011  
+
+		-----
+	 outer Subject : All 	,	inner Subject : none-innersubject
+resolved as : (--, --)
+
+The Court reasoned that "the Fourth Amendment requires a judicial determination of probable cause as a prerequisite to extended restraint of liberty following arrest."
+	innerSentence :  "the Fourth Amendment requires a judicial determination of probable cause as a prerequisite to extended restraint of liberty following arrest."
+		coremap sentence : "the Fourth Amendment requires a judicial determination of probable cause as a prerequisite to extended restraint of liberty following arrest."
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.132  
+ 0.691  
+ 0.155  
+ 0.016  
+ 0.006  
+
+		-----
+	outerSentence : Court reasoned something.
+		coremap sentence : Court reasoned something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.036  
+ 0.166  
+ 0.391  
+ 0.340  
+ 0.067  
+
+		-----
+	 outer Subject : Court 	,	inner Subject : Fourth Amendment 
+resolved as : (--, --)
+
+This statement hardly shows that a Fourth Amendment seizure continues throughout a period of pretrial detention, and the Court does not mention the very next sentence in Gerstein--which suggests that the Fourth Amendment might govern "only the first stage" of a prosecution, eventually giving way to other protections that are also part of our "elaborate system, unique in jurisprudence, designed to safeguard the rights of those accused of criminal conduct."
+	innerSentence :  a Fourth Amendment seizure continues throughout a period of pretrial detention
+		coremap sentence : a Fourth Amendment seizure continues throughout a period of pretrial detention
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.122  
+ 0.610  
+ 0.194  
+ 0.056  
+ 0.018  
+
+		-----
+	outerSentence : statement shows something.
+		coremap sentence : statement shows something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.015  
+ 0.052  
+ 0.479  
+ 0.390  
+ 0.064  
+
+		-----
+	 outer Subject : statement 	,	inner Subject : Fourth seizure 
+resolved as : (--, --)
+This statement hardly shows that a Fourth Amendment seizure continues throughout a period of pretrial detention, and the Court does not mention the very next sentence in Gerstein--which suggests that the Fourth Amendment might govern "only the first stage" of a prosecution, eventually giving way to other protections that are also part of our "elaborate system, unique in jurisprudence, designed to safeguard the rights of those accused of criminal conduct."
+	innerSentence :  the Fourth Amendment might govern "only the first stage" of a prosecution
+		coremap sentence : the Fourth Amendment might govern "only the first stage" of a prosecution
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.057  
+ 0.500  
+ 0.354  
+ 0.075  
+ 0.014  
+
+		-----
+	outerSentence : which suggests something.
+		coremap sentence : which suggests something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.006  
+ 0.065  
+ 0.874  
+ 0.051  
+ 0.004  
+
+		-----
+	 outer Subject : which 	,	inner Subject : Fourth Amendment 
+resolved as : (--, --)
+
+
+
+In holding that the decision should occur within 48 hours of an arrest, the majority understood its "task [as] articulat[ing] more clearly the boundaries of what is permissible under the Fourth Amendment."
+	innerSentence :  the decision should occur within 48 hours of an arrest
+		coremap sentence : the decision should occur within 48 hours of an arrest
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.005  
+ 0.079  
+ 0.890  
+ 0.025  
+ 0.001  
+
+		-----
+	outerSentence : majority holding something.
+		coremap sentence : majority holding something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.005  
+ 0.042  
+ 0.828  
+ 0.120  
+ 0.005  
+
+		-----
+	 outer Subject : majority 	,	inner Subject : decision 
+resolved as : (--, --)
+
+The difference between the two opinions was significant, but the commonality still more so: All Justices agreed that the Fourth Amendment provides the appropriate lens through which to view a claim involving pretrial detention.
+	innerSentence :  the Fourth Amendment provides the appropriate lens through
+		coremap sentence : the Fourth Amendment provides the appropriate lens through
+		sentiment : Positive
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.014  
+ 0.060  
+ 0.339  
+ 0.517  
+ 0.070  
+
+		-----
+	outerSentence : Justices agreed something.
+		coremap sentence : Justices agreed something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.023  
+ 0.104  
+ 0.439  
+ 0.374  
+ 0.060  
+
+		-----
+	 outer Subject : Justices 	,	inner Subject : Fourth Amendment 
+resolved as : (--, --)
+
+See Wallace v. Kato, 549 U. S. 384, 389 (2007) (explaining that the seizure of a person was "without legal process" because police officers "did not have a warrant for his arrest"); W. Keeton, D. Dobbs, R. Keeton, & D. Owen, Prosser and Keeton on Law of Torts §119, pp. 871, 886 (5th ed.
+	innerSentence :  the seizure of a person was "without legal process" because police officers "did not have a warrant for his arrest"); W. Keeton
+		coremap sentence : the seizure of a person was "without legal process" because police officers "did not have a warrant for his arrest"); W. Keeton
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.081  
+ 0.622  
+ 0.281  
+ 0.012  
+ 0.005  
+
+		-----
+	outerSentence : none-outerSubject explaining something.
+		coremap sentence : none-outerSubject explaining something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.028  
+ 0.156  
+ 0.506  
+ 0.270  
+ 0.041  
+
+		-----
+	 outer Subject : none-outerSubject	,	inner Subject : seizure 
+resolved as : (--, --)
+
+State Penitentiary, 401 U. S. 560, 568-569 (1971) (holding that an arrest violated the Fourth Amendment because a magistrate's warrant was not backed by probable cause).
+	innerSentence :  an arrest violated the Fourth Amendment because a magistrate's warrant was not backed by probable cause).
+		coremap sentence : an arrest violated the Fourth Amendment because a magistrate's warrant was not backed by probable cause).
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.126  
+ 0.543  
+ 0.299  
+ 0.021  
+ 0.010  
+
+		-----
+	outerSentence : none-outerSubject holding something.
+		coremap sentence : none-outerSubject holding something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.016  
+ 0.098  
+ 0.661  
+ 0.205  
+ 0.020  
+
+		-----
+	 outer Subject : none-outerSubject	,	inner Subject : arrest 
+resolved as : (--, --)
+
+And if the Seventh Circuit would reply that arrest warrants are somehow different--that there is legal process and then again there is legal process--the next (and in our view unanswerable) question would be why.
+	innerSentence :  arrest warrants are somehow different--that there is legal process and then again there is legal process--the next (and in our view unanswerable) question would be
+		coremap sentence : arrest warrants are somehow different--that there is legal process and then again there is legal process--the next (and in our view unanswerable) question would be
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.086  
+ 0.552  
+ 0.351  
+ 0.006  
+ 0.004  
+
+		-----
+	outerSentence : Circuit would reply something.
+		coremap sentence : Circuit would reply something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.018  
+ 0.187  
+ 0.754  
+ 0.035  
+ 0.005  
+
+		-----
+	 outer Subject : Circuit 	,	inner Subject : warrants 
+resolved as : (--, --)
+
+
+On multiple occasions during oral argument in this Court, the City agreed that "a Fourth Amendment right . . . survive[d] the initiation of process" at the hearing in which the county judge found probable cause and ordered detention.
+	innerSentence :  "a Fourth Amendment right . . . survive[d] the initiation of process" at the hearing in
+		coremap sentence : "a Fourth Amendment right . . . survive[d] the initiation of process" at the hearing in
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.022  
+ 0.166  
+ 0.524  
+ 0.260  
+ 0.028  
+
+		-----
+	outerSentence : City agreed something.
+		coremap sentence : City agreed something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.009  
+ 0.043  
+ 0.658  
+ 0.269  
+ 0.021  
+
+		-----
+	 outer Subject : City 	,	inner Subject : none-innersubject
+resolved as : (--, --)
+
+31; see id., at 33 (concurring with the statement that "once [an] individual is brought . . . before a magistrate, and the magistrate using the same bad evidence says, stay here in jail . . . until we get to trial, that that period is a violation of the Fourth Amendment"); id., at 51 (stating that a detainee has "a Fourth Amendment claim" if "misstatements at [such a probable-cause hearing] led to ongoing pretrial seizure").
+	innerSentence :  a detainee has "a Fourth Amendment claim" if "misstatements at [such a probable-cause hearing] led to ongoing pretrial seizure").
+		coremap sentence : a detainee has "a Fourth Amendment claim" if "misstatements at [such a probable-cause hearing] led to ongoing pretrial seizure").
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.072  
+ 0.508  
+ 0.349  
+ 0.057  
+ 0.014  
+
+		-----
+	outerSentence : none-outerSubject stating something.
+		coremap sentence : none-outerSubject stating something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.036  
+ 0.166  
+ 0.391  
+ 0.340  
+ 0.067  
+
+		-----
+	 outer Subject : none-outerSubject	,	inner Subject : detainee 
+resolved as : (--, --)
+
+The dissent goes some way toward claiming that a different kind of pretrial legal process--a grand jury indictment or preliminary examination--does expunge such a Fourth Amendment claim.
+	innerSentence :  a different kind of pretrial legal process--a grand jury indictment or preliminary examination--does expunge such a Fourth Amendment claim.
+		coremap sentence : a different kind of pretrial legal process--a grand jury indictment or preliminary examination--does expunge such a Fourth Amendment claim.
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.143  
+ 0.656  
+ 0.177  
+ 0.017  
+ 0.007  
+
+		-----
+	outerSentence : none-outerSubject claiming something.
+		coremap sentence : none-outerSubject claiming something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.036  
+ 0.166  
+ 0.391  
+ 0.340  
+ 0.067  
+
+		-----
+	 outer Subject : none-outerSubject	,	inner Subject : different kind 
+resolved as : (--, --)
+
+
+
+
+
+(And as the dissent notes, the Seventh Circuit recounted that he made the same argument in that court.
+	innerSentence :  he made the same argument in that court.
+		coremap sentence : he made the same argument in that court.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.013  
+ 0.099  
+ 0.777  
+ 0.102  
+ 0.010  
+
+		-----
+	outerSentence : Circuit recounted something.
+		coremap sentence : Circuit recounted something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.013  
+ 0.092  
+ 0.789  
+ 0.095  
+ 0.011  
+
+		-----
+	 outer Subject : Circuit 	,	inner Subject : he 
+resolved as : (--, --)
+
+As the Seventh Circuit acknowledged, its decision in this case and an earlier case on which the decision here relied, Newsome v. McCabe, 256 F. 3d 747 (2001), conflict with decisions of other circuits holding that a malicious prosecution claim may be brought under the Fourth Amendment.
+	innerSentence :  a malicious prosecution claim may be brought under the Fourth Amendment.
+		coremap sentence : a malicious prosecution claim may be brought under the Fourth Amendment.
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.127  
+ 0.629  
+ 0.215  
+ 0.022  
+ 0.008  
+
+		-----
+	outerSentence : none-outerSubject holding something.
+		coremap sentence : none-outerSubject holding something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.016  
+ 0.098  
+ 0.661  
+ 0.205  
+ 0.020  
+
+		-----
+	 outer Subject : none-outerSubject	,	inner Subject : malicious claim 
+resolved as : (--, --)
+
+The decision below states: "Manuel argues that we should reconsider our holding in Newsome and recognize a federal claim for malicious prosecution under the Fourth Amendment regardless of the available state remedy.
+	innerSentence :  we should reconsider our holding in Newsome and recognize a federal claim for malicious prosecution under the Fourth Amendment regardless of the available state remedy.
+		coremap sentence : we should reconsider our holding in Newsome and recognize a federal claim for malicious prosecution under the Fourth Amendment regardless of the available state remedy.
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.166  
+ 0.593  
+ 0.201  
+ 0.028  
+ 0.012  
+
+		-----
+	outerSentence : Manuel argues something.
+		coremap sentence : Manuel argues something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.043  
+ 0.255  
+ 0.494  
+ 0.172  
+ 0.035  
+
+		-----
+	 outer Subject : Manuel 	,	inner Subject : we 
+resolved as : (Manuel;Manuel 's;, the Seventh Circuit;)
+
+The court refused to overrule Newsome and said that "Manuel's argument is better left for the Supreme Court."
+	innerSentence :  "Manuel's argument is better left for the Supreme Court."
+		coremap sentence : "Manuel's argument is better left for the Supreme Court."
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.032  
+ 0.295  
+ 0.520  
+ 0.138  
+ 0.015  
+
+		-----
+	outerSentence : none-outerSubject said something.
+		coremap sentence : none-outerSubject said something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.027  
+ 0.147  
+ 0.491  
+ 0.292  
+ 0.044  
+
+		-----
+	 outer Subject : none-outerSubject	,	inner Subject : Manuel 's argument 
+resolved as : (--, --)
+
+
+("[E]ight circuits have held that malicious prosecution is cognizable through a Section 1983 Fourth Amendment claim").
+	innerSentence :  malicious prosecution is cognizable through a Section 1983 Fourth Amendment claim").
+		coremap sentence : malicious prosecution is cognizable through a Section 1983 Fourth Amendment claim").
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.186  
+ 0.642  
+ 0.141  
+ 0.018  
+ 0.012  
+
+		-----
+	outerSentence : circuits have held something.
+		coremap sentence : circuits have held something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.022  
+ 0.108  
+ 0.438  
+ 0.375  
+ 0.057  
+
+		-----
+	 outer Subject : circuits 	,	inner Subject : malicious prosecution 
+resolved as : (--, --)
+
+In Wallace, the Court noted that "[f]alse arrest and false imprisonment overlap" and decided to "refer to the two torts together as false imprisonment."
+	innerSentence :  "[f]alse arrest and false imprisonment overlap" and decided to "refer to the two torts together as false imprisonment."
+		coremap sentence : "[f]alse arrest and false imprisonment overlap" and decided to "refer to the two torts together as false imprisonment."
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.162  
+ 0.691  
+ 0.120  
+ 0.019  
+ 0.008  
+
+		-----
+	outerSentence : Court noted something.
+		coremap sentence : Court noted something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.036  
+ 0.166  
+ 0.391  
+ 0.340  
+ 0.067  
+
+		-----
+	 outer Subject : Court 	,	inner Subject : alse arrest 
+resolved as : (--, --)
+
+The Court writes that "[n]othing in the nature of the legal proceeding establishing probable cause makes a difference for purposes of the Fourth Amendment."
+	innerSentence :  "[n]othing in the nature of the legal proceeding establishing probable cause makes a difference for purposes of the Fourth Amendment."
+		coremap sentence : "[n]othing in the nature of the legal proceeding establishing probable cause makes a difference for purposes of the Fourth Amendment."
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.086  
+ 0.625  
+ 0.234  
+ 0.043  
+ 0.011  
+
+		-----
+	outerSentence : Court writes something.
+		coremap sentence : Court writes something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.046  
+ 0.257  
+ 0.412  
+ 0.239  
+ 0.046  
+
+		-----
+	 outer Subject : Court 	,	inner Subject : none-innersubject
+resolved as : (--, --)
+
+[I]f the proceeding is tainted--as here, by fabricated evidence--and the result is that probable cause is lacking," the Court continues, "then the ensuing pretrial detention violates the confined person's Fourth Amendment rights, for all the reasons we have stated."
+	innerSentence :  probable cause is lacking
+		coremap sentence : probable cause is lacking
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.203  
+ 0.706  
+ 0.081  
+ 0.004  
+ 0.005  
+
+		-----
+	outerSentence : result is something.
+		coremap sentence : result is something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.006  
+ 0.047  
+ 0.797  
+ 0.142  
+ 0.008  
+
+		-----
+	 outer Subject : result 	,	inner Subject : probable cause 
+resolved as : (--, --)
+
+The Court asserts that the Fourth Amendment "drops out of the picture" after trial, ibid., but it does not explain why this is so.
+	innerSentence :  the Fourth Amendment "drops out of the picture" after trial
+		coremap sentence : the Fourth Amendment "drops out of the picture" after trial
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.086  
+ 0.590  
+ 0.286  
+ 0.028  
+ 0.009  
+
+		-----
+	outerSentence : Court asserts something.
+		coremap sentence : Court asserts something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.036  
+ 0.166  
+ 0.391  
+ 0.340  
+ 0.067  
+
+		-----
+	 outer Subject : Court 	,	inner Subject : Fourth Amendment 
+resolved as : (--, --)
+
+

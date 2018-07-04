@@ -1,0 +1,939 @@
+North Carolina law makes it a felony for a registered sex offender "to access a commercial social networking Web site where the sex offender knows that the site permits minor children to become members or to create or maintain personal Web pages."
+	innerSentence :  the site permits minor children to become members or to create or maintain personal Web pages."
+		coremap sentence : the site permits minor children to become members or to create or maintain personal Web pages."
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.014  
+ 0.068  
+ 0.440  
+ 0.428  
+ 0.050  
+
+		-----
+	outerSentence : offender knows something.
+		coremap sentence : offender knows something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.019  
+ 0.190  
+ 0.761  
+ 0.026  
+ 0.003  
+
+		-----
+	 outer Subject : offender 	,	inner Subject : site 
+resolved as : (--, --)
+
+(a) A fundamental First Amendment principle is that all persons have access to places where they can speak and listen, and then, after reflection, speak and listen once more.
+	innerSentence :  all persons have access to places
+		coremap sentence : all persons have access to places
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.011  
+ 0.103  
+ 0.784  
+ 0.096  
+ 0.007  
+
+		-----
+	outerSentence : fundamental principle is something.
+		coremap sentence : fundamental principle is something.
+		sentiment : Positive
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.037  
+ 0.155  
+ 0.315  
+ 0.409  
+ 0.085  
+
+		-----
+	 outer Subject : fundamental principle 	,	inner Subject : persons 
+resolved as : (--, --)
+
+The Internet's forces and directions are so new, so protean, and so far reaching that courts must be conscious that what they say today may be obsolete tomorrow.
+	innerSentence :  courts must be conscious that
+		coremap sentence : courts must be conscious that
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.007  
+ 0.074  
+ 0.857  
+ 0.057  
+ 0.005  
+
+		-----
+	outerSentence : none-outerSubject reaching something.
+		coremap sentence : none-outerSubject reaching something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.049  
+ 0.291  
+ 0.453  
+ 0.172  
+ 0.035  
+
+		-----
+	 outer Subject : none-outerSubject	,	inner Subject : courts 
+resolved as : (--, --)
+
+Here, in one of the first cases the Court has taken to address the relationship between the First Amendment and the modern Internet, the Court must exercise extreme caution before suggesting that the First Amendment provides scant protection for access to vast networks in that medium.
+	innerSentence :  the First Amendment provides scant protection for access to vast networks in that medium.
+		coremap sentence : the First Amendment provides scant protection for access to vast networks in that medium.
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.067  
+ 0.426  
+ 0.371  
+ 0.113  
+ 0.023  
+
+		-----
+	outerSentence : Court suggesting something.
+		coremap sentence : Court suggesting something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.011  
+ 0.070  
+ 0.684  
+ 0.216  
+ 0.019  
+
+		-----
+	 outer Subject : Court 	,	inner Subject : Amendment 
+resolved as : (--, --)
+
+Even assuming that the statute is content neutral and thus subject to intermediate scrutiny, the provision is not " ' "narrowly tailored to serve a significant governmental interest." ' "
+	innerSentence :  the statute is content neutral and thus subject to intermediate scrutiny
+		coremap sentence : the statute is content neutral and thus subject to intermediate scrutiny
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.108  
+ 0.593  
+ 0.199  
+ 0.076  
+ 0.024  
+
+		-----
+	outerSentence : provision assuming something.
+		coremap sentence : provision assuming something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.036  
+ 0.262  
+ 0.595  
+ 0.092  
+ 0.014  
+
+		-----
+	 outer Subject : provision 	,	inner Subject : statute 
+resolved as : (--, --)
+
+First, while the Court need not decide the statute's precise scope, it is enough to assume that the law applies to commonplace social networking sites like Facebook, LinkedIn, and Twitter.
+	innerSentence :  the law applies to commonplace social networking sites like Facebook
+		coremap sentence : the law applies to commonplace social networking sites like Facebook
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.024  
+ 0.317  
+ 0.627  
+ 0.027  
+ 0.004  
+
+		-----
+	outerSentence : it assume something.
+		coremap sentence : it assume something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.054  
+ 0.406  
+ 0.437  
+ 0.089  
+ 0.014  
+
+		-----
+	 outer Subject : it 	,	inner Subject : law 
+resolved as : (the Court;, --)
+
+Second, the Court assumes that the First Amendment permits a State to enact specific, narrowly-tailored laws that prohibit a sex offender from engaging in conduct that often presages a sexual crime, like contacting a minor or using a website to gather information about a minor.
+	innerSentence :  the First Amendment permits a State to enact specific
+		coremap sentence : the First Amendment permits a State to enact specific
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.033  
+ 0.295  
+ 0.506  
+ 0.152  
+ 0.015  
+
+		-----
+	outerSentence : Court assumes something.
+		coremap sentence : Court assumes something.
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.077  
+ 0.341  
+ 0.312  
+ 0.211  
+ 0.059  
+
+		-----
+	 outer Subject : Court 	,	inner Subject : Amendment 
+resolved as : (--, --)
+
+(c) The State has not met its burden to show that this sweeping law is necessary or legitimate to serve its purpose of keeping convicted sex offenders away from vulnerable victims.
+	innerSentence :  this sweeping law is necessary or legitimate to serve its purpose of keeping convicted sex offenders away from vulnerable victims.
+		coremap sentence : this sweeping law is necessary or legitimate to serve its purpose of keeping convicted sex offenders away from vulnerable victims.
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.146  
+ 0.585  
+ 0.211  
+ 0.043  
+ 0.015  
+
+		-----
+	outerSentence : State show something.
+		coremap sentence : State show something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.009  
+ 0.066  
+ 0.798  
+ 0.118  
+ 0.009  
+
+		-----
+	 outer Subject : State 	,	inner Subject : sweeping law 
+resolved as : (--, --)
+
+North Carolina law makes it a felony for a registered sex offender "to access a commercial social networking Web site where the sex offender knows that the site permits minor children to become members or to create or maintain personal Web pages."
+	innerSentence :  the site permits minor children to become members or to create or maintain personal Web pages."
+		coremap sentence : the site permits minor children to become members or to create or maintain personal Web pages."
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.014  
+ 0.068  
+ 0.440  
+ 0.428  
+ 0.050  
+
+		-----
+	outerSentence : offender knows something.
+		coremap sentence : offender knows something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.019  
+ 0.190  
+ 0.761  
+ 0.026  
+ 0.003  
+
+		-----
+	 outer Subject : offender 	,	inner Subject : site 
+resolved as : (--, --)
+
+
+By checking court records, the officer discovered that a traffic citation for petitioner had been dismissed around the time of the post.
+	innerSentence :  a traffic citation for petitioner had been dismissed around the time of the post.
+		coremap sentence : a traffic citation for petitioner had been dismissed around the time of the post.
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.232  
+ 0.587  
+ 0.152  
+ 0.019  
+ 0.011  
+
+		-----
+	outerSentence : officer discovered something.
+		coremap sentence : officer discovered something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.009  
+ 0.037  
+ 0.461  
+ 0.446  
+ 0.048  
+
+		-----
+	 outer Subject : officer 	,	inner Subject : citation 
+resolved as : (--, --)
+
+At no point during trial or sentencing did the State allege that petitioner contacted a minor--or committed any other illicit act--on the Internet.
+	innerSentence :  petitioner contacted a minor--or committed any other illicit act--on the Internet.
+		coremap sentence : petitioner contacted a minor--or committed any other illicit act--on the Internet.
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.129  
+ 0.571  
+ 0.228  
+ 0.050  
+ 0.022  
+
+		-----
+	outerSentence : State did allege something.
+		coremap sentence : State did allege something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.023  
+ 0.183  
+ 0.682  
+ 0.100  
+ 0.012  
+
+		-----
+	 outer Subject : State 	,	inner Subject : petitioner 
+resolved as : (--, Petitioner;petitioner;)
+
+That court struck down §14-202.5 on First Amendment grounds, explaining that the law is not narrowly tailored to serve the State's legitimate interest in protecting minors from sexual abuse.
+	innerSentence :  the law is not narrowly tailored to serve the State's legitimate interest in protecting minors from sexual abuse.
+		coremap sentence : the law is not narrowly tailored to serve the State's legitimate interest in protecting minors from sexual abuse.
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.088  
+ 0.650  
+ 0.240  
+ 0.016  
+ 0.005  
+
+		-----
+	outerSentence : court explaining something.
+		coremap sentence : court explaining something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.011  
+ 0.074  
+ 0.678  
+ 0.221  
+ 0.016  
+
+		-----
+	 outer Subject : court 	,	inner Subject : law 
+resolved as : (--, --)
+
+The North Carolina Supreme Court reversed, concluding that the law is "constitutional in all respects."
+	innerSentence :  the law is "constitutional in all respects."
+		coremap sentence : the law is "constitutional in all respects."
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.068  
+ 0.480  
+ 0.378  
+ 0.061  
+ 0.014  
+
+		-----
+	outerSentence : Court concluding something.
+		coremap sentence : Court concluding something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.028  
+ 0.144  
+ 0.491  
+ 0.294  
+ 0.044  
+
+		-----
+	 outer Subject : Court 	,	inner Subject : law 
+resolved as : (--, --)
+
+Among other things, the court explained that the law is "carefully tailored . . . to prohibit registered sex offenders from accessing only those Web sites that allow them the opportunity to gather information about minors."
+	innerSentence :  the law is "carefully tailored . . . to prohibit registered sex offenders from accessing only those Web sites
+		coremap sentence : the law is "carefully tailored . . . to prohibit registered sex offenders from accessing only those Web sites
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.083  
+ 0.629  
+ 0.256  
+ 0.025  
+ 0.007  
+
+		-----
+	outerSentence : court explained something.
+		coremap sentence : court explained something.
+		sentiment : Positive
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.028  
+ 0.145  
+ 0.232  
+ 0.525  
+ 0.070  
+
+		-----
+	 outer Subject : court 	,	inner Subject : law 
+resolved as : (--, --)
+
+The court also held that the law leaves open adequate alternative means of communication because it permits petitioner to gain access to websites that the court believed perform the "same or similar" functions as social media, such as the Paula Deen Network and the website for the local NBC affiliate.
+	innerSentence :  the law leaves open adequate alternative means of communication because it permits petitioner to gain access to websites that the court believed perform the "same or similar" functions as social media
+		coremap sentence : the law leaves open adequate alternative means of communication because it permits petitioner to gain access to websites that the court believed perform the "same or similar" functions as social media
+		sentiment : Positive
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.028  
+ 0.115  
+ 0.249  
+ 0.522  
+ 0.085  
+
+		-----
+	outerSentence : court held something.
+		coremap sentence : court held something.
+		sentiment : Positive
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.010  
+ 0.044  
+ 0.180  
+ 0.699  
+ 0.067  
+
+		-----
+	 outer Subject : court 	,	inner Subject : law 
+resolved as : (--, --)
+
+They stated that the law impermissibly "creates a criminal prohibition of alarming breadth and extends well beyond the evils the State seeks to combat."
+	innerSentence :  the law impermissibly "creates a criminal prohibition of alarming breadth and extends well beyond the evils the State seeks to combat."
+		coremap sentence : the law impermissibly "creates a criminal prohibition of alarming breadth and extends well beyond the evils the State seeks to combat."
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.086  
+ 0.570  
+ 0.287  
+ 0.045  
+ 0.012  
+
+		-----
+	outerSentence : They stated something.
+		coremap sentence : They stated something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.018  
+ 0.104  
+ 0.585  
+ 0.263  
+ 0.030  
+
+		-----
+	 outer Subject : They 	,	inner Subject : law 
+resolved as : (Two justices;, --)
+
+A fundamental principle of the First Amendment is that all persons have access to places where they can speak and listen, and then, after reflection, speak and listen once more.
+	innerSentence :  all persons have access to places
+		coremap sentence : all persons have access to places
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.011  
+ 0.103  
+ 0.784  
+ 0.096  
+ 0.007  
+
+		-----
+	outerSentence : fundamental principle is something.
+		coremap sentence : fundamental principle is something.
+		sentiment : Positive
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.037  
+ 0.155  
+ 0.315  
+ 0.409  
+ 0.085  
+
+		-----
+	 outer Subject : fundamental principle 	,	inner Subject : persons 
+resolved as : (--, --)
+
+A basic rule, for example, is that a street or a park is a quintessential forum for the exercise of First Amendment rights.
+	innerSentence :  a street or a park is a quintessential forum for the exercise of First Amendment rights.
+		coremap sentence : a street or a park is a quintessential forum for the exercise of First Amendment rights.
+		sentiment : Positive
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.008  
+ 0.024  
+ 0.189  
+ 0.673  
+ 0.106  
+
+		-----
+	outerSentence : none-outerSubject is something.
+		coremap sentence : none-outerSubject is something.
+		sentiment : Positive
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.021  
+ 0.094  
+ 0.404  
+ 0.416  
+ 0.065  
+
+		-----
+	 outer Subject : none-outerSubject	,	inner Subject : street 
+resolved as : (--, --)
+
+The nature of a revolution in thought can be that, in its early stages, even its participants may be unaware of it.
+	innerSentence :  even its participants may be unaware of it.
+		coremap sentence : even its participants may be unaware of it.
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.073  
+ 0.676  
+ 0.218  
+ 0.028  
+ 0.005  
+
+		-----
+	outerSentence : nature can be something.
+		coremap sentence : nature can be something.
+		sentiment : Positive
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.003  
+ 0.015  
+ 0.421  
+ 0.534  
+ 0.026  
+
+		-----
+	 outer Subject : nature 	,	inner Subject : its participants 
+resolved as : (--, The American war;The nature of a revolution in thought;)
+
+The forces and directions of the Internet are so new, so protean, and so far reaching that courts must be conscious that what they say today might be obsolete tomorrow.
+	innerSentence :  courts must be conscious that
+		coremap sentence : courts must be conscious that
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.007  
+ 0.074  
+ 0.857  
+ 0.057  
+ 0.005  
+
+		-----
+	outerSentence : none-outerSubject reaching something.
+		coremap sentence : none-outerSubject reaching something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.049  
+ 0.291  
+ 0.453  
+ 0.172  
+ 0.035  
+
+		-----
+	 outer Subject : none-outerSubject	,	inner Subject : courts 
+resolved as : (--, --)
+
+As a result, the Court must exercise extreme caution before suggesting that the First Amendment provides scant protection for access to vast networks in that medium.
+	innerSentence :  the First Amendment provides scant protection for access to vast networks in that medium.
+		coremap sentence : the First Amendment provides scant protection for access to vast networks in that medium.
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.067  
+ 0.426  
+ 0.371  
+ 0.113  
+ 0.023  
+
+		-----
+	outerSentence : Court suggesting something.
+		coremap sentence : Court suggesting something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.011  
+ 0.070  
+ 0.684  
+ 0.216  
+ 0.019  
+
+		-----
+	 outer Subject : Court 	,	inner Subject : Amendment 
+resolved as : (--, --)
+
+It is enough to assume that the law applies (as the State concedes it does) to social networking sites "as commonly understood"--that is, websites like Facebook, LinkedIn, and Twitter.
+	innerSentence :  the law applies (as the State concedes it does) to social networking sites "as commonly understood"-
+		coremap sentence : the law applies (as the State concedes it does) to social networking sites "as commonly understood"-
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.020  
+ 0.293  
+ 0.664  
+ 0.020  
+ 0.003  
+
+		-----
+	outerSentence : It assume something.
+		coremap sentence : It assume something.
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.070  
+ 0.442  
+ 0.412  
+ 0.064  
+ 0.013  
+
+		-----
+	 outer Subject : It 	,	inner Subject : law 
+resolved as : (--, --)
+
+Though the issue is not before the Court, it can be assumed that the First Amendment permits a State to enact specific, narrowly tailored laws that prohibit a sex offender from engaging in conduct that often presages a sexual crime, like contacting a minor or using a website to gather information about a minor.
+	innerSentence :  the First Amendment permits a State to enact specific
+		coremap sentence : the First Amendment permits a State to enact specific
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.033  
+ 0.295  
+ 0.506  
+ 0.152  
+ 0.015  
+
+		-----
+	outerSentence : it can be assumed something.
+		coremap sentence : it can be assumed something.
+		sentiment : Positive
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.015  
+ 0.081  
+ 0.404  
+ 0.461  
+ 0.038  
+
+		-----
+	 outer Subject : it 	,	inner Subject : Amendment 
+resolved as : (issue;the issue;, --)
+
+It is unsettling to suggest that only a limited set of websites can be used even by persons who have completed their sentences.
+	innerSentence :  only a limited set of websites can be used even by persons
+		coremap sentence : only a limited set of websites can be used even by persons
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.078  
+ 0.667  
+ 0.236  
+ 0.014  
+ 0.005  
+
+		-----
+	outerSentence : It suggest something.
+		coremap sentence : It suggest something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.029  
+ 0.193  
+ 0.601  
+ 0.159  
+ 0.017  
+
+		-----
+	 outer Subject : It 	,	inner Subject : limited set 
+resolved as : (--, --)
+
+The primary response from the State is that the law must be this broad to serve its preventative purpose of keeping convicted sex offenders away from vulnerable victims.
+	innerSentence :  the law must be this broad to serve its preventative purpose of keeping convicted sex offenders away from vulnerable victims.
+		coremap sentence : the law must be this broad to serve its preventative purpose of keeping convicted sex offenders away from vulnerable victims.
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.128  
+ 0.589  
+ 0.238  
+ 0.034  
+ 0.011  
+
+		-----
+	outerSentence : primary response is something.
+		coremap sentence : primary response is something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.004  
+ 0.017  
+ 0.627  
+ 0.332  
+ 0.020  
+
+		-----
+	 outer Subject : primary response 	,	inner Subject : law 
+resolved as : (--, --)
+
+The State has not, however, met its burden to show that this sweeping law is necessary or legitimate to serve that purpose.
+	innerSentence :  this sweeping law is necessary or legitimate to serve that purpose.
+		coremap sentence : this sweeping law is necessary or legitimate to serve that purpose.
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.075  
+ 0.322  
+ 0.278  
+ 0.259  
+ 0.066  
+
+		-----
+	outerSentence : State show something.
+		coremap sentence : State show something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.009  
+ 0.066  
+ 0.798  
+ 0.118  
+ 0.009  
+
+		-----
+	 outer Subject : State 	,	inner Subject : sweeping law 
+resolved as : (--, --)
+
+
+It is well established that, as a general rule, the Government "may not suppress lawful speech as the means to suppress unlawful speech."
+	innerSentence :  the Government "may not suppress lawful speech as the means to suppress unlawful speech."
+		coremap sentence : the Government "may not suppress lawful speech as the means to suppress unlawful speech."
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.088  
+ 0.576  
+ 0.297  
+ 0.030  
+ 0.009  
+
+		-----
+	outerSentence : It is established something.
+		coremap sentence : It is established something.
+		sentiment : Positive
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.008  
+ 0.028  
+ 0.317  
+ 0.584  
+ 0.063  
+
+		-----
+	 outer Subject : It 	,	inner Subject : Government 
+resolved as : (--, --)
+
+And this language is bound to be interpreted by some to mean that the States are largely powerless to restrict even the most dangerous sexual predators from visiting any internet sites, including, for example, teenage dating sites and sites designed to permit minors to discuss personal problems with their peers.
+	innerSentence :  the States are largely powerless to restrict even the most dangerous sexual predators from visiting any internet sites
+		coremap sentence : the States are largely powerless to restrict even the most dangerous sexual predators from visiting any internet sites
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.068  
+ 0.636  
+ 0.253  
+ 0.036  
+ 0.007  
+
+		-----
+	outerSentence : language mean something.
+		coremap sentence : language mean something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.021  
+ 0.117  
+ 0.528  
+ 0.301  
+ 0.034  
+
+		-----
+	 outer Subject : language 	,	inner Subject : States 
+resolved as : (--, --)
+
+The North Carolina law at issue makes it a felony for a registered sex offender "to access a commercial social networking Web site where the sex offender knows that the site permits minor children to become members or to create or maintain personal Web pages."
+	innerSentence :  the site permits minor children to become members or to create or maintain personal Web pages."
+		coremap sentence : the site permits minor children to become members or to create or maintain personal Web pages."
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.014  
+ 0.068  
+ 0.440  
+ 0.428  
+ 0.050  
+
+		-----
+	outerSentence : offender knows something.
+		coremap sentence : offender knows something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.019  
+ 0.190  
+ 0.761  
+ 0.026  
+ 0.003  
+
+		-----
+	 outer Subject : offender 	,	inner Subject : site 
+resolved as : (--, --)
+
+The State argues that the law in question is content neutral and merely regulates a "place" (i.e., the internet) where convicted sex offenders may wish to engage in speech.
+	innerSentence :  the law in question is content neutral and merely regulates a "place" (i.e.
+		coremap sentence : the law in question is content neutral and merely regulates a "place" (i.e.
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.153  
+ 0.711  
+ 0.093  
+ 0.028  
+ 0.014  
+
+		-----
+	outerSentence : State argues something.
+		coremap sentence : State argues something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.029  
+ 0.223  
+ 0.682  
+ 0.057  
+ 0.009  
+
+		-----
+	 outer Subject : State 	,	inner Subject : law 
+resolved as : (--, --)
+
+Packingham responds that the challenged statute is "unlike any law this Court has considered as a time, place, or manner restriction," Brief for Petitioner 37, and he advocates a more demanding standard of review, id., at 37-39.
+	innerSentence :  the challenged statute is "unlike any law this Court has considered as a time
+		coremap sentence : the challenged statute is "unlike any law this Court has considered as a time
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.044  
+ 0.309  
+ 0.401  
+ 0.217  
+ 0.029  
+
+		-----
+	outerSentence : Packingham responds something.
+		coremap sentence : Packingham responds something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.036  
+ 0.166  
+ 0.391  
+ 0.340  
+ 0.067  
+
+		-----
+	 outer Subject : Packingham 	,	inner Subject : challenged statute 
+resolved as : (--, --)
+
+And since a comment function is undoubtedly a "mechanis[m] to communicate with other users," ibid., it appears to follow that any website with such a function satisfies this requirement.
+	innerSentence :  any website with such a function satisfies this requirement.
+		coremap sentence : any website with such a function satisfies this requirement.
+		sentiment : Positive
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.008  
+ 0.016  
+ 0.078  
+ 0.704  
+ 0.194  
+
+		-----
+	outerSentence : function follow something.
+		coremap sentence : function follow something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.015  
+ 0.117  
+ 0.752  
+ 0.107  
+ 0.009  
+
+		-----
+	 outer Subject : function 	,	inner Subject : website 
+resolved as : (--, --)
+
+The fatal problem for §14-202.5 is that its wide sweep precludes access to a large number of websites that are most unlikely to facilitate the commission of a sex crime against a child.
+	innerSentence :  its wide sweep precludes access to a large number of websites
+		coremap sentence : its wide sweep precludes access to a large number of websites
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.029  
+ 0.252  
+ 0.513  
+ 0.190  
+ 0.017  
+
+		-----
+	outerSentence : fatal problem is something.
+		coremap sentence : fatal problem is something.
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.102  
+ 0.810  
+ 0.079  
+ 0.006  
+ 0.002  
+
+		-----
+	 outer Subject : fatal problem 	,	inner Subject : wide its sweep 
+resolved as : (--, The fatal problem for § 14-202.5;)
+
+Third, Amazon allows a user to create a personal profile, which is then associated with the product reviews that the user uploads.
+	innerSentence :  the user uploads.
+		coremap sentence : the user uploads.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.035  
+ 0.207  
+ 0.501  
+ 0.223  
+ 0.034  
+
+		-----
+	outerSentence : none-outerSubject reviews something.
+		coremap sentence : none-outerSubject reviews something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.016  
+ 0.093  
+ 0.634  
+ 0.232  
+ 0.024  
+
+		-----
+	 outer Subject : none-outerSubject	,	inner Subject : user 
+resolved as : (--, --)
+
+
+After noting that "a street or a park is a quintessential forum for the exercise of First Amendment rights," the Court states that "cyberspace" and "social media in particular" are now "the most important places (in a spatial sense) for the exchange of views."
+	innerSentence :  "a street or a park is a quintessential forum for the exercise of First Amendment rights
+		coremap sentence : "a street or a park is a quintessential forum for the exercise of First Amendment rights
+		sentiment : Positive
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.003  
+ 0.011  
+ 0.090  
+ 0.840  
+ 0.055  
+
+		-----
+	outerSentence : Court noting something.
+		coremap sentence : Court noting something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.028  
+ 0.144  
+ 0.491  
+ 0.294  
+ 0.044  
+
+		-----
+	 outer Subject : Court 	,	inner Subject : street 
+resolved as : (--, --)
+After noting that "a street or a park is a quintessential forum for the exercise of First Amendment rights," the Court states that "cyberspace" and "social media in particular" are now "the most important places (in a spatial sense) for the exchange of views."
+	innerSentence :  "cyberspace" and "social media in particular" are now "the most important places (in a spatial sense) for the exchange of views."
+		coremap sentence : "cyberspace" and "social media in particular" are now "the most important places (in a spatial sense) for the exchange of views."
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.007  
+ 0.062  
+ 0.667  
+ 0.253  
+ 0.011  
+
+		-----
+	outerSentence : Court states something.
+		coremap sentence : Court states something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.029  
+ 0.144  
+ 0.456  
+ 0.319  
+ 0.053  
+
+		-----
+	 outer Subject : Court 	,	inner Subject : cyberspace 
+resolved as : (--, --)
+
+

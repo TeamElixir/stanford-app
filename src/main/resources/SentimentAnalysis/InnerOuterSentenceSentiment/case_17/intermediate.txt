@@ -1,0 +1,2560 @@
+ the State must" provide the defendant with "access to a competent psychiatrist
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.029  
+ 0.244  
+ 0.555  
+ 0.156  
+ 0.016  
+
+Ake established something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.018  
+ 0.080  
+ 0.460  
+ 0.380  
+ 0.062  
+
+Ake ,--::State ,--
+
+ McWilliams was competent to stand trial and had not been suffering from mental illness at the time of the alleged offense.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.076  
+ 0.310  
+ 0.386  
+ 0.179  
+ 0.049  
+
+which concluded something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.017  
+ 0.099  
+ 0.632  
+ 0.226  
+ 0.026  
+
+which ,--::McWilliams ,McWilliams;McWilliams ';McWilliams of capital murder;petitioner McWilliams with rape and murder;
+
+ McWilliams was likely exaggerating his symptoms
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.042  
+ 0.336  
+ 0.535  
+ 0.073  
+ 0.014  
+
+He concluded something.
+Positive
+Type = dense , numRows = 5 , numCols = 1
+ 0.017  
+ 0.080  
+ 0.239  
+ 0.601  
+ 0.064  
+
+He ,Dr. Goff;::McWilliams ,McWilliams;McWilliams ';McWilliams of capital murder;petitioner McWilliams with rape and murder;
+
+ the trial court denied him the right to meaningful expert assistance guarantee by Ake.
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.149  
+ 0.586  
+ 0.168  
+ 0.067  
+ 0.030  
+
+McWilliams argued something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.018  
+ 0.079  
+ 0.519  
+ 0.338  
+ 0.047  
+
+McWilliams ,McWilliams;McWilliams ';::court ,--
+
+ Dr. Goff's examination satisfied Ake's requirements.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.023  
+ 0.131  
+ 0.461  
+ 0.345  
+ 0.040  
+
+Court holding something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.023  
+ 0.134  
+ 0.592  
+ 0.223  
+ 0.028  
+
+Court ,--::Goff 's examination ,--
+
+ the state must provide a defendant with access to a mental health expert
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.028  
+ 0.371  
+ 0.543  
+ 0.051  
+ 0.006  
+
+Ake established something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.018  
+ 0.080  
+ 0.460  
+ 0.380  
+ 0.062  
+
+Ake ,Ake;::state ,--
+
+ the volunteer psychologist was available to the defense at the judicial sentencing proceeding.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.050  
+ 0.376  
+ 0.425  
+ 0.128  
+ 0.021  
+
+that indicate something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.006  
+ 0.035  
+ 0.754  
+ 0.193  
+ 0.012  
+
+that ,--::psychologist ,--
+
+ McWilliams did not get all the mental health assistance that he requested.
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.073  
+ 0.453  
+ 0.394  
+ 0.064  
+ 0.016  
+
+record indicates something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.019  
+ 0.110  
+ 0.644  
+ 0.204  
+ 0.023  
+
+record ,--::McWilliams ,McWilliams;
+
+ the State provide the defense with "access to a competent psychiatrist
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.012  
+ 0.082  
+ 0.543  
+ 0.343  
+ 0.020  
+
+It requires something.
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.092  
+ 0.440  
+ 0.327  
+ 0.113  
+ 0.028  
+
+It ,--::State ,--
+
+ Alabama met the examination requirement
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.018  
+ 0.099  
+ 0.539  
+ 0.303  
+ 0.041  
+
+it assuming something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.025  
+ 0.231  
+ 0.634  
+ 0.100  
+ 0.010  
+
+it ,Alabama;Alabama 's;::Alabama ,Alabama;Alabama 's;
+
+ McWilliams' purported malingering was not necessarily inconsistent with mental illness.
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.127  
+ 0.610  
+ 0.224  
+ 0.028  
+ 0.012  
+
+that might explained something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.025  
+ 0.187  
+ 0.641  
+ 0.132  
+ 0.016  
+
+that ,--::purported McWilliams ' malingering ,--
+
+ the State had failed to provide him with the expert mental health assistance the Constitution requires
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.099  
+ 0.679  
+ 0.209  
+ 0.009  
+ 0.004  
+
+McWilliams arguing something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.005  
+ 0.028  
+ 0.578  
+ 0.367  
+ 0.021  
+
+McWilliams ,McWilliams;::State ,--
+
+ it was.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.011  
+ 0.089  
+ 0.702  
+ 0.187  
+ 0.012  
+
+We hold something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.015  
+ 0.081  
+ 0.470  
+ 0.400  
+ 0.035  
+
+We ,--::it ,--
+
+ the State must provide an indigent defendant with access to a mental health expert
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.043  
+ 0.548  
+ 0.380  
+ 0.025  
+ 0.004  
+
+none-outerSubject established something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.014  
+ 0.068  
+ 0.496  
+ 0.380  
+ 0.042  
+
+none-outerSubject,--::State ,--
+
+ Ake 
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.029  
+ 0.144  
+ 0.631  
+ 0.154  
+ 0.043  
+
+McWilliams agree something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.018  
+ 0.079  
+ 0.519  
+ 0.338  
+ 0.047  
+
+McWilliams ,--::Ake ,Ake;
+
+ the "issue in this case is whether the Constitution requires that an indigent defendant have access to the psychiatric examination and assistance necessary to prepare an effective defense based on his mental condition
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.096  
+ 0.689  
+ 0.201  
+ 0.011  
+ 0.003  
+
+Court stating something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.028  
+ 0.144  
+ 0.491  
+ 0.294  
+ 0.044  
+
+Court ,--::issue ,--
+
+ an indigent defendant have access to the psychiatric examination and assistance necessary to prepare an effective defense based on his mental condition
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.093  
+ 0.526  
+ 0.284  
+ 0.074  
+ 0.023  
+
+Constitution requires something.
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.092  
+ 0.459  
+ 0.278  
+ 0.131  
+ 0.040  
+
+Constitution ,--::indigent defendant ,--
+
+ the assistance of a psychiatrist may well be crucial to the defendant's ability to marshal his defense."
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.020  
+ 0.124  
+ 0.508  
+ 0.315  
+ 0.033  
+
+Court wrote something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.030  
+ 0.172  
+ 0.505  
+ 0.253  
+ 0.039  
+
+Court ,--::assistance ,--
+
+ the indigent defendant have access to a competent psychiatrist for the[se] purpose[s]."
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.054  
+ 0.415  
+ 0.437  
+ 0.079  
+ 0.016  
+
+Our concern is something.
+Positive
+Type = dense , numRows = 5 , numCols = 1
+ 0.018  
+ 0.072  
+ 0.200  
+ 0.627  
+ 0.084  
+
+Our concern ,--::indigent defendant ,--
+
+ a State must provide a mental health professional capable of performing a certain role
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.065  
+ 0.504  
+ 0.290  
+ 0.121  
+ 0.020  
+
+Ake establishes something.
+Positive
+Type = dense , numRows = 5 , numCols = 1
+ 0.016  
+ 0.056  
+ 0.316  
+ 0.521  
+ 0.091  
+
+Ake ,Ake;::State ,--
+
+ McWilliams was competent to stand trial and that he had not been suffering from mental illness at the time of the alleged offense.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.085  
+ 0.325  
+ 0.353  
+ 0.182  
+ 0.055  
+
+members concluded something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.017  
+ 0.108  
+ 0.654  
+ 0.199  
+ 0.022  
+
+members ,--::McWilliams ,Dr. Nagi;McWilliams;McWilliams ';Mr. McWilliams;
+
+ "Mr. McWilliams is grossly exaggerating his psychological symptoms to mimic mental illness."
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.131  
+ 0.702  
+ 0.145  
+ 0.016  
+ 0.006  
+
+One wrote something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.008  
+ 0.042  
+ 0.673  
+ 0.253  
+ 0.024  
+
+One ,--::McWilliams ,--
+
+ McWilliams' performance on one of the tests "suggested that [McWilliams] had exaggerated his endorsement of symptoms of illness and the profile was considered a 'fake bad.' "
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.237  
+ 0.683  
+ 0.074  
+ 0.003  
+ 0.003  
+
+Nagi noted something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.036  
+ 0.166  
+ 0.391  
+ 0.340  
+ 0.067  
+
+Nagi ,--::McWilliams ' performance ,Dr. Nagi;McWilliams;McWilliams ';Mr. McWilliams;
+
+ [McWilliams] had exaggerated his endorsement of symptoms of illness and the profile was considered a 'fake bad.' "
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.305  
+ 0.638  
+ 0.052  
+ 0.002  
+ 0.003  
+
+McWilliams ' performance suggested something.
+Positive
+Type = dense , numRows = 5 , numCols = 1
+ 0.008  
+ 0.027  
+ 0.333  
+ 0.560  
+ 0.073  
+
+McWilliams ' performance ,Dr. Nagi;McWilliams;McWilliams ';Mr. McWilliams;::none-innersubject,--
+
+ McWilliams had a prior conviction.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.022  
+ 0.172  
+ 0.700  
+ 0.093  
+ 0.013  
+
+none-outerSubject testify something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.055  
+ 0.274  
+ 0.393  
+ 0.226  
+ 0.052  
+
+none-outerSubject,--::McWilliams ,McWilliams;McWilliams ';
+
+ McWilliams had a "blatantly psychotic thought disorder" and needed inpatient treatment.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.034  
+ 0.168  
+ 0.472  
+ 0.281  
+ 0.045  
+
+who concluded something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.009  
+ 0.052  
+ 0.774  
+ 0.153  
+ 0.011  
+
+who ,--::McWilliams ,McWilliams;McWilliams ';
+
+ he had found no evidence of psychosis
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.008  
+ 0.095  
+ 0.863  
+ 0.031  
+ 0.003  
+
+Nagi testified something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.036  
+ 0.166  
+ 0.391  
+ 0.340  
+ 0.067  
+
+Nagi ,--::he ,Dr. Kamal Nagi;Dr. Nagi;
+
+ one of the tests
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.010  
+ 0.080  
+ 0.697  
+ 0.197  
+ 0.016  
+
+Poythress testified something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.036  
+ 0.166  
+ 0.391  
+ 0.340  
+ 0.067  
+
+Poythress ,--::one ,--
+
+ McWilliams had exaggerated or faked his symptoms.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.025  
+ 0.190  
+ 0.677  
+ 0.094  
+ 0.013  
+
+test 's scales indicated something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.019  
+ 0.120  
+ 0.578  
+ 0.259  
+ 0.024  
+
+test 's scales ,--::McWilliams ,McWilliams;
+
+ McWilliams presented "some diagnostic dilemmas."
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.091  
+ 0.499  
+ 0.341  
+ 0.052  
+ 0.017  
+
+report concluded something.
+Positive
+Type = dense , numRows = 5 , numCols = 1
+ 0.033  
+ 0.113  
+ 0.251  
+ 0.510  
+ 0.093  
+
+report ,--::McWilliams ,McWilliams;McWilliams ';
+
+ McWilliams' "obvious neuropsychological deficit" could be related to his "low frustration tolerance and impulsivity
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.276  
+ 0.499  
+ 0.170  
+ 0.031  
+ 0.024  
+
+report added something.
+Positive
+Type = dense , numRows = 5 , numCols = 1
+ 0.011  
+ 0.029  
+ 0.107  
+ 0.716  
+ 0.136  
+
+report ,--::obvious McWilliams ' deficit ,--
+
+ McWilliams was taking an assortment of psychotropic medications including Desyrel
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.070  
+ 0.471  
+ 0.368  
+ 0.072  
+ 0.018  
+
+records indicated something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.005  
+ 0.025  
+ 0.604  
+ 0.335  
+ 0.031  
+
+records ,--::McWilliams ,--
+
+ "there is no way that I can go through this material
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.105  
+ 0.727  
+ 0.127  
+ 0.032  
+ 0.009  
+
+counsel protested something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.036  
+ 0.166  
+ 0.391  
+ 0.340  
+ 0.067  
+
+counsel ,--::way ,--
+
+ "the abritrary [sic] position taken by this Court regarding the Defendant's right to present mitigating circumstances is unconscionable resulting in this proceeding being a mockery."
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.221  
+ 0.679  
+ 0.080  
+ 0.012  
+ 0.008  
+
+He said something.
+Positive
+Type = dense , numRows = 5 , numCols = 1
+ 0.011  
+ 0.065  
+ 0.302  
+ 0.586  
+ 0.037  
+
+He ,defense counsel;::abritrary position ,--
+
+ "further participation would be tantamount to exceptance [sic] of the Court's ruling."
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.040  
+ 0.406  
+ 0.510  
+ 0.038  
+ 0.007  
+
+He added something.
+Positive
+Type = dense , numRows = 5 , numCols = 1
+ 0.005  
+ 0.015  
+ 0.095  
+ 0.801  
+ 0.084  
+
+He ,defense counsel;::further participation ,--
+
+ he has the type of diagnosed illness that we pointed out earlier for The Court and have mentioned for The Court.
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.129  
+ 0.560  
+ 0.241  
+ 0.049  
+ 0.021  
+
+We believe something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.024  
+ 0.163  
+ 0.506  
+ 0.282  
+ 0.026  
+
+We ,Taylor Hardin, and the Lunacy Commission, and at Holman;the Lunacy Commission;::he ,the Defendant;
+
+ there were "no mitigating circumstances."
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.101  
+ 0.568  
+ 0.298  
+ 0.024  
+ 0.009  
+
+he argued something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.014  
+ 0.062  
+ 0.589  
+ 0.300  
+ 0.036  
+
+he ,The prosecutor;the prosecutor 's;::mitigating circumstances ,--
+
+ he "would be pleased to respond to [the prosecutor's] remarks that there are no mitigating circumstances in this case if I were able to have time to produce . . . any mitigating circumstances."
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.062  
+ 0.460  
+ 0.451  
+ 0.021  
+ 0.006  
+
+counsel replied something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.036  
+ 0.166  
+ 0.391  
+ 0.340  
+ 0.067  
+
+counsel ,--::he ,The prosecutor;the prosecutor 's;
+
+ there are no mitigating circumstances in this case if I were able to have time to produce . . . any mitigating circumstances."
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.191  
+ 0.653  
+ 0.147  
+ 0.005  
+ 0.005  
+
+he remarks something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.015  
+ 0.069  
+ 0.567  
+ 0.310  
+ 0.039  
+
+he ,The prosecutor;the prosecutor 's;::mitigating circumstances ,--
+
+ he had reviewed the records himself and found evidence that McWilliams was faking and manipulative.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.061  
+ 0.421  
+ 0.460  
+ 0.046  
+ 0.011  
+
+judge said something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.008  
+ 0.057  
+ 0.833  
+ 0.093  
+ 0.008  
+
+judge ,--::he ,The trial judge;
+
+" and that "the preponderance of the evidence from these tests and reports show [McWilliams] to be feigning
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.037  
+ 0.367  
+ 0.443  
+ 0.137  
+ 0.016  
+
+It found something.
+Positive
+Type = dense , numRows = 5 , numCols = 1
+ 0.006  
+ 0.017  
+ 0.306  
+ 0.615  
+ 0.057  
+
+It ,The court;::McWilliams ,McWilliams;McWilliams ';
+
+ the aggravating circumstances would far outweigh this as a mitigating circumstance."
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.135  
+ 0.561  
+ 0.264  
+ 0.026  
+ 0.013  
+
+court wrote something.
+Positive
+Type = dense , numRows = 5 , numCols = 1
+ 0.024  
+ 0.187  
+ 0.339  
+ 0.415  
+ 0.034  
+
+court ,--::aggravating circumstances ,--
+
+ the trial court had denied him the right to meaningful expert assistance guaranteed by Ake.
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.068  
+ 0.518  
+ 0.366  
+ 0.039  
+ 0.008  
+
+McWilliams arguing something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.005  
+ 0.028  
+ 0.578  
+ 0.367  
+ 0.021  
+
+McWilliams ,McWilliams;McWilliams ';McWilliams, 640 So;::court ,--
+
+ Ake's requirements "are met
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.028  
+ 0.188  
+ 0.511  
+ 0.243  
+ 0.029  
+
+It wrote something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.014  
+ 0.089  
+ 0.627  
+ 0.252  
+ 0.018  
+
+It ,The Alabama Court of Criminal Appeals;The appeals court;The court;the trial court;the trial court 's;::Ake 's requirements ,--
+
+ "[t]here is no indication in the record
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.038  
+ 0.352  
+ 0.475  
+ 0.120  
+ 0.015  
+
+court added something.
+Positive
+Type = dense , numRows = 5 , numCols = 1
+ 0.009  
+ 0.035  
+ 0.107  
+ 0.751  
+ 0.098  
+
+court ,--::t ,--
+
+ it would have considered a motion to present an expert to evaluate this report" had one been made
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.107  
+ 0.573  
+ 0.278  
+ 0.033  
+ 0.009  
+
+court indicated something.
+Positive
+Type = dense , numRows = 5 , numCols = 1
+ 0.014  
+ 0.069  
+ 0.201  
+ 0.650  
+ 0.065  
+
+court ,--::it ,The Alabama Court of Criminal Appeals;The appeals court;The court;the trial court;the trial court 's;
+
+ McWilliams had "received the assistance required by Ake" because Dr. Goff "completed the testing"
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.075  
+ 0.473  
+ 0.368  
+ 0.068  
+ 0.017  
+
+He wrote something.
+Positive
+Type = dense , numRows = 5 , numCols = 1
+ 0.013  
+ 0.090  
+ 0.369  
+ 0.496  
+ 0.031  
+
+He ,Ake;McWilliams;::McWilliams ,Ake;McWilliams;
+
+ the conditions
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.003  
+ 0.021  
+ 0.923  
+ 0.049  
+ 0.004  
+
+one denies something.
+Positive
+Type = dense , numRows = 5 , numCols = 1
+ 0.019  
+ 0.069  
+ 0.346  
+ 0.472  
+ 0.094  
+
+one ,--::conditions ,--
+
+ she was available to the defense at this time.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.017  
+ 0.110  
+ 0.580  
+ 0.269  
+ 0.024  
+
+that indicate something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.006  
+ 0.035  
+ 0.754  
+ 0.193  
+ 0.012  
+
+that ,--::she ,--
+
+ Ake's requirements are irrelevant because McWilliams "never asked for more expert assistance" than he got
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.078  
+ 0.548  
+ 0.295  
+ 0.063  
+ 0.016  
+
+Alabama argues something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.011  
+ 0.055  
+ 0.754  
+ 0.157  
+ 0.023  
+
+Alabama ,--::Ake 's requirements ,--
+
+ McWilliams did request additional help from mental health experts.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.019  
+ 0.114  
+ 0.648  
+ 0.197  
+ 0.022  
+
+record indicates something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.019  
+ 0.110  
+ 0.644  
+ 0.204  
+ 0.023  
+
+record ,--::McWilliams ,McWilliams;
+
+ a State must provide an indigent defendant with a qualified mental health expert retained specifically for the defense team
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.071  
+ 0.659  
+ 0.242  
+ 0.023  
+ 0.006  
+
+Ake established something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.018  
+ 0.080  
+ 0.460  
+ 0.380  
+ 0.062  
+
+Ake ,Ake;::State ,--
+
+ a defendant must receive the assistance of a mental health expert
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.026  
+ 0.216  
+ 0.535  
+ 0.201  
+ 0.022  
+
+Ake established something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.018  
+ 0.080  
+ 0.460  
+ 0.380  
+ 0.062  
+
+Ake ,Ake;Ake 's;::defendant ,--
+
+ "this issue really has been mooted over the last 30-some-odd years because of statutory changes").
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.129  
+ 0.690  
+ 0.134  
+ 0.036  
+ 0.011  
+
+none-outerSubject conceding something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.036  
+ 0.166  
+ 0.391  
+ 0.340  
+ 0.067  
+
+none-outerSubject,--::issue ,--
+
+ we granted petitioner's first question presented-
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.012  
+ 0.120  
+ 0.830  
+ 0.034  
+ 0.004  
+
+We recognize something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.019  
+ 0.148  
+ 0.635  
+ 0.183  
+ 0.015  
+
+We ,--::we ,--
+
+ a defendant must receive the assistance of a mental health expert
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.026  
+ 0.216  
+ 0.535  
+ 0.201  
+ 0.022  
+
+Ake established something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.018  
+ 0.080  
+ 0.460  
+ 0.380  
+ 0.062  
+
+Ake ,Ake;::defendant ,--
+
+ the court of appeals correctly denied the habeas petition."
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.089  
+ 0.584  
+ 0.227  
+ 0.081  
+ 0.018  
+
+it thought something.
+Positive
+Type = dense , numRows = 5 , numCols = 1
+ 0.004  
+ 0.018  
+ 0.394  
+ 0.557  
+ 0.027  
+
+it ,the State;::court ,--
+
+ "the requirements of Ake v. Oklahoma . . . are met
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.051  
+ 0.429  
+ 0.374  
+ 0.127  
+ 0.019  
+
+court held something.
+Positive
+Type = dense , numRows = 5 , numCols = 1
+ 0.010  
+ 0.044  
+ 0.180  
+ 0.699  
+ 0.067  
+
+court ,--::requirements ,--
+
+ Alabama met the examination portion of this requirement by providing for Dr. Goff's examination of McWilliams.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.082  
+ 0.310  
+ 0.443  
+ 0.120  
+ 0.046  
+
+We assume something.
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.089  
+ 0.694  
+ 0.184  
+ 0.026  
+ 0.008  
+
+We ,--::Alabama ,--
+
+ McWilliams' purported malingering was not necessarily inconsistent with mental illness (as an expert later testified in postconviction proceedings
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.146  
+ 0.637  
+ 0.191  
+ 0.017  
+ 0.009  
+
+that might explained something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.025  
+ 0.187  
+ 0.641  
+ 0.132  
+ 0.016  
+
+that ,--::purported McWilliams ' malingering ,--
+
+ Dr. Goff was never ordered to do any of these things by the trial court.
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.072  
+ 0.562  
+ 0.304  
+ 0.050  
+ 0.012  
+
+dissent emphasizes something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.024  
+ 0.286  
+ 0.670  
+ 0.017  
+ 0.003  
+
+dissent ,--::Goff ,--
+
+ the Alabama court decision affirming McWilliams's conviction and sentence was "contrary to
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.030  
+ 0.299  
+ 0.515  
+ 0.140  
+ 0.016  
+
+we must conclude something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.013  
+ 0.072  
+ 0.670  
+ 0.222  
+ 0.022  
+
+we ,--::decision ,--
+
+ it could have.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.026  
+ 0.235  
+ 0.573  
+ 0.153  
+ 0.013  
+
+none-outerSubject think something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.010  
+ 0.064  
+ 0.730  
+ 0.180  
+ 0.014  
+
+none-outerSubject,--::it ,The Eleventh Circuit;the Eleventh Circuit;
+
+ "[m]alingering is not inconsistent with serious mental illness
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.120  
+ 0.714  
+ 0.130  
+ 0.026  
+ 0.009  
+
+none-outerSubject explain something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.017  
+ 0.082  
+ 0.540  
+ 0.317  
+ 0.044  
+
+none-outerSubject,--::alingering ,--
+
+ an indigent defendant
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.035  
+ 0.202  
+ 0.513  
+ 0.215  
+ 0.036  
+
+none-outerSubject established something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.014  
+ 0.068  
+ 0.496  
+ 0.380  
+ 0.042  
+
+none-outerSubject,--::indigent defendant ,--
+
+ a defendant is entitled to an expert
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.058  
+ 0.337  
+ 0.351  
+ 0.214  
+ 0.040  
+
+Ake did not establish something.
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.086  
+ 0.455  
+ 0.294  
+ 0.129  
+ 0.036  
+
+Ake ,Ake;::defendant ,--
+
+ the state court's ruling on the claim . . . was so lacking in justification that there was an error well understood and comprehended in existing law beyond any possibility for fairminded disagreement."
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.281  
+ 0.524  
+ 0.178  
+ 0.009  
+ 0.009  
+
+It show something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.009  
+ 0.043  
+ 0.533  
+ 0.390  
+ 0.025  
+
+It ,--::court 's ruling ,--
+
+ a defendant must be provided "access to a competent psychiatrist" in two circumstances
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.028  
+ 0.248  
+ 0.549  
+ 0.157  
+ 0.018  
+
+we held something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.004  
+ 0.015  
+ 0.551  
+ 0.401  
+ 0.030  
+
+we ,--::defendant ,--
+
+ a defendant in the two situations just noted must be provided with the services of an expert
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.066  
+ 0.463  
+ 0.341  
+ 0.107  
+ 0.023  
+
+Ake Did establish something.
+Positive
+Type = dense , numRows = 5 , numCols = 1
+ 0.030  
+ 0.144  
+ 0.373  
+ 0.385  
+ 0.068  
+
+Ake ,Ake;::defendant ,--
+
+ a psychiatrist can "assist in preparing the cross-examination of a State's psychiatric witnesses" and would "know the probative questions to ask of the opposing party's psychiatrists and
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.028  
+ 0.336  
+ 0.578  
+ 0.052  
+ 0.006  
+
+Ake noted something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.036  
+ 0.166  
+ 0.391  
+ 0.340  
+ 0.067  
+
+Ake ,Ake;::psychiatrist ,--
+
+ it is important for a defendant to "offer a well-informed expert's opposing view" in the form of "responsive psychiatric testimony."
+Positive
+Type = dense , numRows = 5 , numCols = 1
+ 0.005  
+ 0.015  
+ 0.247  
+ 0.651  
+ 0.082  
+
+Court said something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.027  
+ 0.147  
+ 0.491  
+ 0.292  
+ 0.044  
+
+Court ,--::it ,the Court;
+
+ factfinding is improved
+Positive
+Type = dense , numRows = 5 , numCols = 1
+ 0.017  
+ 0.047  
+ 0.113  
+ 0.660  
+ 0.162  
+
+Ake explained something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.036  
+ 0.166  
+ 0.391  
+ 0.340  
+ 0.067  
+
+Ake ,Ake;::factfinding ,--
+
+ a State need only provide for a single psychiatric expert to be selected by the trial judge.
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.073  
+ 0.596  
+ 0.297  
+ 0.027  
+ 0.006  
+
+Ake stated something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.036  
+ 0.166  
+ 0.391  
+ 0.340  
+ 0.067  
+
+Ake ,Ake;::State ,--
+
+ Baldi did not limit the Court "in considering whether fundamental fairness today requires a different result
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.092  
+ 0.523  
+ 0.309  
+ 0.057  
+ 0.018  
+
+Ake declared something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.024  
+ 0.124  
+ 0.512  
+ 0.296  
+ 0.044  
+
+Ake ,Ake;::Baldi ,Baldi;
+
+ Ake's rights were violated even under Baldi).
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.153  
+ 0.596  
+ 0.211  
+ 0.026  
+ 0.014  
+
+none-outerSubject arguing something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.023  
+ 0.108  
+ 0.440  
+ 0.370  
+ 0.059  
+
+none-outerSubject,--::Ake 's rights ,--
+
+ a defense-team expert must be appointed
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.060  
+ 0.337  
+ 0.349  
+ 0.209  
+ 0.045  
+
+Justices had agreed something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.024  
+ 0.134  
+ 0.533  
+ 0.272  
+ 0.037  
+
+Justices ,--::defense-team expert ,--
+
+ the exact type of expert required by Ake has remained "an open question in our jurisprudence."
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.102  
+ 0.374  
+ 0.224  
+ 0.222  
+ 0.078  
+
+reasonable conclusion is something.
+Positive
+Type = dense , numRows = 5 , numCols = 1
+ 0.004  
+ 0.011  
+ 0.137  
+ 0.743  
+ 0.105  
+
+reasonable conclusion ,--::exact type ,--
+
+ Ake requires the appointment of a defense-team expert.
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.176  
+ 0.624  
+ 0.150  
+ 0.031  
+ 0.019  
+
+courts had held something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.007  
+ 0.054  
+ 0.787  
+ 0.140  
+ 0.011  
+
+courts ,--::Ake ,Ake;Ake -RSB- to a state-funded psychiatric expert;
+
+ a defense-team expert is not required.
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.121  
+ 0.541  
+ 0.244  
+ 0.067  
+ 0.027  
+
+Circuit had held something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.005  
+ 0.049  
+ 0.888  
+ 0.054  
+ 0.004  
+
+Circuit ,--::defense-team expert ,--
+
+ he have access to a competent and impartial psychiatrist").
+Positive
+Type = dense , numRows = 5 , numCols = 1
+ 0.005  
+ 0.014  
+ 0.296  
+ 0.603  
+ 0.082  
+
+due process requires something.
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.074  
+ 0.390  
+ 0.323  
+ 0.173  
+ 0.039  
+
+due process ,--::he ,Ake;Ake -RSB- to a state-funded psychiatric expert;
+
+ a neutral expert suffices
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.028  
+ 0.175  
+ 0.445  
+ 0.308  
+ 0.045  
+
+panels held something.
+Positive
+Type = dense , numRows = 5 , numCols = 1
+ 0.017  
+ 0.071  
+ 0.391  
+ 0.449  
+ 0.073  
+
+panels ,--::neutral expert ,--
+
+ due process requires more than a neutral expert).
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.137  
+ 0.657  
+ 0.162  
+ 0.031  
+ 0.014  
+
+none-outerSubject holding something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.016  
+ 0.098  
+ 0.661  
+ 0.205  
+ 0.020  
+
+none-outerSubject,--::due process ,--
+
+ Ake does not require appointment of a defense-team expert.
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.112  
+ 0.562  
+ 0.270  
+ 0.041  
+ 0.016  
+
+panel held something.
+Positive
+Type = dense , numRows = 5 , numCols = 1
+ 0.017  
+ 0.071  
+ 0.391  
+ 0.449  
+ 0.073  
+
+panel ,--::Ake ,Ake;
+
+ "the defense had the right of access to an expert
+Positive
+Type = dense , numRows = 5 , numCols = 1
+ 0.013  
+ 0.108  
+ 0.421  
+ 0.432  
+ 0.026  
+
+Ake held something.
+Positive
+Type = dense , numRows = 5 , numCols = 1
+ 0.017  
+ 0.071  
+ 0.391  
+ 0.449  
+ 0.073  
+
+Ake ,1545;1551;1985;21 Tulsa L.;Ake;Ake 's;Ake, 30;Competent Psychiatric Assistance After Ake v. Oklahoma, 14 Vt.;Giannelli, Ake v. Oklahoma;Groendyke, Ake v. Oklahoma;::defense ,--
+
+ access had to be a defense expert"); Greeley
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.044  
+ 0.491  
+ 0.405  
+ 0.052  
+ 0.008  
+
+Court did not conclude something.
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.072  
+ 0.471  
+ 0.351  
+ 0.084  
+ 0.022  
+
+Court ,--::access ,--
+
+ Ake requires only access to an independent psychiatric examination"); Note
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.138  
+ 0.596  
+ 0.235  
+ 0.019  
+ 0.011  
+
+strong case can be made something.
+Positive
+Type = dense , numRows = 5 , numCols = 1
+ 0.011  
+ 0.047  
+ 0.235  
+ 0.635  
+ 0.071  
+
+strong case ,--::Ake ,1545;1551;1985;21 Tulsa L.;Ake;Ake 's;Ake, 30;Competent Psychiatric Assistance After Ake v. Oklahoma, 14 Vt.;Giannelli, Ake v. Oklahoma;Groendyke, Ake v. Oklahoma;
+
+ "whether the Constitution requires one psychiatrist or rather one defense-oriented psy-chiatrist" would "likely be the next constitutional issue adjudicated").
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.094  
+ 0.663  
+ 0.192  
+ 0.040  
+ 0.010  
+
+J. predicting something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.005  
+ 0.038  
+ 0.874  
+ 0.079  
+ 0.004  
+
+J. ,--::none-innersubject,--
+
+ Ake is satisfied by the appointment of a neutral expert
+Positive
+Type = dense , numRows = 5 , numCols = 1
+ 0.043  
+ 0.205  
+ 0.326  
+ 0.355  
+ 0.071  
+
+courts held something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.006  
+ 0.030  
+ 0.686  
+ 0.256  
+ 0.023  
+
+courts ,--::Ake ,--
+
+ "there could be no reasonable dispute that they were wrong."
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.101  
+ 0.626  
+ 0.239  
+ 0.027  
+ 0.008  
+
+it say something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.006  
+ 0.039  
+ 0.678  
+ 0.264  
+ 0.012  
+
+it ,--::none-innersubject,--
+
+ "Alabama here did not meet even Ake's most basic requirements."
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.018  
+ 0.203  
+ 0.603  
+ 0.163  
+ 0.012  
+
+Court holds something.
+Positive
+Type = dense , numRows = 5 , numCols = 1
+ 0.011  
+ 0.031  
+ 0.216  
+ 0.599  
+ 0.142  
+
+Court ,--::Alabama ,--
+
+ Dr. Goff merely submitted his report and did not provide further assistance to the defense.
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.155  
+ 0.582  
+ 0.248  
+ 0.009  
+ 0.006  
+
+crux is something.
+Positive
+Type = dense , numRows = 5 , numCols = 1
+ 0.014  
+ 0.056  
+ 0.303  
+ 0.550  
+ 0.078  
+
+crux ,--::Goff ,--
+
+ we receive adversarial briefing
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.020  
+ 0.188  
+ 0.703  
+ 0.081  
+ 0.009  
+
+none-outerSubject ensure something.
+Positive
+Type = dense , numRows = 5 , numCols = 1
+ 0.019  
+ 0.081  
+ 0.372  
+ 0.456  
+ 0.072  
+
+none-outerSubject,--::we ,These Rules;
+
+ it did not need to brief the second question presented in McWilliams's petition.
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.080  
+ 0.525  
+ 0.310  
+ 0.070  
+ 0.014  
+
+State believed something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.033  
+ 0.134  
+ 0.403  
+ 0.363  
+ 0.068  
+
+State ,--::it ,The State;the State;
+
+ today's ruling requires the Court to conclude that the state court's treatment of McWilliams's Ake claim "was so lacking in justification that there was an error well understood and comprehended in existing law beyond any possibility for fairminded disagreement."
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.177  
+ 0.613  
+ 0.195  
+ 0.009  
+ 0.005  
+
+none-outerSubject remembering something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.023  
+ 0.124  
+ 0.545  
+ 0.269  
+ 0.039  
+
+none-outerSubject,--::today 's ruling ,--
+
+ the state court's treatment of McWilliams's Ake claim "was so lacking in justification that there was an error well understood and comprehended in existing law beyond any possibility for fairminded disagreement."
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.207  
+ 0.630  
+ 0.146  
+ 0.012  
+ 0.006  
+
+today 's ruling conclude something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.021  
+ 0.104  
+ 0.467  
+ 0.364  
+ 0.044  
+
+today 's ruling ,--::court 's treatment ,--
+
+ the Court should not have addressed this question at all.
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.098  
+ 0.631  
+ 0.238  
+ 0.025  
+ 0.008  
+
+fundamental point is something.
+Positive
+Type = dense , numRows = 5 , numCols = 1
+ 0.034  
+ 0.129  
+ 0.296  
+ 0.442  
+ 0.099  
+
+fundamental point ,--::Court ,--
+
+ any error of the sort the majority identifies today was harmless.
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.077  
+ 0.561  
+ 0.311  
+ 0.041  
+ 0.010  
+
+Court has determined something.
+Positive
+Type = dense , numRows = 5 , numCols = 1
+ 0.013  
+ 0.045  
+ 0.341  
+ 0.511  
+ 0.090  
+
+Court ,--::error ,--
+
+ the Court of Appeals did not "specifically consider whether access to the type of meaningful assistance in evaluating
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.057  
+ 0.539  
+ 0.348  
+ 0.046  
+ 0.010  
+
+majority claims something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.005  
+ 0.043  
+ 0.862  
+ 0.086  
+ 0.005  
+
+majority ,--::Court ,--
+
+ the error did not have a substantial and injurious effect on the outcome of the sentencing proceeding.
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.225  
+ 0.534  
+ 0.184  
+ 0.034  
+ 0.022  
+
+Court concluded something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.036  
+ 0.166  
+ 0.391  
+ 0.340  
+ 0.067  
+
+Court ,--::error ,--
+
+ "we are a court of review
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.002  
+ 0.019  
+ 0.773  
+ 0.200  
+ 0.006  
+
+none-outerSubject recites something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.030  
+ 0.154  
+ 0.529  
+ 0.250  
+ 0.038  
+
+none-outerSubject,--::we ,Appeals ';
+
+ this evidence "did not rise to the level of a mitigating circumstance
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.074  
+ 0.550  
+ 0.292  
+ 0.073  
+ 0.011  
+
+court concluded something.
+Positive
+Type = dense , numRows = 5 , numCols = 1
+ 0.028  
+ 0.145  
+ 0.232  
+ 0.525  
+ 0.070  
+
+court ,--::evidence ,--
+
+ "the aggravating circumstances would far outweigh this as a mitigating circumstance."
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.120  
+ 0.657  
+ 0.169  
+ 0.041  
+ 0.012  
+
+court found something.
+Positive
+Type = dense , numRows = 5 , numCols = 1
+ 0.006  
+ 0.025  
+ 0.132  
+ 0.770  
+ 0.067  
+
+court ,--::aggravating circumstances ,--
+
+ McWilliams's mental state did not reduce his responsibility for his actions.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.042  
+ 0.447  
+ 0.460  
+ 0.045  
+ 0.006  
+
+none-outerSubject concluded something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.036  
+ 0.166  
+ 0.391  
+ 0.340  
+ 0.067  
+
+none-outerSubject,--::mental McWilliams 's state ,McWilliams;McWilliams 's;
+
+ McWilliams was "grossly exaggerating his psychological symptoms to mimic mental illness" and that he "obviously" did so "to evade criminal prosecution."
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.121  
+ 0.581  
+ 0.224  
+ 0.055  
+ 0.019  
+
+One concluded something.
+Positive
+Type = dense , numRows = 5 , numCols = 1
+ 0.017  
+ 0.054  
+ 0.380  
+ 0.454  
+ 0.096  
+
+One ,--::McWilliams ,McWilliams;McWilliams 's;
+
+ there was a possibility that hearing from Dr. Goff would change his evaluation of aggravating and mitigating factors
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.067  
+ 0.570  
+ 0.303  
+ 0.051  
+ 0.009  
+
+judge had thought something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.007  
+ 0.050  
+ 0.855  
+ 0.081  
+ 0.006  
+
+judge ,--::possibility ,--
+
+ the outcome of the sentencing proceeding would have been different if he had been given more expert assistance.
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.155  
+ 0.655  
+ 0.162  
+ 0.020  
+ 0.008  
+
+none-outerSubject show something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.014  
+ 0.078  
+ 0.661  
+ 0.225  
+ 0.022  
+
+none-outerSubject,--::outcome ,--
+
+ he was denied effective assistance of counsel because his lawyers did not obtain an expert
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.224  
+ 0.641  
+ 0.127  
+ 0.004  
+ 0.004  
+
+McWilliams argued something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.018  
+ 0.079  
+ 0.519  
+ 0.338  
+ 0.047  
+
+McWilliams ,Dr. Goff;Dr. Goff 's;Dr. Woods;Dr. Woods 's;McWilliams;McWilliams 's;Mr. McWilliams;Reynolds;::he ,Dr. Goff;Dr. Goff 's;Dr. Woods;Dr. Woods 's;McWilliams;McWilliams 's;Mr. McWilliams;Reynolds;
+
+ McWilliams's exaggeration of symptoms was not inconsistent with psychiatric problems.
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.208  
+ 0.635  
+ 0.128  
+ 0.017  
+ 0.012  
+
+none-outerSubject testified something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.036  
+ 0.166  
+ 0.391  
+ 0.340  
+ 0.067  
+
+none-outerSubject,--::McWilliams 's exaggeration ,Dr. Goff;Dr. Goff 's;Dr. Woods;Dr. Woods 's;McWilliams;McWilliams 's;Mr. McWilliams;Reynolds;
+
+" agreed that this malingering could have been done for the purpose of avoiding the death penalty
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.040  
+ 0.298  
+ 0.411  
+ 0.226  
+ 0.025  
+
+Woods acknowledged something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.038  
+ 0.226  
+ 0.467  
+ 0.230  
+ 0.040  
+
+Woods ,--::tr ,--
+
+ this malingering could have been done for the purpose of avoiding the death penalty
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.092  
+ 0.521  
+ 0.318  
+ 0.052  
+ 0.016  
+
+tr agreed something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.023  
+ 0.104  
+ 0.439  
+ 0.374  
+ 0.060  
+
+tr ,--::malingering ,--
+
+ McWilliams's disorder explains
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.010  
+ 0.128  
+ 0.838  
+ 0.021  
+ 0.002  
+
+none-outerSubject say something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.022  
+ 0.128  
+ 0.579  
+ 0.237  
+ 0.034  
+
+none-outerSubject,--::McWilliams 's disorder ,Dr. Goff;Dr. Goff 's;Dr. Woods;Dr. Woods 's;McWilliams;McWilliams 's;Mr. McWilliams;Reynolds;
+
+ nothing "indicate[s] that Mr. McWilliams was mentally impaired on the night of the offense."
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.189  
+ 0.516  
+ 0.236  
+ 0.038  
+ 0.021  
+
+none-outerSubject concluded something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.036  
+ 0.166  
+ 0.391  
+ 0.340  
+ 0.067  
+
+none-outerSubject,--::nothing ,--
+
+ "McWilliams's claims based upon the testimony of Dr. Woods are without merit."
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.058  
+ 0.495  
+ 0.340  
+ 0.092  
+ 0.015  
+
+court found something.
+Positive
+Type = dense , numRows = 5 , numCols = 1
+ 0.006  
+ 0.025  
+ 0.132  
+ 0.770  
+ 0.067  
+
+court ,--::McWilliams 's claims ,--
+
+ he "did not suffer from a mental illness."
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.062  
+ 0.442  
+ 0.466  
+ 0.023  
+ 0.007  
+
+none-outerSubject concluded something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.036  
+ 0.166  
+ 0.391  
+ 0.340  
+ 0.067  
+
+none-outerSubject,--::he ,Dr. Goff;Dr. Goff 's;Dr. Woods;Dr. Woods 's;McWilliams;McWilliams 's;Mr. McWilliams;Reynolds;
+
+ "both the credibility of Dr. Woods and the reliability of his findings are questionable."
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.056  
+ 0.508  
+ 0.369  
+ 0.057  
+ 0.010  
+
+It found something.
+Positive
+Type = dense , numRows = 5 , numCols = 1
+ 0.006  
+ 0.017  
+ 0.306  
+ 0.615  
+ 0.057  
+
+It ,--::credibility ,--
+
+ a failure to present" evidence of this sort "made a difference in the outcome."
+Very negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.572  
+ 0.367  
+ 0.036  
+ 0.004  
+ 0.020  
+
+none-outerSubject would not find something.
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.079  
+ 0.508  
+ 0.333  
+ 0.062  
+ 0.018  
+
+none-outerSubject,--::failure ,--
+
+ the expert should be independent of the prosecution?"
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.032  
+ 0.250  
+ 0.580  
+ 0.120  
+ 0.019  
+
+it did establish something.
+Positive
+Type = dense , numRows = 5 , numCols = 1
+ 0.009  
+ 0.032  
+ 0.188  
+ 0.693  
+ 0.078  
+
+it ,the prosecution;this Court held in Ake that an indigent defendant is entitled to meaningful expert assistance for the ` evaluation, preparation, and presentation of the defense;::expert ,--
+
+ it had no need to decide the "sweeping" question on
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.049  
+ 0.435  
+ 0.447  
+ 0.059  
+ 0.010  
+
+Court says something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.042  
+ 0.267  
+ 0.479  
+ 0.179  
+ 0.033  
+
+Court ,--::it ,the Court;the question;this narrow ground;this possible disposition;
+
+ Ake requires a defense expert.
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.153  
+ 0.629  
+ 0.168  
+ 0.032  
+ 0.018  
+
+panel held something.
+Positive
+Type = dense , numRows = 5 , numCols = 1
+ 0.017  
+ 0.071  
+ 0.391  
+ 0.449  
+ 0.073  
+
+panel ,--::Ake ,Ake;Ake 's;
+
+ "Ake does not entitle [defendants] to . . . an [independent psychiatric] expert
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.131  
+ 0.659  
+ 0.154  
+ 0.043  
+ 0.013  
+
+later panel insisted something.
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.080  
+ 0.489  
+ 0.324  
+ 0.085  
+ 0.021  
+
+later panel ,--::Ake ,Ake;Ake 's;
+
+ Ake did not itself clearly compel an answer to this question for AEDPA purposes.
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.067  
+ 0.420  
+ 0.393  
+ 0.096  
+ 0.024  
+
+Circuit concluded something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.013  
+ 0.092  
+ 0.789  
+ 0.095  
+ 0.011  
+
+Circuit ,--::Ake ,Ake;Ake 's;
+
+ Alabama "devoted an entire section of its merits brief" to the question that the Court decides.
+Positive
+Type = dense , numRows = 5 , numCols = 1
+ 0.020  
+ 0.050  
+ 0.140  
+ 0.618  
+ 0.171  
+
+Court suggesting something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.011  
+ 0.070  
+ 0.684  
+ 0.216  
+ 0.019  
+
+Court ,--::Alabama ,Alabama;
+
+ no relief was warranted because he "had a consulting expert
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.123  
+ 0.685  
+ 0.177  
+ 0.010  
+ 0.005  
+
+Alabama argued something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.010  
+ 0.032  
+ 0.450  
+ 0.436  
+ 0.072  
+
+Alabama ,Alabama;::relief ,--
+
+ Dr. Goff did not play the role Ake requires of an expert because he only examined McWilliams and reported his findings to the trial court.
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.185  
+ 0.595  
+ 0.180  
+ 0.026  
+ 0.014  
+
+Court says something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.042  
+ 0.267  
+ 0.479  
+ 0.179  
+ 0.033  
+
+Court ,--::Goff ,--
+
+ Dr. Goff did not assist the defense in understanding his report prior to the hearing or testify for McWilliams at the judicial sentencing hearing.
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.092  
+ 0.617  
+ 0.251  
+ 0.030  
+ 0.010  
+
+Court concludes something.
+Positive
+Type = dense , numRows = 5 , numCols = 1
+ 0.023  
+ 0.100  
+ 0.373  
+ 0.429  
+ 0.074  
+
+Court ,--::Goff ,--
+
+ Dr. Goff 's diagnosis and the opportunity to present it to the sentencer was not as important as McWilliams suggests.
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.101  
+ 0.658  
+ 0.218  
+ 0.016  
+ 0.006  
+
+It suggests something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.014  
+ 0.114  
+ 0.696  
+ 0.166  
+ 0.011  
+
+It ,--::Goff 's diagnosis ,--
+
+ the right to a psychiatric expert at capital sentencing comes into play 
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.041  
+ 0.268  
+ 0.339  
+ 0.310  
+ 0.042  
+
+Ake held something.
+Positive
+Type = dense , numRows = 5 , numCols = 1
+ 0.017  
+ 0.071  
+ 0.391  
+ 0.449  
+ 0.073  
+
+Ake ,Ake;::right ,--
+
+ a capital defendant is entitled to the assistance of a psychiatric expert at sentencing
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.098  
+ 0.584  
+ 0.257  
+ 0.046  
+ 0.016  
+
+we have never held something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.018  
+ 0.109  
+ 0.660  
+ 0.192  
+ 0.021  
+
+we ,--::defendant ,--
+

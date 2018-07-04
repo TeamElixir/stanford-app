@@ -1,0 +1,800 @@
+ he has become incompetent to be executed.
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.095  
+ 0.461  
+ 0.345  
+ 0.075  
+ 0.024  
+
+He argued something.
+Positive
+Type = dense , numRows = 5 , numCols = 1
+ 0.017  
+ 0.080  
+ 0.239  
+ 0.601  
+ 0.064  
+
+He ,Madison;Madison 's;::he ,Madison;Madison 's;
+
+ Alabama is seeking retribution against him for his criminal act
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.032  
+ 0.250  
+ 0.664  
+ 0.046  
+ 0.009  
+
+Madison understands something.
+Positive
+Type = dense , numRows = 5 , numCols = 1
+ 0.009  
+ 0.026  
+ 0.334  
+ 0.530  
+ 0.101  
+
+Madison ,Madison;Madison 's;::Alabama ,--
+
+ Madison's strokes have rendered him unable to remember "numerous events
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.119  
+ 0.674  
+ 0.184  
+ 0.016  
+ 0.007  
+
+Goff reported something.
+Positive
+Type = dense , numRows = 5 , numCols = 1
+ 0.021  
+ 0.093  
+ 0.409  
+ 0.410  
+ 0.066  
+
+Goff ,--::Madison 's strokes ,--
+
+ Madison "is able to understand the nature of the pending proceeding and he has an understanding of
+Positive
+Type = dense , numRows = 5 , numCols = 1
+ 0.002  
+ 0.005  
+ 0.073  
+ 0.792  
+ 0.128  
+
+Goff found something.
+Positive
+Type = dense , numRows = 5 , numCols = 1
+ 0.015  
+ 0.052  
+ 0.354  
+ 0.496  
+ 0.082  
+
+Goff ,--::Madison ,Dr. Goff;Dr. Goff 's;Madison;Madison 's;
+
+ he "never went around killing folks."
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.032  
+ 0.280  
+ 0.653  
+ 0.029  
+ 0.006  
+
+none-outerSubject believes something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.018  
+ 0.078  
+ 0.424  
+ 0.418  
+ 0.062  
+
+none-outerSubject,--::he ,Dr. Goff;Dr. Goff 's;Madison;Madison 's;
+
+ Madison was entitled to relief if he could show that he "suffers from a mental illness
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.045  
+ 0.341  
+ 0.488  
+ 0.105  
+ 0.021  
+
+It held something.
+Positive
+Type = dense , numRows = 5 , numCols = 1
+ 0.009  
+ 0.031  
+ 0.361  
+ 0.543  
+ 0.056  
+
+It ,The court;The trial court;::S. ,--
+
+ he "suffers from a mental illness
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.008  
+ 0.047  
+ 0.753  
+ 0.179  
+ 0.014  
+
+he could show something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.009  
+ 0.071  
+ 0.804  
+ 0.107  
+ 0.009  
+
+he ,Madison;Madison 's;::he ,Madison;Madison 's;
+
+ he is being executed as a punishment for a crime."
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.045  
+ 0.382  
+ 0.547  
+ 0.020  
+ 0.006  
+
+none-outerSubject understand something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.026  
+ 0.128  
+ 0.418  
+ 0.374  
+ 0.055  
+
+none-outerSubject,--::he ,Madison;Madison 's;
+
+ Madison had failed to make that showing.
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.148  
+ 0.577  
+ 0.213  
+ 0.042  
+ 0.020  
+
+court concluded something.
+Positive
+Type = dense , numRows = 5 , numCols = 1
+ 0.028  
+ 0.145  
+ 0.232  
+ 0.525  
+ 0.070  
+
+court ,--::Madison ,Madison;Madison 's;
+
+ Madison understands "that he is going to be executed because of the murder he committed[
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.032  
+ 0.184  
+ 0.458  
+ 0.281  
+ 0.045  
+
+it found something.
+Positive
+Type = dense , numRows = 5 , numCols = 1
+ 0.004  
+ 0.013  
+ 0.281  
+ 0.660  
+ 0.043  
+
+it ,The court;The trial court;::Madison ,Madison;Madison 's;
+
+ the state court's decision was "so lacking in justification that there was an error well understood and comprehended in existing law beyond any possibility for fairminded disagreement."
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.237  
+ 0.510  
+ 0.232  
+ 0.012  
+ 0.009  
+
+he shows something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.005  
+ 0.019  
+ 0.529  
+ 0.416  
+ 0.030  
+
+he ,A habeas petitioner;::court 's decision ,--
+
+ he "does not rationally understand the connection between his crime and his execution."
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.079  
+ 0.501  
+ 0.399  
+ 0.015  
+ 0.006  
+
+it follows something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.013  
+ 0.094  
+ 0.632  
+ 0.244  
+ 0.016  
+
+it ,The Eleventh Circuit;the Eleventh Circuit;the majority 's;::he ,Madison;
+
+ the trial court's conclusion that Madison is competent to be executed was "plainly unreasonable" and "cannot be reconciled with any reasonable application of Panetti."
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.054  
+ 0.364  
+ 0.360  
+ 0.192  
+ 0.030  
+
+Circuit held something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.004  
+ 0.029  
+ 0.828  
+ 0.129  
+ 0.010  
+
+Circuit ,--::court 's conclusion ,--
+
+ [he] is being executed as a punishment for a crime."
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.068  
+ 0.465  
+ 0.401  
+ 0.051  
+ 0.015  
+
+none-outerSubject understand something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.026  
+ 0.128  
+ 0.418  
+ 0.374  
+ 0.055  
+
+none-outerSubject,--::he ,--
+
+ the retributive purpose of capital punishment is not well served
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.097  
+ 0.636  
+ 0.234  
+ 0.023  
+ 0.011  
+
+We noted something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.044  
+ 0.272  
+ 0.425  
+ 0.226  
+ 0.033  
+
+We ,Panetti and Ford;::retributive purpose ,--
+
+ Madison is competent to be executed because--notwithstanding his memory loss--he recognizes that he will be put to death as punishment for the murder he was found to have committed.
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.097  
+ 0.403  
+ 0.309  
+ 0.144  
+ 0.047  
+
+it determined something.
+Positive
+Type = dense , numRows = 5 , numCols = 1
+ 0.004  
+ 0.014  
+ 0.330  
+ 0.618  
+ 0.035  
+
+it ,The state court;::Madison ,Madison;
+
+ he will be put to death as punishment for the murder he was found to have committed.
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.088  
+ 0.513  
+ 0.342  
+ 0.043  
+ 0.013  
+
+he recognizes something.
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.089  
+ 0.383  
+ 0.374  
+ 0.117  
+ 0.038  
+
+he ,Madison;::he ,Madison;
+
+ delays in execution can produce uncertainty amounting to " 'one of the most horrible feelings to
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.158  
+ 0.604  
+ 0.219  
+ 0.013  
+ 0.007  
+
+Court said something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.027  
+ 0.147  
+ 0.491  
+ 0.292  
+ 0.044  
+
+Court ,--::delays ,--
+
+ the delay in Medley was a delay of four weeks.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.042  
+ 0.302  
+ 0.402  
+ 0.226  
+ 0.028  
+
+Stevens observed something.
+Positive
+Type = dense , numRows = 5 , numCols = 1
+ 0.006  
+ 0.022  
+ 0.227  
+ 0.676  
+ 0.068  
+
+Stevens ,--::delay ,--
+
+ the Medley description "should apply with even greater force in the case of delays that last for many years."
+Positive
+Type = dense , numRows = 5 , numCols = 1
+ 0.016  
+ 0.058  
+ 0.197  
+ 0.640  
+ 0.089  
+
+he wrote something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.006  
+ 0.038  
+ 0.823  
+ 0.124  
+ 0.009  
+
+he ,--::description ,--
+
+ he has become incompetent to be executed.
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.095  
+ 0.461  
+ 0.345  
+ 0.075  
+ 0.024  
+
+He argued something.
+Positive
+Type = dense , numRows = 5 , numCols = 1
+ 0.017  
+ 0.080  
+ 0.239  
+ 0.601  
+ 0.064  
+
+He ,Madison;Madison 's;::he ,Madison;Madison 's;
+
+ Alabama is seeking retribution against him for his criminal act
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.032  
+ 0.250  
+ 0.664  
+ 0.046  
+ 0.009  
+
+Madison understands something.
+Positive
+Type = dense , numRows = 5 , numCols = 1
+ 0.009  
+ 0.026  
+ 0.334  
+ 0.530  
+ 0.101  
+
+Madison ,Madison;Madison 's;::Alabama ,--
+
+ Madison's strokes have rendered him unable to remember "numerous events
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.119  
+ 0.674  
+ 0.184  
+ 0.016  
+ 0.007  
+
+Goff reported something.
+Positive
+Type = dense , numRows = 5 , numCols = 1
+ 0.021  
+ 0.093  
+ 0.409  
+ 0.410  
+ 0.066  
+
+Goff ,--::Madison 's strokes ,--
+
+ Madison "is able to understand the nature of the pending proceeding and he has an understanding of
+Positive
+Type = dense , numRows = 5 , numCols = 1
+ 0.002  
+ 0.005  
+ 0.073  
+ 0.792  
+ 0.128  
+
+Goff found something.
+Positive
+Type = dense , numRows = 5 , numCols = 1
+ 0.015  
+ 0.052  
+ 0.354  
+ 0.496  
+ 0.082  
+
+Goff ,--::Madison ,Dr. Goff;Dr. Goff 's;Madison;Madison 's;
+
+ he "never went around killing folks."
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.032  
+ 0.280  
+ 0.653  
+ 0.029  
+ 0.006  
+
+none-outerSubject believes something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.018  
+ 0.078  
+ 0.424  
+ 0.418  
+ 0.062  
+
+none-outerSubject,--::he ,Dr. Goff;Dr. Goff 's;Madison;Madison 's;
+
+ Madison was entitled to relief if he could show that he "suffers from a mental illness
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.045  
+ 0.341  
+ 0.488  
+ 0.105  
+ 0.021  
+
+It held something.
+Positive
+Type = dense , numRows = 5 , numCols = 1
+ 0.009  
+ 0.031  
+ 0.361  
+ 0.543  
+ 0.056  
+
+It ,The court;The trial court;::S. ,--
+
+ he "suffers from a mental illness
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.008  
+ 0.047  
+ 0.753  
+ 0.179  
+ 0.014  
+
+he could show something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.009  
+ 0.071  
+ 0.804  
+ 0.107  
+ 0.009  
+
+he ,Madison;Madison 's;::he ,Madison;Madison 's;
+
+ he is being executed as a punishment for a crime."
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.045  
+ 0.382  
+ 0.547  
+ 0.020  
+ 0.006  
+
+none-outerSubject understand something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.026  
+ 0.128  
+ 0.418  
+ 0.374  
+ 0.055  
+
+none-outerSubject,--::he ,Madison;Madison 's;
+
+ Madison had failed to make that showing.
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.148  
+ 0.577  
+ 0.213  
+ 0.042  
+ 0.020  
+
+court concluded something.
+Positive
+Type = dense , numRows = 5 , numCols = 1
+ 0.028  
+ 0.145  
+ 0.232  
+ 0.525  
+ 0.070  
+
+court ,--::Madison ,Madison;Madison 's;
+
+ Madison understands "that he is going to be executed because of the murder he committed[
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.032  
+ 0.184  
+ 0.458  
+ 0.281  
+ 0.045  
+
+it found something.
+Positive
+Type = dense , numRows = 5 , numCols = 1
+ 0.004  
+ 0.013  
+ 0.281  
+ 0.660  
+ 0.043  
+
+it ,The court;The trial court;::Madison ,Madison;Madison 's;
+
+ the state court's decision was "so lacking in justification that there was an error well understood and comprehended in existing law beyond any possibility for fairminded disagreement."
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.237  
+ 0.510  
+ 0.232  
+ 0.012  
+ 0.009  
+
+he shows something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.005  
+ 0.019  
+ 0.529  
+ 0.416  
+ 0.030  
+
+he ,A habeas petitioner;::court 's decision ,--
+
+ he "does not rationally understand the connection between his crime and his execution."
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.079  
+ 0.501  
+ 0.399  
+ 0.015  
+ 0.006  
+
+it follows something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.013  
+ 0.094  
+ 0.632  
+ 0.244  
+ 0.016  
+
+it ,The Eleventh Circuit;the Eleventh Circuit;the majority 's;::he ,Madison;
+
+ the trial court's conclusion that Madison is competent to be executed was "plainly unreasonable" and "cannot be reconciled with any reasonable application of Panetti."
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.054  
+ 0.364  
+ 0.360  
+ 0.192  
+ 0.030  
+
+Circuit held something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.004  
+ 0.029  
+ 0.828  
+ 0.129  
+ 0.010  
+
+Circuit ,--::court 's conclusion ,--
+
+ [he] is being executed as a punishment for a crime."
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.068  
+ 0.465  
+ 0.401  
+ 0.051  
+ 0.015  
+
+none-outerSubject understand something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.026  
+ 0.128  
+ 0.418  
+ 0.374  
+ 0.055  
+
+none-outerSubject,--::he ,--
+
+ the retributive purpose of capital punishment is not well served
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.097  
+ 0.636  
+ 0.234  
+ 0.023  
+ 0.011  
+
+We noted something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.044  
+ 0.272  
+ 0.425  
+ 0.226  
+ 0.033  
+
+We ,Panetti and Ford;::retributive purpose ,--
+
+ Madison is competent to be executed because--notwithstanding his memory loss--he recognizes that he will be put to death as punishment for the murder he was found to have committed.
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.097  
+ 0.403  
+ 0.309  
+ 0.144  
+ 0.047  
+
+it determined something.
+Positive
+Type = dense , numRows = 5 , numCols = 1
+ 0.004  
+ 0.014  
+ 0.330  
+ 0.618  
+ 0.035  
+
+it ,The state court;::Madison ,Madison;
+
+ he will be put to death as punishment for the murder he was found to have committed.
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.088  
+ 0.513  
+ 0.342  
+ 0.043  
+ 0.013  
+
+he recognizes something.
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.089  
+ 0.383  
+ 0.374  
+ 0.117  
+ 0.038  
+
+he ,Madison;::he ,Madison;
+
+ delays in execution can produce uncertainty amounting to " 'one of the most horrible feelings to
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.158  
+ 0.604  
+ 0.219  
+ 0.013  
+ 0.007  
+
+Court said something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.027  
+ 0.147  
+ 0.491  
+ 0.292  
+ 0.044  
+
+Court ,--::delays ,--
+
+ the delay in Medley was a delay of four weeks.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.042  
+ 0.302  
+ 0.402  
+ 0.226  
+ 0.028  
+
+Stevens observed something.
+Positive
+Type = dense , numRows = 5 , numCols = 1
+ 0.006  
+ 0.022  
+ 0.227  
+ 0.676  
+ 0.068  
+
+Stevens ,--::delay ,--
+
+ the Medley description "should apply with even greater force in the case of delays that last for many years."
+Positive
+Type = dense , numRows = 5 , numCols = 1
+ 0.016  
+ 0.058  
+ 0.197  
+ 0.640  
+ 0.089  
+
+he wrote something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.006  
+ 0.038  
+ 0.823  
+ 0.124  
+ 0.009  
+
+he ,--::description ,--
+

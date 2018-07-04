@@ -1,0 +1,1500 @@
+" he "knew the pills to be ecstasy."
+Positive
+Type = dense , numRows = 5 , numCols = 1
+ 0.012  
+ 0.082  
+ 0.419  
+ 0.458  
+ 0.029  
+
+arresting officer reported something.
+Positive
+Type = dense , numRows = 5 , numCols = 1
+ 0.009  
+ 0.023  
+ 0.136  
+ 0.692  
+ 0.141  
+
+arresting officer ,--::he ,An arresting officer;
+
+ they contained no controlled substances.
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.091  
+ 0.586  
+ 0.294  
+ 0.021  
+ 0.008  
+
+none-outerSubject reported something.
+Positive
+Type = dense , numRows = 5 , numCols = 1
+ 0.021  
+ 0.093  
+ 0.409  
+ 0.410  
+ 0.066  
+
+none-outerSubject,--::they ,the Illinois police laboratory;
+
+ his arrest and detention violated the Fourth Amendment.
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.176  
+ 0.583  
+ 0.193  
+ 0.033  
+ 0.015  
+
+none-outerSubject alleging something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.036  
+ 0.166  
+ 0.391  
+ 0.340  
+ 0.067  
+
+none-outerSubject,--::his arrest ,Manuel;Manuel 's;the judge 's;
+
+ a pretrial detention challenge was governed by the Fourth Amendment
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.079  
+ 0.556  
+ 0.320  
+ 0.034  
+ 0.012  
+
+Court decided something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.021  
+ 0.104  
+ 0.572  
+ 0.265  
+ 0.038  
+
+Court ,--::pretrial challenge ,--
+
+ the Fourth Amendment establishes the minimum constitutional "standards and procedures" not just for arrest but also for "detention
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.098  
+ 0.594  
+ 0.259  
+ 0.037  
+ 0.012  
+
+Court noting something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.028  
+ 0.144  
+ 0.491  
+ 0.294  
+ 0.044  
+
+Court ,--::Fourth Amendment ,--
+
+ the Fourth Amendment is the "relevan[t]" constitutional provision to assess the "deprivations of liberty
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.068  
+ 0.542  
+ 0.326  
+ 0.052  
+ 0.012  
+
+plurality reiterated something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.036  
+ 0.166  
+ 0.391  
+ 0.340  
+ 0.067  
+
+plurality ,--::Fourth Amendment ,--
+
+ they were allegedly unsupported by probable cause.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.049  
+ 0.460  
+ 0.478  
+ 0.011  
+ 0.003  
+
+pretrial restraints given something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.026  
+ 0.187  
+ 0.609  
+ 0.160  
+ 0.019  
+
+pretrial restraints ,--::they ,pretrial restraints;the pretrial restraints in Albright;
+
+ the City has previously waived its timeliness argument.
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.146  
+ 0.662  
+ 0.172  
+ 0.015  
+ 0.006  
+
+it finds something.
+Positive
+Type = dense , numRows = 5 , numCols = 1
+ 0.005  
+ 0.017  
+ 0.263  
+ 0.667  
+ 0.048  
+
+it ,The court;the Seventh Circuit;the court;::City ,--
+
+ the pills were actually illegal drugs
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.036  
+ 0.395  
+ 0.519  
+ 0.042  
+ 0.007  
+
+officers Suspecting something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.028  
+ 0.144  
+ 0.491  
+ 0.294  
+ 0.044  
+
+officers ,--::pills ,--
+
+ one of the pills was "found to be . . . positive for the probable presence of ecstasy."
+Positive
+Type = dense , numRows = 5 , numCols = 1
+ 0.018  
+ 0.066  
+ 0.324  
+ 0.504  
+ 0.089  
+
+technician claiming something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.028  
+ 0.144  
+ 0.491  
+ 0.294  
+ 0.044  
+
+technician ,--::one ,--
+
+ the City violated his Fourth Amendment rights in two ways--first by arresting him at the roadside without any reason
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.118  
+ 0.658  
+ 0.163  
+ 0.044  
+ 0.016  
+
+Manuel 's complaint alleged something.
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.060  
+ 0.492  
+ 0.402  
+ 0.037  
+ 0.009  
+
+Manuel 's complaint ,--::City ,--
+
+ the applicable two-year statute of limitations barred Manuel's claim for unlawful arrest
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.099  
+ 0.655  
+ 0.222  
+ 0.016  
+ 0.008  
+
+court held something.
+Positive
+Type = dense , numRows = 5 , numCols = 1
+ 0.010  
+ 0.044  
+ 0.180  
+ 0.699  
+ 0.067  
+
+court ,--::applicable statute ,--
+
+ Manuel had no way to proceed.
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.084  
+ 0.493  
+ 0.341  
+ 0.063  
+ 0.019  
+
+Court found something.
+Positive
+Type = dense , numRows = 5 , numCols = 1
+ 0.015  
+ 0.052  
+ 0.354  
+ 0.496  
+ 0.082  
+
+Court ,--::Manuel ,Manuel;Manuel 's;
+
+ such claims could not be brought under the Fourth Amendment.
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.133  
+ 0.678  
+ 0.154  
+ 0.026  
+ 0.009  
+
+Court reiterated something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.036  
+ 0.166  
+ 0.391  
+ 0.340  
+ 0.067  
+
+Court ,--::such claims ,--
+
+ rested on the wrong part of the Constitution
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.032  
+ 0.250  
+ 0.566  
+ 0.133  
+ 0.020  
+
+Circuit held something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.004  
+ 0.029  
+ 0.828  
+ 0.129  
+ 0.010  
+
+Circuit ,--::Manuel 's complaint ,--
+
+ its position makes it an outlier among the Courts of Appeals
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.044  
+ 0.269  
+ 0.355  
+ 0.289  
+ 0.044  
+
+Circuit recognized something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.070  
+ 0.309  
+ 0.420  
+ 0.156  
+ 0.045  
+
+Circuit ,--::its position ,The Seventh Circuit;the court;
+
+ the individual has committed a crime").
+Positive
+Type = dense , numRows = 5 , numCols = 1
+ 0.025  
+ 0.101  
+ 0.379  
+ 0.431  
+ 0.064  
+
+Fourth seizures believe something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.058  
+ 0.319  
+ 0.355  
+ 0.221  
+ 0.046  
+
+Fourth seizures ,--::individual ,--
+
+ they had been held in custody for "a substantial period solely on the decision of a prosecutor."
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.008  
+ 0.124  
+ 0.858  
+ 0.009  
+ 0.001  
+
+none-outerSubject complaining something.
+Positive
+Type = dense , numRows = 5 , numCols = 1
+ 0.041  
+ 0.166  
+ 0.332  
+ 0.375  
+ 0.087  
+
+none-outerSubject,--::they ,two persons arrested without a warrant;
+
+" the Court responded to a concurring Justice's view that the Due Process Clause offered the better framework
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.071  
+ 0.633  
+ 0.247  
+ 0.039  
+ 0.009  
+
+none-outerSubject choosing something.
+Positive
+Type = dense , numRows = 5 , numCols = 1
+ 0.023  
+ 0.098  
+ 0.387  
+ 0.422  
+ 0.070  
+
+none-outerSubject,--::Amendment ,--
+
+ the defendant officer had infringed his substantive due process rights.
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.110  
+ 0.592  
+ 0.249  
+ 0.037  
+ 0.011  
+
+he alleged something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.055  
+ 0.367  
+ 0.505  
+ 0.058  
+ 0.014  
+
+he ,Albright;::officer ,--
+
+ it is the Fourth Amendment . . . under
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.054  
+ 0.368  
+ 0.387  
+ 0.167  
+ 0.025  
+
+We hold something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.015  
+ 0.081  
+ 0.470  
+ 0.400  
+ 0.035  
+
+We ,--::it ,--
+
+ they were (allegedly) unsupported by probable cause; indeed
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.114  
+ 0.666  
+ 0.209  
+ 0.007  
+ 0.004  
+
+none-outerSubject given something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.023  
+ 0.130  
+ 0.567  
+ 0.244  
+ 0.036  
+
+none-outerSubject,--::they ,pretrial deprivations of liberty;the deprivations at issue;
+
+ the Fourth Amendment remained the "relevan[t]" constitutional provision to assess the "deprivations of liberty"--most notably
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.073  
+ 0.573  
+ 0.302  
+ 0.041  
+ 0.011  
+
+plurality stated something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.036  
+ 0.166  
+ 0.391  
+ 0.340  
+ 0.067  
+
+plurality ,--::Fourth Amendment ,--
+
+ a form of legal process resulted in pretrial detention unsupported by probable cause
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.121  
+ 0.718  
+ 0.131  
+ 0.022  
+ 0.008  
+
+complaint is something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.037  
+ 0.324  
+ 0.391  
+ 0.226  
+ 0.023  
+
+complaint ,--::form ,--
+
+ tort principles "provide the appropriate starting point" in specifying the conditions for recovery under §1983); Wallace v. Kato
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.031  
+ 0.346  
+ 0.594  
+ 0.026  
+ 0.004  
+
+none-outerSubject explaining something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.028  
+ 0.156  
+ 0.506  
+ 0.270  
+ 0.041  
+
+none-outerSubject,--::principles ,--
+
+ "§1983 is [not] simply a federalized amalgamation of pre-existing common-law claims").
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.131  
+ 0.648  
+ 0.135  
+ 0.064  
+ 0.022  
+
+none-outerSubject noting something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.036  
+ 0.166  
+ 0.391  
+ 0.340  
+ 0.067  
+
+none-outerSubject,--::1983 ,1983;
+
+ following the same rule in suits like his will avoid "conflicting resolutions" in §1983 litigation and criminal proceedings by "preclud[ing] the possibility of the claimant succeeding in the tort action after having been convicted in the underlying criminal prosecution."
+Very negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.410  
+ 0.371  
+ 0.194  
+ 0.011  
+ 0.014  
+
+Man-uel argues something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.043  
+ 0.255  
+ 0.494  
+ 0.172  
+ 0.035  
+
+Man-uel ,--::none-innersubject,--
+
+ any such Fourth Amendment claim accrues (and the limitations period starts to run) on the date of the initiation of legal process--here
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.067  
+ 0.592  
+ 0.298  
+ 0.035  
+ 0.008  
+
+City contends something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.023  
+ 0.111  
+ 0.548  
+ 0.282  
+ 0.036  
+
+City ,--::such claim ,--
+
+ Manuel forfeited an alternative theory for treating his date of release as the date of accrual
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.064  
+ 0.487  
+ 0.402  
+ 0.036  
+ 0.011  
+
+City contends something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.023  
+ 0.111  
+ 0.548  
+ 0.282  
+ 0.036  
+
+City ,--::Manuel ,Manuel;Manuel 's;Manuel, the City concludes;
+
+ Manuel lacked any Fourth Amendment claim once legal process began
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.073  
+ 0.500  
+ 0.355  
+ 0.056  
+ 0.016  
+
+Circuit held something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.004  
+ 0.029  
+ 0.828  
+ 0.129  
+ 0.010  
+
+Circuit ,--::Manuel ,Manuel;Manuel 's;
+
+ the City has previously waived its timeliness argument.
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.146  
+ 0.662  
+ 0.172  
+ 0.015  
+ 0.006  
+
+it finds something.
+Positive
+Type = dense , numRows = 5 , numCols = 1
+ 0.005  
+ 0.017  
+ 0.263  
+ 0.667  
+ 0.048  
+
+it ,the parties contest here .10 On remand, the Court of Appeals;::City ,--
+
+ a claim for unreasonable seizure based on a warrantless arrest might not accrue until the "first appearance" under Illinois law (or the "initial appearance" under federal law)-
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.023  
+ 0.248  
+ 0.667  
+ 0.057  
+ 0.006  
+
+Alito suggests something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.034  
+ 0.223  
+ 0.503  
+ 0.205  
+ 0.034  
+
+Alito ,--::claim ,--
+
+ it entirely ignores the question that we agreed to decide
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.025  
+ 0.177  
+ 0.468  
+ 0.303  
+ 0.027  
+
+none-outerSubject is something.
+Positive
+Type = dense , numRows = 5 , numCols = 1
+ 0.021  
+ 0.094  
+ 0.404  
+ 0.416  
+ 0.065  
+
+none-outerSubject,--::it ,the Court 's approach;
+
+ the Fourth Amendment cannot house any such claim.
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.123  
+ 0.628  
+ 0.203  
+ 0.033  
+ 0.013  
+
+none-outerSubject hold something.
+Positive
+Type = dense , numRows = 5 , numCols = 1
+ 0.012  
+ 0.044  
+ 0.299  
+ 0.574  
+ 0.071  
+
+none-outerSubject,--::Fourth Amendment ,--
+
+ a Fourth Amendment malicious prosecution claim is cognizable through 42 U. S. C. §1983 ("Section 1983").
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.267  
+ 0.562  
+ 0.150  
+ 0.010  
+ 0.011  
+
+Third have held something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.010  
+ 0.045  
+ 0.524  
+ 0.384  
+ 0.037  
+
+Third ,--::Fourth claim ,--
+
+ a claim for false imprisonment under the Fourth Amendment accrues
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.042  
+ 0.361  
+ 0.520  
+ 0.068  
+ 0.010  
+
+none-outerSubject holding something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.016  
+ 0.098  
+ 0.661  
+ 0.205  
+ 0.020  
+
+none-outerSubject,--::claim ,--
+
+ he was seized without probable cause in violation of the Fourth Amendment.
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.232  
+ 0.642  
+ 0.111  
+ 0.009  
+ 0.007  
+
+Manuel charges something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.036  
+ 0.166  
+ 0.391  
+ 0.340  
+ 0.067  
+
+Manuel ,Manuel;::he ,Manuel;
+
+ the appropriate analog is the tort of malicious prosecution
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.058  
+ 0.482  
+ 0.389  
+ 0.060  
+ 0.011  
+
+Manuel says something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.042  
+ 0.267  
+ 0.479  
+ 0.179  
+ 0.033  
+
+Manuel ,Manuel;::appropriate analog ,--
+
+ the Fourth Amendment standard of reasonableness is fundamentally objective.
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.060  
+ 0.457  
+ 0.350  
+ 0.113  
+ 0.019  
+
+it is established something.
+Positive
+Type = dense , numRows = 5 , numCols = 1
+ 0.006  
+ 0.022  
+ 0.297  
+ 0.627  
+ 0.049  
+
+it ,subjective bad faith, i.e., malice;::Fourth standard ,--
+
+ a seizure violated the Fourth Amendment.
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.104  
+ 0.521  
+ 0.321  
+ 0.041  
+ 0.013  
+
+claim is something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.004  
+ 0.032  
+ 0.819  
+ 0.139  
+ 0.006  
+
+claim ,--::seizure ,--
+
+ there is no favorable-termination element for a Fourth Amendment false imprisonment claim.
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.153  
+ 0.645  
+ 0.184  
+ 0.012  
+ 0.006  
+
+we have recognized something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.053  
+ 0.229  
+ 0.436  
+ 0.235  
+ 0.047  
+
+we ,--::favorable-termination element ,--
+
+ the claim is not time barred.
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.073  
+ 0.671  
+ 0.239  
+ 0.014  
+ 0.004  
+
+none-outerSubject ensure something.
+Positive
+Type = dense , numRows = 5 , numCols = 1
+ 0.019  
+ 0.081  
+ 0.372  
+ 0.456  
+ 0.072  
+
+none-outerSubject,--::claim ,--
+
+ respondent's suit could proceed--despite his valid conviction.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.025  
+ 0.254  
+ 0.669  
+ 0.048  
+ 0.004  
+
+Court held something.
+Positive
+Type = dense , numRows = 5 , numCols = 1
+ 0.017  
+ 0.071  
+ 0.391  
+ 0.449  
+ 0.073  
+
+Court ,--::respondent 's suit ,--
+
+ he was arrested and held based entirely on falsified evidence.
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.378  
+ 0.541  
+ 0.066  
+ 0.007  
+ 0.007  
+
+Manuel alleges something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.036  
+ 0.166  
+ 0.391  
+ 0.340  
+ 0.067  
+
+Manuel ,Manuel;Manuel 's;::he ,Manuel;Manuel 's;
+
+ the Fourth Amendment does not give rise to a malicious prosecution claim
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.093  
+ 0.596  
+ 0.261  
+ 0.039  
+ 0.012  
+
+answer is something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.004  
+ 0.025  
+ 0.848  
+ 0.117  
+ 0.006  
+
+answer ,--::Fourth Amendment ,--
+
+ Manuel's suit is untimely.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.039  
+ 0.209  
+ 0.484  
+ 0.230  
+ 0.038  
+
+this means something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.002  
+ 0.007  
+ 0.619  
+ 0.351  
+ 0.021  
+
+this ,--::Manuel 's suit ,--
+
+ every moment of pretrial confinement without probable cause constitutes a violation of the Fourth Amendment.
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.065  
+ 0.549  
+ 0.330  
+ 0.046  
+ 0.010  
+
+Court 's opinion mean something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.005  
+ 0.042  
+ 0.859  
+ 0.090  
+ 0.004  
+
+Court 's opinion ,--::moment ,--
+
+ new Fourth Amendment claims continue to accrue as long as the pretrial detention lasts.
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.096  
+ 0.547  
+ 0.294  
+ 0.048  
+ 0.015  
+
+it follow something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.011  
+ 0.072  
+ 0.537  
+ 0.358  
+ 0.023  
+
+it ,The Court;the Court 's;::new claims ,--
+
+ its decision "follows from settled precedent."
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.009  
+ 0.122  
+ 0.840  
+ 0.026  
+ 0.002  
+
+Court saying something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.011  
+ 0.053  
+ 0.543  
+ 0.361  
+ 0.032  
+
+Court ,--::its decision ,The Court;The Court 's;the Court;
+
+ the Fourth Amendment can be violated 
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.058  
+ 0.413  
+ 0.368  
+ 0.137  
+ 0.024  
+
+Court mean something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.034  
+ 0.207  
+ 0.495  
+ 0.228  
+ 0.037  
+
+Court ,--::Fourth Amendment ,--
+
+ Oliver had violated his substantive due process right not to be prosecuted without probable cause.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.033  
+ 0.134  
+ 0.530  
+ 0.263  
+ 0.040  
+
+Albright claiming something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.028  
+ 0.144  
+ 0.491  
+ 0.294  
+ 0.044  
+
+Albright ,Albright;Albright 's;::Oliver ,Oliver;
+
+ Albright's claim had to be analyzed under the Fourth Amendment
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.015  
+ 0.235  
+ 0.716  
+ 0.031  
+ 0.003  
+
+All was something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.004  
+ 0.022  
+ 0.785  
+ 0.178  
+ 0.011  
+
+All ,--::Albright 's claim ,--
+
+ a Fourth Amendment seizure continues "after the start of 'legal process
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.033  
+ 0.292  
+ 0.581  
+ 0.085  
+ 0.009  
+
+Court mean something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.034  
+ 0.207  
+ 0.495  
+ 0.228  
+ 0.037  
+
+Court ,--::Fourth seizure ,--
+
+ Albright's seizure did not end with the issuance of the warrant 
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.046  
+ 0.487  
+ 0.422  
+ 0.036  
+ 0.008  
+
+I agree something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.019  
+ 0.076  
+ 0.424  
+ 0.420  
+ 0.061  
+
+I ,--::Albright 's seizure ,Albright;Albright 's;
+
+ there must be one after the arrest.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.029  
+ 0.231  
+ 0.623  
+ 0.107  
+ 0.011  
+
+All was something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.004  
+ 0.022  
+ 0.785  
+ 0.178  
+ 0.011  
+
+All ,--::none-innersubject,--
+
+ "the Fourth Amendment requires a judicial determination of probable cause as a prerequisite to extended restraint of liberty following arrest."
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.132  
+ 0.691  
+ 0.155  
+ 0.016  
+ 0.006  
+
+Court reasoned something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.036  
+ 0.166  
+ 0.391  
+ 0.340  
+ 0.067  
+
+Court ,--::Fourth Amendment ,--
+
+ a Fourth Amendment seizure continues throughout a period of pretrial detention
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.122  
+ 0.610  
+ 0.194  
+ 0.056  
+ 0.018  
+
+statement shows something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.015  
+ 0.052  
+ 0.479  
+ 0.390  
+ 0.064  
+
+statement ,--::Fourth seizure ,--
+
+ the Fourth Amendment might govern "only the first stage" of a prosecution
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.057  
+ 0.500  
+ 0.354  
+ 0.075  
+ 0.014  
+
+which suggests something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.006  
+ 0.065  
+ 0.874  
+ 0.051  
+ 0.004  
+
+which ,--::Fourth Amendment ,--
+
+ the decision should occur within 48 hours of an arrest
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.005  
+ 0.079  
+ 0.890  
+ 0.025  
+ 0.001  
+
+majority holding something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.005  
+ 0.042  
+ 0.828  
+ 0.120  
+ 0.005  
+
+majority ,--::decision ,--
+
+ the Fourth Amendment provides the appropriate lens through
+Positive
+Type = dense , numRows = 5 , numCols = 1
+ 0.014  
+ 0.060  
+ 0.339  
+ 0.517  
+ 0.070  
+
+Justices agreed something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.023  
+ 0.104  
+ 0.439  
+ 0.374  
+ 0.060  
+
+Justices ,--::Fourth Amendment ,--
+
+ the seizure of a person was "without legal process" because police officers "did not have a warrant for his arrest"); W. Keeton
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.081  
+ 0.622  
+ 0.281  
+ 0.012  
+ 0.005  
+
+none-outerSubject explaining something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.028  
+ 0.156  
+ 0.506  
+ 0.270  
+ 0.041  
+
+none-outerSubject,--::seizure ,--
+
+ an arrest violated the Fourth Amendment because a magistrate's warrant was not backed by probable cause).
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.126  
+ 0.543  
+ 0.299  
+ 0.021  
+ 0.010  
+
+none-outerSubject holding something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.016  
+ 0.098  
+ 0.661  
+ 0.205  
+ 0.020  
+
+none-outerSubject,--::arrest ,--
+
+ arrest warrants are somehow different--that there is legal process and then again there is legal process--the next (and in our view unanswerable) question would be
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.086  
+ 0.552  
+ 0.351  
+ 0.006  
+ 0.004  
+
+Circuit would reply something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.018  
+ 0.187  
+ 0.754  
+ 0.035  
+ 0.005  
+
+Circuit ,--::warrants ,--
+
+ "a Fourth Amendment right . . . survive[d] the initiation of process" at the hearing in
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.022  
+ 0.166  
+ 0.524  
+ 0.260  
+ 0.028  
+
+City agreed something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.009  
+ 0.043  
+ 0.658  
+ 0.269  
+ 0.021  
+
+City ,--::none-innersubject,--
+
+ a detainee has "a Fourth Amendment claim" if "misstatements at [such a probable-cause hearing] led to ongoing pretrial seizure").
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.072  
+ 0.508  
+ 0.349  
+ 0.057  
+ 0.014  
+
+none-outerSubject stating something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.036  
+ 0.166  
+ 0.391  
+ 0.340  
+ 0.067  
+
+none-outerSubject,--::detainee ,--
+
+ a different kind of pretrial legal process--a grand jury indictment or preliminary examination--does expunge such a Fourth Amendment claim.
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.143  
+ 0.656  
+ 0.177  
+ 0.017  
+ 0.007  
+
+none-outerSubject claiming something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.036  
+ 0.166  
+ 0.391  
+ 0.340  
+ 0.067  
+
+none-outerSubject,--::different kind ,--
+
+ he made the same argument in that court.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.013  
+ 0.099  
+ 0.777  
+ 0.102  
+ 0.010  
+
+Circuit recounted something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.013  
+ 0.092  
+ 0.789  
+ 0.095  
+ 0.011  
+
+Circuit ,--::he ,--
+
+ a malicious prosecution claim may be brought under the Fourth Amendment.
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.127  
+ 0.629  
+ 0.215  
+ 0.022  
+ 0.008  
+
+none-outerSubject holding something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.016  
+ 0.098  
+ 0.661  
+ 0.205  
+ 0.020  
+
+none-outerSubject,--::malicious claim ,--
+
+ we should reconsider our holding in Newsome and recognize a federal claim for malicious prosecution under the Fourth Amendment regardless of the available state remedy.
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.166  
+ 0.593  
+ 0.201  
+ 0.028  
+ 0.012  
+
+Manuel argues something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.043  
+ 0.255  
+ 0.494  
+ 0.172  
+ 0.035  
+
+Manuel ,Manuel;Manuel 's;::we ,the Seventh Circuit;
+
+ "Manuel's argument is better left for the Supreme Court."
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.032  
+ 0.295  
+ 0.520  
+ 0.138  
+ 0.015  
+
+none-outerSubject said something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.027  
+ 0.147  
+ 0.491  
+ 0.292  
+ 0.044  
+
+none-outerSubject,--::Manuel 's argument ,--
+
+ malicious prosecution is cognizable through a Section 1983 Fourth Amendment claim").
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.186  
+ 0.642  
+ 0.141  
+ 0.018  
+ 0.012  
+
+circuits have held something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.022  
+ 0.108  
+ 0.438  
+ 0.375  
+ 0.057  
+
+circuits ,--::malicious prosecution ,--
+
+ "[f]alse arrest and false imprisonment overlap" and decided to "refer to the two torts together as false imprisonment."
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.162  
+ 0.691  
+ 0.120  
+ 0.019  
+ 0.008  
+
+Court noted something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.036  
+ 0.166  
+ 0.391  
+ 0.340  
+ 0.067  
+
+Court ,--::alse arrest ,--
+
+ "[n]othing in the nature of the legal proceeding establishing probable cause makes a difference for purposes of the Fourth Amendment."
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.086  
+ 0.625  
+ 0.234  
+ 0.043  
+ 0.011  
+
+Court writes something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.046  
+ 0.257  
+ 0.412  
+ 0.239  
+ 0.046  
+
+Court ,--::none-innersubject,--
+
+ probable cause is lacking
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.203  
+ 0.706  
+ 0.081  
+ 0.004  
+ 0.005  
+
+result is something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.006  
+ 0.047  
+ 0.797  
+ 0.142  
+ 0.008  
+
+result ,--::probable cause ,--
+
+ the Fourth Amendment "drops out of the picture" after trial
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.086  
+ 0.590  
+ 0.286  
+ 0.028  
+ 0.009  
+
+Court asserts something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.036  
+ 0.166  
+ 0.391  
+ 0.340  
+ 0.067  
+
+Court ,--::Fourth Amendment ,--
+

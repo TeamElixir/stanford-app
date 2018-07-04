@@ -1,0 +1,782 @@
+It also acknowledged that restitution was mandatory but deferred determination of the restitution amount.
+	innerSentence :  restitution was mandatory but deferred determination of the restitution amount.
+		coremap sentence : restitution was mandatory but deferred determination of the restitution amount.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.062  
+ 0.266  
+ 0.301  
+ 0.295  
+ 0.075  
+
+		-----
+	outerSentence : It acknowledged something.
+		coremap sentence : It acknowledged something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.026  
+ 0.107  
+ 0.434  
+ 0.380  
+ 0.053  
+
+		-----
+	 outer Subject : It 	,	inner Subject : restitution 
+resolved as : (The District Court;the District Court;, --)
+
+When he nonetheless challenged the restitution amount before the Eleventh Circuit, the Government argued that he had forfeited his right to do so by failing to file a second notice of appeal.
+	innerSentence :  he had forfeited his right to do so by failing to file a second notice of appeal.
+		coremap sentence : he had forfeited his right to do so by failing to file a second notice of appeal.
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.223  
+ 0.631  
+ 0.122  
+ 0.014  
+ 0.009  
+
+		-----
+	outerSentence : Government argued something.
+		coremap sentence : Government argued something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.036  
+ 0.166  
+ 0.391  
+ 0.340  
+ 0.067  
+
+		-----
+	 outer Subject : Government 	,	inner Subject : he 
+resolved as : (--, Petitioner;petitioner;petitioner 's;)
+
+The Eleventh Circuit agreed, holding that petitioner could not challenge the restitution amount.
+	innerSentence :  petitioner could not challenge the restitution amount.
+		coremap sentence : petitioner could not challenge the restitution amount.
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.080  
+ 0.518  
+ 0.328  
+ 0.058  
+ 0.017  
+
+		-----
+	outerSentence : Circuit holding something.
+		coremap sentence : Circuit holding something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.004  
+ 0.040  
+ 0.923  
+ 0.032  
+ 0.002  
+
+		-----
+	 outer Subject : Circuit 	,	inner Subject : petitioner 
+resolved as : (--, Petitioner;petitioner;petitioner 's;)
+
+(a) Both 18 U. S. C. §3742(a), which governs criminal appeals, and Federal Rule of Appellate Procedure 3(a)(1) contemplate that a defendant will file a notice of appeal after the district court has decided the issue sought to be appealed.
+	innerSentence :  a defendant will file a notice of appeal after the district court has decided the issue sought to be appealed.
+		coremap sentence : a defendant will file a notice of appeal after the district court has decided the issue sought to be appealed.
+		sentiment : Positive
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.029  
+ 0.113  
+ 0.265  
+ 0.494  
+ 0.099  
+
+		-----
+	outerSentence : none-outerSubject contemplate something.
+		coremap sentence : none-outerSubject contemplate something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.036  
+ 0.166  
+ 0.391  
+ 0.340  
+ 0.067  
+
+		-----
+	 outer Subject : none-outerSubject	,	inner Subject : defendant 
+resolved as : (--, --)
+
+Even if the District Court's acknowledgment in the initial judgment that restitution was mandatory could qualify as a "sentence" that the District Court "announced" under Rule 4(b)(2), petitioner has never disputed that restitution is mandatory for his offense.
+	innerSentence :  restitution is mandatory for his offense.
+		coremap sentence : restitution is mandatory for his offense.
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.071  
+ 0.377  
+ 0.355  
+ 0.157  
+ 0.040  
+
+		-----
+	outerSentence : petitioner has never disputed something.
+		coremap sentence : petitioner has never disputed something.
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.070  
+ 0.344  
+ 0.341  
+ 0.195  
+ 0.050  
+
+		-----
+	 outer Subject : petitioner 	,	inner Subject : restitution 
+resolved as : (--, restitution;)
+
+We hold that it is not, at least where, as here, the Government objects to the defendant's failure to file a notice of appeal following the amended judgment.
+	innerSentence :  at least
+		coremap sentence : at least
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.001  
+ 0.009  
+ 0.988  
+ 0.002  
+ 0.000  
+
+		-----
+	outerSentence : We hold something.
+		coremap sentence : We hold something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.015  
+ 0.081  
+ 0.470  
+ 0.400  
+ 0.035  
+
+		-----
+	 outer Subject : We 	,	inner Subject : it 
+resolved as : (--, the amended judgment;the initial judgment;)
+
+At the sentencing hearing, the court acknowledged that restitution was mandatory.
+	innerSentence :  restitution was mandatory.
+		coremap sentence : restitution was mandatory.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.056  
+ 0.344  
+ 0.414  
+ 0.153  
+ 0.033  
+
+		-----
+	outerSentence : court acknowledged something.
+		coremap sentence : court acknowledged something.
+		sentiment : Positive
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.028  
+ 0.145  
+ 0.232  
+ 0.525  
+ 0.070  
+
+		-----
+	 outer Subject : court 	,	inner Subject : restitution 
+resolved as : (--, --)
+
+
+
+The Government countered that petitioner had forfeited his right to challenge the restitution amount by failing to file a second notice of appeal.
+	innerSentence :  petitioner had forfeited his right to challenge the restitution amount by failing to file a second notice of appeal.
+		coremap sentence : petitioner had forfeited his right to challenge the restitution amount by failing to file a second notice of appeal.
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.217  
+ 0.555  
+ 0.188  
+ 0.025  
+ 0.015  
+
+		-----
+	outerSentence : Government countered something.
+		coremap sentence : Government countered something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.036  
+ 0.166  
+ 0.391  
+ 0.340  
+ 0.067  
+
+		-----
+	 outer Subject : Government 	,	inner Subject : petitioner 
+resolved as : (--, petitioner;)
+
+The Court of Appeals agreed that petitioner could not challenge the restitution amount and declined to consider his challenge.
+	innerSentence :  petitioner could not challenge the restitution amount and declined to consider his challenge.
+		coremap sentence : petitioner could not challenge the restitution amount and declined to consider his challenge.
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.104  
+ 0.542  
+ 0.283  
+ 0.052  
+ 0.019  
+
+		-----
+	outerSentence : Court agreed something.
+		coremap sentence : Court agreed something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.023  
+ 0.104  
+ 0.439  
+ 0.374  
+ 0.060  
+
+		-----
+	 outer Subject : Court 	,	inner Subject : petitioner 
+resolved as : (--, petitioner;)
+
+The statute that governs appeals of criminal sentences, 18 U. S. C. §3742(a), provides that a "defendant may file a notice of appeal in the district court for review of an otherwise final sentence" in certain specified circumstances.
+	innerSentence :  a "defendant may file a notice of appeal in the district court for review of an otherwise final sentence" in certain specified circumstances.
+		coremap sentence : a "defendant may file a notice of appeal in the district court for review of an otherwise final sentence" in certain specified circumstances.
+		sentiment : Positive
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.046  
+ 0.210  
+ 0.282  
+ 0.387  
+ 0.074  
+
+		-----
+	outerSentence : statute provides something.
+		coremap sentence : statute provides something.
+		sentiment : Positive
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.012  
+ 0.037  
+ 0.285  
+ 0.547  
+ 0.119  
+
+		-----
+	 outer Subject : statute 	,	inner Subject : defendant 
+resolved as : (--, --)
+
+And Federal Rule of Appellate Procedure 3(a)(1) specifies that "[a]n appeal permitted by law as of right . . . may be taken only by filing a notice of appeal with the district clerk within the time allowed by Rule 4."
+	innerSentence :  "[a]n appeal permitted by law as of right . . . may be taken only by filing a notice of appeal with the district clerk within the time allowed by Rule 4."
+		coremap sentence : "[a]n appeal permitted by law as of right . . . may be taken only by filing a notice of appeal with the district clerk within the time allowed by Rule 4."
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.078  
+ 0.505  
+ 0.269  
+ 0.123  
+ 0.025  
+
+		-----
+	outerSentence : none-outerSubject specifies something.
+		coremap sentence : none-outerSubject specifies something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.036  
+ 0.166  
+ 0.391  
+ 0.340  
+ 0.067  
+
+		-----
+	 outer Subject : none-outerSubject	,	inner Subject : appeal 
+resolved as : (--, --)
+
+Both §3742(a) and Rule 4 contemplate that the defendant will file the notice of appeal after the district court has decided the issue sought to be appealed.
+	innerSentence :  the defendant will file the notice of appeal after the district court has decided the issue sought to be appealed.
+		coremap sentence : the defendant will file the notice of appeal after the district court has decided the issue sought to be appealed.
+		sentiment : Positive
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.034  
+ 0.151  
+ 0.317  
+ 0.425  
+ 0.073  
+
+		-----
+	outerSentence : 3742 contemplate something.
+		coremap sentence : 3742 contemplate something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.036  
+ 0.166  
+ 0.391  
+ 0.340  
+ 0.067  
+
+		-----
+	 outer Subject : 3742 	,	inner Subject : defendant 
+resolved as : (3742;the issue;, --)
+
+The Government contends that filing a notice of appeal from the judgment imposing restitution is a jurisdictional prerequisite to securing appellate review of the restitution amount.
+	innerSentence :  filing a notice of appeal from the judgment imposing restitution is a jurisdictional prerequisite to securing appellate review of the restitution amount.
+		coremap sentence : filing a notice of appeal from the judgment imposing restitution is a jurisdictional prerequisite to securing appellate review of the restitution amount.
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.149  
+ 0.547  
+ 0.174  
+ 0.092  
+ 0.040  
+
+		-----
+	outerSentence : Government contends something.
+		coremap sentence : Government contends something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.036  
+ 0.166  
+ 0.391  
+ 0.340  
+ 0.067  
+
+		-----
+	 outer Subject : Government 	,	inner Subject : none-innersubject
+resolved as : (--, --)
+
+Mandatory claim-processing rules "seek to promote the orderly progress of litigation by requiring that the parties take certain procedural steps at certain specified times."
+	innerSentence :  the parties take certain procedural steps at certain specified times."
+		coremap sentence : the parties take certain procedural steps at certain specified times."
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.003  
+ 0.023  
+ 0.894  
+ 0.077  
+ 0.003  
+
+		-----
+	outerSentence : Mandatory rules requiring something.
+		coremap sentence : Mandatory rules requiring something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.019  
+ 0.149  
+ 0.732  
+ 0.090  
+ 0.010  
+
+		-----
+	 outer Subject : Mandatory rules 	,	inner Subject : parties 
+resolved as : (--, --)
+
+See Brief for United States in No. 14-13029 (CA11), pp. 22-25 (arguing that petitioner "waived his right to appeal the district court's order of restitution by failing to file a notice of appeal from that order" (capitalization omitted)).
+	innerSentence :  petitioner "waived his right to appeal the district court's order of restitution by failing to file a notice of appeal from that order" (capitalization omitted)).
+		coremap sentence : petitioner "waived his right to appeal the district court's order of restitution by failing to file a notice of appeal from that order" (capitalization omitted)).
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.136  
+ 0.531  
+ 0.266  
+ 0.046  
+ 0.020  
+
+		-----
+	outerSentence : none-outerSubject arguing something.
+		coremap sentence : none-outerSubject arguing something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.023  
+ 0.108  
+ 0.440  
+ 0.370  
+ 0.059  
+
+		-----
+	 outer Subject : none-outerSubject	,	inner Subject : petitioner 
+resolved as : (--, petitioner;petitioner 's;)
+
+Petitioner disputes this conclusion, arguing that his single notice of appeal sufficed under the Rules to appeal both the initial judgment and the amended judgment imposing restitution.
+	innerSentence :  his single notice of appeal sufficed under the Rules to appeal both the initial judgment and the amended judgment imposing restitution.
+		coremap sentence : his single notice of appeal sufficed under the Rules to appeal both the initial judgment and the amended judgment imposing restitution.
+		sentiment : Positive
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.058  
+ 0.242  
+ 0.201  
+ 0.411  
+ 0.088  
+
+		-----
+	outerSentence : none-outerSubject arguing something.
+		coremap sentence : none-outerSubject arguing something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.023  
+ 0.108  
+ 0.440  
+ 0.370  
+ 0.059  
+
+		-----
+	 outer Subject : none-outerSubject	,	inner Subject : single his notice 
+resolved as : (--, --)
+
+Petitioner argues that the initial judgment deferring restitution and the amended judgment imposing a specific restitution amount merge to become "the judgment" referenced in the Federal Rules.
+	innerSentence :  the initial judgment deferring restitution and the amended judgment imposing a specific restitution amount merge to become "the judgment" referenced in the Federal Rules.
+		coremap sentence : the initial judgment deferring restitution and the amended judgment imposing a specific restitution amount merge to become "the judgment" referenced in the Federal Rules.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.054  
+ 0.362  
+ 0.374  
+ 0.181  
+ 0.028  
+
+		-----
+	outerSentence : Petitioner argues something.
+		coremap sentence : Petitioner argues something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.043  
+ 0.255  
+ 0.494  
+ 0.172  
+ 0.035  
+
+		-----
+	 outer Subject : Petitioner 	,	inner Subject : initial judgment 
+resolved as : (Petitioner;, --)
+
+He argues that his notice of appeal, which was filed within 14 days of the initial judgment, was therefore sufficient to invoke appellate review of the merged judgment.
+	innerSentence :  was therefore sufficient to invoke appellate review of the merged judgment.
+		coremap sentence : was therefore sufficient to invoke appellate review of the merged judgment.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.028  
+ 0.222  
+ 0.637  
+ 0.103  
+ 0.010  
+
+		-----
+	outerSentence : He argues something.
+		coremap sentence : He argues something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.031  
+ 0.211  
+ 0.430  
+ 0.295  
+ 0.033  
+
+		-----
+	 outer Subject : He 	,	inner Subject : his notice 
+resolved as : (Petitioner;, Petitioner;)
+
+The petitioner in that case argued that the amended judgment imposing restitution is the only final, appealable judgment in a deferred restitution case.
+	innerSentence :  appealable judgment in a deferred restitution case.
+		coremap sentence : appealable judgment in a deferred restitution case.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.025  
+ 0.231  
+ 0.663  
+ 0.073  
+ 0.008  
+
+		-----
+	outerSentence : petitioner argued something.
+		coremap sentence : petitioner argued something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.036  
+ 0.166  
+ 0.391  
+ 0.340  
+ 0.067  
+
+		-----
+	 outer Subject : petitioner 	,	inner Subject : amended judgment 
+resolved as : (--, --)
+
+That Rule provides that a "notice of appeal filed after the court announces a decision, sentence, or order--but before the entry of the judgment or order--is treated as filed on the date of and after the entry."
+	innerSentence :  or order--but before the entry of the judgment or order--is treated as filed on the date of and after the entry."
+		coremap sentence : or order--but before the entry of the judgment or order--is treated as filed on the date of and after the entry."
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.048  
+ 0.391  
+ 0.491  
+ 0.058  
+ 0.012  
+
+		-----
+	outerSentence : Rule provides something.
+		coremap sentence : Rule provides something.
+		sentiment : Positive
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.008  
+ 0.025  
+ 0.367  
+ 0.514  
+ 0.086  
+
+		-----
+	 outer Subject : Rule 	,	inner Subject : notice 
+resolved as : (--, --)
+
+Even if describing restitution as mandatory could qualify as a "sentence" that the District Court "announced" under Rule 4(b)(2), petitioner has never disputed that restitution is mandatory for his offense.
+	innerSentence :  restitution is mandatory for his offense.
+		coremap sentence : restitution is mandatory for his offense.
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.071  
+ 0.377  
+ 0.355  
+ 0.157  
+ 0.040  
+
+		-----
+	outerSentence : petitioner has never disputed something.
+		coremap sentence : petitioner has never disputed something.
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.070  
+ 0.344  
+ 0.341  
+ 0.195  
+ 0.050  
+
+		-----
+	 outer Subject : petitioner 	,	inner Subject : restitution 
+resolved as : (--, restitution;)
+
+
+The filing of a notice of appeal from an amended judgment imposing restitution is at least a mandatory claim-processing rule, Part II-A, supra, meaning that the requirement to file such a notice is unalterable, so long as the opposing party raises the issue.
+	innerSentence :  the requirement to file such a notice is unalterable
+		coremap sentence : the requirement to file such a notice is unalterable
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.052  
+ 0.358  
+ 0.413  
+ 0.152  
+ 0.026  
+
+		-----
+	outerSentence : none-outerSubject meaning something.
+		coremap sentence : none-outerSubject meaning something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.014  
+ 0.074  
+ 0.555  
+ 0.322  
+ 0.034  
+
+		-----
+	 outer Subject : none-outerSubject	,	inner Subject : requirement 
+resolved as : (--, --)
+
+We hold that a defendant who wishes to appeal an order imposing restitution in a deferred restitution case must file a notice of appeal from that order.
+	innerSentence :  a defendant
+		coremap sentence : a defendant
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.014  
+ 0.087  
+ 0.731  
+ 0.150  
+ 0.019  
+
+		-----
+	outerSentence : We hold something.
+		coremap sentence : We hold something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.015  
+ 0.081  
+ 0.470  
+ 0.400  
+ 0.035  
+
+		-----
+	 outer Subject : We 	,	inner Subject : defendant 
+resolved as : (--, --)
+
+But even assuming, arguendo, that separate appeal notices are ordinarily required, I would hold that Manrique is not barred from appealing the restitution order in the circumstances of this case.
+	innerSentence :  Manrique is not barred from appealing the restitution order in the circumstances of this case.
+		coremap sentence : Manrique is not barred from appealing the restitution order in the circumstances of this case.
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.133  
+ 0.511  
+ 0.273  
+ 0.059  
+ 0.024  
+
+		-----
+	outerSentence : I would hold something.
+		coremap sentence : I would hold something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.014  
+ 0.076  
+ 0.512  
+ 0.363  
+ 0.034  
+
+		-----
+	 outer Subject : I 	,	inner Subject : Manrique 
+resolved as : (--, --)
+
+The Government agrees that the District Court was "absolutely" required to advise Manrique of his right to appeal the restitution order, and anticipates that the required advice "will prevent cases like this from arising again in the future."
+	innerSentence :  the District Court was "absolutely" required to advise Manrique of his right to appeal the restitution order
+		coremap sentence : the District Court was "absolutely" required to advise Manrique of his right to appeal the restitution order
+		sentiment : Positive
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.044  
+ 0.202  
+ 0.241  
+ 0.432  
+ 0.082  
+
+		-----
+	outerSentence : Government agrees something.
+		coremap sentence : Government agrees something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.036  
+ 0.166  
+ 0.391  
+ 0.340  
+ 0.067  
+
+		-----
+	 outer Subject : Government 	,	inner Subject : Court 
+resolved as : (--, --)
+The Government agrees that the District Court was "absolutely" required to advise Manrique of his right to appeal the restitution order, and anticipates that the required advice "will prevent cases like this from arising again in the future."
+	innerSentence :  the required advice "will prevent cases like this from arising again in the future."
+		coremap sentence : the required advice "will prevent cases like this from arising again in the future."
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.046  
+ 0.427  
+ 0.421  
+ 0.092  
+ 0.015  
+
+		-----
+	outerSentence : none-outerSubject anticipates something.
+		coremap sentence : none-outerSubject anticipates something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.036  
+ 0.166  
+ 0.391  
+ 0.340  
+ 0.067  
+
+		-----
+	 outer Subject : none-outerSubject	,	inner Subject : required advice 
+resolved as : (--, --)
+
+Aware of its obligation to advise Manrique of his right to appeal, the District Court appears to have assumed that no second notice was required to place the restitution amount before the Court of Appeals.
+	innerSentence :  no second notice was required to place the restitution amount before the Court of Appeals.
+		coremap sentence : no second notice was required to place the restitution amount before the Court of Appeals.
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.170  
+ 0.642  
+ 0.174  
+ 0.009  
+ 0.006  
+
+		-----
+	outerSentence : Court have assumed something.
+		coremap sentence : Court have assumed something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.032  
+ 0.175  
+ 0.455  
+ 0.290  
+ 0.048  
+
+		-----
+	 outer Subject : Court 	,	inner Subject : second notice 
+resolved as : (--, --)
+
+Without awaiting another appeal notice, the District Court clerk transmitted the amended judgment, five days after its entry, to the Court of Appeals, which filed that judgment on the docket of the appeal from the conviction and sentence already pending in that court.
+	innerSentence :  judgment on the docket of the appeal from the conviction and sentence already pending in that court.
+		coremap sentence : judgment on the docket of the appeal from the conviction and sentence already pending in that court.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.018  
+ 0.176  
+ 0.750  
+ 0.052  
+ 0.005  
+
+		-----
+	outerSentence : which filed something.
+		coremap sentence : which filed something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.017  
+ 0.099  
+ 0.632  
+ 0.226  
+ 0.026  
+
+		-----
+	 outer Subject : which 	,	inner Subject : judgment 
+resolved as : (--, --)
+
+In light of what occurred here, I would hold that the clerk's dispatch of the amended judgment to the Court of Appeals "confer[red] jurisdiction on the court of appeals."
+	innerSentence :  the clerk's dispatch of the amended judgment to the Court of Appeals "confer[red] jurisdiction on the court of appeals."
+		coremap sentence : the clerk's dispatch of the amended judgment to the Court of Appeals "confer[red] jurisdiction on the court of appeals."
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.071  
+ 0.550  
+ 0.321  
+ 0.046  
+ 0.011  
+
+		-----
+	outerSentence : I would hold something.
+		coremap sentence : I would hold something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.014  
+ 0.076  
+ 0.512  
+ 0.363  
+ 0.034  
+
+		-----
+	 outer Subject : I 	,	inner Subject : clerk 's dispatch 
+resolved as : (--, --)
+
+We do not intend to call into question this Court's decision in Corey v. United States, 375 U. S. 169, 176 (1963) (holding that a defendant may challenge his conviction after a single notice of appeal filed from a final sentence imposed under §4208(b)).
+	innerSentence :  a defendant may challenge his conviction after a single notice of appeal filed from a final sentence imposed under §4208(b)).
+		coremap sentence : a defendant may challenge his conviction after a single notice of appeal filed from a final sentence imposed under §4208(b)).
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.061  
+ 0.418  
+ 0.384  
+ 0.114  
+ 0.022  
+
+		-----
+	outerSentence : Court 's decision holding something.
+		coremap sentence : Court 's decision holding something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.005  
+ 0.042  
+ 0.850  
+ 0.097  
+ 0.005  
+
+		-----
+	 outer Subject : Court 's decision 	,	inner Subject : defendant 
+resolved as : (--, --)
+

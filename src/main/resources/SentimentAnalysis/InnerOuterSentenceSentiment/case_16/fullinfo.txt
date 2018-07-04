@@ -1,0 +1,1666 @@
+The judge instructed the jury that, to convict Marinello of an Omnibus Clause violation, it must find that he "corruptly" engaged in at least one of eight specified activities, but the jury was not told that it needed to find that Marinello knew he was under investigation and intended corruptly to interfere with that investigation.
+	innerSentence :  he "corruptly" engaged in at least one of eight specified activities
+		coremap sentence : he "corruptly" engaged in at least one of eight specified activities
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.090  
+ 0.592  
+ 0.276  
+ 0.034  
+ 0.009  
+
+		-----
+	outerSentence : it must find something.
+		coremap sentence : it must find something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.017  
+ 0.099  
+ 0.509  
+ 0.345  
+ 0.030  
+
+		-----
+	 outer Subject : it 	,	inner Subject : he 
+resolved as : (the jury;, --)
+The judge instructed the jury that, to convict Marinello of an Omnibus Clause violation, it must find that he "corruptly" engaged in at least one of eight specified activities, but the jury was not told that it needed to find that Marinello knew he was under investigation and intended corruptly to interfere with that investigation.
+	innerSentence :  it needed to find that Marinello knew he was under investigation and intended corruptly to interfere with that investigation.
+		coremap sentence : it needed to find that Marinello knew he was under investigation and intended corruptly to interfere with that investigation.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.056  
+ 0.413  
+ 0.455  
+ 0.065  
+ 0.012  
+
+		-----
+	outerSentence : jury was not told something.
+		coremap sentence : jury was not told something.
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.065  
+ 0.512  
+ 0.386  
+ 0.029  
+ 0.008  
+
+		-----
+	 outer Subject : jury 	,	inner Subject : it 
+resolved as : (--, the jury;)
+The judge instructed the jury that, to convict Marinello of an Omnibus Clause violation, it must find that he "corruptly" engaged in at least one of eight specified activities, but the jury was not told that it needed to find that Marinello knew he was under investigation and intended corruptly to interfere with that investigation.
+	innerSentence :  Marinello knew he was under investigation and intended corruptly to interfere with that investigation.
+		coremap sentence : Marinello knew he was under investigation and intended corruptly to interfere with that investigation.
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.114  
+ 0.493  
+ 0.296  
+ 0.072  
+ 0.026  
+
+		-----
+	outerSentence : it find something.
+		coremap sentence : it find something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.013  
+ 0.074  
+ 0.460  
+ 0.424  
+ 0.029  
+
+		-----
+	 outer Subject : it 	,	inner Subject : Marinello 
+resolved as : (the jury;, Marinello;Marinello of an Omnibus Clause violation;petitioner Marinello 's;)
+
+Held: To convict a defendant under the Omnibus Clause, the Government must prove the defendant was aware of a pending tax-related proceeding, such as a particular investigation or audit, or could reasonably foresee that such a proceeding would commence.
+	innerSentence :  such a proceeding would commence.
+		coremap sentence : such a proceeding would commence.
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.082  
+ 0.496  
+ 0.260  
+ 0.133  
+ 0.029  
+
+		-----
+	outerSentence : none-outerSubject could foresee something.
+		coremap sentence : none-outerSubject could foresee something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.048  
+ 0.289  
+ 0.418  
+ 0.206  
+ 0.039  
+
+		-----
+	 outer Subject : none-outerSubject	,	inner Subject : proceeding 
+resolved as : (--, --)
+
+The Court said that the defendant's "act must have a relationship in time, causation, or logic with the judicial proceedings."
+	innerSentence :  the defendant's "act must have a relationship in time
+		coremap sentence : the defendant's "act must have a relationship in time
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.013  
+ 0.110  
+ 0.491  
+ 0.366  
+ 0.020  
+
+		-----
+	outerSentence : Court said something.
+		coremap sentence : Court said something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.027  
+ 0.147  
+ 0.491  
+ 0.292  
+ 0.044  
+
+		-----
+	 outer Subject : Court 	,	inner Subject : defendant 
+resolved as : (--, --)
+
+In reaching this conclusion, the Court emphasized that it has "traditionally exercised restraint in assessing the reach of a federal criminal statute, both out of deference to the prerogatives of Congress and out of concern that 'a fair warning should be given to the world in language that the common world will understand, of what the law intends to do if a certain line is passed.' "
+	innerSentence :  it has "traditionally exercised restraint in assessing the reach of a federal criminal statute
+		coremap sentence : it has "traditionally exercised restraint in assessing the reach of a federal criminal statute
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.042  
+ 0.333  
+ 0.474  
+ 0.134  
+ 0.017  
+
+		-----
+	outerSentence : Court emphasized something.
+		coremap sentence : Court emphasized something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.029  
+ 0.160  
+ 0.510  
+ 0.259  
+ 0.042  
+
+		-----
+	 outer Subject : Court 	,	inner Subject : it 
+resolved as : (--, The Court;the Court;)
+
+The Government claims that the "corrupt state of mind" requirement will cure any overbreadth problem, but it is difficult to imagine a scenario when that requirement will make a practical difference in the context of federal tax prosecutions.
+	innerSentence :  the "corrupt state of mind" requirement will cure any overbreadth problem
+		coremap sentence : the "corrupt state of mind" requirement will cure any overbreadth problem
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.043  
+ 0.479  
+ 0.384  
+ 0.085  
+ 0.009  
+
+		-----
+	outerSentence : Government claims something.
+		coremap sentence : Government claims something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.031  
+ 0.182  
+ 0.518  
+ 0.231  
+ 0.038  
+
+		-----
+	 outer Subject : Government 	,	inner Subject : corrupt state 
+resolved as : (--, --)
+
+(b) Following the same approach taken in similar cases, the Government here must show that there is a "nexus" between the defendant's conduct and a particular administrative proceeding, such as an investigation, an audit, or other targeted administrative action.
+	innerSentence :  there is a "nexus" between the defendant's conduct and a particular administrative proceeding
+		coremap sentence : there is a "nexus" between the defendant's conduct and a particular administrative proceeding
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.019  
+ 0.173  
+ 0.642  
+ 0.156  
+ 0.011  
+
+		-----
+	outerSentence : Government must show something.
+		coremap sentence : Government must show something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.029  
+ 0.153  
+ 0.467  
+ 0.301  
+ 0.050  
+
+		-----
+	 outer Subject : Government 	,	inner Subject : nexus 
+resolved as : (--, --)
+
+Just because a taxpayer knows that the IRS will review her tax return annually does not transform every Tax Code violation into an obstruction charge.
+	innerSentence :  the IRS will review her tax return annually does not transform every Tax Code violation into an obstruction charge.
+		coremap sentence : the IRS will review her tax return annually does not transform every Tax Code violation into an obstruction charge.
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.076  
+ 0.489  
+ 0.340  
+ 0.077  
+ 0.017  
+
+		-----
+	outerSentence : taxpayer knows something.
+		coremap sentence : taxpayer knows something.
+		sentiment : Positive
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.011  
+ 0.032  
+ 0.282  
+ 0.565  
+ 0.110  
+
+		-----
+	 outer Subject : taxpayer 	,	inner Subject : IRS 
+resolved as : (--, --)
+
+In addition to satisfying the nexus requirement, the Government must show that the proceeding was pending at the time the defendant engaged in the obstructive conduct or, at the least, was then reasonably foreseeable by the defendant.
+	innerSentence :  the proceeding was pending at the time the defendant engaged in the obstructive conduct or
+		coremap sentence : the proceeding was pending at the time the defendant engaged in the obstructive conduct or
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.030  
+ 0.292  
+ 0.587  
+ 0.080  
+ 0.011  
+
+		-----
+	outerSentence : Government must show something.
+		coremap sentence : Government must show something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.029  
+ 0.153  
+ 0.467  
+ 0.301  
+ 0.050  
+
+		-----
+	 outer Subject : Government 	,	inner Subject : proceeding 
+resolved as : (--, --)
+
+In respect to the Omnibus Clause the Government claimed that Marinello had engaged in at least one of eight different specified activities, including "failing to maintain corporate books and records," "failing to provide" his tax accountant "with complete and accurate" tax "information," "destroying . . . business records," "hiding income," and "paying employees . . . with cash."
+	innerSentence :  Marinello had engaged in at least one of eight different specified activities
+		coremap sentence : Marinello had engaged in at least one of eight different specified activities
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.040  
+ 0.282  
+ 0.515  
+ 0.138  
+ 0.026  
+
+		-----
+	outerSentence : Government claimed something.
+		coremap sentence : Government claimed something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.036  
+ 0.166  
+ 0.391  
+ 0.340  
+ 0.067  
+
+		-----
+	 outer Subject : Government 	,	inner Subject : Marinello 
+resolved as : (--, Carlo Marinello;Marinello;)
+
+The judge, however, did not instruct the jury that it must find that Marinello knew he was under investigation and intended corruptly to interfere with that investigation.
+	innerSentence :  Marinello knew he was under investigation and intended corruptly to interfere with that investigation.
+		coremap sentence : Marinello knew he was under investigation and intended corruptly to interfere with that investigation.
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.114  
+ 0.493  
+ 0.296  
+ 0.072  
+ 0.026  
+
+		-----
+	outerSentence : it must find something.
+		coremap sentence : it must find something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.017  
+ 0.099  
+ 0.509  
+ 0.345  
+ 0.030  
+
+		-----
+	 outer Subject : it 	,	inner Subject : Marinello 
+resolved as : (The jury;the jury;the jury retired to consider the charges;, Marinello;Marinello on all counts;)
+
+He argued, among other things, that a violation of the Omnibus Clause requires the Government to show that the defendant had tried to interfere with a "pending IRS proceeding," such as a particular investigation.
+	innerSentence :  the defendant had tried to interfere with a "pending IRS proceeding
+		coremap sentence : the defendant had tried to interfere with a "pending IRS proceeding
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.032  
+ 0.367  
+ 0.561  
+ 0.034  
+ 0.006  
+
+		-----
+	outerSentence : violation show something.
+		coremap sentence : violation show something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.021  
+ 0.251  
+ 0.715  
+ 0.011  
+ 0.002  
+
+		-----
+	 outer Subject : violation 	,	inner Subject : defendant 
+resolved as : (--, --)
+
+It held that a defendant need not possess " 'an awareness of a particular [IRS] action or investigation.' "
+	innerSentence :  a defendant need not possess " 'an awareness of a particular [IRS] action or investigation.' "
+		coremap sentence : a defendant need not possess " 'an awareness of a particular [IRS] action or investigation.' "
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.045  
+ 0.394  
+ 0.523  
+ 0.031  
+ 0.007  
+
+		-----
+	outerSentence : It held something.
+		coremap sentence : It held something.
+		sentiment : Positive
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.009  
+ 0.031  
+ 0.361  
+ 0.543  
+ 0.056  
+
+		-----
+	 outer Subject : It 	,	inner Subject : defendant 
+resolved as : (The appeals court;The full Court of Appeals;, --)
+
+In interpreting that statute we pointed to earlier cases in which courts had held that the Government must prove "an intent to influence judicial or grand jury proceedings."
+	innerSentence :  the Government must prove "an intent to influence judicial or grand jury proceedings."
+		coremap sentence : the Government must prove "an intent to influence judicial or grand jury proceedings."
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.035  
+ 0.355  
+ 0.564  
+ 0.039  
+ 0.007  
+
+		-----
+	outerSentence : courts had held something.
+		coremap sentence : courts had held something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.007  
+ 0.054  
+ 0.787  
+ 0.140  
+ 0.011  
+
+		-----
+	 outer Subject : courts 	,	inner Subject : Government 
+resolved as : (--, --)
+
+We noted that some courts had imposed a " 'nexus' requirement": that the defendant's "act must have a relationship in time, causation, or logic with the judicial proceedings."
+	innerSentence :  some courts had imposed a " 'nexus' requirement"
+		coremap sentence : some courts had imposed a " 'nexus' requirement"
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.035  
+ 0.492  
+ 0.452  
+ 0.018  
+ 0.003  
+
+		-----
+	outerSentence : We noted something.
+		coremap sentence : We noted something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.044  
+ 0.272  
+ 0.425  
+ 0.226  
+ 0.033  
+
+		-----
+	 outer Subject : We 	,	inner Subject : courts 
+resolved as : (--, --)
+We noted that some courts had imposed a " 'nexus' requirement": that the defendant's "act must have a relationship in time, causation, or logic with the judicial proceedings."
+	innerSentence :  some courts had imposed a " 'nexus' requirement"
+		coremap sentence : some courts had imposed a " 'nexus' requirement"
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.035  
+ 0.492  
+ 0.452  
+ 0.018  
+ 0.003  
+
+		-----
+	outerSentence : We noted something.
+		coremap sentence : We noted something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.044  
+ 0.272  
+ 0.425  
+ 0.226  
+ 0.033  
+
+		-----
+	 outer Subject : We 	,	inner Subject : defendant 
+resolved as : (--, --)
+
+We wrote that we "have traditionally exercised restraint in assessing the reach of a federal criminal statute, both out of deference to the prerogatives of Congress and out of concern that 'a fair warning should be given to the world in language that the common world will understand, of what the law intends to do if a certain line is passed.' "
+	innerSentence :  we "have traditionally exercised restraint in assessing the reach of a federal criminal statute
+		coremap sentence : we "have traditionally exercised restraint in assessing the reach of a federal criminal statute
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.022  
+ 0.205  
+ 0.708  
+ 0.057  
+ 0.007  
+
+		-----
+	outerSentence : We wrote something.
+		coremap sentence : We wrote something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.031  
+ 0.277  
+ 0.547  
+ 0.132  
+ 0.012  
+
+		-----
+	 outer Subject : We 	,	inner Subject : we 
+resolved as : (Congress;, Congress;)
+
+Here statutory context confirms that the text refers to specific, targeted acts of administration.
+	innerSentence :  the text refers to specific
+		coremap sentence : the text refers to specific
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.005  
+ 0.052  
+ 0.865  
+ 0.074  
+ 0.004  
+
+		-----
+	outerSentence : statutory context confirms something.
+		coremap sentence : statutory context confirms something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.010  
+ 0.045  
+ 0.593  
+ 0.317  
+ 0.035  
+
+		-----
+	 outer Subject : statutory context 	,	inner Subject : text 
+resolved as : (--, --)
+
+It says that §7212 "covers all cases where the officer is intimidated or injured; that is, where corruptly, by force or threat of force, directly or by communication, an attempt is made to impede the administration of the internal-revenue laws."
+	innerSentence :  §7212 "covers all cases
+		coremap sentence : §7212 "covers all cases
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.029  
+ 0.158  
+ 0.446  
+ 0.316  
+ 0.050  
+
+		-----
+	outerSentence : It says something.
+		coremap sentence : It says something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.027  
+ 0.185  
+ 0.606  
+ 0.166  
+ 0.016  
+
+		-----
+	 outer Subject : It 	,	inner Subject : 7212 
+resolved as : (The Senate Report;, --)
+
+We have found nothing in the statute's history suggesting that Congress intended the Omnibus Clause as a catchall applicable to the entire Code including the routine processing of tax returns, receipt of tax payments, and issuance of tax refunds.
+	innerSentence :  Congress intended the Omnibus Clause as a catchall applicable to the entire Code including the routine processing of tax returns
+		coremap sentence : Congress intended the Omnibus Clause as a catchall applicable to the entire Code including the routine processing of tax returns
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.073  
+ 0.518  
+ 0.352  
+ 0.043  
+ 0.013  
+
+		-----
+	outerSentence : We suggesting something.
+		coremap sentence : We suggesting something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.020  
+ 0.181  
+ 0.656  
+ 0.133  
+ 0.010  
+
+		-----
+	 outer Subject : We 	,	inner Subject : Congress 
+resolved as : (--, Congress;)
+
+Such an individual may sometimes believe that, in doing so, he is running the risk of having violated an IRS rule, but we sincerely doubt he would believe he is facing a potential felony prosecution for tax obstruction.
+	innerSentence :  he is running the risk of having violated an IRS rule
+		coremap sentence : he is running the risk of having violated an IRS rule
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.110  
+ 0.642  
+ 0.239  
+ 0.006  
+ 0.003  
+
+		-----
+	outerSentence : individual may believe something.
+		coremap sentence : individual may believe something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.010  
+ 0.098  
+ 0.785  
+ 0.100  
+ 0.007  
+
+		-----
+	 outer Subject : individual 	,	inner Subject : he 
+resolved as : (--, --)
+
+
+The Government argues that the need to show the defendant's obstructive conduct was done "corruptly" will cure any overbreadth problem.
+	innerSentence :  the need to show the defendant's obstructive conduct was done "corruptly" will cure any overbreadth problem.
+		coremap sentence : the need to show the defendant's obstructive conduct was done "corruptly" will cure any overbreadth problem.
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.174  
+ 0.577  
+ 0.195  
+ 0.040  
+ 0.014  
+
+		-----
+	outerSentence : Government argues something.
+		coremap sentence : Government argues something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.043  
+ 0.255  
+ 0.494  
+ 0.172  
+ 0.035  
+
+		-----
+	 outer Subject : Government 	,	inner Subject : need 
+resolved as : (--, --)
+
+The Government asserts that "corruptly" means acting with "the specific intent to obtain an unlawful advantage" for the defendant or another.
+	innerSentence :  "corruptly" means acting with "the specific intent to obtain an unlawful advantage" for the defendant or another.
+		coremap sentence : "corruptly" means acting with "the specific intent to obtain an unlawful advantage" for the defendant or another.
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.078  
+ 0.461  
+ 0.299  
+ 0.133  
+ 0.029  
+
+		-----
+	outerSentence : Government asserts something.
+		coremap sentence : Government asserts something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.036  
+ 0.166  
+ 0.391  
+ 0.340  
+ 0.067  
+
+		-----
+	 outer Subject : Government 	,	inner Subject : none-innersubject
+resolved as : (--, --)
+
+See Cheek v. United States, 498 U. S. 192, 201 (1991) ("Willfulness . . . requires the Government to prove that the law imposed a duty on the defendant, that the defendant knew of this duty, and that he voluntarily and intentionally violated that duty") A taxpayer may know with a fair degree of certainty that her babysitter will not declare a cash payment as income--and, if so, a jury could readily find that the taxpayer acted to obtain an unlawful benefit for another.
+	innerSentence :  the law imposed a duty on the defendant
+		coremap sentence : the law imposed a duty on the defendant
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.046  
+ 0.394  
+ 0.445  
+ 0.100  
+ 0.015  
+
+		-----
+	outerSentence : none-outerSubject prove something.
+		coremap sentence : none-outerSubject prove something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.033  
+ 0.180  
+ 0.469  
+ 0.272  
+ 0.046  
+
+		-----
+	 outer Subject : none-outerSubject	,	inner Subject : law 
+resolved as : (--, --)
+See Cheek v. United States, 498 U. S. 192, 201 (1991) ("Willfulness . . . requires the Government to prove that the law imposed a duty on the defendant, that the defendant knew of this duty, and that he voluntarily and intentionally violated that duty") A taxpayer may know with a fair degree of certainty that her babysitter will not declare a cash payment as income--and, if so, a jury could readily find that the taxpayer acted to obtain an unlawful benefit for another.
+	innerSentence :  duty") A taxpayer may know with a fair degree of certainty that her babysitter will not declare a cash payment as income--and
+		coremap sentence : duty") A taxpayer may know with a fair degree of certainty that her babysitter will not declare a cash payment as income--and
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.080  
+ 0.592  
+ 0.276  
+ 0.039  
+ 0.012  
+
+		-----
+	outerSentence : he violated something.
+		coremap sentence : he violated something.
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.096  
+ 0.333  
+ 0.321  
+ 0.184  
+ 0.066  
+
+		-----
+	 outer Subject : he 	,	inner Subject : taxpayer 
+resolved as : (the defendant;the defendant 's;, --)
+See Cheek v. United States, 498 U. S. 192, 201 (1991) ("Willfulness . . . requires the Government to prove that the law imposed a duty on the defendant, that the defendant knew of this duty, and that he voluntarily and intentionally violated that duty") A taxpayer may know with a fair degree of certainty that her babysitter will not declare a cash payment as income--and, if so, a jury could readily find that the taxpayer acted to obtain an unlawful benefit for another.
+	innerSentence :  the taxpayer acted to obtain an unlawful benefit for another.
+		coremap sentence : the taxpayer acted to obtain an unlawful benefit for another.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.061  
+ 0.364  
+ 0.384  
+ 0.161  
+ 0.030  
+
+		-----
+	outerSentence : jury could find something.
+		coremap sentence : jury could find something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.043  
+ 0.349  
+ 0.492  
+ 0.102  
+ 0.015  
+
+		-----
+	 outer Subject : jury 	,	inner Subject : taxpayer 
+resolved as : (--, --)
+
+
+That is one reason why we have said that we "cannot construe a criminal statute on the assumption that the Government will 'use it responsibly.' "
+	innerSentence :  we "cannot construe a criminal statute on the assumption that the Government will 'use it responsibly.' "
+		coremap sentence : we "cannot construe a criminal statute on the assumption that the Government will 'use it responsibly.' "
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.053  
+ 0.382  
+ 0.512  
+ 0.044  
+ 0.009  
+
+		-----
+	outerSentence : we have said something.
+		coremap sentence : we have said something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.005  
+ 0.034  
+ 0.810  
+ 0.142  
+ 0.009  
+
+		-----
+	 outer Subject : we 	,	inner Subject : we 
+resolved as : (--, --)
+
+
+We conclude that, to secure a conviction under the Omnibus Clause, the Government must show (among other things) that there is a "nexus" between the defendant's conduct and a particular administrative proceeding, such as an investigation, an audit, or other targeted administrative action.
+	innerSentence :  the Government must show (among other things) that there is a "nexus" between the defendant's conduct and a particular administrative proceeding
+		coremap sentence : the Government must show (among other things) that there is a "nexus" between the defendant's conduct and a particular administrative proceeding
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.039  
+ 0.357  
+ 0.463  
+ 0.124  
+ 0.016  
+
+		-----
+	outerSentence : We conclude something.
+		coremap sentence : We conclude something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.044  
+ 0.272  
+ 0.425  
+ 0.226  
+ 0.033  
+
+		-----
+	 outer Subject : We 	,	inner Subject : Government 
+resolved as : (the IRS;, --)
+
+Just because a taxpayer knows that the IRS will review her tax return every year does not transform every violation of the Tax Code into an obstruction charge.
+	innerSentence :  the IRS will review her tax return every year does not transform every violation of the Tax Code into an obstruction charge.
+		coremap sentence : the IRS will review her tax return every year does not transform every violation of the Tax Code into an obstruction charge.
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.137  
+ 0.612  
+ 0.183  
+ 0.051  
+ 0.017  
+
+		-----
+	outerSentence : taxpayer knows something.
+		coremap sentence : taxpayer knows something.
+		sentiment : Positive
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.011  
+ 0.032  
+ 0.282  
+ 0.565  
+ 0.110  
+
+		-----
+	 outer Subject : taxpayer 	,	inner Subject : IRS 
+resolved as : (--, --)
+
+In addition to satisfying this nexus requirement, the Government must show that the proceeding was pending at the time the defendant engaged in the obstructive conduct or, at the least, was then reasonably foreseeable by the defendant.
+	innerSentence :  the proceeding was pending at the time the defendant engaged in the obstructive conduct or
+		coremap sentence : the proceeding was pending at the time the defendant engaged in the obstructive conduct or
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.030  
+ 0.292  
+ 0.587  
+ 0.080  
+ 0.011  
+
+		-----
+	outerSentence : Government must show something.
+		coremap sentence : Government must show something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.029  
+ 0.153  
+ 0.467  
+ 0.301  
+ 0.050  
+
+		-----
+	 outer Subject : Government 	,	inner Subject : proceeding 
+resolved as : (--, --)
+
+I would hold that the Omnibus Clause does what it says: forbid corrupt efforts to impede the IRS from performing any of these activities.
+	innerSentence :  the Omnibus Clause does
+		coremap sentence : the Omnibus Clause does
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.001  
+ 0.007  
+ 0.956  
+ 0.034  
+ 0.002  
+
+		-----
+	outerSentence : I would hold something.
+		coremap sentence : I would hold something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.014  
+ 0.076  
+ 0.512  
+ 0.363  
+ 0.034  
+
+		-----
+	 outer Subject : I 	,	inner Subject : Clause 
+resolved as : (--, --)
+
+
+The IRS learned that he had not filed a tax return--corporate or individual--since at least 1992.
+	innerSentence :  he had not filed a tax return--corporate or individual--since at least 1992.
+		coremap sentence : he had not filed a tax return--corporate or individual--since at least 1992.
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.073  
+ 0.526  
+ 0.361  
+ 0.031  
+ 0.009  
+
+		-----
+	outerSentence : IRS learned something.
+		coremap sentence : IRS learned something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.023  
+ 0.118  
+ 0.538  
+ 0.279  
+ 0.043  
+
+		-----
+	 outer Subject : IRS 	,	inner Subject : he 
+resolved as : (--, --)
+
+He admitted that he earned more than $1,000 per year, but said he " 'never got around' " to paying taxes.
+	innerSentence :  he earned more than $1
+		coremap sentence : he earned more than $1
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.020  
+ 0.162  
+ 0.635  
+ 0.166  
+ 0.016  
+
+		-----
+	outerSentence : He admitted something.
+		coremap sentence : He admitted something.
+		sentiment : Positive
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.011  
+ 0.064  
+ 0.287  
+ 0.597  
+ 0.041  
+
+		-----
+	 outer Subject : He 	,	inner Subject : he 
+resolved as : (Marinello;, Marinello;)
+
+He also admitted that he shredded documents, did not keep track of the company's income or expenses, and used the company's income for personal bills.
+	innerSentence :  he shredded documents
+		coremap sentence : he shredded documents
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.059  
+ 0.454  
+ 0.427  
+ 0.048  
+ 0.012  
+
+		-----
+	outerSentence : He admitted something.
+		coremap sentence : He admitted something.
+		sentiment : Positive
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.011  
+ 0.064  
+ 0.287  
+ 0.597  
+ 0.041  
+
+		-----
+	 outer Subject : He 	,	inner Subject : he 
+resolved as : (Marinello;, Marinello;)
+
+His only excuse was that he "took the easy way out."
+	innerSentence :  he "took the easy way out."
+		coremap sentence : he "took the easy way out."
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.009  
+ 0.069  
+ 0.845  
+ 0.071  
+ 0.006  
+
+		-----
+	outerSentence : only His excuse was something.
+		coremap sentence : only His excuse was something.
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.058  
+ 0.685  
+ 0.232  
+ 0.021  
+ 0.004  
+
+		-----
+	 outer Subject : only His excuse 	,	inner Subject : he 
+resolved as : (Marinello;, Marinello;)
+
+
+I also agree that the object of these words--the thing a person is prohibited from obstructing the due administration of--is "this title," i.e., Title 26, which contains the entire Tax Code.
+	innerSentence :  the object of these words--the thing a person is prohibited from obstructing the due administration of--is "this title
+		coremap sentence : the object of these words--the thing a person is prohibited from obstructing the due administration of--is "this title
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.047  
+ 0.522  
+ 0.394  
+ 0.032  
+ 0.005  
+
+		-----
+	outerSentence : I agree something.
+		coremap sentence : I agree something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.019  
+ 0.076  
+ 0.424  
+ 0.420  
+ 0.061  
+
+		-----
+	 outer Subject : I 	,	inner Subject : object 
+resolved as : (--, --)
+
+But I part ways when the Court concludes that the whole phrase "due administration of the Tax Code" means "only some of" the Tax Code--specifically "particular [IRS] proceeding[s], such as an investigation, an audit, or other targeted administrative action."
+	innerSentence :  the whole phrase "due administration of the Tax Code" means "only some of" the Tax Code--specifically "particular [IRS] proceeding[s]
+		coremap sentence : the whole phrase "due administration of the Tax Code" means "only some of" the Tax Code--specifically "particular [IRS] proceeding[s]
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.109  
+ 0.648  
+ 0.224  
+ 0.013  
+ 0.006  
+
+		-----
+	outerSentence : Court concludes something.
+		coremap sentence : Court concludes something.
+		sentiment : Positive
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.023  
+ 0.100  
+ 0.373  
+ 0.429  
+ 0.074  
+
+		-----
+	 outer Subject : Court 	,	inner Subject : whole phrase 
+resolved as : (--, --)
+
+It requires taxpayers to keep certain records and file certain returns, §6001; specifies that taxpayers with qualifying incomes must file returns, §6012; and authorizes the Secretary of the Treasury to create returns for taxpayers who fail to file returns or who file fraudulent ones, §6020.
+	innerSentence :  taxpayers with qualifying incomes must file returns
+		coremap sentence : taxpayers with qualifying incomes must file returns
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.082  
+ 0.424  
+ 0.214  
+ 0.224  
+ 0.055  
+
+		-----
+	outerSentence : none-outerSubject specifies something.
+		coremap sentence : none-outerSubject specifies something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.036  
+ 0.166  
+ 0.391  
+ 0.340  
+ 0.067  
+
+		-----
+	 outer Subject : none-outerSubject	,	inner Subject : taxpayers 
+resolved as : (--, --)
+
+It concludes that the statute prohibits only acts related to a pending or imminent proceeding.
+	innerSentence :  the statute prohibits only acts related to a pending or imminent proceeding.
+		coremap sentence : the statute prohibits only acts related to a pending or imminent proceeding.
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.089  
+ 0.592  
+ 0.287  
+ 0.025  
+ 0.008  
+
+		-----
+	outerSentence : It concludes something.
+		coremap sentence : It concludes something.
+		sentiment : Positive
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.013  
+ 0.049  
+ 0.374  
+ 0.506  
+ 0.058  
+
+		-----
+	 outer Subject : It 	,	inner Subject : statute 
+resolved as : (The Court;, --)
+
+The Omnibus Clause nowhere suggests that "only some of" the processes in the Tax Code are covered, ante, at 5, or that the line between covered and uncovered processes is drawn at some vague notion of "proceeding."
+	innerSentence :  "only some of" the processes in the Tax Code are covered
+		coremap sentence : "only some of" the processes in the Tax Code are covered
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.051  
+ 0.561  
+ 0.349  
+ 0.033  
+ 0.006  
+
+		-----
+	outerSentence : Clause suggests something.
+		coremap sentence : Clause suggests something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.001  
+ 0.012  
+ 0.981  
+ 0.007  
+ 0.000  
+
+		-----
+	 outer Subject : Clause 	,	inner Subject : some 
+resolved as : (--, --)
+
+This Court cannot "lightly assume that Congress has omitted from its adopted text requirements that it nonetheless intends to apply."
+	innerSentence :  Congress has omitted from its adopted text requirements that it nonetheless intends to apply."
+		coremap sentence : Congress has omitted from its adopted text requirements that it nonetheless intends to apply."
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.273  
+ 0.484  
+ 0.217  
+ 0.013  
+ 0.012  
+
+		-----
+	outerSentence : Court can not assume something.
+		coremap sentence : Court can not assume something.
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.098  
+ 0.539  
+ 0.294  
+ 0.050  
+ 0.018  
+
+		-----
+	 outer Subject : Court 	,	inner Subject : Congress 
+resolved as : (--, Congress;)
+
+First, the Court contends that the Omnibus Clause must be limited to pending or imminent proceedings because the other clauses of §7212 are limited to actions "taken against individual identifiable persons or property."
+	innerSentence :  the Omnibus Clause must be limited to pending or imminent proceedings because the other clauses of §7212 are limited to actions "taken against individual identifiable persons or property."
+		coremap sentence : the Omnibus Clause must be limited to pending or imminent proceedings because the other clauses of §7212 are limited to actions "taken against individual identifiable persons or property."
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.030  
+ 0.344  
+ 0.596  
+ 0.025  
+ 0.004  
+
+		-----
+	outerSentence : Court contends something.
+		coremap sentence : Court contends something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.036  
+ 0.166  
+ 0.391  
+ 0.340  
+ 0.067  
+
+		-----
+	 outer Subject : Court 	,	inner Subject : Clause 
+resolved as : (--, --)
+
+See Ali v. Federal Bureau of Prisons, 552 U. S. 214, 225 (2008) (explaining that the ejusdem generis canon does not apply to a "disjunctive" phrase in a statute "with one specific and one general category").
+	innerSentence :  the ejusdem generis canon does not apply to a "disjunctive" phrase in a statute "with one specific and one general category").
+		coremap sentence : the ejusdem generis canon does not apply to a "disjunctive" phrase in a statute "with one specific and one general category").
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.060  
+ 0.416  
+ 0.414  
+ 0.092  
+ 0.018  
+
+		-----
+	outerSentence : none-outerSubject explaining something.
+		coremap sentence : none-outerSubject explaining something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.028  
+ 0.156  
+ 0.506  
+ 0.270  
+ 0.041  
+
+		-----
+	 outer Subject : none-outerSubject	,	inner Subject : ejusdem 
+resolved as : (--, --)
+
+Second, the Court asserts that its reading prevents the Omnibus Clause from overlapping with certain misdemeanors in the Tax Code.
+	innerSentence :  its reading prevents the Omnibus Clause from overlapping with certain misdemeanors in the Tax Code.
+		coremap sentence : its reading prevents the Omnibus Clause from overlapping with certain misdemeanors in the Tax Code.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.035  
+ 0.433  
+ 0.511  
+ 0.018  
+ 0.003  
+
+		-----
+	outerSentence : Court asserts something.
+		coremap sentence : Court asserts something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.036  
+ 0.166  
+ 0.391  
+ 0.340  
+ 0.067  
+
+		-----
+	 outer Subject : Court 	,	inner Subject : its reading 
+resolved as : (--, the Court;)
+
+The Omnibus Clause requires that an act be done "corruptly," but the misdemeanor provisions require that an act be done "willfully."
+	innerSentence :  an act be done "corruptly
+		coremap sentence : an act be done "corruptly
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.077  
+ 0.568  
+ 0.280  
+ 0.061  
+ 0.013  
+
+		-----
+	outerSentence : Clause requires something.
+		coremap sentence : Clause requires something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.032  
+ 0.267  
+ 0.663  
+ 0.032  
+ 0.006  
+
+		-----
+	 outer Subject : Clause 	,	inner Subject : act 
+resolved as : (--, --)
+The Omnibus Clause requires that an act be done "corruptly," but the misdemeanor provisions require that an act be done "willfully."
+	innerSentence :  an act be done "willfully."
+		coremap sentence : an act be done "willfully."
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.014  
+ 0.131  
+ 0.727  
+ 0.119  
+ 0.009  
+
+		-----
+	outerSentence : provisions require something.
+		coremap sentence : provisions require something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.043  
+ 0.289  
+ 0.457  
+ 0.178  
+ 0.033  
+
+		-----
+	 outer Subject : provisions 	,	inner Subject : act 
+resolved as : (--, --)
+
+
+
+2d, Criminal Law §114 (2016) (explaining that specific intent requires both knowledge and purpose).
+	innerSentence :  specific intent requires both knowledge and purpose).
+		coremap sentence : specific intent requires both knowledge and purpose).
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.061  
+ 0.433  
+ 0.428  
+ 0.065  
+ 0.014  
+
+		-----
+	outerSentence : none-outerSubject explaining something.
+		coremap sentence : none-outerSubject explaining something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.028  
+ 0.156  
+ 0.506  
+ 0.270  
+ 0.041  
+
+		-----
+	 outer Subject : none-outerSubject	,	inner Subject : specific intent 
+resolved as : (--, --)
+
+The law recognizes that the same conduct, when committed with a higher mens rea, is more culpable and thus more deserving of punishment.
+	innerSentence :  is more culpable and thus more deserving of punishment.
+		coremap sentence : is more culpable and thus more deserving of punishment.
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.121  
+ 0.628  
+ 0.217  
+ 0.024  
+ 0.010  
+
+		-----
+	outerSentence : law recognizes something.
+		coremap sentence : law recognizes something.
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.067  
+ 0.425  
+ 0.425  
+ 0.065  
+ 0.017  
+
+		-----
+	 outer Subject : law 	,	inner Subject : same conduct 
+resolved as : (--, --)
+
+See, e.g., 40 C. J. S., Homicide §80 (2014) (explaining that the distinction between first- and second-degree murder is based on the defendant's state of mind); §103 (same for voluntary and involuntary manslaughter).
+	innerSentence :  the distinction between first- and second-degree murder is based on the defendant's state of mind); §103 (same for voluntary and involuntary manslaughter).
+		coremap sentence : the distinction between first- and second-degree murder is based on the defendant's state of mind); §103 (same for voluntary and involuntary manslaughter).
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.138  
+ 0.695  
+ 0.150  
+ 0.011  
+ 0.006  
+
+		-----
+	outerSentence : none-outerSubject explaining something.
+		coremap sentence : none-outerSubject explaining something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.028  
+ 0.156  
+ 0.506  
+ 0.270  
+ 0.041  
+
+		-----
+	 outer Subject : none-outerSubject	,	inner Subject : distinction 
+resolved as : (--, --)
+
+
+The Court contends that its narrow reading of "due administration of this title" is supported by three decisions interpreting other obstruction statutes, though it admits that the "language and history" of the Omnibus Clause "differ somewhat" from those other obstruction provisions.
+	innerSentence :  its narrow reading of "due administration of this title" is supported by three decisions interpreting other obstruction statutes
+		coremap sentence : its narrow reading of "due administration of this title" is supported by three decisions interpreting other obstruction statutes
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.087  
+ 0.711  
+ 0.187  
+ 0.011  
+ 0.004  
+
+		-----
+	outerSentence : Court contends something.
+		coremap sentence : Court contends something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.036  
+ 0.166  
+ 0.391  
+ 0.340  
+ 0.067  
+
+		-----
+	 outer Subject : Court 	,	inner Subject : narrow its reading 
+resolved as : (--, The Court;the Court 's;)
+The Court contends that its narrow reading of "due administration of this title" is supported by three decisions interpreting other obstruction statutes, though it admits that the "language and history" of the Omnibus Clause "differ somewhat" from those other obstruction provisions.
+	innerSentence :  the "language and history" of the Omnibus Clause "differ somewhat" from those other obstruction provisions.
+		coremap sentence : the "language and history" of the Omnibus Clause "differ somewhat" from those other obstruction provisions.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.046  
+ 0.373  
+ 0.461  
+ 0.108  
+ 0.012  
+
+		-----
+	outerSentence : it admits something.
+		coremap sentence : it admits something.
+		sentiment : Positive
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.018  
+ 0.086  
+ 0.409  
+ 0.441  
+ 0.045  
+
+		-----
+	 outer Subject : it 	,	inner Subject : language 
+resolved as : (The Court;the Court 's;, --)
+
+The Court concluded that this language requires the prosecution to prove a "nexus" between the defendant's obstructive act and "judicial proceedings."
+	innerSentence :  this language requires the prosecution to prove a "nexus" between the defendant's obstructive act and "judicial proceedings."
+		coremap sentence : this language requires the prosecution to prove a "nexus" between the defendant's obstructive act and "judicial proceedings."
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.112  
+ 0.665  
+ 0.211  
+ 0.009  
+ 0.004  
+
+		-----
+	outerSentence : Court concluded something.
+		coremap sentence : Court concluded something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.036  
+ 0.166  
+ 0.391  
+ 0.340  
+ 0.067  
+
+		-----
+	 outer Subject : Court 	,	inner Subject : language 
+resolved as : (--, --)
+
+Based on this statutory history, the Court assumed that §1503 continued to refer to the administration of justice in a court.
+	innerSentence :  §1503 continued to refer to the administration of justice in a court.
+		coremap sentence : §1503 continued to refer to the administration of justice in a court.
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.071  
+ 0.338  
+ 0.312  
+ 0.222  
+ 0.057  
+
+		-----
+	outerSentence : Court assumed something.
+		coremap sentence : Court assumed something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.036  
+ 0.166  
+ 0.391  
+ 0.340  
+ 0.067  
+
+		-----
+	 outer Subject : Court 	,	inner Subject : 1503 
+resolved as : (--, 1503;)
+
+Relying on Aguilar, the Court concluded that §1512(b)(2)(A) required the Government to show a "nexus" with "[a] particular proceeding."
+	innerSentence :  §1512(b)(2)(A) required the Government to show a "nexus" with "[a] particular proceeding."
+		coremap sentence : §1512(b)(2)(A) required the Government to show a "nexus" with "[a] particular proceeding."
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.178  
+ 0.665  
+ 0.127  
+ 0.018  
+ 0.012  
+
+		-----
+	outerSentence : Court concluded something.
+		coremap sentence : Court concluded something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.036  
+ 0.166  
+ 0.391  
+ 0.340  
+ 0.067  
+
+		-----
+	 outer Subject : Court 	,	inner Subject : 1512 
+resolved as : (--, 1512;)
+
+If anything, then, §1512(b)(2)(A) cuts against the Court's interpretation of the Omnibus Clause because it shows that Congress knows how to impose a "proceeding" requirement when it wants to do so.
+	innerSentence :  Congress knows
+		coremap sentence : Congress knows
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.017  
+ 0.092  
+ 0.655  
+ 0.207  
+ 0.029  
+
+		-----
+	outerSentence : it shows something.
+		coremap sentence : it shows something.
+		sentiment : Positive
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.007  
+ 0.030  
+ 0.320  
+ 0.604  
+ 0.039  
+
+		-----
+	 outer Subject : it 	,	inner Subject : Congress 
+resolved as : (Congress;, Congress;)
+
+The four Justices in the plurality recognized that this language made §1519 broader than other obstruction statutes: Section 1519 "covers conduct intended to impede any federal investigation or proceeding, including one not even on the verge of commencement."
+	innerSentence :  this language made §1519 broader than other obstruction statutes
+		coremap sentence : this language made §1519 broader than other obstruction statutes
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.097  
+ 0.575  
+ 0.236  
+ 0.074  
+ 0.017  
+
+		-----
+	outerSentence : Justices recognized something.
+		coremap sentence : Justices recognized something.
+		sentiment : Positive
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.089  
+ 0.281  
+ 0.225  
+ 0.295  
+ 0.110  
+
+		-----
+	 outer Subject : Justices 	,	inner Subject : language 
+resolved as : (--, --)
+
+The plurality contrasted the term "official proceeding" with the phrase "investigation or proper administration of any matter within the jurisdiction of any department or agency," noting that the latter is broader.
+	innerSentence :  the latter is broader.
+		coremap sentence : the latter is broader.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.024  
+ 0.119  
+ 0.496  
+ 0.320  
+ 0.041  
+
+		-----
+	outerSentence : plurality noting something.
+		coremap sentence : plurality noting something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.028  
+ 0.144  
+ 0.491  
+ 0.294  
+ 0.044  
+
+		-----
+	 outer Subject : plurality 	,	inner Subject : latter 
+resolved as : (--, --)
+
+In sum, these cases demonstrate that, when text and history justify it, this Court interprets obstruction statutes to include a proceeding requirement.
+	innerSentence :  this Court interprets obstruction statutes to include a proceeding requirement.
+		coremap sentence : this Court interprets obstruction statutes to include a proceeding requirement.
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.078  
+ 0.502  
+ 0.358  
+ 0.048  
+ 0.013  
+
+		-----
+	outerSentence : cases demonstrate something.
+		coremap sentence : cases demonstrate something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.013  
+ 0.072  
+ 0.714  
+ 0.177  
+ 0.024  
+
+		-----
+	 outer Subject : cases 	,	inner Subject : Court 
+resolved as : (--, --)
+
+If the Court is concerned that the Omnibus Clause does not give defendants "fair warning" of what it prohibits, ante, at 7, I am hard pressed to see how today's decision makes things better.
+	innerSentence :  the Omnibus Clause does not give defendants "fair warning" of
+		coremap sentence : the Omnibus Clause does not give defendants "fair warning" of
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.050  
+ 0.559  
+ 0.349  
+ 0.036  
+ 0.006  
+
+		-----
+	outerSentence : Court is concerned something.
+		coremap sentence : Court is concerned something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.023  
+ 0.111  
+ 0.463  
+ 0.351  
+ 0.051  
+
+		-----
+	 outer Subject : Court 	,	inner Subject : Clause 
+resolved as : (--, --)
+
+Further, the Government must prove that the proceeding was "reasonably foreseeable" to the defendant.
+	innerSentence :  the proceeding was "reasonably foreseeable" to the defendant.
+		coremap sentence : the proceeding was "reasonably foreseeable" to the defendant.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.041  
+ 0.349  
+ 0.492  
+ 0.103  
+ 0.015  
+
+		-----
+	outerSentence : Government must prove something.
+		coremap sentence : Government must prove something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.037  
+ 0.214  
+ 0.474  
+ 0.233  
+ 0.041  
+
+		-----
+	 outer Subject : Government 	,	inner Subject : proceeding 
+resolved as : (--, --)
+
+Congress may well have concluded that a broad statute was warranted because "our tax structure is based on a system of self-reporting" and "the Government depends upon the good faith and integrity of each potential taxpayer to disclose honestly all information relevant to tax liability."
+	innerSentence :  a broad statute was warranted because "our tax structure is based on a system of self-reporting" and "the Government depends upon the good faith and integrity of each potential taxpayer to disclose honestly all information relevant to tax liability."
+		coremap sentence : a broad statute was warranted because "our tax structure is based on a system of self-reporting" and "the Government depends upon the good faith and integrity of each potential taxpayer to disclose honestly all information relevant to tax liability."
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.074  
+ 0.502  
+ 0.350  
+ 0.060  
+ 0.014  
+
+		-----
+	outerSentence : Congress may concluded something.
+		coremap sentence : Congress may concluded something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.038  
+ 0.208  
+ 0.447  
+ 0.262  
+ 0.046  
+
+		-----
+	 outer Subject : Congress 	,	inner Subject : broad statute 
+resolved as : (Congress;Congress enacted;, --)
+
+The Court frets that the Omnibus Clause might apply to "a person who pays a babysitter $41 per week in cash without withholding taxes," "leaves a large cash tip in a restaurant," "fails to keep donation receipts from every charity," or "fails to provide every record to an accountant."
+	innerSentence :  the Omnibus Clause might apply to "a person
+		coremap sentence : the Omnibus Clause might apply to "a person
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.007  
+ 0.097  
+ 0.774  
+ 0.116  
+ 0.005  
+
+		-----
+	outerSentence : Court frets something.
+		coremap sentence : Court frets something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.036  
+ 0.166  
+ 0.391  
+ 0.340  
+ 0.067  
+
+		-----
+	 outer Subject : Court 	,	inner Subject : Clause 
+resolved as : (--, --)
+
+But what should not be debatable is that the statute covers Marinello, who systematically shredded documents and hid evidence about his company's earnings to avoid paying taxes even after warnings from his lawyer and accountant.
+	innerSentence :  the statute covers Marinello
+		coremap sentence : the statute covers Marinello
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.019  
+ 0.144  
+ 0.563  
+ 0.252  
+ 0.021  
+
+		-----
+	outerSentence : none-outerSubject is something.
+		coremap sentence : none-outerSubject is something.
+		sentiment : Positive
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.021  
+ 0.094  
+ 0.404  
+ 0.416  
+ 0.065  
+
+		-----
+	 outer Subject : none-outerSubject	,	inner Subject : statute 
+resolved as : (--, --)
+
+

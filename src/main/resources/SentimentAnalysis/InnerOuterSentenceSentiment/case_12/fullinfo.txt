@@ -1,0 +1,1038 @@
+He argued that, due to several recent strokes, he has become incompetent to be executed.
+	innerSentence :  he has become incompetent to be executed.
+		coremap sentence : he has become incompetent to be executed.
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.095  
+ 0.461  
+ 0.345  
+ 0.075  
+ 0.024  
+
+		-----
+	outerSentence : He argued something.
+		coremap sentence : He argued something.
+		sentiment : Positive
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.017  
+ 0.080  
+ 0.239  
+ 0.601  
+ 0.064  
+
+		-----
+	 outer Subject : He 	,	inner Subject : he 
+resolved as : (Madison;Madison 's;, Madison;Madison 's;)
+
+
+Asked at the hearing whether Madison understands that Alabama is seeking retribution against him for his criminal act, Dr. Kirkland answered, "Certainly."
+	innerSentence :  Alabama is seeking retribution against him for his criminal act
+		coremap sentence : Alabama is seeking retribution against him for his criminal act
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.032  
+ 0.250  
+ 0.664  
+ 0.046  
+ 0.009  
+
+		-----
+	outerSentence : Madison understands something.
+		coremap sentence : Madison understands something.
+		sentiment : Positive
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.009  
+ 0.026  
+ 0.334  
+ 0.530  
+ 0.101  
+
+		-----
+	 outer Subject : Madison 	,	inner Subject : Alabama 
+resolved as : (Madison;Madison 's;, --)
+
+Dr. John Goff, a psychologist hired by Madison's counsel, reported that Madison's strokes have rendered him unable to remember "numerous events that have occurred over the past thirty years or more."
+	innerSentence :  Madison's strokes have rendered him unable to remember "numerous events
+		coremap sentence : Madison's strokes have rendered him unable to remember "numerous events
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.119  
+ 0.674  
+ 0.184  
+ 0.016  
+ 0.007  
+
+		-----
+	outerSentence : Goff reported something.
+		coremap sentence : Goff reported something.
+		sentiment : Positive
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.021  
+ 0.093  
+ 0.409  
+ 0.410  
+ 0.066  
+
+		-----
+	 outer Subject : Goff 	,	inner Subject : Madison 's strokes 
+resolved as : (--, --)
+
+Nevertheless, Dr. Goff found that Madison "is able to understand the nature of the pending proceeding and he has an understanding of what he was tried for"; that he knows he is "in prison . . . because of 'murder' "; that he "understands that . . . [Alabama is] seeking retribution" for that crime; and that he "understands the sentence, specifically the meaning of a death sentence."
+	innerSentence :  Madison "is able to understand the nature of the pending proceeding and he has an understanding of
+		coremap sentence : Madison "is able to understand the nature of the pending proceeding and he has an understanding of
+		sentiment : Positive
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.002  
+ 0.005  
+ 0.073  
+ 0.792  
+ 0.128  
+
+		-----
+	outerSentence : Goff found something.
+		coremap sentence : Goff found something.
+		sentiment : Positive
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.015  
+ 0.052  
+ 0.354  
+ 0.496  
+ 0.082  
+
+		-----
+	 outer Subject : Goff 	,	inner Subject : Madison 
+resolved as : (--, Dr. Goff;Dr. Goff 's;Madison;Madison 's;)
+
+In Dr. Goff's opinion, however, Madison does not "understan[d] the act that . . . he is being punished for" because he cannot recall "the sequence of events from the offense to his arrest to the trial or any of those details" and believes that he "never went around killing folks."
+	innerSentence :  he "never went around killing folks."
+		coremap sentence : he "never went around killing folks."
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.032  
+ 0.280  
+ 0.653  
+ 0.029  
+ 0.006  
+
+		-----
+	outerSentence : none-outerSubject believes something.
+		coremap sentence : none-outerSubject believes something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.018  
+ 0.078  
+ 0.424  
+ 0.418  
+ 0.062  
+
+		-----
+	 outer Subject : none-outerSubject	,	inner Subject : he 
+resolved as : (--, Dr. Goff;Dr. Goff 's;Madison;Madison 's;)
+
+It held that, under this Court's decisions in Ford v. Wainwright, 477 U. S. 399 (1986), and Panetti v. Quarterman, 551 U. S. 930 (2007), Madison was entitled to relief if he could show that he "suffers from a mental illness which deprives [him] of the mental capacity to rationally understand that he is being executed as a punishment for a crime."
+	innerSentence :  Madison was entitled to relief if he could show that he "suffers from a mental illness
+		coremap sentence : Madison was entitled to relief if he could show that he "suffers from a mental illness
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.045  
+ 0.341  
+ 0.488  
+ 0.105  
+ 0.021  
+
+		-----
+	outerSentence : It held something.
+		coremap sentence : It held something.
+		sentiment : Positive
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.009  
+ 0.031  
+ 0.361  
+ 0.543  
+ 0.056  
+
+		-----
+	 outer Subject : It 	,	inner Subject : S. 
+resolved as : (The court;The trial court;, --)
+It held that, under this Court's decisions in Ford v. Wainwright, 477 U. S. 399 (1986), and Panetti v. Quarterman, 551 U. S. 930 (2007), Madison was entitled to relief if he could show that he "suffers from a mental illness which deprives [him] of the mental capacity to rationally understand that he is being executed as a punishment for a crime."
+	innerSentence :  he "suffers from a mental illness
+		coremap sentence : he "suffers from a mental illness
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.008  
+ 0.047  
+ 0.753  
+ 0.179  
+ 0.014  
+
+		-----
+	outerSentence : he could show something.
+		coremap sentence : he could show something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.009  
+ 0.071  
+ 0.804  
+ 0.107  
+ 0.009  
+
+		-----
+	 outer Subject : he 	,	inner Subject : he 
+resolved as : (Madison;Madison 's;, Madison;Madison 's;)
+It held that, under this Court's decisions in Ford v. Wainwright, 477 U. S. 399 (1986), and Panetti v. Quarterman, 551 U. S. 930 (2007), Madison was entitled to relief if he could show that he "suffers from a mental illness which deprives [him] of the mental capacity to rationally understand that he is being executed as a punishment for a crime."
+	innerSentence :  he is being executed as a punishment for a crime."
+		coremap sentence : he is being executed as a punishment for a crime."
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.045  
+ 0.382  
+ 0.547  
+ 0.020  
+ 0.006  
+
+		-----
+	outerSentence : none-outerSubject understand something.
+		coremap sentence : none-outerSubject understand something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.026  
+ 0.128  
+ 0.418  
+ 0.374  
+ 0.055  
+
+		-----
+	 outer Subject : none-outerSubject	,	inner Subject : he 
+resolved as : (--, Madison;Madison 's;)
+
+The court concluded that Madison had failed to make that showing.
+	innerSentence :  Madison had failed to make that showing.
+		coremap sentence : Madison had failed to make that showing.
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.148  
+ 0.577  
+ 0.213  
+ 0.042  
+ 0.020  
+
+		-----
+	outerSentence : court concluded something.
+		coremap sentence : court concluded something.
+		sentiment : Positive
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.028  
+ 0.145  
+ 0.232  
+ 0.525  
+ 0.070  
+
+		-----
+	 outer Subject : court 	,	inner Subject : Madison 
+resolved as : (--, Madison;Madison 's;)
+
+Specifically, it found that Madison understands "that he is going to be executed because of the murder he committed[,] . . . that the State is seeking retribution[,] and that he will die when he is executed."
+	innerSentence :  Madison understands "that he is going to be executed because of the murder he committed[
+		coremap sentence : Madison understands "that he is going to be executed because of the murder he committed[
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.032  
+ 0.184  
+ 0.458  
+ 0.281  
+ 0.045  
+
+		-----
+	outerSentence : it found something.
+		coremap sentence : it found something.
+		sentiment : Positive
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.004  
+ 0.013  
+ 0.281  
+ 0.660  
+ 0.043  
+
+		-----
+	 outer Subject : it 	,	inner Subject : Madison 
+resolved as : (The court;The trial court;, Madison;Madison 's;)
+
+A habeas petitioner meets this demanding standard only when he shows that the state court's decision was "so lacking in justification that there was an error well understood and comprehended in existing law beyond any possibility for fairminded disagreement."
+	innerSentence :  the state court's decision was "so lacking in justification that there was an error well understood and comprehended in existing law beyond any possibility for fairminded disagreement."
+		coremap sentence : the state court's decision was "so lacking in justification that there was an error well understood and comprehended in existing law beyond any possibility for fairminded disagreement."
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.237  
+ 0.510  
+ 0.232  
+ 0.012  
+ 0.009  
+
+		-----
+	outerSentence : he shows something.
+		coremap sentence : he shows something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.005  
+ 0.019  
+ 0.529  
+ 0.416  
+ 0.030  
+
+		-----
+	 outer Subject : he 	,	inner Subject : court 's decision 
+resolved as : (A habeas petitioner;, --)
+
+
+In the majority's view, given the undisputed fact that Madison "has no memory of his capital offense," it inescapably follows that he "does not rationally understand the connection between his crime and his execution."
+	innerSentence :  he "does not rationally understand the connection between his crime and his execution."
+		coremap sentence : he "does not rationally understand the connection between his crime and his execution."
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.079  
+ 0.501  
+ 0.399  
+ 0.015  
+ 0.006  
+
+		-----
+	outerSentence : it follows something.
+		coremap sentence : it follows something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.013  
+ 0.094  
+ 0.632  
+ 0.244  
+ 0.016  
+
+		-----
+	 outer Subject : it 	,	inner Subject : he 
+resolved as : (The Eleventh Circuit;the Eleventh Circuit;the majority 's;, Madison;)
+
+On that basis, the Eleventh Circuit held that the trial court's conclusion that Madison is competent to be executed was "plainly unreasonable" and "cannot be reconciled with any reasonable application of Panetti."
+	innerSentence :  the trial court's conclusion that Madison is competent to be executed was "plainly unreasonable" and "cannot be reconciled with any reasonable application of Panetti."
+		coremap sentence : the trial court's conclusion that Madison is competent to be executed was "plainly unreasonable" and "cannot be reconciled with any reasonable application of Panetti."
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.054  
+ 0.364  
+ 0.360  
+ 0.192  
+ 0.030  
+
+		-----
+	outerSentence : Circuit held something.
+		coremap sentence : Circuit held something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.004  
+ 0.029  
+ 0.828  
+ 0.129  
+ 0.010  
+
+		-----
+	 outer Subject : Circuit 	,	inner Subject : court 's conclusion 
+resolved as : (--, --)
+
+In Panetti, this Court addressed the question whether the Eighth Amendment forbids the execution of a prisoner who lacks "the mental capacity to understand that [he] is being executed as a punishment for a crime."
+	innerSentence :  [he] is being executed as a punishment for a crime."
+		coremap sentence : [he] is being executed as a punishment for a crime."
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.068  
+ 0.465  
+ 0.401  
+ 0.051  
+ 0.015  
+
+		-----
+	outerSentence : none-outerSubject understand something.
+		coremap sentence : none-outerSubject understand something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.026  
+ 0.128  
+ 0.418  
+ 0.374  
+ 0.055  
+
+		-----
+	 outer Subject : none-outerSubject	,	inner Subject : he 
+resolved as : (--, --)
+
+We noted that the retributive purpose of capital punishment is not well served where "the prisoner's mental state is so distorted by a mental illness that his awareness of the crime and punishment has little or no relationship to the understanding of those concepts shared by the community as a whole."
+	innerSentence :  the retributive purpose of capital punishment is not well served
+		coremap sentence : the retributive purpose of capital punishment is not well served
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.097  
+ 0.636  
+ 0.234  
+ 0.023  
+ 0.011  
+
+		-----
+	outerSentence : We noted something.
+		coremap sentence : We noted something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.044  
+ 0.272  
+ 0.425  
+ 0.226  
+ 0.033  
+
+		-----
+	 outer Subject : We 	,	inner Subject : retributive purpose 
+resolved as : (Panetti and Ford;, --)
+
+The state court did not unreasonably apply Panetti and Ford when it determined that Madison is competent to be executed because--notwithstanding his memory loss--he recognizes that he will be put to death as punishment for the murder he was found to have committed.
+	innerSentence :  Madison is competent to be executed because--notwithstanding his memory loss--he recognizes that he will be put to death as punishment for the murder he was found to have committed.
+		coremap sentence : Madison is competent to be executed because--notwithstanding his memory loss--he recognizes that he will be put to death as punishment for the murder he was found to have committed.
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.097  
+ 0.403  
+ 0.309  
+ 0.144  
+ 0.047  
+
+		-----
+	outerSentence : it determined something.
+		coremap sentence : it determined something.
+		sentiment : Positive
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.004  
+ 0.014  
+ 0.330  
+ 0.618  
+ 0.035  
+
+		-----
+	 outer Subject : it 	,	inner Subject : Madison 
+resolved as : (The state court;, Madison;)
+The state court did not unreasonably apply Panetti and Ford when it determined that Madison is competent to be executed because--notwithstanding his memory loss--he recognizes that he will be put to death as punishment for the murder he was found to have committed.
+	innerSentence :  he will be put to death as punishment for the murder he was found to have committed.
+		coremap sentence : he will be put to death as punishment for the murder he was found to have committed.
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.088  
+ 0.513  
+ 0.342  
+ 0.043  
+ 0.013  
+
+		-----
+	outerSentence : he recognizes something.
+		coremap sentence : he recognizes something.
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.089  
+ 0.383  
+ 0.374  
+ 0.117  
+ 0.038  
+
+		-----
+	 outer Subject : he 	,	inner Subject : he 
+resolved as : (Madison;, Madison;)
+
+As I have previously noted, this Court once said that delays in execution can produce uncertainty amounting to " 'one of the most horrible feelings to which' " a prisoner " 'can be subjected.' "
+	innerSentence :  delays in execution can produce uncertainty amounting to " 'one of the most horrible feelings to
+		coremap sentence : delays in execution can produce uncertainty amounting to " 'one of the most horrible feelings to
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.158  
+ 0.604  
+ 0.219  
+ 0.013  
+ 0.007  
+
+		-----
+	outerSentence : Court said something.
+		coremap sentence : Court said something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.027  
+ 0.147  
+ 0.491  
+ 0.292  
+ 0.044  
+
+		-----
+	 outer Subject : Court 	,	inner Subject : delays 
+resolved as : (--, --)
+
+Justice Stevens later observed that the delay in Medley was a delay of four weeks.
+	innerSentence :  the delay in Medley was a delay of four weeks.
+		coremap sentence : the delay in Medley was a delay of four weeks.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.042  
+ 0.302  
+ 0.402  
+ 0.226  
+ 0.028  
+
+		-----
+	outerSentence : Stevens observed something.
+		coremap sentence : Stevens observed something.
+		sentiment : Positive
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.006  
+ 0.022  
+ 0.227  
+ 0.676  
+ 0.068  
+
+		-----
+	 outer Subject : Stevens 	,	inner Subject : delay 
+resolved as : (--, --)
+
+And he wrote that the Medley description "should apply with even greater force in the case of delays that last for many years."
+	innerSentence :  the Medley description "should apply with even greater force in the case of delays that last for many years."
+		coremap sentence : the Medley description "should apply with even greater force in the case of delays that last for many years."
+		sentiment : Positive
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.016  
+ 0.058  
+ 0.197  
+ 0.640  
+ 0.089  
+
+		-----
+	outerSentence : he wrote something.
+		coremap sentence : he wrote something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.006  
+ 0.038  
+ 0.823  
+ 0.124  
+ 0.009  
+
+		-----
+	 outer Subject : he 	,	inner Subject : description 
+resolved as : (--, --)
+
+He argued that, due to several recent strokes, he has become incompetent to be executed.
+	innerSentence :  he has become incompetent to be executed.
+		coremap sentence : he has become incompetent to be executed.
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.095  
+ 0.461  
+ 0.345  
+ 0.075  
+ 0.024  
+
+		-----
+	outerSentence : He argued something.
+		coremap sentence : He argued something.
+		sentiment : Positive
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.017  
+ 0.080  
+ 0.239  
+ 0.601  
+ 0.064  
+
+		-----
+	 outer Subject : He 	,	inner Subject : he 
+resolved as : (Madison;Madison 's;, Madison;Madison 's;)
+
+
+Asked at the hearing whether Madison understands that Alabama is seeking retribution against him for his criminal act, Dr. Kirkland answered, "Certainly."
+	innerSentence :  Alabama is seeking retribution against him for his criminal act
+		coremap sentence : Alabama is seeking retribution against him for his criminal act
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.032  
+ 0.250  
+ 0.664  
+ 0.046  
+ 0.009  
+
+		-----
+	outerSentence : Madison understands something.
+		coremap sentence : Madison understands something.
+		sentiment : Positive
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.009  
+ 0.026  
+ 0.334  
+ 0.530  
+ 0.101  
+
+		-----
+	 outer Subject : Madison 	,	inner Subject : Alabama 
+resolved as : (Madison;Madison 's;, --)
+
+Dr. John Goff, a psychologist hired by Madison's counsel, reported that Madison's strokes have rendered him unable to remember "numerous events that have occurred over the past thirty years or more."
+	innerSentence :  Madison's strokes have rendered him unable to remember "numerous events
+		coremap sentence : Madison's strokes have rendered him unable to remember "numerous events
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.119  
+ 0.674  
+ 0.184  
+ 0.016  
+ 0.007  
+
+		-----
+	outerSentence : Goff reported something.
+		coremap sentence : Goff reported something.
+		sentiment : Positive
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.021  
+ 0.093  
+ 0.409  
+ 0.410  
+ 0.066  
+
+		-----
+	 outer Subject : Goff 	,	inner Subject : Madison 's strokes 
+resolved as : (--, --)
+
+Nevertheless, Dr. Goff found that Madison "is able to understand the nature of the pending proceeding and he has an understanding of what he was tried for"; that he knows he is "in prison . . . because of 'murder' "; that he "understands that . . . [Alabama is] seeking retribution" for that crime; and that he "understands the sentence, specifically the meaning of a death sentence."
+	innerSentence :  Madison "is able to understand the nature of the pending proceeding and he has an understanding of
+		coremap sentence : Madison "is able to understand the nature of the pending proceeding and he has an understanding of
+		sentiment : Positive
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.002  
+ 0.005  
+ 0.073  
+ 0.792  
+ 0.128  
+
+		-----
+	outerSentence : Goff found something.
+		coremap sentence : Goff found something.
+		sentiment : Positive
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.015  
+ 0.052  
+ 0.354  
+ 0.496  
+ 0.082  
+
+		-----
+	 outer Subject : Goff 	,	inner Subject : Madison 
+resolved as : (--, Dr. Goff;Dr. Goff 's;Madison;Madison 's;)
+
+In Dr. Goff's opinion, however, Madison does not "understan[d] the act that . . . he is being punished for" because he cannot recall "the sequence of events from the offense to his arrest to the trial or any of those details" and believes that he "never went around killing folks."
+	innerSentence :  he "never went around killing folks."
+		coremap sentence : he "never went around killing folks."
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.032  
+ 0.280  
+ 0.653  
+ 0.029  
+ 0.006  
+
+		-----
+	outerSentence : none-outerSubject believes something.
+		coremap sentence : none-outerSubject believes something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.018  
+ 0.078  
+ 0.424  
+ 0.418  
+ 0.062  
+
+		-----
+	 outer Subject : none-outerSubject	,	inner Subject : he 
+resolved as : (--, Dr. Goff;Dr. Goff 's;Madison;Madison 's;)
+
+It held that, under this Court's decisions in Ford v. Wainwright, 477 U. S. 399 (1986), and Panetti v. Quarterman, 551 U. S. 930 (2007), Madison was entitled to relief if he could show that he "suffers from a mental illness which deprives [him] of the mental capacity to rationally understand that he is being executed as a punishment for a crime."
+	innerSentence :  Madison was entitled to relief if he could show that he "suffers from a mental illness
+		coremap sentence : Madison was entitled to relief if he could show that he "suffers from a mental illness
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.045  
+ 0.341  
+ 0.488  
+ 0.105  
+ 0.021  
+
+		-----
+	outerSentence : It held something.
+		coremap sentence : It held something.
+		sentiment : Positive
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.009  
+ 0.031  
+ 0.361  
+ 0.543  
+ 0.056  
+
+		-----
+	 outer Subject : It 	,	inner Subject : S. 
+resolved as : (The court;The trial court;, --)
+It held that, under this Court's decisions in Ford v. Wainwright, 477 U. S. 399 (1986), and Panetti v. Quarterman, 551 U. S. 930 (2007), Madison was entitled to relief if he could show that he "suffers from a mental illness which deprives [him] of the mental capacity to rationally understand that he is being executed as a punishment for a crime."
+	innerSentence :  he "suffers from a mental illness
+		coremap sentence : he "suffers from a mental illness
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.008  
+ 0.047  
+ 0.753  
+ 0.179  
+ 0.014  
+
+		-----
+	outerSentence : he could show something.
+		coremap sentence : he could show something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.009  
+ 0.071  
+ 0.804  
+ 0.107  
+ 0.009  
+
+		-----
+	 outer Subject : he 	,	inner Subject : he 
+resolved as : (Madison;Madison 's;, Madison;Madison 's;)
+It held that, under this Court's decisions in Ford v. Wainwright, 477 U. S. 399 (1986), and Panetti v. Quarterman, 551 U. S. 930 (2007), Madison was entitled to relief if he could show that he "suffers from a mental illness which deprives [him] of the mental capacity to rationally understand that he is being executed as a punishment for a crime."
+	innerSentence :  he is being executed as a punishment for a crime."
+		coremap sentence : he is being executed as a punishment for a crime."
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.045  
+ 0.382  
+ 0.547  
+ 0.020  
+ 0.006  
+
+		-----
+	outerSentence : none-outerSubject understand something.
+		coremap sentence : none-outerSubject understand something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.026  
+ 0.128  
+ 0.418  
+ 0.374  
+ 0.055  
+
+		-----
+	 outer Subject : none-outerSubject	,	inner Subject : he 
+resolved as : (--, Madison;Madison 's;)
+
+The court concluded that Madison had failed to make that showing.
+	innerSentence :  Madison had failed to make that showing.
+		coremap sentence : Madison had failed to make that showing.
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.148  
+ 0.577  
+ 0.213  
+ 0.042  
+ 0.020  
+
+		-----
+	outerSentence : court concluded something.
+		coremap sentence : court concluded something.
+		sentiment : Positive
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.028  
+ 0.145  
+ 0.232  
+ 0.525  
+ 0.070  
+
+		-----
+	 outer Subject : court 	,	inner Subject : Madison 
+resolved as : (--, Madison;Madison 's;)
+
+Specifically, it found that Madison understands "that he is going to be executed because of the murder he committed[,] . . . that the State is seeking retribution[,] and that he will die when he is executed."
+	innerSentence :  Madison understands "that he is going to be executed because of the murder he committed[
+		coremap sentence : Madison understands "that he is going to be executed because of the murder he committed[
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.032  
+ 0.184  
+ 0.458  
+ 0.281  
+ 0.045  
+
+		-----
+	outerSentence : it found something.
+		coremap sentence : it found something.
+		sentiment : Positive
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.004  
+ 0.013  
+ 0.281  
+ 0.660  
+ 0.043  
+
+		-----
+	 outer Subject : it 	,	inner Subject : Madison 
+resolved as : (The court;The trial court;, Madison;Madison 's;)
+
+A habeas petitioner meets this demanding standard only when he shows that the state court's decision was "so lacking in justification that there was an error well understood and comprehended in existing law beyond any possibility for fairminded disagreement."
+	innerSentence :  the state court's decision was "so lacking in justification that there was an error well understood and comprehended in existing law beyond any possibility for fairminded disagreement."
+		coremap sentence : the state court's decision was "so lacking in justification that there was an error well understood and comprehended in existing law beyond any possibility for fairminded disagreement."
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.237  
+ 0.510  
+ 0.232  
+ 0.012  
+ 0.009  
+
+		-----
+	outerSentence : he shows something.
+		coremap sentence : he shows something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.005  
+ 0.019  
+ 0.529  
+ 0.416  
+ 0.030  
+
+		-----
+	 outer Subject : he 	,	inner Subject : court 's decision 
+resolved as : (A habeas petitioner;, --)
+
+
+In the majority's view, given the undisputed fact that Madison "has no memory of his capital offense," it inescapably follows that he "does not rationally understand the connection between his crime and his execution."
+	innerSentence :  he "does not rationally understand the connection between his crime and his execution."
+		coremap sentence : he "does not rationally understand the connection between his crime and his execution."
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.079  
+ 0.501  
+ 0.399  
+ 0.015  
+ 0.006  
+
+		-----
+	outerSentence : it follows something.
+		coremap sentence : it follows something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.013  
+ 0.094  
+ 0.632  
+ 0.244  
+ 0.016  
+
+		-----
+	 outer Subject : it 	,	inner Subject : he 
+resolved as : (The Eleventh Circuit;the Eleventh Circuit;the majority 's;, Madison;)
+
+On that basis, the Eleventh Circuit held that the trial court's conclusion that Madison is competent to be executed was "plainly unreasonable" and "cannot be reconciled with any reasonable application of Panetti."
+	innerSentence :  the trial court's conclusion that Madison is competent to be executed was "plainly unreasonable" and "cannot be reconciled with any reasonable application of Panetti."
+		coremap sentence : the trial court's conclusion that Madison is competent to be executed was "plainly unreasonable" and "cannot be reconciled with any reasonable application of Panetti."
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.054  
+ 0.364  
+ 0.360  
+ 0.192  
+ 0.030  
+
+		-----
+	outerSentence : Circuit held something.
+		coremap sentence : Circuit held something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.004  
+ 0.029  
+ 0.828  
+ 0.129  
+ 0.010  
+
+		-----
+	 outer Subject : Circuit 	,	inner Subject : court 's conclusion 
+resolved as : (--, --)
+
+In Panetti, this Court addressed the question whether the Eighth Amendment forbids the execution of a prisoner who lacks "the mental capacity to understand that [he] is being executed as a punishment for a crime."
+	innerSentence :  [he] is being executed as a punishment for a crime."
+		coremap sentence : [he] is being executed as a punishment for a crime."
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.068  
+ 0.465  
+ 0.401  
+ 0.051  
+ 0.015  
+
+		-----
+	outerSentence : none-outerSubject understand something.
+		coremap sentence : none-outerSubject understand something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.026  
+ 0.128  
+ 0.418  
+ 0.374  
+ 0.055  
+
+		-----
+	 outer Subject : none-outerSubject	,	inner Subject : he 
+resolved as : (--, --)
+
+We noted that the retributive purpose of capital punishment is not well served where "the prisoner's mental state is so distorted by a mental illness that his awareness of the crime and punishment has little or no relationship to the understanding of those concepts shared by the community as a whole."
+	innerSentence :  the retributive purpose of capital punishment is not well served
+		coremap sentence : the retributive purpose of capital punishment is not well served
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.097  
+ 0.636  
+ 0.234  
+ 0.023  
+ 0.011  
+
+		-----
+	outerSentence : We noted something.
+		coremap sentence : We noted something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.044  
+ 0.272  
+ 0.425  
+ 0.226  
+ 0.033  
+
+		-----
+	 outer Subject : We 	,	inner Subject : retributive purpose 
+resolved as : (Panetti and Ford;, --)
+
+The state court did not unreasonably apply Panetti and Ford when it determined that Madison is competent to be executed because--notwithstanding his memory loss--he recognizes that he will be put to death as punishment for the murder he was found to have committed.
+	innerSentence :  Madison is competent to be executed because--notwithstanding his memory loss--he recognizes that he will be put to death as punishment for the murder he was found to have committed.
+		coremap sentence : Madison is competent to be executed because--notwithstanding his memory loss--he recognizes that he will be put to death as punishment for the murder he was found to have committed.
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.097  
+ 0.403  
+ 0.309  
+ 0.144  
+ 0.047  
+
+		-----
+	outerSentence : it determined something.
+		coremap sentence : it determined something.
+		sentiment : Positive
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.004  
+ 0.014  
+ 0.330  
+ 0.618  
+ 0.035  
+
+		-----
+	 outer Subject : it 	,	inner Subject : Madison 
+resolved as : (The state court;, Madison;)
+The state court did not unreasonably apply Panetti and Ford when it determined that Madison is competent to be executed because--notwithstanding his memory loss--he recognizes that he will be put to death as punishment for the murder he was found to have committed.
+	innerSentence :  he will be put to death as punishment for the murder he was found to have committed.
+		coremap sentence : he will be put to death as punishment for the murder he was found to have committed.
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.088  
+ 0.513  
+ 0.342  
+ 0.043  
+ 0.013  
+
+		-----
+	outerSentence : he recognizes something.
+		coremap sentence : he recognizes something.
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.089  
+ 0.383  
+ 0.374  
+ 0.117  
+ 0.038  
+
+		-----
+	 outer Subject : he 	,	inner Subject : he 
+resolved as : (Madison;, Madison;)
+
+As I have previously noted, this Court once said that delays in execution can produce uncertainty amounting to " 'one of the most horrible feelings to which' " a prisoner " 'can be subjected.' "
+	innerSentence :  delays in execution can produce uncertainty amounting to " 'one of the most horrible feelings to
+		coremap sentence : delays in execution can produce uncertainty amounting to " 'one of the most horrible feelings to
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.158  
+ 0.604  
+ 0.219  
+ 0.013  
+ 0.007  
+
+		-----
+	outerSentence : Court said something.
+		coremap sentence : Court said something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.027  
+ 0.147  
+ 0.491  
+ 0.292  
+ 0.044  
+
+		-----
+	 outer Subject : Court 	,	inner Subject : delays 
+resolved as : (--, --)
+
+Justice Stevens later observed that the delay in Medley was a delay of four weeks.
+	innerSentence :  the delay in Medley was a delay of four weeks.
+		coremap sentence : the delay in Medley was a delay of four weeks.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.042  
+ 0.302  
+ 0.402  
+ 0.226  
+ 0.028  
+
+		-----
+	outerSentence : Stevens observed something.
+		coremap sentence : Stevens observed something.
+		sentiment : Positive
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.006  
+ 0.022  
+ 0.227  
+ 0.676  
+ 0.068  
+
+		-----
+	 outer Subject : Stevens 	,	inner Subject : delay 
+resolved as : (--, --)
+
+And he wrote that the Medley description "should apply with even greater force in the case of delays that last for many years."
+	innerSentence :  the Medley description "should apply with even greater force in the case of delays that last for many years."
+		coremap sentence : the Medley description "should apply with even greater force in the case of delays that last for many years."
+		sentiment : Positive
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.016  
+ 0.058  
+ 0.197  
+ 0.640  
+ 0.089  
+
+		-----
+	outerSentence : he wrote something.
+		coremap sentence : he wrote something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.006  
+ 0.038  
+ 0.823  
+ 0.124  
+ 0.009  
+
+		-----
+	 outer Subject : he 	,	inner Subject : description 
+resolved as : (--, --)
+

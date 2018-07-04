@@ -1,0 +1,1720 @@
+ 536 U. S. 304
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.043  
+ 0.266  
+ 0.466  
+ 0.189  
+ 0.036  
+
+none-outerSubject determined something.
+Positive
+Type = dense , numRows = 5 , numCols = 1
+ 0.015  
+ 0.055  
+ 0.397  
+ 0.464  
+ 0.069  
+
+none-outerSubject,--::none-innersubject,--
+
+ Moore had not shown significantly subaverage intellectual functioning.
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.216  
+ 0.579  
+ 0.160  
+ 0.029  
+ 0.016  
+
+CCA concluded something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.036  
+ 0.166  
+ 0.391  
+ 0.340  
+ 0.067  
+
+CCA ,--::Moore ,Moore;Moore 's;Petitioner Moore;
+
+ Moore had satisfied the relatedness requirement.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.024  
+ 0.157  
+ 0.667  
+ 0.138  
+ 0.015  
+
+evidentiary Briseno 's factors finding something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.024  
+ 0.128  
+ 0.462  
+ 0.343  
+ 0.043  
+
+evidentiary Briseno 's factors ,--::Moore ,Moore;Moore 's;Petitioner Moore;
+
+ being informed by the medical community does not demand adherence to everything stated in the latest medical guide.
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.101  
+ 0.716  
+ 0.157  
+ 0.020  
+ 0.006  
+
+Hall indicated something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.005  
+ 0.021  
+ 0.551  
+ 0.397  
+ 0.027  
+
+Hall ,Hall;::none-innersubject,--
+
+ he is not intellectually disabled is irreconcilable with Hall
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.090  
+ 0.568  
+ 0.317  
+ 0.019  
+ 0.007  
+
+Moore 's scores established something.
+Positive
+Type = dense , numRows = 5 , numCols = 1
+ 0.003  
+ 0.010  
+ 0.263  
+ 0.659  
+ 0.064  
+
+Moore 's scores ,--::he ,Moore 's;
+
+ courts must account for the test's "standard error of measurement."
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.036  
+ 0.331  
+ 0.602  
+ 0.026  
+ 0.006  
+
+which instructs something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.014  
+ 0.063  
+ 0.466  
+ 0.411  
+ 0.047  
+
+which ,--::courts ,--
+
+ detracted from a determination that his intellectual and adaptive deficits were related.
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.105  
+ 0.632  
+ 0.237  
+ 0.019  
+ 0.007  
+
+CCA concluded something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.036  
+ 0.166  
+ 0.391  
+ 0.340  
+ 0.067  
+
+CCA ,--::Moore 's record ,--
+
+ his adaptive deficits were not related to "a personality disorder."
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.047  
+ 0.491  
+ 0.446  
+ 0.013  
+ 0.004  
+
+CCA show something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.022  
+ 0.105  
+ 0.497  
+ 0.329  
+ 0.047  
+
+CCA ,--::adaptive his deficits ,Moore;Moore 's;
+
+ intellectually disabled people may have other co-existing mental or physical impairments
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.056  
+ 0.538  
+ 0.396  
+ 0.008  
+ 0.003  
+
+professionals recognize something.
+Positive
+Type = dense , numRows = 5 , numCols = 1
+ 0.017  
+ 0.066  
+ 0.163  
+ 0.658  
+ 0.096  
+
+professionals ,--::disabled people ,--
+
+ Moore be granted relief.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.051  
+ 0.273  
+ 0.528  
+ 0.126  
+ 0.022  
+
+court recommended something.
+Positive
+Type = dense , numRows = 5 , numCols = 1
+ 0.007  
+ 0.023  
+ 0.104  
+ 0.745  
+ 0.121  
+
+court ,--::Moore ,Bobby James Moore;Moore;Moore 's;
+
+ the evidentiary factors announced in Briseno "weigh[ed] heavily" against upsetting Moore's death sentence.
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.159  
+ 0.635  
+ 0.170  
+ 0.023  
+ 0.014  
+
+court determined something.
+Positive
+Type = dense , numRows = 5 , numCols = 1
+ 0.007  
+ 0.030  
+ 0.161  
+ 0.746  
+ 0.057  
+
+court ,--::evidentiary factors ,--
+
+ see Moore v. Collins
+Positive
+Type = dense , numRows = 5 , numCols = 1
+ 0.033  
+ 0.209  
+ 0.305  
+ 0.415  
+ 0.039  
+
+federal court vacated something.
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.073  
+ 0.474  
+ 0.346  
+ 0.086  
+ 0.022  
+
+federal court ,--::sentence ,--
+
+ Moore had significant mental and social difficulties beginning at an early age.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.048  
+ 0.308  
+ 0.535  
+ 0.093  
+ 0.015  
+
+evidence revealed something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.005  
+ 0.026  
+ 0.626  
+ 0.324  
+ 0.019  
+
+evidence ,--::Moore ,Ex parte Moore, No. 314483-C -LRB- 185th Jud;Moore;Moore 's;
+
+ the CCA reduce Moore's sentence to life in prison or grant him a new trial on intellectual disability.
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.069  
+ 0.533  
+ 0.332  
+ 0.054  
+ 0.012  
+
+court recommended something.
+Positive
+Type = dense , numRows = 5 , numCols = 1
+ 0.007  
+ 0.023  
+ 0.104  
+ 0.745  
+ 0.121  
+
+court ,--::CCA ,--
+
+ Moore had failed to prove significantly subaverage intellectual functioning.
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.239  
+ 0.570  
+ 0.159  
+ 0.020  
+ 0.012  
+
+first determined something.
+Positive
+Type = dense , numRows = 5 , numCols = 1
+ 0.002  
+ 0.008  
+ 0.405  
+ 0.568  
+ 0.018  
+
+first ,--::Moore ,Moore;Moore 's;
+
+ Moore's scores ranked "above the intellectually disabled range" (i.e.
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.050  
+ 0.451  
+ 0.404  
+ 0.082  
+ 0.012  
+
+court concluded something.
+Positive
+Type = dense , numRows = 5 , numCols = 1
+ 0.028  
+ 0.145  
+ 0.232  
+ 0.525  
+ 0.070  
+
+court ,--::Moore 's scores ,--
+
+ he suffers from significantly sub-average general intellectual functioning
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.066  
+ 0.333  
+ 0.382  
+ 0.178  
+ 0.041  
+
+none-outerSubject had proven something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.027  
+ 0.155  
+ 0.518  
+ 0.262  
+ 0.038  
+
+none-outerSubject,--::he ,-LSB- Moore;Moore;Moore 's;the State 's expert;the expert;
+
+ Moore's adaptive-functioning test scores fell more than two standard deviations below the mean.
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.250  
+ 0.592  
+ 0.099  
+ 0.033  
+ 0.026  
+
+Moore 's experts agreed something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.013  
+ 0.066  
+ 0.516  
+ 0.371  
+ 0.035  
+
+Moore 's experts ,--::adaptive-functioning Moore 's scores ,--
+
+ his academic and social difficulties were not related to intellectual-functioning deficits.
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.056  
+ 0.539  
+ 0.355  
+ 0.042  
+ 0.007  
+
+significant Moore 's improvement confirmed something.
+Positive
+Type = dense , numRows = 5 , numCols = 1
+ 0.027  
+ 0.096  
+ 0.206  
+ 0.548  
+ 0.123  
+
+significant Moore 's improvement ,--::academic his difficulties ,Moore;Moore 's;
+
+ those factors "weigh[ed] heavily" against finding that Moore had satisfied the relatedness requirement.
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.101  
+ 0.653  
+ 0.187  
+ 0.047  
+ 0.013  
+
+none-outerSubject concluding something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.036  
+ 0.166  
+ 0.391  
+ 0.340  
+ 0.067  
+
+none-outerSubject,--::factors ,--
+
+ Moore had satisfied the relatedness requirement.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.024  
+ 0.157  
+ 0.667  
+ 0.138  
+ 0.015  
+
+factors finding something.
+Positive
+Type = dense , numRows = 5 , numCols = 1
+ 0.015  
+ 0.067  
+ 0.340  
+ 0.526  
+ 0.053  
+
+factors ,--::Moore ,Moore;Moore 's;
+
+ a State cannot refuse to entertain other evidence of intellectual disability
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.085  
+ 0.648  
+ 0.205  
+ 0.050  
+ 0.011  
+
+we held something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.004  
+ 0.015  
+ 0.551  
+ 0.401  
+ 0.030  
+
+we ,Atkins and Hall;::State ,--
+
+ Florida had parted ways with practices and trends in other States.
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.088  
+ 0.498  
+ 0.317  
+ 0.075  
+ 0.022  
+
+We noted something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.044  
+ 0.272  
+ 0.425  
+ 0.226  
+ 0.033  
+
+We ,Atkins and Hall;::Florida ,Florida;
+
+ being informed by the medical community does not demand adherence to everything stated in the latest medical guide.
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.101  
+ 0.716  
+ 0.157  
+ 0.020  
+ 0.006  
+
+Hall indicated something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.005  
+ 0.021  
+ 0.551  
+ 0.397  
+ 0.027  
+
+Hall ,Hall;::none-innersubject,--
+
+ he is not intellectually disabled is irreconcilable with Hall.
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.130  
+ 0.624  
+ 0.219  
+ 0.018  
+ 0.009  
+
+Moore 's scores established something.
+Positive
+Type = dense , numRows = 5 , numCols = 1
+ 0.003  
+ 0.010  
+ 0.263  
+ 0.659  
+ 0.064  
+
+Moore 's scores ,--::he ,Moore 's;
+
+ courts must account for the test's "standard error of measurement."
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.036  
+ 0.331  
+ 0.602  
+ 0.026  
+ 0.006  
+
+Hall instructs something.
+Positive
+Type = dense , numRows = 5 , numCols = 1
+ 0.007  
+ 0.027  
+ 0.383  
+ 0.535  
+ 0.049  
+
+Hall ,Hall;::courts ,--
+
+ an individual's score is best understood as a range of scores on either side of the recorded score . . . within
+Positive
+Type = dense , numRows = 5 , numCols = 1
+ 0.003  
+ 0.005  
+ 0.035  
+ 0.674  
+ 0.283  
+
+imprecision means something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.015  
+ 0.172  
+ 0.797  
+ 0.014  
+ 0.002  
+
+imprecision ,--::individual 's score ,--
+
+ the CCA properly considered factors unique to Moore in disregarding the lower end of the standard-error range.
+Positive
+Type = dense , numRows = 5 , numCols = 1
+ 0.100  
+ 0.242  
+ 0.139  
+ 0.378  
+ 0.142  
+
+Texas maintain something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.010  
+ 0.050  
+ 0.801  
+ 0.120  
+ 0.019  
+
+Texas ,--::CCA ,--
+
+ "the Eighth Amendment turns on the slightest numerical difference in IQ score
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.029  
+ 0.269  
+ 0.480  
+ 0.203  
+ 0.019  
+
+we do not suggest something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.034  
+ 0.287  
+ 0.621  
+ 0.051  
+ 0.008  
+
+we ,--::Amendment ,--
+
+ courts continue the inquiry and consider other evidence of intellectual disability
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.023  
+ 0.240  
+ 0.639  
+ 0.087  
+ 0.010  
+
+we require something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.007  
+ 0.064  
+ 0.855  
+ 0.069  
+ 0.005  
+
+we ,--::courts ,--
+
+ Moore did not suffer significant adaptive deficits
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.052  
+ 0.443  
+ 0.475  
+ 0.025  
+ 0.006  
+
+CCA concluding something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.028  
+ 0.144  
+ 0.491  
+ 0.294  
+ 0.044  
+
+CCA ,--::Moore ,Moore;Moore 's;
+
+ detracted from a determination that his intellectual and adaptive deficits were related.
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.105  
+ 0.632  
+ 0.237  
+ 0.019  
+ 0.007  
+
+CCA concluded something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.036  
+ 0.166  
+ 0.391  
+ 0.340  
+ 0.067  
+
+CCA ,--::Moore 's record ,--
+
+ his adaptive deficits were not related to "a personality disorder."
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.047  
+ 0.491  
+ 0.446  
+ 0.013  
+ 0.004  
+
+CCA show something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.022  
+ 0.105  
+ 0.497  
+ 0.329  
+ 0.047  
+
+CCA ,--::adaptive his deficits ,Moore;Moore 's;
+
+ persons with "mild" intellectual disability might be treated differently under clinical standards than under Texas' capital system
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.176  
+ 0.642  
+ 0.150  
+ 0.020  
+ 0.012  
+
+CCA observing something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.028  
+ 0.144  
+ 0.491  
+ 0.294  
+ 0.044  
+
+CCA ,--::persons ,--
+
+ Moore is intellectually disabled and therefore ineligible for the death penalty.
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.163  
+ 0.552  
+ 0.264  
+ 0.013  
+ 0.007  
+
+court concluding something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.024  
+ 0.124  
+ 0.429  
+ 0.372  
+ 0.051  
+
+court ,--::Moore ,Moore;Moore 's;
+
+ Bobby James Moore was not intellectually disabled so as to be exempt from the death penalty under Atkins v. Virginia
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.130  
+ 0.629  
+ 0.205  
+ 0.028  
+ 0.010  
+
+Court concluded something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.036  
+ 0.166  
+ 0.391  
+ 0.340  
+ 0.067  
+
+Court ,--::Moore ,--
+
+ he had failed to establish either significantly subaverage intellectual functioning or related significant deficits in adaptive behavior.
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.252  
+ 0.633  
+ 0.096  
+ 0.011  
+ 0.008  
+
+none-outerSubject findings something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.021  
+ 0.121  
+ 0.609  
+ 0.221  
+ 0.027  
+
+none-outerSubject,--::he ,--
+
+ the CCA erred as to Moore's intellectual functioning.
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.123  
+ 0.665  
+ 0.180  
+ 0.023  
+ 0.010  
+
+I do not agree something.
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.067  
+ 0.429  
+ 0.377  
+ 0.108  
+ 0.020  
+
+I ,--::CCA ,--
+
+ it abandons the usual mode of analysis this Court has employed in Eighth Amendment cases.
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.093  
+ 0.538  
+ 0.298  
+ 0.057  
+ 0.015  
+
+broader My concern is something.
+Positive
+Type = dense , numRows = 5 , numCols = 1
+ 0.012  
+ 0.039  
+ 0.166  
+ 0.669  
+ 0.114  
+
+broader My concern ,--::it ,--
+
+ Moore had shown intellectual disability and recommended that he be granted relief.
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.139  
+ 0.516  
+ 0.276  
+ 0.049  
+ 0.020  
+
+court concluded something.
+Positive
+Type = dense , numRows = 5 , numCols = 1
+ 0.028  
+ 0.145  
+ 0.232  
+ 0.525  
+ 0.070  
+
+court ,--::Moore ,Moore;Moore 's;
+
+ he be granted relief.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.049  
+ 0.290  
+ 0.526  
+ 0.112  
+ 0.023  
+
+none-outerSubject recommended something.
+Positive
+Type = dense , numRows = 5 , numCols = 1
+ 0.015  
+ 0.048  
+ 0.259  
+ 0.550  
+ 0.128  
+
+none-outerSubject,--::he ,Moore;Moore 's;
+
+ "the legal test we established in Briseno remains adequately 'informed by the medical community's diagnostic framework
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.044  
+ 0.416  
+ 0.434  
+ 0.093  
+ 0.013  
+
+CCA concluded something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.036  
+ 0.166  
+ 0.391  
+ 0.340  
+ 0.067  
+
+CCA ,--::legal test ,--
+
+ five of the tests the habeas court had considered were unreliable
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.023  
+ 0.291  
+ 0.639  
+ 0.042  
+ 0.005  
+
+CCA concluded something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.036  
+ 0.166  
+ 0.391  
+ 0.340  
+ 0.067  
+
+CCA ,--::five ,--
+
+ Moore had failed to present sufficient evidence of significantly subaverage intellectual functioning.
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.210  
+ 0.581  
+ 0.173  
+ 0.023  
+ 0.013  
+
+CCA concluded something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.036  
+ 0.166  
+ 0.391  
+ 0.340  
+ 0.067  
+
+CCA ,--::Moore ,Moore;Moore 's;
+
+ it was not an accurate measure of Moore's abilities.
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.104  
+ 0.593  
+ 0.215  
+ 0.069  
+ 0.019  
+
+Compton explained something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.036  
+ 0.166  
+ 0.391  
+ 0.340  
+ 0.067  
+
+Compton ,--::it ,The CCA;the CCA 's;
+
+ and prison records--did not show adaptive deficits sufficient for an intellectual disability diagnosis.
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.052  
+ 0.544  
+ 0.377  
+ 0.022  
+ 0.005  
+
+Compton opined something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.036  
+ 0.166  
+ 0.391  
+ 0.340  
+ 0.067  
+
+Compton ,--::her evaluation ,Dr. Kristi Compton, the state expert who had administered that test;
+
+ Moore had shown significant adaptive deficits.
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.123  
+ 0.565  
+ 0.272  
+ 0.029  
+ 0.011  
+
+who concluded something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.009  
+ 0.052  
+ 0.774  
+ 0.153  
+ 0.011  
+
+who ,--::Moore ,Moore;Moore 's;
+
+ Moore had made sufficient showings as to intellectual functioning and adaptive deficits
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.050  
+ 0.412  
+ 0.498  
+ 0.033  
+ 0.007  
+
+two assuming something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.009  
+ 0.094  
+ 0.859  
+ 0.035  
+ 0.002  
+
+two ,--::Moore ,Moore;Moore 's;
+
+ "the record overwhelmingly supports the conclusion"
+Positive
+Type = dense , numRows = 5 , numCols = 1
+ 0.007  
+ 0.041  
+ 0.278  
+ 0.641  
+ 0.033  
+
+CCA concluded something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.036  
+ 0.166  
+ 0.391  
+ 0.340  
+ 0.067  
+
+CCA ,--::record ,--
+
+ consideration of the seven Briseno factors reinforced that relatedness conclusion.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.026  
+ 0.127  
+ 0.421  
+ 0.379  
+ 0.048  
+
+CCA explained something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.036  
+ 0.166  
+ 0.391  
+ 0.340  
+ 0.067  
+
+CCA ,--::consideration ,--
+
+ Moore had failed to present sufficient evidence on intellectual functioning or related adaptive deficits
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.114  
+ 0.578  
+ 0.294  
+ 0.009  
+ 0.004  
+
+CCA Given something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.035  
+ 0.201  
+ 0.468  
+ 0.254  
+ 0.042  
+
+CCA ,--::Moore ,Moore;
+
+ "judgment should be informed by objective factors to the maximum possible extent."
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.007  
+ 0.060  
+ 0.590  
+ 0.326  
+ 0.017  
+
+we have emphasized something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.006  
+ 0.036  
+ 0.791  
+ 0.157  
+ 0.010  
+
+we ,--::judgment ,--
+
+ the Eighth Amendment prohibits the execution of intellectually disabled individuals in Atkins
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.067  
+ 0.499  
+ 0.365  
+ 0.055  
+ 0.013  
+
+Court holding something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.023  
+ 0.134  
+ 0.592  
+ 0.223  
+ 0.028  
+
+Court ,--::Amendment ,--
+
+ there was "no reason to disagree" with that consensus.
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.110  
+ 0.622  
+ 0.219  
+ 0.038  
+ 0.011  
+
+none-outerSubject concluded something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.036  
+ 0.166  
+ 0.391  
+ 0.340  
+ 0.067  
+
+none-outerSubject,--::reason ,--
+
+ there remained the potential for "serious disagreement . . . in determining
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.040  
+ 0.402  
+ 0.477  
+ 0.072  
+ 0.009  
+
+We recognized something.
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.127  
+ 0.449  
+ 0.189  
+ 0.166  
+ 0.069  
+
+We ,--::none-innersubject,--
+
+ "[t]he legal determination of intellectual disability is distinct from a medical diagnosis."
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.059  
+ 0.586  
+ 0.329  
+ 0.021  
+ 0.005  
+
+it emphasized something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.011  
+ 0.069  
+ 0.581  
+ 0.317  
+ 0.022  
+
+it ,The Court;The Court 's;the Court;the Court 's;::none-innersubject,--
+
+ the determination of
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.001  
+ 0.009  
+ 0.950  
+ 0.039  
+ 0.001  
+
+Today 's decision establishing something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.003  
+ 0.026  
+ 0.873  
+ 0.093  
+ 0.004  
+
+Today 's decision ,--::determination ,--
+
+ we have
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.002  
+ 0.015  
+ 0.952  
+ 0.030  
+ 0.002  
+
+none-outerSubject Recognizing something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.036  
+ 0.166  
+ 0.391  
+ 0.340  
+ 0.067  
+
+none-outerSubject,--::we ,--
+
+ " 'the views of medical experts' do not 'dictate' a court's intellectual-disability determination
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.032  
+ 0.292  
+ 0.512  
+ 0.151  
+ 0.013  
+
+none-outerSubject held something.
+Positive
+Type = dense , numRows = 5 , numCols = 1
+ 0.017  
+ 0.071  
+ 0.391  
+ 0.449  
+ 0.073  
+
+none-outerSubject,--::views ,--
+
+ this marked a dismissal of clinical standards.
+Positive
+Type = dense , numRows = 5 , numCols = 1
+ 0.057  
+ 0.170  
+ 0.249  
+ 0.401  
+ 0.122  
+
+none-outerSubject implying something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.036  
+ 0.166  
+ 0.391  
+ 0.340  
+ 0.067  
+
+none-outerSubject,--::this ,--
+
+ the fundamental questions the Atkins inquiry sought to answer were best considered--and "sound scientific principles" best served--by taking account of "all possible data
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.143  
+ 0.435  
+ 0.127  
+ 0.183  
+ 0.112  
+
+CCA decided something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.021  
+ 0.104  
+ 0.572  
+ 0.265  
+ 0.038  
+
+CCA ,--::fundamental questions ,--
+
+ departure from those standards was warranted.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.042  
+ 0.331  
+ 0.478  
+ 0.131  
+ 0.017  
+
+it decided something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.004  
+ 0.025  
+ 0.671  
+ 0.287  
+ 0.012  
+
+it ,The CCA;the CCA;the CCA for;::departure ,--
+
+ some--but not too much--consideration of strengths and prison functioning is acceptable.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.042  
+ 0.287  
+ 0.422  
+ 0.217  
+ 0.030  
+
+Court suggesting something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.011  
+ 0.070  
+ 0.684  
+ 0.216  
+ 0.019  
+
+Court ,--::some consideration ,--
+
+ all clinicians would agree with this statement
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.041  
+ 0.348  
+ 0.460  
+ 0.134  
+ 0.017  
+
+none-outerSubject assuming something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.050  
+ 0.360  
+ 0.466  
+ 0.101  
+ 0.022  
+
+none-outerSubject,--::clinicians ,--
+
+ and practical--should not cancel out deficits in another; as meaning that strengths should not outweigh deficits within the same skill area; or as meaning that evidence of some ability to perform a skill should not offset evidence of the inability to perform that same skill.
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.077  
+ 0.539  
+ 0.325  
+ 0.050  
+ 0.010  
+
+number meaning something.
+Positive
+Type = dense , numRows = 5 , numCols = 1
+ 0.010  
+ 0.044  
+ 0.353  
+ 0.545  
+ 0.049  
+
+number ,--::strengths ,--
+
+ strengths should not outweigh deficits within the same skill area; or as meaning that evidence of some ability to perform a skill should not offset evidence of the inability to perform that same skill.
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.115  
+ 0.548  
+ 0.202  
+ 0.107  
+ 0.029  
+
+number meaning something.
+Positive
+Type = dense , numRows = 5 , numCols = 1
+ 0.010  
+ 0.044  
+ 0.353  
+ 0.545  
+ 0.049  
+
+number ,--::strengths ,--
+
+ evidence of some ability to perform a skill should not offset evidence of the inability to perform that same skill.
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.094  
+ 0.540  
+ 0.219  
+ 0.117  
+ 0.029  
+
+none-outerSubject meaning something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.014  
+ 0.074  
+ 0.555  
+ 0.322  
+ 0.034  
+
+none-outerSubject,--::evidence ,--
+
+ clinicians do
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.005  
+ 0.042  
+ 0.874  
+ 0.071  
+ 0.007  
+
+it appears something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.013  
+ 0.107  
+ 0.656  
+ 0.211  
+ 0.013  
+
+it ,--::clinicians ,--
+
+ the CCA erred in this regard
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.051  
+ 0.464  
+ 0.410  
+ 0.064  
+ 0.012  
+
+Court determining something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.028  
+ 0.144  
+ 0.491  
+ 0.294  
+ 0.044  
+
+Court ,--::CCA ,--
+
+ consideration of those factors tainted the whole of the CCA's adaptive functioning analysis.
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.101  
+ 0.471  
+ 0.256  
+ 0.134  
+ 0.038  
+
+none-outerSubject be something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.024  
+ 0.123  
+ 0.505  
+ 0.303  
+ 0.046  
+
+none-outerSubject,--::consideration ,--
+
+ he had failed to demonstrate intellectual functioning sufficiently low to warrant a finding of intellectual disability
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.127  
+ 0.675  
+ 0.186  
+ 0.008  
+ 0.005  
+
+none-outerSubject concluding something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.036  
+ 0.166  
+ 0.391  
+ 0.340  
+ 0.067  
+
+none-outerSubject,--::he ,Moore;Moore 's;
+
+ the CCA's assessment of Moore's IQ scores is "irreconcilable with Hall."
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.110  
+ 0.616  
+ 0.214  
+ 0.044  
+ 0.016  
+
+Court concludes something.
+Positive
+Type = dense , numRows = 5 , numCols = 1
+ 0.023  
+ 0.100  
+ 0.373  
+ 0.429  
+ 0.074  
+
+Court ,--::CCA 's assessment ,--
+
+ Moore's tested score of 74 led to an IQ range between 69 and 79.
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.065  
+ 0.399  
+ 0.304  
+ 0.193  
+ 0.038  
+
+court explaining something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.011  
+ 0.074  
+ 0.678  
+ 0.221  
+ 0.016  
+
+court ,--::tested Moore 's score ,--
+
+ Moore's IQ did not lie in the relevant range for intellectual disability.
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.061  
+ 0.544  
+ 0.344  
+ 0.043  
+ 0.008  
+
+none-outerSubject concluded something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.036  
+ 0.166  
+ 0.391  
+ 0.340  
+ 0.067  
+
+none-outerSubject,--::Moore 's IQ ,--
+
+ his actual score did not fall near the lower end of the SEM range.
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.128  
+ 0.635  
+ 0.192  
+ 0.035  
+ 0.009  
+
+other factors conclude something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.015  
+ 0.093  
+ 0.618  
+ 0.253  
+ 0.022  
+
+other factors ,--::actual his score ,Moore 's;Moore 's IQ;
+
+ the Eighth Amendment turns on the slightest numerical difference in IQ score
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.036  
+ 0.333  
+ 0.535  
+ 0.082  
+ 0.013  
+
+Court concluding something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.028  
+ 0.144  
+ 0.491  
+ 0.294  
+ 0.044  
+
+Court ,--::Amendment ,--
+
+ States must read IQ tests as rigidly encompassing the entire SEM range
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.036  
+ 0.310  
+ 0.468  
+ 0.169  
+ 0.018  
+
+none-outerSubject say something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.022  
+ 0.128  
+ 0.579  
+ 0.237  
+ 0.034  
+
+none-outerSubject,--::States ,--
+
+ the reasons that the CCA gave for discounting the lower end of Moore's IQ range were improper.
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.234  
+ 0.564  
+ 0.150  
+ 0.037  
+ 0.016  
+
+none-outerSubject say something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.022  
+ 0.128  
+ 0.579  
+ 0.237  
+ 0.034  
+
+none-outerSubject,--::reasons ,--
+
+ the Constitution demands either result
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.003  
+ 0.024  
+ 0.922  
+ 0.048  
+ 0.003  
+
+our precedent holding something.
+Positive
+Type = dense , numRows = 5 , numCols = 1
+ 0.004  
+ 0.021  
+ 0.385  
+ 0.564  
+ 0.026  
+
+our precedent ,--::demands ,--
+
+ there is one.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.011  
+ 0.077  
+ 0.658  
+ 0.240  
+ 0.013  
+
+majority does not claim something.
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.058  
+ 0.497  
+ 0.419  
+ 0.021  
+ 0.006  
+
+majority ,--::one ,--
+
+ see id.
+Positive
+Type = dense , numRows = 5 , numCols = 1
+ 0.024  
+ 0.112  
+ 0.395  
+ 0.414  
+ 0.054  
+
+none-outerSubject did not include something.
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.062  
+ 0.440  
+ 0.388  
+ 0.088  
+ 0.021  
+
+none-outerSubject,--::score ,--
+
+ he is led around by others?
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.006  
+ 0.073  
+ 0.894  
+ 0.024  
+ 0.002  
+
+it does show something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.009  
+ 0.060  
+ 0.582  
+ 0.328  
+ 0.020  
+
+it ,--::he ,--
+
+ Hall tacitly approved Idaho's approach to capital sentencing
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.042  
+ 0.294  
+ 0.509  
+ 0.133  
+ 0.022  
+
+dissent suggests something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.028  
+ 0.335  
+ 0.625  
+ 0.009  
+ 0.003  
+
+dissent ,--::Hall ,Hall;Hall, 572 U. S., at ___;
+
+ the State had "passed legislation allowing a defendant to present additional evidence of intellectual disability even
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.029  
+ 0.313  
+ 0.548  
+ 0.100  
+ 0.010  
+
+We note something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.024  
+ 0.150  
+ 0.479  
+ 0.314  
+ 0.032  
+
+We ,--::State ,--
+
+ disagreement exists about the precise role of adaptive strengths in the adaptive-functioning inquiry.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.024  
+ 0.258  
+ 0.681  
+ 0.031  
+ 0.005  
+
+dissent suggests something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.028  
+ 0.335  
+ 0.625  
+ 0.009  
+ 0.003  
+
+dissent ,--::disagreement ,--
+
+ Hall cited Pizzuto as an instance of a State
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.022  
+ 0.160  
+ 0.618  
+ 0.180  
+ 0.020  
+
+Court notes something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.034  
+ 0.212  
+ 0.514  
+ 0.205  
+ 0.034  
+
+Court ,--::Hall ,--
+

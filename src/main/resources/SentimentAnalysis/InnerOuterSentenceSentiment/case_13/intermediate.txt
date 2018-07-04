@@ -1,0 +1,1160 @@
+ Tharpe could not overcome that procedural default because he had failed to produce any clear and convincing evidence contradicting the state court's determination that Gattie's presence on the jury did not prejudice him.
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.220  
+ 0.527  
+ 0.201  
+ 0.033  
+ 0.019  
+
+Court noted something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.036  
+ 0.166  
+ 0.391  
+ 0.340  
+ 0.067  
+
+Court ,--::Tharpe ,Barney Gattie;Petitioner Keith Tharpe;Tharpe;Tharpe 's;
+
+ jurists of reason could not dispute that the District Court's procedural ruling was correct.
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.103  
+ 0.611  
+ 0.245  
+ 0.030  
+ 0.011  
+
+Circuit deciding something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.014  
+ 0.138  
+ 0.799  
+ 0.045  
+ 0.004  
+
+Circuit ,--::jurists ,--
+
+ the District Court's procedural ruling was correct.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.026  
+ 0.297  
+ 0.603  
+ 0.067  
+ 0.007  
+
+jurists could not dispute something.
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.083  
+ 0.500  
+ 0.337  
+ 0.062  
+ 0.018  
+
+jurists ,--::procedural Court 's ruling ,--
+
+ Barney Gattie's behavior 'had substantial and injurious effect or influence in determining the jury's verdict.' "
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.070  
+ 0.511  
+ 0.396  
+ 0.017  
+ 0.006  
+
+Tharpe demonstrate something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.027  
+ 0.124  
+ 0.391  
+ 0.389  
+ 0.068  
+
+Tharpe ,Tharpe;::Gattie 's behavior ,--
+
+ jurists of reason could disagree whether the District Court abused its discretion in denying his motion.
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.088  
+ 0.606  
+ 0.267  
+ 0.029  
+ 0.009  
+
+Tharpe showing something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.017  
+ 0.090  
+ 0.492  
+ 0.359  
+ 0.041  
+
+Tharpe ,Gonzalez v. Crosby, 545 U. S. 524, 536 -LRB- 2005 -RRB-, Tharpe;Tharpe;Tharpe 's;::jurists ,--
+
+ Tharpe should not receive a COA.
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.098  
+ 0.552  
+ 0.283  
+ 0.049  
+ 0.017  
+
+It may be something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.016  
+ 0.099  
+ 0.615  
+ 0.252  
+ 0.019  
+
+It ,--::Tharpe ,Gonzalez v. Crosby, 545 U. S. 524, 536 -LRB- 2005 -RRB-, Tharpe;Tharpe;Tharpe 's;
+
+ the lower courts have not done theirs.
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.317  
+ 0.535  
+ 0.125  
+ 0.010  
+ 0.012  
+
+none-outerSubject pretend something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.051  
+ 0.212  
+ 0.342  
+ 0.319  
+ 0.077  
+
+none-outerSubject,--::lower courts ,--
+
+ Tharpe murdered Freeman while committing two other capital felonies--the aggravated kidnapings of his wife and Freeman--and that the murder was outrageously or wantonly vile
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.306  
+ 0.546  
+ 0.126  
+ 0.011  
+ 0.011  
+
+jury found something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.018  
+ 0.080  
+ 0.459  
+ 0.392  
+ 0.051  
+
+jury ,--::Tharpe ,--
+
+ Gattie knew Freeman
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.008  
+ 0.053  
+ 0.830  
+ 0.099  
+ 0.010  
+
+resulting affidavit stated something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.058  
+ 0.277  
+ 0.322  
+ 0.279  
+ 0.065  
+
+resulting affidavit ,--::Gattie ,Barney Gattie;Gattie;Gattie 's;Tharpe;Tharpe 's;the type Tharpe;
+
+ "there are two types of black people
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.002  
+ 0.025  
+ 0.847  
+ 0.123  
+ 0.003  
+
+affidavit continued something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.036  
+ 0.187  
+ 0.441  
+ 0.284  
+ 0.051  
+
+affidavit ,--::types ,--
+
+" he had "wondered if black people even have souls."
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.002  
+ 0.021  
+ 0.880  
+ 0.094  
+ 0.003  
+
+Gattie 's affidavit explain something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.015  
+ 0.091  
+ 0.632  
+ 0.237  
+ 0.025  
+
+Gattie 's affidavit ,--::he ,Barney Gattie;Gattie;Gattie 's;Tharpe;Tharpe 's;the type Tharpe;
+
+ some of the other jurors "wanted blacks to know they weren't going to get away with killing each other."
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.047  
+ 0.459  
+ 0.450  
+ 0.037  
+ 0.006  
+
+affidavit noted something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.036  
+ 0.166  
+ 0.391  
+ 0.340  
+ 0.067  
+
+affidavit ,--::some ,--
+
+ he "did not vote to impose the death penalty because [Tharpe] was a black man
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.061  
+ 0.467  
+ 0.371  
+ 0.087  
+ 0.014  
+
+Gattie stated something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.036  
+ 0.166  
+ 0.391  
+ 0.340  
+ 0.067  
+
+Gattie ,Gattie;::he ,Gattie;
+
+ Gattie had consumed "seven or more beers" on the afternoon he signed the first affidavit.
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.065  
+ 0.395  
+ 0.381  
+ 0.129  
+ 0.030  
+
+affidavit explained something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.036  
+ 0.166  
+ 0.391  
+ 0.340  
+ 0.067  
+
+affidavit ,--::Gattie ,Gattie;
+
+ many of the statements in the first affidavit "were taken out of context and simply not accurate."
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.142  
+ 0.754  
+ 0.082  
+ 0.014  
+ 0.008  
+
+He attested something.
+Positive
+Type = dense , numRows = 5 , numCols = 1
+ 0.017  
+ 0.080  
+ 0.239  
+ 0.601  
+ 0.064  
+
+He ,Gattie;::many ,--
+
+ the lawyers
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.002  
+ 0.018  
+ 0.895  
+ 0.081  
+ 0.004  
+
+he felt something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.007  
+ 0.031  
+ 0.653  
+ 0.287  
+ 0.023  
+
+he ,Gattie;::lawyers ,--
+
+ "improper racial animus . . . infected the deliberations of the jury."
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.128  
+ 0.697  
+ 0.160  
+ 0.010  
+ 0.005  
+
+One was something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.007  
+ 0.031  
+ 0.592  
+ 0.340  
+ 0.031  
+
+One ,--::improper animus ,--
+
+ ineffective assistance of counsel can provide cause to overcome a procedural default
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.097  
+ 0.629  
+ 0.197  
+ 0.059  
+ 0.019  
+
+Court acknowledged something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.036  
+ 0.166  
+ 0.391  
+ 0.340  
+ 0.067  
+
+Court ,--::ineffective assistance ,--
+
+ Tharpe "fail[ed] to provide any details regarding this allegation."
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.114  
+ 0.563  
+ 0.284  
+ 0.027  
+ 0.012  
+
+it explained something.
+Positive
+Type = dense , numRows = 5 , numCols = 1
+ 0.018  
+ 0.086  
+ 0.409  
+ 0.441  
+ 0.045  
+
+it ,The District Court;The United States District Court for the Middle District of Georgia;::Tharpe ,Tharpe;
+
+ Tharpe "ha[d] not established that his counsels' ineffectiveness constituted cause to overcome the procedural defaul[t]" and that he "failed to show actual prejudice."
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.111  
+ 0.573  
+ 0.263  
+ 0.039  
+ 0.015  
+
+Court concluded something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.036  
+ 0.166  
+ 0.391  
+ 0.340  
+ 0.067  
+
+Court ,--::ha ,--
+
+ his counsels' ineffectiveness constituted cause to overcome the procedural defaul[t]" and that he "failed to show actual prejudice."
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.064  
+ 0.489  
+ 0.389  
+ 0.049  
+ 0.010  
+
+ha not established something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.033  
+ 0.173  
+ 0.493  
+ 0.263  
+ 0.039  
+
+ha ,--::ineffectiveness ,--
+
+ extraordinary circumstances are present
+Very positive
+Type = dense , numRows = 5 , numCols = 1
+ 0.005  
+ 0.003  
+ 0.006  
+ 0.439  
+ 0.547  
+
+Buck established something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.018  
+ 0.080  
+ 0.460  
+ 0.380  
+ 0.062  
+
+Buck ,Buck;::extraordinary circumstances ,--
+
+ a state no-impeachment rule must yield
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.047  
+ 0.395  
+ 0.412  
+ 0.127  
+ 0.019  
+
+it held something.
+Positive
+Type = dense , numRows = 5 , numCols = 1
+ 0.006  
+ 0.024  
+ 0.339  
+ 0.588  
+ 0.044  
+
+it ,new law, Tharpe;::rule ,--
+
+ Pena-Rodriguez announced a new procedural rule
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.030  
+ 0.186  
+ 0.516  
+ 0.234  
+ 0.035  
+
+It explained something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.026  
+ 0.107  
+ 0.434  
+ 0.380  
+ 0.053  
+
+It ,The District Court;the state court;the state court 's;::Pena-Rodriguez ,Pena-Rodriguez;
+
+ the District Court had concluded in its first decision
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.030  
+ 0.267  
+ 0.577  
+ 0.111  
+ 0.014  
+
+It explained something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.026  
+ 0.107  
+ 0.434  
+ 0.380  
+ 0.053  
+
+It ,The Eleventh Circuit;the Eleventh Circuit;::Court ,--
+
+ Barney Gattie's behavior 'had substantial and injurious effect or influence in determining the jury's verdict.' "
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.070  
+ 0.511  
+ 0.396  
+ 0.017  
+ 0.006  
+
+Tharpe demonstrate something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.027  
+ 0.124  
+ 0.391  
+ 0.389  
+ 0.068  
+
+Tharpe ,Tharpe;Tharpe 's;::Gattie 's behavior ,--
+
+ 'jurists of reason would find it debatable whether the district court was correct in its procedural ruling.' "
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.047  
+ 0.429  
+ 0.499  
+ 0.021  
+ 0.005  
+
+Tharpe has shown something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.060  
+ 0.274  
+ 0.338  
+ 0.265  
+ 0.064  
+
+Tharpe ,Tharpe;Tharpe 's;::jurists ,--
+
+ Tharpe can satisfy this standard.
+Positive
+Type = dense , numRows = 5 , numCols = 1
+ 0.073  
+ 0.266  
+ 0.265  
+ 0.304  
+ 0.092  
+
+Court say something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.022  
+ 0.128  
+ 0.579  
+ 0.237  
+ 0.034  
+
+Court ,--::Tharpe ,Tharpe;Tharpe 's;
+
+ Tharpe had failed to make a " 'substantial showing of the denial of a constitutional right
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.107  
+ 0.572  
+ 0.268  
+ 0.037  
+ 0.015  
+
+Circuit held something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.004  
+ 0.029  
+ 0.828  
+ 0.129  
+ 0.010  
+
+Circuit ,--::Tharpe ,Tharpe;
+
+ he had "failed to demonstrate that . . . Gattie's behavior 'had substantial and injurious effect or influence in determining the jury's verdict.' "
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.197  
+ 0.709  
+ 0.089  
+ 0.003  
+ 0.002  
+
+none-outerSubject explaining something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.028  
+ 0.156  
+ 0.506  
+ 0.270  
+ 0.041  
+
+none-outerSubject,--::he ,Tharpe;
+
+ . . . Gattie's behavior 'had substantial and injurious effect or influence in determining the jury's verdict.' "
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.067  
+ 0.525  
+ 0.390  
+ 0.013  
+ 0.005  
+
+he demonstrate something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.008  
+ 0.036  
+ 0.568  
+ 0.354  
+ 0.034  
+
+he ,Tharpe;::Gattie 's behavior ,--
+
+ Tharpe had not "shown that 'jurists of reason would find it debatable whether the district court was correct in its procedural ruling.' "
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.116  
+ 0.491  
+ 0.358  
+ 0.024  
+ 0.011  
+
+Circuit held something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.004  
+ 0.029  
+ 0.828  
+ 0.129  
+ 0.010  
+
+Circuit ,--::Tharpe ,Tharpe;
+
+ 'jurists of reason would find it debatable whether the district court was correct in its procedural ruling.' "
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.047  
+ 0.429  
+ 0.499  
+ 0.021  
+ 0.005  
+
+Tharpe had not shown something.
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.083  
+ 0.521  
+ 0.313  
+ 0.064  
+ 0.019  
+
+Tharpe ,Tharpe;::jurists ,--
+
+ the Eleventh Circuit's decision did not reach cause
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.024  
+ 0.374  
+ 0.569  
+ 0.029  
+ 0.004  
+
+party suggests something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.010  
+ 0.130  
+ 0.809  
+ 0.048  
+ 0.003  
+
+party ,--::Circuit 's decision ,--
+
+ the Eleventh Circuit agrees with the District Court's decision on cause.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.056  
+ 0.399  
+ 0.425  
+ 0.101  
+ 0.019  
+
+none-outerSubject clarifying something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.036  
+ 0.166  
+ 0.391  
+ 0.340  
+ 0.067  
+
+none-outerSubject,--::Circuit ,--
+
+ our review "is certainly not limited to grounds expressly addressed by the court whose decision is under review."
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.052  
+ 0.495  
+ 0.424  
+ 0.024  
+ 0.004  
+
+Court acknowledges something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.041  
+ 0.226  
+ 0.438  
+ 0.250  
+ 0.045  
+
+Court ,--::our review ,The Court;The Court 's;the Court;the Court 's;the District Court;the court whose decision is under review;
+
+ Tharpe's collateral challenges to his sentence have lasted 24 years
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.023  
+ 0.214  
+ 0.641  
+ 0.111  
+ 0.011  
+
+none-outerSubject given something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.023  
+ 0.130  
+ 0.567  
+ 0.244  
+ 0.036  
+
+none-outerSubject,--::Tharpe 's challenges ,--
+
+ Pena-Rodriguez applies retroactively on collateral review.
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.066  
+ 0.467  
+ 0.400  
+ 0.053  
+ 0.015  
+
+reasonable jurist could argue something.
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.061  
+ 0.395  
+ 0.342  
+ 0.168  
+ 0.034  
+
+reasonable jurist ,--::Pena-Rodriguez ,Pena-Rodriguez;
+
+ it is answering a question "left open" by this Court's earlier precedents.
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.145  
+ 0.585  
+ 0.180  
+ 0.066  
+ 0.025  
+
+opinion states something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.004  
+ 0.035  
+ 0.877  
+ 0.080  
+ 0.004  
+
+opinion ,--::it ,The opinion;
+
+ Pena-Rodriguez established a watershed rule of criminal procedure--a class of rules
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.039  
+ 0.257  
+ 0.496  
+ 0.182  
+ 0.026  
+
+Schriro argue something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.039  
+ 0.239  
+ 0.508  
+ 0.180  
+ 0.034  
+
+Schriro ,Schriro;::Pena-Rodriguez ,Pena-Rodriguez;
+
+ any has yet to emerge.' "
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.001  
+ 0.015  
+ 0.958  
+ 0.026  
+ 0.001  
+
+none-outerSubject unlikely something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.024  
+ 0.154  
+ 0.628  
+ 0.172  
+ 0.022  
+
+none-outerSubject,--::any ,--
+
+ Tharpe demonstrated cause for his procedural default.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.048  
+ 0.304  
+ 0.444  
+ 0.170  
+ 0.033  
+
+reasonable jurist could argue something.
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.061  
+ 0.395  
+ 0.342  
+ 0.168  
+ 0.034  
+
+reasonable jurist ,--::Tharpe ,Tharpe;Tharpe 's;
+
+ he did not have to raise his claim of juror bias on direct appeal.
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.104  
+ 0.599  
+ 0.260  
+ 0.028  
+ 0.010  
+
+Tharpe argues something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.043  
+ 0.255  
+ 0.494  
+ 0.172  
+ 0.035  
+
+Tharpe ,Tharpe;Tharpe 's;::he ,Tharpe;Tharpe 's;
+
+ any alleged racial bias of Mr. Gattie's was the basis for sentencing" him
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.032  
+ 0.456  
+ 0.500  
+ 0.010  
+ 0.002  
+
+Tharpe show something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.022  
+ 0.105  
+ 0.497  
+ 0.329  
+ 0.047  
+
+Tharpe ,Tharpe;Tharpe 's;::alleged bias ,--
+
+ he had consumed a substantial amount of alcohol on the day he signed it.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.013  
+ 0.060  
+ 0.516  
+ 0.372  
+ 0.040  
+
+none-outerSubject explained something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.036  
+ 0.166  
+ 0.391  
+ 0.340  
+ 0.067  
+
+none-outerSubject,--::he ,Gattie;Gattie 's;Mr. Gattie 's;credit Gattie 's;
+
+ they did not consider race and that race was not discussed during their deliberations.
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.075  
+ 0.543  
+ 0.346  
+ 0.029  
+ 0.008  
+
+each testified something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.008  
+ 0.041  
+ 0.727  
+ 0.207  
+ 0.016  
+
+each ,--::they ,each of whom;
+
+ the District Court abused its discretion by concluding that the state court's decision to credit Gattie's testimony has not been rebutted by clear and convincing evidence.
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.150  
+ 0.643  
+ 0.185  
+ 0.014  
+ 0.008  
+
+reasonable jurist could argue something.
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.061  
+ 0.395  
+ 0.342  
+ 0.168  
+ 0.034  
+
+reasonable jurist ,--::Court ,--
+
+ the state court's decision to credit Gattie's testimony has not been rebutted by clear and convincing evidence.
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.116  
+ 0.700  
+ 0.148  
+ 0.026  
+ 0.010  
+
+Court concluding something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.028  
+ 0.144  
+ 0.491  
+ 0.294  
+ 0.044  
+
+Court ,--::court 's decision ,--
+
+ Tharpe rebutted the state court's decision by clear and convincing evidence
+Positive
+Type = dense , numRows = 5 , numCols = 1
+ 0.035  
+ 0.169  
+ 0.351  
+ 0.378  
+ 0.067  
+
+reasonable jurist could argue something.
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.061  
+ 0.395  
+ 0.342  
+ 0.168  
+ 0.034  
+
+reasonable jurist ,--::Tharpe ,--
+
+ the District Court's deference to the state court's credibility determination was an abuse of discretion.
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.121  
+ 0.670  
+ 0.182  
+ 0.018  
+ 0.008  
+
+none-outerSubject less something.
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.210  
+ 0.616  
+ 0.146  
+ 0.015  
+ 0.013  
+
+none-outerSubject,--::Court 's deference ,--
+
+ he will not be able to obtain a COA
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.048  
+ 0.423  
+ 0.437  
+ 0.080  
+ 0.013  
+
+It anticipates something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.026  
+ 0.107  
+ 0.434  
+ 0.380  
+ 0.053  
+
+It ,The Court;the Court 's;::he ,--
+
+ Tharpe had not exhausted his Pena-Rodriguez claim in state court.
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.070  
+ 0.457  
+ 0.373  
+ 0.079  
+ 0.021  
+
+Circuit held something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.004  
+ 0.029  
+ 0.828  
+ 0.129  
+ 0.010  
+
+Circuit ,--::Tharpe ,Tharpe;
+
+ Pena-Rodriguez presents an extraordinary circumstance
+Positive
+Type = dense , numRows = 5 , numCols = 1
+ 0.012  
+ 0.019  
+ 0.069  
+ 0.581  
+ 0.320  
+
+reasonable jurist could argue something.
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.061  
+ 0.395  
+ 0.342  
+ 0.168  
+ 0.034  
+
+reasonable jurist ,--::Pena-Rodriguez ,Pena-Rodriguez;
+
+ Pena-Rodriguez is retroactive under Teague and could overcome his procedural default
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.120  
+ 0.537  
+ 0.211  
+ 0.097  
+ 0.035  
+
+Tharpe could show something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.037  
+ 0.242  
+ 0.473  
+ 0.213  
+ 0.034  
+
+Tharpe ,Tharpe;::Pena-Rodriguez ,Pena-Rodriguez;
+
+ he has stated a valid juror-bias claim on the merits.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.051  
+ 0.215  
+ 0.422  
+ 0.256  
+ 0.056  
+
+reasonable jurist could argue something.
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.061  
+ 0.395  
+ 0.342  
+ 0.168  
+ 0.034  
+
+reasonable jurist ,--::he ,Pena-Rodriguez;
+
+ his claim failed in the absence of any admissible evidence to support it.
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.160  
+ 0.722  
+ 0.107  
+ 0.006  
+ 0.005  
+
+court concluded something.
+Positive
+Type = dense , numRows = 5 , numCols = 1
+ 0.028  
+ 0.145  
+ 0.232  
+ 0.525  
+ 0.070  
+
+court ,--::his claim ,Pena-Rodriguez;
+
+ this merits decision "was contrary to
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.031  
+ 0.304  
+ 0.559  
+ 0.095  
+ 0.011  
+
+Tharpe must show something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.029  
+ 0.153  
+ 0.467  
+ 0.301  
+ 0.050  
+
+Tharpe ,Tharpe;::decision ,--
+
+ the state court's decision was contrary to clearly established law at "the time the state court render[ed] its decision."
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.125  
+ 0.612  
+ 0.247  
+ 0.010  
+ 0.006  
+
+reasonable jurist could argue something.
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.061  
+ 0.395  
+ 0.342  
+ 0.168  
+ 0.034  
+
+reasonable jurist ,--::court 's decision ,--
+

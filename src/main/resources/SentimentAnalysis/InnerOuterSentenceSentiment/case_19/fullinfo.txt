@@ -1,0 +1,1384 @@
+The Colorado Court of Appeals concluded that both petitioners were entitled to seek refunds of all they had paid, but the Colorado Supreme Court reversed.
+	innerSentence :  both petitioners were entitled to seek refunds of all they had paid
+		coremap sentence : both petitioners were entitled to seek refunds of all they had paid
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.018  
+ 0.196  
+ 0.723  
+ 0.057  
+ 0.006  
+
+		-----
+	outerSentence : Court concluded something.
+		coremap sentence : Court concluded something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.036  
+ 0.166  
+ 0.391  
+ 0.340  
+ 0.067  
+
+		-----
+	 outer Subject : Court 	,	inner Subject : petitioners 
+resolved as : (--, petitioners;)
+
+
+The Colorado Supreme Court also held that there was no due process problem under the Act, which permits Colorado to retain conviction-related assessments unless and until the prevailing defendant institutes a discrete civil proceeding and proves her innocence by clear and convincing evidence.
+	innerSentence :  there was no due process problem under the Act
+		coremap sentence : there was no due process problem under the Act
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.071  
+ 0.606  
+ 0.293  
+ 0.024  
+ 0.006  
+
+		-----
+	outerSentence : Court held something.
+		coremap sentence : Court held something.
+		sentiment : Positive
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.017  
+ 0.071  
+ 0.391  
+ 0.449  
+ 0.073  
+
+		-----
+	 outer Subject : Court 	,	inner Subject : due problem 
+resolved as : (--, --)
+
+Colorado argues that an Act that provides sufficient process to compensate a defendant for the loss of her liberty must suffice to compensate a defendant for the lesser deprivation of money.
+	innerSentence :  an Act
+		coremap sentence : an Act
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.017  
+ 0.104  
+ 0.702  
+ 0.155  
+ 0.022  
+
+		-----
+	outerSentence : Colorado argues something.
+		coremap sentence : Colorado argues something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.043  
+ 0.255  
+ 0.494  
+ 0.172  
+ 0.035  
+
+		-----
+	 outer Subject : Colorado 	,	inner Subject : Act 
+resolved as : (Colorado;, --)
+
+Other procedures cited by Colorado--the need for probable cause to support criminal charges, the jury-trial right, and the State's burden to prove guilt beyond a reasonable doubt--do not address the risk faced by a defendant whose conviction has been overturned that she will not recover funds taken from her based solely on a conviction no longer valid.
+	innerSentence :  she will not recover funds taken from her based solely on a conviction no longer valid.
+		coremap sentence : she will not recover funds taken from her based solely on a conviction no longer valid.
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.106  
+ 0.622  
+ 0.216  
+ 0.043  
+ 0.013  
+
+		-----
+	outerSentence : whose conviction has been overturned something.
+		coremap sentence : whose conviction has been overturned something.
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.215  
+ 0.563  
+ 0.184  
+ 0.027  
+ 0.011  
+
+		-----
+	 outer Subject : whose conviction 	,	inner Subject : she 
+resolved as : (--, --)
+
+The same Colorado Court of Appeals panel heard both cases and concluded that Nelson and Madden were entitled to seek refunds of all they had paid, including amounts allocated to restitution.
+	innerSentence :  Nelson and Madden were entitled to seek refunds of all they had paid
+		coremap sentence : Nelson and Madden were entitled to seek refunds of all they had paid
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.026  
+ 0.266  
+ 0.641  
+ 0.058  
+ 0.009  
+
+		-----
+	outerSentence : none-outerSubject concluded something.
+		coremap sentence : none-outerSubject concluded something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.036  
+ 0.166  
+ 0.391  
+ 0.340  
+ 0.067  
+
+		-----
+	 outer Subject : none-outerSubject	,	inner Subject : Nelson 
+resolved as : (--, --)
+
+As no other statute addresses refunds, the court concluded that the Exoneration Act is the "exclusive process for exonerated defendants seeking a refund of costs, fees, and restitution."
+	innerSentence :  the Exoneration Act is the "exclusive process for exonerated defendants seeking a refund of costs
+		coremap sentence : the Exoneration Act is the "exclusive process for exonerated defendants seeking a refund of costs
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.131  
+ 0.607  
+ 0.232  
+ 0.020  
+ 0.009  
+
+		-----
+	outerSentence : court concluded something.
+		coremap sentence : court concluded something.
+		sentiment : Positive
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.028  
+ 0.145  
+ 0.232  
+ 0.525  
+ 0.070  
+
+		-----
+	 outer Subject : court 	,	inner Subject : Act 
+resolved as : (--, --)
+
+Colorado argues that we should instead apply the standard from Medina v. California, 505 U. S. 437, 445 (1992), and inquire whether Nelson and Madden were exposed to a procedure offensive to a fundamental principle of justice.
+	innerSentence :  we should instead apply the standard from Medina v. California
+		coremap sentence : we should instead apply the standard from Medina v. California
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.083  
+ 0.564  
+ 0.296  
+ 0.046  
+ 0.011  
+
+		-----
+	outerSentence : Colorado argues something.
+		coremap sentence : Colorado argues something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.043  
+ 0.255  
+ 0.494  
+ 0.172  
+ 0.035  
+
+		-----
+	 outer Subject : Colorado 	,	inner Subject : we 
+resolved as : (--, Nelson and Madden;)
+
+Colorado also suggests that "numerous pre- and post-deprivation procedures"--including the need for probable cause to support criminal charges, the jury-trial right, and the State's burden to prove guilt beyond a reasonable doubt--adequately minimize the risk of erroneous deprivation of property.
+	innerSentence :  and the State's burden to prove guilt beyond a reasonable doubt--adequately minimize the risk of erroneous deprivation of property.
+		coremap sentence : and the State's burden to prove guilt beyond a reasonable doubt--adequately minimize the risk of erroneous deprivation of property.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.033  
+ 0.414  
+ 0.517  
+ 0.031  
+ 0.005  
+
+		-----
+	outerSentence : Colorado suggests something.
+		coremap sentence : Colorado suggests something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.034  
+ 0.223  
+ 0.503  
+ 0.205  
+ 0.034  
+
+		-----
+	 outer Subject : Colorado 	,	inner Subject : post-deprivation procedures 
+resolved as : (Colorado;, --)
+
+It is, instead, the risk faced by a defendant whose conviction has already been overturned that she will not recover funds taken from her solely on the basis of a conviction no longer valid.
+	innerSentence :  she will not recover funds taken from her solely on the basis of a conviction no longer valid.
+		coremap sentence : she will not recover funds taken from her solely on the basis of a conviction no longer valid.
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.117  
+ 0.636  
+ 0.192  
+ 0.042  
+ 0.014  
+
+		-----
+	outerSentence : whose conviction has been overturned something.
+		coremap sentence : whose conviction has been overturned something.
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.215  
+ 0.563  
+ 0.184  
+ 0.027  
+ 0.011  
+
+		-----
+	 outer Subject : whose conviction 	,	inner Subject : she 
+resolved as : (--, --)
+
+I agree that the judgments of the Colorado Supreme Court must be reversed, but I reach that conclusion by a different route.
+	innerSentence :  the judgments of the Colorado Supreme Court must be reversed
+		coremap sentence : the judgments of the Colorado Supreme Court must be reversed
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.149  
+ 0.632  
+ 0.186  
+ 0.023  
+ 0.011  
+
+		-----
+	outerSentence : I agree something.
+		coremap sentence : I agree something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.019  
+ 0.076  
+ 0.424  
+ 0.420  
+ 0.061  
+
+		-----
+	 outer Subject : I 	,	inner Subject : judgments 
+resolved as : (--, --)
+
+In holding that these payments must be refunded, the Court relies on a feature of the criminal law, the presumption of innocence.
+	innerSentence :  these payments must be refunded
+		coremap sentence : these payments must be refunded
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.028  
+ 0.282  
+ 0.554  
+ 0.124  
+ 0.012  
+
+		-----
+	outerSentence : Court holding something.
+		coremap sentence : Court holding something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.023  
+ 0.134  
+ 0.592  
+ 0.223  
+ 0.028  
+
+		-----
+	 outer Subject : Court 	,	inner Subject : payments 
+resolved as : (--, --)
+
+And since the Court demands that refunds occur either automatically or at least without imposing anything more than "minimal" procedures, see ante, at 10, it appears that they must generally occur as part of the criminal case.
+	innerSentence :  they must generally occur as part of the criminal case.
+		coremap sentence : they must generally occur as part of the criminal case.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.059  
+ 0.443  
+ 0.448  
+ 0.041  
+ 0.010  
+
+		-----
+	outerSentence : it appears something.
+		coremap sentence : it appears something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.013  
+ 0.107  
+ 0.656  
+ 0.211  
+ 0.013  
+
+		-----
+	 outer Subject : it 	,	inner Subject : they 
+resolved as : (--, --)
+
+
+Petitioners then go on to argue at some length that "[t]he traditional rule has always been that when a judgment is reversed, a person who paid money pursuant to that judgment is entitled to receive the money back."
+	innerSentence :  a person
+		coremap sentence : a person
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.001  
+ 0.006  
+ 0.962  
+ 0.030  
+ 0.001  
+
+		-----
+	outerSentence : traditional rule has been something.
+		coremap sentence : traditional rule has been something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.021  
+ 0.136  
+ 0.587  
+ 0.230  
+ 0.025  
+
+		-----
+	 outer Subject : traditional rule 	,	inner Subject : person 
+resolved as : (--, --)
+
+
+American law has long recognized that when an individual is obligated by a civil judgment to pay money to the opposing party and that judgment is later reversed, the money should generally be repaid.
+	innerSentence :  the money should generally be repaid.
+		coremap sentence : the money should generally be repaid.
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.089  
+ 0.517  
+ 0.300  
+ 0.077  
+ 0.017  
+
+		-----
+	outerSentence : American law has recognized something.
+		coremap sentence : American law has recognized something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.058  
+ 0.217  
+ 0.334  
+ 0.316  
+ 0.075  
+
+		-----
+	 outer Subject : American law 	,	inner Subject : money 
+resolved as : (--, money;the money;)
+
+See, e.g., 25 C. J., at 1165 (noting that "restitution [of fines paid on a conviction later reversed] is not necessarily a matter of right"); Annot., 26 A. L. R., at 1532, §VI(a) (Restitution for fines upon reversal of a conviction "is not a matter of strict legal right, but rather one for the exercise of the court's discretion").
+	innerSentence :  "restitution [of fines paid on a conviction later reversed] is not necessarily a matter of right"); Annot.
+		coremap sentence : "restitution [of fines paid on a conviction later reversed] is not necessarily a matter of right"); Annot.
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.117  
+ 0.591  
+ 0.223  
+ 0.051  
+ 0.018  
+
+		-----
+	outerSentence : none-outerSubject noting something.
+		coremap sentence : none-outerSubject noting something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.036  
+ 0.166  
+ 0.391  
+ 0.340  
+ 0.067  
+
+		-----
+	 outer Subject : none-outerSubject	,	inner Subject : restitution 
+resolved as : (--, --)
+
+These stringent requirements all but guarantee that most defendants whose convictions are reversed have no realistic opportunity to prove they are deserving of refunds.
+	innerSentence :  most defendants whose convictions are reversed have no realistic opportunity to prove they are deserving of refunds.
+		coremap sentence : most defendants whose convictions are reversed have no realistic opportunity to prove they are deserving of refunds.
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.323  
+ 0.395  
+ 0.185  
+ 0.058  
+ 0.040  
+
+		-----
+	outerSentence : stringent requirements guarantee something.
+		coremap sentence : stringent requirements guarantee something.
+		sentiment : Positive
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.062  
+ 0.256  
+ 0.262  
+ 0.331  
+ 0.089  
+
+		-----
+	 outer Subject : stringent requirements 	,	inner Subject : most defendants 
+resolved as : (--, --)
+
+The implication of this brief statement is that under Mathews, reversal restores the defendant to the status quo ante, see ante, at 3.
+	innerSentence :  reversal restores the defendant to the status quo ante
+		coremap sentence : reversal restores the defendant to the status quo ante
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.032  
+ 0.308  
+ 0.608  
+ 0.043  
+ 0.008  
+
+		-----
+	outerSentence : implication is something.
+		coremap sentence : implication is something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.012  
+ 0.050  
+ 0.565  
+ 0.327  
+ 0.046  
+
+		-----
+	 outer Subject : implication 	,	inner Subject : reversal 
+resolved as : (--, --)
+
+J. L. Reform 123, 145 (2010) (Most U. S. compensation statutes "require that claimants prove their innocence either by a preponderance of the evidence or by clear and convincing evidence" (footnote omitted)).
+	innerSentence :  claimants prove their innocence either by a preponderance of the evidence or by clear and convincing evidence" (footnote omitted)).
+		coremap sentence : claimants prove their innocence either by a preponderance of the evidence or by clear and convincing evidence" (footnote omitted)).
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.076  
+ 0.442  
+ 0.361  
+ 0.095  
+ 0.026  
+
+		-----
+	outerSentence : none-outerSubject require something.
+		coremap sentence : none-outerSubject require something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.043  
+ 0.289  
+ 0.457  
+ 0.178  
+ 0.033  
+
+		-----
+	 outer Subject : none-outerSubject	,	inner Subject : claimants 
+resolved as : (--, --)
+
+In construing the federal statute, courts have held that a compensation proceeding "is not . . . a criminal trial" and that the burden of proof can be placed on the petitioner.
+	innerSentence :  a compensation proceeding "is not . . . a criminal trial" and that the burden of proof can be placed on the petitioner.
+		coremap sentence : a compensation proceeding "is not . . . a criminal trial" and that the burden of proof can be placed on the petitioner.
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.204  
+ 0.559  
+ 0.192  
+ 0.030  
+ 0.015  
+
+		-----
+	outerSentence : courts have held something.
+		coremap sentence : courts have held something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.007  
+ 0.043  
+ 0.748  
+ 0.186  
+ 0.016  
+
+		-----
+	 outer Subject : courts 	,	inner Subject : proceeding 
+resolved as : (--, --)
+
+As noted, Colorado and many other States have similar statutes designed narrowly to compensate those few persons who can demonstrate that they are truly innocent.
+	innerSentence :  they are truly innocent.
+		coremap sentence : they are truly innocent.
+		sentiment : Positive
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.004  
+ 0.012  
+ 0.153  
+ 0.752  
+ 0.079  
+
+		-----
+	outerSentence : who can demonstrate something.
+		coremap sentence : who can demonstrate something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.006  
+ 0.034  
+ 0.698  
+ 0.247  
+ 0.014  
+
+		-----
+	 outer Subject : who 	,	inner Subject : they 
+resolved as : (--, --)
+
+The Court apparently acknowledges that these statutes pose no constitutional difficulty.
+	innerSentence :  these statutes pose no constitutional difficulty.
+		coremap sentence : these statutes pose no constitutional difficulty.
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.065  
+ 0.506  
+ 0.364  
+ 0.054  
+ 0.011  
+
+		-----
+	outerSentence : Court acknowledges something.
+		coremap sentence : Court acknowledges something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.041  
+ 0.226  
+ 0.438  
+ 0.250  
+ 0.045  
+
+		-----
+	 outer Subject : Court 	,	inner Subject : statutes 
+resolved as : (--, --)
+
+The Court flatly declares that the State is "obliged to refund . . . restitution" in just the same way as fees and court costs.
+	innerSentence :  the State is "obliged to refund . . . restitution" in just the same way as fees and court costs.
+		coremap sentence : the State is "obliged to refund . . . restitution" in just the same way as fees and court costs.
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.098  
+ 0.641  
+ 0.234  
+ 0.020  
+ 0.006  
+
+		-----
+	outerSentence : Court declares something.
+		coremap sentence : Court declares something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.032  
+ 0.149  
+ 0.411  
+ 0.342  
+ 0.065  
+
+		-----
+	 outer Subject : Court 	,	inner Subject : State 
+resolved as : (--, --)
+
+Suppose that a victim successfully sues a criminal defendant civilly and introduces the defendant's criminal conviction on the underlying conduct as (potentially preclusive) evidence establishing an essential element of a civil claim.
+	innerSentence :  a victim successfully sues a criminal defendant civilly and introduces the defendant's criminal conviction on the underlying conduct as (potentially preclusive) evidence establishing an essential element of a civil claim.
+		coremap sentence : a victim successfully sues a criminal defendant civilly and introduces the defendant's criminal conviction on the underlying conduct as (potentially preclusive) evidence establishing an essential element of a civil claim.
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.141  
+ 0.602  
+ 0.158  
+ 0.075  
+ 0.023  
+
+		-----
+	outerSentence : none-outerSubject Suppose something.
+		coremap sentence : none-outerSubject Suppose something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.036  
+ 0.166  
+ 0.391  
+ 0.340  
+ 0.067  
+
+		-----
+	 outer Subject : none-outerSubject	,	inner Subject : victim 
+resolved as : (--, --)
+
+And suppose that the defendant's criminal conviction is later reversed for a trial error that did not (and could not) infect the later civil proceeding: for example, the admission of evidence barred by the exclusionary rule or a Confrontation Clause violation.
+	innerSentence :  the defendant's criminal conviction is later reversed for a trial error
+		coremap sentence : the defendant's criminal conviction is later reversed for a trial error
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.268  
+ 0.606  
+ 0.112  
+ 0.008  
+ 0.006  
+
+		-----
+	outerSentence : none-outerSubject suppose something.
+		coremap sentence : none-outerSubject suppose something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.036  
+ 0.227  
+ 0.536  
+ 0.171  
+ 0.031  
+
+		-----
+	 outer Subject : none-outerSubject	,	inner Subject : criminal defendant 's conviction 
+resolved as : (--, --)
+
+It would be unprecedented to suggest that due process requires unwinding the civil judgment simply because it rests in part on a criminal conviction that has since been reversed.
+	innerSentence :  due process requires unwinding the civil judgment simply because it rests in part on a criminal conviction
+		coremap sentence : due process requires unwinding the civil judgment simply because it rests in part on a criminal conviction
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.073  
+ 0.500  
+ 0.253  
+ 0.145  
+ 0.029  
+
+		-----
+	outerSentence : It suggest something.
+		coremap sentence : It suggest something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.029  
+ 0.193  
+ 0.601  
+ 0.159  
+ 0.017  
+
+		-----
+	 outer Subject : It 	,	inner Subject : due process 
+resolved as : (--, --)
+
+The only salient difference would be that, in the Colorado case, the civil judgment would have been obtained as part of the criminal proceeding itself.
+	innerSentence :  the civil judgment would have been obtained as part of the criminal proceeding itself.
+		coremap sentence : the civil judgment would have been obtained as part of the criminal proceeding itself.
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.073  
+ 0.611  
+ 0.286  
+ 0.025  
+ 0.005  
+
+		-----
+	outerSentence : only difference would be something.
+		coremap sentence : only difference would be something.
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.050  
+ 0.557  
+ 0.361  
+ 0.028  
+ 0.004  
+
+		-----
+	 outer Subject : only difference 	,	inner Subject : civil judgment 
+resolved as : (--, --)
+
+It is especially startling to insist that a State must provide a refund after enforcing a restitution judgment on the victims' behalf in reliance on a final judgment that is then vacated on collateral review.
+	innerSentence :  a State must provide a refund after enforcing a restitution judgment on the victims' behalf in reliance on a final judgment
+		coremap sentence : a State must provide a refund after enforcing a restitution judgment on the victims' behalf in reliance on a final judgment
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.036  
+ 0.435  
+ 0.467  
+ 0.055  
+ 0.007  
+
+		-----
+	outerSentence : It insist something.
+		coremap sentence : It insist something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.026  
+ 0.107  
+ 0.434  
+ 0.380  
+ 0.053  
+
+		-----
+	 outer Subject : It 	,	inner Subject : State 
+resolved as : (--, --)
+
+What if the evidence amply establishes that the defendant injured the victims to whom restitution was paid but the defendant's conviction is reversed on a ground that would be inapplicable in a civil suit?
+	innerSentence :  the defendant injured the victims to
+		coremap sentence : the defendant injured the victims to
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.152  
+ 0.483  
+ 0.344  
+ 0.013  
+ 0.008  
+
+		-----
+	outerSentence : evidence establishes something.
+		coremap sentence : evidence establishes something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.006  
+ 0.026  
+ 0.498  
+ 0.440  
+ 0.030  
+
+		-----
+	 outer Subject : evidence 	,	inner Subject : defendant 
+resolved as : (--, --)
+
+
+But if the Court had to address this subject to dispose of these cases, it should have acknowledged that--at least in some circumstances--refunds of restitution payments made under later reversed judgments are not constitutionally required.
+	innerSentence : --at least in some circumstances--refunds of restitution payments made under later reversed judgments are not constitutionally required.
+		coremap sentence : --at least in some circumstances--refunds of restitution payments made under later reversed judgments are not constitutionally required.
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.245  
+ 0.612  
+ 0.124  
+ 0.009  
+ 0.010  
+
+		-----
+	outerSentence : it should acknowledged something.
+		coremap sentence : it should acknowledged something.
+		sentiment : Positive
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.024  
+ 0.127  
+ 0.385  
+ 0.420  
+ 0.043  
+
+		-----
+	 outer Subject : it 	,	inner Subject : refunds 
+resolved as : (the Court;, --)
+
+
+And Colorado acknowledges that the procedural hurdles it could impose before returning the money "would be fairly minimal," id., at 51, because petitioners would need to prove only that their convictions had been reversed and that they had paid a certain sum of money, see ibid.
+	innerSentence :  the procedural hurdles it could impose before returning the money "would be fairly minimal
+		coremap sentence : the procedural hurdles it could impose before returning the money "would be fairly minimal
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.046  
+ 0.494  
+ 0.410  
+ 0.043  
+ 0.007  
+
+		-----
+	outerSentence : Colorado acknowledges something.
+		coremap sentence : Colorado acknowledges something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.041  
+ 0.226  
+ 0.438  
+ 0.250  
+ 0.045  
+
+		-----
+	 outer Subject : Colorado 	,	inner Subject : procedural hurdles 
+resolved as : (Colorado;Colorado 's;, --)
+
+Similarly, petitioners concede that if defendants in their position do not have a substantive right to recover the money--that is, if the money belongs to the State--then Colorado need not "provide any procedure to give it back."
+	innerSentence :  if the money belongs to the State--then Colorado need not "provide any procedure to give it back."
+		coremap sentence : if the money belongs to the State--then Colorado need not "provide any procedure to give it back."
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.074  
+ 0.572  
+ 0.323  
+ 0.024  
+ 0.007  
+
+		-----
+	outerSentence : petitioners concede something.
+		coremap sentence : petitioners concede something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.036  
+ 0.166  
+ 0.391  
+ 0.340  
+ 0.067  
+
+		-----
+	 outer Subject : petitioners 	,	inner Subject : Colorado 
+resolved as : (--, Colorado;Colorado 's;)
+
+In my view, petitioners have not demonstrated that defendants whose convictions have been reversed possess a substantive entitlement, under either state law or the Constitution, to recover money they paid to the State pursuant to their convictions.
+	innerSentence :  defendants whose convictions have been reversed possess a substantive entitlement
+		coremap sentence : defendants whose convictions have been reversed possess a substantive entitlement
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.145  
+ 0.445  
+ 0.301  
+ 0.079  
+ 0.030  
+
+		-----
+	outerSentence : petitioners have not demonstrated something.
+		coremap sentence : petitioners have not demonstrated something.
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.079  
+ 0.498  
+ 0.337  
+ 0.067  
+ 0.019  
+
+		-----
+	 outer Subject : petitioners 	,	inner Subject : defendants 
+resolved as : (--, --)
+
+The Fourteenth Amendment provides that no State shall "deprive any person of life, liberty, or property, without due process of law."
+	innerSentence :  no State shall "deprive any person of life
+		coremap sentence : no State shall "deprive any person of life
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.035  
+ 0.344  
+ 0.541  
+ 0.073  
+ 0.008  
+
+		-----
+	outerSentence : Fourteenth Amendment provides something.
+		coremap sentence : Fourteenth Amendment provides something.
+		sentiment : Positive
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.022  
+ 0.079  
+ 0.281  
+ 0.499  
+ 0.119  
+
+		-----
+	 outer Subject : Fourteenth Amendment 	,	inner Subject : State 
+resolved as : (--, --)
+
+14, §1 (emphasis added).1 To show that Colorado has violated the Constitution's procedural guarantees, as relevant here, petitioners must first establish that they have been deprived of a protected property interest.
+	innerSentence :  Colorado has violated the Constitution's procedural guarantees
+		coremap sentence : Colorado has violated the Constitution's procedural guarantees
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.108  
+ 0.496  
+ 0.263  
+ 0.099  
+ 0.035  
+
+		-----
+	outerSentence : 1 show something.
+		coremap sentence : 1 show something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.002  
+ 0.010  
+ 0.846  
+ 0.138  
+ 0.004  
+
+		-----
+	 outer Subject : 1 	,	inner Subject : Colorado 
+resolved as : (--, --)
+14, §1 (emphasis added).1 To show that Colorado has violated the Constitution's procedural guarantees, as relevant here, petitioners must first establish that they have been deprived of a protected property interest.
+	innerSentence :  they have been deprived of a protected property interest.
+		coremap sentence : they have been deprived of a protected property interest.
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.153  
+ 0.622  
+ 0.206  
+ 0.012  
+ 0.007  
+
+		-----
+	outerSentence : 14 must establish something.
+		coremap sentence : 14 must establish something.
+		sentiment : Positive
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.021  
+ 0.069  
+ 0.250  
+ 0.533  
+ 0.128  
+
+		-----
+	 outer Subject : 14 	,	inner Subject : they 
+resolved as : (--, petitioners;)
+
+Petitioners contend that the money remains their property under state law.
+	innerSentence :  the money remains their property under state law.
+		coremap sentence : the money remains their property under state law.
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.093  
+ 0.599  
+ 0.275  
+ 0.025  
+ 0.007  
+
+		-----
+	outerSentence : Petitioners contend something.
+		coremap sentence : Petitioners contend something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.023  
+ 0.124  
+ 0.544  
+ 0.269  
+ 0.040  
+
+		-----
+	 outer Subject : Petitioners 	,	inner Subject : money 
+resolved as : (Petitioners;, --)
+
+The key premise of the Colorado Supreme Court's holdings in these cases is that moneys lawfully exacted pursuant to a valid conviction become public funds (or the victims' money) under Colorado law.
+	innerSentence :  moneys lawfully exacted pursuant to a valid conviction become public funds (or the victims' money) under Colorado law.
+		coremap sentence : moneys lawfully exacted pursuant to a valid conviction become public funds (or the victims' money) under Colorado law.
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.098  
+ 0.515  
+ 0.294  
+ 0.069  
+ 0.023  
+
+		-----
+	outerSentence : key premise is something.
+		coremap sentence : key premise is something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.012  
+ 0.072  
+ 0.626  
+ 0.271  
+ 0.018  
+
+		-----
+	 outer Subject : key premise 	,	inner Subject : moneys 
+resolved as : (--, --)
+
+The Colorado Supreme Court further noted that, "[o]nce the state disburses restitution to the victims, the state no longer controls that money."
+	innerSentence :  the state no longer controls that money."
+		coremap sentence : the state no longer controls that money."
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.057  
+ 0.537  
+ 0.392  
+ 0.011  
+ 0.003  
+
+		-----
+	outerSentence : Court noted something.
+		coremap sentence : Court noted something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.036  
+ 0.166  
+ 0.391  
+ 0.340  
+ 0.067  
+
+		-----
+	 outer Subject : Court 	,	inner Subject : state 
+resolved as : (--, --)
+
+The Colorado Supreme Court explained that "Colorado's constitution protects" the Colorado Legislature's "control over public money," and thus a "court may authorize refunds from public funds only pursuant to statutory authority."
+	innerSentence :  "Colorado's constitution protects" the Colorado Legislature's "control over public money
+		coremap sentence : "Colorado's constitution protects" the Colorado Legislature's "control over public money
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.041  
+ 0.331  
+ 0.417  
+ 0.188  
+ 0.023  
+
+		-----
+	outerSentence : Court explained something.
+		coremap sentence : Court explained something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.036  
+ 0.166  
+ 0.391  
+ 0.340  
+ 0.067  
+
+		-----
+	 outer Subject : Court 	,	inner Subject : Colorado 's constitution 
+resolved as : (--, --)
+
+At no point in this litigation have petitioners attempted to demonstrate that they satisfy the requirements of the Exoneration Act.
+	innerSentence :  they satisfy the requirements of the Exoneration Act.
+		coremap sentence : they satisfy the requirements of the Exoneration Act.
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.090  
+ 0.391  
+ 0.307  
+ 0.163  
+ 0.049  
+
+		-----
+	outerSentence : none-outerSubject demonstrate something.
+		coremap sentence : none-outerSubject demonstrate something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.027  
+ 0.124  
+ 0.391  
+ 0.389  
+ 0.068  
+
+		-----
+	 outer Subject : none-outerSubject	,	inner Subject : they 
+resolved as : (--, petitioners;)
+
+Under the Act, Colorado recognizes a substantive entitlement to the kind of property at issue in these cases only if, among other things, the defendant can prove that he is "actually innocent.
+	innerSentence :  he is "actually innocent.
+		coremap sentence : he is "actually innocent.
+		sentiment : Positive
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.006  
+ 0.022  
+ 0.416  
+ 0.498  
+ 0.058  
+
+		-----
+	outerSentence : defendant can prove something.
+		coremap sentence : defendant can prove something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.030  
+ 0.155  
+ 0.445  
+ 0.321  
+ 0.050  
+
+		-----
+	 outer Subject : defendant 	,	inner Subject : he 
+resolved as : (--, the defendant;)
+
+This Court has interpreted the Due Process Clause to require that the States provide certain procedures, such as notice and a hearing, by which an individual can prove a substantive entitlement to (or defend against a deprivation of ) property.
+	innerSentence :  the States provide certain procedures
+		coremap sentence : the States provide certain procedures
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.013  
+ 0.110  
+ 0.683  
+ 0.180  
+ 0.014  
+
+		-----
+	outerSentence : Court require something.
+		coremap sentence : Court require something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.043  
+ 0.289  
+ 0.457  
+ 0.178  
+ 0.033  
+
+		-----
+	 outer Subject : Court 	,	inner Subject : States 
+resolved as : (--, --)
+
+Thus, to the extent the majority implicitly suggests that petitioners have a state-law right to an automatic refund (a point about which the majority is entirely unclear), it is plainly incorrect.
+	innerSentence :  petitioners have a state-law right to an automatic refund (a point about
+		coremap sentence : petitioners have a state-law right to an automatic refund (a point about
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.053  
+ 0.372  
+ 0.417  
+ 0.132  
+ 0.026  
+
+		-----
+	outerSentence : majority suggests something.
+		coremap sentence : majority suggests something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.003  
+ 0.039  
+ 0.908  
+ 0.047  
+ 0.002  
+
+		-----
+	 outer Subject : majority 	,	inner Subject : petitioners 
+resolved as : (--, --)
+
+No one disputes that if petitioners had never been convicted, Colorado could not have required them to pay the money at issue.
+	innerSentence :  Colorado could not have required them to pay the money at issue.
+		coremap sentence : Colorado could not have required them to pay the money at issue.
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.138  
+ 0.572  
+ 0.236  
+ 0.037  
+ 0.016  
+
+		-----
+	outerSentence : one disputes something.
+		coremap sentence : one disputes something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.012  
+ 0.063  
+ 0.506  
+ 0.382  
+ 0.037  
+
+		-----
+	 outer Subject : one 	,	inner Subject : Colorado 
+resolved as : (--, Colorado;the State;)
+
+And no one disputes that Colorado cannot require petitioners to pay any additional costs, fees, or restitution now that their convictions have been invalidated.
+	innerSentence :  Colorado cannot require petitioners to pay any additional costs
+		coremap sentence : Colorado cannot require petitioners to pay any additional costs
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.054  
+ 0.419  
+ 0.440  
+ 0.071  
+ 0.016  
+
+		-----
+	outerSentence : one disputes something.
+		coremap sentence : one disputes something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.012  
+ 0.063  
+ 0.506  
+ 0.382  
+ 0.037  
+
+		-----
+	 outer Subject : one 	,	inner Subject : Colorado 
+resolved as : (--, Colorado;the State;)
+
+The Court today announces that petitioners have a right to an automatic refund because the State has "no legal right" to that money.
+	innerSentence :  petitioners have a right to an automatic refund because the State has "no legal right" to that money.
+		coremap sentence : petitioners have a right to an automatic refund because the State has "no legal right" to that money.
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.080  
+ 0.432  
+ 0.361  
+ 0.100  
+ 0.027  
+
+		-----
+	outerSentence : Court announces something.
+		coremap sentence : Court announces something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.036  
+ 0.166  
+ 0.391  
+ 0.340  
+ 0.067  
+
+		-----
+	 outer Subject : Court 	,	inner Subject : petitioners 
+resolved as : (--, --)
+
+Citing Bell v. Wolfish, 441 U. S. 520 (1979), Colorado asserts that "[t]he presumption of innocence applies only at criminal trials" and thus has no application here.
+	innerSentence :  "[t]he presumption of innocence applies only at criminal trials" and thus has no application here.
+		coremap sentence : "[t]he presumption of innocence applies only at criminal trials" and thus has no application here.
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.091  
+ 0.662  
+ 0.207  
+ 0.032  
+ 0.009  
+
+		-----
+	outerSentence : Bell asserts something.
+		coremap sentence : Bell asserts something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.036  
+ 0.166  
+ 0.391  
+ 0.340  
+ 0.067  
+
+		-----
+	 outer Subject : Bell 	,	inner Subject : he 
+resolved as : (--, --)
+
+Our opinion in that case recognized that "under the Due Process Clause," a detainee who "has not been adjudged guilty of any crime" may not be punished.
+	innerSentence : " a detainee
+		coremap sentence : " a detainee
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.007  
+ 0.058  
+ 0.621  
+ 0.297  
+ 0.017  
+
+		-----
+	outerSentence : Our opinion recognized something.
+		coremap sentence : Our opinion recognized something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.059  
+ 0.216  
+ 0.362  
+ 0.289  
+ 0.074  
+
+		-----
+	 outer Subject : Our opinion 	,	inner Subject : detainee 
+resolved as : (Colorado;, --)
+
+
+Colorado invites a distinction between convictions merely "voidable," rather than "void," and urges that the invalidated convictions here fall in the voidable category.
+	innerSentence :  the invalidated convictions here fall in the voidable category.
+		coremap sentence : the invalidated convictions here fall in the voidable category.
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.383  
+ 0.422  
+ 0.171  
+ 0.008  
+ 0.015  
+
+		-----
+	outerSentence : none-outerSubject urges something.
+		coremap sentence : none-outerSubject urges something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.049  
+ 0.234  
+ 0.360  
+ 0.294  
+ 0.063  
+
+		-----
+	 outer Subject : none-outerSubject	,	inner Subject : invalidated convictions 
+resolved as : (--, --)
+
+Colorado additionally argues that defendants can request a stay of sentence pending appeal, thereby reducing the risk of erroneous deprivation.
+	innerSentence :  defendants can request a stay of sentence pending appeal
+		coremap sentence : defendants can request a stay of sentence pending appeal
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.050  
+ 0.273  
+ 0.347  
+ 0.279  
+ 0.051  
+
+		-----
+	outerSentence : Colorado argues something.
+		coremap sentence : Colorado argues something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.043  
+ 0.255  
+ 0.494  
+ 0.172  
+ 0.035  
+
+		-----
+	 outer Subject : Colorado 	,	inner Subject : defendants 
+resolved as : (--, --)
+
+The Court suggests that Medina would support its judgment because the presumption of innocence is deeply rooted and fundamental.
+	innerSentence :  Medina would support its judgment because the presumption of innocence is deeply rooted and fundamental.
+		coremap sentence : Medina would support its judgment because the presumption of innocence is deeply rooted and fundamental.
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.075  
+ 0.301  
+ 0.295  
+ 0.254  
+ 0.076  
+
+		-----
+	outerSentence : Court suggests something.
+		coremap sentence : Court suggests something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.034  
+ 0.223  
+ 0.503  
+ 0.205  
+ 0.034  
+
+		-----
+	 outer Subject : Court 	,	inner Subject : Medina 
+resolved as : (--, Medina;)
+
+
+I assume that the Due Process Clause requires some baseline procedures regardless of the provisions of Colorado law.
+	innerSentence :  the Due Process Clause requires some baseline procedures regardless of the provisions of Colorado law.
+		coremap sentence : the Due Process Clause requires some baseline procedures regardless of the provisions of Colorado law.
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.073  
+ 0.633  
+ 0.269  
+ 0.021  
+ 0.005  
+
+		-----
+	outerSentence : I assume something.
+		coremap sentence : I assume something.
+		sentiment : Negative
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.066  
+ 0.422  
+ 0.414  
+ 0.081  
+ 0.016  
+
+		-----
+	 outer Subject : I 	,	inner Subject : Due Clause 
+resolved as : (--, --)
+
+More specifically, the Exoneration Act entitles an exonerated defendant to compensation if he was convicted of a felony, was incarcerated, and, among other requirements, can prove by clear and convincing evidence that he is "actually innocent," meaning that his "conviction was the result of a miscarriage of justice" or that he is factually innocent.
+	innerSentence :  his "conviction was the result of a miscarriage of justice" or that he is factually innocent.
+		coremap sentence : his "conviction was the result of a miscarriage of justice" or that he is factually innocent.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.035  
+ 0.346  
+ 0.549  
+ 0.066  
+ 0.005  
+
+		-----
+	outerSentence : none-outerSubject meaning something.
+		coremap sentence : none-outerSubject meaning something.
+		sentiment : Neutral
+		matrixType = dense , numRows = 5 , numCols = 1
+ 0.014  
+ 0.074  
+ 0.555  
+ 0.322  
+ 0.034  
+
+		-----
+	 outer Subject : none-outerSubject	,	inner Subject : his conviction 
+resolved as : (--, Nelson, 362 P. 3d;the person 's;)
+

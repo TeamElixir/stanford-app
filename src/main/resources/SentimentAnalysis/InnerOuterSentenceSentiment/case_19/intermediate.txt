@@ -1,0 +1,1060 @@
+ both petitioners were entitled to seek refunds of all they had paid
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.018  
+ 0.196  
+ 0.723  
+ 0.057  
+ 0.006  
+
+Court concluded something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.036  
+ 0.166  
+ 0.391  
+ 0.340  
+ 0.067  
+
+Court ,--::petitioners ,petitioners;
+
+ there was no due process problem under the Act
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.071  
+ 0.606  
+ 0.293  
+ 0.024  
+ 0.006  
+
+Court held something.
+Positive
+Type = dense , numRows = 5 , numCols = 1
+ 0.017  
+ 0.071  
+ 0.391  
+ 0.449  
+ 0.073  
+
+Court ,--::due problem ,--
+
+ an Act
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.017  
+ 0.104  
+ 0.702  
+ 0.155  
+ 0.022  
+
+Colorado argues something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.043  
+ 0.255  
+ 0.494  
+ 0.172  
+ 0.035  
+
+Colorado ,Colorado;::Act ,--
+
+ she will not recover funds taken from her based solely on a conviction no longer valid.
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.106  
+ 0.622  
+ 0.216  
+ 0.043  
+ 0.013  
+
+whose conviction has been overturned something.
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.215  
+ 0.563  
+ 0.184  
+ 0.027  
+ 0.011  
+
+whose conviction ,--::she ,--
+
+ Nelson and Madden were entitled to seek refunds of all they had paid
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.026  
+ 0.266  
+ 0.641  
+ 0.058  
+ 0.009  
+
+none-outerSubject concluded something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.036  
+ 0.166  
+ 0.391  
+ 0.340  
+ 0.067  
+
+none-outerSubject,--::Nelson ,--
+
+ the Exoneration Act is the "exclusive process for exonerated defendants seeking a refund of costs
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.131  
+ 0.607  
+ 0.232  
+ 0.020  
+ 0.009  
+
+court concluded something.
+Positive
+Type = dense , numRows = 5 , numCols = 1
+ 0.028  
+ 0.145  
+ 0.232  
+ 0.525  
+ 0.070  
+
+court ,--::Act ,--
+
+ we should instead apply the standard from Medina v. California
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.083  
+ 0.564  
+ 0.296  
+ 0.046  
+ 0.011  
+
+Colorado argues something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.043  
+ 0.255  
+ 0.494  
+ 0.172  
+ 0.035  
+
+Colorado ,--::we ,Nelson and Madden;
+
+ and the State's burden to prove guilt beyond a reasonable doubt--adequately minimize the risk of erroneous deprivation of property.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.033  
+ 0.414  
+ 0.517  
+ 0.031  
+ 0.005  
+
+Colorado suggests something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.034  
+ 0.223  
+ 0.503  
+ 0.205  
+ 0.034  
+
+Colorado ,Colorado;::post-deprivation procedures ,--
+
+ she will not recover funds taken from her solely on the basis of a conviction no longer valid.
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.117  
+ 0.636  
+ 0.192  
+ 0.042  
+ 0.014  
+
+whose conviction has been overturned something.
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.215  
+ 0.563  
+ 0.184  
+ 0.027  
+ 0.011  
+
+whose conviction ,--::she ,--
+
+ the judgments of the Colorado Supreme Court must be reversed
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.149  
+ 0.632  
+ 0.186  
+ 0.023  
+ 0.011  
+
+I agree something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.019  
+ 0.076  
+ 0.424  
+ 0.420  
+ 0.061  
+
+I ,--::judgments ,--
+
+ these payments must be refunded
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.028  
+ 0.282  
+ 0.554  
+ 0.124  
+ 0.012  
+
+Court holding something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.023  
+ 0.134  
+ 0.592  
+ 0.223  
+ 0.028  
+
+Court ,--::payments ,--
+
+ they must generally occur as part of the criminal case.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.059  
+ 0.443  
+ 0.448  
+ 0.041  
+ 0.010  
+
+it appears something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.013  
+ 0.107  
+ 0.656  
+ 0.211  
+ 0.013  
+
+it ,--::they ,--
+
+ a person
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.001  
+ 0.006  
+ 0.962  
+ 0.030  
+ 0.001  
+
+traditional rule has been something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.021  
+ 0.136  
+ 0.587  
+ 0.230  
+ 0.025  
+
+traditional rule ,--::person ,--
+
+ the money should generally be repaid.
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.089  
+ 0.517  
+ 0.300  
+ 0.077  
+ 0.017  
+
+American law has recognized something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.058  
+ 0.217  
+ 0.334  
+ 0.316  
+ 0.075  
+
+American law ,--::money ,money;the money;
+
+ "restitution [of fines paid on a conviction later reversed] is not necessarily a matter of right"); Annot.
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.117  
+ 0.591  
+ 0.223  
+ 0.051  
+ 0.018  
+
+none-outerSubject noting something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.036  
+ 0.166  
+ 0.391  
+ 0.340  
+ 0.067  
+
+none-outerSubject,--::restitution ,--
+
+ most defendants whose convictions are reversed have no realistic opportunity to prove they are deserving of refunds.
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.323  
+ 0.395  
+ 0.185  
+ 0.058  
+ 0.040  
+
+stringent requirements guarantee something.
+Positive
+Type = dense , numRows = 5 , numCols = 1
+ 0.062  
+ 0.256  
+ 0.262  
+ 0.331  
+ 0.089  
+
+stringent requirements ,--::most defendants ,--
+
+ reversal restores the defendant to the status quo ante
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.032  
+ 0.308  
+ 0.608  
+ 0.043  
+ 0.008  
+
+implication is something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.012  
+ 0.050  
+ 0.565  
+ 0.327  
+ 0.046  
+
+implication ,--::reversal ,--
+
+ claimants prove their innocence either by a preponderance of the evidence or by clear and convincing evidence" (footnote omitted)).
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.076  
+ 0.442  
+ 0.361  
+ 0.095  
+ 0.026  
+
+none-outerSubject require something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.043  
+ 0.289  
+ 0.457  
+ 0.178  
+ 0.033  
+
+none-outerSubject,--::claimants ,--
+
+ a compensation proceeding "is not . . . a criminal trial" and that the burden of proof can be placed on the petitioner.
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.204  
+ 0.559  
+ 0.192  
+ 0.030  
+ 0.015  
+
+courts have held something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.007  
+ 0.043  
+ 0.748  
+ 0.186  
+ 0.016  
+
+courts ,--::proceeding ,--
+
+ they are truly innocent.
+Positive
+Type = dense , numRows = 5 , numCols = 1
+ 0.004  
+ 0.012  
+ 0.153  
+ 0.752  
+ 0.079  
+
+who can demonstrate something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.006  
+ 0.034  
+ 0.698  
+ 0.247  
+ 0.014  
+
+who ,--::they ,--
+
+ these statutes pose no constitutional difficulty.
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.065  
+ 0.506  
+ 0.364  
+ 0.054  
+ 0.011  
+
+Court acknowledges something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.041  
+ 0.226  
+ 0.438  
+ 0.250  
+ 0.045  
+
+Court ,--::statutes ,--
+
+ the State is "obliged to refund . . . restitution" in just the same way as fees and court costs.
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.098  
+ 0.641  
+ 0.234  
+ 0.020  
+ 0.006  
+
+Court declares something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.032  
+ 0.149  
+ 0.411  
+ 0.342  
+ 0.065  
+
+Court ,--::State ,--
+
+ a victim successfully sues a criminal defendant civilly and introduces the defendant's criminal conviction on the underlying conduct as (potentially preclusive) evidence establishing an essential element of a civil claim.
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.141  
+ 0.602  
+ 0.158  
+ 0.075  
+ 0.023  
+
+none-outerSubject Suppose something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.036  
+ 0.166  
+ 0.391  
+ 0.340  
+ 0.067  
+
+none-outerSubject,--::victim ,--
+
+ the defendant's criminal conviction is later reversed for a trial error
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.268  
+ 0.606  
+ 0.112  
+ 0.008  
+ 0.006  
+
+none-outerSubject suppose something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.036  
+ 0.227  
+ 0.536  
+ 0.171  
+ 0.031  
+
+none-outerSubject,--::criminal defendant 's conviction ,--
+
+ due process requires unwinding the civil judgment simply because it rests in part on a criminal conviction
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.073  
+ 0.500  
+ 0.253  
+ 0.145  
+ 0.029  
+
+It suggest something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.029  
+ 0.193  
+ 0.601  
+ 0.159  
+ 0.017  
+
+It ,--::due process ,--
+
+ the civil judgment would have been obtained as part of the criminal proceeding itself.
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.073  
+ 0.611  
+ 0.286  
+ 0.025  
+ 0.005  
+
+only difference would be something.
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.050  
+ 0.557  
+ 0.361  
+ 0.028  
+ 0.004  
+
+only difference ,--::civil judgment ,--
+
+ a State must provide a refund after enforcing a restitution judgment on the victims' behalf in reliance on a final judgment
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.036  
+ 0.435  
+ 0.467  
+ 0.055  
+ 0.007  
+
+It insist something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.026  
+ 0.107  
+ 0.434  
+ 0.380  
+ 0.053  
+
+It ,--::State ,--
+
+ the defendant injured the victims to
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.152  
+ 0.483  
+ 0.344  
+ 0.013  
+ 0.008  
+
+evidence establishes something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.006  
+ 0.026  
+ 0.498  
+ 0.440  
+ 0.030  
+
+evidence ,--::defendant ,--
+
+--at least in some circumstances--refunds of restitution payments made under later reversed judgments are not constitutionally required.
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.245  
+ 0.612  
+ 0.124  
+ 0.009  
+ 0.010  
+
+it should acknowledged something.
+Positive
+Type = dense , numRows = 5 , numCols = 1
+ 0.024  
+ 0.127  
+ 0.385  
+ 0.420  
+ 0.043  
+
+it ,the Court;::refunds ,--
+
+ the procedural hurdles it could impose before returning the money "would be fairly minimal
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.046  
+ 0.494  
+ 0.410  
+ 0.043  
+ 0.007  
+
+Colorado acknowledges something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.041  
+ 0.226  
+ 0.438  
+ 0.250  
+ 0.045  
+
+Colorado ,Colorado;Colorado 's;::procedural hurdles ,--
+
+ if the money belongs to the State--then Colorado need not "provide any procedure to give it back."
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.074  
+ 0.572  
+ 0.323  
+ 0.024  
+ 0.007  
+
+petitioners concede something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.036  
+ 0.166  
+ 0.391  
+ 0.340  
+ 0.067  
+
+petitioners ,--::Colorado ,Colorado;Colorado 's;
+
+ defendants whose convictions have been reversed possess a substantive entitlement
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.145  
+ 0.445  
+ 0.301  
+ 0.079  
+ 0.030  
+
+petitioners have not demonstrated something.
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.079  
+ 0.498  
+ 0.337  
+ 0.067  
+ 0.019  
+
+petitioners ,--::defendants ,--
+
+ no State shall "deprive any person of life
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.035  
+ 0.344  
+ 0.541  
+ 0.073  
+ 0.008  
+
+Fourteenth Amendment provides something.
+Positive
+Type = dense , numRows = 5 , numCols = 1
+ 0.022  
+ 0.079  
+ 0.281  
+ 0.499  
+ 0.119  
+
+Fourteenth Amendment ,--::State ,--
+
+ Colorado has violated the Constitution's procedural guarantees
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.108  
+ 0.496  
+ 0.263  
+ 0.099  
+ 0.035  
+
+1 show something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.002  
+ 0.010  
+ 0.846  
+ 0.138  
+ 0.004  
+
+1 ,--::Colorado ,--
+
+ they have been deprived of a protected property interest.
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.153  
+ 0.622  
+ 0.206  
+ 0.012  
+ 0.007  
+
+14 must establish something.
+Positive
+Type = dense , numRows = 5 , numCols = 1
+ 0.021  
+ 0.069  
+ 0.250  
+ 0.533  
+ 0.128  
+
+14 ,--::they ,petitioners;
+
+ the money remains their property under state law.
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.093  
+ 0.599  
+ 0.275  
+ 0.025  
+ 0.007  
+
+Petitioners contend something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.023  
+ 0.124  
+ 0.544  
+ 0.269  
+ 0.040  
+
+Petitioners ,Petitioners;::money ,--
+
+ moneys lawfully exacted pursuant to a valid conviction become public funds (or the victims' money) under Colorado law.
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.098  
+ 0.515  
+ 0.294  
+ 0.069  
+ 0.023  
+
+key premise is something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.012  
+ 0.072  
+ 0.626  
+ 0.271  
+ 0.018  
+
+key premise ,--::moneys ,--
+
+ the state no longer controls that money."
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.057  
+ 0.537  
+ 0.392  
+ 0.011  
+ 0.003  
+
+Court noted something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.036  
+ 0.166  
+ 0.391  
+ 0.340  
+ 0.067  
+
+Court ,--::state ,--
+
+ "Colorado's constitution protects" the Colorado Legislature's "control over public money
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.041  
+ 0.331  
+ 0.417  
+ 0.188  
+ 0.023  
+
+Court explained something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.036  
+ 0.166  
+ 0.391  
+ 0.340  
+ 0.067  
+
+Court ,--::Colorado 's constitution ,--
+
+ they satisfy the requirements of the Exoneration Act.
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.090  
+ 0.391  
+ 0.307  
+ 0.163  
+ 0.049  
+
+none-outerSubject demonstrate something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.027  
+ 0.124  
+ 0.391  
+ 0.389  
+ 0.068  
+
+none-outerSubject,--::they ,petitioners;
+
+ he is "actually innocent.
+Positive
+Type = dense , numRows = 5 , numCols = 1
+ 0.006  
+ 0.022  
+ 0.416  
+ 0.498  
+ 0.058  
+
+defendant can prove something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.030  
+ 0.155  
+ 0.445  
+ 0.321  
+ 0.050  
+
+defendant ,--::he ,the defendant;
+
+ the States provide certain procedures
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.013  
+ 0.110  
+ 0.683  
+ 0.180  
+ 0.014  
+
+Court require something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.043  
+ 0.289  
+ 0.457  
+ 0.178  
+ 0.033  
+
+Court ,--::States ,--
+
+ petitioners have a state-law right to an automatic refund (a point about
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.053  
+ 0.372  
+ 0.417  
+ 0.132  
+ 0.026  
+
+majority suggests something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.003  
+ 0.039  
+ 0.908  
+ 0.047  
+ 0.002  
+
+majority ,--::petitioners ,--
+
+ Colorado could not have required them to pay the money at issue.
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.138  
+ 0.572  
+ 0.236  
+ 0.037  
+ 0.016  
+
+one disputes something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.012  
+ 0.063  
+ 0.506  
+ 0.382  
+ 0.037  
+
+one ,--::Colorado ,Colorado;the State;
+
+ Colorado cannot require petitioners to pay any additional costs
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.054  
+ 0.419  
+ 0.440  
+ 0.071  
+ 0.016  
+
+one disputes something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.012  
+ 0.063  
+ 0.506  
+ 0.382  
+ 0.037  
+
+one ,--::Colorado ,Colorado;the State;
+
+ petitioners have a right to an automatic refund because the State has "no legal right" to that money.
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.080  
+ 0.432  
+ 0.361  
+ 0.100  
+ 0.027  
+
+Court announces something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.036  
+ 0.166  
+ 0.391  
+ 0.340  
+ 0.067  
+
+Court ,--::petitioners ,--
+
+ "[t]he presumption of innocence applies only at criminal trials" and thus has no application here.
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.091  
+ 0.662  
+ 0.207  
+ 0.032  
+ 0.009  
+
+Bell asserts something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.036  
+ 0.166  
+ 0.391  
+ 0.340  
+ 0.067  
+
+Bell ,--::he ,--
+
+" a detainee
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.007  
+ 0.058  
+ 0.621  
+ 0.297  
+ 0.017  
+
+Our opinion recognized something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.059  
+ 0.216  
+ 0.362  
+ 0.289  
+ 0.074  
+
+Our opinion ,Colorado;::detainee ,--
+
+ the invalidated convictions here fall in the voidable category.
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.383  
+ 0.422  
+ 0.171  
+ 0.008  
+ 0.015  
+
+none-outerSubject urges something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.049  
+ 0.234  
+ 0.360  
+ 0.294  
+ 0.063  
+
+none-outerSubject,--::invalidated convictions ,--
+
+ defendants can request a stay of sentence pending appeal
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.050  
+ 0.273  
+ 0.347  
+ 0.279  
+ 0.051  
+
+Colorado argues something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.043  
+ 0.255  
+ 0.494  
+ 0.172  
+ 0.035  
+
+Colorado ,--::defendants ,--
+
+ Medina would support its judgment because the presumption of innocence is deeply rooted and fundamental.
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.075  
+ 0.301  
+ 0.295  
+ 0.254  
+ 0.076  
+
+Court suggests something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.034  
+ 0.223  
+ 0.503  
+ 0.205  
+ 0.034  
+
+Court ,--::Medina ,Medina;
+
+ the Due Process Clause requires some baseline procedures regardless of the provisions of Colorado law.
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.073  
+ 0.633  
+ 0.269  
+ 0.021  
+ 0.005  
+
+I assume something.
+Negative
+Type = dense , numRows = 5 , numCols = 1
+ 0.066  
+ 0.422  
+ 0.414  
+ 0.081  
+ 0.016  
+
+I ,--::Due Clause ,--
+
+ his "conviction was the result of a miscarriage of justice" or that he is factually innocent.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.035  
+ 0.346  
+ 0.549  
+ 0.066  
+ 0.005  
+
+none-outerSubject meaning something.
+Neutral
+Type = dense , numRows = 5 , numCols = 1
+ 0.014  
+ 0.074  
+ 0.555  
+ 0.322  
+ 0.034  
+
+none-outerSubject,--::his conviction ,Nelson, 362 P. 3d;the person 's;
+

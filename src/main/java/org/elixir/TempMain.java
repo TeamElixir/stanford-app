@@ -17,7 +17,7 @@ import java.util.Properties;
 
 public class TempMain {
     public static void main(String[] args) throws IOException {
-        Party_Extraction_Main.processIntermediateFile("case_11");
+        Party_Extraction_Main.processIntermediateFile("case_20");
 //        Properties propsSentiment = new Properties();
 //        propsSentiment.setProperty("annotators", "tokenize,ssplit,tokenize,pos,lemma,parse,natlog,sentiment");
 //        StanfordCoreNLP sentimentPipeline = new StanfordCoreNLP(propsSentiment);
