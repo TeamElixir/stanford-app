@@ -38,7 +38,6 @@ public class ParseTreeDemo {
             System.out.println("sentiment file is not found.");
         }
 
-
         // build annotation for a review
         Annotation annotation = new Annotation("The small red car turned very quickly around the corner.");
 

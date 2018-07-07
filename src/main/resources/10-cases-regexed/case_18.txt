@@ -1,0 +1,690 @@
+Petitioner Moore was convicted of capital murder and sentenced to death for fatally shooting a store clerk during a botched robbery that occurred when Moore was 20 years old.
+
+A state habeas court subsequently determined that, under Atkins v. Virginia, 536 U. S. 304, and Hall v. Florida, 572 U. S. ___, Moore qualified as intellectually disabled and that his death sentence therefore violated the Eighth Amendment's proscription of "cruel and unusual punishments."
+
+The court consulted current medical diagnostic standards--the 11th edition of the American Association on Intellectual and Developmental Disabilities clinical manual (AAIDD-11) and the 5th edition of the Diagnostic and Statistical Manual of Mental Disorders published by the American Psychiatric Association.
+
+The habeas court followed the generally accepted intellectual-disability definition, which identifies three core elements: (1) intellectual-functioning deficits, (2) adaptive deficits, and (3) the onset of these deficits while still a minor.
+
+The court credited six scores, the average of which (70.66) indicated mild intellectual disability.
+
+And relying on testimony from mental-health professionals, the court found significant adaptive deficits in all three skill sets (conceptual, social, and practical).
+
+Based on its findings, the habeas court recommended to the Texas Court of Criminal Appeals (CCA) that Moore be granted relief.
+
+The CCA declined to adopt the judgment recommended by the habeas court.
+
+The CCA held instead that the habeas court erred by not following the CCA's 2004 decision in Ex parte Briseno, 135 S. W. 3d 1, which adopted the definition of, and standards for assessing, intellectual disability contained in the 1992 (ninth) edition of the American Association on Mental Retardation manual (AAMR-9), predecessor to the current AAIDD-11 manual.
+
+Briseno also incorporated the AAMR-9's requirement that adaptive deficits must be "related" to intellectual-functioning deficits, and it recited, without citation to any medical or judicial authority, seven evidentiary factors relevant to the intellectual-disability inquiry.
+
+Based on only two of Moore's IQ scores (of 74 and 78), the CCA concluded that Moore had not shown significantly subaverage intellectual functioning.
+
+And even if he had, the CCA continued, his adaptive strengths undercut any adaptive weaknesses.
+
+The habeas court also failed, the CCA determined, to inquire into relatedness.
+
+Among alternative causes for Moore's adaptive deficits, the CCA suggested, were an abuse-filled childhood, undiagnosed learning disorders, multiple elementary-school transfers, racially motivated harassment and violence at school, and a history of academic failure, drug abuse, and absenteeism.
+
+Briseno's seven evidentiary factors, the CCA further determined, weighed against finding that Moore had satisfied the relatedness requirement.
+
+Held: By rejecting the habeas court's application of medical guidance and by following the Briseno standard, including the nonclinical Briseno factors, the CCA's decision does not comport with the Eighth Amendment and this Court's precedents.
+
+The Eighth Amendment, which " 'reaffirms the duty of the government to respect the dignity of all persons,' " Hall, 572 U. S., at ___, prohibits the execution of any intellectually disabled individual, Atkins, 536 U. S., at 321.
+
+While Atkins and Hall left to the States "the task of developing appropriate ways to enforce" the restriction on executing the intellectually disabled, Hall, 572 U. S., at ___ (internal quotation marks omitted), States' discretion is not "unfettered," id., at ___, and must be "informed by the medical community's diagnostic framework," id., at ___-___.
+
+Relying on the most recent (and still current) versions of the leading diagnostic manuals, the Court concluded in Hall that Florida had "disregard[ed] established medical practice," id., at ___, and had parted ways with practices and trends in other States, id., at ___-___.
+
+Hall indicated that being informed by the medical community does not demand adherence to everything stated in the latest medical guide.
+
+But neither does precedent license disregard of current medical standards.
+
+The CCA's conclusion that Moore's IQ scores established that he is not intellectually disabled is irreconcilable with Hall, which instructs that, where an IQ score is close to, but above, 70, courts must account for the test's "standard error of measurement."
+
+Because the lower range of Moore's adjusted IQ score of 74 falls at or below 70, the CCA had to move on to consider Moore's adaptive functioning.
+
+The CCA's consideration of Moore's adaptive functioning also deviated from prevailing clinical standards and from the older clinical standards the CCA deemed applicable.
+
+The CCA overemphasized Moore's perceived adaptive strengths--living on the streets, mowing lawns, and playing pool for money--when the medical community focuses the adaptive-functioning inquiry on adaptive deficits.
+
+The CCA also stressed Moore's improved behavior in prison, but clinicians caution against reliance on adaptive strengths developed in controlled settings.
+
+The CCA further concluded that Moore's record of academic failure, along with a history of childhood abuse and suffering, detracted from a determination that his intellectual and adaptive deficits were related.
+
+The medical community, however, counts traumatic experiences as risk factors for intellectual disability.
+
+The CCA also departed from clinical practice by requiring Moore to show that his adaptive deficits were not related to "a personality disorder."
+
+Mental-health professionals recognize that intellectually disabled people may have other co-existing mental or physical impairments, including, e.g., attention-deficit/hyperactivity disorder, depressive and bipolar disorders, and autism.
+
+The CCA's attachment to the seven Briseno evidentiary factors further impeded its assessment of Moore's adaptive functioning.
+
+By design and in operation, the lay perceptions advanced by Briseno "creat[e] an unacceptable risk that persons with intellectual disability will be executed."
+
+The medical profession has endeavored to counter lay stereotypes, and the Briseno factors are an outlier, in comparison both to other States' handling of intellectual-disability pleas and to Texas' own practices in contexts other than the death penalty.
+
+States have some flexibility, but not "unfettered discretion," in enforcing Atkins' holding, Hall, 572 U. S., at ___, and the medical community's current standards, reflecting improved understanding over time, constrain States' leeway in this area.
+
+Here, the habeas court applied current medical standards in reaching its conclusion, but the CCA adhered to the standard it laid out in Briseno, including the nonclinical Briseno factors.
+
+The CCA therefore failed adequately to inform itself of the "medical community's diagnostic framework," Hall, 572 U. S., at ___-___.
+
+Because Briseno pervasively infected the CCA's analysis, the decision of that court cannot stand.
+
+Ginsburg, J., delivered the opinion of the Court, in which Kennedy, Breyer, Sotomayor, and Kagan, JJ., joined.
+
+Roberts, C. J., filed a dissenting opinion, in which Thomas and Alito, JJ., joined.
+
+NOTICE:?This opinion is subject to formal revision before publication in the preliminary print of the United States Reports.
+
+Readers are requested to notify the Reporter of Decisions, Supreme Court of the United States, Washington, D. C. 20543, of any typographical or other formal errors, in order that corrections may be made before the preliminary print goes to press.
+
+on writ of certiorari to the court of criminal appeals of texas
+
+Justice Ginsburg delivered the opinion of the Court.
+
+Bobby James Moore fatally shot a store clerk during a botched robbery.
+
+He was convicted of capital murder and sentenced to death.
+
+Moore challenged his death sentence on the ground that he was intellectually disabled and therefore exempt from execution.
+
+A state habeas court made detailed factfindings and determined that, under this Court's decisions in Atkins v. Virginia, 536 U. S. 304 (2002), and Hall v. Florida, 572 U. S. ___ (2014), Moore qualified as intellectually disabled.
+
+For that reason, the court concluded, Moore's death sentence violated the Eighth Amendment's proscription of "cruel and unusual punishments."
+
+The habeas court therefore recommended that Moore be granted relief.
+
+The Texas Court of Criminal Appeals (CCA)1 declined to adopt the judgment recommended by the state habeas court.2 In the CCA's view, the habeas court erroneously employed intellectual-disability guides currently used in the medical community rather than the 1992 guides adopted by the CCA in Ex parte Briseno, 135 S. W. 3d 1 (2004).
+
+The appeals court further determined that the evidentiary factors announced in Briseno "weigh[ed] heavily" against upsetting Moore's death sentence.
+
+As we instructed in Hall, adjudications of intellectual disability should be "informed by the views of medical experts."
+
+That instruction cannot sensibly be read to give courts leave to diminish the force of the medical community's consensus.
+
+Moreover, the several factors Briseno set out as indicators of intellectual disability are an invention of the CCA untied to any acknowledged source.
+
+Not aligned with the medical community's information, and drawing no strength from our precedent, the Briseno factors "creat[e] an unacceptable risk that persons with intellectual disability will be executed," 572 U. S., at ___ (slip op., at 1).
+
+Accordingly, they may not be used, as the CCA used them, to restrict qualification of an individual as intellectually disabled.
+
+In April 1980, then-20-year-old Bobby James Moore and two others were engaged in robbing a grocery store.
+
+During the episode, Moore fatally shot a store clerk.
+
+Some two months later, Moore was convicted and sentenced to death.
+
+A federal habeas court later vacated that sentence based on ineffective assistance of trial counsel, see Moore v. Collins, 1995 U. S. Dist.
+
+LEXIS 22859, *35 (SD Tex., Sept. 29, 1995), and the Fifth Circuit affirmed, see Moore v. Johnson, 194 F. 3d 586, 622 (1999).
+
+Moore was resentenced to death in 2001, and the CCA affirmed on direct appeal.
+
+Moore subsequently sought state habeas relief.
+
+In 2014, the state habeas court conducted a two-day hearing on whether Moore was intellectually disabled.
+
+The court received affidavits and heard testimony from Moore's family members, former counsel, and a number of court-appointed mental-health experts.
+
+The evidence revealed that Moore had significant mental and social difficulties beginning at an early age.
+
+At 13, Moore lacked basic understanding of the days of the week, the months of the year, and the seasons; he could scarcely tell time or comprehend the standards of measure or the basic principle that subtraction is the reverse of addition.
+
+At school, because of his limited ability to read and write, Moore could not keep up with lessons.
+
+Often, he was separated from the rest of the class and told to draw pictures.
+
+Moore's father, teachers, and peers called him "stupid" for his slow reading and speech.
+
+After failing every subject in the ninth grade, Moore dropped out of high school.
+
+Cast out of his home, he survived on the streets, eating from trash cans, even after two bouts of food poisoning.
+
+In evaluating Moore's assertion of intellectual disability, the state habeas court consulted current medical diagnostic standards, relying on the 11th edition of the American Association on Intellectual and Developmental Disabilities (AAIDD) clinical manual, see AAIDD, Intellectual Disability: Definition, Classification, and Systems of Supports (2010) (hereinafter AAIDD-11), and on the 5th edition of the Diagnostic and Statistical Manual of Mental Disorders published by the American Psychiatric Association (APA), see APA, Diagnostic and Statistical Manual of Mental Disorders (2013) (hereinafter DSM-5).
+
+The court followed the generally accepted, uncontroversial intellectual-disability diagnostic definition, which identifies three core elements: (1) intellectual-functioning deficits (indicated by an IQ score "approximately two standard deviations below the mean"--i.e., a score of roughly 70--adjusted for "the standard error of measurement," AAIDD-11, at 27); (2) adaptive deficits ("the inability to learn basic skills and adjust behavior to changing circumstances," Hall v. Flor- ida, 572 U. S. ___, ___ (2014) (slip op., at 8)); and (3) the onset of these deficits while still a minor.
+
+The court credited six of Moore's IQ scores, the average of which (70.66) indicated mild intellectual disability.
+
+In determining the significance of adaptive deficits, clinicians look to whether an individual's adaptive performance falls two or more standard deviations below the mean in any of the three adaptive skill sets (conceptual, social, and practical).
+
+Moore's performance fell roughly two standard deviations below the mean in all three skill categories.
+
+Based on this evidence, the state habeas court recommended that the CCA reduce Moore's sentence to life in prison or grant him a new trial on intellectual disability.
+
+The CCA rejected the habeas court's recommendations and denied Moore habeas relief.
+
+Briseno adopted the definition of, and standards for assessing, intellectual disability contained in the 1992 (ninth) edition of the American Association on Mental Retardation (AAMR) manual, predecessor to the current AAIDD-11 manual.
+
+Briseno incorporated the AAMR-9's requirement that adaptive deficits be "related" to intellectual-functioning deficits.
+
+The habeas judge erred, the CCA held, by "us[ing] the most current position, as espoused by AAIDD, regarding the diagnosis of intellectual disability rather than the test . . . in Briseno."
+
+This Court's decision in Atkins v. Virginia, 536 U. S. 304 (2002), the CCA emphasized, "left it to the States to develop appropriate ways to enforce the constitutional restriction" on the execution of the intellectually disabled.
+
+Thus, even though "[i]t may be true that the AAIDD's and APA's positions regarding the diagnosis of intellectual disability have changed since Atkins and Briseno," the CCA retained Briseno's instructions, both because of "the subjectivity surrounding the medical diagnosis of intellectual disability" and because the Texas Legislature had not displaced Briseno with any other guideposts.
+
+The Briseno inquiries, the court said, "remai[n] adequately 'informed by the medical community's diagnostic framework.' "
+
+Employing Briseno, the CCA first determined that Moore had failed to prove significantly subaverage intellectual functioning.
+
+Rejecting as unreliable five of the seven IQ tests the habeas court had considered, the CCA limited its appraisal to Moore's scores of 78 in 1973 and 74 in 1989.
+
+The court then discounted the lower end of the standard-error range associated with those scores.
+
+Regarding the score of 74, the court observed that Moore's history of academic failure, and the fact that he took the test while "exhibit[ing] withdrawn and depressive behavior" on death row, might have hindered his performance.
+
+Based on the two scores, but not on the lower portion of their ranges, the court concluded that Moore's scores ranked "above the intellectually disabled range" (i.e., above 70).
+
+"Even if [Moore] had proven that he suffers from significantly sub-average general intellectual functioning," the court continued, he failed to prove "significant and related limitations in adaptive functioning."
+
+True, the court acknowledged, Moore's and the State's experts agreed that Moore's adaptive-functioning test scores fell more than two standard deviations below the mean.
+
+But the State's expert ultimately discounted those test results because Moore had "no exposure" to certain tasks the testing included, "such as writing a check and using a microwave oven."
+
+Instead, the expert emphasized Moore's adaptive strengths in school, at trial, and in prison.
+
+The CCA credited the state expert's appraisal.
+
+The habeas court, the CCA concluded, had erred by concentrating on Moore's adaptive weaknesses.
+
+Moore had demonstrated adaptive strengths, the CCA spelled out, by living on the streets, playing pool and mowing lawns for money, committing the crime in a sophisticated way and then fleeing, testifying and representing himself at trial, and developing skills in prison.
+
+Those strengths, the court reasoned, undercut the significance of Moore's adaptive limitations.
+
+The habeas court had further erred, the CCA determined, by failing to consider whether any of Moore's adaptive deficits were related to causes other than his intellectualfunctioning deficits.
+
+Among alternative causes for Moore's adaptive deficits, the CCA suggested, were an abuse-filled childhood, undiagnosed learning disorders, multiple elementary-school transfers, racially motivated harassment and violence at school, and a history of academic failure, drug abuse, and absenteeism.
+
+Moore's significant improvement in prison, in the CCA's view, confirmed that his academic and social difficulties were not related to intellectual-functioning deficits.
+
+The court then examined each of the seven Briseno evidentiary factors, see supra, at 5-6, and n. 6, concluding that those factors "weigh[ed] heavily" against finding that Moore had satisfied the relatedness requirement.
+
+Atkins and Hall, she would have held, require courts to consult current medical standards to determine intellectual disability.
+
+She criticized the majority for relying on manuals superseded in the medical community, id., at 530-534, 536-539, and for disregarding the habeas court's credibility determinations, id., at 535-536, 538-539.
+
+Judge Alcala questioned the legitimacy of the seven Briseno factors, recounting wide criticism of the factors and explaining how they deviate from the current medical consensus.
+
+Most emphatically, she urged, the CCA "must consult the medical community's current views and standards in determining whether a defendant is intellectually disabled"; "reliance on . . . standard[s] no longer employed by the medical community," she objected, "is constitutionally unacceptable."
+
+We granted certiorari to determine whether the CCA's adherence to superseded medical standards and its reliance on Briseno comply with the Eighth Amendment and this Court's precedents.
+
+The Eighth Amendment prohibits "cruel and unusual punishments," and "reaffirms the duty of the government to respect the dignity of all persons," Hall, 572 U. S., at ___ (slip op., at 5) (quoting Roper v. Simmons, 543 U. S. 551, 560 (2005)).
+
+"To enforce the Constitution's protection of human dignity," we "loo[k] to the evolving standards of decency that mark the progress of a maturing society," recognizing that "[t]he Eighth Amendment is not fastened to the obsolete."
+
+In Atkins v. Virginia, we held that the Constitution "restrict[s] . . . the State's power to take the life of" any intellectually disabled individual.
+
+Executing intellectually disabled individuals, we concluded in Atkins, serves no penological purpose, see 536 U. S., at 318-320; runs up against a national consensus against the practice, see id., at 313-317; and creates a "risk that the death penalty will be imposed in spite of factors which may call for a less severe penalty," id., at 320 (internal quotation marks omitted); see id., at 320-321.
+
+In Hall v. Florida, we held that a State cannot refuse to entertain other evidence of intellectual disability when a defendant has an IQ score above 70.
+
+Although Atkins and Hall left to the States "the task of developing appropriate ways to enforce" the restriction on executing the intellectually disabled, 572 U. S., at ___ (slip op., at 17) (quoting Atkins, 536 U. S., at 317), States' discretion, we cautioned, is not "unfettered," 572 U. S., at ___ (slip op., at 17).
+
+Even if "the views of medical experts" do not "dictate" a court's intellectual-disability determination, id., at ___ (slip op., at 19), we clarified, the determination must be "informed by the medical community's diagnostic framework," id., at ___-___ (slip op., at 19-20).
+
+We relied on the most recent (and still current) versions of the leading diagnostic manuals--the DSM-5 and AAIDD-11.
+
+Florida, we concluded, had violated the Eighth Amendment by "disregard[ing] established medical practice."
+
+We further noted that Florida had parted ways with practices and trends in other States.
+
+Hall indicated that being informed by the medical community does not demand adherence to everything stated in the latest medical guide.
+
+But neither does our precedent license disregard of current medical standards.
+
+The CCA's conclusion that Moore's IQ scores established that he is not intellectually disabled is irreconcilable with Hall.
+
+Hall instructs that, where an IQ score is close to, but above, 70, courts must account for the test's "standard error of measurement."
+
+As we explained in Hall, the standard error of measurement is "a statistical fact, a reflection of the inherent imprecision of the test itself."
+
+"For purposes of most IQ tests," this imprecision in the testing instrument "means that an individual's score is best understood as a range of scores on either side of the recorded score . . . within which one may say an individual's true IQ score lies."
+
+A test's standard error of measurement "reflects the reality that an individual's intellectual functioning cannot be reduced to a single numerical score."
+
+Moore's score of 74, adjusted for the standard error of measurement, yields a range of 69 to 79, see 470 S. W. 3d, at 519, as the State's retained expert acknowledged, see Brief for Petitioner 39, n. 18; App.
+
+Because the lower end of Moore's score range falls at or below 70, the CCA had to move on to consider Moore's adaptive functioning.
+
+Both Texas and the dissent maintain that the CCA properly considered factors unique to Moore in disregarding the lower end of the standard-error range.
+
+But the presence of other sources of imprecision in administering the test to a particular individual, see post, at 14-16, and n. 3, cannot narrow the test-specific standard-error range.7
+
+In requiring the CCA to move on to consider Moore's adaptive functioning in light of his IQ evidence, we do not suggest that "the Eighth Amendment turns on the slightest numerical difference in IQ score," post, at 15-16.
+
+Hall invalidated Florida's strict IQ cutoff because the cutoff took "an IQ score as final and conclusive evidence of a defendant's intellectual capacity, when experts in the field would consider other evidence."
+
+Here, by contrast, we do not end the intellectual-disability inquiry, one way or the other, based on Moore's IQ score.
+
+Rather, in line with Hall, we require that courts continue the inquiry and consider other evidence of intellectual disability where an individual's IQ score, adjusted for the test's standard error, falls within the clinically established range for intellectual-functioning deficits.
+
+The CCA's consideration of Moore's adaptive functioning also deviated from prevailing clinical standards and from the older clinical standards the court claimed to apply.
+
+In concluding that Moore did not suffer significant adaptive deficits, the CCA overemphasized Moore's perceived adaptive strengths.
+
+The CCA recited the strengths it perceived, among them, Moore lived on the streets, mowed lawns, and played pool for money.
+
+Moore's adaptive strengths, in the CCA's view, constituted evidence adequate to overcome the considerable objective evidence of Moore's adaptive deficits, see supra, at 4; App.
+
+But the medical community focuses the adaptive-functioning inquiry on adaptive deficits.
+
+In addition, the CCA stressed Moore's improved behavior in prison.
+
+Clinicians, however, caution against reliance on adaptive strengths developed "in a controlled setting," as a prison surely is.
+
+DSM-5, at 38 ("Adaptive functioning may be difficult to assess in a controlled setting (e.g., prisons, detention centers); if possible, corroborative information reflecting functioning outside those settings should be obtained.")
+
+The CCA furthermore concluded that Moore's record of academic failure, along with the childhood abuse and suffering he endured, detracted from a determination that his intellectual and adaptive deficits were related.
+
+Those traumatic experiences, however, count in the medical community as "risk factors" for intellectual disability.
+
+Clinicians rely on such factors as cause to explore the prospect of intellectual disability further, not to counter the case for a disability determination.
+
+The CCA also departed from clinical practice by requiring Moore to show that his adaptive deficits were not related to "a personality disorder."
+
+As mental-health professionals recognize, however, many intellectually disabled people also have other mental or physical impairments, for example, attention-deficit/hyperactivity disorder, depressive and bipolar disorders, and autism.
+
+("[c]o-occurring mental, neurodevelopmental, medical, and physical conditions are frequent in intellectual disability, with rates of some conditions (e.g., mental disorders, cerebral palsy, and epilepsy) three to four times higher than in the general population"); see AAIDD-11, at 58-63.
+
+Coexisting conditions frequently encountered in intellectually disabled individuals have been described in clinical literature as "[c]omorbidit[ies]."
+
+The existence of a personality disorder or mental-health issue, in short, is "not evidence that a person does not also have intellectual disability."
+
+Brief for American Psychological Association, APA, et al. as Amici Curiae 19.
+
+The CCA's attachment to the seven Briseno evidentiary factors further impeded its assessment of Moore's adaptive functioning.
+
+By design and in operation, the Briseno factors "creat[e] an unacceptable risk that persons with intellectual disability will be executed," Hall, 572 U. S., at ___ (slip op., at 1).
+
+After observing that persons with "mild" intellectual disability might be treated differently under clinical standards than under Texas' capital system, the CCA defined its objective as identifying the "consensus of Texas citizens" on who "should be exempted from the death penalty."
+
+Mild levels of intellectual disability, although they may fall outside Texas citizens' consensus, nevertheless remain intellectual disabilities, see Hall, 572 U. S., at ___-___ (slip op., at 17-18); Atkins, 536 U. S., at 308, and n. 3; AAIDD-11, at 153, and States may not execute anyone in "the entire category of [intellectually disabled] offenders," Roper, 543 U. S., at 563-564 (emphasis added); see supra, at 9.
+
+Skeptical of what it viewed as "exceedingly subjective" medical and clinical standards, the CCA in Briseno advanced lay perceptions of intellectual disability.
+
+Briseno asks, for example, "Did those who knew the person best during the developmental stage--his family, friends, teachers, employers, authorities--think he was mentally retarded at that time, and, if so, act in accordance with that determination?"
+
+Addressing that question here, the CCA referred to Moore's education in "normal classrooms during his school career," his father's reactions to his academic challenges, and his sister's perceptions of Moore's intellectual abilities.
+
+But the medical profession has endeavored to counter lay stereotypes of the intellectually disabled.
+
+Those stereotypes, much more than medical and clinical appraisals, should spark skepticism.9
+
+The Briseno factors are an outlier, in comparison both to other States' handling of intellectual-disability pleas and to Texas' own practices in other contexts.
+
+No state legislature has approved the use of the Briseno factors or anything similar.
+
+In the 12 years since Texas adopted the factors, only one other state high court and one state intermediate appellate court have authorized their use.
+
+Indeed, Texas itself does not follow Briseno in contexts other than the death penalty.
+
+For example, the related-ness requirement Texas defends here, see supra, at 5-6, is conspicuously absent from the standards the State uses to assess students for intellectual disabilities.
+
+And even within Texas' criminal-justice system, the State requires the intellectual-disability diagnoses of juveniles to be based on "the latest edition of the DSM."
+
+Texas cannot satisfactorily explain why it applies current medical standards for diagnosing intellectual disability in other contexts, yet clings to superseded standards when an individual's life is at stake.10
+
+"If the States were to have complete autonomy to define intellectual disability as they wished," we have observed, "Atkins could become a nullity, and the Eighth Amendment's protection of human dignity would not become a reality."
+
+The medical community's current standards supply one constraint on States' leeway in this area.
+
+Reflecting improved understanding over time, see DSM-5, at 7; AAIDD-11, at xiv-xv, current manuals offer "the best available description of how mental disorders are expressed and can be recognized by trained clinicians," DSM-5, at xli.
+
+In Moore's case, the habeas court applied current medical standards in concluding that Moore is intellectually disabled and therefore ineligible for the death penalty.
+
+The CCA, however, faulted the habeas court for "disregarding [the CCA's] case law and employing the definition of intellectual disability presently used by the AAIDD."
+
+The CCA instead fastened its intellectual-disability determination to "the AAMR's 1992 definition of intellectual disability that [it] adopted in Briseno for Atkins claims presented in Texas death-penalty cases."
+
+By rejecting the habeas court's application of medical guidance and clinging to the standard it laid out in Briseno, including the wholly nonclinical Briseno factors, the CCA failed adequately to inform itself of the "medical community's diagnostic framework," Hall, 572 U. S., at ___-___ (slip op., at 19-20).
+
+Because Briseno pervasively infected the CCA's analysis, the decision of that court cannot stand.
+
+For the reasons stated, the judgment of the Texas Court of Criminal Appeals is vacated, and the case is remanded for further proceedings not inconsistent with this opinion.
+
+on writ of certiorari to the court of criminal appeals of texas
+
+Chief Justice Roberts, with whom Justice Thomas and Justice Alito join, dissenting.
+
+The Texas Court of Criminal Appeals (CCA) concluded that Bobby James Moore was not intellectually disabled so as to be exempt from the death penalty under Atkins v. Virginia, 536 U. S. 304 (2002).
+
+It reached that conclusion based on its findings that he had failed to establish either significantly subaverage intellectual functioning or related significant deficits in adaptive behavior.
+
+I agree with the Court today that those factors are an unacceptable method of enforcing the guarantee of Atkins, and that the CCA therefore erred in using them to analyze adaptive deficits.
+
+But I do not agree that the CCA erred as to Moore's intellectual functioning.
+
+Because the CCA's determination on that ground is an independent basis for its judgment, I would affirm the decision below.
+
+My broader concern with today's opinion, however, is that it abandons the usual mode of analysis this Court has employed in Eighth Amendment cases.
+
+The Court overturns the CCA's conclusion that Moore failed to present sufficient evidence of both inadequate intellectual functioning and significant deficits in adaptive behavior without even considering "objective indicia of society's standards" reflected in the practices among the States.
+
+The Court instead crafts a constitutional holding based solely on what it deems to be medical consensus about intellectual disability.
+
+But clinicians, not judges, should determine clinical standards; and judges, not clinicians, should determine the content of the Eighth Amendment.
+
+Today's opinion confuses those roles, and I respectfully dissent.
+
+On April 25, 1980, Moore and two others were throwing dice when they decided to commit a robbery to obtain money for car payments.
+
+Moore provided the group with two firearms, and the three men began to drive around Houston looking for a target.
+
+Eventually they settled on the Birdsall Super Market.
+
+After negotiating their respective shares of the money they intended to steal and donning disguises, the three went inside, heading straight to a courtesy booth staffed by James McCarble and Edna Scott.
+
+When Scott realized a robbery was occurring and screamed, Moore shot McCarble in the head, killing the 70-year-old instantly.
+
+Moore fled Houston and remained on the run until his arrest in Louisiana ten days after the murder.
+
+After giving a written statement admitting his participation in the robbery and killing, Moore was charged with capital murder.
+
+A jury convicted him and sentenced him to death.
+
+Over the next three decades, Moore's case traversed the state and federal court systems, finally reaching the Atkins hearing at issue today in 2014.
+
+The state habeas court conducted a two-day evidentiary hearing, during which it heard testimony from family members, a fellow inmate, a prison official, and four mental health professionals.
+
+The court concluded that Moore had shown intellectual disability and recommended that he be granted relief.
+
+But it was just that: a recommendation.
+
+Under Texas law, the CCA, not the habeas court, is the ultimate factfinder in habeas corpus proceedings.
+
+Assuming that role, the CCA declined to adopt the habeas court's findings and conclusions, instead conducting its own review of the record to determine whether Moore had shown he was intellectually disabled.
+
+The CCA began by considering the appropriate legal standard for assessing intellectual disability.
+
+Following our instruction to the States to "develop[ ] appropriate ways to enforce" Atkins, 536 U. S., at 317 (internal quotation marks omitted), the CCA had set out a legal definition for intellectual disability in its prior decision in Ex parte Briseno.
+
+Rather than follow that test, the habeas court below crafted its own standards for intellectual disability.
+
+But "[t]he decision to modify the legal standard for intellectual disability in the capital-sentencing context," the CCA explained, "rests with this Court unless and until the Legislature acts."
+
+Just as we have corrected lower courts for taking it upon themselves to dismiss our precedent as outdated, see, e.g., Bosse v. Okla- homa, 580 U. S. ___, ___ (2016) (per curiam) (slip op., at 2), so too the CCA rebuked the habeas court for ignoring binding CCA precedent.
+
+The CCA went on to explain why there was no reason to modify the legal standard it had previously set out.
+
+Briseno had stated a rule that in order for an Atkins claimant to demonstrate intellectual disability he must show (1) significantly subaverage general intellectual functioning and (2) related limitations in adaptive functioning, (3) which had appeared prior to age 18.
+
+It also laid out a set of seven evidentiary factors--the "Briseno factors"--designed to assist "factfinders . . . in weighing evidence" of intellectual disability.
+
+The three-prong definition of intellectual disability came directly from the ninth edition of the manual published by what is now the American Association on Intellectual and Developmental Disabilities (AAIDD).
+
+By the time Moore's case reached the CCA, the AAIDD no longer included the requirement that adaptive deficits be "related" to intellectual functioning.
+
+But, as the CCA noted, the most recent version of the other leading diagnostic manual, the DSM-5, did include that requirement.
+
+So the CCA was faced with a choice in Moore: Keeping the relatedness requirement would be inconsistent with the AAIDD's current guidance; dropping it would be out of step with the newest version of the DSM.
+
+The CCA concluded that "the legal test we established in Briseno remains adequately 'informed by the medical community's diagnostic framework,' " and went on to evaluate the case under that approach.
+
+Starting with intellectual functioning, the CCA conducted a painstaking analysis of the battery of tests Moore had taken over the past 40 years.
+
+The CCA concluded that five of the tests the habeas court had considered were unreliable: two of them were neuropsychological tests rather than formal IQ measures; two were group-administered tests, which Moore's own experts had criticized, App.
+
+That left two scores for the CCA to analyze: a 78 and a 74.
+
+Significantly subaverage intellectual functioning is "generally shown by an [IQ] of 70 or less."
+
+"Taking into account the standard error of measurement" for the 78 score yielded a range of 73 to 83--i.e., a range that did not include an IQ of 70 or less.
+
+As for the 74, the CCA again considered the standard error of measurement, which yielded a score range of 69 to 79.
+
+The lower end of that range placed Moore within the parameters for significantly subaverage intellectual functioning.
+
+The CCA found, however, that Moore's score was unlikely to be in the lower end of the error-generated range because he was likely exerting poor effort and experiencing depression at the time the test was administered--both factors that Moore's experts agreed could artificially deflate IQ scores.
+
+The CCA accordingly concluded that Moore had failed to present sufficient evidence of significantly subaverage intellectual functioning.
+
+Having failed one part of the CCA's three-part test, Moore could not be found intellectually disabled.
+
+The CCA nonetheless went on to consider the second prong of the test, Moore's adaptive deficits.
+
+Moore had taken a standardized test of adaptive functioning in which he scored more than two standard deviations below the mean.
+
+But Dr. Kristi Compton, the state expert who had administered that test, explained that it was not an accurate measure of Moore's abilities.
+
+She reached this conclusion not because of Moore's adaptive strengths but instead because "she had to assign zeroes to questions asking about areas to which [Moore] had no exposure, such as writing a check and using a microwave oven."
+
+Dr. Compton further opined that her evaluation of Moore and review of documentary evidence--including school, trial, and prison records--did not show adaptive deficits sufficient for an intellectual disability diagnosis.
+
+The CCA also considered and recounted the testimony of the other experts who, unlike Dr. Compton, concluded that Moore had shown significant adaptive deficits.
+
+As factfinders often do in confronting conflicting evidence, the CCA made a credibility determination.
+
+The opinion of Dr. Compton, the CCA concluded, was "far more credible and reliable" than those of Moore's experts, given Dr. Compton's "considerable experience," "thorough[ ] and rigorous[ ] review[ ] [of] a great deal of material," and personal evaluation of Moore.
+
+Based on Dr. Compton's expert opinion, the CCA concluded Moore had failed to demonstrate significant adaptive deficits.
+
+Finally, the CCA considered whether, even assuming that Moore had made sufficient showings as to intellectual functioning and adaptive deficits, those two were related.
+
+Again finding Dr. Compton's testimony the most credible, the CCA concluded that "the record overwhelmingly supports the conclusion" that Moore's observed academic and social difficulties stemmed, not from low intellectual abilities, but instead from outside factors like the trauma and abuse he suffered as a child and his drug use at a young age.
+
+The CCA explained that, in addition to Dr. Compton's expert testimony, consideration of the seven Briseno factors reinforced that relatedness conclusion.
+
+Given that Moore had failed to present sufficient evidence on intellectual functioning or related adaptive deficits, the CCA "conclude[d] that for Eighth Amendment purposes," Moore had not shown he was intellectually disabled.
+
+Accordingly, he was not exempt from execution under Atkins.
+
+This Court's precedents have emphasized the importance of state legislative judgments in giving content to the Eighth Amendment ban on cruel and unusual punishment.
+
+"Eighth Amendment judgments should not be . . . merely the subjective views of individual Justices."
+
+For that reason, we have emphasized that "judgment should be informed by objective factors to the maximum possible extent."
+
+The "clearest and most reliable objective evidence of contemporary values" comes from state legislative judgments.
+
+Such legislative judgments are critical because in "a democratic society legislatures, not courts, are constituted to respond to the will and consequently the moral values of the people."
+
+And we have focused on state enactments in this realm because of the "deference we owe to the decisions of the state legislatures under our federal system . . . where the specification of punishments is concerned."
+
+For these reasons, we have described state legislative judgments as providing "essential instruction" in conducting the Eighth Amendment inquiry.
+
+Our decisions addressing capital punishment for the intellectually disabled recognize the central significance of state consensus.
+
+In holding that the Eighth Amendment prohibits the execution of intellectually disabled individuals in Atkins, the Court first identified a national consensus against the practice and then, applying our own "independent evaluation of the issue," concluded that there was "no reason to disagree" with that consensus.
+
+The scope of our holding--guided as it was by the national consensus--swept only as far as that consensus.
+
+We recognized that there remained the potential for "serious disagreement . . . in determining which offenders are in fact retarded."
+
+And we did not seek to provide "definitive procedural or substantive guides for determining when a person who claims mental retardation will be so impaired as to fall within Atkins' compass."
+
+Instead, we left "to the States the task of developing appropriate ways to enforce the constitutional restriction upon their execution of sentences."
+
+Twelve years after Atkins, the Court confronted one State's attempt to enforce the holding of that case.
+
+Although the Court thought it "proper to consider the psychiatric and professional studies that elaborate on the purpose and meaning of IQ scores," it emphasized that "[t]he legal determination of intellectual disability is distinct from a medical diagnosis."
+
+It was "the Court's duty"--not that of medical experts--"to interpret the Constitution."
+
+The Court's conclusion that Florida's rule was "in direct opposition to the views of those who design, administer, and interpret the IQ test" was not enough to decide the case.
+
+Instead, consistent with our settled approach, the Court canvassed "the legislative policies of various States," as well as "the holdings of state courts," because it was state policies that provided "essential instruction" for determining the scope of the constitutional guarantee.
+
+State policy, the Court concluded, indicated a "consensus that our society does not regard [Florida's rule] as proper or humane," and that "consensus . . . instruct[ed us] how to decide the specific issue presented."
+
+The Court was sharply divided on that conclusion, see id., at ___-___ (slip op., at 4-7) (Alito, J., dissenting), but not on the fact that our precedent mandated such an inquiry.
+
+Today's decision departs from this Court's precedents, followed in Atkins and Hall, establishing that the determination of what is cruel and unusual rests on a judicial judgment about societal standards of decency, not a medical assessment of clinical practice.
+
+The Court rejects the CCA's conclusion that Moore failed to make the requisite showings with respect to intellectual functioning and adaptive deficits, without any consideration of the state practices that were, three Terms ago, "essential" to the Eighth Amendment question.
+
+The Court instead finds error in the CCA's analysis based solely on what the Court views to be departure from typical clinical practice.
+
+The clinical guides on which the Court relies today are "designed to assist clinicians in conducting clinical assessment, case formulation, and treatment planning."
+
+They do not seek to dictate or describe who is morally culpable--indeed, the DSM-5 cautions its readers about "the imperfect fit between the questions of ultimate concern to the law and the information contained" within its pages.
+
+The Eighth Amendment, under our precedent, is supposed to impose a moral backstop on punishment, prohibiting sentences that our society deems repugnant.
+
+The Court, however, interprets that constitutional guarantee as turning on clinical guidelines that do not purport to reflect standards of decency.
+
+The Court's refusal even to address what we previously "pinpointed" as "the clearest and most reliable objective evidence" of such standards--the practices among the States--goes unexplained by the majority.
+
+A second problem with the Court's approach is the lack of guidance it offers to States seeking to enforce the holding of Atkins.
+
+Recognizing that we have, in the very recent past, held that " 'the views of medical experts' do not 'dictate' a court's intellectual-disability determination," the Court assures us that it is not requiring adherence "to everything stated in the latest medical guide," ante, at 9-10 (quoting Hall, 572 U. S., at ___ (slip op., at 19)); States have "some flexibility" but cannot "disregard" medical standards.
+
+Neither the Court's articulation of this standard nor its application sheds any light on what it means.
+
+"Disregard" normally means to dismiss as unworthy of attention, and that is plainly not what the CCA did here.
+
+For example, the Court faults the CCA for placing too much weight on Moore's adaptive strengths and functioning in prison, implying that this marked a dismissal of clinical standards.
+
+Yet the CCA was aware of and, in a prior decision, had addressed the fact that some clinicians would counsel against considering such information.
+
+Both because "[m]ost courts . . . consider all of the person's functional abilities" and because it seemed "foolhardy" to ignore strengths, the CCA thought it proper to take note of them.
+
+As to prison conduct, the CCA decided that the fundamental questions the Atkins inquiry sought to answer were best considered--and "sound scientific principles" best served--by taking account of "all possible data that sheds light on a person's adaptive functioning, including his conduct in a prison society."
+
+The CCA considered clinical standards and explained why it decided that departure from those standards was warranted.
+
+The court did not "disregard" medical standards.
+
+Nor do the Court's identified errors clarify the scope of the "flexibility" we are told States retain in this area.
+
+The Court faults the CCA for "overemphasiz[ing]" strengths and "stress[ing]" Moore's conduct in prison, ante, at 12-13, suggesting that some--but not too much--consideration of strengths and prison functioning is acceptable.
+
+The Court's only guidance on when "some" becomes "too much"?
+
+But if courts do have "flexibility" in enforcing the guarantee of Atkins and need not "adhere[ ]" to these guides in every instance or particular, ante, at 10, 17, then clinical texts, standing alone, cannot answer the question of why the CCA placed too much weight on adaptive strengths and prison conduct.
+
+The line between the permissible--consideration, maybe even emphasis--and the forbidden--"overemphasis"--is not only thin, but totally undefined by today's decision.
+
+It is not at all clear when a State's deviation from medical consensus becomes so great as to "diminish the force" of that consensus, ante, at 2, and thereby violate the Constitution.
+
+Finally, the Court's decision constitutionalizes rules for which there is not even clinical consensus--a consequence that will often arise from the approach charted by the Court today.
+
+In support of this proposition, the Court cites the AAIDD's direction that "significant limitations in conceptual, social, or practical adaptive skills [are] not outweighed by the potential strengths in some adaptive skills."
+
+Even assuming that all clinicians would agree with this statement, there are a number of ways it might be interpreted: as meaning that strengths in one of the three adaptive skill areas--conceptual, social, and practical--should not cancel out deficits in another; as meaning that strengths should not outweigh deficits within the same skill area; or as meaning that evidence of some ability to perform a skill should not offset evidence of the inability to perform that same skill.
+
+And it appears that clinicians do, in fact, disagree about what this direction means.
+
+Compare, e.g., Brief for AAIDD et al. as Amici Curiae 17 ("The clinician's diagnostic focus does not--and cannot--involve any form of 'balancing' deficits against the abilities or strengths which the particular individual may also possess" (emphasis added)) with Hagan, Drogin, & Guilmette, Assessing Adaptive Functioning in Death Penalty Cases after Hall and DSM-5, 44 J. Am.
+
+Psychiatry & L. 96, 98 (2016) ("Any assessment of adaptive functioning must give sufficient consideration to assets and deficits alike. . . . [I]nventorying only assets or deficits . . . departs from DSM-5, [the AAIDD-11], and all other established frameworks" (footnotes omitted)).
+
+The same is true about consideration of prison conduct.
+
+The two primary clinical guides do offer caution about considering functioning in prison.
+
+But the stringency of their caution differs, with the AAIDD seeming to enact a flat ban on ever looking to functioning in prison and the DSM urging "if possible" to consider "corroborative information reflecting functioning outside" of prison.
+
+The CCA followed the DSM-5's instruction, relying on Dr. Compton's conclusion that "even before [Moore] went to prison" he demonstrated a "level of adaptive functioning . . . too great . . . to support an intellectual-disability diagnosis."
+
+In determining that the CCA erred in this regard, the Court implicitly rejects the DSM-5's approach to the proper consideration of prison conduct and accepts what it takes to be that of the AAIDD.
+
+The Court does not attempt to explain its justification for why the Eighth Amendment should favor one side over the other in this clinical debate.
+
+[B]ecause there often is no single, accurate psychiatric conclusion," we have emphasized the importance of allowing the "primary factfinder[ ]" to "resolve differences in opinion . . . on the basis of the evidence offered by each party."
+
+You would not know it from reading the Court's opinion today, but that is precisely what the CCA--the factfinder under Texas law--did in the decision below: Confronted with dueling expert opinions about how to evaluate adaptive functioning and what conclusion to reach, the CCA resolved the dispute before it by accepting the testimony of the expert it deemed most credible.
+
+Of course, reliance on an expert opinion does not insulate a decision from further judicial review.
+
+But, unlike the Court, I am unwilling to upset the considered judgment of the forensic psychologist that the factfinding court deemed the most credible based on my own interpretation of a few sentences excised from medical texts.
+
+As for how I would resolve this case, there is one aspect of the CCA's approach to intellectual disability that is incompatible with the Eighth Amendment: the Briseno factors.
+
+As the Court explains, no state legislature has approved the use of these or any similar factors.
+
+Although the CCA reviewed these factors to determine whether Moore's adaptive deficits were "related" to his intellectual functioning, it may be that consideration of those factors tainted the whole of the CCA's adaptive functioning analysis.
+
+I need not decide this question, however, because the CCA reached the issue of Moore's adaptive functioning only after concluding that he had failed to demonstrate intellectual functioning sufficiently low to warrant a finding of intellectual disability, regardless of his adaptive deficits or their relationship to his IQ.
+
+Moore has not presented sufficient reason to upset that independent holding.
+
+The Court concludes that the CCA's assessment of Moore's IQ scores is "irreconcilable with Hall."
+
+Hall rejected a Florida rule that required a prisoner to present an IQ score of 70 or below to demonstrate intellectual disability, thereby barring consideration of the standard error of measurement (SEM) of an over-70 score.
+
+But the CCA did not apply Florida's rule--or anything like it.
+
+The court in fact began by taking account of the SEM, explaining that Moore's tested score of 74 led to an IQ range between 69 and 79.
+
+The court went on to consider additional expert testimony about potential factors affecting that score.
+
+Based on that evidence, the CCA discounted portions of the SEM-generated range and concluded that Moore's IQ did not lie in the relevant range for intellectual disability.
+
+Hall provided no definitive guidance on this sort of approach: recognizing the inherent imprecision of IQ tests, but considering additional evidence to determine whether an SEM-generated range of scores accurately reflected a prisoner's actual IQ.1 Indeed, in its catalog of States that "ha[d] taken a position contrary to that of Florida," the Court in Hall included a State that granted trial courts discretion to draw "reasonable inferences" about IQ scores and, where appropriate, decline to consider the full range of the SEM.
+
+If that approach was "contrary" to Florida's rule in Hall, I do not understand how Hall can be read to reject that approach today.
+
+The Court's ruling on intellectual functioning turns solely on the fact that Moore's IQ range was 69 to 79 rather than 70 to 80.
+
+The CCA certainly did not "disregard" SEM in assessing Moore's IQ, and it explained why other factors led it to conclude that his actual score did not fall near the lower end of the SEM range.
+
+Only by insisting on the absolute conformity to medical standards the Court disclaims can it find a violation of the Eighth Amendment based on that one-point difference.3 Ibid.
+
+In concluding that the Eighth Amendment turns on the slightest numerical difference in IQ score, the Court today is just as wrong as the Florida Supreme Court was in Hall.
+
+Today's decision is not compelled by Hall; it is an expansion of it.
+
+Perhaps there are reasons to expand Hall's holding--to say that States must read IQ tests as rigidly encompassing the entire SEM range, regardless of any other evidentiary considerations, or to say that the reasons that the CCA gave for discounting the lower end of Moore's IQ range were improper.
+
+But before holding that the Constitution demands either result, our precedent requires consulting state judgments on the matter to determine whether a national consensus has developed.
+
+Moore has presented no argument as to such a consensus, and the majority does not claim that there is one.
+
+Without looking to any such "objective evidence of contemporary values," Atkins, 536 U. S., at 312 (internal quotation marks omitted), there is a real danger that Eighth Amendment judgments will embody "merely the subjective views of individual Justices," Coker, 433 U. S., at 592 (plurality opinion).
+
+As Justice Frankfurter cautioned, "[o]ne must be on guard against finding in personal disapproval a reflection of more or less prevailing condemnation."
+
+The CCA is Texas' court of last resort in criminal cases.
+
+Under Texas law, the CCA, not the court of first instance, is "the ultimate factfinder" in habeas corpus proceedings.
+
+The third element is not at issue here.
+
+The habeas court considered a seventh score (of 59 on a WAIS-IV test administered in 2013) elsewhere in its opinion, see App.
+
+This relatedness requirement, the CCA noted, is retained in the DSM-5.
+
+&TLRbull2;     "Did those who knew the person best during the developmental stage--his family, friends, teachers, employers, authorities--think he was mentally retarded at that time, and, if so, act in accordance with that determination?
+
+&TLRbull2;     "Has the person formulated plans and carried them through or is his conduct impulsive?
+
+&TLRbull2;     "Does his conduct show leadership or does it show that he is led around by others?
+
+&TLRbull2;     "Is his conduct in response to external stimuli rational and appropriate, regardless of whether it is socially acceptable?
+
+&TLRbull2;     "Does he respond coherently, rationally, and on point to oral or written questions or do his responses wander from subject to subject?
+
+&TLRbull2;     "Can the person hide facts or lie effectively in his own or others' interests?
+
+&TLRbull2;     "Putting aside any heinousness or gruesomeness surrounding the capital offense, did the commission of that offense require forethought, planning, and complex execution of purpose?"
+
+The dissent suggests that Hall tacitly approved Idaho's approach to capital sentencing, which the dissent characterizes as "grant[ing] trial courts discretion to draw 'reasonable inferences' about IQ scores and, where appropriate, decline to consider the full range of the [standard error of measurement]."
+
+We referred in Hall to Idaho's capital-sentencing scheme, however, only to note that the State had "passed legislation allowing a defendant to present additional evidence of intellectual disability even when an IQ test score is above 70."
+
+The dissent suggests that disagreement exists about the precise role of adaptive strengths in the adaptive-functioning inquiry.
+
+But even if clinicians would consider adaptive strengths alongside adaptive weaknesses within the same adaptive-skill domain, neither Texas nor the dissent identifies any clinical authority permitting the arbitrary offsetting of deficits against unconnected strengths in which the CCA engaged, see 470 S. W. 3d, at 520-526.
+
+As elsewhere in its opinion, the CCA, in its deployment of the Briseno factors, placed undue emphasis on adaptive strengths, see supra, at 12-13; 470 S. W. 3d, at 527, and regarded risk factors for intellectual disability as evidence of the absence of intellectual disability, see supra, at 13-14; 470 S. W. 3d, at 526-527.
+
+Given the Briseno factors' flaws, it is unsurprising that scholars and experts have long criticized the factors.
+
+Blume, Johnson, & Seeds, Of Atkins and Men: Deviations from Clinical Definitions of Mental Retardation in Death Penalty Cases (footnote omitted), 18 Cornell J. L. & Pub.
+
+Macvaugh & Cunningham, Atkins v. Virginia: Implications and Recommendations for Forensic Practice, 37 J. Psychiatry & L. 131, 136 (2009) ("The seven criteria of the Briseno opinion operationalize an Atkins interpretation that [exempts only] a subcategory of persons with [intellectual disabilities] from execution.")
+
+Hall also reached no holding as to the evaluation of IQ when an Atkins claimant presents multiple scores, noting only that "the analysis of multiple IQ scores jointly is a complicated endeavor."
+
+The Court's definition of deficient intellectual functioning as shown by "an IQ score" of roughly 70, ante, at 4 (emphasis added), is dicta and cannot be read to call into question the approach of States that would not treat a single IQ score as dispositive evidence where the prisoner presented additional higher scores.
+
+The Court correctly notes that Hall cited Pizzuto as an instance of a State that had enacted "legislation allowing a defendant to present additional evidence of intellectual disability even when an IQ test score is above 70."
+
+The "additional evidence" that Pizzuto considered, however, was evidence that would indicate where within the SEM range a prisoner's IQ likely fell, 146 Idaho, at 729, 202 P. 3d, at 651--that is, the same sort of evidence that the CCA considered below.
+
+It is not obvious that clinicians would ignore evidence beyond the SEM in determining the appropriate range that an IQ score represents.
+

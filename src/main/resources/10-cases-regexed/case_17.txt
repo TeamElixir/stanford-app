@@ -1,0 +1,758 @@
+One month after Ake was decided, Alabama charged petitioner McWilliams with rape and murder.
+
+Finding him indigent, the trial court appointed counsel, who requested a psychiatric evaluation of McWilliams.
+
+The court granted the motion and the State convened a commission, which concluded that McWilliams was competent to stand trial and had not been suffering from mental illness at the time of the alleged offense.
+
+A jury convicted McWilliams of capital murder and recommended a death sentence.
+
+Later, while the parties awaited McWilliams' judicial sentencing hearing, McWilliams' counsel asked for neurological and neuropsychological testing of McWilliams.
+
+The court agreed and McWilliams was examined by Dr. Goff.
+
+Dr. Goff filed a report two days before the judicial sentencing hearing.
+
+He concluded that McWilliams was likely exaggerating his symptoms, but nonetheless appeared to have some genuine neuropsychological problems.
+
+Just before the hearing, counsel also received updated records from the commission's evaluation and previously subpoenaed mental health records from the Alabama Department of Corrections.
+
+At the hearing, defense counsel requested a continuance in order to evaluate all the new material, and asked for the assistance of someone with expertise in psychological matters to review the findings.
+
+The trial court denied defense counsel's requests.
+
+At the conclusion of the hearing, the court sentenced McWilliams to death.
+
+On appeal, McWilliams argued that the trial court denied him the right to meaningful expert assistance guarantee by Ake.
+
+The Alabama Court of Criminal Appeals affirmed McWilliams' conviction and sentence, holding that Dr. Goff's examination satisfied Ake's requirements.
+
+The State Supreme Court affirmed, and McWilliams failed to obtain state postconviction relief.
+
+On federal habeas review, a Magistrate Judge also found that the Goff examination satisfied Ake and, therefore, that the State Court of Criminal Appeals' decision was not contrary to, or an unreasonable application of, clearly established federal law.
+
+Adopting the Magistrate Judge's report and recommendation, the District Court denied relief.
+
+Ake clearly established that when certain threshold criteria are met, the state must provide a defendant with access to a mental health expert who is sufficiently available to the defense and independent from the prosecution to effectively "conduct an appropriate examination and assist in evaluation, preparation, and presentation of the defense."
+
+The Alabama courts' determination that McWilliams received all the assistance to which Ake entitled him was contrary to, or an unreasonable application of, clearly established federal law.
+
+Three preliminary issues require resolution.
+
+First, the conditions that trigger Ake's application are present.
+
+McWilliams is and was an "indigent defendant," 470 U. S., at 70, and his "mental condition" was both "relevant to . . . the punishment he might suffer," id., at 80, and "seriously in question," id., at 70.
+
+Second, this Court rejects Alabama's claim the State was relieved of its Ake obligations because McWilliams received brief assistance from a volunteer psychologist at the University of Alabama.
+
+Even if the episodic help of an outside volunteer could satisfy Ake, the State does not refer to any specific record facts that indicate that the volunteer psychologist was available to the defense at the judicial sentencing proceeding.
+
+Third, contrary to Alabama's suggestion, the record indicates that McWilliams did not get all the mental health assistance that he requested.
+
+Rather, he asked for additional help at the judicial sentencing hearing, but was rebuffed.
+
+This Court does not have to decide whether Ake requires a State to provide an indigent defendant with a qualified mental health expert retained specifically for the defense team.
+
+That is because Alabama did not meet even Ake's most basic requirements in this case.
+
+Ake requires more than just an examination.
+
+It requires that the State provide the defense with "access to a competent psychiatrist who will conduct an appropriate [1] examination and assist in [2] evaluation, [3] preparation, and [4] presentation of the defense."
+
+Even assuming that Alabama met the examination requirement, it did not meet any of the other three.
+
+No expert helped the defense evaluate the Goff report or McWilliams' extensive medical records and translate these data into a legal strategy.
+
+No expert helped the defense prepare and present arguments that might, e.g., have explained that McWilliams' purported malingering was not necessarily inconsistent with mental illness.
+
+No expert helped the defense prepare direct or cross-examination of any witnesses, or testified at the judicial sentencing hearing.
+
+Since Alabama's provision of mental health assistance fell so dramatically short of Ake's requirements, the Alabama courts' decision affirming McWilliams' sentence was "contrary to, or involved an unreasonable application of, clearly established Federal law."
+
+The Eleventh Circuit should determine on remand whether the Alabama courts' error had the "substantial and injurious effect or influence" required to warrant a grant of habeas relief, Davis v. Ayala, 576 U. S. ___, ___, specifically considering whether access to the type of meaningful assistance in evaluating, preparing, and presenting the defense that Ake requires could have made a difference.
+
+Breyer, J., delivered the opinion of the Court, in which Kennedy, Ginsburg, Sotomayor, and Kagan, JJ., joined.
+
+NOTICE:?This opinion is subject to formal revision before publication in the preliminary print of the United States Reports.
+
+Readers are requested to notify the Reporter of Decisions, Supreme Court of the United States, Washington, D. C. 20543, of any typographical or other formal errors, in order that corrections may be made before the preliminary print goes to press.
+
+on writ of certiorari to the united states court of appeals for the eleventh circuit
+
+Justice Breyer delivered the opinion of the Court.
+
+Thirty-one years ago, petitioner James Edmond McWilliams, Jr., was convicted of capital murder by an Alabama jury and sentenced to death.
+
+McWilliams challenged his sentence on appeal, arguing that the State had failed to provide him with the expert mental health assistance the Constitution requires, but the Alabama courts refused to grant relief.
+
+We now consider, in this habeas corpus case, whether the Alabama courts' refusal was "contrary to, or involved an unreasonable application of, clearly established Federal law."
+
+We hold that it was.
+
+Our decision in Ake v. Oklahoma, 470 U. S. 68 (1985), clearly established that, when certain threshold criteria are met, the State must provide an indigent defendant with access to a mental health expert who is sufficiently available to the defense and independent from the prosecution to effectively "assist in evaluation, preparation, and presentation of the defense."
+
+Petitioner in this case did not receive that assistance.
+
+McWilliams and the State of Alabama agree that Ake (which this Court decided in February 1985) sets forth the applicable constitutional standards.
+
+Before turning to the circumstances of McWilliams' case, we describe what the Court held in Ake.
+
+We put in italics language that we find particularly pertinent here.
+
+The Court began by stating that the "issue in this case is whether the Constitution requires that an indigent defendant have access to the psychiatric examination and assistance necessary to prepare an effective defense based on his mental condition, when his sanity at the time of the offense is seriously in question."
+
+The Court said it would consider that issue within the framework of earlier cases granting "an indigent defendant . . . a fair opportunity to present his defense" and "to participate meaningfully in a judicial proceeding in which his liberty is at stake."
+
+"Meaningful access to justice," the Court added, "has been the consistent theme of these cases."
+
+The Court then wrote that "when the State has made the defendant's mental condition relevant to his criminal culpability and to the punishment he might suffer, the assistance of a psychiatrist may well be crucial to the defendant's ability to marshal his defense."
+
+A psychiatrist may, among other things, "gather facts," "analyze the information gathered and from it draw plausible conclusions," and "know the probative questions to ask of the opposing party's psychiatrists and how to interpret their answers."
+
+"lea[d] inexorably to the conclusion that, without the assistance of a psychiatrist to conduct a professional examination on issues relevant to the defense, to help determine whether the insanity defense is viable, to present testimony, and to assist in preparing the cross-examination of a State's psychiatric witnesses, the risk of an inaccurate resolution of sanity issues is extremely high.
+
+With such assistance, the defendant is fairly able to present at least enough information to the jury, in a meaningful manner, as to permit it to make a sensible determination."
+
+The Court concluded: "We therefore hold that when a defendant demonstrates to the trial judge that his sanity at the time of the offense is to be a significant factor at trial, the State must, at a minimum, assure the defendant access to a competent psychiatrist who will conduct an appropriate examination and assist in evaluation, preparation, and presentation of the defense. . . .
+
+Our concern is that the indigent defendant have access to a competent psychiatrist for the[se] purpose[s]."
+
+Ake thus clearly establishes that when its threshold criteria are met, a State must provide a mental health professional capable of performing a certain role: "conduct[ing] an appropriate examination and assist[ing] in evaluation, preparation, and presentation of the defense."
+
+Unless a defendant is "assure[d]" the assistance of someone who can effectively perform these functions, he has not received the "minimum" to which Ake entitles him.
+
+One month after this Court decided Ake, the State of Alabama charged McWilliams with rape and murder.
+
+The trial court found McWilliams indigent and provided him with counsel.
+
+It also granted counsel's pretrial motion for a psychiatric evaluation of McWilliams' sanity, including aspects of his mental condition relevant to "mitigating circumstances to be considered in a capital case in the sentencing stage."
+
+("T." refers to the certified trial record; "P. C. T." refers to the certified court reporter's state postconviction proceedings transcript.)
+
+The court ordered the State to convene a "Lunacy Commission," which would examine McWilliams and file a report with the court.
+
+Subsequently a three-member Lunacy Commission examined McWilliams at a state hospital, the Taylor Hardin Secure Medical Facility.
+
+The three members, all psychiatrists, concluded that McWilliams was competent to stand trial and that he had not been suffering from mental illness at the time of the alleged offense.
+
+One of them, Dr. Kamal Nagi, wrote that "Mr. McWilliams is grossly exaggerating his psychological symptoms to mimic mental illness."
+
+Dr. Nagi noted that McWilliams' performance on one of the tests "suggested that [McWilliams] had exaggerated his endorsement of symptoms of illness and the profile was considered a 'fake bad.' "
+
+McWilliams' trial took place in late August 1986.
+
+On August 26 the jury convicted him of capital murder.
+
+The prosecution sought the death penalty, which under then-applicable Alabama law required both a jury recommendation (with at least 10 affirmative votes) and a later determination by the judge.
+
+The jury-related portion of the sentencing proceeding took place the next day.
+
+The prosecution reintroduced evidence from the guilt phase and called a police officer to testify that McWilliams had a prior conviction.
+
+The defense called McWilliams and his mother.
+
+Both testified that McWilliams, when a child, had suffered multiple serious head injuries.
+
+McWilliams also described his history of psychiatric and psychological evaluations, reading from the prearrest report of one psychologist, who concluded that McWilliams had a "blatantly psychotic thought disorder" and needed inpatient treatment.
+
+When the prosecutor, cross-examining McWilliams, asked about the neurological effects of his head injuries, McWilliams replied, "I am not a psychiatrist."
+
+Similarly, when the prosecutor asked McWilliams' mother whether her son was "crazy," she answered, "I am no expert: I don't know whether my son is crazy or not.
+
+All I know, that my son do need help."
+
+The prosecution then called two of the mental health professionals who had signed the Lunacy Commission's report, Dr. Kamal Nagi and Dr. Norman Poythress.
+
+Dr. Nagi testified that he had found no evidence of psychosis, but did not appear to be aware of McWilliams' history of head trauma.
+
+Dr. Poythress testified that one of the tests that McWilliams took was "clinically invalid" because the test's "validity scales" indicated that McWilliams had exaggerated or faked his symptoms.
+
+Although McWilliams' counsel had subpoenaed further mental health records from Holman State Prison, where McWilliams was being held, the jury did not have the opportunity to consider them, for, though subpoenaed on August 13, the records had not arrived by August 27, the day of the jury hearing.
+
+After the hearing, the jury recommended the death penalty by a vote of 10 to 2, the minimum required by Alabama law.
+
+The court scheduled its judicial sentencing hearing for October 9, about six weeks later.
+
+Five weeks before that hearing, the trial court ordered the Alabama Department of Corrections to respond to McWilliams's subpoena for mental health records.
+
+The court also granted McWilliams' motion for neurological and neuropsychological exams.
+
+That motion (apparently filed at the suggestion of a University of Alabama psychologist who had "volunteer[ed]" to help counsel "in her spare time," P. C. T. 251-252) asked the court to "issue an order requiring the State of Alabama to do complete neurological and neuropsychological testing on the Defendant in order to have the test results available for his sentencing hearing."
+
+Consequently, Dr. John Goff, a neuropsychologist employed by the State's Department of Mental Health, examined McWilliams.
+
+On October 7, two days before the judicial sentencing hearing, Dr. Goff filed his report.
+
+The report concluded that McWilliams presented "some diagnostic dilemmas."
+
+On the one hand, he was "obviously attempting to appear emotionally disturbed" and "exaggerating his neuropsychological problems."
+
+But on the other hand, it was "quite apparent that he ha[d] some genuine neuropsychological problems."
+
+Tests revealed "cortical dysfunction attributable to right cerebral hemisphere dysfunction," shown by "left hand weakness, poor motor coordination of the left hand, sensory deficits including suppressions of the left hand and very poor visual search skills."
+
+These deficiencies were "suggestive of a right hemisphere lesion" and "compatible with the injuries [McWilliams] sa[id] he sustained as a child."
+
+The report added that McWilliams' "obvious neuropsychological deficit" could be related to his "low frustration tolerance and impulsivity," and suggested a diagnosis of "organic personality syndrome."
+
+The day before the sentencing hearing defense counsel also received updated records from Taylor Hardin hospital, and on the morning of the hearing he received the records (subpoenaed in mid-August) from Holman Prison.
+
+The prison records indicated that McWilliams was taking an assortment of psychotropic medications including Desyrel, Librium, and an antipsychotic, Mellaril.
+
+The judicial sentencing hearing began on the morning of October 9.
+
+Defense counsel told the trial court that the eleventh-hour arrival of the Goff report and the mental health records left him "unable to present any evidence today."
+
+He said he needed more time to go over the new information.
+
+Furthermore, since he was "not a psychologist or a psychiatrist," he needed "to have someone else review these findings" and offer "a second opinion as to the severity of the organic problems discovered."
+
+The prosecution then presented its case.
+
+Once it had finished, defense counsel moved for a continuance in order "to allow us to go through the material that has been provided to us in the last 2 days."
+
+The judge offered to give defense counsel until 2 p.m. that afternoon.
+
+He also stated that "[a]t that time, The Court will entertain any motion that you may have with some other person to review" the new material.
+
+Defense counsel protested that "there is no way that I can go through this material," but the judge immediately added, "Well, I will give you the opportunity. . . .
+
+If you do not want to try, then you may not."
+
+The court then adjourned until 2 p.m.
+
+During the recess, defense counsel moved to withdraw.
+
+He said that "the abritrary [sic] position taken by this Court regarding the Defendant's right to present mitigating circumstances is unconscionable resulting in this proceeding being a mockery."
+
+He added that "further participation would be tantamount to exceptance [sic] of the Court's ruling."
+
+The trial court denied the motion to withdraw.
+
+When the proceedings resumed, defense counsel renewed his motion for a continuance, explaining,
+
+"It is the position of the Defense that we have received these records at such a late date, such a late time that it has put us in a position as laymen, with regard to psychological matters, that we cannot adequately make a determination as what to present to The Court with regards to the particular deficiencies that the Defendant has.
+
+We believe that he has the type of diagnosed illness that we pointed out earlier for The Court and have mentioned for The Court.
+
+But we cannot determine ourselves from the records that we have received and the lack of receiving the test and the lack of our own expertise, whether or not such a condition exists; whether the reports and tests that have been run by Taylor Hardin, and the Lunacy Commission, and at Holman are tests that should be challenged in some type of way or the results should be challenged, we really need an opportunity to have the right type of experts in this field, take a look at all of those records and tell us what is happening with him.
+
+And that is why we renew the Motion for a Continuance."
+
+The trial court denied the motion.
+
+The prosecutor then offered his closing statement, in which he argued that there were "no mitigating circumstances."
+
+Defense counsel replied that he "would be pleased to respond to [the prosecutor's] remarks that there are no mitigating circumstances in this case if I were able to have time to produce . . . any mitigating circumstances."
+
+But, he said, since neither he nor his co-counsel were "doctors," neither was "really capable of going through those records on our own."
+
+The court had thus "foreclosed by structuring this hearing as it has, the Defendant from presenting any evidence of mitigation in psychological--psychiatric terms."
+
+The trial judge then said that he had reviewed the records himself and found evidence that McWilliams was faking and manipulative.
+
+Defense counsel attempted to contest that point, which led to the following exchange:
+
+"MR. SOGOL: I told Your Honor that my looking at those records was not of any value to me; that I needed to have somebody look at those records who understood them, who could interpret them for me.
+
+Did I not tell Your Honor that?
+
+THE COURT: As I said, on the record earlier, Mr. Sogol, and I don't want to argue or belabor this, but I would have given you the opportunity to make a motion to present someone to evaluate that.
+
+MR. SOGOL: Your Honor gave me no time in which to do that.
+
+Your Honor told me to be here at 2 o'clock this afternoon.
+
+Would Your Honor have wanted me to file a Motion for Extraordinary Expenses to get someone?
+
+THE COURT: I want you to approach with your client, please."
+
+The court then sentenced McWilliams to death.
+
+The court later issued a written sentencing order.
+
+It found three aggravating circumstances and no mitigating circumstances.
+
+It found that McWilliams "was not and is not psychotic," and that "the preponderance of the evidence from these tests and reports show [McWilliams] to be feigning, faking, and manipulative."
+
+The court wrote that even if McWilliams' mental health issues "did rise to the level of a mitigating circumstance, the aggravating circumstances would far outweigh this as a mitigating circumstance."
+
+McWilliams appealed, arguing that the trial court had denied him the right to meaningful expert assistance guaranteed by Ake.
+
+The Alabama Court of Criminal Appeals rejected his argument.
+
+It wrote that Ake's requirements "are met when the State provides the [defendant] with a competent psychiatrist."
+
+The court added that "[t]here is no indication in the record that [McWilliams] could not have called Dr. Goff as a witness to explain his findings or that he even tried to contact the psychiatrist to discuss his findings," ibid.; that "the trial court indicated that it would have considered a motion to present an expert to evaluate this report" had one been made, ibid.; and that there was "no prejudice by the trial court's denial of [McWilliams'] motion for continuance," id., at 993.
+
+The appeals court therefore affirmed McWilliams' conviction and sentence.
+
+The Alabama Supreme Court, in turn, affirmed the appeals court (without addressing the Ake issue).
+
+After McWilliams failed to obtain postconviction relief from the state courts, he sought a federal writ of habeas corpus.
+
+In federal habeas court McWilliams argued before a Magistrate Judge that he had not received the expert assistance that Ake required.
+
+The Magistrate Judge recommended against issuing the writ.
+
+He wrote that McWilliams had "received the assistance required by Ake" because Dr. Goff "completed the testing" that McWilliams requested.
+
+Hence, the decision of the Alabama Court of Criminal Appeals was not contrary to, or an unreasonable application of, clearly established federal law.
+
+The District Court adopted the Magistrate Judge's report and recommendation and denied relief.
+
+A divided panel of the Eleventh Circuit Court of Appeals affirmed.
+
+McWilliams filed a petition for certiorari.
+
+The question before us is whether the Alabama Court of Criminal Appeals' determination that McWilliams got all the assistance to which Ake entitled him was "contrary to, or involved an unreasonable application of, clearly established Federal law."
+
+Before turning to the heart of that question, we resolve three preliminary issues.
+
+First, no one denies that the conditions that trigger application of Ake are present.
+
+McWilliams is and was an "indigent defendant," 470 U. S., at 70.
+
+His "mental condition" was "relevant to . . . the punishment he might suffer," 470 U. S., at 80.
+
+And, that "mental condition," i.e., his "sanity at the time of the offense," was "seriously in question," 470 U. S., at 70.
+
+Consequently, the Constitution, as interpreted in Ake, required the State to provide McWilliams with "access to a competent psychiatrist who will conduct an appropriate examination and assist in evaluation, preparation, and presentation of the defense."
+
+Second, we reject Alabama's claim that the State was exempted from its obligations because McWilliams already had the assistance of Dr. Rosenszweig, the psychologist at the University of Alabama who "volunteer[ed]" to help defense counsel "in her spare time" and suggested the defense ask for further testing, P. C. T. 251-252.
+
+Even if the episodic assistance of an outside volunteer could relieve the State of its constitutional duty to ensure an indigent defendant access to meaningful expert assistance, no lower court has held or suggested that Dr. Rosenszweig was available to help, or might have helped, McWilliams at the judicial sentencing proceeding, the proceeding here at issue.
+
+Alabama does not refer to any specific record facts that indicate that she was available to the defense at this time.
+
+Third, Alabama argues that Ake's requirements are irrelevant because McWilliams "never asked for more expert assistance" than he got, "even though the trial court gave him the opportunity to do so."
+
+The record does not support this contention.
+
+When defense counsel requested a continuance at the sentencing hearing, he repeatedly told the court that he needed "to have someone else review" the Goff report and medical records.
+
+Counsel also explicitly asked the trial court what else he was supposed to ask for to obtain an expert: "Would Your Honor have wanted me to file a Motion for Extraordinary Expenses to get someone?"
+
+We have reproduced a lengthier account of the exchanges, supra, at 7-9.
+
+They make clear that counsel wanted additional expert assistance to review the report and records--that was the point of asking for a continuance.
+
+In response, the court told counsel to approach the bench and sentenced McWilliams to death.
+
+Thus the record, in our view, indicates that McWilliams did request additional help from mental health experts.
+
+We turn to the main question before us: whether the Alabama Court of Criminal Appeals' determination that McWilliams got all the assistance that Ake requires was "contrary to, or involved an unreasonable application of, clearly established Federal law."
+
+McWilliams would have us answer "yes" on the ground that Ake clearly established that a State must provide an indigent defendant with a qualified mental health expert retained specifically for the defense team, not a neutral expert available to both parties.
+
+He points to language in Ake that seems to foresee that consequence.
+
+We need not, and do not, decide, however, whether this particular McWilliams claim is correct.
+
+As discussed above, Ake clearly established that a defendant must receive the assistance of a mental health expert who is sufficiently available to the defense and independent from the prosecution to effectively "assist in evaluation, preparation, and presentation of the defense."
+
+As a practical matter, the simplest way for a State to meet this standard may be to provide a qualified expert retained specifically for the defense team.
+
+This appears to be the approach that the overwhelming majority of jurisdictions have adopted.
+
+It is not necessary, however, for us to decide whether the Constitution requires States to satisfy Ake's demands in this way.
+
+That is because Alabama here did not meet even Ake's most basic requirements.
+
+The dissent calls our unwillingness to resolve the broader question whether Ake clearly established a right to an expert independent from the prosecution a "most unseemly maneuver."
+
+We recognize that we granted petitioner's first question presented--which addressed whether Ake clearly established a right to an independent expert--and not his second, which raised more case-specific concerns.
+
+Yet that does not bind us to issue a sweeping ruling when a narrow one will do.
+
+As we explain below, our determination that Ake clearly established that a defendant must receive the assistance of a mental health expert who is sufficiently available to the defense and independent from the prosecution to effectively "assist in evaluation, preparation, and presentation of the defense," 470 U. S., at 83, is sufficient to resolve the case.
+
+We therefore need not decide whether Ake clearly established more.
+
+In fact, the State devoted an entire section of its merits brief to explaining why it thought that "[n]o matter how the Court resolves the [independent expert] question, the court of appeals correctly denied the habeas petition."
+
+The Alabama appeals court held that "the requirements of Ake v. Oklahoma . . . are met when the State provides the [defendant] with a competent psychiatrist.
+
+The State met this requirement in allowing Dr. Goff to examine [McWilliams]."
+
+Ake does not require just an examination.
+
+Rather, it requires the State to provide the defense with "access to a competent psychiatrist who will conduct an appropriate [1] examination and assist in [2] evaluation, [3] preparation, and [4] presentation of the defense."
+
+We are willing to assume that Alabama met the examination portion of this requirement by providing for Dr. Goff's examination of McWilliams.
+
+But what about the other three parts?
+
+Neither Dr. Goff nor any other expert helped the defense evaluate Goff's report or McWilliams' extensive medical records and translate these data into a legal strategy.
+
+Neither Dr. Goff nor any other expert helped the defense prepare and present arguments that might, for example, have explained that McWilliams' purported malingering was not necessarily inconsistent with mental illness (as an expert later testified in postconviction proceedings, see P. C. T. 936-943).
+
+Neither Dr. Goff nor any other expert helped the defense prepare direct or cross-examination of any witnesses, or testified at the judicial sentencing hearing himself.
+
+The dissent emphasizes that Dr. Goff was never ordered to do any of these things by the trial court.
+
+But that is precisely the point.
+
+The relevant court order did not ask Dr. Goff or anyone else to provide the defense with help in evaluating, preparing, and presenting its case.
+
+It only required "the Department of Corrections" to "complete neurological and neuropsychological testing on the Defendant . . . and send all test materials, results and evaluations to the Clerk of the Court."
+
+Nor did the short time frame allow for more expert assistance.
+
+(Indeed, given that timeframe, we do not see how Dr. Goff or any other expert could have satisfied the latter three portions of Ake's requirements even had he been instructed to do so.)
+
+Then, when McWilliams asked for the additional assistance to which he was constitutionally entitled at the sentencing hearing, the judge rebuffed his requests.
+
+Since Alabama's provision of mental health assistance fell so dramatically short of what Ake requires, we must conclude that the Alabama court decision affirming McWilliams's conviction and sentence was "contrary to, or involved an unreasonable application of, clearly established Federal law."
+
+The Eleventh Circuit held in the alternative that, even if the Alabama courts clearly erred in their application of federal law, their "error" nonetheless did not have the "substantial and injurious effect or influence" required to warrant a grant of habeas relief, Davis v. Ayala, 576 U. S. ___, ___ (2015) (slip op., at 10) (internal quotation marks omitted).
+
+In reaching this conclusion, however, the Eleventh Circuit only considered whether "[a] few additional days to review Dr. Goff's findings" would have made a difference.
+
+It did not specifically consider whether access to the type of meaningful assistance in evaluating, preparing, and presenting the defense that Ake requires would have mattered.
+
+There is reason to think that it could have.
+
+For example, the trial judge relied heavily on his belief that McWilliams was malingering.
+
+If McWilliams had the assistance of an expert to explain that "[m]alingering is not inconsistent with serious mental illness," Brief for American Psychiatric Association et al. as Amici Curiae 20, he might have been able to alter the judge's perception of the case.
+
+Since "we are a court of review, not of first view," Cutter v. Wilkinson, 544 U. S. 709, 718, n. 7 (2005), we do not now resolve this question.
+
+Rather we leave it to the lower courts to decide in the first instance.
+
+The judgment of the Court of Appeals is reversed, and the case is remanded for further proceedings consistent with this opinion.
+
+on writ of certiorari to the united states court of appeals for the eleventh circuit
+
+Justice Alito, with whom The Chief Justice, Justice Thomas, and Justice Gorsuch join, dissenting.
+
+We granted review in this case to decide a straightforward legal question on which the lower courts are divided: whether our decision in Ake v. Oklahoma, 470 U. S. 68 (1985), clearly established that an indigent defendant whose mental health will be a significant factor at trial is entitled to the assistance of a psychiatric expert who is a member of the defense team instead of a neutral expert who is available to assist both the prosecution and the defense.1
+
+The answer to that question is plain: Ake did not clearly establish that a defendant is entitled to an expert who is a member of the defense team.
+
+Indeed, "Ake appears to have been written so as to be deliberately ambiguous on this point, thus leaving the issue open for future consideration."
+
+Accordingly, the proper disposition of this case is to affirm the judgment below.
+
+The Court avoids that outcome by means of a most unseemly maneuver.
+
+The Court declines to decide the question on which we granted review and thus leaves in place conflicting lower court decisions regarding the meaning of a 32-year-old precedent.2 That is bad enough.
+
+But to make matters worse, the Court achieves this unfortunate result by deciding a separate question on which we expressly declined review.
+
+And the Court decides that fact-bound question without giving Alabama a fair opportunity to brief the issue.
+
+Under the Antiterrorism and Effective Death Penalty Act of 1996 (AEDPA), federal habeas relief cannot be awarded on a claim that a state court decided on the merits unless the state court's decision "was contrary to, or involved an unreasonable application of, clearly established Federal law, as determined by the Supreme Court of the United States."
+
+It requires habeas petitioners to "show that the state court's ruling on the claim . . . was so lacking in justification that there was an error well understood and comprehended in existing law beyond any possibility for fairminded disagreement."
+
+Put another way, "[w]hen reviewing state criminal convictions on collateral review, federal judges are required to afford state courts due respect by overturning their decisions only when there could be no reasonable dispute that they were wrong."
+
+In Ake, we held that a defendant must be provided "access to a competent psychiatrist" in two circumstances: first, "when [the] defendant demonstrates to the trial judge that his sanity at the time of the offense is to be a significant factor at trial," and, second, at the sentencing phase of a capital trial, "when the State presents psychiatric evidence of the defendant's future dangerousness."
+
+The question that we agreed to review concerns the type of expert that must be provided.
+
+Did Ake clearly establish that a defendant in the two situations just noted must be provided with the services of an expert who functions solely as a dedicated member of the defense team as opposed to a neutral expert who examines the defendant, reports his or her conclusions to the court and the parties, and is available to assist and testify for both sides?
+
+Did Ake speak with such clarity that it ruled out "any possibility for fairminded disagreement"?
+
+Ake provides no clear guidance one way or the other.
+
+It is certainly true that there is language in Ake that points toward the position that a defense-team psychiatrist should be provided.
+
+Explaining the need for the appointment of a psychiatric expert, Ake noted that a psychiatrist can "assist in preparing the cross-examination of a State's psychiatric witnesses" and would "know the probative questions to ask of the opposing party's psychiatrists and how to interpret their answers."
+
+And when Ake discussed expert assistance during capital sentencing, the Court said that it is important for a defendant to "offer a well-informed expert's opposing view" in the form of "responsive psychiatric testimony."
+
+Ake also explained that factfinding is improved when evidence is offered by "psychiatrists for each party."
+
+While it is possible for a neutral expert to provide these services, in our adversary system they are customarily performed by an expert working exclusively for one of the parties.
+
+Other language in Ake, however, points at least as strongly in the opposite direction.
+
+Ake was clear that an indigent defendant does not have a constitutional right to "choose a psychiatrist of his personal liking or . . . receive funds to hire his own."
+
+Instead, the Court held only that a defendant is entitled to have "access" to "one competent psychiatrist" chosen by the trial judge.
+
+These limitations are at odds with the defense-expert model, which McWilliams characterizes as "the norm in our adversarial system."
+
+As McWilliams explains, "other litigants of means" screen experts to find one whose tentative views are favorable, and they often hire both consulting and testifying experts.
+
+But the Ake Court was clear that it was not holding "that a State must purchase for the indigent defendant all the assistance that his wealthier counterpart might buy."
+
+On the contrary, Ake expressly stated that a State need only provide for a single psychiatric expert to be selected by the trial judge.
+
+Thus, Ake does not give the defense the right to interview potential experts, to seek out an expert who offers a favorable preliminary diagnosis, or to hire more than one expert.
+
+And if the court-appointed expert reaches a conclusion unfavorable to the defendant on the issue of sanity or future dangerousness, Ake requires the defense team to live with the expert's unfavorable conclusions.
+
+As McWilliams concedes, when the only expert available to indigent defendants is one selected by the trial court, these defendants "face a risk that their expert will ultimately be unwilling or unable to offer testimony that will advance their cause."
+
+Ake also acknowledged that one of our prior cases, United States ex rel.
+
+While Ake also declared that Baldi did not limit the Court "in considering whether fundamental fairness today requires a different result," 470 U. S., at 85, Ake did not explicitly overrule Baldi, and ultimately its treatment of that case was "most ambiguous," LaFave §8.2, at 450, n. 124.
+
+It is also significant that the Ake Court had no need to decide whether due process requires the appointment of a defense-team expert as opposed to a neutral expert because Ake was denied the assistance of any psychiatrist--neutral or otherwise--for purposes of assessing his sanity at the time of the offense or his mental state as it related to capital sentencing.
+
+As Ake's counsel explained at argument, the Court could rule in his client's favor without accepting his client's "primary submission" that due process requires the appointment of a defense-team expert.
+
+in No. 83-5424 p. 21 (arguing that Ake's rights were violated even under Baldi).
+
+("[C]omments supporting a move in either direction appear throughout the majority opinion in the case").
+
+If the Justices who joined Justice Marshall's opinion for the Court had agreed that a defense-team expert must be appointed, it would have been a simple matter for the Court to say so expressly.
+
+Justice Marshall demonstrated this a few years later when he dissented from the denial of certiorari in a case that presented the very issue that the Court now dodges.
+
+There, Justice Marshall stated unambiguously that "Ake mandates the provision of a psychiatrist who will be part of the defense team and serve the defendant's interests in the context of our adversarial system."
+
+If all the Justices who joined the opinion of the Court in Ake had shared this view, there is no obvious reason for the absence of the sort of clear statement that Justice Marshall would later provide when he wrote only for himself.
+
+The opinion in Ake has all the hallmarks of a compromise.
+
+The Court's actions in the aftermath of Ake lend support to this conclusion.
+
+The Court repeatedly denied certiorari in cases that would have permitted it to resolve this question or others left open by Ake.
+
+And in many of these cases (Vickers, Dodd, Johnson, and Granviel), Justice Marshall dissented.
+
+The most reasonable conclusion to draw from the Court's silence is that the exact type of expert required by Ake has remained "an open question in our jurisprudence."
+
+When the lower courts have "diverged widely" in assessing whether our precedents dictate a legal rule, that is a sign that the rule is not clearly established, ibid., and that is the situation here.
+
+At the time the Alabama court addressed McWilliams's Ake claim on the merits, some courts had held that Ake requires the appointment of a defense-team expert.
+
+The Fifth Circuit had held that a defense-team expert is not required.
+
+And the Oklahoma courts in Ake itself also interpreted our holding this way.
+
+So had at least seven other state high courts.
+
+Other courts struggled to reach agreement on the question.
+
+Two Eleventh Circuit panels held that a neutral expert suffices, see Magwood v. Smith, 791 F. 2d 1438, 1443 (1986) (Ake satisfied where neutral, court-appointed experts examined the defendant and testified); Clisby v. Jones, 907 F. 2d 1047, 1050 (1990) (per curiam) ("The state provided a duly qualified psychiatrist not beholden to the prosecution and, therefore, met its obligation under Ake"), reh'g en banc, 960 F. 2d 925, 928-934 (1992) (rejecting Ake claim on other grounds).
+
+But another Eleventh Circuit panel disagreed.
+
+A Sixth Circuit panel held that Ake does not require appointment of a defense-team expert.
+
+And when the Sixth Circuit reviewed that decision en banc, its holding was fractured, but 7 of the 13 judges expressed the view that Ake requires only a neutral, court-appointed expert.3 919 F. 2d 1091, 1110, 1117-1120, 1131-1132 (1990).
+
+Ake's ambiguity has been noted time and again by commentators.
+
+L. Rev. 1, 16 (2012) (Ake held that "the defense had the right of access to an expert, but the Court did not conclude that access had to be a defense expert"); Greeley, The Plight of Indigent Defendants in a Computer-Based Age: Maintaining the Adversarial System by Granting Defendants Access to Computer Experts, 16 Va.
+
+Pol'y 367, 383 (2007) ("The intentions of the Ake Court regarding the role of the expert are not obvious from the opinion"); Giannelli, Ake v. Oklahoma: The Right to Expert Assistance in a Post-Daubert, Post-DNA World, 89 Cornell L. Rev. 1305, 1399 (2004) ("It is uncertain from Ake whether the appointment of a neutral expert (who reports to the court) is sufficient or whether a 'partisan' defense expert is required"); Bailey, Ake v. Oklahoma and an Indigent Defendant's 'Right' to an Expert Witness: A Promise Denied or Imagined?
+
+J. 401, 403 (2002) ("[C]ourts have struggled with whether an indigent is entitled to his own independent advocate or a neutral expert provided by the state," and the Supreme Court "has . . . failed to confront this ambiguity"); Sullivan, Psychiatric Defenses in Arkansas Criminal Trials, 48 Ark.
+
+L. Rev. 439, 492 (1995) ("The issue left unresolved in Ake" is whether the defendant has "merely the right to an evaluation by a neutral mental health expert"); Giannelli et al., The Constitutional Right to Defense Experts, 16 Pub.
+
+L. Rev. 1329, 1356 (1993) (calling this the "preeminent ambiguity" in the opinion); Harris, Ake Revisited: Expert Psychiatric Witnesses Remain Beyond Reach for the Indigent, 68 N. C. L. Rev. 763, 768, n. 44 (1990) ("The Court gave mixed signals concerning the psychiatrist's role with regard to a criminal defendant, resulting in lower court disagreement on the proper interpretation of Ake on this point"); Comment, A Question of Competence: The Indigent Criminal Defendant's Right to Adequate and Competent Psychiatric Assistance After Ake v. Oklahoma, 14 Vt.
+
+L. Rev. 121, 127 (1989) (Ake "left unanswered many questions," including "whether the defendant is entitled to 'neutral' or 'partisan' assistance"); Dubia, The Defense Right to Psychiatric Assistance in Light of Ake v. Oklahoma, 1987 Army Lawyer 15, 19-20 (Ake "did not define clearly the role of the state-supplied psychiatrist," and "[a] strong case can be made that Ake requires only access to an independent psychiatric examination"); Note, Due Process and Psychiatric Assistance: Ake v. Oklahoma, 21 Tulsa L. J. 121, 143 (1985) ("The Court is unclear as to the exact nature and scope of the substantive right it has created"); Sallet, Book Review, After Hinckley: The Insanity Defense Reexamined, 94 Yale L. J. 1545, 1551, n. 18 (1985) (predicting that "whether the Constitution requires one psychiatrist or rather one defense-oriented psy-chiatrist" would "likely be the next constitutional issue adjudicated").
+
+In this case, the Alabama courts held that Ake is satisfied by the appointment of a neutral expert, and it is impossible to say that "there could be no reasonable dispute that they were wrong."
+
+McWilliams's petition for certiorari asked us to decide two questions.
+
+The first was the legal question discussed above; the second raised an issue that is tied to the specific facts of McWilliams's case: whether the neutral expert appointed in this case failed to provide the assistance that Ake requires because he "distributed his report to all parties just two days before sentencing and was unable to review voluminous medical and psychological records."
+
+Our Rules and practice disfavor questions of this nature, see this Court's Rule 10, and we denied review.
+
+Heeding our decision, the parties briefed the first question but scarcely mentioned anything related to the second.
+
+The Court, however, feels no similar obligation to abide by the Rules.
+
+The Court refuses to decide the legal question on which we granted review and instead decides the question on which review was denied.
+
+The Court holds that "Alabama here did not meet even Ake's most basic requirements."
+
+In support of this conclusion, the Court states that neither Dr. Goff (the expert appointed by the trial judge) nor any other expert provided assistance in understanding and evaluating medical reports and records, preparing a legal strategy, presenting evidence, or preparing to cross-examine witnesses.
+
+The Court does not question Dr. Goff's qualifications or his objectivity.
+
+Instead, the crux of the Court's complaint is that Dr. Goff merely submitted his report and did not provide further assistance to the defense.
+
+But as far as the record shows, Dr. Goff was never asked and never refused to provide assistance to McWilliams.
+
+He did not provide the assistance that the Court finds essential because his report was not given to the parties until two days before sentencing, and arrangements were not made for him to provide the assistance during that brief interlude.
+
+Thus, the question that the Court decides is precisely the question on which we denied review: namely, whether Dr. Goff's assistance was deficient because he "distributed his report to all parties just two days before sentencing and was unable to review voluminous medical and psychological records."
+
+Our Rules instruct litigants that we will consider only the questions on which review was granted and "subsidiary question fairly included therein."
+
+This Court's Rule 14.1(a); Yee v. Escondido, 503 U. S. 519, 535 (1992) (The Court will consider an "unpresented question" only in "the most exceptional cases" (internal quotation marks omitted)); see also this Court's Rule 24.1(a) (parties may not change the substance of the question presented once granted).
+
+And we have not hesitated to enforce these Rules when petitioners who "persuaded us to grant certiorari" on one question instead "chose to rely on a different argument in their merits briefing."
+
+Visa, Inc. v. Osborn, 580 U. S. ___ (2016) (internal quotation marks omitted) (dismissing cases as improvidently granted on this ground).
+
+These Rules exist for good reasons.
+
+Among other things, they give the parties notice of the question to be decided and ensure that we receive adversarial briefing, see Yee, supra, at 536, which in turns helps the Court reach sound decisions.
+
+But in this case, the Court feels free to disregard our Rules and long-established practice.
+
+If McWilliams, after inducing us to grant certiorari on the first question presented, had decided to ignore that question and instead brief a fact-specific alternative theory, we would have dismissed the case as improvidently granted.
+
+We do not tolerate this sort of bait-and-switch tactic from litigants, and we should not engage in it ourselves.
+
+The Court's approach is acutely unfair to Alabama.
+
+The State surely believed that it did not need to brief the second question presented in McWilliams's petition.
+
+The State vigorously opposed review of that question, calling it "an invitation to conduct factbound error correction," Brief in Opposition 13, and we denied review.
+
+It will come as a nasty surprise to Alabama that the Court has ruled against it on the very question we declined to review--and without giving the State a fair chance to respond.4
+
+It is worth remembering that today's ruling requires the Court to conclude that the state court's treatment of McWilliams's Ake claim "was so lacking in justification that there was an error well understood and comprehended in existing law beyond any possibility for fairminded disagreement."
+
+This "standard is difficult to meet," id., at 102, and Alabama would surely have appreciated the opportunity to contest whether McWilliams has met it.
+
+Denying Alabama that chance does not show "[a] proper respect for AEDPA's high bar for habeas relief," which counsels restraint in "disturbing the State's significant interest in repose for concluded litigation, denying society the right to punish some admitted offenders, and intruding on state sovereignty to a degree matched by few exercises of federal authority."
+
+It is debatable whether the Court has even answered question two correctly (and, of course, meaningful briefing by the parties would have allowed the Court to answer the question with more confidence).5 But the fundamental point is that the Court should not have addressed this question at all.
+
+Having completed an arduous detour around the question that we agreed to decide, the majority encounters an inconvenient roadblock: The Court of Appeals has already determined that any error of the sort the majority identifies today was harmless.
+
+So the majority relies on the thinnest of reasons to require the Eleventh Circuit to redo its analysis.
+
+That conclusion is unwarranted, and nothing in the majority opinion prevents the Court of Appeals from reaching the same result on remand.
+
+The majority claims that the Court of Appeals did not "specifically consider whether access to the type of meaningful assistance in evaluating, preparing, and presenting the defense that Ake requires would have mattered."
+
+But the Court of Appeals concluded that, even if Dr. Goff's performance did not satisfy Ake, the error did not have a substantial and injurious effect on the outcome of the sentencing proceeding.
+
+Thus, the Court of Appeals specifically addressed the very question that the majority instructs it to consider on remand.
+
+If the majority disagrees with the Court of Appeals' decision on that question, it should explain its reasons, but the majority is unwilling to tackle that matter and instead recites that "we are a court of review, not first view."
+
+The Court's invocation of this oft-used formulation is utterly inapt because the Eleventh Circuit has already reviewed the question of harmless error.
+
+Moreover, unlike the question that the majority does decide, the harmless-error issue was at least briefed in a meaningful way by the parties.
+
+Had the Court confronted the harmless-error issue, it would have found it difficult to reject the Court of Appeals' conclusion that any Ake error here was harmless.
+
+In 1984, McWilliams "raped, robbed, and murdered Patricia Vallery Reynolds."
+
+Reynolds was a clerk at a convenience store in Tuscaloosa, Alabama.
+
+McWilliams robbed the store, brutally raped Reynolds in a back room, then left her on the floor to die after shooting her six times execution style with a .38 caliber pistol.
+
+After McWilliams was apprehended, he bragged to other jail inmates about what he had done.
+
+The jury needed less than an hour of deliberation to find him guilty, and it recommended the death penalty by a 10-to-2 vote the following day.
+
+Agreeing with the jury's nonbinding recommendation, the trial court imposed the death penalty based on three aggravating circumstances.
+
+McWilliams had prior violent felony convictions for first-degree robbery and first-degree rape.
+
+He murdered Reynolds in the course of committing a robbery and rape.
+
+And his crime "was especially heinous, atrocious, or cruel": He executed the only potential eyewitness to his robbery, and his conduct during and after the crime showed an "obvious lack of regard or compassion for the life and human dignity of the victim."
+
+Balanced against these three aggravators was McWilliams's claim that he was psychotic and suffered from organic brain dysfunction--the mitigating evidence that Dr. Goff's report supposedly would have supported.
+
+But the sentencing court concluded that this evidence "did not rise to the level of a mitigating circumstance," in part because of the extensive evidence that McWilliams was feigning symptoms.
+
+And in any event, the sentencing court found that "the aggravating circumstances would far outweigh this as a mitigating circumstance."
+
+The majority hints that the sentencing court's weighing might have been different if McWilliams had been afforded more time to work with Dr. Goff to prepare a mitigation presentation and to introduce Dr. Goff's testimony at the sentencing hearing.
+
+But there is little basis for this belief.
+
+The defense would have faced potential rebuttal testimony from three doctors who evaluated McWilliams and firmly concluded that McWilliams's mental state did not reduce his responsibility for his actions.
+
+Certified Trial Record 1545 (Dr. Yumul) (McWilliams "was responsible and free of mental illness at the time of the alleged offense"); id., at 1546 (Dr. Nagi) (McWilliams "was not suffering from a mental illness" at the time of the crime and "[t]here see[m] to be no mitigating circumstances involved in [his] case"); ibid.
+
+(Dr. Bryant) (finding no "evidence of psychiatric symptoms of other illness that would provide a basis for mitigating factors at the time of the alleged crime").
+
+One of these psychiatrists also concluded that McWilliams was "grossly exaggerating his psychological symptoms to mimic mental illness" and that he "obviously" did so "to evade criminal prosecution."
+
+Even Dr. Goff found it "quite obvious" that McWilliams's "symptoms of psychiatric disturbance [were] quite exaggerated and, perhaps, feigned."
+
+In light of all this, the defense would have faced an uphill battle in convincing the sentencing judge that, despite McWilliams's consistent malingering, his mental health was so impaired that it constituted a mitigating circumstance and that it outweighed the three aggravators the State proved.
+
+If the sentencing judge had thought that there was a possibility that hearing from Dr. Goff would change his evaluation of aggravating and mitigating factors, he could have granted a continuance and called for Dr. Goff to appear.
+
+But he did not do so.
+
+The majority also ignores the fact that McWilliams has already had the chance to show that the outcome of the sentencing proceeding would have been different if he had been given more expert assistance.
+
+In state postconviction proceedings, McWilliams argued that he was denied effective assistance of counsel because his lawyers did not obtain an expert who would have fully probed his mental state for purposes of mitigation.
+
+McWilliams called an expert, Dr. Woods, who offered the opinion that McWilliams suffered from bipolar disorder at the time of the crime and testified that McWilliams's exaggeration of symptoms was not inconsistent with psychiatric problems.
+
+But Dr. Woods also acknowledged that McWilliams "tr[ied] to malinger for purposes of making himself look worse than he is," agreed that this malingering could have been done for the purpose of avoiding the death penalty, and declined to say that McWilliams's disorder explains why he raped and murdered Reynolds.
+
+Dr. Woods even endorsed Dr. Goff's conclusion that McWilliams "exaggerated certain aspects of his impairment."
+
+The State introduced a psychologist of its own (Dr. Kirkland) who strenuously disagreed with Dr. Woods's diagnosis and concluded that nothing "indicate[s] that Mr. McWilliams was mentally impaired on the night of the offense."
+
+At the end of a lengthy hearing in which both experts addressed the malingering issue (see, e.g., id., at 935-943, 955, 964-966, 1076-1077), the state postconviction court found that "McWilliams's claims based upon the testimony of Dr. Woods are without merit."
+
+It credited the "consensus opinion" reached by the three neutral state psychiatrists, who observed and evaluated McWilliams for over a month before his trial and concluded that he "did not suffer from a mental illness."
+
+It expressly found that "both the credibility of Dr. Woods and the reliability of his findings are questionable."
+
+And even if Dr. Woods's diagnosis was accurate, the court stated, it "[would] not find that a failure to present" evidence of this sort "made a difference in the outcome."
+
+I see no ground for disturbing the Eleventh Circuit's decision on harmless error.7
+
+The Court's decision represents an inexcusable departure from sound practice.
+
+I would affirm the judgment below, and I therefore respectfully dissent.
+
+The question was worded as follows: "When this Court held in Ake that an indigent defendant is entitled to meaningful expert assistance for the 'evaluation, preparation, and presentation of the defense,' did it clearly establish that the expert should be independent of the prosecution?"
+
+Defending its approach, the Court says that it had no need to decide the "sweeping" question on which review was granted "when a narrow one will do."
+
+Narrow holdings have their place, but here: (1) We denied review of the narrow question; (2) the question decided is not just narrow, it is the sort of factbound question as to which review is disfavored, see this Court's Rule 10; (3) the narrow question is not fairly included in the question presented, see this Court's Rule 14(a); (4) deciding the case on this narrow ground leaves in place the conflict in the lower courts that supported the grant of certiorari; and (5) the parties were not given notice of this possible disposition, and the Court was thus deprived of the benefit of full briefing and argument on the issue.
+
+The Sixth Circuit's experience, standing alone, is a telling reflection of Ake's ambiguity.
+
+Years after Kordenbrock, a Sixth Circuit panel held that Ake requires a defense expert.
+
+A different panel concluded three years later that the Circuit had "extend[ed] Ake" to require a defense expert.
+
+A later panel insisted that "Ake does not entitle [defendants] to . . . an [independent psychiatric] expert," but to "a 'friend of the court' appointment."
+
+The Sixth Circuit ultimately concluded that Ake did not itself clearly compel an answer to this question for AEDPA purposes.
+
+The Court is incorrect in suggesting that Alabama "devoted an entire section of its merits brief" to the question that the Court decides.
+
+In the section to which the Court refers, Alabama argued that even if McWilliams was entitled to relief under Ake to a partisan expert, no relief was warranted because he "had a consulting expert that did not report to the State," i.e. "a psychologist employed at the University of Alabama," and because the trial court ordered every form of testing that the defense requested.
+
+Exactly six sentences of the State's briefing in this section, id., at 52, touch on the services provided by Dr. Goff and the trial court's denial of a continuance.
+
+The State's inclusion of this fleeting discussion cannot justify a decision based on a question on which relief was denied.
+
+The Court never even recites the applicable standard: whether the Alabama courts erred beyond fairminded disagreement in rejecting McWilliams's claim under Ake v. Oklahoma, 470 U. S. 68 (1985).
+
+This bar is difficult for a habeas petitioner to hurdle, and it is far from clear that McWilliams has done so.
+
+The Court says that Dr. Goff did not play the role Ake requires of an expert because he only examined McWilliams and reported his findings to the trial court.
+
+But that is exactly what the trial court (at McWilliams's request) ordered him to do.
+
+The Court briskly concludes that Dr. Goff did not assist the defense in understanding his report prior to the hearing or testify for McWilliams at the judicial sentencing hearing.
+
+But the Alabama Court of Criminal Appeals found "no indication in the record that [McWilliams] could not have called Dr. Goff as a witness to explain his findings or that he even tried to contact the psychiatrist to discuss his findings."
+
+And the Eleventh Circuit saw no reason why McWilliams's defense team could not have been in contact with Dr. Goff while he was preparing the report.
+
+Dr. Goff was notably absent from the postconviction proceeding.
+
+McWilliams's failure to call him as a witness there creates a "void in the record" that prevents McWilliams from carrying his burden of showing "how additional time with Dr. Goff (and his report) would have benefited the defense."
+
+It also suggests that, to McWilliams's postconviction counsel, Dr. Goff 's diagnosis and the opportunity to present it to the sentencer was not as important as McWilliams suggests.
+
+McWilliams's entitlement to relief under Ake is questionable for an additional reason.
+
+Ake held that the right to a psychiatric expert at capital sentencing comes into play "when the State presents psychiatric evidence of the defendant's future dangerousness."
+
+Here, the State did not introduce such evidence because future dangerousness was not an aggravator under Alabama law.
+
+As lower courts have noted, we have never held that a capital defendant is entitled to the assistance of a psychiatric expert at sentencing where future dangerousness is not in issue and the State does not introduce psychiatric evidence to prove it.
+
