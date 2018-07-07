@@ -1,6 +1,7 @@
 package org.elixir.controllers;
 
 import org.elixir.db.DBCon;
+import org.elixir.db.Databases;
 import org.elixir.models.PosTaggedWord;
 
 import java.sql.Connection;
@@ -11,7 +12,7 @@ import java.util.ArrayList;
 
 public class PosTaggedWordsController {
 
-    private static Connection conn = DBCon.getConnection();
+    private static Connection conn = DBCon.getConnection(Databases.TEN_CASE_ANALYSIS);
 
     public static boolean insertPosTaggedWord(PosTaggedWord posTaggedWord) {
         String query = "INSERT INTO " + PosTaggedWord.TABLE_NAME + " (word, pos_tag, ner_tag, sentence_id)"

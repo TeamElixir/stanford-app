@@ -1,6 +1,7 @@
 package org.elixir.controllers;
 
 import org.elixir.db.DBCon;
+import org.elixir.db.Databases;
 import org.elixir.models.Sentence;
 
 import java.sql.Connection;
@@ -11,7 +12,7 @@ import java.util.ArrayList;
 
 public class SentencesController {
 
-    private static Connection conn = DBCon.getConnection();
+    private static Connection conn = DBCon.getConnection(Databases.TEN_CASE_ANALYSIS);
 
     /*
       11 <= n <= 21 (for now)
@@ -85,5 +86,34 @@ public class SentencesController {
             return false;
         }
 
+    }
+
+    // get sentences of a given case (sentences are sanitized and stored in the table discourse-annotator.sentences
+    public static ArrayList<Sentence> getSanitizedSentencesOfCase(int n) {
+        Connection connection = DBCon.getConnection(Databases.DISCOURSE_ANNOTATOR);
+        ResultSet rs;
+        ArrayList<Sentence> sentences = new ArrayList<>();
+        String fileName = "cases_set/case_" + n + ".txt";  // in database
+
+        String query = "SELECT * FROM " + Sentence.TABLE_NAME + " WHERE file='" + fileName + "'";
+        System.out.println(query);
+        try {
+            PreparedStatement ps = connection.prepareStatement(query);
+            rs = ps.executeQuery();
+
+            while (rs.next()) {
+                int id = rs.getInt("id");
+                String file = rs.getString("file");
+                String rawSentence = rs.getString("sentence");
+
+                Sentence s = new Sentence(id, file, rawSentence);
+
+                sentences.add(s);
+            }
+        } catch (SQLException e) {
+            e.printStackTrace();
+            return null;
+        }
+        return sentences;
     }
 }

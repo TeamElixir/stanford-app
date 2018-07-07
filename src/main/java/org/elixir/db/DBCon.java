@@ -6,17 +6,14 @@ import java.sql.SQLException;
 
 public class DBCon {
 
-    private static String db_name = "10_case_analysis";
-
-    private static String url = "jdbc:mysql://localhost:3306/" + db_name + "?useSSL=false";
-
     private static String driverName = "com.mysql.cj.jdbc.Driver";
 
     private static String username = "root";
 
     private static String password = "";
 
-    public static Connection getConnection() {
+    public static Connection getConnection(String dbName) {
+        String url = "jdbc:mysql://localhost:3306/" + dbName + "?useSSL=false";
         Connection con = null;
         try {
             Class.forName(driverName);

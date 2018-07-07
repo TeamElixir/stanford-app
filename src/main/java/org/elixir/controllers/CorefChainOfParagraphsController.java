@@ -1,6 +1,7 @@
 package org.elixir.controllers;
 
 import org.elixir.db.DBCon;
+import org.elixir.db.Databases;
 import org.elixir.models.CorefChainOfParagraph;
 
 import java.sql.Connection;
@@ -10,7 +11,7 @@ import java.sql.SQLException;
 import java.util.ArrayList;
 
 public class CorefChainOfParagraphsController {
-    private static Connection conn = DBCon.getConnection();
+    private static Connection conn = DBCon.getConnection(Databases.TEN_CASE_ANALYSIS);
 
     public static boolean insertCorefChainOfParagraphs(CorefChainOfParagraph chainOfParagraph) {
         String query = "INSERT INTO " + CorefChainOfParagraph.TABLE_NAME + "  (paragraph_id, coref_chain)" +
