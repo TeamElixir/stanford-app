@@ -10,6 +10,10 @@ package org.elixir;
  * solve coreferences in sentences and save in the database, along with that it may require to store mentions
  */
 
+/*task 3
+ *design algorithm;
+ */
+
 import edu.stanford.nlp.ling.CoreAnnotations;
 import edu.stanford.nlp.ling.CoreLabel;
 import edu.stanford.nlp.ling.IndexedWord;
@@ -27,10 +31,6 @@ import org.elixir.utils.CustomizeSentimentAnnotator;
 import java.io.*;
 import java.util.*;
 
-/*task 3
- *design algorithm;
- */
-
 
 public class PartyExtractionMain {
 
@@ -41,32 +41,32 @@ public class PartyExtractionMain {
         StanfordCoreNLP pipeline = new StanfordCoreNLP(props);
 
         String absoluteFilePath = new File("").getAbsolutePath();
-        String source_filePath = absoluteFilePath + "/src/main/resources/SentimentAnalysis/thatSent/";
-        String target_filePath = absoluteFilePath + "/src/main/resources/SentimentAnalysis/InnerOuterSentenceSentiment/";
+        String sourceFilePath = absoluteFilePath + "/src/main/resources/SentimentAnalysis/thatSent/";
+        String targetFilePath = absoluteFilePath + "/src/main/resources/SentimentAnalysis/InnerOuterSentenceSentiment/";
 
         Properties propsSentiment = new Properties();
         propsSentiment.setProperty("annotators", "tokenize,ssplit,tokenize,pos,lemma,parse,natlog,sentiment");
         StanfordCoreNLP sentimentPipeline = new StanfordCoreNLP(propsSentiment);
 
 
-        Scanner sc = new Scanner(new File(source_filePath + "case_11.txt"));
+        Scanner sc = new Scanner(new File(sourceFilePath + "case_11.txt"));
 
         CustomizeSentimentAnnotator.addSentimentLayerToCoreNLPSentiment("sentimentAnnotator/DeviatedSentimentWords/non_positive_mini.csv",
                 "sentimentAnnotator/DeviatedSentimentWords/non_negative_mini.csv",
                 "sentimentAnnotator/DeviatedSentimentWords/non_neutral_mini.csv");
 
 
-        File full_infoFile = new File(target_filePath + "case_11/fullinfo.txt");
-        full_infoFile.getParentFile().mkdirs();
+        File fullInfoFile = new File(targetFilePath + "case_11/fullinfo.txt");
+        fullInfoFile.getParentFile().mkdirs();
 
-        File intermediate_sentiment_File = new File(target_filePath + "case_11/InnerOuterSentiment.txt");
-        intermediate_sentiment_File.getParentFile().mkdirs();
+        File intermediateSentimentFile = new File(targetFilePath + "case_11/InnerOuterSentiment.txt");
+        intermediateSentimentFile.getParentFile().mkdirs();
 
-        File party_file = new File(target_filePath + "case_11/party-combinations-first-iteration.txt");
+        File party_file = new File(targetFilePath + "case_11/party-combinations-first-iteration.txt");
         party_file.getParentFile().mkdirs();
 
-        BufferedWriter br = new BufferedWriter(new FileWriter(full_infoFile));
-        BufferedWriter br2 = new BufferedWriter(new FileWriter(intermediate_sentiment_File));
+        BufferedWriter br = new BufferedWriter(new FileWriter(fullInfoFile));
+        BufferedWriter br2 = new BufferedWriter(new FileWriter(intermediateSentimentFile));
         BufferedWriter br3 = new BufferedWriter(new FileWriter(party_file));
 
         ArrayList<SubjectCombination> combinationArrayList = new ArrayList<>();
@@ -115,9 +115,9 @@ public class PartyExtractionMain {
 
             System.out.println("innerSentence : " + innerSentence);
 
-            SubjectCombination subject_combination = new SubjectCombination();
-            subject_combination.party_1 = innerSubjectContext;
-            subject_combination.party_2 = outerSubjectContext;
+            SubjectCombination subjectCombination = new SubjectCombination();
+            subjectCombination.party_1 = innerSubjectContext;
+            subjectCombination.party_2 = outerSubjectContext;
 
             for (CoreMap coreMapSentence : sentences) {
                 final Tree tree = coreMapSentence.get(SentimentCoreAnnotations.SentimentAnnotatedTree.class);
@@ -136,11 +136,11 @@ public class PartyExtractionMain {
                 br3.flush();
 
                 System.out.println();
-                subject_combination.sm1 = sm;
+                subjectCombination.sm1 = sm;
                 if (sentiment.toLowerCase().equals("negative")) {
-                    subject_combination.inner_sentiment = "negative";
+                    subjectCombination.innerSentiment = "negative";
                 } else {
-                    subject_combination.inner_sentiment = "non-negative";
+                    subjectCombination.innerSentiment = "non-negative";
                 }
             }
 
@@ -154,8 +154,8 @@ public class PartyExtractionMain {
 
             System.out.println("outerSentence");
             br.write("\t" + "outerSentence : " + outerSentence + "\n");
-            subject_combination.innerSentence = innerSentence;
-            subject_combination.outerSentence = outerSentence;
+            subjectCombination.innerSentence = innerSentence;
+            subjectCombination.outerSentence = outerSentence;
             for (CoreMap coreMapSentence : sentences) {
 
                 final Tree tree = coreMapSentence.get(SentimentCoreAnnotations.SentimentAnnotatedTree.class);
@@ -175,12 +175,12 @@ public class PartyExtractionMain {
                 br3.flush();
 
                 System.out.println("\n");
-                subject_combination.sm2 = sm;
+                subjectCombination.sm2 = sm;
 
                 if (sentiment.toLowerCase().equals("negative")) {
-                    subject_combination.outer_sentiment = "negative";
+                    subjectCombination.outerSentiment = "negative";
                 } else {
-                    subject_combination.outer_sentiment = "non-negative";
+                    subjectCombination.outerSentiment = "non-negative";
                 }
             }
 
@@ -190,7 +190,7 @@ public class PartyExtractionMain {
             br3.write("::" + innerSubjectContext + "\n");
             br3.newLine();
             br3.flush();
-            combinationArrayList.add(subject_combination);
+            combinationArrayList.add(subjectCombination);
         }
         br.newLine();
 
@@ -199,8 +199,8 @@ public class PartyExtractionMain {
 
         br2.write("one negative and the other is non-negative\n\n");
         for (SubjectCombination combination : combinationArrayList) {
-            if ((combination.inner_sentiment.equals("negative") && combination.outer_sentiment.equals("non-negative"))
-                    || combination.inner_sentiment.equals("non-negative") && combination.outer_sentiment.equals("negative")) {
+            if ((combination.innerSentiment.equals("negative") && combination.outerSentiment.equals("non-negative"))
+                    || combination.innerSentiment.equals("non-negative") && combination.outerSentiment.equals("negative")) {
                 br2.write(combination.party_1 + " - " + combination.party_2 + "\n");
             }
         }
@@ -208,7 +208,7 @@ public class PartyExtractionMain {
 
         br2.write("both non-negative\n\n");
         for (SubjectCombination combination : combinationArrayList) {
-            if (combination.inner_sentiment.equals("negative") && combination.outer_sentiment.equals("negative")) {
+            if (combination.innerSentiment.equals("negative") && combination.outerSentiment.equals("negative")) {
                 br2.write(combination.party_1 + " - " + combination.party_2 + "\n");
             }
         }
@@ -217,7 +217,7 @@ public class PartyExtractionMain {
         br2.close();
 
         for (SubjectCombination combination : combinationArrayList) {
-            if (combination.inner_sentiment.equals("non-negative") && combination.outer_sentiment.equals("non-negative")) {
+            if (combination.innerSentiment.equals("non-negative") && combination.outerSentiment.equals("non-negative")) {
                 System.out.println(combination.innerSentence);
                 System.out.println(combination.sm1);
                 System.out.println(combination.outerSentence);
@@ -279,9 +279,9 @@ public class PartyExtractionMain {
 
             System.out.println("innerSentence : " + innerSentence);
 
-            SubjectCombination subject_combination = new SubjectCombination();
-            subject_combination.party_1 = innerSubjectContext;
-            subject_combination.party_2 = outerSubjectContext;
+            SubjectCombination subjectCombination = new SubjectCombination();
+            subjectCombination.party_1 = innerSubjectContext;
+            subjectCombination.party_2 = outerSubjectContext;
 
             for (CoreMap coreMapSentence : sentences) {
                 final Tree tree = coreMapSentence.get(SentimentCoreAnnotations.SentimentAnnotatedTree.class);
@@ -300,11 +300,11 @@ public class PartyExtractionMain {
                 br3.flush();
 
                 System.out.println();
-                subject_combination.sm1 = sm;
+                subjectCombination.sm1 = sm;
                 if (sentiment.toLowerCase().equals("negative")) {
-                    subject_combination.inner_sentiment = "negative";
+                    subjectCombination.innerSentiment = "negative";
                 } else {
-                    subject_combination.inner_sentiment = "non-negative";
+                    subjectCombination.innerSentiment = "non-negative";
                 }
             }
 
@@ -318,8 +318,8 @@ public class PartyExtractionMain {
 
             System.out.println("outerSentence");
             br.write("\t" + "outerSentence : " + outerSentence + "\n");
-            subject_combination.innerSentence = innerSentence;
-            subject_combination.outerSentence = outerSentence;
+            subjectCombination.innerSentence = innerSentence;
+            subjectCombination.outerSentence = outerSentence;
             for (CoreMap coreMapSentence : sentences) {
 
                 final Tree tree = coreMapSentence.get(SentimentCoreAnnotations.SentimentAnnotatedTree.class);
@@ -339,12 +339,12 @@ public class PartyExtractionMain {
                 br3.flush();
 
                 System.out.println("\n");
-                subject_combination.sm2 = sm;
+                subjectCombination.sm2 = sm;
 
                 if (sentiment.toLowerCase().equals("negative")) {
-                    subject_combination.outer_sentiment = "negative";
+                    subjectCombination.outerSentiment = "negative";
                 } else {
-                    subject_combination.outer_sentiment = "non-negative";
+                    subjectCombination.outerSentiment = "non-negative";
                 }
             }
 
@@ -374,13 +374,13 @@ public class PartyExtractionMain {
             br3.newLine();
             br.flush();
             br3.flush();
-            combinationArrayList.add(subject_combination);
+            combinationArrayList.add(subjectCombination);
         }
         br.newLine();
 //        br2.write("one negative and the other is non-negative\n\n");
 //        for(SubjectCombination combination : combinationArrayList){
-//            if((combination.inner_sentiment.equals("negative") && combination.outer_sentiment.equals("non-negative"))
-//                    || combination.inner_sentiment.equals("non-negative") && combination.outer_sentiment.equals("negative")){
+//            if((combination.innerSentiment.equals("negative") && combination.outerSentiment.equals("non-negative"))
+//                    || combination.innerSentiment.equals("non-negative") && combination.outerSentiment.equals("negative")){
 //                br2.write(combination.party_1 + " - " + combination.party_2 + "\n");
 //            }
 //        }
@@ -388,7 +388,7 @@ public class PartyExtractionMain {
 //
 //        br2.write("both non-negative\n\n");
 //        for(SubjectCombination combination : combinationArrayList){
-//            if(combination.inner_sentiment.equals("negative") && combination.outer_sentiment.equals("negative")){
+//            if(combination.innerSentiment.equals("negative") && combination.outerSentiment.equals("negative")){
 //                br2.write(combination.party_1 + " - " + combination.party_2 + "\n");
 //            }
 //        }
@@ -398,7 +398,7 @@ public class PartyExtractionMain {
 //        br3.flush();
 //
 //        for(SubjectCombination combination : combinationArrayList){
-//            if(combination.inner_sentiment.equals("non-negative") && combination.outer_sentiment.equals("non-negative")){
+//            if(combination.innerSentiment.equals("non-negative") && combination.outerSentiment.equals("non-negative")){
 //                System.out.println(combination.innerSentence);
 //                System.out.println(combination.sm1);
 //                System.out.println(combination.outerSentence);
@@ -478,8 +478,8 @@ public class PartyExtractionMain {
     static class SubjectCombination {
         String party_1;
         String party_2;
-        String inner_sentiment;
-        String outer_sentiment;
+        String innerSentiment;
+        String outerSentiment;
         SimpleMatrix sm1;
         SimpleMatrix sm2;
         String innerSentence;
@@ -489,11 +489,11 @@ public class PartyExtractionMain {
 
     public static void processIntermediateFile(String caseName) throws IOException {
         String absoluteFilePath = new File("").getAbsolutePath();
-        String source_filePath = absoluteFilePath + "/src/main/resources/SentimentAnalysis/InnerOuterSentenceSentiment/" + caseName + "/intermediate.txt";
+        String sourceFilePath = absoluteFilePath + "/src/main/resources/SentimentAnalysis/InnerOuterSentenceSentiment/" + caseName + "/intermediate.txt";
 
         Scanner sc = null;
         try {
-            sc = new Scanner(new File(source_filePath));
+            sc = new Scanner(new File(sourceFilePath));
         } catch (FileNotFoundException e) {
             System.out.println("intermediate file  is not found. ");
         }

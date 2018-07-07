@@ -3,11 +3,14 @@ package org.elixir.parseTree;
 import edu.stanford.nlp.ling.CoreAnnotations;
 import edu.stanford.nlp.pipeline.Annotation;
 import edu.stanford.nlp.pipeline.StanfordCoreNLP;
+import edu.stanford.nlp.sentiment.SentimentCoreAnnotations;
 import edu.stanford.nlp.trees.Constituent;
 import edu.stanford.nlp.trees.LabeledScoredConstituentFactory;
 import edu.stanford.nlp.trees.Tree;
 import edu.stanford.nlp.trees.TreeCoreAnnotations;
+import edu.stanford.nlp.util.CoreMap;
 
+import java.util.List;
 import java.util.Properties;
 import java.util.Set;
 
@@ -30,6 +33,12 @@ public class ParseTreeDemo {
 
         // annotate
         pipeline.annotate(annotation);
+
+        List<CoreMap> sentences = annotation.get(CoreAnnotations.SentencesAnnotation.class);
+        for (CoreMap coreMapSentence : sentences) {
+            final String sentiment = coreMapSentence.get(SentimentCoreAnnotations.SentimentClass.class);
+            System.out.println("sentiment: " + sentiment);
+        }
 
         // get tree
         Tree tree = annotation.get(CoreAnnotations.SentencesAnnotation.class).get(0).get(TreeCoreAnnotations.TreeAnnotation.class);
