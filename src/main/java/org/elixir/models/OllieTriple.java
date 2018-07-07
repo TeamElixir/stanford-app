@@ -2,5 +2,5 @@ package org.elixir.models;
 
 public class OllieTriple {
 
-	private int id;
+    private int id;
 }

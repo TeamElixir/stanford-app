@@ -14,24 +14,23 @@ import java.io.IOException;
 
 public class Main {
 
-	public static void main(String[] args) {
-		try {
-			Gate.setGateHome(new File(Constants.GATE_HOME));
-			Gate.init();
-			SerialAnalyserController controller = (SerialAnalyserController)
-					PersistenceManager
-							.loadObjectFromFile(new File(new File(Gate.getPluginsHome(), ANNIEConstants.PLUGIN_DIR),
-									ANNIEConstants.DEFAULT_FILE));
+    public static void main(String[] args) {
+        try {
+            Gate.setGateHome(new File(Constants.GATE_HOME));
+            Gate.init();
+            SerialAnalyserController controller = (SerialAnalyserController)
+                    PersistenceManager
+                            .loadObjectFromFile(new File(new File(Gate.getPluginsHome(), ANNIEConstants.PLUGIN_DIR),
+                                    ANNIEConstants.DEFAULT_FILE));
 
-			Gate.getCreoleRegister().registerDirectories(
-					new File(Gate.getPluginsHome(), "Tools").toURL()
-			);
+            Gate.getCreoleRegister().registerDirectories(
+                    new File(Gate.getPluginsHome(), "Tools").toURL()
+            );
 
-			ProcessingResource morpher = (ProcessingResource) Factory.createResource("gate.creole.morph.Morph");
+            ProcessingResource morpher = (ProcessingResource) Factory.createResource("gate.creole.morph.Morph");
 
-		}
-		catch (GateException | IOException e) {
-			e.printStackTrace();
-		}
-	}
+        } catch (GateException | IOException e) {
+            e.printStackTrace();
+        }
+    }
 }

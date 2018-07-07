@@ -5,63 +5,63 @@ import com.fasterxml.jackson.annotation.JsonProperty;
 public class Node {
 
     @JsonProperty("key")
-	private String id;
+    private String id;
 
     @JsonProperty("parent")
-	private String parent;
+    private String parent;
 
     @JsonProperty("name")
-	private String argument;
+    private String argument;
 
     @JsonProperty("type")
     private String type;
 
-	// default constructor needed for parsing JSON
-	public Node() {
+    // default constructor needed for parsing JSON
+    public Node() {
 
-	}
+    }
 
-	@Override
-	public String toString() {
-		return "Node{" +
-				"id='" + id + '\'' +
-				", parent='" + parent + '\'' +
-				", argument='" + argument + '\'' +
-				", type='" + type + '\'' +
-				'}';
-	}
+    @Override
+    public String toString() {
+        return "Node{" +
+                "id='" + id + '\'' +
+                ", parent='" + parent + '\'' +
+                ", argument='" + argument + '\'' +
+                ", type='" + type + '\'' +
+                '}';
+    }
 
-	public void setType(String type) {
-		this.type = type;
-	}
+    public void setType(String type) {
+        this.type = type;
+    }
 
-	public Node(String id, String parent, String argument) {
-		this.id = id;
-		this.parent = parent;
-		this.argument = argument;
-	}
+    public Node(String id, String parent, String argument) {
+        this.id = id;
+        this.parent = parent;
+        this.argument = argument;
+    }
 
-	public String getId() {
-		return id;
-	}
+    public String getId() {
+        return id;
+    }
 
-	public void setId(String id) {
-		this.id = id;
-	}
+    public void setId(String id) {
+        this.id = id;
+    }
 
-	public String getParent() {
-		return parent;
-	}
+    public String getParent() {
+        return parent;
+    }
 
-	public void setParent(String parent) {
-		this.parent = parent;
-	}
+    public void setParent(String parent) {
+        this.parent = parent;
+    }
 
-	public String getArgument() {
-		return argument;
-	}
+    public String getArgument() {
+        return argument;
+    }
 
-	public void setArgument(String argument) {
-		this.argument = argument;
-	}
+    public void setArgument(String argument) {
+        this.argument = argument;
+    }
 }

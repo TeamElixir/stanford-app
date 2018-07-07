@@ -4,22 +4,25 @@ import edu.stanford.nlp.ling.CoreAnnotations;
 import edu.stanford.nlp.pipeline.Annotation;
 import edu.stanford.nlp.pipeline.StanfordCoreNLP;
 
-import java.util.*;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Properties;
+import java.util.TreeSet;
 
 //to resolve coreferences of the given paragraph
 public class CorefChainMapping {
-    static class CorefSentenceMapping{
+    static class CorefSentenceMapping {
         int sentenceNumber;
         String term;
 
     }
 
     public ArrayList<CorefSentenceMapping> termList = new ArrayList<>();
-    public String longestTerm="--";
+    public String longestTerm = "--";
     public String non_prep_words = ";";
     public TreeSet<String> referredTermList = new TreeSet<>();
 
-    public void assignTerm(String term, int sentenceNumber){
+    public void assignTerm(String term, int sentenceNumber) {
 
         CorefSentenceMapping csm = new CorefSentenceMapping();
         csm.term = term;
@@ -37,11 +40,11 @@ public class CorefChainMapping {
         //String word = ann.get(CoreAnnotations.SentencesAnnotation.class).get(0).get(CoreAnnotations.TokensAnnotation.class).get(0).get(CoreAnnotations.TextAnnotation.class);
 
 
-        if(termList.size() == 0){
+        if (termList.size() == 0) {
             longestTerm = term;
         }
-        if(!postag.equals("PRP") && !postag.equals("PRP$")){
-            if(term.length() >= longestTerm.length()){
+        if (!postag.equals("PRP") && !postag.equals("PRP$")) {
+            if (term.length() >= longestTerm.length()) {
                 longestTerm = term;
             }
 
@@ -50,14 +53,14 @@ public class CorefChainMapping {
     }
 
     //created for this class
-    private String[] specialSplit(String text){
+    private String[] specialSplit(String text) {
         String[] intermediateSplit = text.split(",");
 
         String concatString = "";
-        for(String i : intermediateSplit){
-            if(!i.matches(".*[0-9]$")){
+        for (String i : intermediateSplit) {
+            if (!i.matches(".*[0-9]$")) {
                 concatString += i.trim() + ", ";
-            }else{
+            } else {
                 concatString += i.trim() + ";;";
             }
         }
@@ -66,35 +69,34 @@ public class CorefChainMapping {
 
     //needs to process this kind a string
     //CHAIN50-["the defendant" in sentence 1, "his" in sentence 1, "the defendant" in sentence 5, "he" in sentence 5]
-    public void processCorefChainString(String corefChainString){
+    public void processCorefChainString(String corefChainString) {
 
-        String BracketsRemovedString = corefChainString.substring(corefChainString.indexOf("[")+1,corefChainString.indexOf("]"));
+        String BracketsRemovedString = corefChainString.substring(corefChainString.indexOf("[") + 1, corefChainString.indexOf("]"));
         String[] commaSeperatedReferences = specialSplit(BracketsRemovedString);
 
-        for(String reference : commaSeperatedReferences){
-            int sentenceNumber = Integer.parseInt(reference.substring(reference.indexOf("in sentence")+12));
-            String term = reference.substring(1,reference.indexOf("in sentence")-2);
-            assignTerm(term,sentenceNumber);
+        for (String reference : commaSeperatedReferences) {
+            int sentenceNumber = Integer.parseInt(reference.substring(reference.indexOf("in sentence") + 12));
+            String term = reference.substring(1, reference.indexOf("in sentence") - 2);
+            assignTerm(term, sentenceNumber);
         }
     }
 
     //resolve the terms
-    public String resolveTerm(String givenTerm, int sentence_id){
+    public String resolveTerm(String givenTerm, int sentence_id) {
 
         String[] partialTerms = givenTerm.split(" ");
 
-        for(CorefSentenceMapping i : termList){
-            if(i.sentenceNumber == sentence_id && Arrays.asList(partialTerms).contains(i.term)){
+        for (CorefSentenceMapping i : termList) {
+            if (i.sentenceNumber == sentence_id && Arrays.asList(partialTerms).contains(i.term)) {
                 String listString = "";
 
-                for (String s : referredTermList)
-                {
+                for (String s : referredTermList) {
                     listString += s + ";";
                 }
-                if(listString.length()==0){
+                if (listString.length() == 0) {
                     return longestTerm;
                 }
-                return  listString;
+                return listString;
             }
         }
         return null;

@@ -19,7 +19,7 @@ import java.util.Scanner;
 public class CustomizeSentimentAnnotator {
 
     /*
-    *the words with deviated sentiment are stored in files, the directories of those files should
+     *the words with deviated sentiment are stored in files, the directories of those files should
      * be provided. (location in the resources directory
      * */
     public static void addSentimentLayerToCoreNLPSentiment(String nonPositiveFilePath,
@@ -30,18 +30,18 @@ public class CustomizeSentimentAnnotator {
         filePath += "/src/main/resources/";
 
         Scanner nonPositiveScanner = new Scanner(new File(filePath + nonPositiveFilePath));
-        while(nonPositiveScanner.hasNextLine()){
+        while (nonPositiveScanner.hasNextLine()) {
             String line = nonPositiveScanner.nextLine();
             SentimentCostAndGradient.nonNeutralList.add(line);
         }
 
         Scanner nonNeutralScanner = new Scanner(new File(filePath + nonNeutralFilePath));
-        while(nonNeutralScanner.hasNextLine()){
+        while (nonNeutralScanner.hasNextLine()) {
             SentimentCostAndGradient.nonNeutralList.add(nonNeutralScanner.nextLine());
         }
 
         Scanner nonNegativeScanner = new Scanner(new File(filePath + nonNegativeFilePath));
-        while(nonNegativeScanner.hasNextLine()){
+        while (nonNegativeScanner.hasNextLine()) {
             SentimentCostAndGradient.nonNegativeList.add(nonNegativeScanner.nextLine());
         }
     }
@@ -51,21 +51,21 @@ public class CustomizeSentimentAnnotator {
     postag map for each sentence should be provided to the SentiementGradientAndCost class
     //todo :  still this doesnot support if same word having two pos tags in single sentence, should simplify further to support that
      */
-    public static void createPosTagMapForSentence(Sentence sentence){
+    public static void createPosTagMapForSentence(Sentence sentence) {
 
         //to create empty map for the word-postag combinations inside SentimentCostAndGradient class
         SentimentCostAndGradient.createPosTagMap();
 
         //to add the word-postag combinations to the map inside SentimentCostAndGradient class
-        for(PosTaggedWord posTaggedWord: sentence.getPosTaggedWords()) {
-            SentimentCostAndGradient.addPosTagsOfWords(posTaggedWord.getWord(),posTaggedWord.getPosTag());
+        for (PosTaggedWord posTaggedWord : sentence.getPosTaggedWords()) {
+            SentimentCostAndGradient.addPosTagsOfWords(posTaggedWord.getWord(), posTaggedWord.getPosTag());
         }
 
     }
 
 
     // if the sentences are not in database: use this method
-    public static void createPosTagMapForSentence(String sentence){
+    public static void createPosTagMapForSentence(String sentence) {
 
         //to create empty map for the word-postag combinations inside SentimentCostAndGradient class
         SentimentCostAndGradient.createPosTagMap();
@@ -79,33 +79,33 @@ public class CustomizeSentimentAnnotator {
 
         List<CoreMap> sentences = annotation.get(CoreAnnotations.SentencesAnnotation.class);
 
-        for (CoreMap coreMapSentence : sentences){
-            for (CoreLabel token : coreMapSentence.get(CoreAnnotations.TokensAnnotation.class)){
+        for (CoreMap coreMapSentence : sentences) {
+            for (CoreLabel token : coreMapSentence.get(CoreAnnotations.TokensAnnotation.class)) {
 
                 String word = token.get(CoreAnnotations.TextAnnotation.class);
                 String posTag = token.get(CoreAnnotations.PartOfSpeechAnnotation.class);
-                SentimentCostAndGradient.addPosTagsOfWords(word,posTag);
+                SentimentCostAndGradient.addPosTagsOfWords(word, posTag);
             }
         }
     }
 
     /*
-    * -1 for negative, 0 for neutral and 1 for positive
-    */
-    public static int getPhraseSentiment(CoreMap coreMapSentence){
+     * -1 for negative, 0 for neutral and 1 for positive
+     */
+    public static int getPhraseSentiment(CoreMap coreMapSentence) {
         String sentiment = coreMapSentence.get(SentimentCoreAnnotations.SentimentClass.class);
 
-        switch(sentiment){
+        switch (sentiment) {
             case "Negative":
                 return -1;
 
-            case "Neutral" :
-                return 0 ;
+            case "Neutral":
+                return 0;
 
-            case "Positive" :
+            case "Positive":
                 return 1;
 
-            default :
+            default:
                 return 0;
         }
     }

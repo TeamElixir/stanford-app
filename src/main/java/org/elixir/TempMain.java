@@ -1,23 +1,10 @@
 package org.elixir;
 
-import edu.stanford.nlp.ling.CoreAnnotations;
-import edu.stanford.nlp.neural.rnn.RNNCoreAnnotations;
-import edu.stanford.nlp.pipeline.Annotation;
-import edu.stanford.nlp.pipeline.StanfordCoreNLP;
-import edu.stanford.nlp.sentiment.SentimentCoreAnnotations;
-import edu.stanford.nlp.trees.Tree;
-import edu.stanford.nlp.util.CoreMap;
-import org.ejml.simple.SimpleMatrix;
-import org.elixir.utils.CustomizeSentimentAnnotator;
-
-import java.io.FileNotFoundException;
 import java.io.IOException;
-import java.util.List;
-import java.util.Properties;
 
 public class TempMain {
     public static void main(String[] args) throws IOException {
-        Party_Extraction_Main.processIntermediateFile("case_20");
+        PartyExtractionMain.processIntermediateFile("case_20");
 //        Properties propsSentiment = new Properties();
 //        propsSentiment.setProperty("annotators", "tokenize,ssplit,tokenize,pos,lemma,parse,natlog,sentiment");
 //        StanfordCoreNLP sentimentPipeline = new StanfordCoreNLP(propsSentiment);

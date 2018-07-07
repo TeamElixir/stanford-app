@@ -35,18 +35,18 @@ public class ThatSentenceIdentifier {
                 // this is the POS tag of the token
                 String pos = token.get(CoreAnnotations.PartOfSpeechAnnotation.class);
 
-                if(pos.equals("VB") ||
+                if (pos.equals("VB") ||
                         pos.equals("VBD") ||
                         pos.equals("VBG") ||
                         pos.equals("VBN") ||
                         pos.equals("VBP") ||
-                        pos.equals("VBZ")){
+                        pos.equals("VBZ")) {
                     verbOccured = true;
                     continue;
-                }else{
-                    if(verbOccured == true && word.toLowerCase().equals("that")){
+                } else {
+                    if (verbOccured == true && word.toLowerCase().equals("that")) {
                         return true;
-                    }else{
+                    } else {
                         verbOccured = false;
                     }
                 }
