@@ -9,9 +9,9 @@ import java.sql.PreparedStatement;
 import java.sql.SQLException;
 
 public class PhrasesController {
-    private static Connection conn = DBCon.getConnection(Databases.DISCOURSE_ANNOTATOR);
 
     public static boolean insertPhraseToDB(Phrase phrase) {
+        Connection conn = DBCon.getConnection(Databases.TEN_CASE_ANALYSIS);
         String query = "INSERT INTO " + Phrase.TABLE_NAME + " (phrase, sentiment, caseFileName) VALUES (?, ?, ?)";
 
         try {

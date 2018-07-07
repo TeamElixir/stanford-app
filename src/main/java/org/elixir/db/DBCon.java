@@ -10,7 +10,7 @@ public class DBCon {
 
     private static String username = "root";
 
-    private static String password = "";
+    private static String password = "123456";
 
     public static Connection getConnection(String dbName) {
         String url = "jdbc:mysql://localhost:3306/" + dbName + "?useSSL=false";
@@ -19,14 +19,14 @@ public class DBCon {
             Class.forName(driverName);
             try {
                 con = DriverManager.getConnection(url, username, password);
-            } catch (SQLException ex) {
-                // log an exception. fro example:
+            } catch (SQLException e) {
+                e.printStackTrace();
                 System.out.println("Failed to create the database connection.");
                 System.out.println("Exiting ...");
                 System.exit(1);
             }
-        } catch (ClassNotFoundException ex) {
-            // log an exception. for example:
+        } catch (Exception e) {
+            e.printStackTrace();
             System.out.println("Driver not found.");
             System.out.println("Exiting ...");
             System.exit(1);

@@ -9,6 +9,7 @@ import edu.stanford.nlp.trees.LabeledScoredConstituentFactory;
 import edu.stanford.nlp.trees.Tree;
 import edu.stanford.nlp.trees.TreeCoreAnnotations;
 import edu.stanford.nlp.util.CoreMap;
+import org.elixir.controllers.PhrasesController;
 import org.elixir.controllers.SentencesController;
 import org.elixir.models.Phrase;
 import org.elixir.models.Sentence;
@@ -44,15 +45,16 @@ public class ParseTreeDemo {
 
 //        String sentence = "The small red car turned very quickly around the corner.";
 
-        for (int i = 11; i < 19; i++) {
+        for (int i = 1; i <= 19; i++) {
             String caseFileName = "cases_set/case_" + i + ".txt";
+            // get sentences from database
             ArrayList<Sentence> sanitizedSentencesOfCase = SentencesController.getSanitizedSentencesOfCase(i);
             if (sanitizedSentencesOfCase != null) {
                 for (Sentence sentence : sanitizedSentencesOfCase) {
                     extractPhrasesFromSentence(pipeline, sentence.getSentence(), caseFileName);
                 }
             } else {
-                System.err.println("No sentences found for case" + i);
+                System.err.println("No sentences found for case " + i);
             }
         }
     }
@@ -73,17 +75,35 @@ public class ParseTreeDemo {
             if (constituent.label() != null &&
                     (constituent.label().toString().equals("VP") || constituent.label().toString().equals("NP"))) {
                 List<Tree> trees = tree.getLeaves().subList(constituent.start(), constituent.end() + 1);
-                String sentenceFromTreeLeafList = getSentenceFromTreeLeafList(trees);
-                String sentimentOfSentence = getSentimentOfSentence(sentenceFromTreeLeafList, pipeline);
+                String sentenceFromTreeLeafList = getPhraseFromTreeLeafList(trees);
+                String sentimentOfSentence = getSentimentOfPhrase(sentenceFromTreeLeafList, pipeline);
                 Phrase phrase = new Phrase(sentenceFromTreeLeafList, sentimentOfSentence, caseFileName);
-
-                System.out.println(sentenceFromTreeLeafList + ": " + sentimentOfSentence);
+                boolean phraseUseful = isPhraseUseful(phrase.getPhrase());
+                if (phraseUseful) {
+                    // phrase useful
+                    boolean inserted = PhrasesController.insertPhraseToDB(phrase);
+                    if (!inserted) {
+                        System.out.println("Failed to insert " + phrase);
+                    }
+                } else {
+                    // phrase not useful
+                    System.out.println(phrase.getPhrase() + ": not useful");
+                }
             }
         }
     }
 
+    private static boolean isPhraseUseful(String phrase) {
+        String[] splits = phrase.trim().split(" ");
+        if (splits.length < 2) {
+            return false;
+        }
+
+        return true;
+    }
+
     // combine the words in the list to a string
-    private static String getSentenceFromTreeLeafList(List<Tree> treeLeaves) {
+    private static String getPhraseFromTreeLeafList(List<Tree> treeLeaves) {
         StringBuilder sentence = new StringBuilder();
         for (Tree treeLeaf : treeLeaves) {
             sentence.append(treeLeaf).append(" ");
@@ -94,8 +114,8 @@ public class ParseTreeDemo {
 
     // return the sentiment (positive, neutral, negative) given a sentence
     // and the annotation pipeline
-    private static String getSentimentOfSentence(String sentence, StanfordCoreNLP pipeline) {
-        Annotation annotation = new Annotation(sentence);
+    private static String getSentimentOfPhrase(String phrase, StanfordCoreNLP pipeline) {
+        Annotation annotation = new Annotation(phrase);
         pipeline.annotate(annotation);
 
         List<CoreMap> sentences = annotation.get(CoreAnnotations.SentencesAnnotation.class);
