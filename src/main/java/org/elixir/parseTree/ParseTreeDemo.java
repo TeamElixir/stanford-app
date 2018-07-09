@@ -11,8 +11,10 @@ import edu.stanford.nlp.trees.TreeCoreAnnotations;
 import edu.stanford.nlp.util.CoreMap;
 import org.elixir.controllers.PhrasesController;
 import org.elixir.controllers.SentencesController;
+import org.elixir.controllers.TermsController;
 import org.elixir.models.Phrase;
 import org.elixir.models.Sentence;
+import org.elixir.models.Term;
 import org.elixir.utils.CustomizeSentimentAnnotator;
 
 import java.io.FileNotFoundException;
@@ -43,8 +45,11 @@ public class ParseTreeDemo {
             System.out.println("sentiment file is not found.");
         }
 
-//        String sentence = "The small red car turned very quickly around the corner.";
+        // processSentences(pipeline);
+        processTerms(pipeline);
+    }
 
+    private static void processSentences(StanfordCoreNLP pipeline) {
         for (int i = 1; i <= 19; i++) {
             String caseFileName = "cases_set/case_" + i + ".txt";
             // get sentences from database
@@ -55,6 +60,19 @@ public class ParseTreeDemo {
                 }
             } else {
                 System.err.println("No sentences found for case " + i);
+            }
+        }
+    }
+
+    private static void processTerms(StanfordCoreNLP pipeline) {
+        ArrayList<Term> allTerms = TermsController.getTermsWithASentiment();
+        for (Term t : allTerms) {
+            String sentiment = getSentimentOfPhrase(t.getTerm(), pipeline);
+            t.setSentiment(sentiment);
+            System.out.println("Term: " + t);
+            boolean updated = TermsController.updateSentimentOfTerm(t);
+            if (!updated) {
+                System.out.println("Update failed: " + t);
             }
         }
     }
@@ -95,11 +113,7 @@ public class ParseTreeDemo {
 
     private static boolean isPhraseUseful(String phrase) {
         String[] splits = phrase.trim().split(" ");
-        if (splits.length < 2) {
-            return false;
-        }
-
-        return true;
+        return splits.length >= 2;
     }
 
     // combine the words in the list to a string
@@ -112,7 +126,7 @@ public class ParseTreeDemo {
         return sentence.toString();
     }
 
-    // return the sentiment (positive, neutral, negative) given a sentence
+    // return the sentiment (very positive, positive, neutral, negative, very negative) given a sentence
     // and the annotation pipeline
     private static String getSentimentOfPhrase(String phrase, StanfordCoreNLP pipeline) {
         Annotation annotation = new Annotation(phrase);
@@ -120,7 +134,6 @@ public class ParseTreeDemo {
 
         List<CoreMap> sentences = annotation.get(CoreAnnotations.SentencesAnnotation.class);
         CoreMap coreMapSentence = sentences.get(0);
-//        System.out.println(coreMapSentence.toString());
         CustomizeSentimentAnnotator.createPosTagMapForSentence(coreMapSentence.toString());
         String sentiment = coreMapSentence.get(SentimentCoreAnnotations.SentimentClass.class);
         return sentiment.toLowerCase();

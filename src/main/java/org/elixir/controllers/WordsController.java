@@ -12,9 +12,8 @@ import java.util.ArrayList;
 
 public class WordsController {
 
-    private static Connection conn = DBCon.getConnection(Databases.TEN_CASE_ANALYSIS);
-
     public static boolean insertWord(Word word) {
+        Connection conn = DBCon.getConnection(Databases.TEN_CASE_ANALYSIS);
         String query = "INSERT INTO " + Word.TABLE_NAME + "(word, sentiment, triple_id) VALUES(?, ?, ?)";
 
         try {
@@ -30,7 +29,9 @@ public class WordsController {
         }
     }
 
+    // words related to sentences
     public static ArrayList<Word> getAllWords() {
+        Connection conn = DBCon.getConnection(Databases.TEN_CASE_ANALYSIS);
         ArrayList<Word> words = new ArrayList<>();
         PreparedStatement ps;
         ResultSet rs;
