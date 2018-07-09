@@ -64,6 +64,7 @@ public class ParseTreeDemo {
                 System.err.println(tree.getLeaves().subList(constituent.start(), constituent.end() + 1));
                 System.err.println();
             }
+
         }
     }
 }
