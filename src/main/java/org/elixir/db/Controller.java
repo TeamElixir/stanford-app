@@ -11,7 +11,7 @@ import java.sql.SQLException;
 
 public class Controller {
 
-    private static Connection conn = DBCon.getConnection();
+    private static Connection conn = DBCon.getConnection(Databases.TEN_CASE_ANALYSIS);
 
     private static ResultSet resultSet;
 

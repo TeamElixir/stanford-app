@@ -1,0 +1,590 @@
+During a traffic stop, police officers in Joliet, Illinois, searched petitioner Elijah Manuel and found a vitamin bottle containing pills.
+
+Suspecting the pills to be illegal drugs, the officers conducted a field test, which came back negative for any controlled substance.
+
+Still, they arrested Manuel and took him to the police station.
+
+There, an evidence technician tested the pills and got the same negative result, but claimed in his report that one of the pills tested "positive for the probable presence of ecstasy."
+
+An arresting officer also reported that, based on his "training and experience," he "knew the pills to be ecstasy."
+
+On the basis of those false statements, another officer filed a sworn complaint charging Manuel with unlawful possession of a controlled substance.
+
+Relying exclusively on that complaint, a county court judge found probable cause to detain Manuel pending trial.
+
+While Manuel was in jail, the Illinois police laboratory tested the seized pills and reported that they contained no controlled substances.
+
+But Manuel remained in custody, spending a total of 48 days in pretrial detention.
+
+More than two years after his arrest, but less than two years after his criminal case was dismissed, Manuel filed a 42 U. S. C. §1983 lawsuit against Joliet and several of its police officers (collectively, the City), alleging that his arrest and detention violated the Fourth Amendment.
+
+The District Court dismissed Manuel's suit, holding, first, that the applicable two-year statute of limitations barred his unlawful arrest claim, and, second, that under binding Circuit precedent, pretrial detention following the start of legal process (here, the judge's probable-cause determination) could not give rise to a Fourth Amendment claim.
+
+Manuel appealed the dismissal of his unlawful detention claim; the Seventh Circuit affirmed.
+
+Manuel may challenge his pretrial detention on Fourth Amendment grounds.
+
+This conclusion follows from the Court's settled precedent.
+
+In Gerstein v. Pugh, 420 U. S. 103, the Court decided that a pretrial detention challenge was governed by the Fourth Amendment, noting that the Fourth Amendment establishes the minimum constitutional "standards and procedures" not just for arrest but also for "detention," id., at 111, and "always has been thought to define" the appropriate process "for seizures of person[s] . . . in criminal cases, including the detention of suspects pending trial," id., at 125, n. 27.
+
+And in Albright v. Oliver, 510 U. S. 266, a majority of the Court again looked to the Fourth Amendment to assess pretrial restraints on liberty.
+
+Relying on Gerstein, the plurality reiterated that the Fourth Amendment is the "relevan[t]" constitutional provision to assess the "deprivations of liberty that go hand in hand with criminal prosecutions."
+
+That the pretrial restraints in Albright arose pursuant to legal process made no difference, given that they were allegedly unsupported by probable cause.
+
+As reflected in those cases, pretrial detention can violate the Fourth Amendment not only when it precedes, but also when it follows, the start of legal process.
+
+The Fourth Amendment prohibits government officials from detaining a person absent probable cause.
+
+And where legal process has gone forward, but has done nothing to satisfy the probable-cause requirement, it cannot extinguish a detainee's Fourth Amendment claim.
+
+That was the case here: Because the judge's determination of probable cause was based solely on fabricated evidence, it did not expunge Manuel's Fourth Amendment claim.
+
+For that reason, Manuel stated a Fourth Amendment claim when he sought relief not merely for his arrest, but also for his pretrial detention.
+
+On remand, the Seventh Circuit should determine the claim's accrual date, unless it finds that the City has previously waived its timeliness argument.
+
+In doing so, the court should look to the common law of torts for guidance, Carey v. Piphus, 435 U. S. 247, 257-258, while also closely attending to the values and purposes of the constitutional right at issue.
+
+The court may also consider any other still-live issues relating to the elements of and rules applicable to Manuel's Fourth Amendment claim.
+
+Kagan, J., delivered the opinion of the Court, in which Roberts, C. J., and Kennedy, Ginsburg, Breyer, and Sotomayor, JJ., joined.
+
+NOTICE:?This opinion is subject to formal revision before publication in the preliminary print of the United States Reports.
+
+Readers are requested to notify the Reporter of Decisions, Supreme Court of the United States, Washington, D. C. 20543, of any typographical or other formal errors, in order that corrections may be made before the preliminary print goes to press.
+
+on writ of certiorari to the united states court of appeals for the seventh circuit
+
+Justice Kagan delivered the opinion of the Court.
+
+Petitioner Elijah Manuel was held in jail for some seven weeks after a judge relied on allegedly fabricated evidence to find probable cause that he had committed a crime.
+
+The primary question in this case is whether Manuel may bring a claim based on the Fourth Amendment to contest the legality of his pretrial confinement.
+
+Our answer follows from settled precedent.
+
+And those constitutional protections apply even after the start of "legal process" in a criminal case--here, that is, after the judge's determination of probable cause.
+
+Accordingly, we hold today that Manuel may challenge his pretrial detention on the ground that it violated the Fourth Amendment (while we leave all other issues, including one about that claim's timeliness, to the court below).
+
+Shortly after midnight on March 18, 2011, Manuel was riding through Joliet, Illinois, in the passenger seat of a Dodge Charger, with his brother at the wheel.
+
+A pair of Joliet police officers pulled the car over when the driver failed to signal a turn.
+
+According to the complaint in this case, one of the officers dragged Manuel from the car, called him a racial slur, and kicked and punched him as he lay on the ground.
+
+Suspecting that the pills were actually illegal drugs, the officers conducted a field test of the bottle's contents.
+
+The test came back negative for any controlled substance, leaving the officers with no evidence that Manuel had committed a crime.
+
+Still, the officers arrested Manuel and took him to the Joliet police station.
+
+There, an evidence technician tested the pills once again, and got the same (negative) result.
+
+But the technician lied in his report, claiming that one of the pills was "found to be . . . positive for the probable presence of ecstasy."
+
+Similarly, one of the arresting officers wrote in his report that "[f ]rom [ his] training and experience, [ he] knew the pills to be ecstasy."
+
+On the basis of those statements, another officer swore out a criminal complaint against Manuel, charging him with unlawful possession of a controlled substance.
+
+Manuel was brought before a county court judge later that day for a determination of whether there was probable cause for the charge, as necessary for further detention.
+
+The judge relied exclusively on the criminal complaint--which in turn relied exclusively on the police department's fabrications--to support a finding of probable cause.
+
+Based on that determination, he sent Manuel to the county jail to await trial.
+
+In the somewhat obscure legal lingo of this case, Manuel's subsequent detention was thus pursuant to "legal process"--because it followed from, and was authorized by, the judge's probable-cause determination.2
+
+While Manuel sat in jail, the Illinois police laboratory reexamined the seized pills, and on April 1, it issued a report concluding (just as the prior two tests had) that they contained no controlled substances.
+
+But for unknown reasons, the prosecution--and, critically for this case, Manuel's detention--continued for more than another month.
+
+Only on May 4 did an Assistant State's Attorney seek dismissal of the drug charge.
+
+The County Court immediately granted the request, and Manuel was released the next day.
+
+On April 22, 2013, Manuel brought this lawsuit under 42 U. S. C. §1983 against the City of Joliet and several of its police officers (collectively, the City).
+
+Section 1983 creates a "species of tort liability," Imbler v. Pachtman, 424 U. S. 409, 417 (1976), for "the deprivation of any rights, privileges, or immunities secured by the Constitution," §1983.
+
+Manuel's complaint alleged that the City violated his Fourth Amendment rights in two ways--first by arresting him at the roadside without any reason, and next by "detaining him in police custody" for almost seven weeks based entirely on made-up evidence.
+
+The District Court dismissed Manuel's suit.
+
+The court first held that the applicable two-year statute of limitations barred Manuel's claim for unlawful arrest, because more than two years had elapsed between the date of his arrest (March 18, 2011) and the filing of his complaint (April 22, 2013).
+
+But the court relied on another basis in rejecting Manuel's challenge to his subsequent detention (which stretched from March 18 to May 5, 2011).
+
+Binding Circuit precedent, the District Court explained, made clear that pretrial detention following the start of legal process could not give rise to a Fourth Amendment claim.
+
+According to that line of decisions, a §1983 plaintiff challenging such detention must allege a breach of the Due Process Clause--and must show, to recover on that theory, that state law fails to provide an adequate remedy.
+
+Because Manuel's complaint rested solely on the Fourth Amendment--and because, in any event, Illinois's remedies were robust enough to preclude the due process avenue--the District Court found that Manuel had no way to proceed.
+
+The Court of Appeals for the Seventh Circuit affirmed the dismissal of Manuel's claim for unlawful detention (the only part of the District Court's decision Manuel appealed).
+
+Invoking its prior caselaw, the Court of Appeals reiterated that such claims could not be brought under the Fourth Amendment.
+
+Once a person is detained pursuant to legal process, the court stated, "the Fourth Amendment falls out of the picture and the detainee's claim that the detention is improper becomes [one of] due process."
+
+And again: "When, after the arrest[,] a person is not let go when he should be, the Fourth Amendment gives way to the due process clause as a basis for challenging his detention."
+
+So the Seventh Circuit held that Manuel's complaint, in alleging only a Fourth Amendment violation, rested on the wrong part of the Constitution: A person detained following the onset of legal process could at most (although, the court agreed, not in Illinois) challenge his pretrial confinement via the Due Process Clause.
+
+The Seventh Circuit recognized that its position makes it an outlier among the Courts of Appeals, with ten others taking the opposite view.
+
+The Fourth Amendment protects "[t]he right of the people to be secure in their persons . . . against unreasonable . . . seizures."
+
+Manuel's complaint seeks just that protection.
+
+And that detention was "unreason-able," the complaint continues, because it was based solely on false evidence, rather than supported by probable cause.
+
+By their respective terms, then, Manuel's claim fits the Fourth Amendment, and the Fourth Amendment fits Manuel's claim, as hand in glove.
+
+This Court decided some four decades ago that a claim challenging pretrial detention fell within the scope of the Fourth Amendment.
+
+In Gerstein, two persons arrested without a warrant brought a §1983 suit complaining that they had been held in custody for "a substantial period solely on the decision of a prosecutor."
+
+The Court looked to the Fourth Amendment to analyze--and uphold--their claim that such a pretrial restraint on liberty is unlawful unless a judge (or grand jury) first makes a reliable finding of probable cause.
+
+The Fourth Amendment, we began, establishes the minimum constitutional "standards and procedures" not just for arrest but also for ensuing "detention."
+
+In choosing that Amendment "as the rationale for decision," the Court responded to a concurring Justice's view that the Due Process Clause offered the better framework: The Fourth Amendment, the majority countered, was "tailored explicitly for the criminal justice system, and it[ ] always has been thought to define" the appropriate process "for seizures of person[s] . . . in criminal cases, including the detention of suspects pending trial."
+
+That Amendment, standing alone, guaranteed "a fair and reliable determination of probable cause as a condition for any significant pretrial restraint."
+
+Accordingly, those detained prior to trial without such a finding could appeal to "the Fourth Amendment's protection against unfounded invasions of liberty."
+
+And so too, a later decision indicates, those objecting to a pretrial deprivation of liberty may invoke the Fourth Amendment when (as here) that deprivation occurs after legal process commences.
+
+The §1983 plaintiff in Albright complained of various pretrial restraints imposed after a court found probable cause to issue an arrest warrant, and then bind him over for trial, based on a policeman's unfounded charges.
+
+For uncertain reasons, Albright ignored the Fourth Amendment in drafting his complaint; instead, he alleged that the defendant officer had infringed his substantive due process rights.
+
+This Court rejected that claim, with five Justices in two opinions remitting Albright to the Fourth Amendment.
+
+"The Framers," the plurality wrote, "considered the matter of pretrial deprivations of liberty and drafted the Fourth Amendment to address it."
+
+That the deprivations at issue were pursuant to legal process made no difference, given that they were (allegedly) unsupported by probable cause; indeed, neither of the two opinions so much as mentioned that procedural circumstance.
+
+Relying on Gerstein, the plurality stated that the Fourth Amendment remained the "relevan[t]" constitutional provision to assess the "deprivations of liberty"--most notably, pretrial detention--"that go hand in hand with criminal prosecutions."
+
+As reflected in Albright's tracking of Gerstein's analysis, pretrial detention can violate the Fourth Amendment not only when it precedes, but also when it follows, the start of legal process in a criminal case.
+
+The Fourth Amendment prohibits government officials from detaining a person in the absence of probable cause.
+
+That can happen when the police hold someone without any reason before the formal onset of a criminal proceeding.
+
+But it also can occur when legal process itself goes wrong--when, for example, a judge's probable-cause determination is predicated solely on a police officer's false statements.
+
+Then, too, a person is confined without constitutionally adequate justification.
+
+Legal process has gone forward, but it has done nothing to satisfy the Fourth Amendment's probable-cause requirement.
+
+And for that reason, it cannot extinguish the detainee's Fourth Amendment claim--or somehow, as the Seventh Circuit has held, convert that claim into one founded on the Due Process Clause.
+
+If the complaint is that a form of legal process resulted in pretrial detention unsupported by probable cause, then the right allegedly infringed lies in the Fourth Amendment.6
+
+For that reason, and contrary to the Seventh Circuit's view, Manuel stated a Fourth Amendment claim when he sought relief not merely for his (pre-legal-process) arrest, but also for his (post-legal-process) pretrial detention.7 Consider again the facts alleged in this case.
+
+Police officers initially arrested Manuel without probable cause, based solely on his possession of pills that had field tested negative for an illegal substance.
+
+So (putting timeliness issues aside) Manuel could bring a claim for wrongful arrest under the Fourth Amendment.
+
+And the same is true (again, disregarding timeliness) as to a claim for wrongful detention--because Manuel's subsequent weeks in custody were also unsupported by probable cause, and so also constitutionally unreasonable.
+
+No evidence of Manuel's criminality had come to light in between the roadside arrest and the County Court proceeding initiating legal process; to the contrary, yet another test of Man-uel's pills had come back negative in that period.
+
+All that the judge had before him were police fabrications about the pills' content.
+
+The judge's order holding Manuel for trial therefore lacked any proper basis.
+
+And that means Manuel's ensuing pretrial detention, no less than his original arrest, violated his Fourth Amendment rights.
+
+Or put just a bit differently: Legal process did not expunge Manuel's Fourth Amendment claim because the process he received failed to establish what that Amendment makes essential for pretrial detention--probable cause to believe he committed a crime.8
+
+Our holding--that the Fourth Amendment governs a claim for unlawful pretrial detention even beyond the start of legal process--does not exhaust the disputed legal issues in this case.
+
+It addresses only the threshold inquiry in a §1983 suit, which requires courts to "identify the specific constitutional right" at issue.
+
+After pinpointing that right, courts still must determine the elements of, and rules associated with, an action seeking damages for its violation.
+
+Here, the parties particularly disagree over the accrual date of Manuel's Fourth Amendment claim--that is, the date on which the applicable two-year statute of limitations began to run.
+
+The timeliness of Manuel's suit hinges on the choice between their proposed dates.
+
+But with the following brief comments, we remand that issue to the court below.
+
+In defining the contours and prerequisites of a §1983 claim, including its rule of accrual, courts are to look first to the common law of torts.
+
+(explaining that tort principles "provide the appropriate starting point" in specifying the conditions for recovery under §1983); Wallace v. Kato, 549 U. S. 384, 388-390 (2007) (same for accrual dates in particular).
+
+Sometimes, that review of common law will lead a court to adopt wholesale the rules that would apply in a suit involving the most analogous tort.
+
+Common-law principles are meant to guide rather than to control the definition of §1983 claims, serving "more as a source of inspired examples than of prefabricated components."
+
+In applying, selecting among, or adjusting common-law approaches, courts must closely attend to the values and purposes of the constitutional right at issue.
+
+With these precepts as backdrop, Manuel and the City offer competing views about what accrual rule should govern a §1983 suit challenging post-legal-process pretrial detention.
+
+According to Manuel, that Fourth Amendment claim accrues only upon the dismissal of criminal charges--here, on May 4, 2011, less than two years before he brought his suit.
+
+Relying on this Court's caselaw, Manuel analogizes his claim to the common-law tort of malicious prosecution.
+
+An element of that tort is the "termination of the . . . proceeding in favor of the accused"; and accordingly, the statute of limitations does not start to run until that termination takes place.
+
+Man-uel argues that following the same rule in suits like his will avoid "conflicting resolutions" in §1983 litigation and criminal proceedings by "preclud[ing] the possibility of the claimant succeeding in the tort action after having been convicted in the underlying criminal prosecution."
+
+In support of Manuel's position, all but two of the ten Courts of Appeals that have recognized a Fourth Amendment claim like his have incorporated a "favorable termination" element and so pegged the statute of limitations to the dismissal of the criminal case.
+
+The City, however, contends that any such Fourth Amendment claim accrues (and the limitations period starts to run) on the date of the initiation of legal process--here, on March 18, 2011, more than two years before Manuel filed suit.
+
+According to the City, the most analogous tort to Manuel's constitutional claim is not malicious prosecution but false arrest, which accrues when legal process commences.
+
+And even if malicious prosecution were the better comparison, the City continues, a court should decline to adopt that tort's favorable-termination element and associated accrual rule in adjudicating a §1983 claim involving pretrial detention.
+
+That element, the City argues, "make[s] little sense" in this context because "the Fourth Amendment is concerned not with the outcome of a prosecution, but with the legality of searches and seizures."
+
+And finally, the City contends that Manuel forfeited an alternative theory for treating his date of release as the date of accrual: to wit, that his pretrial detention "constitute[d] a continuing Fourth Amendment violation," each day of which triggered the statute of limitations anew.
+
+So Manuel, the City concludes, lost the opportunity to recover for his pretrial detention by waiting too long to file suit.
+
+We leave consideration of this dispute to the Court of Appeals. "
+
+[W]e are a court of review, not of first view."
+
+Because the Seventh Circuit wrongly held that Manuel lacked any Fourth Amendment claim once legal process began, the court never addressed the elements of, or rules applicable to, such a claim.
+
+And in particular, the court never confronted the accrual issue that the parties contest here.10 On remand, the Court of Appeals should decide that question, unless it finds that the City has previously waived its timeliness argument.
+
+And so too, the court may consider any other still-live issues relating to the contours of Manuel's Fourth Amendment claim for unlawful pretrial detention.
+
+For the reasons stated, we reverse the judgment of the Seventh Circuit and remand the case for further proceedings consistent with this opinion.
+
+on writ of certiorari to the united states court of appeals for the seventh circuit
+
+I join Justice Alito's opinion in full but write separately regarding the accrual date for a Fourth Amendment unreasonable-seizure claim.
+
+Justice Alito suggests that a claim for unreasonable seizure based on a warrantless arrest might not accrue until the "first appearance" under Illinois law (or the "initial appearance" under federal law)--which ordinarily represents the first judicial determination of probable cause for that kind of arrest--rather than at the time of the arrest.
+
+Which of those events is the correct one for purposes of accrual makes no difference in this case, because both the arrest and the first appearance occurred more than two years before petitioner filed suit.
+
+I would leave for another case (one where the question is dispositive) whether an unreasonable-seizure claim would accrue on the date of the first appearance if that appearance occurred on some day after the arrest.
+
+I think the answer to that question might turn on the meaning of "seizure," rather than on the presence or absence of any form of legal process.
+
+on writ of certiorari to the united states court of appeals for the seventh circuit
+
+Justice Alito, with whom Justice Thomas joins, dissenting.
+
+I agree with the Court's holding up to a point: The protection provided by the Fourth Amendment continues to apply after "the start of legal process," ante, at 1, if legal process is understood to mean the issuance of an arrest warrant or what is called a "first appearance" under Illinois law and an "initial appearance" under federal law.
+
+But if the Court means more--specifically, that new Fourth Amendment claims continue to accrue as long as pretrial detention lasts--the Court stretches the concept of a seizure much too far.
+
+What is perhaps most remarkable about the Court's approach is that it entirely ignores the question that we agreed to decide, i.e., whether a claim of malicious prosecution may be brought under the Fourth Amendment.
+
+I would decide that question and hold that the Fourth Amendment cannot house any such claim.
+
+If a malicious prosecution claim may be brought under the Constitution, it must find some other home, presumably the Due Process Clause.
+
+The question that was set out in Manuel's petition for a writ of certiorari and that we agreed to decide is as follows:
+
+"[W]hether an individual's Fourth Amendment right to be free from unreasonable seizure continues beyond legal process so as to allow a malicious prosecution claim based upon the Fourth Amendment.
+
+This question was raised, but left unanswered, by this Court in Albright v. Oliver, 510 U. S. 266 (1994).
+
+Since then, the First, Second, Third, Fourth, Fifth, Sixth, Ninth, Tenth, Eleventh, and D. C. Circuits have all held that a Fourth Amendment malicious prosecution claim is cognizable through 42 U. S. C. §1983 ("Section 1983").
+
+Only the Seventh Circuit holds that a Fourth Amendment Section 1983 malicious prosecution claim is not cognizable."
+
+First, the conflict on the malicious prosecution question was the centerpiece of Manuel's argument in favor of certiorari.1 Second, unless Manuel is given the benefit of the unique accrual rule for malicious prosecution claims, his claim is untimely, and he is not entitled to relief.
+
+I would first consider what I take to be the core of the question presented--whether a "malicious prosecution claim may be brought under the Fourth Amendment."
+
+Manuel asked us to decide that question because it may be critical to his ultimate success in this lawsuit.
+
+The statute of limitations for Manuel's claim is Illinois's general statute of limitations for personal-injury torts, see Wallace v. Kato, 549 U. S. 384, 387 (2007), which requires suit to be brought within two years of the accrual of the claim, see Ill.
+
+Here is the chronology of relevant events in this case:
+
+March 18, 2011: Manuel is arrested and brought before a county court judge, who makes the required probable-cause finding because Manuel was arrested without a warrant.
+
+March 31, 2011: Manuel is indicted by a grand jury.
+
+May 4, 2011: An assistant state's attorney moves to dismiss the charges, and the motion is granted.
+
+May 5, 2011: Manuel is released from jail.
+
+Since the statute of limitations requires the commencement of suit within two years of accrual, Manuel's claim is untimely unless it accrued on or after April 22, 2011.
+
+And the only events in the above chronology that occurred within that time frame are the dismissal of the charge against him and his release from custody.
+
+A claim of malicious prosecution "does not accrue until the criminal proceedings have terminated in the plaintiff's favor."
+
+None of the other common-law torts to which Manuel's claim might be compared--such as false arrest or false imprisonment--has such an accrual date.
+
+Therefore, if Manuel's case is to go forward, it is essential that his claim be treated like a malicious prosecution claim.
+
+Although the Court refuses to decide whether Manuel's claim should be so treated, the answer to that question--the one that the Court actually agreed to review--is straightforward: A malicious prosecution claim cannot be based on the Fourth Amendment.
+
+"The first inquiry in any §1983 suit," the Court has explained, is "to isolate the precise constitutional violation with which [the defendant] is charged."
+
+In this case, Manuel charges that he was seized without probable cause in violation of the Fourth Amendment.
+
+In order to flesh out the elements of this constitutional tort, we must look for "tort analogies."
+
+Manuel says that the appropriate analog is the tort of malicious prosecution, so we should look to the elements of that tort.
+
+There is a severe mismatch between these elements and the Fourth Amendment.
+
+First, the defendants typically named in Fourth Amendment seizure cases--namely, law enforcement officers--lack the authority to initiate or dismiss a prosecution.
+
+That authority lies in the hands of prosecutors.
+
+A law enforcement officer, including the officer responsible for the defendant's arrest, may testify before a grand jury, at a preliminary examination, see Ill.
+
+But when that occurs, the officer is simply a witness and is not responsible for "the decision to press criminal charges."
+
+Second, while subjective bad faith, i.e., malice, is the core element of a malicious prosecution claim, it is firmly established that the Fourth Amendment standard of reasonableness is fundamentally objective.
+
+These two standards--one subjective and the other objective--cannot co-exist.
+
+In some instances, importing a malice requirement into the Fourth Amendment would leave culpable conduct unpunished.
+
+An officer could act unreasonably, thereby violating the Fourth Amendment, without even a hint of bad faith.
+
+In other cases, the malice requirement would cast too wide a net.
+
+An officer could harbor intense personal ill will toward an arrestee but still act in an objectively reasonable manner in carrying out an arrest.
+
+Finally, malicious prosecution's favorable-termination element makes no sense when the claim is that a seizure violated the Fourth Amendment.
+
+The Fourth Amendment, after all, prohibits all unreasonable seizures--regardless of whether a prosecution is ever brought or how a prosecution ends.
+
+A "Fourth Amendment wrong" "is fully accomplished," United States v. Calandra, 414 U. S. 338, 354 (1974), when an impermissible seizure occurs.
+
+The Amendment is violated and the injury is inflicted no matter what happens in any later proceedings.
+
+Our cases concerning Fourth Amendment claims brought under 42 U. S. C. §1983 prove the point.
+
+For example, we have recognized that there is no favorable-termination element for a Fourth Amendment false imprisonment claim.
+
+By the same token, an individual may seek damages for pretrial Fourth Amendment violations even after a valid conviction.
+
+For example, in Haring v. Prosise, 462 U. S. 306, 308 (1983), the respondent pleaded guilty to a drug crime without raising any Fourth Amendment issues.
+
+He then brought a §1983 suit, challenging the constitutionality of the search that led to the discovery of the drugs on which his criminal charge was based.
+
+The Court held that respondent's suit could proceed--despite his valid conviction.
+
+The favorable-termination element is similarly irrelevant to claims like Manuel's.
+
+Manuel alleges that he was arrested and held based entirely on falsified evidence.
+
+In such a case, it makes no difference whether the prosecution was eventually able to gather and introduce legitimate evidence and to obtain a conviction at trial.
+
+The unlawful arrest and detention would still provide grounds for recovery.
+
+Accordingly, there is no good reason why the accrual of a claim like Manuel's should have to await a favorable termination of the prosecution.
+
+For all these reasons, malicious prosecution is a strikingly inapt "tort analog[y]," Wilson, 471 U. S., at 277, for Fourth Amendment violations.
+
+So the answer to the question presented in Manuel's certiorari petition is that the Fourth Amendment does not give rise to a malicious prosecution claim, and this means that Manuel's suit is untimely.
+
+I would affirm the Seventh Circuit on that basis.
+
+Instead of deciding the question on which we granted review, the Court ventures in a different direction.
+
+The Court purports to refrain from deciding any issue of timeliness, see ante, at 10, but the Court's opinion is certain to be read by some to mean that every moment of pretrial confinement without probable cause constitutes a violation of the Fourth Amendment.
+
+And if that is so, it would seem to follow that new Fourth Amendment claims continue to accrue as long as the pretrial detention lasts.
+
+That proposition--that every moment in pretrial detention constitutes a "seizure"--is hard to square with the ordinary meaning of the term.
+
+The term "seizure" applies most directly to the act of taking a person into custody or otherwise depriving the person of liberty.
+
+It is not generally used to refer to a prolonged detention.
+
+Dictionary definitions from around the time of the adoption of the Fourth Amendment define the term "seizure" as a single event--and not a continuing condition.
+
+As the Court has explained before, "[f]rom the time of the founding to the present, the word 'seizure' has meant a 'taking possession.' "
+
+And we have cautioned against "stretch[ing] the Fourth Amendment beyond its words and beyond the meaning of arrest."
+
+The Members of Congress who proposed the Fourth Amendment and the State legislatures that ratified the Amendment would have expected to see a more expansive term, such as "detention" or "confinement," if a Fourth Amendment seizure could be a long event that continued throughout the entirety of the pretrial period.
+
+In my view, a period of detention spanning weeks or months cannot be viewed as one long, continuing seizure, and a pretrial detainee is not "seized" over and over again as long as he remains in custody.3 Of course, the damages resulting from an unlawful seizure may continue to mount during the period of confinement caused by the seizure, but no new Fourth Amendment seizure claims accrue after that date.4 Thus, any possible Fourth Amendment claim that Manuel could bring is time barred.
+
+The Court is mistaken in saying that its decision "follows from settled precedent."
+
+The Court reads Albright v. Oliver, 510 U. S. 266 (1994), and Gerstein v. Pugh, 420 U. S. 103 (1975), to mean that the Fourth Amendment can be violated "when legal process itself goes wrong," ante, at 9, but the accuracy of that interpretation depends on the meaning of "legal process."
+
+The Court's reading is correct if by "legal process" the Court means a determination of probable cause at a first or initial appearance.
+
+When an arrest warrant is obtained, the probable-cause determination is made at that time, and there is thus no need for a repeat determination at the first or initial appearance.
+
+But when an arrest is made without a warrant, the arrestee, generally within 48 hours, must be brought before a judicial officer, County of Riverside v. McLaughlin, 500 U. S. 44, 56 (1991), who then completes the arrest process by making the same determination that would have been made as part of the warrant application process.
+
+Thus, this appearance is an integral part of the process of taking the arrestee into custody and easily falls within the meaning of the term "seizure."
+
+But other forms of "legal process," for example, a grand jury indictment or a determination of probable cause at a preliminary examination or hearing, do not fit within the concept of a "seizure," and the cases cited by the Court do not suggest otherwise.
+
+A detective named Oliver procured a warrant for the arrest of Albright for distributing a "look-alike" substance.
+
+The warrant was based on information given to Oliver by the purchaser of the substance.
+
+After learning of the warrant, Albright turned himself in, was booked, and was released on bond.
+
+Oliver testified at what Illinois calls a preliminary examination and apparently related the information provided by the alleged purchaser.
+
+The judge found probable cause, but the charges were later dismissed.
+
+According to the Seventh Circuit, probable cause was sorely lacking, id., at 345, and Albright sued Oliver under 42 U. S. C. §1983, claiming that Oliver had violated his substantive due process right not to be prosecuted without probable cause.
+
+All that this Court held was that Albright's claim had to be analyzed under the Fourth Amendment, not substantive due process.
+
+The Court now reads Albright to mean that a Fourth Amendment seizure continues "after the start of 'legal process," but three forms of what might be termed "legal process" were issued in Albright: the arrest warrant, the order releasing him on bond after his first appearance, and the order holding him over for trial after the preliminary examination.
+
+I agree that Albright's seizure did not end with the issuance of the warrant (that would be ridiculous since he had not even been arrested at that point) or the first appearance, see ante, at 8-9, and n. 6, but it is impossible to read anything more into the holding in Albright.
+
+The terse plurality opinion joined by four Justices said no more; the opinion of Justice Scalia, who joined the plurality opinion, referred only to Albright's "arrest," 510 U. S., at 275 (concurring opinion); and Justices Kennedy and Thomas, who concurred in the judgment, did so only because Albright's "allegation of arrest without probable cause must be analyzed under the Fourth Amendment."
+
+To read anything more into Albright is to adopt the position taken by just one Member of the plurality, see id., at 279 (Ginsburg, J., concurring) (seizure continues throughout the period of pretrial detention), and the two Justices in dissent, see id., at 307 (Stevens, J., dissenting) (same).
+
+The other precedent on which the Court relies, Gerstein, goes no further than Albright.
+
+All that the Court held in Gerstein was that if there is no probable-cause finding by a neutral magistrate before an arrest, there must be one after the arrest.
+
+The Court reasoned that "the Fourth Amendment requires a judicial determination of probable cause as a prerequisite to extended restraint of liberty following arrest."
+
+The Court said nothing about whether a claim for a seizure in violation of the Fourth Amendment could accrue after an initial appearance.
+
+The Court thus is forced to rely on dicta--taken out of context--from Gerstein.
+
+For example, the Court cites Gerstein's statement that "[t]he Fourth Amendment was tailored explicitly for the criminal justice system," and that it "always has been thought to define the 'process that is due' for seizures of person[s] . . . in criminal cases, including the detention of suspects pending trial."
+
+This statement hardly shows that a Fourth Amendment seizure continues throughout a period of pretrial detention, and the Court does not mention the very next sentence in Gerstein--which suggests that the Fourth Amendment might govern "only the first stage" of a prosecution, eventually giving way to other protections that are also part of our "elaborate system, unique in jurisprudence, designed to safeguard the rights of those accused of criminal conduct."
+
+In the end, Gerstein stands for the proposition that the Fourth Amendment requires a post-arrest probable cause finding by a neutral magistrate; it says nothing about whether the Fourth Amendment extends beyond that or any other "legal process."
+
+A well-known medical maxim--"first, do no harm"--is a good rule of thumb for courts as well.
+
+The Court's decision today violates that rule by avoiding the question presented in order to reach an unnecessary and tricky issue.
+
+The resulting opinion will, I fear, inject much confusion into Fourth Amendment law.
+
+And it has the potential to do much harm--by dramatically expanding Fourth Amendment liability under §1983 in a way that does violence to the text of the Fourth Amendment.
+
+Because we here review an order dismissing Manuel's suit, we accept as true all the factual allegations in his complaint.
+
+Although not addressed in Manuel's complaint, the police department's alleged fabrications did not stop at this initial hearing on probable cause.
+
+About two weeks later, on March 30, a grand jury indicted Manuel based on similar false evidence: testimony from one of the arresting officers that "[t]he pills field tested positive" for ecstasy.
+
+Manuel's allegation of unlawful detention concerns only the period after the onset of legal process--here meaning, again, after the County Court found probable cause that he had committed a crime.
+
+The police also held Manuel in custody for several hours between his warrantless arrest and his first appearance in court.
+
+But throughout this litigation, Manuel has treated that short period as part and parcel of the initial unlawful arrest.
+
+The Court repeated the same idea in a follow-on decision to Gerstein.
+
+In County of Riverside v. McLaughlin, 500 U. S. 44, 47 (1991), we considered how quickly a jurisdiction must provide the probable-cause determination that Gerstein demanded "as a prerequisite to an extended pretrial detention."
+
+In holding that the decision should occur within 48 hours of an arrest, the majority understood its "task [as] articulat[ing] more clearly the boundaries of what is permissible under the Fourth Amendment."
+
+In arguing for still greater speed, the principal dissent invoked the original meaning of "the Fourth Amendment's prohibition of 'unreasonable seizures,' insofar as it applies to seizure of the person."
+
+The difference between the two opinions was significant, but the commonality still more so: All Justices agreed that the Fourth Amendment provides the appropriate lens through which to view a claim involving pretrial detention.
+
+The opposite view would suggest an untenable result: that a person arrested pursuant to a warrant could not bring a Fourth Amendment claim challenging the reasonableness of even his arrest, let alone any subsequent detention.
+
+An arrest warrant, after all, is a way of initiating legal process, in which a magistrate finds probable cause that a person committed a crime.
+
+If legal process is the cut-off point for the Fourth Amendment, then someone arrested (as well as later held) under a warrant procured through false testimony would have to look to the Due Process Clause for relief.
+
+But that runs counter to our caselaw.
+
+State Penitentiary, 401 U. S. 560, 568-569 (1971) (holding that an arrest violated the Fourth Amendment because a magistrate's warrant was not backed by probable cause).
+
+And if the Seventh Circuit would reply that arrest warrants are somehow different--that there is legal process and then again there is legal process--the next (and in our view unanswerable) question would be why.
+
+Even the City no longer appears to contest that conclusion.
+
+On multiple occasions during oral argument in this Court, the City agreed that "a Fourth Amendment right . . . survive[d] the initiation of process" at the hearing in which the county judge found probable cause and ordered detention.
+
+The dissent goes some way toward claiming that a different kind of pretrial legal process--a grand jury indictment or preliminary examination--does expunge such a Fourth Amendment claim.
+
+The effect of that view would be to cut off Manuel's claim on the date of his grand jury indictment (March 30)--even though that indictment (like the County Court's probable-cause proceeding) was entirely based on false testi-mony and even though Manuel remained in detention for 36 days longer.
+
+Or said otherwise--even though the legal process he received failed to establish the probable cause necessary for his continued confinement.
+
+We can see no principled reason to draw that line.
+
+Nothing in the nature of the legal proceeding establishing probable cause makes a difference for purposes of the Fourth Amendment: Whatever its precise form, if the proceeding is tainted--as here, by fabricated evidence--and the result is that probable cause is lacking, then the ensuing pretrial detention violates the confined person's Fourth Amendment rights, for all the reasons we have stated.
+
+By contrast (and contrary to the dissent's suggestion, see post, at 9, n. 3), once a trial has occurred, the Fourth Amendment drops out: A person challenging the sufficiency of the evidence to support both a conviction and any ensuing incarceration does so under the Due Process Clause of the Fourteenth Amendment.
+
+Gerstein and Albright, as already suggested, both reflected and recognized that constitutional division of labor.
+
+In their words, the Framers "drafted the Fourth Amendment" to address "the matter of pretrial deprivations of liberty," Albright, 510 U. S., at 274 (emphasis added), and the Amendment thus provides "standards and procedures" for "the detention of suspects pending trial," Gerstein, 420 U. S., at 125, n. 27 (emphasis added).
+
+The two exceptions--the Ninth and D. C. Circuits--have not yet weighed in on whether a Fourth Amendment claim like Manuel's includes a "favorable termination" element.
+
+The dissent would have us address these questions anyway, on the ground that "the conflict on the malicious prosecution question was the centerpiece of Manuel's argument in favor of certiorari."
+
+But the decision below did not implicate a "conflict on the malicious prosecution question"--because the Seventh Circuit, in holding that detainees like Manuel could not bring a Fourth Amendment claim at all, never considered whether (and, if so, how) that claim should resemble the malicious prosecution tort.
+
+Nor did Manuel's petition for certiorari suggest otherwise.
+
+The principal part of his question presented--mirroring the one and only Circuit split involving the decision below--reads as follows: "[W]hether an individual's Fourth Amendment right to be free from unreasonable seizure continues beyond legal process."
+
+That is exactly the issue we have resolved.
+
+The rest of Manuel's question did indeed express a view as to what would follow from an affirmative answer ("so as to allow a malicious prosecution claim").
+
+But as to that secondary issue, we think (for all the reasons just stated) that Manuel jumped the gun.
+
+And contra the dissent, his doing so provides no warrant for our doing so too.
+
+The Court defends this evasion on the ground that it is resolving "the one and only Circuit split involving the decision below."
+
+As the Seventh Circuit acknowledged, its decision in this case and an earlier case on which the decision here relied, Newsome v. McCabe, 256 F. 3d 747 (2001), conflict with decisions of other circuits holding that a malicious prosecution claim may be brought under the Fourth Amendment.
+
+The decision below states: "Manuel argues that we should reconsider our holding in Newsome and recognize a federal claim for malicious prosecution under the Fourth Amendment regardless of the available state remedy.
+
+By his count, 10 other Circuits have recognized federal malicious-prosecution claims under the Fourth Amendment."
+
+The court refused to overrule Newsome and said that "Manuel's argument is better left for the Supreme Court."
+
+Manuel's petition for a writ of certiorari repeatedly made the same point.
+
+("[E]ight circuits have held that malicious prosecution is cognizable through a Section 1983 Fourth Amendment claim").
+
+All of the decisions that are cited as being in conflict with the decision below involved malicious prosecution claims and are described as such.
+
+In Wallace, the Court noted that "[f]alse arrest and false imprisonment overlap" and decided to "refer to the two torts together as false imprisonment."
+
+By the Court's logic, there is no apparent reason why even a judgment of conviction should cut off the accrual of new Fourth Amendment claims based on the use of fabricated evidence.
+
+The Court writes that "[n]othing in the nature of the legal proceeding establishing probable cause makes a difference for purposes of the Fourth Amendment."
+
+[I]f the proceeding is tainted--as here, by fabricated evidence--and the result is that probable cause is lacking," the Court continues, "then the ensuing pretrial detention violates the confined person's Fourth Amendment rights, for all the reasons we have stated."
+
+Although the Court inserts the word "pretrial" in this sentence, its logic provides no reason for that limitation.
+
+If a Fourth Amendment seizure continues as long as a person is detained, there is no reason why incarceration after conviction cannot be regarded as a continuing seizure.
+
+The Court asserts that the Fourth Amendment "drops out of the picture" after trial, ibid., but it does not explain why this is so.
+
+There are facilities that house both pretrial detainees and prisoners serving sentences.
+
+If a detainee is transferred following conviction from the section for detainees to the section for prisoners, does the transfer render this person "unseized"?
+
+There is authority for the proposition that a grand jury indictment or a determination of probable cause after an adversary proceeding may be an intervening cause that cuts off liability for an unlawful arrest.
+
+I would not decide that question here.
+

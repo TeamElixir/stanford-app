@@ -1,6 +1,7 @@
 package org.elixir.controllers;
 
 import org.elixir.db.DBCon;
+import org.elixir.db.Databases;
 import org.elixir.models.Paragraph;
 
 import java.sql.Connection;
@@ -10,7 +11,7 @@ import java.sql.SQLException;
 import java.util.ArrayList;
 
 public class ParagraphsController {
-    private static Connection conn = DBCon.getConnection();
+    private static Connection conn = DBCon.getConnection(Databases.TEN_CASE_ANALYSIS);
 
     public static boolean insertParagraph(Paragraph paragraph) {
         String query = "INSERT INTO " + Paragraph.TABLE_NAME + "  (case_number, paragraph)" +

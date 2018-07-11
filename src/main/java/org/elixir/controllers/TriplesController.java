@@ -1,6 +1,7 @@
 package org.elixir.controllers;
 
 import org.elixir.db.DBCon;
+import org.elixir.db.Databases;
 import org.elixir.models.GoogleTriple;
 import org.elixir.models.Triple;
 
@@ -12,7 +13,7 @@ import java.util.ArrayList;
 
 public class TriplesController {
 
-    private static Connection conn = DBCon.getConnection();
+    private static Connection conn = DBCon.getConnection(Databases.TEN_CASE_ANALYSIS);
 
     public static ArrayList<Triple> getAllTriples() {
         ResultSet resultSet;

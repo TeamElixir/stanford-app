@@ -1,6 +1,7 @@
 package org.elixir.controllers;
 
 import org.elixir.db.DBCon;
+import org.elixir.db.Databases;
 import org.elixir.models.SentenceOfParagraph;
 
 import java.sql.Connection;
@@ -10,7 +11,7 @@ import java.sql.SQLException;
 import java.util.ArrayList;
 
 public class SentencesOfParagraphsController {
-    private static Connection conn = DBCon.getConnection();
+    private static Connection conn = DBCon.getConnection(Databases.TEN_CASE_ANALYSIS);
 
     public static boolean insertSentenceOfParagraph(SentenceOfParagraph sentenceOfParagraph) {
         String query = "INSERT INTO " + SentenceOfParagraph.TABLE_NAME + "  (paragraph_id, sentence)" +
