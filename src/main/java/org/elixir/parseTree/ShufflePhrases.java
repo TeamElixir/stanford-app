@@ -20,13 +20,13 @@ public class ShufflePhrases {
         Random rand = new Random();
 
         String regex = "\",\"";
+//
+//        Properties props = new Properties();
+//        props.setProperty("annotators", "tokenize,ssplit,pos, lemma,ner");
+//        StanfordCoreNLP pipeline = new StanfordCoreNLP(props);
 
-        Properties props = new Properties();
-        props.setProperty("annotators", "tokenize,ssplit,pos, lemma,ner");
-        StanfordCoreNLP pipeline = new StanfordCoreNLP(props);
 
-
-
+        System.out.println(isUsefulPhrase("a car",null));
         while(scanner.hasNextLine()){
             String line = scanner.nextLine();
             String[] wordlist = line.split(regex);
@@ -34,7 +34,7 @@ public class ShufflePhrases {
             String sentiment = wordlist[2].toLowerCase();
 
             Annotation ann = new Annotation(phrase);
-            pipeline.annotate(ann);
+            //pipeline.annotate(ann);
 
             if(!phrasesSet.contains(phrase) && isUsefulPhrase(phrase,ann)){
                 phrasesSet.add(phrase);
@@ -61,15 +61,18 @@ public class ShufflePhrases {
     }
 
     public static boolean isUsefulPhrase(String text, Annotation ann){
-        if(text.length()==2 && (text.matches("^the ") || text.contains("^a ") || text.matches("^an "))){
+        if(text.split(" ").length<3 && (text.matches("^the\\s.*") || text.matches("^a\\s.*") || text.matches("^an\\s.*"))){
+
+            System.out.println(text);
             return false;
         }
         if(text.equals(text.toUpperCase())){
+            System.out.println(text);
             return false;
         }
-        if(nerOnlyPhrase(text,ann)){
-            return false;
-        }
+//        if(nerOnlyPhrase(text,ann)){
+//            return false;
+//        }
 
         return true;
     }
