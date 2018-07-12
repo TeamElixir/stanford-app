@@ -8,7 +8,12 @@ public class SentimentMatrix {
     private double negativeValue;
     private double veryNegativeValue;
 
-    public SentimentMatrix(String sentence, double veryPositiveValue, double positiveValue, double neutralValue, double negativeValue, double veryNegativeValue) {
+    public SentimentMatrix(String sentence,
+                           double veryNegativeValue,
+                           double negativeValue,
+                           double neutralValue,
+                           double positiveValue,
+                           double veryPositiveValue) {
         this.sentence = sentence;
         this.veryPositiveValue = veryPositiveValue;
         this.positiveValue = positiveValue;
@@ -21,11 +26,11 @@ public class SentimentMatrix {
     public String toString() {
         return "SentimentMatrix{" +
                 "sentence='" + sentence + '\'' +
-                ", veryPositiveValue=" + veryPositiveValue +
-                ", positiveValue=" + positiveValue +
-                ", neutralValue=" + neutralValue +
-                ", negativeValue=" + negativeValue +
                 ", veryNegativeValue=" + veryNegativeValue +
+                ", negativeValue=" + negativeValue +
+                ", neutralValue=" + neutralValue +
+                ", positiveValue=" + positiveValue +
+                ", veryPositiveValue=" + veryPositiveValue +
                 '}';
     }
 

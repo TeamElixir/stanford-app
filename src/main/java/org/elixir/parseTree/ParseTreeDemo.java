@@ -31,6 +31,7 @@ import static org.elixir.utils.NLPUtils.getParsedSentimentMatrix;
 public class ParseTreeDemo {
 
     public static void main(String[] args) {
+
         // set up pipeline properties
         Properties props = new Properties();
         props.setProperty("annotators", "tokenize,ssplit,pos,lemma,ner,parse,natlog,sentiment");
@@ -49,6 +50,10 @@ public class ParseTreeDemo {
         } catch (FileNotFoundException e) {
             System.out.println("sentiment file is not found.");
         }
+
+        String sentment = getSentimentOfPhrase("his attorney had provided constitutionally ineffective assistance.", pipeline);
+        System.out.println(sentment);
+        System.exit(1);
 
         // processSentences(pipeline);
         processTerms(pipeline);
@@ -146,6 +151,7 @@ public class ParseTreeDemo {
         final Tree tree = coreMapSentence.get(SentimentCoreAnnotations.SentimentAnnotatedTree.class);
         final SimpleMatrix sm = RNNCoreAnnotations.getPredictions(tree);
         SentimentMatrix parsedSentimentMatrix = getParsedSentimentMatrix(sm, coreMapSentence.toString());
+        System.out.println(parsedSentimentMatrix);
 
         if (parsedSentimentMatrix.getNegativeValue() > 0.4) {
             return "negative";
