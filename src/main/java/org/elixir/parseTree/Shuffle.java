@@ -47,7 +47,7 @@ public class Shuffle {
 
             if(!sentiment.equals("negative") && nonNegativeCount<500){
                 selectedList.add(sentence);
-                negativeCount++;
+                nonNegativeCount++;
             }else  if(!sentiment.equals("negative") && nonNegativeCount>=500){
                 break;
             }
