@@ -24,12 +24,15 @@ import edu.stanford.nlp.sentiment.SentimentCoreAnnotations;
 import edu.stanford.nlp.trees.Tree;
 import edu.stanford.nlp.util.CoreMap;
 import org.ejml.simple.SimpleMatrix;
+import org.elixir.models.SentimentMatrix;
 import org.elixir.utils.CoreNLPDepParser;
 import org.elixir.utils.CorefChainMapping;
 import org.elixir.utils.CustomizeSentimentAnnotator;
 
 import java.io.*;
 import java.util.*;
+
+import static org.elixir.utils.NLPUtils.getParsedSentimentMatrix;
 
 
 public class PartyExtractionMain {
@@ -122,6 +125,11 @@ public class PartyExtractionMain {
             for (CoreMap coreMapSentence : sentences) {
                 final Tree tree = coreMapSentence.get(SentimentCoreAnnotations.SentimentAnnotatedTree.class);
                 final SimpleMatrix sm = RNNCoreAnnotations.getPredictions(tree);
+
+                System.out.println(sm);
+                SentimentMatrix parsedSentimentMatrix = getParsedSentimentMatrix(sm, coreMapSentence.toString());
+
+
                 final String sentiment = coreMapSentence.get(SentimentCoreAnnotations.SentimentClass.class);
                 System.out.println("sentence:  " + coreMapSentence);
                 System.out.println("sentiment: " + sentiment);
@@ -229,6 +237,8 @@ public class PartyExtractionMain {
             }
         }
     }
+
+
 
     public static void outputPartyExtraction(StanfordCoreNLP depparsePipeline, StanfordCoreNLP sentimentPipeline,
                                              int sentenceId, String currentSentence, String caseName,

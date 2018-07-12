@@ -10,6 +10,8 @@ import edu.stanford.nlp.sentiment.SentimentCoreAnnotations;
 import edu.stanford.nlp.simple.Sentence;
 import edu.stanford.nlp.util.CoreMap;
 import edu.stanford.nlp.util.Quadruple;
+import org.ejml.simple.SimpleMatrix;
+import org.elixir.models.SentimentMatrix;
 
 import java.util.*;
 
@@ -24,6 +26,22 @@ public class NLPUtils {
         }
 
         return subject;
+    }
+
+    public static SentimentMatrix getParsedSentimentMatrix(SimpleMatrix sm, String sentence) {
+        String[] splits = sm.toString().split("\n");
+
+        double veryPositiveValue = Double.parseDouble(splits[1]);
+        double positiveValue = Double.parseDouble(splits[2]);
+        double neutralValue = Double.parseDouble(splits[3]);
+        double negativeValue = Double.parseDouble(splits[4]);
+        double veryNegativeValue = Double.parseDouble(splits[5]);
+
+
+        SentimentMatrix sentimentMatrix = new SentimentMatrix(sentence, veryPositiveValue, positiveValue,
+                neutralValue, negativeValue, veryNegativeValue);
+
+        return sentimentMatrix;
     }
 
 

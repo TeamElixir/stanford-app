@@ -1,6 +1,7 @@
 package org.elixir.parseTree;
 
 import edu.stanford.nlp.ling.CoreAnnotations;
+import edu.stanford.nlp.neural.rnn.RNNCoreAnnotations;
 import edu.stanford.nlp.pipeline.Annotation;
 import edu.stanford.nlp.pipeline.StanfordCoreNLP;
 import edu.stanford.nlp.sentiment.SentimentCoreAnnotations;
@@ -9,11 +10,13 @@ import edu.stanford.nlp.trees.LabeledScoredConstituentFactory;
 import edu.stanford.nlp.trees.Tree;
 import edu.stanford.nlp.trees.TreeCoreAnnotations;
 import edu.stanford.nlp.util.CoreMap;
+import org.ejml.simple.SimpleMatrix;
 import org.elixir.controllers.PhrasesController;
 import org.elixir.controllers.SentencesController;
 import org.elixir.controllers.TermsController;
 import org.elixir.models.Phrase;
 import org.elixir.models.Sentence;
+import org.elixir.models.SentimentMatrix;
 import org.elixir.models.Term;
 import org.elixir.utils.CustomizeSentimentAnnotator;
 
@@ -22,6 +25,8 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Properties;
 import java.util.Set;
+
+import static org.elixir.utils.NLPUtils.getParsedSentimentMatrix;
 
 public class ParseTreeDemo {
 
@@ -137,6 +142,15 @@ public class ParseTreeDemo {
         CoreMap coreMapSentence = sentences.get(0);
         CustomizeSentimentAnnotator.createPosTagMapForSentence(coreMapSentence.toString());
         String sentiment = coreMapSentence.get(SentimentCoreAnnotations.SentimentClass.class);
+
+        final Tree tree = coreMapSentence.get(SentimentCoreAnnotations.SentimentAnnotatedTree.class);
+        final SimpleMatrix sm = RNNCoreAnnotations.getPredictions(tree);
+        SentimentMatrix parsedSentimentMatrix = getParsedSentimentMatrix(sm, coreMapSentence.toString());
+
+        if (parsedSentimentMatrix.getNegativeValue() > 0.4) {
+            return "negative";
+        }
+
         return sentiment.toLowerCase();
     }
 }

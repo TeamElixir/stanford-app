@@ -6,16 +6,20 @@ import edu.stanford.nlp.pipeline.Annotation;
 import edu.stanford.nlp.pipeline.StanfordCoreNLP;
 import edu.stanford.nlp.util.CoreMap;
 
-import java.io.*;
+import javax.swing.filechooser.FileSystemView;
+import java.io.BufferedWriter;
+import java.io.File;
+import java.io.FileWriter;
+import java.io.IOException;
 import java.util.*;
 
 public class ShufflePhrases {
     public static void main(String[] args) throws IOException {
 
+        String sourceFilePath = ClassLoader.getSystemClassLoader().getResource("SentimentAnalysis/Performance_test_sentiment/PhraseTestDataSet_leftover.csv").getPath();
+        String homeDir = FileSystemView.getFileSystemView().getHomeDirectory().getPath();
 
-        String absoluteFilePath = new File("").getAbsolutePath();
-        String sourceFilePath = absoluteFilePath + "/src/main/resources/SentimentAnalysis/Performance_test_sentiment/PhraseTestDataSet_leftover.csv";
-        String targetFilePath = absoluteFilePath + "/src/main/resources/SentimentAnalysis/Performance_test_sentiment/PhraseTestDataSet_clean_3.csv";
+        String targetFilePath = homeDir + "/PhraseTestDataSet_clean_3.csv";
 
         BufferedWriter bf = new BufferedWriter(new FileWriter(new File(targetFilePath)));
 
@@ -31,8 +35,8 @@ public class ShufflePhrases {
         StanfordCoreNLP pipeline = new StanfordCoreNLP(props);
 
 
-        System.out.println(isUsefulPhrase("a car",null));
-        while(scanner.hasNextLine()){
+        System.out.println(isUsefulPhrase("a car", null));
+        while (scanner.hasNextLine()) {
             String line = scanner.nextLine();
             String[] wordlist = line.split(regex);
             String phrase = wordlist[1].trim();
@@ -41,7 +45,7 @@ public class ShufflePhrases {
             Annotation ann = new Annotation(phrase);
             pipeline.annotate(ann);
 
-            if(!phrasesSet.contains(phrase) && isUsefulPhrase(phrase,ann)){
+            if (!phrasesSet.contains(phrase) && isUsefulPhrase(phrase, ann)) {
                 phrasesSet.add(phrase);
                 bf.write(line);
                 bf.newLine();
@@ -60,22 +64,22 @@ public class ShufflePhrases {
 
         //Collections.shuffle(testDataList);
 
-            bf.close();
+        bf.close();
 
 
     }
 
-    public static boolean isUsefulPhrase(String text, Annotation ann){
-        if(text.split(" ").length<3 && (text.matches("^the\\s.*") || text.matches("^a\\s.*") || text.matches("^an\\s.*") || text.matches(".*\'s$"))){
+    public static boolean isUsefulPhrase(String text, Annotation ann) {
+        if (text.split(" ").length < 3 && (text.matches("^the\\s.*") || text.matches("^a\\s.*") || text.matches("^an\\s.*") || text.matches(".*\'s$"))) {
 
             //System.out.println(text);
             return false;
         }
-        if(text.equals(text.toUpperCase())){
+        if (text.equals(text.toUpperCase())) {
 
             return false;
         }
-        if(nerOnlyPhrase(text,ann)){
+        if (nerOnlyPhrase(text, ann)) {
             System.out.println(text);
             return false;
         }
@@ -83,7 +87,7 @@ public class ShufflePhrases {
         return true;
     }
 
-    public static boolean nerOnlyPhrase(String text, Annotation ann){
+    public static boolean nerOnlyPhrase(String text, Annotation ann) {
         List<CoreMap> sentences = ann.get(CoreAnnotations.SentencesAnnotation.class);
 
         //String[] posList = {"SYM","CC","CD","DT"};
@@ -105,15 +109,14 @@ public class ShufflePhrases {
 
         Boolean flag = false;
 
-        for( CoreMap sentence : sentences){
+        for (CoreMap sentence : sentences) {
             for (CoreLabel token : sentence.get(CoreAnnotations.TokensAnnotation.class)) {
                 String ner = token.ner();
                 String pos = token.get(CoreAnnotations.PartOfSpeechAnnotation.class);
-                if(nerList.contains(ner) || posList.contains(pos) ){
+                if (nerList.contains(ner) || posList.contains(pos)) {
                     flag = true;
                     continue;
-                }
-                else{
+                } else {
                     return false;
                 }
             }
