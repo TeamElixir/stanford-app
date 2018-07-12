@@ -11,19 +11,24 @@ import java.util.*;
 
 public class ShufflePhrases {
     public static void main(String[] args) throws IOException {
-        BufferedWriter bf = new BufferedWriter(new FileWriter(new File("/home/viraj/Desktop/PhraseTestDataSet.csv")));
 
-        String filename = "/home/viraj/Desktop/phrases-completed-for-10-cases.csv";
-        Scanner scanner = new Scanner(new File(filename));
+
+        String absoluteFilePath = new File("").getAbsolutePath();
+        String sourceFilePath = absoluteFilePath + "/src/main/resources/SentimentAnalysis/Performance_test_sentiment/PhraseTestDataSet_leftover.csv";
+        String targetFilePath = absoluteFilePath + "/src/main/resources/SentimentAnalysis/Performance_test_sentiment/PhraseTestDataSet_clean_3.csv";
+
+        BufferedWriter bf = new BufferedWriter(new FileWriter(new File(targetFilePath)));
+
+        Scanner scanner = new Scanner(new File(sourceFilePath));
         TreeSet<String> phrasesSet = new TreeSet<>();
         ArrayList<String> testDataList = new ArrayList<>();
         Random rand = new Random();
 
         String regex = "\",\"";
-//
-//        Properties props = new Properties();
-//        props.setProperty("annotators", "tokenize,ssplit,pos, lemma,ner");
-//        StanfordCoreNLP pipeline = new StanfordCoreNLP(props);
+
+        Properties props = new Properties();
+        props.setProperty("annotators", "tokenize,ssplit,pos, lemma,ner");
+        StanfordCoreNLP pipeline = new StanfordCoreNLP(props);
 
 
         System.out.println(isUsefulPhrase("a car",null));
@@ -34,7 +39,7 @@ public class ShufflePhrases {
             String sentiment = wordlist[2].toLowerCase();
 
             Annotation ann = new Annotation(phrase);
-            //pipeline.annotate(ann);
+            pipeline.annotate(ann);
 
             if(!phrasesSet.contains(phrase) && isUsefulPhrase(phrase,ann)){
                 phrasesSet.add(phrase);
@@ -61,18 +66,19 @@ public class ShufflePhrases {
     }
 
     public static boolean isUsefulPhrase(String text, Annotation ann){
-        if(text.split(" ").length<3 && (text.matches("^the\\s.*") || text.matches("^a\\s.*") || text.matches("^an\\s.*"))){
+        if(text.split(" ").length<3 && (text.matches("^the\\s.*") || text.matches("^a\\s.*") || text.matches("^an\\s.*") || text.matches(".*\'s$"))){
 
-            System.out.println(text);
+            //System.out.println(text);
             return false;
         }
         if(text.equals(text.toUpperCase())){
+
+            return false;
+        }
+        if(nerOnlyPhrase(text,ann)){
             System.out.println(text);
             return false;
         }
-//        if(nerOnlyPhrase(text,ann)){
-//            return false;
-//        }
 
         return true;
     }
@@ -86,13 +92,24 @@ public class ShufflePhrases {
         posList.add("CC");
         posList.add("CD");
         posList.add("DT");
+
+        ArrayList<String> nerList = new ArrayList<>();
+        nerList.add("EMAIL");
+        nerList.add("URL");
+        nerList.add("CITY");
+        nerList.add("STATE_OR_PROVINCE");
+        nerList.add("COUNTRY");
+        nerList.add("NATIONALITY");
+        nerList.add("RELIGION");
+        nerList.add("TITLE");
+
         Boolean flag = false;
 
         for( CoreMap sentence : sentences){
             for (CoreLabel token : sentence.get(CoreAnnotations.TokensAnnotation.class)) {
                 String ner = token.ner();
                 String pos = token.get(CoreAnnotations.PartOfSpeechAnnotation.class);
-                if(ner.length()!=0 || posList.contains(pos) ){
+                if(nerList.contains(ner) || posList.contains(pos) ){
                     flag = true;
                     continue;
                 }
