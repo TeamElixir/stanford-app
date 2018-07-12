@@ -11,6 +11,8 @@ import java.sql.SQLException;
 import java.util.ArrayList;
 
 public class TermsController {
+
+
     public static ArrayList<Term> getAllTerms() {
         Connection conn = DBCon.getConnection(Databases.TERM_FREQUENCIES);
         String query = "SELECT * FROM " + Term.TABLE_NAME;

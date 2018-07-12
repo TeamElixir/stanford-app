@@ -30,7 +30,10 @@ public class Worker {
 
                 String phrase = removeQuotes(split[1]);
                 String caseFileName = removeQuotes(split[3]);
-                Phrase p = new Phrase(i++, phrase, null, caseFileName);
+                Phrase p = new Phrase();
+                p.setId(i++);
+                p.setPhrase(phrase);
+                p.setCaseFileName(caseFileName);
                 System.out.println(p);
                 boolean inserted = PhrasesController.insertPhraseToDB(p);
                 if (!inserted) {

@@ -51,12 +51,14 @@ public class ParseTreeDemo {
             System.out.println("sentiment file is not found.");
         }
 
+//        processSentences(pipeline);
+//        processTerms(pipeline);
+        updatePhraseSentimentsInDB(pipeline);
+    }
+
+    private static void exampleUsageOfSentiment(StanfordCoreNLP pipeline) {
         String sentment = getSentimentOfPhrase("his attorney had provided constitutionally ineffective assistance.", pipeline);
         System.out.println(sentment);
-        System.exit(1);
-
-        // processSentences(pipeline);
-        processTerms(pipeline);
     }
 
     private static void processSentences(StanfordCoreNLP pipeline) {
@@ -83,6 +85,18 @@ public class ParseTreeDemo {
             boolean updated = TermsController.updateSentimentOfTerm(t);
             if (!updated) {
                 System.out.println("Update failed: " + t);
+            }
+        }
+    }
+
+    private static void updatePhraseSentimentsInDB(StanfordCoreNLP pipeline) {
+        ArrayList<Phrase> allPhrases = PhrasesController.getAllPhrases();
+        for (Phrase p : allPhrases) {
+            String sentiment = getSentimentOfPhrase(p.getPhrase(), pipeline);
+            p.setSentiment(sentiment);
+            boolean updated = PhrasesController.updateSentimentOfPhrase(p);
+            if (!updated) {
+                System.out.println("Update failed: " + p);
             }
         }
     }
