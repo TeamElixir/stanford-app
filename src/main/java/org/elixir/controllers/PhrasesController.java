@@ -11,7 +11,7 @@ import java.sql.SQLException;
 public class PhrasesController {
 
     public static boolean insertPhraseToDB(Phrase phrase) {
-        Connection conn = DBCon.getConnection(Databases.TEN_CASE_ANALYSIS);
+        Connection conn = DBCon.getConnection(Databases.SENTIMENT_ANNOTATOR);
         String query = "INSERT INTO " + Phrase.TABLE_NAME + " (phrase, sentiment, caseFileName) VALUES (?, ?, ?)";
 
         try {
