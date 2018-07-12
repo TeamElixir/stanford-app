@@ -1,4 +1,4 @@
-package org.elixir;
+package org.elixir.partyExtraction;
 
 //party identification and extraction happens in this class.
 

@@ -1,5 +1,7 @@
 package org.elixir;
 
+import org.elixir.partyExtraction.PartyExtractionMain;
+
 import java.io.IOException;
 
 public class TempMain {

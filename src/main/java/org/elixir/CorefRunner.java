@@ -10,6 +10,7 @@ import org.elixir.models.Case;
 import org.elixir.models.CorefChainOfParagraph;
 import org.elixir.models.Paragraph;
 import org.elixir.models.SentenceOfParagraph;
+import org.elixir.partyExtraction.PartyExtractionMain;
 import org.elixir.utils.*;
 
 import java.io.*;

@@ -1,4 +1,4 @@
-package org.elixir.nodeStructure.models;
+package org.elixir.partyExtraction.nodeStructure.models;
 
 import java.util.ArrayList;
 

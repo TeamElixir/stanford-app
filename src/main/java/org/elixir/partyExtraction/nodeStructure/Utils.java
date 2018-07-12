@@ -1,7 +1,7 @@
-package org.elixir.nodeStructure;
+package org.elixir.partyExtraction.nodeStructure;
 
-import org.elixir.nodeStructure.models.Edge;
-import org.elixir.nodeStructure.models.Node;
+import org.elixir.partyExtraction.nodeStructure.models.Edge;
+import org.elixir.partyExtraction.nodeStructure.models.Node;
 
 import java.io.BufferedReader;
 import java.io.File;

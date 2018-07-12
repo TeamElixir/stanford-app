@@ -1,4 +1,4 @@
-package org.elixir.nodeStructure.models;
+package org.elixir.partyExtraction.nodeStructure.models;
 
 public class Edge implements Comparable<Edge> {
     private int count;
