@@ -154,12 +154,12 @@ public class ParseTreeDemo {
     // return the sentiment (very positive, positive, neutral, negative, very negative) given a sentence
     // and the annotation pipeline
     private static String getSentimentOfPhrase(String phrase, StanfordCoreNLP pipeline) {
+        CustomizeSentimentAnnotator.createPosTagMapForSentence(phrase);
         Annotation annotation = new Annotation(phrase);
         pipeline.annotate(annotation);
 
         List<CoreMap> sentences = annotation.get(CoreAnnotations.SentencesAnnotation.class);
         CoreMap coreMapSentence = sentences.get(0);
-        CustomizeSentimentAnnotator.createPosTagMapForSentence(coreMapSentence.toString());
         String sentiment = coreMapSentence.get(SentimentCoreAnnotations.SentimentClass.class);
 
         final Tree tree = coreMapSentence.get(SentimentCoreAnnotations.SentimentAnnotatedTree.class);
