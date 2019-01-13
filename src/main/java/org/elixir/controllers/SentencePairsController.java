@@ -2,7 +2,6 @@ package org.elixir.controllers;
 
 import org.elixir.db.DBCon;
 import org.elixir.db.Databases;
-import org.elixir.models.PairUserAnnotation;
 import org.elixir.models.SentencePair;
 
 import java.sql.Connection;
@@ -36,5 +35,27 @@ public class SentencePairsController {
             e.printStackTrace();
         }
         return sentencePairs;
+    }
+
+    public static SentencePair getSentencerPairById(int pairId) {
+        ResultSet resultSet;
+        String query = "SELECT * from " + SentencePair.TABLE_NAME + " WHERE ID=" + pairId;
+        SentencePair sentencePair = null;
+        try {
+            PreparedStatement preparedStatement = conn.prepareStatement(query);
+            resultSet = preparedStatement.executeQuery();
+
+            while (resultSet.next()) {
+                int id = resultSet.getInt("id");
+                int sourceSntcId = resultSet.getInt("source_sntc_id");
+                int targetSntcId = resultSet.getInt("target_sntc_id");
+                int relation = resultSet.getInt("relation");
+                sentencePair = new SentencePair(id, sourceSntcId, targetSntcId, relation);
+            }
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+
+        return sentencePair;
     }
 }

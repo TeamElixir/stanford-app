@@ -3,18 +3,18 @@ package org.elixir.models;
 public class PairUserAnnotation {
     public static final String TABLE_NAME = "pair_user_annotations";
     private int id;
-    private int pair_id;
-    private int user_id;
-    private int relation;
+    private int pairId;
+    private int userId;
+    private int annotation;
 
     public PairUserAnnotation() {
     }
 
-    public PairUserAnnotation(int id, int pair_id, int user_id, int relation) {
+    public PairUserAnnotation(int id, int pairId, int userId, int annotation) {
         this.id = id;
-        this.pair_id = pair_id;
-        this.user_id = user_id;
-        this.relation = relation;
+        this.pairId = pairId;
+        this.userId = userId;
+        this.annotation = annotation;
     }
 
     public int getId() {
@@ -25,37 +25,37 @@ public class PairUserAnnotation {
         this.id = id;
     }
 
-    public int getPair_id() {
-        return pair_id;
+    public int getPairId() {
+        return pairId;
     }
 
-    public void setPair_id(int pair_id) {
-        this.pair_id = pair_id;
+    public void setPairId(int pairId) {
+        this.pairId = pairId;
     }
 
-    public int getUser_id() {
-        return user_id;
+    public int getUserId() {
+        return userId;
     }
 
-    public void setUser_id(int user_id) {
-        this.user_id = user_id;
+    public void setUserId(int userId) {
+        this.userId = userId;
     }
 
-    public int getRelation() {
-        return relation;
+    public int getAnnotation() {
+        return annotation;
     }
 
-    public void setRelation(int relation) {
-        this.relation = relation;
+    public void setAnnotation(int annotation) {
+        this.annotation = annotation;
     }
 
     @Override
     public String toString() {
         return "PairUserAnnotation{" +
                 "id=" + id +
-                ", pair_id=" + pair_id +
-                ", user_id=" + user_id +
-                ", relation=" + relation +
+                ", pairId=" + pairId +
+                ", userId=" + userId +
+                ", annotation=" + annotation +
                 '}';
     }
 }

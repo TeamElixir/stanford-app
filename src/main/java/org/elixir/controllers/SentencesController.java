@@ -1,5 +1,6 @@
 package org.elixir.controllers;
 
+import com.mysql.cj.api.mysqla.result.Resultset;
 import org.elixir.db.DBCon;
 import org.elixir.db.Databases;
 import org.elixir.models.Sentence;
@@ -44,6 +45,28 @@ public class SentencesController {
             return null;
         }
         return sentences;
+    }
+
+    public static Sentence getSentenceById(int sentenceId) {
+        Sentence sentence = null;
+        String query = "SELECT * FROM " + Sentence.TABLE_NAME + " WHERE ID=" + sentenceId;
+        ResultSet resultSet;
+        try {
+            PreparedStatement ps = conn.prepareStatement(query);
+            resultSet = ps.executeQuery();
+
+            while (resultSet.next()) {
+                int id = resultSet.getInt("id");
+                String file = resultSet.getString("file");
+                String rawSentence = resultSet.getString("sentence");
+
+                sentence = new Sentence(id, file, rawSentence);
+            }
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+
+        return sentence;
     }
 
     public static ArrayList<Sentence> getAllSentences() {

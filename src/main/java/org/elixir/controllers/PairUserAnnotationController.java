@@ -18,7 +18,7 @@ public class PairUserAnnotationController {
     public static ArrayList<PairUserAnnotation> getAllPairUserAnnotations() {
         ArrayList<PairUserAnnotation> pairUserAnnotationArrayList = new ArrayList<>();
         ResultSet resultSet;
-        String query = "SELECT * FROM " + PairUserAnnotation.TABLE_NAME;
+        String query = "SELECT * FROM " + PairUserAnnotation.TABLE_NAME + " ORDER BY pair_id";
         try {
             PreparedStatement preparedStatement = con.prepareStatement(query);
             resultSet = preparedStatement.executeQuery();
@@ -27,9 +27,9 @@ public class PairUserAnnotationController {
                 int id = resultSet.getInt("id");
                 int pair_id = resultSet.getInt("pair_id");
                 int user_id = resultSet.getInt("user_id");
-                int relation = resultSet.getInt("relation");
+                int annotation = resultSet.getInt("annotation");
 
-                PairUserAnnotation pairUserAnnotation = new PairUserAnnotation(id, pair_id, user_id, relation);
+                PairUserAnnotation pairUserAnnotation = new PairUserAnnotation(id, pair_id, user_id, annotation);
 
                 pairUserAnnotationArrayList.add(pairUserAnnotation);
             }

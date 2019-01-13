@@ -3,14 +3,14 @@ package org.elixir.models;
 public class SentencePair {
     public static final String TABLE_NAME = "sentence_pairs_from_algorithm";
     private int id;
-    private int source_sntc_id;
-    private int target_sntc_id;
+    private int sourceSntcId;
+    private int targetSntcId;
     private int relation;
 
-    public SentencePair(int id, int source_sntc_id, int target_sntc_id, int relation) {
+    public SentencePair(int id, int sourceSntcId, int targetSntcId, int relation) {
         this.id = id;
-        this.source_sntc_id = source_sntc_id;
-        this.target_sntc_id = target_sntc_id;
+        this.sourceSntcId = sourceSntcId;
+        this.targetSntcId = targetSntcId;
         this.relation = relation;
     }
 
@@ -25,20 +25,20 @@ public class SentencePair {
         this.id = id;
     }
 
-    public int getSource_sntc_id() {
-        return source_sntc_id;
+    public int getSourceSntcId() {
+        return sourceSntcId;
     }
 
-    public void setSource_sntc_id(int source_sntc_id) {
-        this.source_sntc_id = source_sntc_id;
+    public void setSourceSntcId(int sourceSntcId) {
+        this.sourceSntcId = sourceSntcId;
     }
 
-    public int getTarget_sntc_id() {
-        return target_sntc_id;
+    public int getTargetSntcId() {
+        return targetSntcId;
     }
 
-    public void setTarget_sntc_id(int target_sntc_id) {
-        this.target_sntc_id = target_sntc_id;
+    public void setTargetSntcId(int targetSntcId) {
+        this.targetSntcId = targetSntcId;
     }
 
     public int getRelation() {
@@ -53,8 +53,8 @@ public class SentencePair {
     public String toString() {
         return "SentencePair{" +
                 "id=" + id +
-                ", source_sntc_id=" + source_sntc_id +
-                ", target_sntc_id=" + target_sntc_id +
+                ", sourceSntcId=" + sourceSntcId +
+                ", targetSntcId=" + targetSntcId +
                 ", relation=" + relation +
                 '}';
     }
