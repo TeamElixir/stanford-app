@@ -8,35 +8,50 @@ import org.elixir.models.PairUserAnnotation;
 import org.elixir.models.Sentence;
 import org.elixir.models.SentencePair;
 
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.io.PrintWriter;
 import java.util.ArrayList;
 
 public class Main {
-    public static void main(String[] args) {
-        ArrayList<Sentence> allSentences = SentencesController.getAllSentences();
-
-        ArrayList<PairUserAnnotation> allPairUserAnnotations = PairUserAnnotationController.getAllPairUserAnnotations();
-
-        ArrayList<SentencePair> allSentencePairs = SentencePairsController.getAllSentencePairs();
-        System.out.println(allSentencePairs.size());
-
+    public static void main(String[] args) throws FileNotFoundException {
+        PrintWriter pw = new PrintWriter(new File("sentence_pairs.tsv"));
+        StringBuilder sb = new StringBuilder();
+        final String SEPARATOR = "\t";
+        sb.append("source_sentence");
+        sb.append(SEPARATOR);
+        sb.append("target_sentence");
+        sb.append(SEPARATOR);
+        sb.append("annotation");
+        sb.append('\n');
         ArrayList<PairUserAnnotation> pairAnnotationsWhereBothJudgesAgree = getPairAnnotationsWhereBothJudgesAgree();
-
         int i = 1;
         for (PairUserAnnotation pairUserAnnotation : pairAnnotationsWhereBothJudgesAgree) {
             SentencePair sentencePair = SentencePairsController.getSentencerPairById(pairUserAnnotation.getPairId());
             String sourceSentence = SentencesController.getSentenceById(sentencePair.getSourceSntcId()).getSentence();
             String targetSentence = SentencesController.getSentenceById(sentencePair.getTargetSntcId()).getSentence();
+            String simpleRelation = SimpleRelationsController.getSimpleRelation(pairUserAnnotation.getAnnotation());
 
             System.out.println();
-            System.out.println("PairID: " + pairUserAnnotation.getPairId());
             System.out.println("Source: " + sourceSentence);
             System.out.println("Target: " + targetSentence);
-            System.out.println("Annotation: " + SimpleRelationsController.getSimpleRelation(pairUserAnnotation.getAnnotation()));
+            System.out.println("Annotation: " + simpleRelation);
             System.out.println(i++);
+
+            sb.append(sourceSentence);
+            sb.append(SEPARATOR);
+            sb.append(targetSentence);
+            sb.append(SEPARATOR);
+            sb.append(simpleRelation);
+            sb.append("\n");
+
         }
+        pw.write(sb.toString());
+        pw.close();
+        System.out.println("done!");
     }
 
-    public static ArrayList<PairUserAnnotation> getPairAnnotationsWhereBothJudgesAgree() {
+    private static ArrayList<PairUserAnnotation> getPairAnnotationsWhereBothJudgesAgree() {
         ArrayList<PairUserAnnotation> allPairUserAnnotations = PairUserAnnotationController.getAllPairUserAnnotations();
         ArrayList<PairUserAnnotation> pairUserAnnotationsWhereBothJudgesAgree = new ArrayList<>();
         for (int i = 0; i < allPairUserAnnotations.size() - 1; i += 2) {
