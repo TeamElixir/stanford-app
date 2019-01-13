@@ -10,9 +10,10 @@ public class DBCon {
 
     private static String username = "root";
 
-    private static String password = "123456";
+    private static String password = "toor";
 
     public static Connection getConnection(String dbName) {
+        System.out.println("DBName: " + dbName);
         String url = "jdbc:mysql://localhost:3306/" + dbName + "?useSSL=false";
         Connection con = null;
         try {

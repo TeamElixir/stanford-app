@@ -32,17 +32,17 @@ public class CustomizeSentimentAnnotator {
         Scanner nonPositiveScanner = new Scanner(new File(filePath + nonPositiveFilePath));
         while (nonPositiveScanner.hasNextLine()) {
             String line = nonPositiveScanner.nextLine();
-            SentimentCostAndGradient.nonNeutralList.add(line);
+//            SentimentCostAndGradient.nonNeutralList.add(line);
         }
 
         Scanner nonNeutralScanner = new Scanner(new File(filePath + nonNeutralFilePath));
         while (nonNeutralScanner.hasNextLine()) {
-            SentimentCostAndGradient.nonNeutralList.add(nonNeutralScanner.nextLine());
+//            SentimentCostAndGradient.nonNeutralList.add(nonNeutralScanner.nextLine());
         }
 
         Scanner nonNegativeScanner = new Scanner(new File(filePath + nonNegativeFilePath));
         while (nonNegativeScanner.hasNextLine()) {
-            SentimentCostAndGradient.nonNegativeList.add(nonNegativeScanner.nextLine());
+//            SentimentCostAndGradient.nonNegativeList.add(nonNegativeScanner.nextLine());
         }
     }
 
@@ -54,11 +54,11 @@ public class CustomizeSentimentAnnotator {
     public static void createPosTagMapForSentence(Sentence sentence) {
 
         //to create empty map for the word-postag combinations inside SentimentCostAndGradient class
-        SentimentCostAndGradient.createPosTagMap();
+//        SentimentCostAndGradient.createPosTagMap();
 
         //to add the word-postag combinations to the map inside SentimentCostAndGradient class
         for (PosTaggedWord posTaggedWord : sentence.getPosTaggedWords()) {
-            SentimentCostAndGradient.addPosTagsOfWords(posTaggedWord.getWord(), posTaggedWord.getPosTag());
+//            SentimentCostAndGradient.addPosTagsOfWords(posTaggedWord.getWord(), posTaggedWord.getPosTag());
         }
 
     }
@@ -68,7 +68,7 @@ public class CustomizeSentimentAnnotator {
     public static void createPosTagMapForSentence(String sentence) {
 
         //to create empty map for the word-postag combinations inside SentimentCostAndGradient class
-        SentimentCostAndGradient.createPosTagMap();
+//        SentimentCostAndGradient.createPosTagMap();
 
         Properties props = new Properties();
         props.setProperty("annotators", "tokenize,ssplit,pos");
@@ -84,7 +84,7 @@ public class CustomizeSentimentAnnotator {
 
                 String word = token.get(CoreAnnotations.TextAnnotation.class);
                 String posTag = token.get(CoreAnnotations.PartOfSpeechAnnotation.class);
-                SentimentCostAndGradient.addPosTagsOfWords(word, posTag);
+//                SentimentCostAndGradient.addPosTagsOfWords(word, posTag);
             }
         }
     }

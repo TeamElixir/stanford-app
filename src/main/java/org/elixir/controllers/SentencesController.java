@@ -12,7 +12,7 @@ import java.util.ArrayList;
 
 public class SentencesController {
 
-    private static Connection conn = DBCon.getConnection(Databases.TEN_CASE_ANALYSIS);
+    private static Connection conn = DBCon.getConnection(Databases.DISCOURSE_ANNOTATOR);
 
     /*
       11 <= n <= 21 (for now)
@@ -60,9 +60,6 @@ public class SentencesController {
                 String rawSentence = resultSet.getString("sentence");
 
                 Sentence s = new Sentence(id, file, rawSentence);
-                s.setTriples(TriplesController.getTriplesOfSentence(s.getId()));
-                s.setGoogleTriples(TriplesController.getGoogleTriplesOfSentence(s.getId()));
-                s.setPosTaggedWords(PosTaggedWordsController.getPosTaggedWordsOfSentence(s.getId()));
 
                 sentences.add(s);
             }
