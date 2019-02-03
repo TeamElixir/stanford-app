@@ -51,6 +51,8 @@ public class SentencePairsController {
                 int targetSntcId = resultSet.getInt("target_sntc_id");
                 int relation = resultSet.getInt("relation");
                 sentencePair = new SentencePair(id, sourceSntcId, targetSntcId, relation);
+                sentencePair.setSourceSntc(SentencesController.getSentenceById(sourceSntcId));
+                sentencePair.setTargetSntc(SentencesController.getSentenceById(targetSntcId));
             }
         } catch (SQLException e) {
             e.printStackTrace();

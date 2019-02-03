@@ -6,12 +6,30 @@ public class SentencePair {
     private int sourceSntcId;
     private int targetSntcId;
     private int relation;
+    private Sentence sourceSntc;
+    private Sentence targetSntc;
 
     public SentencePair(int id, int sourceSntcId, int targetSntcId, int relation) {
         this.id = id;
         this.sourceSntcId = sourceSntcId;
         this.targetSntcId = targetSntcId;
         this.relation = relation;
+    }
+
+    public Sentence getSourceSntc() {
+        return sourceSntc;
+    }
+
+    public void setSourceSntc(Sentence sourceSntc) {
+        this.sourceSntc = sourceSntc;
+    }
+
+    public Sentence getTargetSntc() {
+        return targetSntc;
+    }
+
+    public void setTargetSntc(Sentence targetSntc) {
+        this.targetSntc = targetSntc;
     }
 
     public SentencePair() {

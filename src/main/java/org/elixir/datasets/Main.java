@@ -5,7 +5,6 @@ import org.elixir.controllers.SentencePairsController;
 import org.elixir.controllers.SentencesController;
 import org.elixir.controllers.SimpleRelationsController;
 import org.elixir.models.PairUserAnnotation;
-import org.elixir.models.Sentence;
 import org.elixir.models.SentencePair;
 
 import java.io.File;
