@@ -16,9 +16,13 @@ import java.util.ArrayList;
 
 public class ShiftInView {
     public static void main(String[] args) throws FileNotFoundException {
-        ArrayList<LinResult> allLinResults = LinResultsController.getAllLinResults();
+        processResults("sentiment_results");
+    }
+
+    private static void processResults(String tableName) throws FileNotFoundException {
+        ArrayList<LinResult> allLinResults = LinResultsController.getAllLinResults(tableName);
         assert allLinResults != null;
-        PrintWriter pw = new PrintWriter(new File("shift_in_view_pairs.tsv"));
+        PrintWriter pw = new PrintWriter(new File(tableName + ".tsv"));
         StringBuilder sb = new StringBuilder();
         final String SEPARATOR = "\t";
         final String LITERAL_SHIFT_IN_VIEW = "Shift-in-View";
@@ -86,10 +90,10 @@ public class ShiftInView {
     private static class LinResultsController {
         private static Connection conn = DBCon.getConnection(Databases.DISCOURSE_ANNOTATOR);
 
-        public static ArrayList<LinResult> getAllLinResults() {
+        public static ArrayList<LinResult> getAllLinResults(String tableName) {
             ResultSet rs;
             ArrayList<LinResult> linResults = new ArrayList<>();
-            String query = "SELECT * FROM " + LinResult.TABLE_NAME;
+            String query = "SELECT * FROM " + tableName;
             System.out.println(query);
             try {
                 PreparedStatement ps = conn.prepareStatement(query);
