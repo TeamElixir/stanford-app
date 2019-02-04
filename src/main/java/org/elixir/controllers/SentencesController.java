@@ -1,5 +1,6 @@
 package org.elixir.controllers;
 
+import com.mysql.cj.api.mysqla.result.Resultset;
 import org.elixir.db.DBCon;
 import org.elixir.db.Databases;
 import org.elixir.models.Sentence;
@@ -12,7 +13,7 @@ import java.util.ArrayList;
 
 public class SentencesController {
 
-    private static Connection conn = DBCon.getConnection(Databases.TEN_CASE_ANALYSIS);
+    private static Connection conn = DBCon.getConnection(Databases.DISCOURSE_ANNOTATOR);
 
     /*
       11 <= n <= 21 (for now)
@@ -46,6 +47,28 @@ public class SentencesController {
         return sentences;
     }
 
+    public static Sentence getSentenceById(int sentenceId) {
+        Sentence sentence = null;
+        String query = "SELECT * FROM " + Sentence.TABLE_NAME + " WHERE ID=" + sentenceId;
+        ResultSet resultSet;
+        try {
+            PreparedStatement ps = conn.prepareStatement(query);
+            resultSet = ps.executeQuery();
+
+            while (resultSet.next()) {
+                int id = resultSet.getInt("id");
+                String file = resultSet.getString("file");
+                String rawSentence = resultSet.getString("sentence");
+
+                sentence = new Sentence(id, file, rawSentence);
+            }
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+
+        return sentence;
+    }
+
     public static ArrayList<Sentence> getAllSentences() {
         ArrayList<Sentence> sentences = new ArrayList<>();
         ResultSet resultSet;
@@ -60,9 +83,6 @@ public class SentencesController {
                 String rawSentence = resultSet.getString("sentence");
 
                 Sentence s = new Sentence(id, file, rawSentence);
-                s.setTriples(TriplesController.getTriplesOfSentence(s.getId()));
-                s.setGoogleTriples(TriplesController.getGoogleTriplesOfSentence(s.getId()));
-                s.setPosTaggedWords(PosTaggedWordsController.getPosTaggedWordsOfSentence(s.getId()));
 
                 sentences.add(s);
             }
